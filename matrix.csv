@@ -1,4 +1,4 @@
-section,category,templates,routes,Integration detail — base,Integration detail — with video,Integration detail — with stories and links,Integration detail — with custom blocks,Integration detail — with video and links,Integration detail — with custom blocks, FAQ and links,Integration detail — everything,Customer story,Product feature — BI,Product feature — CLI,Product feature — Context studio,Product feature — Threads,Product feature — Notebooks,Product feature — AI,Solution detail — with quote and live app,Solution detail — Data leaders,Solution detail — Sales analytics,Product (legacy layout) — Data apps,Product (legacy layout) — Embedded analytics,Product (legacy layout) — Exploratory analysis,Form page,Resource index (legacy layout) — Events,Resource index (legacy layout) — Guides,About,Blog article,Blog index,Careers,Compare,Customers index,Enterprise,Gated guide landing,Homepage,Integrations index,Long-form guide,Newsroom,Partners,Placeholder (catch-all),Pricing,Report,Solutions hub,Templates index
+section,category,templates,routes,Integration detail — base,Integration detail — with video,Integration detail — with stories and links,Integration detail — with custom blocks,Integration detail — with video and links,Integration detail — with FAQ and links,Integration detail — everything,Customer story,Product feature — BI,Product feature — CLI,Product feature — Context studio,Product feature — Threads,Product feature — Notebooks,Product feature — AI,Solution detail — with quote and live app,Solution detail — Data leaders,Solution detail — Sales analytics,Product (legacy layout) — Data apps,Product (legacy layout) — Embedded analytics,Product (legacy layout) — Exploratory analysis,Form page,Resource index (legacy layout) — Events,Resource index (legacy layout) — Guides,About,Blog article,Blog index,Careers,Compare,Customers index,Enterprise,Gated guide landing,Homepage,Integrations index,Long-form guide,Newsroom,Partners,Placeholder (catch-all),Pricing,Report,Solutions hub,Templates index
 shell.footer,SHELL,40,59,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,,x,x
 shell.header,SHELL,40,59,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,,x,x
 divider.tron,DIVIDER,11,20,x,x,x,x,x,x,x,,,,,,,,,,,,,,,,,,,,,,,x,,x,,,,x,,x,,,
@@ -26,11 +26,11 @@ feature.live-app-embed,FEATURE,2,4,,,,,,,,,,,,,,,x,,x,,,,,,,,,,,,,,,,,,,,,,,,
 hero.v1,HERO,3,3,,,,,,,,,,,,,,,,,,x,x,x,,,,,,,,,,,,,,,,,,,,,
 hero.v1-intro,HERO,3,3,,,,,,,,,,,,,,,,,,,,,,x,x,,,,,,,,,,,,,,,,,,x
 feature.info-card-grid,FEATURE,3,3,,,,,,,,,,x,x,,,x,,,,,,,,,,,,,,,,,,,,,,,,,,,
-feature.integration-custom-blocks,FEATURE,3,3,,,,x,,x,x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 feature.split,FEATURE,3,3,,,,,,,,,x,,,x,,,,,,,,,,,,,,,,,,,,x,,,,,,,,,
 conversion.form-shell,CONVERSION,2,3,,,,,,,,,,,,,,,,,,,,,x,,,,,,,,,,,,,,,x,,,,,
 proof.logo-wall,PROOF,2,2,,,,,,,,,,,,,,,,,,,,,,,,x,,,,,x,,,,,,,,,,,,
 feature.bento-cells,FEATURE,2,2,,,,,,,,,,,x,x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+feature.integration-custom-blocks,FEATURE,2,2,,,,x,,,x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 feature.integrations-grid,FEATURE,2,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,x,,x,,,,,,,,,
 feature.perlin-callout,FEATURE,2,2,,,,,,,,,,,,x,,x,,,,,,,,,,,,,,,,,,,,,,,,,,,
 feature.v1-two-up,FEATURE,2,2,,,,,,,,,,,,,,,,,,,x,x,,,,,,,,,,,,,,,,,,,,,

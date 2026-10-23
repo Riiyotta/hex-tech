@@ -16,3 +16,4 @@
 - Added extraction/verify_all.py (13 checks). Citation anchors are compared after dropping markdown marks and folding typographic punctuation to ASCII, matching how they were recorded.
 - Ledger: added the 5 package.json citations used by the manifest's sourceStack; fixed two copy anchors that joined headings split across spans (specs/company.md:165, specs/product.md:567).
 - Adversarial suite: the adjacency warn case is now count-neutral (/product/bi/ is already at its body slot maximum).
+- routes.json: removed feature.integration-custom-blocks from /product/integrations/databricks/. On that page the live "custom blocks" area holds only the FAQ (specs/product-integrations.json pages.databricks.customBlocks), which was already recorded as faq.accordion; the clone renders no custom-blocks component for that slug (src/pages/productV1/IntegrationDetail.jsx:176).

@@ -1,4 +1,4 @@
-# Local React clone of https://hex.tech/ (this folder); route table src/routes.jsx
+# hex.tech clone — information architecture
 
 Source: Local React clone of https://hex.tech/ (this folder); route table src/routes.jsx
 Status: **measured-from-clone** · production approved: **false**
@@ -20,7 +20,7 @@ The largest 3 templates (Integration detail — base, Customer story, Solution d
 | Form page | 2 | 3% |
 | Integration detail — with custom blocks | 1 | 2% |
 | Integration detail — with video and links | 1 | 2% |
-| Integration detail — with custom blocks, FAQ and links | 1 | 2% |
+| Integration detail — with FAQ and links | 1 | 2% |
 | Integration detail — everything | 1 | 2% |
 | Product feature — BI | 1 | 2% |
 | Product feature — CLI | 1 | 2% |
@@ -56,7 +56,7 @@ The largest 3 templates (Integration detail — base, Customer story, Solution d
 
 ## Page chrome
 
-**59 routes carry chrome = `full`** — Integration detail — base, Integration detail — with video, Integration detail — with stories and links, Integration detail — with custom blocks, Integration detail — with video and links, Integration detail — with custom blocks, FAQ and links, Integration detail — everything, Customer story, Product feature — BI, Product feature — CLI, Product feature — Context studio, Product feature — Threads, Product feature — Notebooks, Product feature — AI, Solution detail — with quote and live app, Solution detail — Data leaders, Solution detail — Sales analytics, Product (legacy layout) — Data apps, Product (legacy layout) — Embedded analytics, Product (legacy layout) — Exploratory analysis, Form page, Resource index (legacy layout) — Events, Resource index (legacy layout) — Guides, About, Blog article, Blog index, Careers, Compare, Customers index, Enterprise, Gated guide landing, Homepage, Integrations index, Long-form guide, Newsroom, Partners, Placeholder (catch-all), Pricing, Solutions hub, Templates index.
+**59 routes carry chrome = `full`** — Integration detail — base, Integration detail — with video, Integration detail — with stories and links, Integration detail — with custom blocks, Integration detail — with video and links, Integration detail — with FAQ and links, Integration detail — everything, Customer story, Product feature — BI, Product feature — CLI, Product feature — Context studio, Product feature — Threads, Product feature — Notebooks, Product feature — AI, Solution detail — with quote and live app, Solution detail — Data leaders, Solution detail — Sales analytics, Product (legacy layout) — Data apps, Product (legacy layout) — Embedded analytics, Product (legacy layout) — Exploratory analysis, Form page, Resource index (legacy layout) — Events, Resource index (legacy layout) — Guides, About, Blog article, Blog index, Careers, Compare, Customers index, Enterprise, Gated guide landing, Homepage, Integrations index, Long-form guide, Newsroom, Partners, Placeholder (catch-all), Pricing, Solutions hub, Templates index.
 
 **1 routes carry chrome = `none`** — Report.
 
@@ -65,114 +65,114 @@ The largest 3 templates (Integration detail — base, Customer story, Solution d
 How widely a section is shared determines whether it belongs in a shared
 component library or stays local to its page.
 
-| section | category | templates | routes | scope |
-|---|---|---:|---:|---|
-| `shell.footer` | SHELL | 40 | 59 | On every full-chrome route (all 59); the layout renders it, not the page. |
-| `shell.header` | SHELL | 40 | 59 | On every full-chrome route (all 59); the layout renders it, not the page. |
-| `divider.tron` | DIVIDER | 11 | 20 | On 20 routes: Integration detail, Enterprise, Homepage, Partners, Pricing. |
-| `proof.customer-banner` | PROOF | 13 | 16 | On 16 routes: some Product feature pages, some Solution detail pages, some Product (legacy layout) pages, Form page, About, Compare, Enterprise, Homepage, Pricing, Solutions hub. |
-| `hero.integration` | HERO | 7 | 16 | On 16 routes: Integration detail. |
-| `feature.how-it-works` | FEATURE | 7 | 16 | On 16 routes: Integration detail. |
-| `conversion.outro-tout` | CONVERSION | 12 | 14 | On 14 routes: some Product feature pages, Solution detail, Product (legacy layout), Gated guide landing. |
-| `faq.accordion` | FAQ | 9 | 9 | On 9 routes: some Integration detail pages, some Product feature pages, Enterprise, Homepage, Pricing, Report. |
-| `feature.section-heading` | FEATURE | 7 | 9 | On 9 routes: some Product feature pages, Solution detail, some Product (legacy layout) pages. |
-| `collection.customer-stories` | COLLECTION | 2 | 9 | On 9 routes: Customer story, Customers index. |
-| `collection.resource-cards` | COLLECTION | 6 | 8 | On 8 routes: some Product feature pages, Solution detail, Gated guide landing, Solutions hub. |
-| `hero.story` | HERO | 1 | 8 | On 8 routes: Customer story. |
-| `feature.story-details` | FEATURE | 1 | 8 | On 8 routes: Customer story. |
-| `content.story-body` | CONTENT | 1 | 8 | On 8 routes: Customer story. |
-| `proof.social-tout` | PROOF | 5 | 7 | On 7 routes: some Product feature pages, some Solution detail pages, Product (legacy layout). |
-| `hero.product` | HERO | 6 | 6 | On 6 routes: Product feature. |
-| `proof.stories-two-up` | PROOF | 4 | 5 | On 5 routes: some Integration detail pages, some Product feature pages, Homepage. |
-| `collection.external-links` | COLLECTION | 4 | 5 | On 5 routes: some Integration detail pages. |
-| `hero.solution` | HERO | 3 | 5 | On 5 routes: Solution detail. |
-| `feature.solution-row` | FEATURE | 3 | 5 | On 5 routes: Solution detail. |
-| `proof.full-width-quote` | PROOF | 4 | 4 | On 4 routes: some Product feature pages. |
-| `proof.quotes-marquee` | PROOF | 4 | 4 | On 4 routes: some Product feature pages, Customers index, Long-form guide. |
-| `feature.video-embed` | FEATURE | 3 | 4 | On 4 routes: some Integration detail pages. |
-| `feature.live-app-embed` | FEATURE | 2 | 4 | On 4 routes: some Solution detail pages. |
-| `hero.v1` | HERO | 3 | 3 | On 3 routes: Product (legacy layout). |
-| `hero.v1-intro` | HERO | 3 | 3 | On 3 routes: Resource index (legacy layout), Templates index. |
-| `feature.info-card-grid` | FEATURE | 3 | 3 | On 3 routes: some Product feature pages. |
-| `feature.integration-custom-blocks` | FEATURE | 3 | 3 | On 3 routes: some Integration detail pages. |
-| `feature.split` | FEATURE | 3 | 3 | On 3 routes: some Product feature pages, Homepage. |
-| `conversion.form-shell` | CONVERSION | 2 | 3 | On 3 routes: Form page, Partners. |
-| `proof.logo-wall` | PROOF | 2 | 2 | On 2 routes: About, Customers index. |
-| `feature.bento-cells` | FEATURE | 2 | 2 | On 2 routes: some Product feature pages. |
-| `feature.integrations-grid` | FEATURE | 2 | 2 | On 2 routes: Enterprise, Homepage. |
-| `feature.perlin-callout` | FEATURE | 2 | 2 | On 2 routes: some Product feature pages. |
-| `feature.v1-two-up` | FEATURE | 2 | 2 | On 2 routes: some Product (legacy layout) pages. |
-| `collection.newsroom-cards` | COLLECTION | 2 | 2 | On 2 routes: About, Newsroom. |
-| `collection.template-cards` | COLLECTION | 2 | 2 | On 2 routes: some Product feature pages, some Product (legacy layout) pages. |
-| `navigation.filter-chips` | NAVIGATION | 2 | 2 | On 2 routes: Customers index, Solutions hub. |
-| `hero.form` | HERO | 1 | 2 | On 2 routes: Form page. |
-| `hero.about` | HERO | 1 | 1 | Only on /about/. |
-| `hero.article` | HERO | 1 | 1 | Only on /blog/introducing-generative-data-apps/. |
-| `hero.blog-masthead` | HERO | 1 | 1 | Only on /blog/. |
-| `hero.careers` | HERO | 1 | 1 | Only on /careers/. |
-| `hero.compare` | HERO | 1 | 1 | Only on /compare/. |
-| `hero.customers` | HERO | 1 | 1 | Only on /customers/. |
-| `hero.enterprise` | HERO | 1 | 1 | Only on /enterprise/. |
-| `hero.guide-document` | HERO | 1 | 1 | Only on /product/switching-to-hex/. |
-| `hero.guide-landing` | HERO | 1 | 1 | Only on /resources/guides/ai-analytics/. |
-| `hero.heading-with-callout` | HERO | 1 | 1 | Only on /product/integrations/. |
-| `hero.home` | HERO | 1 | 1 | Only on /. |
-| `hero.newsroom` | HERO | 1 | 1 | Only on /newsroom/. |
-| `hero.partners` | HERO | 1 | 1 | Only on /partners/. |
-| `hero.placeholder` | HERO | 1 | 1 | Only on *. |
-| `hero.pricing` | HERO | 1 | 1 | Only on /pricing/. |
-| `hero.report` | HERO | 1 | 1 | Only on /state-of-data-teams/. |
-| `hero.solutions-hub` | HERO | 1 | 1 | Only on /solutions/. |
-| `proof.featured-stories-fan` | PROOF | 1 | 1 | Only on /customers/. |
-| `proof.quote-tiles` | PROOF | 1 | 1 | Only on /resources/guides/ai-analytics/. |
-| `proof.story-tout` | PROOF | 1 | 1 | Only on /. |
-| `feature.approach-cards` | FEATURE | 1 | 1 | Only on /product/bi/. |
-| `feature.built-different` | FEATURE | 1 | 1 | Only on /. |
-| `feature.cell-collage` | FEATURE | 1 | 1 | Only on /product/notebooks/. |
-| `feature.codegen-gallery` | FEATURE | 1 | 1 | Only on /product/data-apps/. |
-| `feature.command-list` | FEATURE | 1 | 1 | Only on /product/cli/. |
-| `feature.demo-accordion` | FEATURE | 1 | 1 | Only on /capability/ai/. |
-| `feature.ethos-cards` | FEATURE | 1 | 1 | Only on /. |
-| `feature.execution-dag` | FEATURE | 1 | 1 | Only on /product/notebooks/. |
-| `feature.highlights` | FEATURE | 1 | 1 | Only on /careers/. |
-| `feature.icon-row` | FEATURE | 1 | 1 | Only on /product/embedded-analytics/. |
-| `feature.illustrated-checklist` | FEATURE | 1 | 1 | Only on /enterprise/. |
-| `feature.magic` | FEATURE | 1 | 1 | Only on /product/notebooks/. |
-| `feature.numbered-grid` | FEATURE | 1 | 1 | Only on /enterprise/. |
-| `feature.observability-callouts` | FEATURE | 1 | 1 | Only on /product/context-studio/. |
-| `feature.partner-tiers` | FEATURE | 1 | 1 | Only on /partners/. |
-| `feature.partners-why` | FEATURE | 1 | 1 | Only on /partners/. |
-| `feature.photo-collage` | FEATURE | 1 | 1 | Only on /about/. |
-| `feature.plan-comparison` | FEATURE | 1 | 1 | Only on /pricing/. |
-| `feature.plan-summary` | FEATURE | 1 | 1 | Only on /pricing/. |
-| `feature.platform-overview` | FEATURE | 1 | 1 | Only on /product/context-studio/. |
-| `feature.podcast-episodes` | FEATURE | 1 | 1 | Only on /resources/guides/ai-analytics/. |
-| `feature.snaked-rows` | FEATURE | 1 | 1 | Only on /product/data-apps/. |
-| `feature.support-grid` | FEATURE | 1 | 1 | Only on /enterprise/. |
-| `feature.use-cases` | FEATURE | 1 | 1 | Only on /. |
-| `feature.workflow-split` | FEATURE | 1 | 1 | Only on /capability/ai/. |
-| `feature.workflow-table` | FEATURE | 1 | 1 | Only on /product/cli/. |
-| `collection.blog-featured` | COLLECTION | 1 | 1 | Only on /blog/. |
-| `collection.blog-feed` | COLLECTION | 1 | 1 | Only on /blog/. |
-| `collection.blog-recent` | COLLECTION | 1 | 1 | Only on /blog/. |
-| `collection.events` | COLLECTION | 1 | 1 | Only on /resources/events/. |
-| `collection.guides` | COLLECTION | 1 | 1 | Only on /resources/guides/. |
-| `collection.integration-category` | COLLECTION | 1 | 1 | Only on /product/integrations/. |
-| `collection.newsroom-featured` | COLLECTION | 1 | 1 | Only on /newsroom/. |
-| `collection.open-roles` | COLLECTION | 1 | 1 | Only on /careers/. |
-| `collection.partners-grid` | COLLECTION | 1 | 1 | Only on /partners/. |
-| `collection.templates-catalog` | COLLECTION | 1 | 1 | Only on /templates/. |
-| `content.article-body` | CONTENT | 1 | 1 | Only on /blog/introducing-generative-data-apps/. |
-| `content.guide-chapter` | CONTENT | 1 | 1 | Only on /product/switching-to-hex/. |
-| `content.report-intro` | CONTENT | 1 | 1 | Only on /state-of-data-teams/. |
-| `content.report-outro` | CONTENT | 1 | 1 | Only on /state-of-data-teams/. |
-| `content.report-section` | CONTENT | 1 | 1 | Only on /state-of-data-teams/. |
-| `content.report-toc` | CONTENT | 1 | 1 | Only on /state-of-data-teams/. |
-| `conversion.bottom-cta` | CONVERSION | 1 | 1 | Only on /. |
-| `conversion.collage-cta` | CONVERSION | 1 | 1 | Only on /product/data-apps/. |
-| `conversion.cta-split` | CONVERSION | 1 | 1 | Only on /enterprise/. |
-| `conversion.install-cta` | CONVERSION | 1 | 1 | Only on /product/cli/. |
-| `conversion.wallpaper-cta` | CONVERSION | 1 | 1 | Only on /product/notebooks/. |
+| section | category | templates | routes | implementation | scope |
+|---|---|---:|---:|---|---|
+| `shell.footer` | SHELL | 40 | 59 | `src/components/sections/Footer.jsx > Footer` | On every full-chrome route (all 59); each page renders it at the end of its own tree. |
+| `shell.header` | SHELL | 40 | 59 | `src/components/Header.jsx > Header` | On every full-chrome route (all 59); rendered once by the site shell layout, not by pages. |
+| `divider.tron` | DIVIDER | 11 | 20 | `src/components/shared/TronDivider.jsx > TronDivider` | On 20 routes: Integration detail, Enterprise, Homepage, Partners, Pricing. |
+| `proof.customer-banner` | PROOF | 13 | 16 | `src/components/sections/CustomerBanner.jsx > CustomerBanner` | On 16 routes: some Product feature pages, some Solution detail pages, some Product (legacy layout) pages, Form page, About, Compare, Enterprise, Homepage, Pricing, Solutions hub. |
+| `hero.integration` | HERO | 7 | 16 | `src/pages/productV1/IntegrationDetail.jsx > Info` | On 16 routes: Integration detail. |
+| `feature.how-it-works` | FEATURE | 7 | 16 | `src/pages/productV1/IntegrationDetail.jsx > HowItWorks` | On 16 routes: Integration detail. |
+| `conversion.outro-tout` | CONVERSION | 12 | 14 | `src/components/shared/OutroTout.jsx > OutroTout` | On 14 routes: some Product feature pages, Solution detail, Product (legacy layout), Gated guide landing. |
+| `faq.accordion` | FAQ | 9 | 9 | `src/components/sections/Faq.jsx > Faq` | On 9 routes: some Integration detail pages, some Product feature pages, Enterprise, Homepage, Pricing, Report. |
+| `feature.section-heading` | FEATURE | 7 | 9 | `src/components/shared/SectionHeading.jsx > SectionHeading` | On 9 routes: some Product feature pages, Solution detail, some Product (legacy layout) pages. |
+| `collection.customer-stories` | COLLECTION | 2 | 9 | `src/pages/companyCore/CustomersPage.jsx > StoriesSection` | On 9 routes: Customer story, Customers index. |
+| `collection.resource-cards` | COLLECTION | 6 | 8 | `src/pages/productCore/bi/BiSections.jsx > Resources` | On 8 routes: some Product feature pages, Solution detail, Gated guide landing, Solutions hub. |
+| `hero.story` | HERO | 1 | 8 | `src/pages/companyCore/CustomerStoryPage.jsx > StoryHeader` | On 8 routes: Customer story. |
+| `feature.story-details` | FEATURE | 1 | 8 | `src/pages/companyCore/CustomerStoryPage.jsx > StoryDetails` | On 8 routes: Customer story. |
+| `content.story-body` | CONTENT | 1 | 8 | `src/pages/companyCore/CustomerStoryPage.jsx > StoryBody` | On 8 routes: Customer story. |
+| `proof.social-tout` | PROOF | 5 | 7 | `src/components/shared/SocialTout.jsx > SocialTout` | On 7 routes: some Product feature pages, some Solution detail pages, Product (legacy layout). |
+| `hero.product` | HERO | 6 | 6 | `src/pages/productCore/bi/BiSections.jsx > BiHero` | On 6 routes: Product feature. |
+| `proof.stories-two-up` | PROOF | 4 | 5 | `src/components/sections/CustomerStoriesTwoUp.jsx > CustomerStoriesTwoUp` | On 5 routes: some Integration detail pages, some Product feature pages, Homepage. |
+| `collection.external-links` | COLLECTION | 4 | 5 | `src/pages/productV1/IntegrationDetail.jsx > ExternalLinks` | On 5 routes: some Integration detail pages. |
+| `hero.solution` | HERO | 3 | 5 | `src/pages/solutions/SolutionDetail.jsx > SolutionHero` | On 5 routes: Solution detail. |
+| `feature.solution-row` | FEATURE | 3 | 5 | `src/pages/solutions/SolutionDetail.jsx > FeatureRow` | On 5 routes: Solution detail. |
+| `proof.full-width-quote` | PROOF | 4 | 4 | `src/components/shared/FullWidthQuote.jsx > FullWidthQuote` | On 4 routes: some Product feature pages. |
+| `proof.quotes-marquee` | PROOF | 4 | 4 | `src/components/shared/CustomerQuotesMarquee.jsx > CustomerQuotesMarquee` | On 4 routes: some Product feature pages, Customers index, Long-form guide. |
+| `feature.video-embed` | FEATURE | 3 | 4 | `src/pages/productV1/IntegrationDetail.jsx > Video` | On 4 routes: some Integration detail pages. |
+| `feature.live-app-embed` | FEATURE | 2 | 4 | `src/pages/solutions/SolutionDetail.jsx > LiveAppEmbed` | On 4 routes: some Solution detail pages. |
+| `hero.v1` | HERO | 3 | 3 | `src/pages/productV1/blocks.jsx > V1Hero` | On 3 routes: Product (legacy layout). |
+| `hero.v1-intro` | HERO | 3 | 3 | `src/pages/companyResources/parts.jsx > V1Intro` | On 3 routes: Resource index (legacy layout), Templates index. |
+| `feature.info-card-grid` | FEATURE | 3 | 3 | `src/pages/productCore/contextStudio/CsSections.jsx > UnifiedContext` | On 3 routes: some Product feature pages. |
+| `feature.split` | FEATURE | 3 | 3 | `src/components/sections/TrustedAnswers.jsx > TrustedAnswers` | On 3 routes: some Product feature pages, Homepage. |
+| `conversion.form-shell` | CONVERSION | 2 | 3 | `src/pages/pricingForms/forms/HubSpotFormShell.jsx > HubSpotFormShell` | On 3 routes: Form page, Partners. |
+| `proof.logo-wall` | PROOF | 2 | 2 | `src/pages/companyCore/CustomersPage.jsx > LovedByManyMore` | On 2 routes: About, Customers index. |
+| `feature.bento-cells` | FEATURE | 2 | 2 | `src/components/shared/BentoCell.jsx > BentoGrid` | On 2 routes: some Product feature pages. |
+| `feature.integration-custom-blocks` | FEATURE | 2 | 2 | `src/pages/productV1/IntegrationCustomBlocks.jsx > AwsBlocks` | On 2 routes: some Integration detail pages. |
+| `feature.integrations-grid` | FEATURE | 2 | 2 | `src/components/sections/Integrations.jsx > Integrations` | On 2 routes: Enterprise, Homepage. |
+| `feature.perlin-callout` | FEATURE | 2 | 2 | `src/components/shared/PerlinCallout.jsx > PerlinCallout` | On 2 routes: some Product feature pages. |
+| `feature.v1-two-up` | FEATURE | 2 | 2 | `src/pages/productV1/blocks.jsx > V1TwoUp` | On 2 routes: some Product (legacy layout) pages. |
+| `collection.newsroom-cards` | COLLECTION | 2 | 2 | `src/pages/companyCore/AboutPage.jsx > ElsewhereOnTheInternet` | On 2 routes: About, Newsroom. |
+| `collection.template-cards` | COLLECTION | 2 | 2 | `src/pages/productMore/notebooks/NotebooksPage.jsx > UseCasesTout` | On 2 routes: some Product feature pages, some Product (legacy layout) pages. |
+| `navigation.filter-chips` | NAVIGATION | 2 | 2 | `src/pages/solutions/SolutionsHub.jsx > SolutionsFilterNav` | On 2 routes: Customers index, Solutions hub. |
+| `hero.form` | HERO | 1 | 2 | `src/pages/pricingForms/forms/FormPage.jsx > FormPage` | On 2 routes: Form page. |
+| `hero.about` | HERO | 1 | 1 | `src/pages/companyCore/AboutPage.jsx > AboutHero` | Only on /about/. |
+| `hero.article` | HERO | 1 | 1 | `src/pages/companyCore/BlogPostPage.jsx > ArticleHeader` | Only on /blog/introducing-generative-data-apps/. |
+| `hero.blog-masthead` | HERO | 1 | 1 | `src/pages/companyCore/BlogIndexPage.jsx > Masthead` | Only on /blog/. |
+| `hero.careers` | HERO | 1 | 1 | `src/pages/companyCore/CareersPage.jsx > CareersHero` | Only on /careers/. |
+| `hero.compare` | HERO | 1 | 1 | `src/pages/solutions/Compare.jsx > Compare` | Only on /compare/. |
+| `hero.customers` | HERO | 1 | 1 | `src/pages/companyCore/CustomersPage.jsx > Hero` | Only on /customers/. |
+| `hero.enterprise` | HERO | 1 | 1 | `src/pages/solutions/Enterprise.jsx > EnterpriseHero` | Only on /enterprise/. |
+| `hero.guide-document` | HERO | 1 | 1 | `src/pages/productV1/SwitchingToHex.jsx > HeroDoc` | Only on /product/switching-to-hex/. |
+| `hero.guide-landing` | HERO | 1 | 1 | `src/pages/companyResources/AiAnalyticsGuidePage.jsx > GuideHero` | Only on /resources/guides/ai-analytics/. |
+| `hero.heading-with-callout` | HERO | 1 | 1 | `src/pages/productV1/IntegrationsIndex.jsx > IntegrationsIndex` | Only on /product/integrations/. |
+| `hero.home` | HERO | 1 | 1 | `src/components/Hero.jsx > Hero` | Only on /. |
+| `hero.newsroom` | HERO | 1 | 1 | `src/pages/companyCore/NewsroomPage.jsx > NewsroomPage` | Only on /newsroom/. |
+| `hero.partners` | HERO | 1 | 1 | `src/pages/solutions/Partners.jsx > PartnersHero` | Only on /partners/. |
+| `hero.placeholder` | HERO | 1 | 1 | `src/pages/PagePending.jsx > PagePending` | Only on *. |
+| `hero.pricing` | HERO | 1 | 1 | `src/pages/pricingForms/PricingPage.jsx > PricingHeader` | Only on /pricing/. |
+| `hero.report` | HERO | 1 | 1 | `src/pages/companyResources/StateOfDataTeamsPage.jsx > Hero` | Only on /state-of-data-teams/. |
+| `hero.solutions-hub` | HERO | 1 | 1 | `src/pages/solutions/SolutionsHub.jsx > SolutionsHero` | Only on /solutions/. |
+| `proof.featured-stories-fan` | PROOF | 1 | 1 | `src/pages/companyCore/CustomersPage.jsx > FeaturedFan` | Only on /customers/. |
+| `proof.quote-tiles` | PROOF | 1 | 1 | `src/pages/companyResources/AiAnalyticsGuidePage.jsx > CustomerTiles` | Only on /resources/guides/ai-analytics/. |
+| `proof.story-tout` | PROOF | 1 | 1 | `src/components/sections/LovedByTeams.jsx > LovedByTeams` | Only on /. |
+| `feature.approach-cards` | FEATURE | 1 | 1 | `src/pages/productCore/bi/BiSections.jsx > ApproachCards` | Only on /product/bi/. |
+| `feature.built-different` | FEATURE | 1 | 1 | `src/components/sections/BuiltDifferent.jsx > BuiltDifferent` | Only on /. |
+| `feature.cell-collage` | FEATURE | 1 | 1 | `src/pages/productMore/notebooks/CellCollage.jsx > SqlPython` | Only on /product/notebooks/. |
+| `feature.codegen-gallery` | FEATURE | 1 | 1 | `src/pages/productV1/DataApps.jsx > CodeGenGallery` | Only on /product/data-apps/. |
+| `feature.command-list` | FEATURE | 1 | 1 | `src/pages/productCore/cli/CliSections.jsx > FeatureList` | Only on /product/cli/. |
+| `feature.demo-accordion` | FEATURE | 1 | 1 | `src/pages/productMore/ai/DemoAccordion.jsx > DemoAccordion` | Only on /capability/ai/. |
+| `feature.ethos-cards` | FEATURE | 1 | 1 | `src/components/sections/ProductEthos.jsx > ProductEthos` | Only on /. |
+| `feature.execution-dag` | FEATURE | 1 | 1 | `src/pages/productMore/notebooks/ExecutionDag.jsx > ExecutionDag` | Only on /product/notebooks/. |
+| `feature.highlights` | FEATURE | 1 | 1 | `src/pages/companyCore/CareersPage.jsx > DoYourBestWork` | Only on /careers/. |
+| `feature.icon-row` | FEATURE | 1 | 1 | `src/pages/productV1/EmbeddedAnalytics.jsx > EmbeddedAnalytics` | Only on /product/embedded-analytics/. |
+| `feature.illustrated-checklist` | FEATURE | 1 | 1 | `src/pages/solutions/Enterprise.jsx > Governance` | Only on /enterprise/. |
+| `feature.magic` | FEATURE | 1 | 1 | `src/pages/productMore/notebooks/NotebooksPage.jsx > MagicFeature` | Only on /product/notebooks/. |
+| `feature.numbered-grid` | FEATURE | 1 | 1 | `src/pages/solutions/Enterprise.jsx > DataIsSafe` | Only on /enterprise/. |
+| `feature.observability-callouts` | FEATURE | 1 | 1 | `src/pages/productCore/contextStudio/CsSections.jsx > ObservableEverywhere` | Only on /product/context-studio/. |
+| `feature.partner-tiers` | FEATURE | 1 | 1 | `src/pages/solutions/Partners.jsx > PartnerTiers` | Only on /partners/. |
+| `feature.partners-why` | FEATURE | 1 | 1 | `src/pages/solutions/Partners.jsx > PartnersWhy` | Only on /partners/. |
+| `feature.photo-collage` | FEATURE | 1 | 1 | `src/pages/companyCore/AboutPage.jsx > TeamOfDataNerds` | Only on /about/. |
+| `feature.plan-comparison` | FEATURE | 1 | 1 | `src/pages/pricingForms/pricing/PlanComparisonTable.jsx > PlanComparisonTable` | Only on /pricing/. |
+| `feature.plan-summary` | FEATURE | 1 | 1 | `src/pages/pricingForms/pricing/PlanSummaryGroups.jsx > PlanSummaryGroups` | Only on /pricing/. |
+| `feature.platform-overview` | FEATURE | 1 | 1 | `src/pages/productCore/contextStudio/CsSections.jsx > PlatformOverview` | Only on /product/context-studio/. |
+| `feature.podcast-episodes` | FEATURE | 1 | 1 | `src/pages/companyResources/AiAnalyticsGuidePage.jsx > Podcasts` | Only on /resources/guides/ai-analytics/. |
+| `feature.snaked-rows` | FEATURE | 1 | 1 | `src/pages/productV1/DataApps.jsx > FeaturesTout` | Only on /product/data-apps/. |
+| `feature.support-grid` | FEATURE | 1 | 1 | `src/pages/solutions/Enterprise.jsx > Support` | Only on /enterprise/. |
+| `feature.use-cases` | FEATURE | 1 | 1 | `src/components/sections/UseCases.jsx > UseCases` | Only on /. |
+| `feature.workflow-split` | FEATURE | 1 | 1 | `src/pages/productMore/ai/Workflows.jsx > Workflows` | Only on /capability/ai/. |
+| `feature.workflow-table` | FEATURE | 1 | 1 | `src/pages/productCore/cli/CliSections.jsx > WorkflowTable` | Only on /product/cli/. |
+| `collection.blog-featured` | COLLECTION | 1 | 1 | `src/pages/companyCore/BlogIndexPage.jsx > Featured` | Only on /blog/. |
+| `collection.blog-feed` | COLLECTION | 1 | 1 | `src/pages/companyCore/BlogIndexPage.jsx > Feed` | Only on /blog/. |
+| `collection.blog-recent` | COLLECTION | 1 | 1 | `src/pages/companyCore/BlogIndexPage.jsx > Recent` | Only on /blog/. |
+| `collection.events` | COLLECTION | 1 | 1 | `src/pages/companyResources/EventsPage.jsx > EventsPage` | Only on /resources/events/. |
+| `collection.guides` | COLLECTION | 1 | 1 | `src/pages/companyResources/EventsPage.jsx > EventCardGrid` | Only on /resources/guides/. |
+| `collection.integration-category` | COLLECTION | 1 | 1 | `src/pages/productV1/IntegrationsIndex.jsx > Category` | Only on /product/integrations/. |
+| `collection.newsroom-featured` | COLLECTION | 1 | 1 | `src/pages/companyCore/NewsroomPage.jsx > NewsroomPage` | Only on /newsroom/. |
+| `collection.open-roles` | COLLECTION | 1 | 1 | `src/pages/companyCore/CareersPage.jsx > OpenRoles` | Only on /careers/. |
+| `collection.partners-grid` | COLLECTION | 1 | 1 | `src/pages/solutions/Partners.jsx > PartnersGrid` | Only on /partners/. |
+| `collection.templates-catalog` | COLLECTION | 1 | 1 | `src/pages/companyResources/TemplatesPage.jsx > TemplatesPage` | Only on /templates/. |
+| `content.article-body` | CONTENT | 1 | 1 | `src/pages/companyCore/BlogPostPage.jsx > ArticleBody` | Only on /blog/introducing-generative-data-apps/. |
+| `content.guide-chapter` | CONTENT | 1 | 1 | `src/pages/productV1/SwitchingToHex.jsx > Chapter` | Only on /product/switching-to-hex/. |
+| `content.report-intro` | CONTENT | 1 | 1 | `src/pages/companyResources/StateOfDataTeamsPage.jsx > Intro` | Only on /state-of-data-teams/. |
+| `content.report-outro` | CONTENT | 1 | 1 | `src/pages/companyResources/StateOfDataTeamsPage.jsx > Outro` | Only on /state-of-data-teams/. |
+| `content.report-section` | CONTENT | 1 | 1 | `src/pages/companyResources/StateOfDataTeamsPage.jsx > ReportSection` | Only on /state-of-data-teams/. |
+| `content.report-toc` | CONTENT | 1 | 1 | `src/pages/companyResources/StateOfDataTeamsPage.jsx > Toc` | Only on /state-of-data-teams/. |
+| `conversion.bottom-cta` | CONVERSION | 1 | 1 | `src/components/sections/BottomCta.jsx > BottomCta` | Only on /. |
+| `conversion.collage-cta` | CONVERSION | 1 | 1 | `src/pages/productV1/DataApps.jsx > FeedbackLoopTout` | Only on /product/data-apps/. |
+| `conversion.cta-split` | CONVERSION | 1 | 1 | `src/pages/solutions/Enterprise.jsx > CompleteSolution` | Only on /enterprise/. |
+| `conversion.install-cta` | CONVERSION | 1 | 1 | `src/pages/productCore/cli/CliSections.jsx > CliFooterCta` | Only on /product/cli/. |
+| `conversion.wallpaper-cta` | CONVERSION | 1 | 1 | `src/pages/productMore/notebooks/NotebooksPage.jsx > WallpaperCta` | Only on /product/notebooks/. |
 
 **35 shared sections** appear in more than one template and belong in a component library.
 
@@ -231,7 +231,7 @@ until a second caller actually appears.
 | 2 | HERO | `hero.integration` | shared ×7 |
 | 3 | DIVIDER | `divider.tron` | shared ×11 |
 | 4 | FEATURE | `feature.how-it-works` | shared ×7 |
-| 5 | FEATURE | `feature.integration-custom-blocks` | shared ×3 |
+| 5 | FEATURE | `feature.integration-custom-blocks` | shared ×2 |
 | 6 | SHELL | `shell.footer` | shared ×40 |
 
 ### Integration detail — with video and links — `template.integration-detail--with-video-links`
@@ -248,7 +248,7 @@ until a second caller actually appears.
 | 6 | COLLECTION | `collection.external-links` | shared ×4 |
 | 7 | SHELL | `shell.footer` | shared ×40 |
 
-### Integration detail — with custom blocks, FAQ and links — `template.integration-detail--with-custom-blocks-faq-links`
+### Integration detail — with FAQ and links — `template.integration-detail--with-faq-links`
 
 1 route · `/product/integrations/databricks/` · chrome: **full**
 
@@ -258,10 +258,9 @@ until a second caller actually appears.
 | 2 | HERO | `hero.integration` | shared ×7 |
 | 3 | DIVIDER | `divider.tron` | shared ×11 |
 | 4 | FEATURE | `feature.how-it-works` | shared ×7 |
-| 5 | FEATURE | `feature.integration-custom-blocks` | shared ×3 |
-| 6 | FAQ | `faq.accordion` | shared ×9 |
-| 7 | COLLECTION | `collection.external-links` | shared ×4 |
-| 8 | SHELL | `shell.footer` | shared ×40 |
+| 5 | FAQ | `faq.accordion` | shared ×9 |
+| 6 | COLLECTION | `collection.external-links` | shared ×4 |
+| 7 | SHELL | `shell.footer` | shared ×40 |
 
 ### Integration detail — everything — `template.integration-detail--everything`
 
@@ -274,7 +273,7 @@ until a second caller actually appears.
 | 3 | PROOF | `proof.stories-two-up` | shared ×4 |
 | 4 | DIVIDER | `divider.tron` | shared ×11 |
 | 5 | FEATURE | `feature.how-it-works` | shared ×7 |
-| 6 | FEATURE | `feature.integration-custom-blocks` | shared ×3 |
+| 6 | FEATURE | `feature.integration-custom-blocks` | shared ×2 |
 | 7 | FAQ | `faq.accordion` | shared ×9 |
 | 8 | FEATURE | `feature.video-embed` | shared ×3 |
 | 9 | COLLECTION | `collection.external-links` | shared ×4 |
@@ -773,11 +772,11 @@ _Site chrome rendered by the layout around every full-chrome page: header (with 
 
 **`shell.footer`** — Global footer: wordmark + emoji rotator, four link columns, legal row, static hit counter.
 
-· On every full-chrome route (all 59); the layout renders it, not the page. · appears on 59 routes
+· On every full-chrome route (all 59); each page renders it at the end of its own tree. · appears on 59 routes · implemented by `src/components/sections/Footer.jsx > Footer`
 
 **`shell.header`** — Global fixed chrome: announcement ticker + main nav with mega-menus; identical on every site-layout page, themed only.
 
-· On every full-chrome route (all 59); the layout renders it, not the page. · appears on 59 routes
+· On every full-chrome route (all 59); rendered once by the site shell layout, not by pages. · appears on 59 routes · implemented by `src/components/Header.jsx > Header`
 
 ### HERO
 
@@ -785,99 +784,99 @@ _The page-opening block; exactly one per page, always the first content section.
 
 **`hero.about`** — About hero: italic + display two-line H1 over Perlin/cartesian backdrop, team photo card beside lead copy and an animated CTA.
 
-· Only on /about/. · appears on 1 routes
+· Only on /about/. · appears on 1 routes · implemented by `src/pages/companyCore/AboutPage.jsx > AboutHero`
 
 **`hero.article`** — Dark article header: eyebrow link, solid H1, dek, author/category/date meta, share links and hero media that overlaps the light body slab.
 
-· Only on /blog/introducing-generative-data-apps/. · appears on 1 routes
+· Only on /blog/introducing-generative-data-apps/. · appears on 1 routes · implemented by `src/pages/companyCore/BlogPostPage.jsx > ArticleHeader`
 
 **`hero.blog-masthead`** — Blog masthead: small H1 on a category divider, search toggle, commit-graph strip and a stats line.
 
-· Only on /blog/. · appears on 1 routes
+· Only on /blog/. · appears on 1 routes · implemented by `src/pages/companyCore/BlogIndexPage.jsx > Masthead`
 
 **`hero.careers`** — Careers hero: centred two-line H1, lead + emphasis and CTAs framed by a wall of team photos that blur in.
 
-· Only on /careers/. · appears on 1 routes
+· Only on /careers/. · appears on 1 routes · implemented by `src/pages/companyCore/CareersPage.jsx > CareersHero`
 
 **`hero.compare`** — Compare hero: 74px gradient H1, lead, two CTAs and a dashed hatched 'vs.' panel of competitor cards.
 
-· Only on /compare/. · appears on 1 routes
+· Only on /compare/. · appears on 1 routes · implemented by `src/pages/solutions/Compare.jsx > Compare`
 
 **`hero.customers`** — Customers index hero: heart line illustration behind an italic+display H1 and a short lead.
 
-· Only on /customers/. · appears on 1 routes
+· Only on /customers/. · appears on 1 routes · implemented by `src/pages/companyCore/CustomersPage.jsx > Hero`
 
 **`hero.enterprise`** — Enterprise hero: vertical eyebrow, 68px solid H1, lead, two-column tick checklist and CTA beside an illustration.
 
-· Only on /enterprise/. · appears on 1 routes
+· Only on /enterprise/. · appears on 1 routes · implemented by `src/pages/solutions/Enterprise.jsx > EnterpriseHero`
 
 **`hero.form`** — Form page heading: centred solid H1 and lead above the visual-only form shell.
 
-· On 2 routes: Form page. · appears on 2 routes
+· On 2 routes: Form page. · appears on 2 routes · implemented by `src/pages/pricingForms/forms/FormPage.jsx > FormPage`
 
 **`hero.guide-document`** — Long-form guide cover card: fading feature-tag list, oversized H1, lead and a three-group table of contents.
 
-· Only on /product/switching-to-hex/. · appears on 1 routes
+· Only on /product/switching-to-hex/. · appears on 1 routes · implemented by `src/pages/productV1/SwitchingToHex.jsx > HeroDoc`
 
 **`hero.guide-landing`** — Guide landing hero: two-line H1 with flanked italic line, lead, and a dark gated-download card.
 
-· Only on /resources/guides/ai-analytics/. · appears on 1 routes
+· Only on /resources/guides/ai-analytics/. · appears on 1 routes · implemented by `src/pages/companyResources/AiAnalyticsGuidePage.jsx > GuideHero`
 
 **`hero.heading-with-callout`** — Index heading: two-line solid H1 + lead on the left, ruled tinted callout with a mail link on the right.
 
-· Only on /product/integrations/. · appears on 1 routes
+· Only on /product/integrations/. · appears on 1 routes · implemented by `src/pages/productV1/IntegrationsIndex.jsx > IntegrationsIndex`
 
 **`hero.home`** — Homepage stage: two-line display headline, pill-linked lead and two CTAs over Perlin + cartesian backdrop.
 
-· Only on /. · appears on 1 routes
+· Only on /. · appears on 1 routes · implemented by `src/components/Hero.jsx > Hero`
 
 **`hero.integration`** — Integration detail hero: label tab cut into a logo box, solid H1, lead and 1-2 md CTAs.
 
-· On 16 routes: Integration detail. · appears on 16 routes
+· On 16 routes: Integration detail. · appears on 16 routes · implemented by `src/pages/productV1/IntegrationDetail.jsx > Info`
 
 **`hero.newsroom`** — Newsroom header: left gradient H1 + press-contact line, media-kit callout on the right.
 
-· Only on /newsroom/. · appears on 1 routes
+· Only on /newsroom/. · appears on 1 routes · implemented by `src/pages/companyCore/NewsroomPage.jsx > NewsroomPage`
 
 **`hero.partners`** — Partners hero: centred solid H1, paragraph lead and two md CTAs (anchor + external form link).
 
-· Only on /partners/. · appears on 1 routes
+· Only on /partners/. · appears on 1 routes · implemented by `src/pages/solutions/Partners.jsx > PartnersHero`
 
 **`hero.placeholder`** — Fallback 'page still being built' placeholder for unrouted internal paths: path label, H1 and a back-home button.
 
-· Only on *. · appears on 1 routes
+· Only on *. · appears on 1 routes · implemented by `src/pages/PagePending.jsx > PagePending`
 
 **`hero.pricing`** — Pricing header: solid H1 and a 14px subline with an inline contact link.
 
-· Only on /pricing/. · appears on 1 routes
+· Only on /pricing/. · appears on 1 routes · implemented by `src/pages/pricingForms/PricingPage.jsx > PricingHeader`
 
 **`hero.product`** — Product/capability hero: optional announcement pill, gradient H1 (+ italic line), lead and CTAs beside a product visual.
 
-· On 6 routes: Product feature. · appears on 6 routes
+· On 6 routes: Product feature. · appears on 6 routes · implemented by `src/pages/productCore/bi/BiSections.jsx > BiHero`
 
 **`hero.report`** — Report microsite hero: wordmark, hatched report artwork as H1 (screen-reader title), issue eyebrow and about copy.
 
-· Only on /state-of-data-teams/. · appears on 1 routes
+· Only on /state-of-data-teams/. · appears on 1 routes · implemented by `src/pages/companyResources/StateOfDataTeamsPage.jsx > Hero`
 
 **`hero.solution`** — Solution-detail hero: centred gradient H1, one-line lead, primary + secondary lg CTAs.
 
-· On 5 routes: Solution detail. · appears on 5 routes
+· On 5 routes: Solution detail. · appears on 5 routes · implemented by `src/pages/solutions/SolutionDetail.jsx > SolutionHero`
 
 **`hero.solutions-hub`** — Hub hero: opaque glass panel with italic lead and a rotating 74px word, lead and two CTAs.
 
-· Only on /solutions/. · appears on 1 routes
+· Only on /solutions/. · appears on 1 routes · implemented by `src/pages/solutions/SolutionsHub.jsx > SolutionsHero`
 
 **`hero.story`** — Customer story header grid: logo cell, hatched cell, solid H1, dek and a centred metadata strip.
 
-· On 8 routes: Customer story. · appears on 8 routes
+· On 8 routes: Customer story. · appears on 8 routes · implemented by `src/pages/companyCore/CustomerStoryPage.jsx > StoryHeader`
 
 **`hero.v1`** — V1 marketing hero: centred 74px gradient H1, lead and two md CTAs; app-builder variant adds pill + app strip.
 
-· On 3 routes: Product (legacy layout). · appears on 3 routes
+· On 3 routes: Product (legacy layout). · appears on 3 routes · implemented by `src/pages/productV1/blocks.jsx > V1Hero`
 
 **`hero.v1-intro`** — Dark V1 resource intro: white 74px H1 + lead, with the line illustration beside it (split) or centred (catalog).
 
-· On 3 routes: Resource index (legacy layout), Templates index. · appears on 3 routes
+· On 3 routes: Resource index (legacy layout), Templates index. · appears on 3 routes · implemented by `src/pages/companyResources/parts.jsx > V1Intro`
 
 ### PROOF
 
@@ -885,39 +884,39 @@ _Social proof: customer logos, quotes, stories, review badges._
 
 **`proof.customer-banner`** — Logo band proving adoption: label + customer logo row; story logos get an indicator dot and a quote popover.
 
-· On 16 routes: some Product feature pages, some Solution detail pages, some Product (legacy layout) pages, Form page, About, Compare, Enterprise, Homepage, Pricing, Solutions hub. · appears on 16 routes
+· On 16 routes: some Product feature pages, some Solution detail pages, some Product (legacy layout) pages, Form page, About, Compare, Enterprise, Homepage, Pricing, Solutions hub. · appears on 16 routes · implemented by `src/components/sections/CustomerBanner.jsx > CustomerBanner`
 
 **`proof.featured-stories-fan`** — Static arc of five square story cards lifted on a -80/-35/0/-35/-80px curve.
 
-· Only on /customers/. · appears on 1 routes
+· Only on /customers/. · appears on 1 routes · implemented by `src/pages/companyCore/CustomersPage.jsx > FeaturedFan`
 
 **`proof.full-width-quote`** — Full-bleed quote band: logo + name/title attribution, vertical divider and a 24px quote with bold emphasis.
 
-· On 4 routes: some Product feature pages. · appears on 4 routes
+· On 4 routes: some Product feature pages. · appears on 4 routes · implemented by `src/components/shared/FullWidthQuote.jsx > FullWidthQuote`
 
 **`proof.logo-wall`** — Wrapped wall of logos with a heading: customer wall (grayscale) or investor grid with a text lockup.
 
-· On 2 routes: About, Customers index. · appears on 2 routes
+· On 2 routes: About, Customers index. · appears on 2 routes · implemented by `src/pages/companyCore/CustomersPage.jsx > LovedByManyMore`
 
 **`proof.quote-tiles`** — Grid of primary-button-styled quote tiles: grayscale logo, quote divider and a short quote.
 
-· Only on /resources/guides/ai-analytics/. · appears on 1 routes
+· Only on /resources/guides/ai-analytics/. · appears on 1 routes · implemented by `src/pages/companyResources/AiAnalyticsGuidePage.jsx > CustomerTiles`
 
 **`proof.quotes-marquee`** — Continuously scrolling row(s) of glass quote cards (logo, quote, optional headshot and author).
 
-· On 4 routes: some Product feature pages, Customers index, Long-form guide. · appears on 4 routes
+· On 4 routes: some Product feature pages, Customers index, Long-form guide. · appears on 4 routes · implemented by `src/components/shared/CustomerQuotesMarquee.jsx > CustomerQuotesMarquee`
 
 **`proof.social-tout`** — Social proof row: G2 awards card and/or glass quote card(s).
 
-· On 7 routes: some Product feature pages, some Solution detail pages, Product (legacy layout). · appears on 7 routes
+· On 7 routes: some Product feature pages, some Solution detail pages, Product (legacy layout). · appears on 7 routes · implemented by `src/components/shared/SocialTout.jsx > SocialTout`
 
 **`proof.stories-two-up`** — Sunken band of one or two centred customer quotes (logo, quote with bold emphasis, name + title).
 
-· On 5 routes: some Integration detail pages, some Product feature pages, Homepage. · appears on 5 routes
+· On 5 routes: some Integration detail pages, some Product feature pages, Homepage. · appears on 5 routes · implemented by `src/components/sections/CustomerStoriesTwoUp.jsx > CustomerStoriesTwoUp`
 
 **`proof.story-tout`** — Homepage 'Loved by the best data teams' tout: graph-paper title block, four story cards and the social row.
 
-· Only on /. · appears on 1 routes
+· Only on /. · appears on 1 routes · implemented by `src/components/sections/LovedByTeams.jsx > LovedByTeams`
 
 ### FEATURE
 
@@ -925,159 +924,159 @@ _Product and capability explanation: splits, card grids, demos, comparison table
 
 **`feature.approach-cards`** — Solid H2 over a 3-up grid of light glass cards (icon, H4, text, primary md CTA).
 
-· Only on /product/bi/. · appears on 1 routes
+· Only on /product/bi/. · appears on 1 routes · implemented by `src/pages/productCore/bi/BiSections.jsx > ApproachCards`
 
 **`feature.bento-cells`** — Two-column bento of linked dark cells: title + text over a framed screenshot; hover lift with Perlin.
 
-· On 2 routes: some Product feature pages. · appears on 2 routes
+· On 2 routes: some Product feature pages. · appears on 2 routes · implemented by `src/components/shared/BentoCell.jsx > BentoGrid`
 
 **`feature.built-different`** — Centred statement: gradient two-line H2 + lead over an orbit illustration whose bubbles pop in.
 
-· Only on /. · appears on 1 routes
+· Only on /. · appears on 1 routes · implemented by `src/components/sections/BuiltDifferent.jsx > BuiltDifferent`
 
 **`feature.cell-collage`** — Floating InfoText (icon, H2, text, CTA) surrounded by absolutely positioned product cell screenshots.
 
-· Only on /product/notebooks/. · appears on 1 routes
+· Only on /product/notebooks/. · appears on 1 routes · implemented by `src/pages/productMore/notebooks/CellCollage.jsx > SqlPython`
 
 **`feature.codegen-gallery`** — Gradient H2 + lead + links, a large app-builder screenshot, then a 3-column gallery of copy-a-prompt cards.
 
-· Only on /product/data-apps/. · appears on 1 routes
+· Only on /product/data-apps/. · appears on 1 routes · implemented by `src/pages/productV1/DataApps.jsx > CodeGenGallery`
 
 **`feature.command-list`** — Mark + gradient H2 with italic lead word beside a 2-column list of command features with inline code pills, over rose Perlin.
 
-· Only on /product/cli/. · appears on 1 routes
+· Only on /product/cli/. · appears on 1 routes · implemented by `src/pages/productCore/cli/CliSections.jsx > FeatureList`
 
 **`feature.demo-accordion`** — Demo section: eyebrow, gradient H2, lead, 'Watch demo' pill, radio option list driving a media panel.
 
-· Only on /capability/ai/. · appears on 1 routes
+· Only on /capability/ai/. · appears on 1 routes · implemented by `src/pages/productMore/ai/DemoAccordion.jsx > DemoAccordion`
 
 **`feature.ethos-cards`** — Two glass cards with eyebrow pill, gradient H2, body + bullets and a CTA over a framed illustration.
 
-· Only on /. · appears on 1 routes
+· Only on /. · appears on 1 routes · implemented by `src/components/sections/ProductEthos.jsx > ProductEthos`
 
 **`feature.execution-dag`** — InfoText over a bleeding DAG illustration with a logo chip group, then three integration cards.
 
-· Only on /product/notebooks/. · appears on 1 routes
+· Only on /product/notebooks/. · appears on 1 routes · implemented by `src/pages/productMore/notebooks/ExecutionDag.jsx > ExecutionDag`
 
 **`feature.highlights`** — Three-column tout: centred italic+display H2, lead and CTA flanked by two icon highlights with inline links.
 
-· Only on /careers/. · appears on 1 routes
+· Only on /careers/. · appears on 1 routes · implemented by `src/pages/companyCore/CareersPage.jsx > DoYourBestWork`
 
 **`feature.how-it-works`** — Integration 'How it works': H2 + rich text + CTA row beside a connection illustration, image or nothing (centred).
 
-· On 16 routes: Integration detail. · appears on 16 routes
+· On 16 routes: Integration detail. · appears on 16 routes · implemented by `src/pages/productV1/IntegrationDetail.jsx > HowItWorks`
 
 **`feature.icon-row`** — Three centred icon + H3 + text columns.
 
-· Only on /product/embedded-analytics/. · appears on 1 routes
+· Only on /product/embedded-analytics/. · appears on 1 routes · implemented by `src/pages/productV1/EmbeddedAnalytics.jsx > EmbeddedAnalytics`
 
 **`feature.illustrated-checklist`** — Illustration beside gradient title, lead, vertical tick checklist and CTA.
 
-· Only on /enterprise/. · appears on 1 routes
+· Only on /enterprise/. · appears on 1 routes · implemented by `src/pages/solutions/Enterprise.jsx > Governance`
 
 **`feature.info-card-grid`** — Grid of 2-3 glass cards: copy (optional eyebrow, H3, text, optional CTA) on top, screenshot bottom-aligned.
 
-· On 3 routes: some Product feature pages. · appears on 3 routes
+· On 3 routes: some Product feature pages. · appears on 3 routes · implemented by `src/pages/productCore/contextStudio/CsSections.jsx > UnifiedContext`
 
 **`feature.integration-custom-blocks`** — Integration-specific extra blocks: two-up connection columns or centred header + outline card grids.
 
-· On 3 routes: some Integration detail pages. · appears on 3 routes
+· On 2 routes: some Integration detail pages. · appears on 2 routes · implemented by `src/pages/productV1/IntegrationCustomBlocks.jsx > AwsBlocks`
 
 **`feature.integrations-grid`** — 'Instant integration' tout: italic+display H2, lead and a 3x2 grid of illustrated integration cards.
 
-· On 2 routes: Enterprise, Homepage. · appears on 2 routes
+· On 2 routes: Enterprise, Homepage. · appears on 2 routes · implemented by `src/components/sections/Integrations.jsx > Integrations`
 
 **`feature.live-app-embed`** — Centred H2 + text with inline link over tabbed external app embeds in a 16:9 white frame with an 'Explore this app' overlay link.
 
-· On 4 routes: some Solution detail pages. · appears on 4 routes
+· On 4 routes: some Solution detail pages. · appears on 4 routes · implemented by `src/pages/solutions/SolutionDetail.jsx > LiveAppEmbed`
 
 **`feature.magic`** — Animated AI glyph + H2 + lead beside a product image, over a slowly rotating line-art background.
 
-· Only on /product/notebooks/. · appears on 1 routes
+· Only on /product/notebooks/. · appears on 1 routes · implemented by `src/pages/productMore/notebooks/NotebooksPage.jsx > MagicFeature`
 
 **`feature.numbered-grid`** — Gradient H1-scale title, 2-column numbered feature grid with a CTA, beside a staggered column of compliance badge boxes.
 
-· Only on /enterprise/. · appears on 1 routes
+· Only on /enterprise/. · appears on 1 routes · implemented by `src/pages/solutions/Enterprise.jsx > DataIsSafe`
 
 **`feature.observability-callouts`** — Section header + a large product dashboard window with two text callouts floating left and right.
 
-· Only on /product/context-studio/. · appears on 1 routes
+· Only on /product/context-studio/. · appears on 1 routes · implemented by `src/pages/productCore/contextStudio/CsSections.jsx > ObservableEverywhere`
 
 **`feature.partner-tiers`** — Centred H2 + lead over three tier columns: tinted flag panel, H3, text, H4 and bullet list.
 
-· Only on /partners/. · appears on 1 routes
+· Only on /partners/. · appears on 1 routes · implemented by `src/pages/solutions/Partners.jsx > PartnerTiers`
 
 **`feature.partners-why`** — Illustration beside an H2, text and two md CTAs (integration / consulting partners).
 
-· Only on /partners/. · appears on 1 routes
+· Only on /partners/. · appears on 1 routes · implemented by `src/pages/solutions/Partners.jsx > PartnersWhy`
 
 **`feature.perlin-callout`** — Wide dark callout card on a hatched band: eyebrow, H2, optional text and secondary CTA, decorative art right.
 
-· On 2 routes: some Product feature pages. · appears on 2 routes
+· On 2 routes: some Product feature pages. · appears on 2 routes · implemented by `src/components/shared/PerlinCallout.jsx > PerlinCallout`
 
 **`feature.photo-collage`** — Italic+display H2 and lead positioned over a right-aligned collage of team photo cards.
 
-· Only on /about/. · appears on 1 routes
+· Only on /about/. · appears on 1 routes · implemented by `src/pages/companyCore/AboutPage.jsx > TeamOfDataNerds`
 
 **`feature.plan-comparison`** — Feature comparison table with sticky plan header, grouped sections, tick/text cells, tooltips and a compute-profiles modal.
 
-· Only on /pricing/. · appears on 1 routes
+· Only on /pricing/. · appears on 1 routes · implemented by `src/pages/pricingForms/pricing/PlanComparisonTable.jsx > PlanComparisonTable`
 
 **`feature.plan-summary`** — Two framed plan groups (individual / team) of plan cards: line icon, H3, description, price, CTA and tick list; team cards over rose Perlin.
 
-· Only on /pricing/. · appears on 1 routes
+· Only on /pricing/. · appears on 1 routes · implemented by `src/pages/pricingForms/pricing/PlanSummaryGroups.jsx > PlanSummaryGroups`
 
 **`feature.platform-overview`** — Centred H2, three linked workflow cards with isometric art and hover Perlin, a bracket label and a capability icon row.
 
-· Only on /product/context-studio/. · appears on 1 routes
+· Only on /product/context-studio/. · appears on 1 routes · implemented by `src/pages/productCore/contextStudio/CsSections.jsx > PlatformOverview`
 
 **`feature.podcast-episodes`** — InfoText (mark, H3, description) | divider | two interactive episode cards with a floating 'Watch podcast' button.
 
-· Only on /resources/guides/ai-analytics/. · appears on 1 routes
+· Only on /resources/guides/ai-analytics/. · appears on 1 routes · implemented by `src/pages/companyResources/AiAnalyticsGuidePage.jsx > Podcasts`
 
 **`feature.section-heading`** — Centred section heading: gradient H2 with optional checker-flanked italic line and description (display), solution-sized H2, or V1 panel H2 + subheader.
 
-· On 9 routes: some Product feature pages, Solution detail, some Product (legacy layout) pages. · appears on 9 routes
+· On 9 routes: some Product feature pages, Solution detail, some Product (legacy layout) pages. · appears on 9 routes · implemented by `src/components/shared/SectionHeading.jsx > SectionHeading`
 
 **`feature.snaked-rows`** — Five alternating feature rows joined by connecting lines, each a title, text, link and overlapping product cells.
 
-· Only on /product/data-apps/. · appears on 1 routes
+· Only on /product/data-apps/. · appears on 1 routes · implemented by `src/pages/productV1/DataApps.jsx > FeaturesTout`
 
 **`feature.solution-row`** — Solution feature row: 671px media box beside a 375px info column (solid 40px H2, optional bold subline, body, full-width secondary CTA).
 
-· On 5 routes: Solution detail. · appears on 5 routes
+· On 5 routes: Solution detail. · appears on 5 routes · implemented by `src/pages/solutions/SolutionDetail.jsx > FeatureRow`
 
 **`feature.split`** — Feature row: InfoText (icon, H3, optional description, CTA) + dashed inline quote beside an illustration or product mock; row or row-reverse.
 
-· On 3 routes: some Product feature pages, Homepage. · appears on 3 routes
+· On 3 routes: some Product feature pages, Homepage. · appears on 3 routes · implemented by `src/components/sections/TrustedAnswers.jsx > TrustedAnswers`
 
 **`feature.story-details`** — Three static glass detail cards (About / Outcome / Scale achieved) over a cartesian grid.
 
-· On 8 routes: Customer story. · appears on 8 routes
+· On 8 routes: Customer story. · appears on 8 routes · implemented by `src/pages/companyCore/CustomerStoryPage.jsx > StoryDetails`
 
 **`feature.support-grid`** — Centred gradient title + lead over a 2x2 icon-text grid beside a stair illustration.
 
-· Only on /enterprise/. · appears on 1 routes
+· Only on /enterprise/. · appears on 1 routes · implemented by `src/pages/solutions/Enterprise.jsx > Support`
 
 **`feature.use-cases`** — Use-case list: mark + H2 with italic subheading on the left, three linked use-case rows on the right.
 
-· Only on /. · appears on 1 routes
+· Only on /. · appears on 1 routes · implemented by `src/components/sections/UseCases.jsx > UseCases`
 
 **`feature.v1-two-up`** — V1 two-up row: InfoText with optional mono eyebrow, 40px H2, 1-2 paragraphs and optional CTA beside a 680px media column; alternating.
 
-· On 2 routes: some Product (legacy layout) pages. · appears on 2 routes
+· On 2 routes: some Product (legacy layout) pages. · appears on 2 routes · implemented by `src/pages/productV1/blocks.jsx > V1TwoUp`
 
 **`feature.video-embed`** — 'See it in action' H2 over a fixed-height frame with dashed corner guides holding an external video embed.
 
-· On 4 routes: some Integration detail pages. · appears on 4 routes
+· On 4 routes: some Integration detail pages. · appears on 4 routes · implemented by `src/pages/productV1/IntegrationDetail.jsx > Video`
 
 **`feature.workflow-split`** — Gradient H2 masthead over two divided halves (eyebrow, bold-lead description, three-item icon list).
 
-· Only on /capability/ai/. · appears on 1 routes
+· Only on /capability/ai/. · appears on 1 routes · implemented by `src/pages/productMore/ai/Workflows.jsx > Workflows`
 
 **`feature.workflow-table`** — Three-column task / prompt / result table with chat-bubble prompts and a highlighted result column.
 
-· Only on /product/cli/. · appears on 1 routes
+· Only on /product/cli/. · appears on 1 routes · implemented by `src/pages/productCore/cli/CliSections.jsx > WorkflowTable`
 
 ### COLLECTION
 
@@ -1085,63 +1084,63 @@ _Repeating card lists of other content: posts, stories, guides, events, template
 
 **`collection.blog-featured`** — Featured posts: one wide primary card (Perlin hover) + two secondary cards with image, date row, H2, subtitle and meta.
 
-· Only on /blog/. · appears on 1 routes
+· Only on /blog/. · appears on 1 routes · implemented by `src/pages/companyCore/BlogIndexPage.jsx > Featured`
 
 **`collection.blog-feed`** — Sticky category filter with count beside a list of post rows and a 'View more' button.
 
-· Only on /blog/. · appears on 1 routes
+· Only on /blog/. · appears on 1 routes · implemented by `src/pages/companyCore/BlogIndexPage.jsx > Feed`
 
 **`collection.blog-recent`** — Full-bleed 3-up strip of recent posts divided by 1px rules.
 
-· Only on /blog/. · appears on 1 routes
+· Only on /blog/. · appears on 1 routes · implemented by `src/pages/companyCore/BlogIndexPage.jsx > Recent`
 
 **`collection.customer-stories`** — Grid of glass customer-story cards (logo plate, H4, mono meta rows); index variant shows the full filterable grid, related variant a short list with H2.
 
-· On 9 routes: Customer story, Customers index. · appears on 9 routes
+· On 9 routes: Customer story, Customers index. · appears on 9 routes · implemented by `src/pages/companyCore/CustomersPage.jsx > StoriesSection`
 
 **`collection.events`** — Sticky filter sidebar beside grouped event-card grids under dark section headers (upcoming / on-demand).
 
-· Only on /resources/events/. · appears on 1 routes
+· Only on /resources/events/. · appears on 1 routes · implemented by `src/pages/companyResources/EventsPage.jsx > EventsPage`
 
 **`collection.external-links`** — 'Learn more' cut-out box of external resource links (title + source).
 
-· On 5 routes: some Integration detail pages. · appears on 5 routes
+· On 5 routes: some Integration detail pages. · appears on 5 routes · implemented by `src/pages/productV1/IntegrationDetail.jsx > ExternalLinks`
 
 **`collection.guides`** — Three-column grid of dark guide cards (image, H4, 'Download now').
 
-· Only on /resources/guides/. · appears on 1 routes
+· Only on /resources/guides/. · appears on 1 routes · implemented by `src/pages/companyResources/EventsPage.jsx > EventCardGrid`
 
 **`collection.integration-category`** — Integration category: H3 + description over a 4-column grid of logo tiles (one special rotating local-files tile).
 
-· Only on /product/integrations/. · appears on 1 routes
+· Only on /product/integrations/. · appears on 1 routes · implemented by `src/pages/productV1/IntegrationsIndex.jsx > Category`
 
 **`collection.newsroom-cards`** — Grid of glass press cards (thumbnail, H4, outlet + date) linking out; teaser variant adds an H2 and a 'view more' button.
 
-· On 2 routes: About, Newsroom. · appears on 2 routes
+· On 2 routes: About, Newsroom. · appears on 2 routes · implemented by `src/pages/companyCore/AboutPage.jsx > ElsewhereOnTheInternet`
 
 **`collection.newsroom-featured`** — One featured press card: large image beside H2 and outlet/date meta, linking to the external article.
 
-· Only on /newsroom/. · appears on 1 routes
+· Only on /newsroom/. · appears on 1 routes · implemented by `src/pages/companyCore/NewsroomPage.jsx > NewsroomPage`
 
 **`collection.open-roles`** — Open roles: sticky department/location filter sidebar beside department blocks of role rows, closed by a safety callout.
 
-· Only on /careers/. · appears on 1 routes
+· Only on /careers/. · appears on 1 routes · implemented by `src/pages/companyCore/CareersPage.jsx > OpenRoles`
 
 **`collection.partners-grid`** — Partners: centred H2 + lead over wrapped logo cards with tier badges.
 
-· Only on /partners/. · appears on 1 routes
+· Only on /partners/. · appears on 1 routes · implemented by `src/pages/solutions/Partners.jsx > PartnersGrid`
 
 **`collection.resource-cards`** — Resource card grid: glass cards with tag-tinted illustration, 16:9 frame, type chip, H4 and solution/read-time meta; solution variant uses plain article cards with 'Read more'.
 
-· On 8 routes: some Product feature pages, Solution detail, Gated guide landing, Solutions hub. · appears on 8 routes
+· On 8 routes: some Product feature pages, Solution detail, Gated guide landing, Solutions hub. · appears on 8 routes · implemented by `src/pages/productCore/bi/BiSections.jsx > Resources`
 
 **`collection.template-cards`** — Optional heading over a 3-column grid of outline template cards (preview, tag, H4, author, description).
 
-· On 2 routes: some Product feature pages, some Product (legacy layout) pages. · appears on 2 routes
+· On 2 routes: some Product feature pages, some Product (legacy layout) pages. · appears on 2 routes · implemented by `src/pages/productMore/notebooks/NotebooksPage.jsx > UseCasesTout`
 
 **`collection.templates-catalog`** — Category sidebar (position: relative, not sticky) beside per-category sections: dark header with 'View all' button and a 2-column template-card grid.
 
-· Only on /templates/. · appears on 1 routes
+· Only on /templates/. · appears on 1 routes · implemented by `src/pages/companyResources/TemplatesPage.jsx > TemplatesPage`
 
 ### CONTENT
 
@@ -1149,31 +1148,31 @@ _Long-form body content: article, story, guide chapters, report sections._
 
 **`content.article-body`** — Light content slab inside a dark page: sticky 'In this article' TOC aside with CTA, rich text column, in-body callout, share row and kicker.
 
-· Only on /blog/introducing-generative-data-apps/. · appears on 1 routes
+· Only on /blog/introducing-generative-data-apps/. · appears on 1 routes · implemented by `src/pages/companyCore/BlogPostPage.jsx > ArticleBody`
 
 **`content.guide-chapter`** — Long-form guide chapter card: chapter H2 then sub-sections with sticky H3s and a prose column (paragraphs, lists, quote cards, objection accordion).
 
-· Only on /product/switching-to-hex/. · appears on 1 routes
+· Only on /product/switching-to-hex/. · appears on 1 routes · implemented by `src/pages/productV1/SwitchingToHex.jsx > Chapter`
 
 **`content.report-intro`** — Report intro: H2 + paragraphs beside a glass 'Key findings' card.
 
-· Only on /state-of-data-teams/. · appears on 1 routes
+· Only on /state-of-data-teams/. · appears on 1 routes · implemented by `src/pages/companyResources/StateOfDataTeamsPage.jsx > Intro`
 
 **`content.report-outro`** — Report outro: running text beside a glass 'Questions? Talk to us.' card with a primary CTA.
 
-· Only on /state-of-data-teams/. · appears on 1 routes
+· Only on /state-of-data-teams/. · appears on 1 routes · implemented by `src/pages/companyResources/StateOfDataTeamsPage.jsx > Outro`
 
 **`content.report-section`** — Numbered report section: number card + H2, lead, alternating two-ups (text vs. chart with survey-question chip) and a full-width pull quote.
 
-· Only on /state-of-data-teams/. · appears on 1 routes
+· Only on /state-of-data-teams/. · appears on 1 routes · implemented by `src/pages/companyResources/StateOfDataTeamsPage.jsx > ReportSection`
 
 **`content.report-toc`** — Report table of contents: H2 + five numbered glass cards linking to section anchors.
 
-· Only on /state-of-data-teams/. · appears on 1 routes
+· Only on /state-of-data-teams/. · appears on 1 routes · implemented by `src/pages/companyResources/StateOfDataTeamsPage.jsx > Toc`
 
 **`content.story-body`** — Customer story body: rich text column between hatched gutters; section headings and pull quotes are real, other prose is placeholder.
 
-· On 8 routes: Customer story. · appears on 8 routes
+· On 8 routes: Customer story. · appears on 8 routes · implemented by `src/pages/companyCore/CustomerStoryPage.jsx > StoryBody`
 
 ### CONVERSION
 
@@ -1181,31 +1180,31 @@ _Calls to action and (visual-only) forms that close a page._
 
 **`conversion.bottom-cta`** — Homepage dashed two-column CTA: gradient H3 + text + two buttons | plans text + secondary button.
 
-· Only on /. · appears on 1 routes
+· Only on /. · appears on 1 routes · implemented by `src/components/sections/BottomCta.jsx > BottomCta`
 
 **`conversion.collage-cta`** — Centred two-line gradient H2, text and md CTA above a collage of overlapping product cells.
 
-· Only on /product/data-apps/. · appears on 1 routes
+· Only on /product/data-apps/. · appears on 1 routes · implemented by `src/pages/productV1/DataApps.jsx > FeedbackLoopTout`
 
 **`conversion.cta-split`** — Gradient title + two-column tick checklist beside the bordered outline CTA card.
 
-· Only on /enterprise/. · appears on 1 routes
+· Only on /enterprise/. · appears on 1 routes · implemented by `src/pages/solutions/Enterprise.jsx > CompleteSolution`
 
 **`conversion.form-shell`** — Visual-only lead form: tinted bordered box of labelled fields (2-column rows), local validation states, gradient submit and disclaimer. Never submits.
 
-· On 3 routes: Form page, Partners. · appears on 3 routes
+· On 3 routes: Form page, Partners. · appears on 3 routes · implemented by `src/pages/pricingForms/forms/HubSpotFormShell.jsx > HubSpotFormShell`
 
 **`conversion.install-cta`** — Terminal-style closing CTA: ASCII art, heading with italic line, lead, tabbed copy-to-clipboard install command and doc links.
 
-· Only on /product/cli/. · appears on 1 routes
+· Only on /product/cli/. · appears on 1 routes · implemented by `src/pages/productCore/cli/CliSections.jsx > CliFooterCta`
 
 **`conversion.outro-tout`** — Closing CTA: tron divider then a centred outline card with corner accent (H2, text, 1-2 lg buttons); band variant on a tinted band.
 
-· On 14 routes: some Product feature pages, Solution detail, Product (legacy layout), Gated guide landing. · appears on 14 routes
+· On 14 routes: some Product feature pages, Solution detail, Product (legacy layout), Gated guide landing. · appears on 14 routes · implemented by `src/components/shared/OutroTout.jsx > OutroTout`
 
 **`conversion.wallpaper-cta`** — Centred CTA over a faded glyph wallpaper: small icon, gradient H2, text and a button.
 
-· Only on /product/notebooks/. · appears on 1 routes
+· Only on /product/notebooks/. · appears on 1 routes · implemented by `src/pages/productMore/notebooks/NotebooksPage.jsx > WallpaperCta`
 
 ### FAQ
 
@@ -1213,7 +1212,7 @@ _Question-and-answer accordion._
 
 **`faq.accordion`** — FAQ accordion: optional heading, independent toggle rows (question + answer), optional 'Can't find your answer' footer link.
 
-· On 9 routes: some Integration detail pages, some Product feature pages, Enterprise, Homepage, Pricing, Report. · appears on 9 routes
+· On 9 routes: some Integration detail pages, some Product feature pages, Enterprise, Homepage, Pricing, Report. · appears on 9 routes · implemented by `src/components/sections/Faq.jsx > Faq`
 
 ### DIVIDER
 
@@ -1221,7 +1220,7 @@ _Decorative separator between sections._
 
 **`divider.tron`** — Nine 1px gradient rules with increasing gaps and decreasing opacity separating major blocks; optionally flipped.
 
-· On 20 routes: Integration detail, Enterprise, Homepage, Partners, Pricing. · appears on 20 routes
+· On 20 routes: Integration detail, Enterprise, Homepage, Partners, Pricing. · appears on 20 routes · implemented by `src/components/shared/TronDivider.jsx > TronDivider`
 
 ### NAVIGATION
 
@@ -1229,4 +1228,4 @@ _In-page navigation controls that filter or jump within a page's content._
 
 **`navigation.filter-chips`** — Single-select filter chip row (icon + label + optional count) with optional sort control; filters client-side.
 
-· On 2 routes: Customers index, Solutions hub. · appears on 2 routes
+· On 2 routes: Customers index, Solutions hub. · appears on 2 routes · implemented by `src/pages/solutions/SolutionsHub.jsx > SolutionsFilterNav`

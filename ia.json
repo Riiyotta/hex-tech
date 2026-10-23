@@ -1,5 +1,5 @@
 {
-  "$comment": "Drafted from design-repo/templates/routes.json (observed section order per route) and design-repo/sections/*.json (one description per section). Templates are split by real composition: a design-repo template whose member routes carry different section sets becomes one IA template per distinct set, linked back by 'family'. Repeated sections on one page (e.g. four feature.split rows) are listed once, at first occurrence. Edit this file by hand from now on; IA.md and matrix.csv are generated.",
+  "$comment": "Drafted from design-repo/templates/routes.json (observed section order per route) and design-repo/sections/*.json (one description per section). Templates are split by real composition: a design-repo template whose member routes carry different section sets becomes one IA template per distinct set, linked back by 'family'. Repeated sections on one page (e.g. four feature.split rows) are listed once, at first occurrence. Edit this file by hand from now on; IA.md and matrix.csv are generated. implementedBy names the component rendering the section's first/primary instance; alsoImplementedBy lists other components rendering the same section elsewhere (page-local copies, wrappers). Every name was grep-verified as a definition in that file.",
   "meta": {
     "title": "hex.tech clone — information architecture",
     "source": "Local React clone of https://hex.tech/ (this folder); route table src/routes.jsx",
@@ -27,637 +27,820 @@
       "category": "SHELL",
       "description": "Global footer: wordmark + emoji rotator, four link columns, legal row, static hit counter.",
       "scope": "On every full-chrome route (all 59); each page renders it at the end of its own tree.",
-      "contract": "design-repo/sections/shell.footer.json"
+      "contract": "design-repo/sections/shell.footer.json",
+      "implementedBy": "src/components/sections/Footer.jsx > Footer",
+      "alsoImplementedBy": [
+        "src/components/shared/FooterRow.jsx > FooterRow"
+      ]
     },
     "shell.header": {
       "category": "SHELL",
       "description": "Global fixed chrome: announcement ticker + main nav with mega-menus; identical on every site-layout page, themed only.",
       "scope": "On every full-chrome route (all 59); rendered once by the site shell layout, not by pages.",
-      "contract": "design-repo/sections/shell.header.json"
+      "contract": "design-repo/sections/shell.header.json",
+      "implementedBy": "src/components/Header.jsx > Header"
     },
     "hero.about": {
       "category": "HERO",
       "description": "About hero: italic + display two-line H1 over Perlin/cartesian backdrop, team photo card beside lead copy and an animated CTA.",
       "scope": "Only on /about/.",
-      "contract": "design-repo/sections/hero.about.json"
+      "contract": "design-repo/sections/hero.about.json",
+      "implementedBy": "src/pages/companyCore/AboutPage.jsx > AboutHero"
     },
     "hero.article": {
       "category": "HERO",
       "description": "Dark article header: eyebrow link, solid H1, dek, author/category/date meta, share links and hero media that overlaps the light body slab.",
       "scope": "Only on /blog/introducing-generative-data-apps/.",
-      "contract": "design-repo/sections/hero.article.json"
+      "contract": "design-repo/sections/hero.article.json",
+      "implementedBy": "src/pages/companyCore/BlogPostPage.jsx > ArticleHeader"
     },
     "hero.blog-masthead": {
       "category": "HERO",
       "description": "Blog masthead: small H1 on a category divider, search toggle, commit-graph strip and a stats line.",
       "scope": "Only on /blog/.",
-      "contract": "design-repo/sections/hero.blog-masthead.json"
+      "contract": "design-repo/sections/hero.blog-masthead.json",
+      "implementedBy": "src/pages/companyCore/BlogIndexPage.jsx > Masthead"
     },
     "hero.careers": {
       "category": "HERO",
       "description": "Careers hero: centred two-line H1, lead + emphasis and CTAs framed by a wall of team photos that blur in.",
       "scope": "Only on /careers/.",
-      "contract": "design-repo/sections/hero.careers.json"
+      "contract": "design-repo/sections/hero.careers.json",
+      "implementedBy": "src/pages/companyCore/CareersPage.jsx > CareersHero"
     },
     "hero.compare": {
       "category": "HERO",
       "description": "Compare hero: 74px gradient H1, lead, two CTAs and a dashed hatched 'vs.' panel of competitor cards.",
       "scope": "Only on /compare/.",
-      "contract": "design-repo/sections/hero.compare.json"
+      "contract": "design-repo/sections/hero.compare.json",
+      "implementedBy": "src/pages/solutions/Compare.jsx > Compare"
     },
     "hero.customers": {
       "category": "HERO",
       "description": "Customers index hero: heart line illustration behind an italic+display H1 and a short lead.",
       "scope": "Only on /customers/.",
-      "contract": "design-repo/sections/hero.customers.json"
+      "contract": "design-repo/sections/hero.customers.json",
+      "implementedBy": "src/pages/companyCore/CustomersPage.jsx > Hero"
     },
     "hero.enterprise": {
       "category": "HERO",
       "description": "Enterprise hero: vertical eyebrow, 68px solid H1, lead, two-column tick checklist and CTA beside an illustration.",
       "scope": "Only on /enterprise/.",
-      "contract": "design-repo/sections/hero.enterprise.json"
+      "contract": "design-repo/sections/hero.enterprise.json",
+      "implementedBy": "src/pages/solutions/Enterprise.jsx > EnterpriseHero"
     },
     "hero.form": {
       "category": "HERO",
       "description": "Form page heading: centred solid H1 and lead above the visual-only form shell.",
       "scope": "On 2 routes: Form page.",
-      "contract": "design-repo/sections/hero.form.json"
+      "contract": "design-repo/sections/hero.form.json",
+      "implementedBy": "src/pages/pricingForms/forms/FormPage.jsx > FormPage"
     },
     "hero.guide-document": {
       "category": "HERO",
       "description": "Long-form guide cover card: fading feature-tag list, oversized H1, lead and a three-group table of contents.",
       "scope": "Only on /product/switching-to-hex/.",
-      "contract": "design-repo/sections/hero.guide-document.json"
+      "contract": "design-repo/sections/hero.guide-document.json",
+      "implementedBy": "src/pages/productV1/SwitchingToHex.jsx > HeroDoc"
     },
     "hero.guide-landing": {
       "category": "HERO",
       "description": "Guide landing hero: two-line H1 with flanked italic line, lead, and a dark gated-download card.",
       "scope": "Only on /resources/guides/ai-analytics/.",
-      "contract": "design-repo/sections/hero.guide-landing.json"
+      "contract": "design-repo/sections/hero.guide-landing.json",
+      "implementedBy": "src/pages/companyResources/AiAnalyticsGuidePage.jsx > GuideHero"
     },
     "hero.heading-with-callout": {
       "category": "HERO",
       "description": "Index heading: two-line solid H1 + lead on the left, ruled tinted callout with a mail link on the right.",
       "scope": "Only on /product/integrations/.",
-      "contract": "design-repo/sections/hero.heading-with-callout.json"
+      "contract": "design-repo/sections/hero.heading-with-callout.json",
+      "implementedBy": "src/pages/productV1/IntegrationsIndex.jsx > IntegrationsIndex"
     },
     "hero.home": {
       "category": "HERO",
       "description": "Homepage stage: two-line display headline, pill-linked lead and two CTAs over Perlin + cartesian backdrop.",
       "scope": "Only on /.",
-      "contract": "design-repo/sections/hero.home.json"
+      "contract": "design-repo/sections/hero.home.json",
+      "implementedBy": "src/components/Hero.jsx > Hero"
     },
     "hero.integration": {
       "category": "HERO",
       "description": "Integration detail hero: label tab cut into a logo box, solid H1, lead and 1-2 md CTAs.",
       "scope": "On 16 routes: Integration detail.",
-      "contract": "design-repo/sections/hero.integration.json"
+      "contract": "design-repo/sections/hero.integration.json",
+      "implementedBy": "src/pages/productV1/IntegrationDetail.jsx > Info"
     },
     "hero.newsroom": {
       "category": "HERO",
       "description": "Newsroom header: left gradient H1 + press-contact line, media-kit callout on the right.",
       "scope": "Only on /newsroom/.",
-      "contract": "design-repo/sections/hero.newsroom.json"
+      "contract": "design-repo/sections/hero.newsroom.json",
+      "implementedBy": "src/pages/companyCore/NewsroomPage.jsx > NewsroomPage"
     },
     "hero.partners": {
       "category": "HERO",
       "description": "Partners hero: centred solid H1, paragraph lead and two md CTAs (anchor + external form link).",
       "scope": "Only on /partners/.",
-      "contract": "design-repo/sections/hero.partners.json"
+      "contract": "design-repo/sections/hero.partners.json",
+      "implementedBy": "src/pages/solutions/Partners.jsx > PartnersHero"
     },
     "hero.placeholder": {
       "category": "HERO",
       "description": "Fallback 'page still being built' placeholder for unrouted internal paths: path label, H1 and a back-home button.",
       "scope": "Only on *.",
-      "contract": "design-repo/sections/hero.placeholder.json"
+      "contract": "design-repo/sections/hero.placeholder.json",
+      "implementedBy": "src/pages/PagePending.jsx > PagePending"
     },
     "hero.pricing": {
       "category": "HERO",
       "description": "Pricing header: solid H1 and a 14px subline with an inline contact link.",
       "scope": "Only on /pricing/.",
-      "contract": "design-repo/sections/hero.pricing.json"
+      "contract": "design-repo/sections/hero.pricing.json",
+      "implementedBy": "src/pages/pricingForms/PricingPage.jsx > PricingHeader"
     },
     "hero.product": {
       "category": "HERO",
       "description": "Product/capability hero: optional announcement pill, gradient H1 (+ italic line), lead and CTAs beside a product visual.",
       "scope": "On 6 routes: Product feature.",
-      "contract": "design-repo/sections/hero.product.json"
+      "contract": "design-repo/sections/hero.product.json",
+      "implementedBy": "src/pages/productCore/bi/BiSections.jsx > BiHero",
+      "alsoImplementedBy": [
+        "src/pages/productCore/cli/CliSections.jsx > HeroCli",
+        "src/pages/productCore/contextStudio/CsSections.jsx > CsHero",
+        "src/pages/productMore/threads/ThreadsHero.jsx > ThreadsHero",
+        "src/pages/productMore/notebooks/NotebooksHero.jsx > NotebooksHero",
+        "src/pages/productMore/ai/PromptHero.jsx > PromptHero"
+      ]
     },
     "hero.report": {
       "category": "HERO",
       "description": "Report microsite hero: wordmark, hatched report artwork as H1 (screen-reader title), issue eyebrow and about copy.",
       "scope": "Only on /state-of-data-teams/.",
-      "contract": "design-repo/sections/hero.report.json"
+      "contract": "design-repo/sections/hero.report.json",
+      "implementedBy": "src/pages/companyResources/StateOfDataTeamsPage.jsx > Hero"
     },
     "hero.solution": {
       "category": "HERO",
       "description": "Solution-detail hero: centred gradient H1, one-line lead, primary + secondary lg CTAs.",
       "scope": "On 5 routes: Solution detail.",
-      "contract": "design-repo/sections/hero.solution.json"
+      "contract": "design-repo/sections/hero.solution.json",
+      "implementedBy": "src/pages/solutions/SolutionDetail.jsx > SolutionHero"
     },
     "hero.solutions-hub": {
       "category": "HERO",
       "description": "Hub hero: opaque glass panel with italic lead and a rotating 74px word, lead and two CTAs.",
       "scope": "Only on /solutions/.",
-      "contract": "design-repo/sections/hero.solutions-hub.json"
+      "contract": "design-repo/sections/hero.solutions-hub.json",
+      "implementedBy": "src/pages/solutions/SolutionsHub.jsx > SolutionsHero"
     },
     "hero.story": {
       "category": "HERO",
       "description": "Customer story header grid: logo cell, hatched cell, solid H1, dek and a centred metadata strip.",
       "scope": "On 8 routes: Customer story.",
-      "contract": "design-repo/sections/hero.story.json"
+      "contract": "design-repo/sections/hero.story.json",
+      "implementedBy": "src/pages/companyCore/CustomerStoryPage.jsx > StoryHeader"
     },
     "hero.v1": {
       "category": "HERO",
       "description": "V1 marketing hero: centred 74px gradient H1, lead and two md CTAs; app-builder variant adds pill + app strip.",
       "scope": "On 3 routes: Product (legacy layout).",
-      "contract": "design-repo/sections/hero.v1.json"
+      "contract": "design-repo/sections/hero.v1.json",
+      "implementedBy": "src/pages/productV1/blocks.jsx > V1Hero",
+      "alsoImplementedBy": [
+        "src/pages/productV1/DataApps.jsx > AppBuilderHeroTout"
+      ]
     },
     "hero.v1-intro": {
       "category": "HERO",
       "description": "Dark V1 resource intro: white 74px H1 + lead, with the line illustration beside it (split) or centred (catalog).",
       "scope": "On 3 routes: Resource index (legacy layout), Templates index.",
-      "contract": "design-repo/sections/hero.v1-intro.json"
+      "contract": "design-repo/sections/hero.v1-intro.json",
+      "implementedBy": "src/pages/companyResources/parts.jsx > V1Intro",
+      "alsoImplementedBy": [
+        "src/pages/companyResources/TemplatesPage.jsx > TemplatesPage"
+      ]
     },
     "proof.customer-banner": {
       "category": "PROOF",
       "description": "Logo band proving adoption: label + customer logo row; story logos get an indicator dot and a quote popover.",
       "scope": "On 16 routes: some Product feature pages, some Solution detail pages, some Product (legacy layout) pages, Form page, About, Compare, Enterprise, Homepage, Pricing, Solutions hub.",
-      "contract": "design-repo/sections/proof.customer-banner.json"
+      "contract": "design-repo/sections/proof.customer-banner.json",
+      "implementedBy": "src/components/sections/CustomerBanner.jsx > CustomerBanner"
     },
     "proof.featured-stories-fan": {
       "category": "PROOF",
       "description": "Static arc of five square story cards lifted on a -80/-35/0/-35/-80px curve.",
       "scope": "Only on /customers/.",
-      "contract": "design-repo/sections/proof.featured-stories-fan.json"
+      "contract": "design-repo/sections/proof.featured-stories-fan.json",
+      "implementedBy": "src/pages/companyCore/CustomersPage.jsx > FeaturedFan"
     },
     "proof.full-width-quote": {
       "category": "PROOF",
       "description": "Full-bleed quote band: logo + name/title attribution, vertical divider and a 24px quote with bold emphasis.",
       "scope": "On 4 routes: some Product feature pages.",
-      "contract": "design-repo/sections/proof.full-width-quote.json"
+      "contract": "design-repo/sections/proof.full-width-quote.json",
+      "implementedBy": "src/components/shared/FullWidthQuote.jsx > FullWidthQuote"
     },
     "proof.logo-wall": {
       "category": "PROOF",
       "description": "Wrapped wall of logos with a heading: customer wall (grayscale) or investor grid with a text lockup.",
       "scope": "On 2 routes: About, Customers index.",
-      "contract": "design-repo/sections/proof.logo-wall.json"
+      "contract": "design-repo/sections/proof.logo-wall.json",
+      "implementedBy": "src/pages/companyCore/CustomersPage.jsx > LovedByManyMore",
+      "alsoImplementedBy": [
+        "src/pages/companyCore/AboutPage.jsx > BackedByTheBest"
+      ]
     },
     "proof.quote-tiles": {
       "category": "PROOF",
       "description": "Grid of primary-button-styled quote tiles: grayscale logo, quote divider and a short quote.",
       "scope": "Only on /resources/guides/ai-analytics/.",
-      "contract": "design-repo/sections/proof.quote-tiles.json"
+      "contract": "design-repo/sections/proof.quote-tiles.json",
+      "implementedBy": "src/pages/companyResources/AiAnalyticsGuidePage.jsx > CustomerTiles"
     },
     "proof.quotes-marquee": {
       "category": "PROOF",
       "description": "Continuously scrolling row(s) of glass quote cards (logo, quote, optional headshot and author).",
       "scope": "On 4 routes: some Product feature pages, Customers index, Long-form guide.",
-      "contract": "design-repo/sections/proof.quotes-marquee.json"
+      "contract": "design-repo/sections/proof.quotes-marquee.json",
+      "implementedBy": "src/components/shared/CustomerQuotesMarquee.jsx > CustomerQuotesMarquee",
+      "alsoImplementedBy": [
+        "src/pages/companyCore/CustomersPage.jsx > QuotesMarquee"
+      ]
     },
     "proof.social-tout": {
       "category": "PROOF",
       "description": "Social proof row: G2 awards card and/or glass quote card(s).",
       "scope": "On 7 routes: some Product feature pages, some Solution detail pages, Product (legacy layout).",
-      "contract": "design-repo/sections/proof.social-tout.json"
+      "contract": "design-repo/sections/proof.social-tout.json",
+      "implementedBy": "src/components/shared/SocialTout.jsx > SocialTout",
+      "alsoImplementedBy": [
+        "src/pages/productV1/blocks.jsx > QuoteRow"
+      ]
     },
     "proof.stories-two-up": {
       "category": "PROOF",
       "description": "Sunken band of one or two centred customer quotes (logo, quote with bold emphasis, name + title).",
       "scope": "On 5 routes: some Integration detail pages, some Product feature pages, Homepage.",
-      "contract": "design-repo/sections/proof.stories-two-up.json"
+      "contract": "design-repo/sections/proof.stories-two-up.json",
+      "implementedBy": "src/components/sections/CustomerStoriesTwoUp.jsx > CustomerStoriesTwoUp",
+      "alsoImplementedBy": [
+        "src/pages/productV1/IntegrationDetail.jsx > QuotesMultiple"
+      ]
     },
     "proof.story-tout": {
       "category": "PROOF",
       "description": "Homepage 'Loved by the best data teams' tout: graph-paper title block, four story cards and the social row.",
       "scope": "Only on /.",
-      "contract": "design-repo/sections/proof.story-tout.json"
+      "contract": "design-repo/sections/proof.story-tout.json",
+      "implementedBy": "src/components/sections/LovedByTeams.jsx > LovedByTeams"
     },
     "feature.approach-cards": {
       "category": "FEATURE",
       "description": "Solid H2 over a 3-up grid of light glass cards (icon, H4, text, primary md CTA).",
       "scope": "Only on /product/bi/.",
-      "contract": "design-repo/sections/feature.approach-cards.json"
+      "contract": "design-repo/sections/feature.approach-cards.json",
+      "implementedBy": "src/pages/productCore/bi/BiSections.jsx > ApproachCards"
     },
     "feature.bento-cells": {
       "category": "FEATURE",
       "description": "Two-column bento of linked dark cells: title + text over a framed screenshot; hover lift with Perlin.",
       "scope": "On 2 routes: some Product feature pages.",
-      "contract": "design-repo/sections/feature.bento-cells.json"
+      "contract": "design-repo/sections/feature.bento-cells.json",
+      "implementedBy": "src/components/shared/BentoCell.jsx > BentoGrid",
+      "alsoImplementedBy": [
+        "src/pages/productCore/contextStudio/CsSections.jsx > BentoSection"
+      ]
     },
     "feature.built-different": {
       "category": "FEATURE",
       "description": "Centred statement: gradient two-line H2 + lead over an orbit illustration whose bubbles pop in.",
       "scope": "Only on /.",
-      "contract": "design-repo/sections/feature.built-different.json"
+      "contract": "design-repo/sections/feature.built-different.json",
+      "implementedBy": "src/components/sections/BuiltDifferent.jsx > BuiltDifferent"
     },
     "feature.cell-collage": {
       "category": "FEATURE",
       "description": "Floating InfoText (icon, H2, text, CTA) surrounded by absolutely positioned product cell screenshots.",
       "scope": "Only on /product/notebooks/.",
-      "contract": "design-repo/sections/feature.cell-collage.json"
+      "contract": "design-repo/sections/feature.cell-collage.json",
+      "implementedBy": "src/pages/productMore/notebooks/CellCollage.jsx > SqlPython",
+      "alsoImplementedBy": [
+        "src/pages/productMore/notebooks/CellCollage.jsx > NoCode",
+        "src/pages/productMore/notebooks/CellCollage.jsx > Viz"
+      ]
     },
     "feature.codegen-gallery": {
       "category": "FEATURE",
       "description": "Gradient H2 + lead + links, a large app-builder screenshot, then a 3-column gallery of copy-a-prompt cards.",
       "scope": "Only on /product/data-apps/.",
-      "contract": "design-repo/sections/feature.codegen-gallery.json"
+      "contract": "design-repo/sections/feature.codegen-gallery.json",
+      "implementedBy": "src/pages/productV1/DataApps.jsx > CodeGenGallery"
     },
     "feature.command-list": {
       "category": "FEATURE",
       "description": "Mark + gradient H2 with italic lead word beside a 2-column list of command features with inline code pills, over rose Perlin.",
       "scope": "Only on /product/cli/.",
-      "contract": "design-repo/sections/feature.command-list.json"
+      "contract": "design-repo/sections/feature.command-list.json",
+      "implementedBy": "src/pages/productCore/cli/CliSections.jsx > FeatureList"
     },
     "feature.demo-accordion": {
       "category": "FEATURE",
       "description": "Demo section: eyebrow, gradient H2, lead, 'Watch demo' pill, radio option list driving a media panel.",
       "scope": "Only on /capability/ai/.",
-      "contract": "design-repo/sections/feature.demo-accordion.json"
+      "contract": "design-repo/sections/feature.demo-accordion.json",
+      "implementedBy": "src/pages/productMore/ai/DemoAccordion.jsx > DemoAccordion"
     },
     "feature.ethos-cards": {
       "category": "FEATURE",
       "description": "Two glass cards with eyebrow pill, gradient H2, body + bullets and a CTA over a framed illustration.",
       "scope": "Only on /.",
-      "contract": "design-repo/sections/feature.ethos-cards.json"
+      "contract": "design-repo/sections/feature.ethos-cards.json",
+      "implementedBy": "src/components/sections/ProductEthos.jsx > ProductEthos"
     },
     "feature.execution-dag": {
       "category": "FEATURE",
       "description": "InfoText over a bleeding DAG illustration with a logo chip group, then three integration cards.",
       "scope": "Only on /product/notebooks/.",
-      "contract": "design-repo/sections/feature.execution-dag.json"
+      "contract": "design-repo/sections/feature.execution-dag.json",
+      "implementedBy": "src/pages/productMore/notebooks/ExecutionDag.jsx > ExecutionDag"
     },
     "feature.highlights": {
       "category": "FEATURE",
       "description": "Three-column tout: centred italic+display H2, lead and CTA flanked by two icon highlights with inline links.",
       "scope": "Only on /careers/.",
-      "contract": "design-repo/sections/feature.highlights.json"
+      "contract": "design-repo/sections/feature.highlights.json",
+      "implementedBy": "src/pages/companyCore/CareersPage.jsx > DoYourBestWork"
     },
     "feature.how-it-works": {
       "category": "FEATURE",
       "description": "Integration 'How it works': H2 + rich text + CTA row beside a connection illustration, image or nothing (centred).",
       "scope": "On 16 routes: Integration detail.",
-      "contract": "design-repo/sections/feature.how-it-works.json"
+      "contract": "design-repo/sections/feature.how-it-works.json",
+      "implementedBy": "src/pages/productV1/IntegrationDetail.jsx > HowItWorks"
     },
     "feature.icon-row": {
       "category": "FEATURE",
       "description": "Three centred icon + H3 + text columns.",
       "scope": "Only on /product/embedded-analytics/.",
-      "contract": "design-repo/sections/feature.icon-row.json"
+      "contract": "design-repo/sections/feature.icon-row.json",
+      "implementedBy": "src/pages/productV1/EmbeddedAnalytics.jsx > EmbeddedAnalytics"
     },
     "feature.illustrated-checklist": {
       "category": "FEATURE",
       "description": "Illustration beside gradient title, lead, vertical tick checklist and CTA.",
       "scope": "Only on /enterprise/.",
-      "contract": "design-repo/sections/feature.illustrated-checklist.json"
+      "contract": "design-repo/sections/feature.illustrated-checklist.json",
+      "implementedBy": "src/pages/solutions/Enterprise.jsx > Governance"
     },
     "feature.info-card-grid": {
       "category": "FEATURE",
       "description": "Grid of 2-3 glass cards: copy (optional eyebrow, H3, text, optional CTA) on top, screenshot bottom-aligned.",
       "scope": "On 3 routes: some Product feature pages.",
-      "contract": "design-repo/sections/feature.info-card-grid.json"
+      "contract": "design-repo/sections/feature.info-card-grid.json",
+      "implementedBy": "src/pages/productCore/contextStudio/CsSections.jsx > UnifiedContext",
+      "alsoImplementedBy": [
+        "src/pages/productCore/contextStudio/CsSections.jsx > ImprovesWithUse",
+        "src/pages/productCore/cli/CliSections.jsx > AnalyticsAgentWork",
+        "src/pages/productMore/ai/CapabilityAiPage.jsx > SecurityTout"
+      ]
     },
     "feature.integration-custom-blocks": {
       "category": "FEATURE",
       "description": "Integration-specific extra blocks: two-up connection columns or centred header + outline card grids.",
-      "scope": "On 3 routes: some Integration detail pages.",
-      "contract": "design-repo/sections/feature.integration-custom-blocks.json"
+      "scope": "On 2 routes: some Integration detail pages.",
+      "contract": "design-repo/sections/feature.integration-custom-blocks.json",
+      "implementedBy": "src/pages/productV1/IntegrationCustomBlocks.jsx > AwsBlocks",
+      "alsoImplementedBy": [
+        "src/pages/productV1/IntegrationCustomBlocks.jsx > SnowflakeBlocks"
+      ]
     },
     "feature.integrations-grid": {
       "category": "FEATURE",
       "description": "'Instant integration' tout: italic+display H2, lead and a 3x2 grid of illustrated integration cards.",
       "scope": "On 2 routes: Enterprise, Homepage.",
-      "contract": "design-repo/sections/feature.integrations-grid.json"
+      "contract": "design-repo/sections/feature.integrations-grid.json",
+      "implementedBy": "src/components/sections/Integrations.jsx > Integrations"
     },
     "feature.live-app-embed": {
       "category": "FEATURE",
       "description": "Centred H2 + text with inline link over tabbed external app embeds in a 16:9 white frame with an 'Explore this app' overlay link.",
       "scope": "On 4 routes: some Solution detail pages.",
-      "contract": "design-repo/sections/feature.live-app-embed.json"
+      "contract": "design-repo/sections/feature.live-app-embed.json",
+      "implementedBy": "src/pages/solutions/SolutionDetail.jsx > LiveAppEmbed"
     },
     "feature.magic": {
       "category": "FEATURE",
       "description": "Animated AI glyph + H2 + lead beside a product image, over a slowly rotating line-art background.",
       "scope": "Only on /product/notebooks/.",
-      "contract": "design-repo/sections/feature.magic.json"
+      "contract": "design-repo/sections/feature.magic.json",
+      "implementedBy": "src/pages/productMore/notebooks/NotebooksPage.jsx > MagicFeature"
     },
     "feature.numbered-grid": {
       "category": "FEATURE",
       "description": "Gradient H1-scale title, 2-column numbered feature grid with a CTA, beside a staggered column of compliance badge boxes.",
       "scope": "Only on /enterprise/.",
-      "contract": "design-repo/sections/feature.numbered-grid.json"
+      "contract": "design-repo/sections/feature.numbered-grid.json",
+      "implementedBy": "src/pages/solutions/Enterprise.jsx > DataIsSafe"
     },
     "feature.observability-callouts": {
       "category": "FEATURE",
       "description": "Section header + a large product dashboard window with two text callouts floating left and right.",
       "scope": "Only on /product/context-studio/.",
-      "contract": "design-repo/sections/feature.observability-callouts.json"
+      "contract": "design-repo/sections/feature.observability-callouts.json",
+      "implementedBy": "src/pages/productCore/contextStudio/CsSections.jsx > ObservableEverywhere"
     },
     "feature.partner-tiers": {
       "category": "FEATURE",
       "description": "Centred H2 + lead over three tier columns: tinted flag panel, H3, text, H4 and bullet list.",
       "scope": "Only on /partners/.",
-      "contract": "design-repo/sections/feature.partner-tiers.json"
+      "contract": "design-repo/sections/feature.partner-tiers.json",
+      "implementedBy": "src/pages/solutions/Partners.jsx > PartnerTiers"
     },
     "feature.partners-why": {
       "category": "FEATURE",
       "description": "Illustration beside an H2, text and two md CTAs (integration / consulting partners).",
       "scope": "Only on /partners/.",
-      "contract": "design-repo/sections/feature.partners-why.json"
+      "contract": "design-repo/sections/feature.partners-why.json",
+      "implementedBy": "src/pages/solutions/Partners.jsx > PartnersWhy"
     },
     "feature.perlin-callout": {
       "category": "FEATURE",
       "description": "Wide dark callout card on a hatched band: eyebrow, H2, optional text and secondary CTA, decorative art right.",
       "scope": "On 2 routes: some Product feature pages.",
-      "contract": "design-repo/sections/feature.perlin-callout.json"
+      "contract": "design-repo/sections/feature.perlin-callout.json",
+      "implementedBy": "src/components/shared/PerlinCallout.jsx > PerlinCallout"
     },
     "feature.photo-collage": {
       "category": "FEATURE",
       "description": "Italic+display H2 and lead positioned over a right-aligned collage of team photo cards.",
       "scope": "Only on /about/.",
-      "contract": "design-repo/sections/feature.photo-collage.json"
+      "contract": "design-repo/sections/feature.photo-collage.json",
+      "implementedBy": "src/pages/companyCore/AboutPage.jsx > TeamOfDataNerds"
     },
     "feature.plan-comparison": {
       "category": "FEATURE",
       "description": "Feature comparison table with sticky plan header, grouped sections, tick/text cells, tooltips and a compute-profiles modal.",
       "scope": "Only on /pricing/.",
-      "contract": "design-repo/sections/feature.plan-comparison.json"
+      "contract": "design-repo/sections/feature.plan-comparison.json",
+      "implementedBy": "src/pages/pricingForms/pricing/PlanComparisonTable.jsx > PlanComparisonTable"
     },
     "feature.plan-summary": {
       "category": "FEATURE",
       "description": "Two framed plan groups (individual / team) of plan cards: line icon, H3, description, price, CTA and tick list; team cards over rose Perlin.",
       "scope": "Only on /pricing/.",
-      "contract": "design-repo/sections/feature.plan-summary.json"
+      "contract": "design-repo/sections/feature.plan-summary.json",
+      "implementedBy": "src/pages/pricingForms/pricing/PlanSummaryGroups.jsx > PlanSummaryGroups",
+      "alsoImplementedBy": [
+        "src/pages/pricingForms/pricing/PlansMobileView.jsx > PlansMobileView"
+      ]
     },
     "feature.platform-overview": {
       "category": "FEATURE",
       "description": "Centred H2, three linked workflow cards with isometric art and hover Perlin, a bracket label and a capability icon row.",
       "scope": "Only on /product/context-studio/.",
-      "contract": "design-repo/sections/feature.platform-overview.json"
+      "contract": "design-repo/sections/feature.platform-overview.json",
+      "implementedBy": "src/pages/productCore/contextStudio/CsSections.jsx > PlatformOverview"
     },
     "feature.podcast-episodes": {
       "category": "FEATURE",
       "description": "InfoText (mark, H3, description) | divider | two interactive episode cards with a floating 'Watch podcast' button.",
       "scope": "Only on /resources/guides/ai-analytics/.",
-      "contract": "design-repo/sections/feature.podcast-episodes.json"
+      "contract": "design-repo/sections/feature.podcast-episodes.json",
+      "implementedBy": "src/pages/companyResources/AiAnalyticsGuidePage.jsx > Podcasts"
     },
     "feature.section-heading": {
       "category": "FEATURE",
       "description": "Centred section heading: gradient H2 with optional checker-flanked italic line and description (display), solution-sized H2, or V1 panel H2 + subheader.",
       "scope": "On 9 routes: some Product feature pages, Solution detail, some Product (legacy layout) pages.",
-      "contract": "design-repo/sections/feature.section-heading.json"
+      "contract": "design-repo/sections/feature.section-heading.json",
+      "implementedBy": "src/components/shared/SectionHeading.jsx > SectionHeading",
+      "alsoImplementedBy": [
+        "src/pages/productV1/blocks.jsx > V1H2Panel"
+      ]
     },
     "feature.snaked-rows": {
       "category": "FEATURE",
       "description": "Five alternating feature rows joined by connecting lines, each a title, text, link and overlapping product cells.",
       "scope": "Only on /product/data-apps/.",
-      "contract": "design-repo/sections/feature.snaked-rows.json"
+      "contract": "design-repo/sections/feature.snaked-rows.json",
+      "implementedBy": "src/pages/productV1/DataApps.jsx > FeaturesTout"
     },
     "feature.solution-row": {
       "category": "FEATURE",
       "description": "Solution feature row: 671px media box beside a 375px info column (solid 40px H2, optional bold subline, body, full-width secondary CTA).",
       "scope": "On 5 routes: Solution detail.",
-      "contract": "design-repo/sections/feature.solution-row.json"
+      "contract": "design-repo/sections/feature.solution-row.json",
+      "implementedBy": "src/pages/solutions/SolutionDetail.jsx > FeatureRow"
     },
     "feature.split": {
       "category": "FEATURE",
       "description": "Feature row: InfoText (icon, H3, optional description, CTA) + dashed inline quote beside an illustration or product mock; row or row-reverse.",
       "scope": "On 3 routes: some Product feature pages, Homepage.",
-      "contract": "design-repo/sections/feature.split.json"
+      "contract": "design-repo/sections/feature.split.json",
+      "implementedBy": "src/components/sections/TrustedAnswers.jsx > TrustedAnswers",
+      "alsoImplementedBy": [
+        "src/components/sections/OrganizationContext.jsx > OrganizationContext",
+        "src/components/sections/ConversationalAnalytics.jsx > ConversationalAnalytics",
+        "src/components/sections/ContextStudio.jsx > ContextStudio",
+        "src/pages/productCore/bi/BiSections.jsx > LookingDifferently",
+        "src/pages/productCore/bi/BiSections.jsx > ThreeFeatures",
+        "src/pages/productMore/threads/ThreadsPage.jsx > TwoUp"
+      ]
     },
     "feature.story-details": {
       "category": "FEATURE",
       "description": "Three static glass detail cards (About / Outcome / Scale achieved) over a cartesian grid.",
       "scope": "On 8 routes: Customer story.",
-      "contract": "design-repo/sections/feature.story-details.json"
+      "contract": "design-repo/sections/feature.story-details.json",
+      "implementedBy": "src/pages/companyCore/CustomerStoryPage.jsx > StoryDetails"
     },
     "feature.support-grid": {
       "category": "FEATURE",
       "description": "Centred gradient title + lead over a 2x2 icon-text grid beside a stair illustration.",
       "scope": "Only on /enterprise/.",
-      "contract": "design-repo/sections/feature.support-grid.json"
+      "contract": "design-repo/sections/feature.support-grid.json",
+      "implementedBy": "src/pages/solutions/Enterprise.jsx > Support"
     },
     "feature.use-cases": {
       "category": "FEATURE",
       "description": "Use-case list: mark + H2 with italic subheading on the left, three linked use-case rows on the right.",
       "scope": "Only on /.",
-      "contract": "design-repo/sections/feature.use-cases.json"
+      "contract": "design-repo/sections/feature.use-cases.json",
+      "implementedBy": "src/components/sections/UseCases.jsx > UseCases"
     },
     "feature.v1-two-up": {
       "category": "FEATURE",
       "description": "V1 two-up row: InfoText with optional mono eyebrow, 40px H2, 1-2 paragraphs and optional CTA beside a 680px media column; alternating.",
       "scope": "On 2 routes: some Product (legacy layout) pages.",
-      "contract": "design-repo/sections/feature.v1-two-up.json"
+      "contract": "design-repo/sections/feature.v1-two-up.json",
+      "implementedBy": "src/pages/productV1/blocks.jsx > V1TwoUp"
     },
     "feature.video-embed": {
       "category": "FEATURE",
       "description": "'See it in action' H2 over a fixed-height frame with dashed corner guides holding an external video embed.",
       "scope": "On 4 routes: some Integration detail pages.",
-      "contract": "design-repo/sections/feature.video-embed.json"
+      "contract": "design-repo/sections/feature.video-embed.json",
+      "implementedBy": "src/pages/productV1/IntegrationDetail.jsx > Video"
     },
     "feature.workflow-split": {
       "category": "FEATURE",
       "description": "Gradient H2 masthead over two divided halves (eyebrow, bold-lead description, three-item icon list).",
       "scope": "Only on /capability/ai/.",
-      "contract": "design-repo/sections/feature.workflow-split.json"
+      "contract": "design-repo/sections/feature.workflow-split.json",
+      "implementedBy": "src/pages/productMore/ai/Workflows.jsx > Workflows"
     },
     "feature.workflow-table": {
       "category": "FEATURE",
       "description": "Three-column task / prompt / result table with chat-bubble prompts and a highlighted result column.",
       "scope": "Only on /product/cli/.",
-      "contract": "design-repo/sections/feature.workflow-table.json"
+      "contract": "design-repo/sections/feature.workflow-table.json",
+      "implementedBy": "src/pages/productCore/cli/CliSections.jsx > WorkflowTable"
     },
     "collection.blog-featured": {
       "category": "COLLECTION",
       "description": "Featured posts: one wide primary card (Perlin hover) + two secondary cards with image, date row, H2, subtitle and meta.",
       "scope": "Only on /blog/.",
-      "contract": "design-repo/sections/collection.blog-featured.json"
+      "contract": "design-repo/sections/collection.blog-featured.json",
+      "implementedBy": "src/pages/companyCore/BlogIndexPage.jsx > Featured"
     },
     "collection.blog-feed": {
       "category": "COLLECTION",
       "description": "Sticky category filter with count beside a list of post rows and a 'View more' button.",
       "scope": "Only on /blog/.",
-      "contract": "design-repo/sections/collection.blog-feed.json"
+      "contract": "design-repo/sections/collection.blog-feed.json",
+      "implementedBy": "src/pages/companyCore/BlogIndexPage.jsx > Feed"
     },
     "collection.blog-recent": {
       "category": "COLLECTION",
       "description": "Full-bleed 3-up strip of recent posts divided by 1px rules.",
       "scope": "Only on /blog/.",
-      "contract": "design-repo/sections/collection.blog-recent.json"
+      "contract": "design-repo/sections/collection.blog-recent.json",
+      "implementedBy": "src/pages/companyCore/BlogIndexPage.jsx > Recent"
     },
     "collection.customer-stories": {
       "category": "COLLECTION",
       "description": "Grid of glass customer-story cards (logo plate, H4, mono meta rows); index variant shows the full filterable grid, related variant a short list with H2.",
       "scope": "On 9 routes: Customer story, Customers index.",
-      "contract": "design-repo/sections/collection.customer-stories.json"
+      "contract": "design-repo/sections/collection.customer-stories.json",
+      "implementedBy": "src/pages/companyCore/CustomersPage.jsx > StoriesSection",
+      "alsoImplementedBy": [
+        "src/pages/companyCore/CustomerStoryPage.jsx > RelatedStories"
+      ]
     },
     "collection.events": {
       "category": "COLLECTION",
       "description": "Sticky filter sidebar beside grouped event-card grids under dark section headers (upcoming / on-demand).",
       "scope": "Only on /resources/events/.",
-      "contract": "design-repo/sections/collection.events.json"
+      "contract": "design-repo/sections/collection.events.json",
+      "implementedBy": "src/pages/companyResources/EventsPage.jsx > EventsPage"
     },
     "collection.external-links": {
       "category": "COLLECTION",
       "description": "'Learn more' cut-out box of external resource links (title + source).",
       "scope": "On 5 routes: some Integration detail pages.",
-      "contract": "design-repo/sections/collection.external-links.json"
+      "contract": "design-repo/sections/collection.external-links.json",
+      "implementedBy": "src/pages/productV1/IntegrationDetail.jsx > ExternalLinks"
     },
     "collection.guides": {
       "category": "COLLECTION",
       "description": "Three-column grid of dark guide cards (image, H4, 'Download now').",
       "scope": "Only on /resources/guides/.",
-      "contract": "design-repo/sections/collection.guides.json"
+      "contract": "design-repo/sections/collection.guides.json",
+      "implementedBy": "src/pages/companyResources/EventsPage.jsx > EventCardGrid"
     },
     "collection.integration-category": {
       "category": "COLLECTION",
       "description": "Integration category: H3 + description over a 4-column grid of logo tiles (one special rotating local-files tile).",
       "scope": "Only on /product/integrations/.",
-      "contract": "design-repo/sections/collection.integration-category.json"
+      "contract": "design-repo/sections/collection.integration-category.json",
+      "implementedBy": "src/pages/productV1/IntegrationsIndex.jsx > Category"
     },
     "collection.newsroom-cards": {
       "category": "COLLECTION",
       "description": "Grid of glass press cards (thumbnail, H4, outlet + date) linking out; teaser variant adds an H2 and a 'view more' button.",
       "scope": "On 2 routes: About, Newsroom.",
-      "contract": "design-repo/sections/collection.newsroom-cards.json"
+      "contract": "design-repo/sections/collection.newsroom-cards.json",
+      "implementedBy": "src/pages/companyCore/AboutPage.jsx > ElsewhereOnTheInternet",
+      "alsoImplementedBy": [
+        "src/pages/companyCore/NewsroomPage.jsx > NewsroomPage"
+      ]
     },
     "collection.newsroom-featured": {
       "category": "COLLECTION",
       "description": "One featured press card: large image beside H2 and outlet/date meta, linking to the external article.",
       "scope": "Only on /newsroom/.",
-      "contract": "design-repo/sections/collection.newsroom-featured.json"
+      "contract": "design-repo/sections/collection.newsroom-featured.json",
+      "implementedBy": "src/pages/companyCore/NewsroomPage.jsx > NewsroomPage"
     },
     "collection.open-roles": {
       "category": "COLLECTION",
       "description": "Open roles: sticky department/location filter sidebar beside department blocks of role rows, closed by a safety callout.",
       "scope": "Only on /careers/.",
-      "contract": "design-repo/sections/collection.open-roles.json"
+      "contract": "design-repo/sections/collection.open-roles.json",
+      "implementedBy": "src/pages/companyCore/CareersPage.jsx > OpenRoles"
     },
     "collection.partners-grid": {
       "category": "COLLECTION",
       "description": "Partners: centred H2 + lead over wrapped logo cards with tier badges.",
       "scope": "Only on /partners/.",
-      "contract": "design-repo/sections/collection.partners-grid.json"
+      "contract": "design-repo/sections/collection.partners-grid.json",
+      "implementedBy": "src/pages/solutions/Partners.jsx > PartnersGrid"
     },
     "collection.resource-cards": {
       "category": "COLLECTION",
       "description": "Resource card grid: glass cards with tag-tinted illustration, 16:9 frame, type chip, H4 and solution/read-time meta; solution variant uses plain article cards with 'Read more'.",
       "scope": "On 8 routes: some Product feature pages, Solution detail, Gated guide landing, Solutions hub.",
-      "contract": "design-repo/sections/collection.resource-cards.json"
+      "contract": "design-repo/sections/collection.resource-cards.json",
+      "implementedBy": "src/pages/productCore/bi/BiSections.jsx > Resources",
+      "alsoImplementedBy": [
+        "src/pages/solutions/SolutionDetail.jsx > ResourceCards",
+        "src/pages/solutions/SolutionsHub.jsx > SolutionsHub",
+        "src/pages/companyResources/AiAnalyticsGuidePage.jsx > Resources"
+      ]
     },
     "collection.template-cards": {
       "category": "COLLECTION",
       "description": "Optional heading over a 3-column grid of outline template cards (preview, tag, H4, author, description).",
       "scope": "On 2 routes: some Product feature pages, some Product (legacy layout) pages.",
-      "contract": "design-repo/sections/collection.template-cards.json"
+      "contract": "design-repo/sections/collection.template-cards.json",
+      "implementedBy": "src/pages/productMore/notebooks/NotebooksPage.jsx > UseCasesTout",
+      "alsoImplementedBy": [
+        "src/pages/productV1/blocks.jsx > TemplateGrid"
+      ]
     },
     "collection.templates-catalog": {
       "category": "COLLECTION",
       "description": "Category sidebar (position: relative, not sticky) beside per-category sections: dark header with 'View all' button and a 2-column template-card grid.",
       "scope": "Only on /templates/.",
-      "contract": "design-repo/sections/collection.templates-catalog.json"
+      "contract": "design-repo/sections/collection.templates-catalog.json",
+      "implementedBy": "src/pages/companyResources/TemplatesPage.jsx > TemplatesPage"
     },
     "content.article-body": {
       "category": "CONTENT",
       "description": "Light content slab inside a dark page: sticky 'In this article' TOC aside with CTA, rich text column, in-body callout, share row and kicker.",
       "scope": "Only on /blog/introducing-generative-data-apps/.",
-      "contract": "design-repo/sections/content.article-body.json"
+      "contract": "design-repo/sections/content.article-body.json",
+      "implementedBy": "src/pages/companyCore/BlogPostPage.jsx > ArticleBody"
     },
     "content.guide-chapter": {
       "category": "CONTENT",
       "description": "Long-form guide chapter card: chapter H2 then sub-sections with sticky H3s and a prose column (paragraphs, lists, quote cards, objection accordion).",
       "scope": "Only on /product/switching-to-hex/.",
-      "contract": "design-repo/sections/content.guide-chapter.json"
+      "contract": "design-repo/sections/content.guide-chapter.json",
+      "implementedBy": "src/pages/productV1/SwitchingToHex.jsx > Chapter"
     },
     "content.report-intro": {
       "category": "CONTENT",
       "description": "Report intro: H2 + paragraphs beside a glass 'Key findings' card.",
       "scope": "Only on /state-of-data-teams/.",
-      "contract": "design-repo/sections/content.report-intro.json"
+      "contract": "design-repo/sections/content.report-intro.json",
+      "implementedBy": "src/pages/companyResources/StateOfDataTeamsPage.jsx > Intro"
     },
     "content.report-outro": {
       "category": "CONTENT",
       "description": "Report outro: running text beside a glass 'Questions? Talk to us.' card with a primary CTA.",
       "scope": "Only on /state-of-data-teams/.",
-      "contract": "design-repo/sections/content.report-outro.json"
+      "contract": "design-repo/sections/content.report-outro.json",
+      "implementedBy": "src/pages/companyResources/StateOfDataTeamsPage.jsx > Outro"
     },
     "content.report-section": {
       "category": "CONTENT",
       "description": "Numbered report section: number card + H2, lead, alternating two-ups (text vs. chart with survey-question chip) and a full-width pull quote.",
       "scope": "Only on /state-of-data-teams/.",
-      "contract": "design-repo/sections/content.report-section.json"
+      "contract": "design-repo/sections/content.report-section.json",
+      "implementedBy": "src/pages/companyResources/StateOfDataTeamsPage.jsx > ReportSection"
     },
     "content.report-toc": {
       "category": "CONTENT",
       "description": "Report table of contents: H2 + five numbered glass cards linking to section anchors.",
       "scope": "Only on /state-of-data-teams/.",
-      "contract": "design-repo/sections/content.report-toc.json"
+      "contract": "design-repo/sections/content.report-toc.json",
+      "implementedBy": "src/pages/companyResources/StateOfDataTeamsPage.jsx > Toc"
     },
     "content.story-body": {
       "category": "CONTENT",
       "description": "Customer story body: rich text column between hatched gutters; section headings and pull quotes are real, other prose is placeholder.",
       "scope": "On 8 routes: Customer story.",
-      "contract": "design-repo/sections/content.story-body.json"
+      "contract": "design-repo/sections/content.story-body.json",
+      "implementedBy": "src/pages/companyCore/CustomerStoryPage.jsx > StoryBody"
     },
     "conversion.bottom-cta": {
       "category": "CONVERSION",
       "description": "Homepage dashed two-column CTA: gradient H3 + text + two buttons | plans text + secondary button.",
       "scope": "Only on /.",
-      "contract": "design-repo/sections/conversion.bottom-cta.json"
+      "contract": "design-repo/sections/conversion.bottom-cta.json",
+      "implementedBy": "src/components/sections/BottomCta.jsx > BottomCta"
     },
     "conversion.collage-cta": {
       "category": "CONVERSION",
       "description": "Centred two-line gradient H2, text and md CTA above a collage of overlapping product cells.",
       "scope": "Only on /product/data-apps/.",
-      "contract": "design-repo/sections/conversion.collage-cta.json"
+      "contract": "design-repo/sections/conversion.collage-cta.json",
+      "implementedBy": "src/pages/productV1/DataApps.jsx > FeedbackLoopTout"
     },
     "conversion.cta-split": {
       "category": "CONVERSION",
       "description": "Gradient title + two-column tick checklist beside the bordered outline CTA card.",
       "scope": "Only on /enterprise/.",
-      "contract": "design-repo/sections/conversion.cta-split.json"
+      "contract": "design-repo/sections/conversion.cta-split.json",
+      "implementedBy": "src/pages/solutions/Enterprise.jsx > CompleteSolution"
     },
     "conversion.form-shell": {
       "category": "CONVERSION",
       "description": "Visual-only lead form: tinted bordered box of labelled fields (2-column rows), local validation states, gradient submit and disclaimer. Never submits.",
       "scope": "On 3 routes: Form page, Partners.",
-      "contract": "design-repo/sections/conversion.form-shell.json"
+      "contract": "design-repo/sections/conversion.form-shell.json",
+      "implementedBy": "src/pages/pricingForms/forms/HubSpotFormShell.jsx > HubSpotFormShell",
+      "alsoImplementedBy": [
+        "src/pages/solutions/Partners.jsx > PartnerRegister"
+      ]
     },
     "conversion.install-cta": {
       "category": "CONVERSION",
       "description": "Terminal-style closing CTA: ASCII art, heading with italic line, lead, tabbed copy-to-clipboard install command and doc links.",
       "scope": "Only on /product/cli/.",
-      "contract": "design-repo/sections/conversion.install-cta.json"
+      "contract": "design-repo/sections/conversion.install-cta.json",
+      "implementedBy": "src/pages/productCore/cli/CliSections.jsx > CliFooterCta"
     },
     "conversion.outro-tout": {
       "category": "CONVERSION",
       "description": "Closing CTA: tron divider then a centred outline card with corner accent (H2, text, 1-2 lg buttons); band variant on a tinted band.",
       "scope": "On 14 routes: some Product feature pages, Solution detail, Product (legacy layout), Gated guide landing.",
-      "contract": "design-repo/sections/conversion.outro-tout.json"
+      "contract": "design-repo/sections/conversion.outro-tout.json",
+      "implementedBy": "src/components/shared/OutroTout.jsx > OutroTout"
     },
     "conversion.wallpaper-cta": {
       "category": "CONVERSION",
       "description": "Centred CTA over a faded glyph wallpaper: small icon, gradient H2, text and a button.",
       "scope": "Only on /product/notebooks/.",
-      "contract": "design-repo/sections/conversion.wallpaper-cta.json"
+      "contract": "design-repo/sections/conversion.wallpaper-cta.json",
+      "implementedBy": "src/pages/productMore/notebooks/NotebooksPage.jsx > WallpaperCta"
     },
     "faq.accordion": {
       "category": "FAQ",
       "description": "FAQ accordion: optional heading, independent toggle rows (question + answer), optional 'Can't find your answer' footer link.",
       "scope": "On 9 routes: some Integration detail pages, some Product feature pages, Enterprise, Homepage, Pricing, Report.",
-      "contract": "design-repo/sections/faq.accordion.json"
+      "contract": "design-repo/sections/faq.accordion.json",
+      "implementedBy": "src/components/sections/Faq.jsx > Faq"
     },
     "divider.tron": {
       "category": "DIVIDER",
       "description": "Nine 1px gradient rules with increasing gaps and decreasing opacity separating major blocks; optionally flipped.",
       "scope": "On 20 routes: Integration detail, Enterprise, Homepage, Partners, Pricing.",
-      "contract": "design-repo/sections/divider.tron.json"
+      "contract": "design-repo/sections/divider.tron.json",
+      "implementedBy": "src/components/shared/TronDivider.jsx > TronDivider"
     },
     "navigation.filter-chips": {
       "category": "NAVIGATION",
       "description": "Single-select filter chip row (icon + label + optional count) with optional sort control; filters client-side.",
       "scope": "On 2 routes: Customers index, Solutions hub.",
-      "contract": "design-repo/sections/navigation.filter-chips.json"
+      "contract": "design-repo/sections/navigation.filter-chips.json",
+      "implementedBy": "src/pages/solutions/SolutionsHub.jsx > SolutionsFilterNav",
+      "alsoImplementedBy": [
+        "src/pages/companyCore/CustomersPage.jsx > StoriesSection"
+      ]
     }
   },
   "templates": [
@@ -767,8 +950,8 @@
       ]
     },
     {
-      "id": "template.integration-detail--with-custom-blocks-faq-links",
-      "name": "Integration detail — with custom blocks, FAQ and links",
+      "id": "template.integration-detail--with-faq-links",
+      "name": "Integration detail — with FAQ and links",
       "family": "template.integration-detail",
       "routeCount": 1,
       "routes": [
@@ -781,7 +964,6 @@
         "hero.integration",
         "divider.tron",
         "feature.how-it-works",
-        "feature.integration-custom-blocks",
         "faq.accordion",
         "collection.external-links",
         "shell.footer"
