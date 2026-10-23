@@ -2,6 +2,10 @@
   "id": "navigation.filter-chips",
   "category": "navigation",
   "purpose": "Single-select filter chip row (icon + label + optional count) with optional sort control; filters client-side.",
+  "implementedBy": "src/pages/solutions/SolutionsHub.jsx > SolutionsFilterNav",
+  "alsoImplementedBy": [
+    "src/pages/companyCore/CustomersPage.jsx > StoriesSection"
+  ],
   "variants": [
     "solutions-hub",
     "customers"

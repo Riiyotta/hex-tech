@@ -2,6 +2,7 @@
   "id": "hero.careers",
   "category": "hero",
   "purpose": "Careers hero: centred two-line H1, lead + emphasis and CTAs framed by a wall of team photos that blur in.",
+  "implementedBy": "src/pages/companyCore/CareersPage.jsx > CareersHero",
   "variants": [],
   "content": {
     "italicLine": {

@@ -2,6 +2,7 @@
   "id": "collection.blog-feed",
   "category": "collection",
   "purpose": "Sticky category filter with count beside a list of post rows and a 'View more' button.",
+  "implementedBy": "src/pages/companyCore/BlogIndexPage.jsx > Feed",
   "variants": [],
   "content": {
     "headline": {

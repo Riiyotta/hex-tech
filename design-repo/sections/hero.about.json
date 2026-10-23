@@ -2,6 +2,7 @@
   "id": "hero.about",
   "category": "hero",
   "purpose": "About hero: italic + display two-line H1 over Perlin/cartesian backdrop, team photo card beside lead copy and an animated CTA.",
+  "implementedBy": "src/pages/companyCore/AboutPage.jsx > AboutHero",
   "variants": [],
   "content": {
     "italicLine": {

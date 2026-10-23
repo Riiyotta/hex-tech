@@ -2,6 +2,10 @@
   "id": "collection.template-cards",
   "category": "collection",
   "purpose": "Optional heading over a 3-column grid of outline template cards (preview, tag, H4, author, description).",
+  "implementedBy": "src/pages/productMore/notebooks/NotebooksPage.jsx > UseCasesTout",
+  "alsoImplementedBy": [
+    "src/pages/productV1/blocks.jsx > TemplateGrid"
+  ],
   "variants": [],
   "content": {
     "headline": {

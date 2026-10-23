@@ -2,6 +2,7 @@
   "id": "feature.video-embed",
   "category": "feature",
   "purpose": "'See it in action' H2 over a fixed-height frame with dashed corner guides holding an external video embed.",
+  "implementedBy": "src/pages/productV1/IntegrationDetail.jsx > Video",
   "variants": [],
   "content": {
     "title": {

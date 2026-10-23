@@ -2,6 +2,10 @@
   "id": "proof.logo-wall",
   "category": "proof",
   "purpose": "Wrapped wall of logos with a heading: customer wall (grayscale) or investor grid with a text lockup.",
+  "implementedBy": "src/pages/companyCore/CustomersPage.jsx > LovedByManyMore",
+  "alsoImplementedBy": [
+    "src/pages/companyCore/AboutPage.jsx > BackedByTheBest"
+  ],
   "variants": [
     "customers",
     "investors"

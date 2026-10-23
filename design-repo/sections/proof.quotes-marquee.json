@@ -2,6 +2,10 @@
   "id": "proof.quotes-marquee",
   "category": "proof",
   "purpose": "Continuously scrolling row(s) of glass quote cards (logo, quote, optional headshot and author).",
+  "implementedBy": "src/components/shared/CustomerQuotesMarquee.jsx > CustomerQuotesMarquee",
+  "alsoImplementedBy": [
+    "src/pages/companyCore/CustomersPage.jsx > QuotesMarquee"
+  ],
   "variants": [
     "single-row",
     "dual-row"

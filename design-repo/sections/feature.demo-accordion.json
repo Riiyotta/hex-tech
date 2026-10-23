@@ -2,6 +2,7 @@
   "id": "feature.demo-accordion",
   "category": "feature",
   "purpose": "Demo section: eyebrow, gradient H2, lead, 'Watch demo' pill, radio option list driving a media panel.",
+  "implementedBy": "src/pages/productMore/ai/DemoAccordion.jsx > DemoAccordion",
   "variants": [],
   "content": {
     "eyebrow": {

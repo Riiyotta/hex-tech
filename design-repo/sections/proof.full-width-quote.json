@@ -2,6 +2,7 @@
   "id": "proof.full-width-quote",
   "category": "proof",
   "purpose": "Full-bleed quote band: logo + name/title attribution, vertical divider and a 24px quote with bold emphasis.",
+  "implementedBy": "src/components/shared/FullWidthQuote.jsx > FullWidthQuote",
   "variants": [],
   "content": {
     "logo": {

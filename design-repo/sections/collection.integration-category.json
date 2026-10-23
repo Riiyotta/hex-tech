@@ -2,6 +2,7 @@
   "id": "collection.integration-category",
   "category": "collection",
   "purpose": "Integration category: H3 + description over a 4-column grid of logo tiles (one special rotating local-files tile).",
+  "implementedBy": "src/pages/productV1/IntegrationsIndex.jsx > Category",
   "variants": [],
   "content": {
     "title": {

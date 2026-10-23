@@ -2,6 +2,7 @@
   "id": "feature.illustrated-checklist",
   "category": "feature",
   "purpose": "Illustration beside gradient title, lead, vertical tick checklist and CTA.",
+  "implementedBy": "src/pages/solutions/Enterprise.jsx > Governance",
   "variants": [],
   "content": {
     "headline": {

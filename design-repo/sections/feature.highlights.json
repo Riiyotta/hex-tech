@@ -2,6 +2,7 @@
   "id": "feature.highlights",
   "category": "feature",
   "purpose": "Three-column tout: centred italic+display H2, lead and CTA flanked by two icon highlights with inline links.",
+  "implementedBy": "src/pages/companyCore/CareersPage.jsx > DoYourBestWork",
   "variants": [],
   "content": {
     "italicLine": {

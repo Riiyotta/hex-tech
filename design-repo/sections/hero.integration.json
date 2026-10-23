@@ -2,6 +2,7 @@
   "id": "hero.integration",
   "category": "hero",
   "purpose": "Integration detail hero: label tab cut into a logo box, solid H1, lead and 1-2 md CTAs.",
+  "implementedBy": "src/pages/productV1/IntegrationDetail.jsx > Info",
   "variants": [],
   "content": {
     "label": {

@@ -22,7 +22,7 @@ tokens/llm/                 token-catalog.json, token-policy.json, component-all
 primitives/ (13)        button, animated-cta, announcement-pill, code-pill, meta-rows, tron-divider, ...
 components/ (18)        glass-card, outline-card, info-text, quote-card, product-window, ...
 sections/ (106)          one contract per observed section type (content fields + maxWords, constraints,
-                            motion, responsive, asset roles, evidence)
+                            motion, responsive, asset roles, evidence, implementing component)
 templates/                  templates.json (25 page shapes) + routes.json (60 routes incl. '*' fallback,
                             2 redirects, 2 dev-only non-routes)
 compatibility/              graph.json (22 rules with severity) + motion-patterns.json (10 patterns)
@@ -43,10 +43,16 @@ python3 schema/semantic_validate.py schema/example.pagespec.json
 
 `verify_all.py` checks: schema validity of the example, the semantic validator on the example and on every
 route's observed sequence, allowlist parity (allowlist <-> contract files <-> schema), citation validity
-(every `path:line` resolves and its anchor text is on that line), token-reference resolution, theme closure,
-pinned asset-role policies, graph-rule <-> validator parity, manifest count recompute, version parity and a
-repo-wide absolute-path scan. Citations point at the sibling source project (the folder containing this
+(every `path:line` resolves and its anchor text is on that line), component links, token-reference resolution,
+theme closure, pinned asset-role policies, graph-rule <-> validator parity, manifest count recompute, version
+parity and a repo-wide absolute-path scan. Citations point at the sibling source project (the folder containing this
 `design-repo/`); when that tree is absent the citation checks **warn instead of failing**.
+
+Each section contract names the component that renders it: `implementedBy` (`"src/path/File.jsx > Name"`, relative
+to the source project root) and, where other components render the same section elsewhere, `alsoImplementedBy`.
+Every contract must have `implementedBy`. Each named definition must exist in its file, and both fields must equal
+the same section's entries in the sibling `../ia.json`. Change them in both places together. The resolve and
+parity checks warn instead of failing when the source tree is absent.
 
 ## How a PageSpec is checked
 

@@ -2,6 +2,7 @@
   "id": "feature.ethos-cards",
   "category": "feature",
   "purpose": "Two glass cards with eyebrow pill, gradient H2, body + bullets and a CTA over a framed illustration.",
+  "implementedBy": "src/components/sections/ProductEthos.jsx > ProductEthos",
   "variants": [],
   "content": {
     "cards": {

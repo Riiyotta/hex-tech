@@ -2,6 +2,10 @@
   "id": "hero.v1",
   "category": "hero",
   "purpose": "V1 marketing hero: centred 74px gradient H1, lead and two md CTAs; app-builder variant adds pill + app strip.",
+  "implementedBy": "src/pages/productV1/blocks.jsx > V1Hero",
+  "alsoImplementedBy": [
+    "src/pages/productV1/DataApps.jsx > AppBuilderHeroTout"
+  ],
   "variants": [
     "centered",
     "app-builder"

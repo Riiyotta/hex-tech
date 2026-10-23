@@ -2,6 +2,15 @@
   "id": "feature.split",
   "category": "feature",
   "purpose": "Feature row: InfoText (icon, H3, optional description, CTA) + dashed inline quote beside an illustration or product mock; row or row-reverse.",
+  "implementedBy": "src/components/sections/TrustedAnswers.jsx > TrustedAnswers",
+  "alsoImplementedBy": [
+    "src/components/sections/OrganizationContext.jsx > OrganizationContext",
+    "src/components/sections/ConversationalAnalytics.jsx > ConversationalAnalytics",
+    "src/components/sections/ContextStudio.jsx > ContextStudio",
+    "src/pages/productCore/bi/BiSections.jsx > LookingDifferently",
+    "src/pages/productCore/bi/BiSections.jsx > ThreeFeatures",
+    "src/pages/productMore/threads/ThreadsPage.jsx > TwoUp"
+  ],
   "variants": [
     "chat-tools",
     "org-cycle",

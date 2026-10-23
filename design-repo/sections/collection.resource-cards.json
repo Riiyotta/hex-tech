@@ -2,6 +2,12 @@
   "id": "collection.resource-cards",
   "category": "collection",
   "purpose": "Resource card grid: glass cards with tag-tinted illustration, 16:9 frame, type chip, H4 and solution/read-time meta; solution variant uses plain article cards with 'Read more'.",
+  "implementedBy": "src/pages/productCore/bi/BiSections.jsx > Resources",
+  "alsoImplementedBy": [
+    "src/pages/solutions/SolutionDetail.jsx > ResourceCards",
+    "src/pages/solutions/SolutionsHub.jsx > SolutionsHub",
+    "src/pages/companyResources/AiAnalyticsGuidePage.jsx > Resources"
+  ],
   "variants": [
     "glass-grid",
     "solution-articles",

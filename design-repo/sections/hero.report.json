@@ -2,6 +2,7 @@
   "id": "hero.report",
   "category": "hero",
   "purpose": "Report microsite hero: wordmark, hatched report artwork as H1 (screen-reader title), issue eyebrow and about copy.",
+  "implementedBy": "src/pages/companyResources/StateOfDataTeamsPage.jsx > Hero",
   "variants": [],
   "content": {
     "srTitle": {

@@ -2,6 +2,10 @@
   "id": "proof.social-tout",
   "category": "proof",
   "purpose": "Social proof row: G2 awards card and/or glass quote card(s).",
+  "implementedBy": "src/components/shared/SocialTout.jsx > SocialTout",
+  "alsoImplementedBy": [
+    "src/pages/productV1/blocks.jsx > QuoteRow"
+  ],
   "variants": [
     "g2-and-quote",
     "quote-pair",

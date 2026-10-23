@@ -2,6 +2,7 @@
   "id": "hero.enterprise",
   "category": "hero",
   "purpose": "Enterprise hero: vertical eyebrow, 68px solid H1, lead, two-column tick checklist and CTA beside an illustration.",
+  "implementedBy": "src/pages/solutions/Enterprise.jsx > EnterpriseHero",
   "variants": [],
   "content": {
     "eyebrow": {

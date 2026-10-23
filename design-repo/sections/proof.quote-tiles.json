@@ -2,6 +2,7 @@
   "id": "proof.quote-tiles",
   "category": "proof",
   "purpose": "Grid of primary-button-styled quote tiles: grayscale logo, quote divider and a short quote.",
+  "implementedBy": "src/pages/companyResources/AiAnalyticsGuidePage.jsx > CustomerTiles",
   "variants": [],
   "content": {
     "headline": {

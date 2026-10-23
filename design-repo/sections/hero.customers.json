@@ -2,6 +2,7 @@
   "id": "hero.customers",
   "category": "hero",
   "purpose": "Customers index hero: heart line illustration behind an italic+display H1 and a short lead.",
+  "implementedBy": "src/pages/companyCore/CustomersPage.jsx > Hero",
   "variants": [],
   "content": {
     "italicLine": {

@@ -2,6 +2,10 @@
   "id": "collection.newsroom-cards",
   "category": "collection",
   "purpose": "Grid of glass press cards (thumbnail, H4, outlet + date) linking out; teaser variant adds an H2 and a 'view more' button.",
+  "implementedBy": "src/pages/companyCore/AboutPage.jsx > ElsewhereOnTheInternet",
+  "alsoImplementedBy": [
+    "src/pages/companyCore/NewsroomPage.jsx > NewsroomPage"
+  ],
   "variants": [
     "teaser",
     "index-grid"

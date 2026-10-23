@@ -2,6 +2,7 @@
   "id": "hero.newsroom",
   "category": "hero",
   "purpose": "Newsroom header: left gradient H1 + press-contact line, media-kit callout on the right.",
+  "implementedBy": "src/pages/companyCore/NewsroomPage.jsx > NewsroomPage",
   "variants": [],
   "content": {
     "headline": {

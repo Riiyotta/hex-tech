@@ -2,6 +2,7 @@
   "id": "proof.story-tout",
   "category": "proof",
   "purpose": "Homepage 'Loved by the best data teams' tout: graph-paper title block, four story cards and the social row.",
+  "implementedBy": "src/components/sections/LovedByTeams.jsx > LovedByTeams",
   "variants": [],
   "content": {
     "italicWord": {

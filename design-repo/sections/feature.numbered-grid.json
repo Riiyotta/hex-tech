@@ -2,6 +2,7 @@
   "id": "feature.numbered-grid",
   "category": "feature",
   "purpose": "Gradient H1-scale title, 2-column numbered feature grid with a CTA, beside a staggered column of compliance badge boxes.",
+  "implementedBy": "src/pages/solutions/Enterprise.jsx > DataIsSafe",
   "variants": [],
   "content": {
     "headline": {

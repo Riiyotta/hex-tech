@@ -2,6 +2,10 @@
   "id": "proof.stories-two-up",
   "category": "proof",
   "purpose": "Sunken band of one or two centred customer quotes (logo, quote with bold emphasis, name + title).",
+  "implementedBy": "src/components/sections/CustomerStoriesTwoUp.jsx > CustomerStoriesTwoUp",
+  "alsoImplementedBy": [
+    "src/pages/productV1/IntegrationDetail.jsx > QuotesMultiple"
+  ],
   "variants": [
     "two-up",
     "quotes-multiple"

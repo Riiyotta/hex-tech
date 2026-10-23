@@ -2,6 +2,7 @@
   "id": "collection.events",
   "category": "collection",
   "purpose": "Sticky filter sidebar beside grouped event-card grids under dark section headers (upcoming / on-demand).",
+  "implementedBy": "src/pages/companyResources/EventsPage.jsx > EventsPage",
   "variants": [],
   "content": {
     "filters": {

@@ -2,6 +2,7 @@
   "id": "hero.placeholder",
   "category": "hero",
   "purpose": "Fallback 'page still being built' placeholder for unrouted internal paths: path label, H1 and a back-home button.",
+  "implementedBy": "src/pages/PagePending.jsx > PagePending",
   "variants": [],
   "content": {
     "pathLabel": {

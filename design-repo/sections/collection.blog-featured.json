@@ -2,6 +2,7 @@
   "id": "collection.blog-featured",
   "category": "collection",
   "purpose": "Featured posts: one wide primary card (Perlin hover) + two secondary cards with image, date row, H2, subtitle and meta.",
+  "implementedBy": "src/pages/companyCore/BlogIndexPage.jsx > Featured",
   "variants": [],
   "content": {
     "posts": {

@@ -2,6 +2,7 @@
   "id": "collection.external-links",
   "category": "collection",
   "purpose": "'Learn more' cut-out box of external resource links (title + source).",
+  "implementedBy": "src/pages/productV1/IntegrationDetail.jsx > ExternalLinks",
   "variants": [],
   "content": {
     "banner": {

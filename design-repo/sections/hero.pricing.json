@@ -2,6 +2,7 @@
   "id": "hero.pricing",
   "category": "hero",
   "purpose": "Pricing header: solid H1 and a 14px subline with an inline contact link.",
+  "implementedBy": "src/pages/pricingForms/PricingPage.jsx > PricingHeader",
   "variants": [],
   "content": {
     "headline": {

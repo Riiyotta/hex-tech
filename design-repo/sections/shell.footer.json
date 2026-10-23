@@ -2,6 +2,10 @@
   "id": "shell.footer",
   "category": "shell",
   "purpose": "Global footer: wordmark + emoji rotator, four link columns, legal row, static hit counter.",
+  "implementedBy": "src/components/sections/Footer.jsx > Footer",
+  "alsoImplementedBy": [
+    "src/components/shared/FooterRow.jsx > FooterRow"
+  ],
   "variants": [],
   "content": {},
   "motion": {

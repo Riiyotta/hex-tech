@@ -2,6 +2,7 @@
   "id": "feature.podcast-episodes",
   "category": "feature",
   "purpose": "InfoText (mark, H3, description) | divider | two interactive episode cards with a floating 'Watch podcast' button.",
+  "implementedBy": "src/pages/companyResources/AiAnalyticsGuidePage.jsx > Podcasts",
   "variants": [],
   "content": {
     "title": {

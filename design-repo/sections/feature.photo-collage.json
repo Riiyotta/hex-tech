@@ -2,6 +2,7 @@
   "id": "feature.photo-collage",
   "category": "feature",
   "purpose": "Italic+display H2 and lead positioned over a right-aligned collage of team photo cards.",
+  "implementedBy": "src/pages/companyCore/AboutPage.jsx > TeamOfDataNerds",
   "variants": [],
   "content": {
     "italicLine": {

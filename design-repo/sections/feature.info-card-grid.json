@@ -2,6 +2,12 @@
   "id": "feature.info-card-grid",
   "category": "feature",
   "purpose": "Grid of 2-3 glass cards: copy (optional eyebrow, H3, text, optional CTA) on top, screenshot bottom-aligned.",
+  "implementedBy": "src/pages/productCore/contextStudio/CsSections.jsx > UnifiedContext",
+  "alsoImplementedBy": [
+    "src/pages/productCore/contextStudio/CsSections.jsx > ImprovesWithUse",
+    "src/pages/productCore/cli/CliSections.jsx > AnalyticsAgentWork",
+    "src/pages/productMore/ai/CapabilityAiPage.jsx > SecurityTout"
+  ],
   "variants": [
     "default",
     "eyebrowed"

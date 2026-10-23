@@ -2,6 +2,7 @@
   "id": "feature.perlin-callout",
   "category": "feature",
   "purpose": "Wide dark callout card on a hatched band: eyebrow, H2, optional text and secondary CTA, decorative art right.",
+  "implementedBy": "src/components/shared/PerlinCallout.jsx > PerlinCallout",
   "variants": [],
   "content": {
     "eyebrow": {

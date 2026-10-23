@@ -2,6 +2,7 @@
   "id": "feature.integrations-grid",
   "category": "feature",
   "purpose": "'Instant integration' tout: italic+display H2, lead and a 3x2 grid of illustrated integration cards.",
+  "implementedBy": "src/components/sections/Integrations.jsx > Integrations",
   "variants": [],
   "content": {
     "italicLine": {

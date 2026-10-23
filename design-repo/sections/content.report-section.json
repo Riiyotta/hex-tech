@@ -2,6 +2,7 @@
   "id": "content.report-section",
   "category": "content",
   "purpose": "Numbered report section: number card + H2, lead, alternating two-ups (text vs. chart with survey-question chip) and a full-width pull quote.",
+  "implementedBy": "src/pages/companyResources/StateOfDataTeamsPage.jsx > ReportSection",
   "variants": [],
   "content": {
     "number": {

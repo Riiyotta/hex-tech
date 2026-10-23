@@ -2,6 +2,10 @@
   "id": "feature.plan-summary",
   "category": "feature",
   "purpose": "Two framed plan groups (individual / team) of plan cards: line icon, H3, description, price, CTA and tick list; team cards over rose Perlin.",
+  "implementedBy": "src/pages/pricingForms/pricing/PlanSummaryGroups.jsx > PlanSummaryGroups",
+  "alsoImplementedBy": [
+    "src/pages/pricingForms/pricing/PlansMobileView.jsx > PlansMobileView"
+  ],
   "variants": [],
   "content": {
     "groups": {

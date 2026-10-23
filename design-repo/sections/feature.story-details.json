@@ -2,6 +2,7 @@
   "id": "feature.story-details",
   "category": "feature",
   "purpose": "Three static glass detail cards (About / Outcome / Scale achieved) over a cartesian grid.",
+  "implementedBy": "src/pages/companyCore/CustomerStoryPage.jsx > StoryDetails",
   "variants": [],
   "content": {
     "cards": {

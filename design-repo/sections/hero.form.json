@@ -2,6 +2,7 @@
   "id": "hero.form",
   "category": "hero",
   "purpose": "Form page heading: centred solid H1 and lead above the visual-only form shell.",
+  "implementedBy": "src/pages/pricingForms/forms/FormPage.jsx > FormPage",
   "variants": [],
   "content": {
     "headline": {

@@ -2,6 +2,14 @@
   "id": "hero.product",
   "category": "hero",
   "purpose": "Product/capability hero: optional announcement pill, gradient H1 (+ italic line), lead and CTAs beside a product visual.",
+  "implementedBy": "src/pages/productCore/bi/BiSections.jsx > BiHero",
+  "alsoImplementedBy": [
+    "src/pages/productCore/cli/CliSections.jsx > HeroCli",
+    "src/pages/productCore/contextStudio/CsSections.jsx > CsHero",
+    "src/pages/productMore/threads/ThreadsHero.jsx > ThreadsHero",
+    "src/pages/productMore/notebooks/NotebooksHero.jsx > NotebooksHero",
+    "src/pages/productMore/ai/PromptHero.jsx > PromptHero"
+  ],
   "variants": [
     "illustration",
     "terminal",

@@ -2,6 +2,7 @@
   "id": "collection.partners-grid",
   "category": "collection",
   "purpose": "Partners: centred H2 + lead over wrapped logo cards with tier badges.",
+  "implementedBy": "src/pages/solutions/Partners.jsx > PartnersGrid",
   "variants": [],
   "content": {
     "headline": {

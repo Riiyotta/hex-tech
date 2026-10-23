@@ -2,6 +2,7 @@
   "id": "feature.partner-tiers",
   "category": "feature",
   "purpose": "Centred H2 + lead over three tier columns: tinted flag panel, H3, text, H4 and bullet list.",
+  "implementedBy": "src/pages/solutions/Partners.jsx > PartnerTiers",
   "variants": [],
   "content": {
     "headline": {

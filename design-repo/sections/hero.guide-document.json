@@ -2,6 +2,7 @@
   "id": "hero.guide-document",
   "category": "hero",
   "purpose": "Long-form guide cover card: fading feature-tag list, oversized H1, lead and a three-group table of contents.",
+  "implementedBy": "src/pages/productV1/SwitchingToHex.jsx > HeroDoc",
   "variants": [],
   "content": {
     "featureTags": {

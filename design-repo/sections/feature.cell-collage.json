@@ -2,6 +2,11 @@
   "id": "feature.cell-collage",
   "category": "feature",
   "purpose": "Floating InfoText (icon, H2, text, CTA) surrounded by absolutely positioned product cell screenshots.",
+  "implementedBy": "src/pages/productMore/notebooks/CellCollage.jsx > SqlPython",
+  "alsoImplementedBy": [
+    "src/pages/productMore/notebooks/CellCollage.jsx > NoCode",
+    "src/pages/productMore/notebooks/CellCollage.jsx > Viz"
+  ],
   "variants": [],
   "content": {
     "title": {

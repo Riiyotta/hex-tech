@@ -2,6 +2,7 @@
   "id": "feature.live-app-embed",
   "category": "feature",
   "purpose": "Centred H2 + text with inline link over tabbed external app embeds in a 16:9 white frame with an 'Explore this app' overlay link.",
+  "implementedBy": "src/pages/solutions/SolutionDetail.jsx > LiveAppEmbed",
   "variants": [],
   "content": {
     "title": {

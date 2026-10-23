@@ -2,6 +2,7 @@
   "id": "content.report-outro",
   "category": "content",
   "purpose": "Report outro: running text beside a glass 'Questions? Talk to us.' card with a primary CTA.",
+  "implementedBy": "src/pages/companyResources/StateOfDataTeamsPage.jsx > Outro",
   "variants": [],
   "content": {
     "body": {

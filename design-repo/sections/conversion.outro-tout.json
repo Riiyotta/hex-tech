@@ -2,6 +2,7 @@
   "id": "conversion.outro-tout",
   "category": "conversion",
   "purpose": "Closing CTA: tron divider then a centred outline card with corner accent (H2, text, 1-2 lg buttons); band variant on a tinted band.",
+  "implementedBy": "src/components/shared/OutroTout.jsx > OutroTout",
   "variants": [
     "default",
     "band"

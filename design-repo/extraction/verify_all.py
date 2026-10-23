@@ -7,6 +7,8 @@ Checks (each prints PASS / WARN / FAIL):
   * allowlist parity: allowlist <-> contract files <-> schema (ids, props, content fields, variants, asset roles),
   * citation validity: every measuredFrom ref is in the ledger, every ledger 'path:line' resolves and its anchors
     are on that line (downgraded to WARN when the sibling source tree is absent),
+  * component links: every section's implementedBy / alsoImplementedBy names a definition that exists in that source
+    file, and matches the sibling ../ia.json (downgraded to WARN when the source tree is absent),
   * token-reference resolution (catalog, contract token lists, {ref} strings incl. responsive breakpoints),
   * theme closure (every semantic role resolved in both themes),
   * pinned asset-role policies,
@@ -197,6 +199,47 @@ def check_citations():
     report(name, probs, warn_only=not present)
 
 
+def check_components(files):
+    """implementedBy is 'path > Name' (or a bare 'path'), relative to the source project root like citations."""
+    src_root = os.path.normpath(os.path.join(REPO, load("extraction/measured-values.json")["sourceRoot"]))
+    present = os.path.isfile(os.path.join(src_root, "CLONE_SPEC.md"))
+    sections = {i: c for i, (layer, rel, c) in files.items() if layer == "section"}
+    shape, probs = [], []
+    for i, c in sorted(sections.items()):
+        refs = [c.get("implementedBy")] + list(c.get("alsoImplementedBy", []))
+        if not isinstance(refs[0], str) or not refs[0]:
+            shape.append("%s: implementedBy missing" % i)
+            continue
+        for ref in refs:
+            path, _, name = ref.partition(" > ")
+            if not path.startswith("src/"):
+                shape.append("%s: %r must be a src/ path" % (i, ref))
+                continue
+            full = os.path.join(src_root, path)
+            if not os.path.isfile(full):
+                probs.append("%s: %s missing" % (i, path))
+            elif name:
+                with open(full, encoding="utf-8") as f:
+                    if not re.search(r"\b(function|const|let|class)\s+%s\b" % re.escape(name), f.read()):
+                        probs.append("%s: %s is not defined in %s" % (i, name, path))
+    ia_path = os.path.join(src_root, "ia.json")
+    if os.path.isfile(ia_path):
+        with open(ia_path, encoding="utf-8") as f:
+            ia = json.load(f)["sections"]
+        for i in sorted(set(sections) | set(ia)):
+            a, b = sections.get(i, {}), ia.get(i, {})
+            for k in ("implementedBy", "alsoImplementedBy"):
+                if a.get(k) != b.get(k):
+                    probs.append("%s: %s differs between the contract and ia.json" % (i, k))
+    elif present:
+        probs.append("ia.json missing from the source project root")
+    report("every section names its component (%d sections)" % len(sections), shape)
+    name = "component links resolve in the source and match ia.json"
+    if not present:
+        name += " -- source tree absent, downgraded"
+    report(name, probs, warn_only=not present)
+
+
 def check_tokens(files):
     leaves = {}
     for p in sorted(glob.glob(os.path.join(REPO, "tokens", "[0-9][0-9]-*", "*.json"))):
@@ -316,6 +359,7 @@ def main():
     check_routes(repo)
     files = check_allowlist(repo)
     check_citations()
+    check_components(files)
     leaves, semantic = check_tokens(files)
     check_assets(repo)
     check_graph(repo)

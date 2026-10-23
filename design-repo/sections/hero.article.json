@@ -2,6 +2,7 @@
   "id": "hero.article",
   "category": "hero",
   "purpose": "Dark article header: eyebrow link, solid H1, dek, author/category/date meta, share links and hero media that overlaps the light body slab.",
+  "implementedBy": "src/pages/companyCore/BlogPostPage.jsx > ArticleHeader",
   "variants": [],
   "content": {
     "eyebrow": {

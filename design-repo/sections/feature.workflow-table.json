@@ -2,6 +2,7 @@
   "id": "feature.workflow-table",
   "category": "feature",
   "purpose": "Three-column task / prompt / result table with chat-bubble prompts and a highlighted result column.",
+  "implementedBy": "src/pages/productCore/cli/CliSections.jsx > WorkflowTable",
   "variants": [],
   "content": {
     "heading": {

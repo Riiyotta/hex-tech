@@ -2,6 +2,7 @@
   "id": "hero.partners",
   "category": "hero",
   "purpose": "Partners hero: centred solid H1, paragraph lead and two md CTAs (anchor + external form link).",
+  "implementedBy": "src/pages/solutions/Partners.jsx > PartnersHero",
   "variants": [],
   "content": {
     "headline": {

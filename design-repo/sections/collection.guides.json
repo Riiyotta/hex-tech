@@ -2,6 +2,7 @@
   "id": "collection.guides",
   "category": "collection",
   "purpose": "Three-column grid of dark guide cards (image, H4, 'Download now').",
+  "implementedBy": "src/pages/companyResources/EventsPage.jsx > EventCardGrid",
   "variants": [],
   "content": {
     "cards": {

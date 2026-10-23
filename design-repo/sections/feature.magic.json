@@ -2,6 +2,7 @@
   "id": "feature.magic",
   "category": "feature",
   "purpose": "Animated AI glyph + H2 + lead beside a product image, over a slowly rotating line-art background.",
+  "implementedBy": "src/pages/productMore/notebooks/NotebooksPage.jsx > MagicFeature",
   "variants": [],
   "content": {
     "title": {

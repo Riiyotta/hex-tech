@@ -2,6 +2,7 @@
   "id": "conversion.bottom-cta",
   "category": "conversion",
   "purpose": "Homepage dashed two-column CTA: gradient H3 + text + two buttons | plans text + secondary button.",
+  "implementedBy": "src/components/sections/BottomCta.jsx > BottomCta",
   "variants": [],
   "content": {
     "title": {

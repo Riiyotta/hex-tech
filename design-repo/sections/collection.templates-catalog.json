@@ -2,6 +2,7 @@
   "id": "collection.templates-catalog",
   "category": "collection",
   "purpose": "Category sidebar (position: relative, not sticky) beside per-category sections: dark header with 'View all' button and a 2-column template-card grid.",
+  "implementedBy": "src/pages/companyResources/TemplatesPage.jsx > TemplatesPage",
   "variants": [],
   "content": {
     "categories": {

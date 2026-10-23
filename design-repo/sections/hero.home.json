@@ -2,6 +2,7 @@
   "id": "hero.home",
   "category": "hero",
   "purpose": "Homepage stage: two-line display headline, pill-linked lead and two CTAs over Perlin + cartesian backdrop.",
+  "implementedBy": "src/components/Hero.jsx > Hero",
   "variants": [],
   "content": {
     "headline": {

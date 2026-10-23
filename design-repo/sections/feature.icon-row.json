@@ -2,6 +2,7 @@
   "id": "feature.icon-row",
   "category": "feature",
   "purpose": "Three centred icon + H3 + text columns.",
+  "implementedBy": "src/pages/productV1/EmbeddedAnalytics.jsx > EmbeddedAnalytics",
   "variants": [],
   "content": {
     "items": {

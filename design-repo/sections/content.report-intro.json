@@ -2,6 +2,7 @@
   "id": "content.report-intro",
   "category": "content",
   "purpose": "Report intro: H2 + paragraphs beside a glass 'Key findings' card.",
+  "implementedBy": "src/pages/companyResources/StateOfDataTeamsPage.jsx > Intro",
   "variants": [],
   "content": {
     "headline": {

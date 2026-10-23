@@ -2,6 +2,10 @@
   "id": "feature.integration-custom-blocks",
   "category": "feature",
   "purpose": "Integration-specific extra blocks: two-up connection columns or centred header + outline card grids.",
+  "implementedBy": "src/pages/productV1/IntegrationCustomBlocks.jsx > AwsBlocks",
+  "alsoImplementedBy": [
+    "src/pages/productV1/IntegrationCustomBlocks.jsx > SnowflakeBlocks"
+  ],
   "variants": [],
   "content": {
     "blocks": {
