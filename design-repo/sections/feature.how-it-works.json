@@ -1,0 +1,150 @@
+{
+  "id": "feature.how-it-works",
+  "category": "feature",
+  "purpose": "Integration 'How it works': H2 + rich text + CTA row beside a connection illustration, image or nothing (centred).",
+  "variants": [],
+  "content": {
+    "title": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 4,
+      "observedWords": [
+        3
+      ],
+      "measuredFrom": [
+        "specs/product.md:686"
+      ]
+    },
+    "layout": {
+      "kind": "enum",
+      "values": [
+        "two-column",
+        "single-column-centered"
+      ],
+      "required": true,
+      "measuredFrom": [
+        "specs/product.md:690"
+      ]
+    },
+    "body": {
+      "kind": "richText",
+      "required": true,
+      "maxBlocks": 6,
+      "blockTypes": [
+        "paragraph",
+        "list"
+      ],
+      "maxWordsPerBlock": 67,
+      "measuredFrom": [
+        "specs/product-integrations.json:261"
+      ],
+      "placeholderInClone": false
+    },
+    "actions": {
+      "kind": "list",
+      "required": true,
+      "minItems": 1,
+      "maxItems": 2,
+      "measuredFrom": [
+        "specs/product.md:686"
+      ],
+      "item": {
+        "kind": "action",
+        "required": true,
+        "label": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 10,
+          "observedWords": [
+            4,
+            3,
+            4,
+            8
+          ],
+          "measuredFrom": [
+            "CLONE_SPEC.md:208",
+            "specs/product.md:258",
+            "specs/solutions.md:291"
+          ]
+        },
+        "variants": [
+          "primary",
+          "secondary"
+        ],
+        "sizes": [
+          "md"
+        ]
+      }
+    },
+    "illustration": {
+      "kind": "media",
+      "required": false,
+      "roles": [
+        "image.product-ui",
+        "image.product-screenshot"
+      ],
+      "alt": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 18,
+        "observedWords": [
+          14,
+          14
+        ],
+        "measuredFrom": [
+          "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+          "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+        ]
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.tablet}",
+      "change": "stack-columns",
+      "detail": "illustration below the text",
+      "measuredFrom": [
+        "specs/product.md:685"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/product.md:684"
+  ],
+  "wordBudgets": {
+    "actions[].label": 10,
+    "illustration.alt": 18,
+    "title": 4
+  },
+  "richTextBudgets": {
+    "body": {
+      "maxBlocks": 6,
+      "maxWordsPerBlock": 67,
+      "blockTypes": [
+        "paragraph",
+        "list"
+      ]
+    }
+  },
+  "assetRoles": [
+    "image.product-screenshot",
+    "image.product-ui"
+  ],
+  "usedByTemplates": [
+    "template.integration-detail"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__feature.how-it-works",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

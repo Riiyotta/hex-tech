@@ -1,0 +1,178 @@
+{
+  "id": "feature.plan-summary",
+  "category": "feature",
+  "purpose": "Two framed plan groups (individual / team) of plan cards: line icon, H3, description, price, CTA and tick list; team cards over rose Perlin.",
+  "variants": [],
+  "content": {
+    "groups": {
+      "kind": "list",
+      "required": true,
+      "minItems": 2,
+      "maxItems": 2,
+      "measuredFrom": [
+        "specs/solutions.md:125"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "label": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 3,
+            "observedWords": [
+              2
+            ],
+            "measuredFrom": [
+              "specs/solutions.md:722"
+            ]
+          },
+          "plans": {
+            "kind": "list",
+            "required": true,
+            "minItems": 2,
+            "maxItems": 2,
+            "measuredFrom": [
+              "specs/solutions.md:125"
+            ],
+            "item": {
+              "kind": "object",
+              "required": true,
+              "fields": {
+                "name": {
+                  "kind": "text",
+                  "required": true,
+                  "maxWords": 2,
+                  "observedWords": [
+                    1
+                  ],
+                  "measuredFrom": [
+                    "specs/solutions.md:735"
+                  ]
+                },
+                "description": {
+                  "kind": "text",
+                  "required": true,
+                  "maxWords": 10,
+                  "observedWords": [
+                    8
+                  ],
+                  "measuredFrom": [
+                    "specs/solutions.md:735"
+                  ]
+                },
+                "price": {
+                  "kind": "text",
+                  "required": true,
+                  "maxWords": 7,
+                  "observedWords": [
+                    5
+                  ],
+                  "measuredFrom": [
+                    "specs/solutions.md:735"
+                  ]
+                },
+                "action": {
+                  "kind": "action",
+                  "required": true,
+                  "label": {
+                    "kind": "text",
+                    "required": true,
+                    "maxWords": 5,
+                    "observedWords": [
+                      4
+                    ],
+                    "measuredFrom": [
+                      "specs/solutions.md:741"
+                    ]
+                  },
+                  "variants": [
+                    "primary",
+                    "secondary"
+                  ],
+                  "sizes": [
+                    "lg",
+                    "md"
+                  ]
+                },
+                "listIntro": {
+                  "kind": "text",
+                  "required": true,
+                  "maxWords": 3,
+                  "observedWords": [
+                    2
+                  ],
+                  "measuredFrom": [
+                    "specs/solutions.md:730"
+                  ]
+                },
+                "features": {
+                  "kind": "list",
+                  "required": true,
+                  "minItems": 4,
+                  "maxItems": 9,
+                  "measuredFrom": [
+                    "specs/solutions.md:749"
+                  ],
+                  "item": {
+                    "kind": "text",
+                    "required": true,
+                    "maxWords": 7,
+                    "observedWords": [
+                      5
+                    ],
+                    "measuredFrom": [
+                      "specs/solutions.md:744"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in",
+      "perlin-drift"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "swap-to-mobile-variant",
+      "detail": "replaced by stacked mobile plan cards with expanders",
+      "measuredFrom": [
+        "specs/solutions.md:879"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/solutions.md:718"
+  ],
+  "wordBudgets": {
+    "groups[].label": 3,
+    "groups[].plans[].action.label": 5,
+    "groups[].plans[].description": 10,
+    "groups[].plans[].features[]": 7,
+    "groups[].plans[].listIntro": 3,
+    "groups[].plans[].name": 2,
+    "groups[].plans[].price": 7
+  },
+  "richTextBudgets": {},
+  "assetRoles": [],
+  "usedByTemplates": [
+    "template.pricing"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__feature.plan-summary",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

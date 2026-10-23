@@ -1,0 +1,97 @@
+{
+  "id": "content.report-toc",
+  "category": "content",
+  "purpose": "Report table of contents: H2 + five numbered glass cards linking to section anchors.",
+  "variants": [],
+  "content": {
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 4,
+      "observedWords": [
+        3
+      ],
+      "measuredFrom": [
+        "specs/company.md:363"
+      ]
+    },
+    "items": {
+      "kind": "list",
+      "required": true,
+      "minItems": 5,
+      "maxItems": 5,
+      "measuredFrom": [
+        "specs/company.md:363"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "number": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 12,
+            "observedWords": [
+              9
+            ],
+            "measuredFrom": [
+              "specs/company.md:3532"
+            ]
+          },
+          "title": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 14,
+            "observedWords": [
+              11
+            ],
+            "measuredFrom": [
+              "specs/company.md:3533"
+            ]
+          },
+          "anchor": {
+            "kind": "href",
+            "required": true
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.phone-sm}",
+      "change": "reflow-wrap",
+      "detail": "cards wrap 2-up",
+      "measuredFrom": [
+        "specs/company.md:366"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/company.md:363"
+  ],
+  "wordBudgets": {
+    "headline": 4,
+    "items[].number": 12,
+    "items[].title": 14
+  },
+  "richTextBudgets": {},
+  "assetRoles": [],
+  "usedByTemplates": [
+    "template.report"
+  ],
+  "observedThemes": [
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__content.report-toc",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

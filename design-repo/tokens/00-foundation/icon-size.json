@@ -1,0 +1,53 @@
+{
+  "iconSize": {
+    "xs": {
+      "$type": "dimension",
+      "$value": "12px",
+      "measuredFrom": [
+        "CLONE_SPEC.md:279"
+      ]
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": "15px",
+      "measuredFrom": [
+        "CLONE_SPEC.md:244"
+      ]
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "16px",
+      "measuredFrom": [
+        "specs/product.md:132"
+      ]
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "24px",
+      "measuredFrom": [
+        "CLONE_SPEC.md:257"
+      ]
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": "28px",
+      "measuredFrom": [
+        "CLONE_SPEC.md:271"
+      ]
+    },
+    "menu": {
+      "$type": "dimension",
+      "$value": "32px",
+      "measuredFrom": [
+        "CLONE_SPEC.md:252"
+      ]
+    },
+    "mark": {
+      "$type": "dimension",
+      "$value": "60px",
+      "measuredFrom": [
+        "CLONE_SPEC.md:307"
+      ]
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "id": "hero.partners",
+  "category": "hero",
+  "purpose": "Partners hero: centred solid H1, paragraph lead and two md CTAs (anchor + external form link).",
+  "variants": [],
+  "content": {
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 4,
+      "observedWords": [
+        3
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:906"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 48,
+      "observedWords": [
+        38
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:906"
+      ]
+    },
+    "actions": {
+      "kind": "list",
+      "required": true,
+      "minItems": 2,
+      "maxItems": 2,
+      "measuredFrom": [
+        "specs/solutions.md:906"
+      ],
+      "item": {
+        "kind": "action",
+        "required": true,
+        "label": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 4,
+          "observedWords": [
+            3,
+            3
+          ],
+          "measuredFrom": [
+            "specs/solutions.md:906"
+          ]
+        },
+        "variants": [
+          "primary",
+          "secondary"
+        ],
+        "sizes": [
+          "md"
+        ]
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-on-mount"
+    ],
+    "default": "reveal-on-mount"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.phone-sm}",
+      "change": "reposition",
+      "detail": "copy left-aligned",
+      "measuredFrom": [
+        "specs/solutions.md:906"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/solutions.md:906"
+  ],
+  "wordBudgets": {
+    "actions[].label": 4,
+    "description": 48,
+    "headline": 4
+  },
+  "richTextBudgets": {},
+  "assetRoles": [],
+  "usedByTemplates": [
+    "template.partners"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__hero.partners",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

@@ -1,0 +1,143 @@
+{
+  "id": "hero.article",
+  "category": "hero",
+  "purpose": "Dark article header: eyebrow link, solid H1, dek, author/category/date meta, share links and hero media that overlaps the light body slab.",
+  "variants": [],
+  "content": {
+    "eyebrow": {
+      "kind": "link",
+      "required": true,
+      "label": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 2,
+        "observedWords": [
+          1
+        ],
+        "measuredFrom": [
+          "specs/company.md:258"
+        ]
+      }
+    },
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 5,
+      "observedWords": [
+        4
+      ],
+      "measuredFrom": [
+        "specs/company.md:1183"
+      ]
+    },
+    "dek": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 14,
+      "observedWords": [
+        11
+      ],
+      "measuredFrom": [
+        "specs/company.md:1184"
+      ]
+    },
+    "author": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 3,
+      "observedWords": [
+        2
+      ],
+      "measuredFrom": [
+        "specs/company.md:1099"
+      ]
+    },
+    "category": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 3,
+      "observedWords": [
+        2
+      ],
+      "measuredFrom": [
+        "specs/company.md:1186"
+      ]
+    },
+    "date": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 4,
+      "observedWords": [
+        3
+      ],
+      "measuredFrom": [
+        "specs/company.md:1187"
+      ]
+    },
+    "heroMedia": {
+      "kind": "media",
+      "required": true,
+      "roles": [
+        "embed.external",
+        "image.editorial-thumbnail"
+      ],
+      "alt": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 18,
+        "observedWords": [
+          14,
+          14
+        ],
+        "measuredFrom": [
+          "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+          "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+        ]
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-on-mount"
+    ],
+    "default": "reveal-on-mount"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.phone-sm}",
+      "change": "resize-type",
+      "detail": "H1 38/49.4, dek 20/30, hero 334x188",
+      "measuredFrom": [
+        "specs/company.md:269"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/company.md:257"
+  ],
+  "wordBudgets": {
+    "author": 3,
+    "category": 3,
+    "date": 4,
+    "dek": 14,
+    "eyebrow.label": 2,
+    "headline": 5,
+    "heroMedia.alt": 18
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "embed.external",
+    "image.editorial-thumbnail"
+  ],
+  "usedByTemplates": [
+    "template.article"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__hero.article",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

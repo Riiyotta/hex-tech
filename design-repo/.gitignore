@@ -1,0 +1,6 @@
+# never commit the packaged archive next to the live folder
+../design-repo.zip
+design-repo.zip
+__MACOSX/
+.DS_Store
+__pycache__/

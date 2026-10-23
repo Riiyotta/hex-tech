@@ -1,0 +1,36 @@
+{
+  "id": "primitive.rotator",
+  "purpose": "Vertical cycling window (emoji / word / file-extension rotator): slide every interval, cross-fade, snap back.",
+  "props": {
+    "items": {
+      "type": "list",
+      "measuredFrom": [
+        "src/components/shared/Rotator.jsx:33"
+      ]
+    },
+    "itemHeight": {
+      "type": "number",
+      "measuredFrom": [
+        "specs/SHARED_BUILT.md:84"
+      ]
+    },
+    "interval": {
+      "type": "duration",
+      "measuredFrom": [
+        "specs/SHARED_BUILT.md:82"
+      ]
+    }
+  },
+  "tokens": [
+    "motion.duration.rotator-interval",
+    "motion.duration.rotator-move",
+    "motion.duration.rotator-fade-in",
+    "motion.easing.standard"
+  ],
+  "measuredFrom": [
+    "CLONE_SPEC.md:478",
+    "src/components/shared/Rotator.jsx:33"
+  ],
+  "layer": "primitive",
+  "provisional": true
+}

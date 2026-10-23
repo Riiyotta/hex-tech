@@ -1,0 +1,1369 @@
+{
+ "_note": "Data for the T5 integration-detail template (specs/product.md §5) and the T4 index (§4.11). Extracted from the live DOM. athena and redshift both redirect (server-side) to /product/integrations/aws/ and render the same AWS page.",
+ "index": {
+  "heading": "Integrate with your whole stack",
+  "categories": [
+   {
+    "heading": "Storage & compute",
+    "description": "Hex sits right on top of your data warehouse. Data can be queried in-database or cached in a Hex dataframe.",
+    "items": [
+     {
+      "name": "AWS",
+      "href": "/product/integrations/aws/",
+      "logo": "/assets/pages/product/_shared/aws-afba70e2-70x50.svg",
+      "logoOriginal": "https://cdn.sanity.io/images/e92memrj/production/afba70e23403a9822268f70e515c9f86ee2689db-70x50.svg",
+      "text": null
+     },
+     {
+      "name": "ClickHouse",
+      "href": "/product/integrations/clickhouse/",
+      "logo": "/assets/pages/product/_shared/clickhouse-e2fd5893-140x50.svg",
+      "logoOriginal": "https://cdn.sanity.io/images/e92memrj/production/e2fd58932e0dd6ee97ff873266ffdf2c2822b51c-140x50.svg",
+      "text": null
+     },
+     {
+      "name": "Databricks",
+      "href": "/product/integrations/databricks/",
+      "logo": "/assets/pages/product/_shared/databricks-cc825ed5-150x50.svg",
+      "logoOriginal": "https://cdn.sanity.io/images/e92memrj/production/cc825ed512f99f34953f52a92f29838de661dcde-150x50.svg",
+      "text": null
+     },
+     {
+      "name": "Dremio",
+      "href": "/product/integrations/dremio/",
+      "logo": "/assets/pages/product/_shared/dremio-c0d87ae0-116x50.svg",
+      "logoOriginal": "https://cdn.sanity.io/images/e92memrj/production/c0d87ae0c9f75fe9c854f5c45218a51e22c4b50d-116x50.svg",
+      "text": null
+     },
+     {
+      "name": "Google BigQuery",
+      "href": "/product/integrations/bigquery/",
+      "logo": "/assets/pages/product/_shared/google-bigquery-7f33e2fc-110x50.svg",
+      "logoOriginal": "https://cdn.sanity.io/images/e92memrj/production/7f33e2fc95772d0134926cd441982bb2bbcd8a0f-110x50.svg",
+      "text": null
+     },
+     {
+      "name": "MariaDB",
+      "href": "/product/integrations/mariadb/",
+      "logo": "/assets/pages/product/_shared/mariadb-a2b7a11c-130x50.svg",
+      "logoOriginal": "https://cdn.sanity.io/images/e92memrj/production/a2b7a11c5a1932975be544a8c17a42b7e3ec4057-130x50.svg",
+      "text": null
+     },
+     {
+      "name": "Materialize",
+      "href": "/product/integrations/materialize/",
+      "logo": "/assets/pages/product/_shared/materialize-f9729cc2-142x50.svg",
+      "logoOriginal": "https://cdn.sanity.io/images/e92memrj/production/f9729cc265c9824039072ee97757366d6d448afb-142x50.svg",
+      "text": null
+     },
+     {
+      "name": "MotherDuck",
+      "href": "/product/integrations/motherduck/",
+      "logo": "/assets/pages/product/integrations/motherduck-50a96e7d-150x50.svg",
+      "logoOriginal": "https://cdn.sanity.io/images/e92memrj/production/50a96e7dc10c43ce04f42cb7e233b8efebc7e771-150x50.svg",
+      "text": null
+     },
+     {
+      "name": "MS SQL Server",
+      "href": "/product/integrations/ms-sql-server/",
+      "logo": "/assets/pages/product/_shared/ms-sql-server-8bdc3ee8-130x50.svg",
+      "logoOriginal": "https://cdn.sanity.io/images/e92memrj/production/8bdc3ee8e85c6b97fe4a009b5221a0627e1dc61e-130x50.svg",
+      "text": null
+     },
+     {
+      "name": "MySQL",
+      "href": "/product/integrations/mysql/",
+      "logo": "/assets/pages/product/_shared/mysql-4f02cbcf-73x50.svg",
+      "logoOriginal": "https://cdn.sanity.io/images/e92memrj/production/4f02cbcfd90c9e53cc18af22d03602b0c6b04426-73x50.svg",
+      "text": null
+     },
+     {
+      "name": "Postgres",
+      "href": "/product/integrations/postgres/",
+      "logo": "/assets/pages/product/_shared/postgres-28b261fb-140x50.svg",
+      "logoOriginal": "https://cdn.sanity.io/images/e92memrj/production/28b261fb442abb4aba7a3ece2f380d809acbea65-140x50.svg",
+      "text": null
+     },
+     {
+      "name": "Snowflake",
+      "href": "/product/integrations/snowflake/",
+      "logo": "/assets/pages/product/_shared/snowflake-8a3ac900-150x50.svg",
+      "logoOriginal": "https://cdn.sanity.io/images/e92memrj/production/8a3ac9007f845988146f79c5fb9a4a7de58c821d-150x50.svg",
+      "text": null
+     },
+     {
+      "name": "Trino",
+      "href": "/product/integrations/trino/",
+      "logo": "/assets/pages/product/_shared/trino-4e5a0408-96x50.svg",
+      "logoOriginal": "https://cdn.sanity.io/images/e92memrj/production/4e5a0408d82dac6c41001f18aad1cb5223f821dd-96x50.svg",
+      "text": null
+     },
+     {
+      "name": null,
+      "href": "",
+      "logo": null,
+      "logoOriginal": null,
+      "text": "+ local files.csv.json.parquet.avro.xlsx.txt"
+     }
+    ]
+   },
+   {
+    "heading": "Metadata & metrics",
+    "description": "Hex syncs with metadata and semantic layer tools. Define metrics and data models wherever you like, and Hex can read them.",
+    "items": [
+     {
+      "name": "AtScale",
+      "href": "/product/integrations/atscale/",
+      "logo": "/assets/pages/product/integrations/atscale-9e50cdee-95x50.png",
+      "logoOriginal": "https://cdn.sanity.io/images/e92memrj/production/9e50cdee8f9feeff3b8ada66018a5a930065af94-95x50.png",
+      "text": null
+     },
+     {
+      "name": "Cube",
+      "href": "/product/integrations/cube/",
+      "logo": "/assets/pages/product/_shared/cube-53d2695a-95x50.svg",
+      "logoOriginal": "https://cdn.sanity.io/images/e92memrj/production/53d2695ae0b090b6f1e523d3495c95ae57a7b318-95x50.svg",
+      "text": null
+     },
+     {
+      "name": "dbt",
+      "href": "/product/integrations/dbt/",
+      "logo": "/assets/pages/product/_shared/dbt-3a9d12c9-95x50.svg",
+      "logoOriginal": "https://cdn.sanity.io/images/e92memrj/production/3a9d12c9000129e82a52020efe8126ecd986d1eb-95x50.svg",
+      "text": null
+     }
+    ]
+   },
+   {
+    "heading": "Data catalogs & observability",
+    "description": "Enterprise observability and cataloging tools can read Hex metadata for lineage and monitoring.",
+    "items": [
+     {
+      "name": "Elementary",
+      "href": "/product/integrations/elementary/",
+      "logo": "/assets/pages/product/integrations/elementary-3b2157b8-150x50.png",
+      "logoOriginal": "https://cdn.sanity.io/images/e92memrj/production/3b2157b8fdf422071662c6a1a84dbfd0885cbf2c-150x50.png",
+      "text": null
+     },
+     {
+      "name": "Monte Carlo",
+      "href": "/product/integrations/monte-carlo/",
+      "logo": "/assets/pages/product/integrations/monte-carlo-ebd1157d-150x50.svg",
+      "logoOriginal": "https://cdn.sanity.io/images/e92memrj/production/ebd1157db0f770a51ca29fccf90aa608ebf95426-150x50.svg",
+      "text": null
+     },
+     {
+      "name": "Select Star",
+      "href": "/product/integrations/select-star/",
+      "logo": "/assets/pages/product/integrations/select-star-17251480-150x50.svg",
+      "logoOriginal": "https://cdn.sanity.io/images/e92memrj/production/17251480487b6d5f245da058149dd02c1b26f8cb-150x50.svg",
+      "text": null
+     }
+    ]
+   },
+   {
+    "heading": "Code sync & versioning",
+    "items": [
+     {
+      "name": "GitHub",
+      "href": "/product/integrations/github/",
+      "logo": "/assets/pages/product/_shared/github-f5ddbe13-96x50.svg",
+      "logoOriginal": "https://cdn.sanity.io/images/e92memrj/production/f5ddbe134bcf8a695bbf2049271cf1d984f5f6a1-96x50.svg",
+      "text": null
+     },
+     {
+      "name": "GitLab",
+      "href": "/product/integrations/gitlab/",
+      "logo": "/assets/pages/product/integrations/gitlab-23c47b5d-130x50.svg",
+      "logoOriginal": "https://cdn.sanity.io/images/e92memrj/production/23c47b5dcde22e23d4f27ba28184e95d82f03f4e-130x50.svg",
+      "text": null
+     }
+    ]
+   },
+   {
+    "heading": "Machine Learning",
+    "items": [
+     {
+      "name": "Snowpark ML",
+      "href": "/product/integrations/snowpark-ml/",
+      "logo": "/assets/pages/product/integrations/snowpark-ml-a8cc6260-150x50.svg",
+      "logoOriginal": "https://cdn.sanity.io/images/e92memrj/production/a8cc62602587bc9039d0b3fd44f567e1561ed2ea-150x50.svg",
+      "text": null
+     }
+    ]
+   },
+   {
+    "heading": "Orchestration & workflows",
+    "description": "Trigger Hex analytical flows and app runs as an output of your data pipelines.",
+    "items": [
+     {
+      "name": "Airflow",
+      "href": "/product/integrations/airflow/",
+      "logo": "/assets/pages/product/_shared/airflow-35ae08f7-130x50.svg",
+      "logoOriginal": "https://cdn.sanity.io/images/e92memrj/production/35ae08f7faa74c9525c1a5af1f2c778fdbded659-130x50.svg",
+      "text": null
+     },
+     {
+      "name": "Dagster",
+      "href": "/product/integrations/dagster/",
+      "logo": "/assets/pages/product/_shared/dagster-df1a1c41-140x50.svg",
+      "logoOriginal": "https://cdn.sanity.io/images/e92memrj/production/df1a1c41a64d092cb8bf7d9d365f3d97f783887e-140x50.svg",
+      "text": null
+     },
+     {
+      "name": "Prefect",
+      "href": "/product/integrations/prefect/",
+      "logo": "/assets/pages/product/_shared/prefect-ef58dd9e-170x50.svg",
+      "logoOriginal": "https://cdn.sanity.io/images/e92memrj/production/ef58dd9e8418c3ceef28dfa3070a5059d0da74bd-170x50.svg",
+      "text": null
+     }
+    ]
+   }
+  ]
+ },
+ "pages": {
+  "clickhouse": {
+   "route": "/product/integrations/clickhouse/",
+   "servedFrom": "/product/integrations/clickhouse/",
+   "title": "ClickHouse - Integration | Hex",
+   "metaDescription": "The data stack for the best AI teams.",
+   "bannerLabel": "Integration",
+   "bannerHref": "/product/integrations/",
+   "logo": {
+    "src": "/assets/pages/product/_shared/clickhouse-e2fd5893-140x50.svg",
+    "original": "https://cdn.sanity.io/images/e92memrj/production/e2fd58932e0dd6ee97ff873266ffdf2c2822b51c-140x50.svg",
+    "alt": "ClickHouse",
+    "natural": [
+     140,
+     50
+    ],
+    "rendered": [
+     168,
+     60
+    ]
+   },
+   "h1": "The fastest warehouse meets the smartest AI analytics workspace",
+   "description": "The data stack for the best AI teams.",
+   "heroCtas": [
+    {
+     "label": "Try Hex free for 30 days",
+     "href": "https://app.hex.tech/signup/clickhouse-30"
+    },
+    {
+     "label": "Try ClickHouse free for 30 days",
+     "href": "https://clickhou.se/hex-2026"
+    }
+   ],
+   "quotes": [],
+   "howItWorks": {
+    "heading": "How it works",
+    "layout": "two-column",
+    "bodyHtml": "<p>ClickHouse and Hex are built for the agentic era. Hex is the best AI Analytics Platform for every type of user and question. From deep technical workflows to self-serve to ad hoc exploration, data agents empower users to do more with data. That amplified workload adds pressure on your database though: more concurrency, more volume, and spiraling costs. ClickHouse was purpose-built from the ground up for this.</p><p>Create your ClickHouse database connection today and analyze with Hex's Notebook Agent, chat with data apps and Threads, and more! Curate and compound context to improve agents over time with Context Studio - all powered by ClickHouse.</p>",
+    "ctas": [
+     {
+      "label": "Try Hex free for 30 days",
+      "href": "https://app.hex.tech/signup/clickhouse-30"
+     },
+     {
+      "label": "Try ClickHouse free for 30 days",
+      "href": "https://clickhou.se/hex-2026"
+     }
+    ],
+    "right": {
+     "kind": "image",
+     "image": "/assets/pages/product/integrations-clickhouse/clickhouse-00a484bc-1728x1080.gif",
+     "imageAlt": "ClickHouse",
+     "connectionName": null,
+     "sql": null
+    }
+   },
+   "customBlocks": null,
+   "faq": null,
+   "video": {
+    "heading": "See it in action",
+    "iframe": "https://www.youtube.com/embed/JS_MKfeNOP0?si=8YK8EzrmSjW8bun2&enablejsapi=1",
+    "box": [
+     1160,
+     550
+    ]
+   },
+   "externalLinksBanner": "Learn more",
+   "externalLinks": [
+    {
+     "title": "chDB - fast, reliable, and scalable in-process database",
+     "source": "ClickHouse",
+     "href": "https://clickhouse.com/chdb"
+    },
+    {
+     "title": "Building Real-time Analytics Apps with ClickHouse and Hex",
+     "source": "ClickHouse",
+     "href": "https://clickhouse.com/blog/building-real-time-applications-with-clickhouse-and-hex-notebook-keeper-engine"
+    },
+    {
+     "title": "Integrating ClickHouse with Hex",
+     "source": "ClickHouse",
+     "href": "https://clickhouse.com/integrations/hex"
+    },
+    {
+     "title": "ClickHouse chDB Blog",
+     "source": "ClickHouse",
+     "href": "https://clickhouse.com/blog/chdb.4-0-pandas-hex"
+    }
+   ],
+   "docHeight1440": 3279
+  },
+  "bigquery": {
+   "route": "/product/integrations/bigquery/",
+   "servedFrom": "/product/integrations/bigquery/",
+   "title": "Hex + Google BigQuery: SQL, Python & Data Apps | Hex",
+   "metaDescription": "Connect to Google BigQuery for SQL and Python workflows, build interactive data apps, and query big data directly — no CSV exports needed.",
+   "bannerLabel": "Integration",
+   "bannerHref": "/product/integrations/",
+   "logo": {
+    "src": "/assets/pages/product/_shared/google-bigquery-7f33e2fc-110x50.svg",
+    "original": "https://cdn.sanity.io/images/e92memrj/production/7f33e2fc95772d0134926cd441982bb2bbcd8a0f-110x50.svg",
+    "alt": "Google BigQuery",
+    "natural": [
+     110,
+     50
+    ],
+    "rendered": [
+     132,
+     60
+    ]
+   },
+   "h1": "Power interactive insights with data from Google BigQuery",
+   "description": "Hex connects directly to Google BigQuery to let you query big data with familiar SQL syntax, without exporting csv files or needing a Python connector.",
+   "heroCtas": [
+    {
+     "label": "Get started",
+     "href": "https://app.hex.tech/signup"
+    }
+   ],
+   "quotes": [
+    {
+     "logo": "/assets/pages/product/_shared/infinite-lambda-63850388-110x50.svg",
+     "logoAlt": "Nina Anderson logo",
+     "quote": "\"Hex has the best parts of using a Jupyter notebook without the limitations. I hadn’t really experienced being able to slip really quickly between the logic and the application builder view before Hex.\"",
+     "author": "Nina AndersonInfinite Lambda",
+     "info": "Nina AndersonInfinite Lambda"
+    }
+   ],
+   "howItWorks": {
+    "heading": "How it works",
+    "layout": "two-column",
+    "bodyHtml": "<p>Connecting a Google BigQuery project to Hex means everyone can securely and efficiently query data right from the flexible notebook environment, without writing Python code or passing around credentials.</p><p>Hex features full SQL IDE functionality, with autocomplete, a schema browser, caching, and the ability to stream large results.</p><p>You can build and publish beautiful and interactive data apps entirely from SQL queries to your BigQuery data— or you can switch seamlessly into Python and build models, enrich data, or merge other data sources.</p>",
+    "ctas": [
+     {
+      "label": "Get started",
+      "href": "https://app.hex.tech/signup"
+     }
+    ],
+    "right": {
+     "kind": "DataConnectionIlly",
+     "image": null,
+     "sql": "select\ncast({{timeframe}} as timestamp) as month,\nship, destination,\nsum(spice_tons) as spice_tons\nfrom atreides.vehicle_destinations\ngroup by 1,2,3",
+     "connectionCard": "Google BigQuery | 2 cells | Atriedes, Inc. | Last updated: 3 min ago",
+     "cellFooter": "dataframe"
+    }
+   },
+   "customBlocks": null,
+   "faq": null,
+   "video": null,
+   "externalLinksBanner": "Learn more",
+   "externalLinks": [
+    {
+     "title": "Analytics at AllTrails: The Team & Its Data Stack",
+     "source": "Customer spotlight",
+     "href": "https://hex.tech/customers/alltrails/"
+    },
+    {
+     "title": "Hex + Google: Analytics and Data Science in the Cloud",
+     "source": "Hex blog",
+     "href": "https://hex.tech/blog/google-cloud-partnership/"
+    }
+   ],
+   "docHeight1440": 2842
+  },
+  "athena": {
+   "route": "/product/integrations/athena/",
+   "servedFrom": "/product/integrations/aws/",
+   "title": "AWS - Integration | Hex",
+   "metaDescription": "Connect to Athena, Redshift, RDS, S3, and ECR from a single notebook. IAM role support means no static credentials and no rotation headaches — just short-lived, auto-rotating auth.",
+   "bannerLabel": "Integration",
+   "bannerHref": "/product/integrations/",
+   "logo": {
+    "src": "/assets/pages/product/_shared/aws-afba70e2-70x50.svg",
+    "original": "https://cdn.sanity.io/images/e92memrj/production/afba70e23403a9822268f70e515c9f86ee2689db-70x50.svg",
+    "alt": "AWS",
+    "natural": [
+     70,
+     50
+    ],
+    "rendered": [
+     84,
+     60
+    ]
+   },
+   "h1": "AWS Data, meet Hex",
+   "description": "Connect to Athena, Redshift, RDS, S3, and ECR from a single notebook. IAM role support means no static credentials and no rotation headaches — just short-lived, auto-rotating auth.",
+   "heroCtas": [
+    {
+     "label": "Get started",
+     "href": "https://app.hex.tech/signup"
+    }
+   ],
+   "quotes": [],
+   "howItWorks": {
+    "heading": "How it works",
+    "layout": "two-column",
+    "bodyHtml": "<p>A Hex admin configures your AWS connections once, and every user gets secure, governed access from there. Every SQL cell in Hex is a full IDE — with autocomplete, a schema browser, query caching, and streaming for large results, so teams can explore data from Athena or Redshift without switching tabs, passing around credentials, or writing Python setup code.</p><p>When you need to go deeper than SQL, switch to Python in the same notebook. No context switching, no copy-pasting data between tools. Build analyses, predictive models, and interactive data apps all on top of your existing AWS data.</p>",
+    "ctas": [
+     {
+      "label": "Get started",
+      "href": "https://app.hex.tech/signup"
+     }
+    ],
+    "right": {
+     "kind": "image",
+     "image": "/assets/pages/product/_shared/aws-a9c1a748-1280x1312.png",
+     "imageAlt": "AWS",
+     "connectionName": null,
+     "sql": null
+    }
+   },
+   "customBlocks": {
+    "headings": [
+     "AWS connections",
+     "Athena",
+     "Redshift",
+     "RDS",
+     "S3",
+     "ECR",
+     "IAM role support across every AWS connection"
+    ],
+    "note": "Full markup in reference/pages/product/dom/integrations-athena/ (CustomComponents section)"
+   },
+   "faq": null,
+   "video": null,
+   "externalLinksBanner": null,
+   "externalLinks": [],
+   "docHeight1440": 3837
+  },
+  "airflow": {
+   "route": "/product/integrations/airflow/",
+   "servedFrom": "/product/integrations/airflow/",
+   "title": "Airflow Integration: Run Hex from Your DAGs | Hex",
+   "metaDescription": "Trigger Hex app refreshes from Airflow DAGs. Keep dashboards in sync with pipeline schedules, to eliminate manual refreshes and stale data.",
+   "bannerLabel": "Integration",
+   "bannerHref": "/product/integrations/",
+   "logo": {
+    "src": "/assets/pages/product/_shared/airflow-35ae08f7-130x50.svg",
+    "original": "https://cdn.sanity.io/images/e92memrj/production/35ae08f7faa74c9525c1a5af1f2c778fdbded659-130x50.svg",
+    "alt": "Airflow",
+    "natural": [
+     130,
+     50
+    ],
+    "rendered": [
+     156,
+     60
+    ]
+   },
+   "h1": "Add Hex apps to your Airflow DAGs",
+   "description": "Seamlessly trigger data transformations, app refreshes, and complex data science workflows as part of your broader DAGs and pipelines.",
+   "heroCtas": [
+    {
+     "label": "Get started",
+     "href": "https://app.hex.tech/signup"
+    }
+   ],
+   "quotes": [],
+   "howItWorks": {
+    "heading": "How it works",
+    "layout": "single-column-centered",
+    "bodyHtml": "<p>The Hex Airflow provider lets you add Hex apps as part of your DAGs, to trigger runs of or access metadata about Hex apps programmatically.</p><p>Including Hex in your data pipelines and orchestration workflows lets you do things like:</p><p>- Trigger a Hex app to update cached values after an upstream transformation completes - Run a Hex project with passed-in input parameters based on a form submission in another app - Automatically kick off a model re-run through Hex when new source data lands</p>",
+    "ctas": [
+     {
+      "label": "Get started",
+      "href": "https://app.hex.tech/signup"
+     }
+    ],
+    "right": null
+   },
+   "customBlocks": null,
+   "faq": null,
+   "video": {
+    "heading": "See it in action",
+    "iframe": "https://www.loom.com/embed/63b97765da0942ae8fc3a208490d31a4",
+    "box": [
+     1160,
+     550
+    ]
+   },
+   "externalLinksBanner": null,
+   "externalLinks": [],
+   "docHeight1440": 2921
+  },
+  "databricks": {
+   "route": "/product/integrations/databricks/",
+   "servedFrom": "/product/integrations/databricks/",
+   "title": "Hex + Databricks: AI Analytics on Your Lakehouse | Hex",
+   "metaDescription": "Connect Hex to Databricks SQL endpoint. Run notebooks, build data apps, and layer AI analytics on top of your lakehouse.",
+   "bannerLabel": "Integration",
+   "bannerHref": "/product/integrations/",
+   "logo": {
+    "src": "/assets/pages/product/_shared/databricks-cc825ed5-150x50.svg",
+    "original": "https://cdn.sanity.io/images/e92memrj/production/cc825ed512f99f34953f52a92f29838de661dcde-150x50.svg",
+    "alt": "Databricks",
+    "natural": [
+     150,
+     50
+    ],
+    "rendered": [
+     180,
+     60
+    ]
+   },
+   "h1": "A flexible workspace for your data lakehouse",
+   "description": "Hex's powerful end-to-end platform makes it easy to securely connect to your Databricks lakehouse, query structured and unstructured data, and bring it to life in beautiful data apps.",
+   "heroCtas": [
+    {
+     "label": "Get started",
+     "href": "https://app.hex.tech/signup"
+    }
+   ],
+   "quotes": [],
+   "howItWorks": {
+    "heading": "How it works",
+    "layout": "two-column",
+    "bodyHtml": "<p>Once a Hex admin has connected a Databricks SQL endpoint, every user of the workspace can securely query data from your lakehouse in a rich SQL IDE— right from the notebook environment where analysis will take place.</p><p>Hex has first-class SQL support, so you can build powerful analyses and data apps entirely from Databricks queries, or switch over to Python and leverage its rich package library.</p><p>Need to pull in some less structured data or run Databricks jobs that aren't SQL-friendly? Hex's flexible notebook-based workspace lets you upload files, make REST API calls, and anything else you could imagine doing in a data notebook.</p>",
+    "ctas": [
+     {
+      "label": "Get started",
+      "href": "https://app.hex.tech/signup"
+     }
+    ],
+    "right": {
+     "kind": "DataConnectionIlly",
+     "image": null,
+     "sql": "select\ncast({{timeframe}} as timestamp) as month,\nship, destination,\nsum(spice_tons) as spice_tons\nfrom atreides.vehicle_destinations\ngroup by 1,2,3",
+     "connectionCard": "Databricks | 2 cells | Atriedes, Inc. | Last updated: 3 min ago",
+     "cellFooter": "dataframe"
+    }
+   },
+   "customBlocks": {
+    "headings": [
+     "FAQ",
+     "How is Hex different from what Databricks offers?chevron-down"
+    ],
+    "note": "Full markup in reference/pages/product/dom/integrations-databricks/ (CustomComponents section)"
+   },
+   "faq": {
+    "ref": "specs/product-faq.json → integrations-databricks"
+   },
+   "video": null,
+   "externalLinksBanner": "Learn more",
+   "externalLinks": [
+    {
+     "title": "Announcing our partnership with Databricks",
+     "source": "Hex blog",
+     "href": "https://hex.tech/blog/databricks-integration/"
+    }
+   ],
+   "docHeight1440": 3077
+  },
+  "dremio": {
+   "route": "/product/integrations/dremio/",
+   "servedFrom": "/product/integrations/dremio/",
+   "title": "Dremio Integration: Query Your Data Lake in Hex | Hex",
+   "metaDescription": "Connect Hex to Dremio for fast, direct queries on your data lake without moving data. Run SQL and Python in notebooks and build interactive data apps.",
+   "bannerLabel": "Integration",
+   "bannerHref": "/product/integrations/",
+   "logo": {
+    "src": "/assets/pages/product/_shared/dremio-c0d87ae0-116x50.svg",
+    "original": "https://cdn.sanity.io/images/e92memrj/production/c0d87ae0c9f75fe9c854f5c45218a51e22c4b50d-116x50.svg",
+    "alt": "Dremio",
+    "natural": [
+     116,
+     50
+    ],
+    "rendered": [
+     139,
+     60
+    ]
+   },
+   "h1": "Run fast & interactive queries directly on your data lake",
+   "description": "Hex easily connects with Dremio to power data workflows and analysis right on data in the lakehouse.",
+   "heroCtas": [
+    {
+     "label": "Get started",
+     "href": "https://app.hex.tech/signup"
+    }
+   ],
+   "quotes": [],
+   "howItWorks": {
+    "heading": "How it works",
+    "layout": "two-column",
+    "bodyHtml": "<p>It only takes a couple clicks to set up a connection between Hex and a Dremio Cloud lakehouse. Once that's done, every user of the Hex workspace can securely query data from the lakehouse right into a flexible data notebook.</p><p>Hex has first class SQL support, so you can build beautiful charts, powerful analyses, and interactive data apps entirely from SQL— or you can switch over to Python and leverage its rich package library.</p>",
+    "ctas": [
+     {
+      "label": "Get started",
+      "href": "https://app.hex.tech/signup"
+     }
+    ],
+    "right": {
+     "kind": "DataConnectionIlly",
+     "image": null,
+     "sql": null,
+     "connectionCard": "Dremio | 2 cells | Atriedes, Inc. | Last updated: 3 min ago",
+     "cellFooter": null
+    }
+   },
+   "customBlocks": null,
+   "faq": null,
+   "video": null,
+   "externalLinksBanner": null,
+   "externalLinks": [],
+   "docHeight1440": 2149
+  },
+  "dbt": {
+   "route": "/product/integrations/dbt/",
+   "servedFrom": "/product/integrations/dbt/",
+   "title": "dbt Integration for Analytics Notebooks and AI | Hex",
+   "metaDescription": "Pull dbt metadata, freshness checks, and semantic models into Hex notebooks. Governance and analytics together — no context switching.",
+   "bannerLabel": "Integration",
+   "bannerHref": "/product/integrations/",
+   "logo": {
+    "src": "/assets/pages/product/_shared/dbt-3a9d12c9-95x50.svg",
+    "original": "https://cdn.sanity.io/images/e92memrj/production/3a9d12c9000129e82a52020efe8126ecd986d1eb-95x50.svg",
+    "alt": "dbt",
+    "natural": [
+     95,
+     50
+    ],
+    "rendered": [
+     114,
+     60
+    ]
+   },
+   "h1": "Bringing trust, governance, and speed to the data stack",
+   "description": "Hex integrates with dbt to pull metadata on freshness and tests right into the flexible notebook environment where you're writing queries.",
+   "heroCtas": [
+    {
+     "label": "Get started",
+     "href": "https://app.hex.tech/signup"
+    }
+   ],
+   "quotes": [
+    {
+     "logo": "/assets/pages/product/integrations-dbt/emmanuel-fuentes-logo-5b664497-164x50.svg",
+     "logoAlt": "Emmanuel Fuentes logo",
+     "quote": "\"dbt and Hex make the data development environment so much easier to work with than any other combination of tools. Since it’s all native, we don’t need to wait for or build a custom adapter. I can instead focus on scaling my team, and building the best live shopping platform.\"",
+     "author": "Emmanuel FuentesWhatnot",
+     "info": "Emmanuel FuentesWhatnot"
+    }
+   ],
+   "howItWorks": {
+    "heading": "How it works",
+    "layout": "two-column",
+    "bodyHtml": "<p>When Hex has been connected to a dbt Cloud project, metadata on source freshness and tests will be surfaced directly in the schema browser. This lets users write queries with full confidence that the data they're returning is up to date and accurate, rather than just taking it on faith.</p><p>Bringing this metadata right into the data notebook where actual analytical work is happening gives data analysts and scientists the ability to move fast and be flexible, while knowing they aren't inadvertently accessing stale or inaccurate data.</p>",
+    "ctas": [
+     {
+      "label": "Get started",
+      "href": "https://app.hex.tech/signup"
+     }
+    ],
+    "right": {
+     "kind": "DataConnectionIlly",
+     "image": null,
+     "sql": "select\ncast({{timeframe}} as timestamp) as month,\nship, destination,\nsum(spice_tons) as spice_tons\nfrom atreides.vehicle_destinations\ngroup by 1,2,3",
+     "connectionCard": "Snowflake | 2 cells | Atriedes, Inc. | Last updated: 3 min ago | vehicle_destinations16 cols, 192 rows | Model2 min ago Tests | VEHICLE_ID | string | MODEL | string | SPEED | number | BUILD_DATE | datetime",
+     "cellFooter": "dataframe"
+    }
+   },
+   "customBlocks": null,
+   "faq": null,
+   "video": null,
+   "externalLinksBanner": "Learn more",
+   "externalLinks": [
+    {
+     "title": "Hex + dbt: Bringing trust, governance, and speed to the data stack",
+     "source": "Hex Blog",
+     "href": "https://hex.tech/blog/dbt-partnership/"
+    },
+    {
+     "title": "Introducing Hex’s Integration with the dbt Semantic Layer",
+     "source": "Hex Blog",
+     "href": "https://hex.tech/blog/dbt-semantic-layer-integration/"
+    },
+    {
+     "title": "Whatnot Customer Spotlight",
+     "source": "Customers",
+     "href": "https://hex.tech/customers/whatnot/"
+    },
+    {
+     "title": "Q&A with Bluecore’s Data Team",
+     "source": "Hex blog",
+     "href": "https://hex.tech/blog/bluecore-qa/"
+    },
+    {
+     "title": "Hex 💜 dbt",
+     "source": "Hex Blog",
+     "href": "https://hex.tech/blog/dbt-integration/"
+    }
+   ],
+   "docHeight1440": 2881
+  },
+  "dagster": {
+   "route": "/product/integrations/dagster/",
+   "servedFrom": "/product/integrations/dagster/",
+   "title": "Dagster Integration: Add Hex to Your Data Pipelines | Hex",
+   "metaDescription": "Trigger Hex app refreshes and notebook runs from Dagster pipelines. Connect orchestration to analytics and keep data apps running on fresh data.",
+   "bannerLabel": "Integration",
+   "bannerHref": "/product/integrations/",
+   "logo": {
+    "src": "/assets/pages/product/_shared/dagster-df1a1c41-140x50.svg",
+    "original": "https://cdn.sanity.io/images/e92memrj/production/df1a1c41a64d092cb8bf7d9d365f3d97f783887e-140x50.svg",
+    "alt": "Dagster",
+    "natural": [
+     140,
+     50
+    ],
+    "rendered": [
+     168,
+     60
+    ]
+   },
+   "h1": "Add Hex apps to your Dagster pipelines and dataflows",
+   "description": "Programmatically trigger data transformations, app refreshes, and complex data science workflows as part of your broader data pipelines.",
+   "heroCtas": [
+    {
+     "label": "Get started",
+     "href": "https://app.hex.tech/signup"
+    }
+   ],
+   "quotes": [],
+   "howItWorks": {
+    "heading": "How it works",
+    "layout": "single-column-centered",
+    "bodyHtml": "<p>The Dagster Hex library lets Dagster users easily add Hex apps as assets in Dagster pipelines, executing runs of or accessing metadata about Hex apps in response to upstream events and triggers.</p><p>Including Hex in your Dagster data pipelines and orchestration workflows lets you do things like:</p><p>- Trigger a Hex app to update cached values after an upstream transformation completes - Run a Hex project with passed-in input parameters based on a form submission in another app - Automatically kick off a model re-run through Hex when new source data lands</p>",
+    "ctas": [
+     {
+      "label": "Get started",
+      "href": "https://app.hex.tech/signup"
+     }
+    ],
+    "right": null
+   },
+   "customBlocks": null,
+   "faq": null,
+   "video": {
+    "heading": "See it in action",
+    "iframe": "https://www.loom.com/embed/63b97765da0942ae8fc3a208490d31a4",
+    "box": [
+     1160,
+     550
+    ]
+   },
+   "externalLinksBanner": null,
+   "externalLinks": [],
+   "docHeight1440": 3031
+  },
+  "mariadb": {
+   "route": "/product/integrations/mariadb/",
+   "servedFrom": "/product/integrations/mariadb/",
+   "title": "MariaDB Integration: Analytics Notebooks in Hex | Hex",
+   "metaDescription": "Connect Hex to MariaDB for secure SQL and Python analysis without exporting data. Build interactive data apps on MariaDB and query with AI in Threads.",
+   "bannerLabel": "Integration",
+   "bannerHref": "/product/integrations/",
+   "logo": {
+    "src": "/assets/pages/product/_shared/mariadb-a2b7a11c-130x50.svg",
+    "original": "https://cdn.sanity.io/images/e92memrj/production/a2b7a11c5a1932975be544a8c17a42b7e3ec4057-130x50.svg",
+    "alt": "MariaDB",
+    "natural": [
+     130,
+     50
+    ],
+    "rendered": [
+     156,
+     60
+    ]
+   },
+   "h1": "Connect MariaDB directly to a flexible data notebook",
+   "description": "Hex connects securely to MariaDB to let you do rich analysis without switching tools or transporting data.",
+   "heroCtas": [
+    {
+     "label": "Get started",
+     "href": "https://app.hex.tech/signup"
+    }
+   ],
+   "quotes": [],
+   "howItWorks": {
+    "heading": "How it works",
+    "layout": "two-column",
+    "bodyHtml": "<p>Once a Hex admin has connected to a MariaDB database, it's easy for any user to securely query data with a rich SQL IDE— right from the notebook environment.</p><p>Hex is a powerful data platform with first-class SQL support, so you can build powerful analyses and data apps entirely from SQL— or bring in Python and leverage its rich package library, without changing tools or moving data.</p>",
+    "ctas": [
+     {
+      "label": "Get started",
+      "href": "https://app.hex.tech/signup"
+     }
+    ],
+    "right": {
+     "kind": "DataConnectionIlly",
+     "image": null,
+     "sql": "select\ncast({{timeframe}} as timestamp) as month,\nship, destination,\nsum(spice_tons) as spice_tons\nfrom atreides.vehicle_destinations\ngroup by 1,2,3",
+     "connectionCard": "MariaDB | 2 cells | Atriedes, Inc. | Last updated: 3 min ago",
+     "cellFooter": "dataframe"
+    }
+   },
+   "customBlocks": null,
+   "faq": null,
+   "video": null,
+   "externalLinksBanner": null,
+   "externalLinks": [],
+   "docHeight1440": 2149
+  },
+  "ms-sql-server": {
+   "route": "/product/integrations/ms-sql-server/",
+   "servedFrom": "/product/integrations/ms-sql-server/",
+   "title": "SQL Server Analytics Notebooks and Data Apps | Hex",
+   "metaDescription": "Connect Hex to Microsoft SQL Server and query your data in notebooks and Threads. Build interactive dashboards and data apps on SQL Server data.",
+   "bannerLabel": "Integration",
+   "bannerHref": "/product/integrations/",
+   "logo": {
+    "src": "/assets/pages/product/_shared/ms-sql-server-8bdc3ee8-130x50.svg",
+    "original": "https://cdn.sanity.io/images/e92memrj/production/8bdc3ee8e85c6b97fe4a009b5221a0627e1dc61e-130x50.svg",
+    "alt": "MS SQL Server",
+    "natural": [
+     130,
+     50
+    ],
+    "rendered": [
+     156,
+     60
+    ]
+   },
+   "h1": "Bring SQL Server data to life with a powerful and flexible data platform",
+   "description": "Hex makes it easy to turn data from SQL Server into beautiful interactive insights, without switching tools or transporting data.",
+   "heroCtas": [
+    {
+     "label": "Get started",
+     "href": "https://app.hex.tech/signup"
+    }
+   ],
+   "quotes": [],
+   "howItWorks": {
+    "heading": "How it works",
+    "layout": "two-column",
+    "bodyHtml": "<p>Connecting an MS SQL Server database to Hex lets all users securely and efficiently query data right from a flexible notebook environment, without writing Python code or passing around credentials.</p><p>Hex's rich SQL IDE features autocomplete, a schema browser, query caching, and the ability to stream large results. It's easy to create complex visualizations without writing code, or dynamically parameterize SQL Server queries with user input.</p><p>You can build beautiful and interactive data apps entirely from SQL queries— or you can switch seamlessly into Python and build models or enrich data, without leaving the notebook or moving data.</p>",
+    "ctas": [
+     {
+      "label": "Get started",
+      "href": "https://app.hex.tech/signup"
+     }
+    ],
+    "right": {
+     "kind": "DataConnectionIlly",
+     "image": null,
+     "sql": "select\ncast({{timeframe}} as timestamp) as month,\nship, destination,\nsum(spice_tons) as spice_tons\nfrom atreides.vehicle_destinations\ngroup by 1,2,3",
+     "connectionCard": "MS SQL Server | 2 cells | Atriedes, Inc. | Last updated: 3 min ago",
+     "cellFooter": "dataframe"
+    }
+   },
+   "customBlocks": null,
+   "faq": null,
+   "video": null,
+   "externalLinksBanner": null,
+   "externalLinks": [],
+   "docHeight1440": 2331
+  },
+  "github": {
+   "route": "/product/integrations/github/",
+   "servedFrom": "/product/integrations/github/",
+   "title": "Hex + GitHub Integration: Custom Python Packages | Hex",
+   "metaDescription": "Install custom Python packages from private GitHub repos directly in Hex. Permissioned at the user and group level so your code stays secure.",
+   "bannerLabel": "Integration",
+   "bannerHref": "/product/integrations/",
+   "logo": {
+    "src": "/assets/pages/product/_shared/github-f5ddbe13-96x50.svg",
+    "original": "https://cdn.sanity.io/images/e92memrj/production/f5ddbe134bcf8a695bbf2049271cf1d984f5f6a1-96x50.svg",
+    "alt": "GitHub",
+    "natural": [
+     96,
+     50
+    ],
+    "rendered": [
+     115,
+     60
+    ]
+   },
+   "h1": "Use custom Python packages from GitHub in Hex",
+   "description": "Connect Hex to your own GitHub repos and install custom Python packages to your workspace.",
+   "heroCtas": [
+    {
+     "label": "Get started",
+     "href": "https://app.hex.tech/signup"
+    }
+   ],
+   "quotes": [],
+   "howItWorks": {
+    "heading": "How it works",
+    "layout": "single-column-centered",
+    "bodyHtml": "<p>If you use custom Python packages stored in a private GitHub repo, it's easy to bring them into Hex with just a few clicks. Once a Hex admin has configured GitHub access and installed packages from a repo, any Hex user with access can import those packages just as easily as importing something from the standard library.</p><p>Access to custom packages can be permissioned at a group and user level, so custom code or data is always kept secure.</p>",
+    "ctas": [
+     {
+      "label": "Get started",
+      "href": "https://app.hex.tech/signup"
+     }
+    ],
+    "right": null
+   },
+   "customBlocks": null,
+   "faq": null,
+   "video": null,
+   "externalLinksBanner": null,
+   "externalLinks": [],
+   "docHeight1440": 2181
+  },
+  "mysql": {
+   "route": "/product/integrations/mysql/",
+   "servedFrom": "/product/integrations/mysql/",
+   "title": "MySQL Analytics Notebooks and Data Apps | Hex",
+   "metaDescription": "Connect Hex directly to MySQL, and run SQL and Python without exporting data. Build interactive dashboards on your MySQL tables and query with AI in Threads.",
+   "bannerLabel": "Integration",
+   "bannerHref": "/product/integrations/",
+   "logo": {
+    "src": "/assets/pages/product/_shared/mysql-4f02cbcf-73x50.svg",
+    "original": "https://cdn.sanity.io/images/e92memrj/production/4f02cbcfd90c9e53cc18af22d03602b0c6b04426-73x50.svg",
+    "alt": "MySQL",
+    "natural": [
+     73,
+     50
+    ],
+    "rendered": [
+     88,
+     60
+    ]
+   },
+   "h1": "Connect MySQL directly to a flexible data notebook",
+   "description": "Hex makes it easy to securely and efficiently query data from MySQL without switching tools or transporting data.",
+   "heroCtas": [
+    {
+     "label": "Get started",
+     "href": "https://app.hex.tech/signup"
+    }
+   ],
+   "quotes": [],
+   "howItWorks": {
+    "heading": "How it works",
+    "layout": "two-column",
+    "bodyHtml": "<p>Once a Hex admin has connected to a MySQL database, it's easy for any user to securely query data with a rich SQL IDE— right from the notebook environment.</p><p>Hex is a powerful data platform with first class SQL support, so you can build powerful analyses and data apps entirely from SQL— or bring in Python and leverage its rich package library, without changing tools or moving data.</p>",
+    "ctas": [
+     {
+      "label": "Get started",
+      "href": "https://app.hex.tech/signup"
+     }
+    ],
+    "right": {
+     "kind": "DataConnectionIlly",
+     "image": null,
+     "sql": "select\ncast({{timeframe}} as timestamp) as month,\nship, destination,\nsum(spice_tons) as spice_tons\nfrom atreides.vehicle_destinations\ngroup by 1,2,3",
+     "connectionCard": "MySQL | 2 cells | Atriedes, Inc. | Last updated: 3 min ago",
+     "cellFooter": "dataframe"
+    }
+   },
+   "customBlocks": null,
+   "faq": null,
+   "video": null,
+   "externalLinksBanner": null,
+   "externalLinks": [],
+   "docHeight1440": 2179
+  },
+  "postgres": {
+   "route": "/product/integrations/postgres/",
+   "servedFrom": "/product/integrations/postgres/",
+   "title": "PostgreSQL Analytics: Notebooks and Data Apps | Hex",
+   "metaDescription": "Connect Hex to Postgres for SQL and Python analysis without exporting data. Build interactive data apps on PostgreSQL and share insights across your team.",
+   "bannerLabel": "Integration",
+   "bannerHref": "/product/integrations/",
+   "logo": {
+    "src": "/assets/pages/product/_shared/postgres-28b261fb-140x50.svg",
+    "original": "https://cdn.sanity.io/images/e92memrj/production/28b261fb442abb4aba7a3ece2f380d809acbea65-140x50.svg",
+    "alt": "Postgres",
+    "natural": [
+     140,
+     50
+    ],
+    "rendered": [
+     168,
+     60
+    ]
+   },
+   "h1": "Build interactive data applications with PostgreSQL data",
+   "description": "Hex securely and efficiently connects to Postgres to let you build rich analyses and data apps with SQL.",
+   "heroCtas": [
+    {
+     "label": "Get started",
+     "href": "https://app.hex.tech/signup"
+    }
+   ],
+   "quotes": [],
+   "howItWorks": {
+    "heading": "How it works",
+    "layout": "two-column",
+    "bodyHtml": "<p>Once a Hex admin has connected to a PostgreSQL database, it's easy for any user to securely query data with a rich SQL IDE— right from the notebook environment.</p><p>Hex is a powerful data platform with first-class SQL support, so you can build powerful analyses and data apps entirely from SQL— or bring in Python and leverage its rich package library, without changing tools or moving data.</p>",
+    "ctas": [
+     {
+      "label": "Get started",
+      "href": "https://app.hex.tech/signup"
+     }
+    ],
+    "right": {
+     "kind": "DataConnectionIlly",
+     "image": "/assets/pages/product/_shared/materialize-f9729cc2-142x50.svg",
+     "imageAlt": "Materialize",
+     "sql": null,
+     "connectionCard": "Postgres | 2 cells | Atriedes, Inc. | Last updated: 3 min ago",
+     "cellFooter": null
+    }
+   },
+   "customBlocks": null,
+   "faq": null,
+   "video": null,
+   "externalLinksBanner": null,
+   "externalLinks": [],
+   "docHeight1440": 2194
+  },
+  "prefect": {
+   "route": "/product/integrations/prefect/",
+   "servedFrom": "/product/integrations/prefect/",
+   "title": "Prefect Integration: Orchestrate Hex from Pipelines | Hex",
+   "metaDescription": "Trigger Hex notebook and app refreshes from Prefect pipelines. Keep data apps up to date with every workflow run automatically.",
+   "bannerLabel": "Integration",
+   "bannerHref": "/product/integrations/",
+   "logo": {
+    "src": "/assets/pages/product/_shared/prefect-ef58dd9e-170x50.svg",
+    "original": "https://cdn.sanity.io/images/e92memrj/production/ef58dd9e8418c3ceef28dfa3070a5059d0da74bd-170x50.svg",
+    "alt": "Prefect",
+    "natural": [
+     170,
+     50
+    ],
+    "rendered": [
+     204,
+     60
+    ]
+   },
+   "h1": "Add Hex apps to your Prefect pipelines and dataflows",
+   "description": "Programmatically trigger data transformations, app refreshes, and complex data science workflows as part of your broader orchestration pipelines.",
+   "heroCtas": [
+    {
+     "label": "Get started",
+     "href": "https://app.hex.tech/signup"
+    }
+   ],
+   "quotes": [],
+   "howItWorks": {
+    "heading": "How it works",
+    "layout": "single-column-centered",
+    "bodyHtml": "<p>The prefect-hex package lets Prefect users easily create flows that trigger runs of or access metadata about Hex apps.</p><p>Including Hex in your data pipelines and orchestration workflows lets you do things like:</p><p>- Trigger a Hex app to update cached values after an upstream transformation completes - Run a Hex project with passed-in input parameters based on a form submission in another app - Automatically kick off a model re-run through Hex when new source data lands</p><p>_The prefect-hex package is created and supported by Prefect. Please file issues and report bugs directly on the <a href=\"https://github.com/PrefectHQ/prefect-hex\" rel=\"noopener noreferrer\" target=\"_blank\">GitHub repo</a>._</p>",
+    "ctas": [
+     {
+      "label": "Get started",
+      "href": "https://app.hex.tech/signup"
+     }
+    ],
+    "right": null
+   },
+   "customBlocks": null,
+   "faq": null,
+   "video": null,
+   "externalLinksBanner": null,
+   "externalLinks": [],
+   "docHeight1440": 2387
+  },
+  "trino": {
+   "route": "/product/integrations/trino/",
+   "servedFrom": "/product/integrations/trino/",
+   "title": "Trino Integration: SQL Analytics Notebooks in Hex | Hex",
+   "metaDescription": "Connect Hex to Trino for fast SQL analytics on large datasets. Run queries, build interactive data apps, and explore results with AI in Threads.",
+   "bannerLabel": "Integration",
+   "bannerHref": "/product/integrations/",
+   "logo": {
+    "src": "/assets/pages/product/_shared/trino-4e5a0408-96x50.svg",
+    "original": "https://cdn.sanity.io/images/e92memrj/production/4e5a0408d82dac6c41001f18aad1cb5223f821dd-96x50.svg",
+    "alt": "Trino",
+    "natural": [
+     96,
+     50
+    ],
+    "rendered": [
+     115,
+     60
+    ]
+   },
+   "h1": "Interactive data apps that run lightning fast",
+   "description": "Hex connects to Trino to power complex data science, beautiful data apps, and interactive insights on huge datasets, all at incredible speeds.",
+   "heroCtas": [
+    {
+     "label": "Get started",
+     "href": "https://app.hex.tech/signup"
+    }
+   ],
+   "quotes": [],
+   "howItWorks": {
+    "heading": "How it works",
+    "layout": "two-column",
+    "bodyHtml": "<p>Hex admins can configure a workspace-wide connection to Trino that lets every user can securely query big data in a rich SQL IDE— directly from the data notebook environment where analysis will take place.</p><p>Hex has first class SQL support, so you can build powerful analyses and data apps entirely from Trino queries, or easily switch over to Python and leverage its rich package library.</p><p>Hex apps are dynamic and interactive, so Trino's lightning speed is a perfect fit. Parameterize Trino queries with dynamic user input and let your stakeholders explore for themselves.</p>",
+    "ctas": [
+     {
+      "label": "Get started",
+      "href": "https://app.hex.tech/signup"
+     }
+    ],
+    "right": {
+     "kind": "DataConnectionIlly",
+     "image": null,
+     "sql": null,
+     "connectionCard": "Trino | 2 cells | Atriedes, Inc. | Last updated: 3 min ago",
+     "cellFooter": null
+    }
+   },
+   "customBlocks": null,
+   "faq": null,
+   "video": null,
+   "externalLinksBanner": null,
+   "externalLinks": [],
+   "docHeight1440": 2253
+  },
+  "redshift": {
+   "route": "/product/integrations/redshift/",
+   "servedFrom": "/product/integrations/aws/",
+   "title": "AWS - Integration | Hex",
+   "metaDescription": "Connect to Athena, Redshift, RDS, S3, and ECR from a single notebook. IAM role support means no static credentials and no rotation headaches — just short-lived, auto-rotating auth.",
+   "bannerLabel": "Integration",
+   "bannerHref": "/product/integrations/",
+   "logo": {
+    "src": "/assets/pages/product/_shared/aws-afba70e2-70x50.svg",
+    "original": "https://cdn.sanity.io/images/e92memrj/production/afba70e23403a9822268f70e515c9f86ee2689db-70x50.svg",
+    "alt": "AWS",
+    "natural": [
+     70,
+     50
+    ],
+    "rendered": [
+     84,
+     60
+    ]
+   },
+   "h1": "AWS Data, meet Hex",
+   "description": "Connect to Athena, Redshift, RDS, S3, and ECR from a single notebook. IAM role support means no static credentials and no rotation headaches — just short-lived, auto-rotating auth.",
+   "heroCtas": [
+    {
+     "label": "Get started",
+     "href": "https://app.hex.tech/signup"
+    }
+   ],
+   "quotes": [],
+   "howItWorks": {
+    "heading": "How it works",
+    "layout": "two-column",
+    "bodyHtml": "<p>A Hex admin configures your AWS connections once, and every user gets secure, governed access from there. Every SQL cell in Hex is a full IDE — with autocomplete, a schema browser, query caching, and streaming for large results, so teams can explore data from Athena or Redshift without switching tabs, passing around credentials, or writing Python setup code.</p><p>When you need to go deeper than SQL, switch to Python in the same notebook. No context switching, no copy-pasting data between tools. Build analyses, predictive models, and interactive data apps all on top of your existing AWS data.</p>",
+    "ctas": [
+     {
+      "label": "Get started",
+      "href": "https://app.hex.tech/signup"
+     }
+    ],
+    "right": {
+     "kind": "image",
+     "image": "/assets/pages/product/_shared/aws-a9c1a748-1280x1312.png",
+     "imageAlt": "AWS",
+     "connectionName": null,
+     "sql": null
+    }
+   },
+   "customBlocks": {
+    "headings": [
+     "AWS connections",
+     "Athena",
+     "Redshift",
+     "RDS",
+     "S3",
+     "ECR",
+     "IAM role support across every AWS connection"
+    ],
+    "note": "Full markup in reference/pages/product/dom/integrations-redshift/ (CustomComponents section)"
+   },
+   "faq": null,
+   "video": null,
+   "externalLinksBanner": null,
+   "externalLinks": [],
+   "docHeight1440": 3837
+  },
+  "snowflake": {
+   "route": "/product/integrations/snowflake/",
+   "servedFrom": "/product/integrations/snowflake/",
+   "title": "Hex + Snowflake: Best Front-End for the AI Data Cloud | Hex",
+   "metaDescription": "Connect to Snowflake for SQL and Python workflows, build governed data apps, and enable AI-powered self-serve — without leaving Hex. Try it free.",
+   "bannerLabel": "Integration",
+   "bannerHref": "/product/integrations/",
+   "logo": {
+    "src": "/assets/pages/product/_shared/snowflake-8a3ac900-150x50.svg",
+    "original": "https://cdn.sanity.io/images/e92memrj/production/8a3ac9007f845988146f79c5fb9a4a7de58c821d-150x50.svg",
+    "alt": "Snowflake",
+    "natural": [
+     150,
+     50
+    ],
+    "rendered": [
+     180,
+     60
+    ]
+   },
+   "h1": "The best front-end for the AI Data Cloud",
+   "description": "Hex makes it easy to securely and efficiently query data from Snowflake without switching tools or transporting data.",
+   "heroCtas": [
+    {
+     "label": "Talk to sales",
+     "href": "https://hex.tech/request-a-demo/"
+    },
+    {
+     "label": "Learn more",
+     "href": "https://learn.hex.tech/docs/connect-to-data/data-connections/overview"
+    }
+   ],
+   "quotes": [
+    {
+     "logo": "existing: in ASSET_MANIFEST",
+     "logoAlt": "Abhishek Modi logo",
+     "quote": "\"Snowpark opens the Data Cloud to a wider audience, which aligns with our use of Hex as a self-serve analytics environment supporting users ranging from our marketing team to seasoned data scientists. Hex and Snowpark together will help us truly democratize data for users across the business.\"",
+     "author": "Abhishek ModiNotion",
+     "info": "Abhishek ModiNotion"
+    },
+    {
+     "logo": "/assets/pages/product/integrations-snowflake/jerry-shen-logo-14fda610-148x50.svg",
+     "logoAlt": "Jerry Shen logo",
+     "quote": "\"Our ability to do work in Python and also write SQL against a DataFrame in Hex that reads and writes directly from Snowflake is really key to helping us productionalize our work.\"",
+     "author": "Jerry ShenOpensea",
+     "info": "Jerry ShenOpensea"
+    }
+   ],
+   "howItWorks": {
+    "heading": "How it works",
+    "layout": "two-column",
+    "bodyHtml": "<p>Hex is an all-in-one, unified workspace for building with data. With Hex, data science, reporting, operational apps, self-serve, and AI analytics live in the same place.</p><p>Hex is the ultimate front-end experience for Snowflake, seamlessly connecting technical and non-technical users.</p><p>Use Snowflake credits to purchase Hex through the Snowflake Marketplace.</p>",
+    "ctas": [
+     {
+      "label": "See marketplace listing",
+      "href": "https://app.snowflake.com/marketplace/providers/GZTYZASX5BX/Hex"
+     }
+    ],
+    "right": {
+     "kind": "image",
+     "image": "/assets/pages/product/integrations-snowflake/snowflake-98c60e5e-1587x1026.png",
+     "imageAlt": "Snowflake",
+     "connectionName": null,
+     "sql": null
+    }
+   },
+   "customBlocks": {
+    "headings": [
+     "Why is Hex great for Snowflake?",
+     "Data apps",
+     "Data science",
+     "Enhanced self-service",
+     "Hex offers a new approach to data and analytics",
+     "Native data connection",
+     "No-code exploration",
+     "AI code generation",
+     "Governed data models",
+     "True AI model residency",
+     "Secure OAuth support",
+     "How does Hex compare to Snowflake Notebooks?",
+     "Data Exploration in Snowflake",
+     "Hex",
+     "FAQ",
+     "How is Hex different from what Snowflake offers?chevron-down"
+    ],
+    "note": "Full markup in reference/pages/product/dom/integrations-snowflake/ (CustomComponents section)"
+   },
+   "faq": {
+    "ref": "specs/product-faq.json → integrations-snowflake"
+   },
+   "video": {
+    "heading": "See it in action",
+    "iframe": "https://www.loom.com/embed/35f54d87168a4fb6a15b93e123f002d0",
+    "box": [
+     1160,
+     550
+    ]
+   },
+   "externalLinksBanner": "Learn more",
+   "externalLinks": [
+    {
+     "title": "Introducing: Hex inside of Snowflake",
+     "source": "Hex",
+     "href": "https://hex.tech/product/integrations/snowpark-container-services/"
+    },
+    {
+     "title": "Extreme Makeover: Jupyter Notebook Edition",
+     "source": "Snowflake BUILD tutorial on-demand",
+     "href": "https://www.youtube.com/watch?v=TRmuEU_lRKk"
+    },
+    {
+     "title": "Deploying ML models to Snowflake with Modelbit and Hex",
+     "source": "Hex blog",
+     "href": "https://hex.tech/blog/modelbit/"
+    },
+    {
+     "title": "Notion 💜 Hex + Snowflake",
+     "source": "Customer spotlight",
+     "href": "https://hex.tech/customers/notion/"
+    },
+    {
+     "title": "Hex Brings Cloud-Native Notebooks to Snowpark",
+     "source": "Newswire",
+     "href": "https://www.newswire.com/news/hex-brings-cloud-native-notebooks-to-snowpark-21739577"
+    },
+    {
+     "title": "Whatnot Customer Spotlight",
+     "source": "Customers",
+     "href": "https://hex.tech/customers/whatnot/"
+    },
+    {
+     "title": "Hex + Snowflake: Collaborative data science & analytics on the Data Cloud",
+     "source": "One-pager",
+     "href": "https://hex.tech/snowflake22/"
+    },
+    {
+     "title": "Building and Deploying a Time Series Forecast Model with Hex + Snowflake",
+     "source": "Hands-on lab guide",
+     "href": "https://quickstarts.snowflake.com/guide/hex/index.html?index=../..index#0"
+    },
+    {
+     "title": "Accelerate Data Science & Analytics in the Data Cloud",
+     "source": "Snowflake solution brief",
+     "href": "https://www.snowflake.com/en/resources/solution-brief/snowflake-hex-accelerate-data-science-and-analytics-in-the-data-cloud/"
+    },
+    {
+     "title": "Introducing Snowpark for Python in Hex",
+     "source": "Hex blog",
+     "href": "https://hex.tech/blog/snowpark-hex/"
+    },
+    {
+     "title": "Six Reasons Hex and Snowflake Work Great Together",
+     "source": "Hex blog",
+     "href": "https://hex.tech/blog/snowflake-hex/"
+    },
+    {
+     "title": "Modernizing Jupyter workflows with Hex + Snowflake",
+     "source": "Hex blog",
+     "href": "https://hex.tech/blog/modernizing-jupyter-notebooks-snowflake/"
+    }
+   ],
+   "docHeight1440": 6253
+  }
+ }
+}

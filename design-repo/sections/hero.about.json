@@ -1,0 +1,135 @@
+{
+  "id": "hero.about",
+  "category": "hero",
+  "purpose": "About hero: italic + display two-line H1 over Perlin/cartesian backdrop, team photo card beside lead copy and an animated CTA.",
+  "variants": [],
+  "content": {
+    "italicLine": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 4,
+      "observedWords": [
+        3
+      ],
+      "measuredFrom": [
+        "specs/company.md:154"
+      ]
+    },
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 5,
+      "observedWords": [
+        4
+      ],
+      "measuredFrom": [
+        "specs/company.md:154"
+      ]
+    },
+    "lead": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 15,
+      "observedWords": [
+        12
+      ],
+      "measuredFrom": [
+        "specs/company.md:157"
+      ]
+    },
+    "body": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 43,
+      "observedWords": [
+        34
+      ],
+      "measuredFrom": [
+        "specs/company.md:157"
+      ]
+    },
+    "photo": {
+      "kind": "media",
+      "required": true,
+      "roles": [
+        "photo.person"
+      ],
+      "alt": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 18,
+        "observedWords": [
+          14,
+          14
+        ],
+        "measuredFrom": [
+          "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+          "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+        ]
+      }
+    },
+    "action": {
+      "kind": "action",
+      "required": true,
+      "label": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 4,
+        "observedWords": [
+          3
+        ],
+        "measuredFrom": [
+          "specs/company.md:157"
+        ]
+      },
+      "variants": [
+        "primary"
+      ],
+      "sizes": [
+        "lg"
+      ]
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-on-mount"
+    ],
+    "default": "reveal-on-mount"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "stack-columns",
+      "detail": "photo above copy; CTA centred",
+      "measuredFrom": [
+        "specs/company.md:158"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/company.md:153"
+  ],
+  "wordBudgets": {
+    "action.label": 4,
+    "body": 43,
+    "headline": 5,
+    "italicLine": 4,
+    "lead": 15,
+    "photo.alt": 18
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "photo.person"
+  ],
+  "usedByTemplates": [
+    "template.about"
+  ],
+  "observedThemes": [
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__hero.about",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

@@ -1,0 +1,32 @@
+/* Every @keyframes block loaded on the product/capability/integration pages (union, first definition wins) */
+@keyframes DataBenchExpansionDrawer-module__vBLN0G__backdropIn { 0% { opacity: 0; } 100% { opacity: 1; } }
+@keyframes DataBenchExpansionDrawer-module__vBLN0G__backdropOut { 0% { opacity: 1; } 100% { opacity: 0; } }
+@keyframes DataBenchExpansionDrawer-module__vBLN0G__drawerIn { 0% { transform: translate(100%); } 100% { transform: translate(0px); } }
+@keyframes DataBenchExpansionDrawer-module__vBLN0G__drawerOut { 0% { transform: translate(0px); } 100% { transform: translate(100%); } }
+@keyframes HomeBuiltDifferentIllustration-module__UDyiga__bubblePop { 0% { opacity: 0; transform: scale(0); } 100% { opacity: 1; transform: scale(1); } }
+@keyframes HomeOrganizationContextCycle-module__mBC41G__translate-step-noise { 0% { background-position: 50% 0px; } 100% { background-position: 50% 256px; } }
+@keyframes HomeTrustedAnswers-module__G5svba__agentLogoRollIn { 0% { opacity: 0; transform: translate(-24px) rotate(-90deg); } 30% { opacity: 1; } 100% { opacity: 1; transform: none; } }
+@keyframes ticker { 0% { transform: translateX(0%); } 100% { transform: translateX(calc(-20%)); } }
+@keyframes announcement-pill-shine { 0% { transform: translateX(calc(-50% - 40px)); } 100% { transform: translateX(calc(50% + 130px)); } }
+@keyframes noise { 0% { background-position: -512px -512px; } 100% { background-position: 0px 0px; } }
+@keyframes terminalCursorBlink { 0%, 49.999% { opacity: var(--terminal-cursor-on-opacity); } 50%, 100% { opacity: 0; } }
+@keyframes hero-fade-in { 0% { opacity: 0.0001; transform: translateY(var(--y, 32px)); } 100% { opacity: 1; transform: none; } }
+@keyframes glass-enter { 0% { opacity: 0.4; transform: translateZ(-120px) translateY(60px) rotateX(-3deg); } }
+@keyframes enter { 0% { opacity: 0; filter: blur(1px); transform: translate(-50%, -50%) scale(0.96) translateY(32px); } }
+@keyframes hero-info-enter { 0% { opacity: 0.001; filter: blur(2px); transform: scale(0.99) translateY(12px); } }
+@keyframes prompt-hero-announcement-enter { 0% { opacity: 0; filter: blur(4px); } }
+@keyframes transformOut { 0% { transform: none; } 100% { transform: translateY(-40px) rotateX(3deg); } }
+@keyframes fadeOut { 0% { opacity: 1; } 100% { opacity: 0; scale: 0.98; } }
+@keyframes fadeIn { 0% { opacity: 0.8; transform: translateY(40px); } 100% { transform: none; opacity: 1; } }
+@keyframes translate-bg { 0% { background-position: 0px 0px; } 100% { background-position: 0px -512px; } }
+@keyframes aura-position { 0% { --cx: 50%; } 100% { --cx: 50%; } }
+@keyframes aura-angle { 0% { --angle: -0.295turn; } 90%, 100% { --angle: -0.0575turn; } }
+@keyframes aura-enter-exit { 0%, 20% { opacity: 0.18; } 70%, 100% { opacity: 0; } }
+@keyframes border-enter-exit { 0% { opacity: 1; } 72%, 100% { opacity: 0; } }
+@keyframes blink { 0% { opacity: 0; } 100% { opacity: 1; } }
+@keyframes scroll { 0% { transform: translateX(0%); } 100% { transform: translateX(-100%); } }
+@keyframes animateDragImg { 0% { transform: translate(0px, 0px); } 50% { transform: translate(30px, -15px); } 100% { transform: translate(0px, 0px); } }
+@keyframes animateDataExp { 0% { transform: translateY(0px); } 50% { transform: translateY(calc(0px + 60vh)); } 100% { transform: translateY(0px); } 50% { transform: translateY(calc(-1900px + 60vh)); } }
+@keyframes rotate { 0% { transform: rotate(-360deg); } 0% { transform: rotate(1turn); } }
+@keyframes translate-noise { 0% { background-position: 50% 0px; } 100% { background-position: 50% 256px; } }
+@keyframes dGOzbh { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }

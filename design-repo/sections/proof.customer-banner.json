@@ -1,0 +1,162 @@
+{
+  "id": "proof.customer-banner",
+  "category": "proof",
+  "purpose": "Logo band proving adoption: label + customer logo row; story logos get an indicator dot and a quote popover.",
+  "variants": [
+    "framed",
+    "minimal"
+  ],
+  "content": {
+    "label": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 8,
+      "observedWords": [
+        5,
+        6
+      ],
+      "measuredFrom": [
+        "CLONE_SPEC.md:277",
+        "specs/product.md:251"
+      ]
+    },
+    "logos": {
+      "kind": "list",
+      "required": true,
+      "minItems": 5,
+      "maxItems": 18,
+      "measuredFrom": [
+        "CLONE_SPEC.md:278",
+        "specs/product.md:251"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "logo": {
+            "kind": "media",
+            "required": true,
+            "roles": [
+              "logo.customer"
+            ],
+            "alt": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 18,
+              "observedWords": [
+                14,
+                14
+              ],
+              "measuredFrom": [
+                "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+                "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+              ]
+            }
+          },
+          "story": {
+            "kind": "object",
+            "required": false,
+            "fields": {
+              "href": {
+                "kind": "href",
+                "required": true
+              },
+              "quote": {
+                "kind": "text",
+                "required": true,
+                "maxWords": 34,
+                "observedWords": [
+                  27
+                ],
+                "measuredFrom": [
+                  "CLONE_SPEC.md:280"
+                ]
+              },
+              "author": {
+                "kind": "text",
+                "required": true,
+                "maxWords": 4,
+                "observedWords": [
+                  2,
+                  3
+                ],
+                "measuredFrom": [
+                  "CLONE_SPEC.md:282",
+                  "CLONE_SPEC.md:286"
+                ]
+              },
+              "title": {
+                "kind": "text",
+                "required": true,
+                "maxWords": 8,
+                "observedWords": [
+                  6,
+                  6,
+                  5
+                ],
+                "measuredFrom": [
+                  "CLONE_SPEC.md:281",
+                  "CLONE_SPEC.md:286",
+                  "specs/product.md:154"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "reflow-wrap",
+      "detail": "logo gap tightens to 14/39 and rows wrap",
+      "measuredFrom": [
+        "CLONE_SPEC.md:287"
+      ]
+    }
+  ],
+  "constraints": {
+    "maxPerPage": 1
+  },
+  "measuredFrom": [
+    "CLONE_SPEC.md:275",
+    "specs/solutions.md:145"
+  ],
+  "notes": "Real customer logos must never be reproduced in generated output: logos are placeholder-only (asset role logo.customer).",
+  "wordBudgets": {
+    "label": 8,
+    "logos[].logo.alt": 18,
+    "logos[].story.author": 4,
+    "logos[].story.quote": 34,
+    "logos[].story.title": 8
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "logo.customer"
+  ],
+  "usedByTemplates": [
+    "template.about",
+    "template.compare",
+    "template.enterprise",
+    "template.form-page",
+    "template.home",
+    "template.pricing",
+    "template.product-feature",
+    "template.product-v1",
+    "template.solution-detail",
+    "template.solutions-hub"
+  ],
+  "observedThemes": [
+    "dark",
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__proof.customer-banner",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

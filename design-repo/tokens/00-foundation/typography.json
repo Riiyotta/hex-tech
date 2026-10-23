@@ -1,0 +1,445 @@
+{
+  "$description": "Font families (with licensing), weights and the type scale. Commercial faces are local-only reference copies; never redistribute.",
+  "typography": {
+    "fontFamily": {
+      "cinetype": {
+        "$type": "fontFamily",
+        "$value": "Cinetype",
+        "license": "GT Cinetype (Grilli Type): commercial, local reference copy only",
+        "measuredFrom": [
+          "tailwind.config.cjs:148",
+          "CLONE_SPEC.md:501"
+        ]
+      },
+      "cinetype-mono": {
+        "$type": "fontFamily",
+        "$value": "\"Cinetype Mono\"",
+        "license": "GT Cinetype Mono (Grilli Type): commercial, local reference copy only",
+        "measuredFrom": [
+          "tailwind.config.cjs:149",
+          "CLONE_SPEC.md:501"
+        ]
+      },
+      "formula-semiextended": {
+        "$type": "fontFamily",
+        "$value": "\"PP Formula SemiExtended\"",
+        "license": "PP Formula (Pangram Pangram): commercial, local reference copy only",
+        "measuredFrom": [
+          "tailwind.config.cjs:150",
+          "CLONE_SPEC.md:501"
+        ]
+      },
+      "formula": {
+        "$type": "fontFamily",
+        "$value": "\"PP Formula\"",
+        "license": "PP Formula (Pangram Pangram): commercial, local reference copy only",
+        "measuredFrom": [
+          "tailwind.config.cjs:151",
+          "CLONE_SPEC.md:501"
+        ]
+      },
+      "editorial": {
+        "$type": "fontFamily",
+        "$value": "\"PP Editorial New\"",
+        "license": "PP Editorial New (Pangram Pangram): commercial, local reference copy only",
+        "measuredFrom": [
+          "tailwind.config.cjs:152",
+          "CLONE_SPEC.md:501"
+        ]
+      },
+      "plex-sans": {
+        "$type": "fontFamily",
+        "$value": "\"IBM Plex Sans\"",
+        "license": "IBM Plex (SIL Open Font License)",
+        "measuredFrom": [
+          "tailwind.config.cjs:154"
+        ]
+      },
+      "plex-mono": {
+        "$type": "fontFamily",
+        "$value": "\"IBM Plex Mono\"",
+        "license": "IBM Plex (SIL Open Font License)",
+        "measuredFrom": [
+          "tailwind.config.cjs:155"
+        ]
+      },
+      "lato": {
+        "$type": "fontFamily",
+        "$value": "Lato",
+        "license": "Lato (SIL Open Font License); product-mock (Slack) only",
+        "measuredFrom": [
+          "tailwind.config.cjs:160"
+        ]
+      }
+    },
+    "fontWeight": {
+      "200": {
+        "$type": "fontWeight",
+        "$value": 200,
+        "measuredFrom": [
+          "CLONE_SPEC.md:150"
+        ]
+      },
+      "300": {
+        "$type": "fontWeight",
+        "$value": 300,
+        "measuredFrom": [
+          "CLONE_SPEC.md:160"
+        ]
+      },
+      "400": {
+        "$type": "fontWeight",
+        "$value": 400,
+        "measuredFrom": [
+          "CLONE_SPEC.md:164"
+        ]
+      },
+      "600": {
+        "$type": "fontWeight",
+        "$value": 600,
+        "measuredFrom": [
+          "CLONE_SPEC.md:156"
+        ]
+      },
+      "700": {
+        "$type": "fontWeight",
+        "$value": 700,
+        "measuredFrom": [
+          "CLONE_SPEC.md:149"
+        ]
+      },
+      "800": {
+        "$type": "fontWeight",
+        "$value": 800,
+        "measuredFrom": [
+          "CLONE_SPEC.md:153"
+        ]
+      },
+      "500": {
+        "$type": "fontWeight",
+        "$value": 500,
+        "measuredFrom": [
+          "specs/solutions.md:146"
+        ]
+      }
+    },
+    "scale": {
+      "hero": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "clamp(42px, 24px + 4vw, 74px)",
+          "lineHeight": "1.2",
+          "fontFamily": "{typography.fontFamily.formula-semiextended}",
+          "fontWeight": "{typography.fontWeight.700}",
+          "letterSpacing": "-0.025em"
+        },
+        "measuredFrom": [
+          "tailwind.config.cjs:166",
+          "CLONE_SPEC.md:149"
+        ]
+      },
+      "heading-1": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "clamp(38px, 25.625px + 2.75vw, 60px)",
+          "lineHeight": "1.3",
+          "fontFamily": "{typography.fontFamily.formula-semiextended}",
+          "fontWeight": "{typography.fontWeight.700}",
+          "letterSpacing": "-0.0308em"
+        },
+        "measuredFrom": [
+          "tailwind.config.cjs:168",
+          "CLONE_SPEC.md:151"
+        ]
+      },
+      "heading-2": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "clamp(30px, 24.375px + 1.25vw, 40px)",
+          "lineHeight": "1.3",
+          "fontFamily": "{typography.fontFamily.formula}",
+          "fontWeight": "{typography.fontWeight.800}",
+          "letterSpacing": "-0.025em"
+        },
+        "measuredFrom": [
+          "tailwind.config.cjs:169"
+        ]
+      },
+      "heading-3": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "clamp(20px, 15.5px + 1vw, 28px)",
+          "lineHeight": "1.3",
+          "fontFamily": "{typography.fontFamily.formula}",
+          "fontWeight": "{typography.fontWeight.800}",
+          "letterSpacing": "-0.025em"
+        },
+        "measuredFrom": [
+          "tailwind.config.cjs:170"
+        ]
+      },
+      "heading-4": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "20px",
+          "lineHeight": "26px",
+          "fontFamily": "{typography.fontFamily.formula}",
+          "fontWeight": "{typography.fontWeight.600}",
+          "letterSpacing": "-0.5px"
+        },
+        "measuredFrom": [
+          "tailwind.config.cjs:171"
+        ]
+      },
+      "heading-5": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "14px",
+          "lineHeight": "1.571",
+          "fontFamily": "{typography.fontFamily.cinetype}",
+          "fontWeight": "{typography.fontWeight.600}",
+          "letterSpacing": "-0.025em"
+        },
+        "measuredFrom": [
+          "tailwind.config.cjs:172"
+        ]
+      },
+      "heading-6": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "clamp(12px, 15.125px - .25vw, 14px)",
+          "lineHeight": "1.571",
+          "fontFamily": "{typography.fontFamily.plex-mono}",
+          "fontWeight": "{typography.fontWeight.700}",
+          "letterSpacing": "0.214em"
+        },
+        "measuredFrom": [
+          "tailwind.config.cjs:173"
+        ]
+      },
+      "italic-display": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "1.3em",
+          "lineHeight": "inherit",
+          "fontFamily": "{typography.fontFamily.editorial}",
+          "fontWeight": "{typography.fontWeight.200}"
+        },
+        "measuredFrom": [
+          "tailwind.config.cjs:174"
+        ]
+      },
+      "lead-xl": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "24px",
+          "lineHeight": "36px",
+          "fontFamily": "{typography.fontFamily.cinetype}",
+          "fontWeight": "{typography.fontWeight.300}"
+        },
+        "measuredFrom": [
+          "tailwind.config.cjs:175"
+        ]
+      },
+      "lead-l": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "20px",
+          "lineHeight": "30px",
+          "fontFamily": "{typography.fontFamily.cinetype}",
+          "fontWeight": "{typography.fontWeight.300}"
+        },
+        "measuredFrom": [
+          "tailwind.config.cjs:176"
+        ]
+      },
+      "body": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "fontFamily": "{typography.fontFamily.cinetype}",
+          "fontWeight": "{typography.fontWeight.300}"
+        },
+        "measuredFrom": [
+          "tailwind.config.cjs:177"
+        ]
+      },
+      "small": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "14px",
+          "lineHeight": "21.994px",
+          "fontFamily": "{typography.fontFamily.cinetype}",
+          "fontWeight": "{typography.fontWeight.300}"
+        },
+        "measuredFrom": [
+          "tailwind.config.cjs:178"
+        ]
+      },
+      "nav": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "14px",
+          "lineHeight": "14px",
+          "fontFamily": "{typography.fontFamily.cinetype}",
+          "fontWeight": "{typography.fontWeight.400}"
+        },
+        "measuredFrom": [
+          "tailwind.config.cjs:179"
+        ]
+      },
+      "button": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "14px",
+          "lineHeight": "21.994px",
+          "fontFamily": "{typography.fontFamily.cinetype}",
+          "fontWeight": "{typography.fontWeight.400}"
+        },
+        "measuredFrom": [
+          "tailwind.config.cjs:180"
+        ]
+      },
+      "faq": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "18px",
+          "lineHeight": "24px",
+          "fontFamily": "{typography.fontFamily.cinetype}",
+          "fontWeight": "{typography.fontWeight.400}",
+          "letterSpacing": "-0.5px"
+        },
+        "measuredFrom": [
+          "tailwind.config.cjs:181"
+        ]
+      },
+      "label": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "10px",
+          "lineHeight": "12px",
+          "fontFamily": "{typography.fontFamily.cinetype-mono}",
+          "fontWeight": "{typography.fontWeight.400}",
+          "letterSpacing": "0.833px"
+        },
+        "measuredFrom": [
+          "tailwind.config.cjs:182"
+        ]
+      },
+      "ticker": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "12px",
+          "lineHeight": "18.852px",
+          "fontFamily": "{typography.fontFamily.cinetype-mono}",
+          "fontWeight": "{typography.fontWeight.400}"
+        },
+        "measuredFrom": [
+          "tailwind.config.cjs:183"
+        ]
+      },
+      "annotation": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "12px",
+          "lineHeight": "1.571",
+          "fontFamily": "{typography.fontFamily.cinetype-mono}",
+          "fontWeight": "{typography.fontWeight.400}",
+          "letterSpacing": "0.0833em"
+        },
+        "measuredFrom": [
+          "tailwind.config.cjs:184"
+        ]
+      },
+      "window-title": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "11px",
+          "lineHeight": "17.281px",
+          "fontFamily": "{typography.fontFamily.cinetype-mono}",
+          "fontWeight": "{typography.fontWeight.400}",
+          "letterSpacing": "0.9163px"
+        },
+        "measuredFrom": [
+          "tailwind.config.cjs:185"
+        ]
+      },
+      "quote-author": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "12px",
+          "lineHeight": "18.852px",
+          "fontFamily": "{typography.fontFamily.cinetype-mono}",
+          "fontWeight": "{typography.fontWeight.400}",
+          "letterSpacing": "0.9996px"
+        },
+        "measuredFrom": [
+          "tailwind.config.cjs:186"
+        ]
+      },
+      "eyebrow": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "13px",
+          "lineHeight": "13px",
+          "fontFamily": "{typography.fontFamily.cinetype-mono}",
+          "fontWeight": "{typography.fontWeight.400}",
+          "letterSpacing": "1.0829px"
+        },
+        "measuredFrom": [
+          "tailwind.config.cjs:187"
+        ]
+      },
+      "read-more": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "12px",
+          "lineHeight": "11px",
+          "fontFamily": "{typography.fontFamily.plex-mono}",
+          "fontWeight": "{typography.fontWeight.700}"
+        },
+        "measuredFrom": [
+          "tailwind.config.cjs:188"
+        ]
+      },
+      "footer-title": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "12px",
+          "lineHeight": "18.852px",
+          "fontFamily": "{typography.fontFamily.plex-mono}",
+          "fontWeight": "{typography.fontWeight.700}",
+          "letterSpacing": "0.7px"
+        },
+        "measuredFrom": [
+          "tailwind.config.cjs:191"
+        ]
+      },
+      "app-ui": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "12px",
+          "lineHeight": "16.8px",
+          "fontFamily": "{typography.fontFamily.plex-sans}",
+          "fontWeight": "{typography.fontWeight.400}"
+        },
+        "measuredFrom": [
+          "tailwind.config.cjs:193"
+        ]
+      },
+      "rich-text": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "18px",
+          "lineHeight": "32px",
+          "fontFamily": "{typography.fontFamily.plex-sans}",
+          "fontWeight": "{typography.fontWeight.400}"
+        },
+        "measuredFrom": [
+          "specs/company.md:121"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "component.quote-card",
+  "purpose": "Glass (or bordered dark) quote card: logo, quote rail, 24/36 quote, author with optional headshot.",
+  "composes": [
+    "component.glass-card",
+    "primitive.grayscale-logo"
+  ],
+  "props": {
+    "variant": {
+      "type": "enum",
+      "measuredFrom": [
+        "specs/SHARED_BUILT.md:72"
+      ],
+      "enum": [
+        "glass",
+        "bordered"
+      ]
+    }
+  },
+  "tokens": [
+    "surface.glass-card",
+    "shadow.glass-card",
+    "color.text.loud",
+    "color.border.strong"
+  ],
+  "measuredFrom": [
+    "specs/SHARED_BUILT.md:70",
+    "src/components/shared/QuoteCard.jsx:91"
+  ],
+  "layer": "component",
+  "provisional": true
+}

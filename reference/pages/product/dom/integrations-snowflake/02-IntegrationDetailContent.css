@@ -1,0 +1,18 @@
+/* integrations-snowflake section 2: every CSS rule from document.styleSheets whose selector matches a class used in this section (incl. @media/@supports wrappers), plus referenced @keyframes */
+.eWHoWL:hover .CornerLines__TopLeft-sc-8dce4083-1::before { transform: translate(-5px, -5px); }
+.eWHoWL:hover .CornerLines__BottomLeft-sc-8dce4083-3::before { transform: translate(-5px, 5px); }
+.eWHoWL:hover .CornerLines__TopRight-sc-8dce4083-2::before { transform: translate(5px, -5px); }
+.eWHoWL:hover .CornerLines__BottomRight-sc-8dce4083-4::before { transform: translate(5px, 5px); }
+.Dhflt { position: absolute; inset: 0px; pointer-events: none; margin: 0px !important; }
+.Dhflt > span::before { content: ""; display: block; position: absolute; width: 30px; height: 30px; transition: transform 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1); }
+[data-theme="pink"] .Dhflt { --button-cornerline-color: var(--fg1200); }
+.dXcLys::before { border-top: 1px solid var(--button-cornerline-color, var(--grid500, #3a3138)); border-left: 1px solid var(--button-cornerline-color, var(--grid500, #3a3138)); top: -6px; left: -6px; }
+.hMeijM::before { border-top: 1px solid var(--button-cornerline-color, var(--grid500, #3a3138)); border-right: 1px solid var(--button-cornerline-color, var(--grid500, #3a3138)); top: -6px; right: -6px; }
+.evAwnG::before { border-bottom: 1px solid var(--button-cornerline-color, var(--grid500, #3a3138)); border-left: 1px solid var(--button-cornerline-color, var(--grid500, #3a3138)); bottom: -6px; left: -6px; }
+.kyrySO::before { border-bottom: 1px solid var(--button-cornerline-color, var(--grid500, #3a3138)); border-right: 1px solid var(--button-cornerline-color, var(--grid500, #3a3138)); bottom: -6px; right: -6px; }
+.kbBAhL { margin: 0px; font-family: "PP Formula", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; color: var(--fontColorLOUD, #ffffff); font-weight: 800; line-height: 1.3; letter-spacing: -0.025em; font-size: clamp(30px, 24.375px + 1.25vw, 40px); }
+.knqxpP { display: flex; margin-bottom: 24px; }
+.fdcXGp { display: flex; flex-direction: column; max-width: 1240px; width: 100%; padding: 0px 40px; margin: 0px auto; }
+.hgcldV { height: 550px; width: 100%; position: relative; }
+@media (max-width: 600px) { .hgcldV { height: 250px; } }
+.glrlBv { margin-bottom: 30px; }

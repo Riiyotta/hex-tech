@@ -1,0 +1,26 @@
+{
+  "id": "component.full-width-quote",
+  "purpose": "Full-bleed sunken quote band with corner ticks, attribution, divider and 24px quote.",
+  "composes": [
+    "primitive.grayscale-logo"
+  ],
+  "props": {
+    "quote": {
+      "type": "text",
+      "measuredFrom": [
+        "src/components/shared/FullWidthQuote.jsx:34"
+      ]
+    }
+  },
+  "tokens": [
+    "color.surface.sunken",
+    "color.border.default",
+    "color.text.link"
+  ],
+  "measuredFrom": [
+    "specs/product.md:146",
+    "src/components/shared/FullWidthQuote.jsx:34"
+  ],
+  "layer": "component",
+  "provisional": true
+}

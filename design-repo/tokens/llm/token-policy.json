@@ -1,0 +1,22 @@
+{
+  "$description": "What is enforced vs convention for token use.",
+  "rawValueRestrictions": {
+    "color": "Reference color.* semantic names only; raw hex/rgba values are forbidden in new contracts.",
+    "gradient": "Reference gradient.* semantic names only.",
+    "shadow": "Reference shadow.* semantic names or elevation.*.",
+    "typography": "Reference typography.scale.* entries; no ad-hoc font sizes.",
+    "radius": "Reference radius.* only.",
+    "spacing": "Use spacing.* values (measured rhythm) only.",
+    "motion": "Reference motion.* durations/easings; PageSpec motion is the closed pattern vocabulary.",
+    "breakpoint": "Responsive rules reference breakpoint.* names."
+  },
+  "enforced": [
+    "primitive/component token references resolve against token-catalog.json (verify_all)",
+    "every semantic token resolves in both themes (verify_all)",
+    "responsive breakpoint references resolve (verify_all)"
+  ],
+  "convention": [
+    "choosing which semantic token a NEW component uses (design review)"
+  ],
+  "overrides": "PageSpecs carry no per-instance style or token override field; styling is owned by section/component contracts. There is therefore nothing token-shaped to validate inside a PageSpec."
+}

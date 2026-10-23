@@ -1,0 +1,131 @@
+{
+  "id": "feature.integration-custom-blocks",
+  "category": "feature",
+  "purpose": "Integration-specific extra blocks: two-up connection columns or centred header + outline card grids.",
+  "variants": [],
+  "content": {
+    "blocks": {
+      "kind": "list",
+      "required": true,
+      "minItems": 1,
+      "maxItems": 16,
+      "measuredFrom": [
+        "specs/product.md:727"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "title": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 9,
+            "observedWords": [
+              7
+            ],
+            "measuredFrom": [
+              "specs/product.md:693"
+            ]
+          },
+          "description": {
+            "kind": "text",
+            "required": false,
+            "maxWords": 8,
+            "observedWords": [
+              6
+            ],
+            "measuredFrom": [
+              "specs/product.md:694"
+            ]
+          },
+          "cards": {
+            "kind": "list",
+            "required": false,
+            "minItems": 0,
+            "maxItems": 6,
+            "measuredFrom": [
+              "specs/product.md:694"
+            ],
+            "item": {
+              "kind": "object",
+              "required": true,
+              "fields": {
+                "title": {
+                  "kind": "text",
+                  "required": true,
+                  "maxWords": 3,
+                  "observedWords": [
+                    2
+                  ],
+                  "measuredFrom": [
+                    "specs/product.md:694"
+                  ]
+                },
+                "image": {
+                  "kind": "media",
+                  "required": false,
+                  "roles": [
+                    "image.product-screenshot"
+                  ],
+                  "alt": {
+                    "kind": "text",
+                    "required": true,
+                    "maxWords": 18,
+                    "observedWords": [
+                      14,
+                      14
+                    ],
+                    "measuredFrom": [
+                      "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+                      "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "stack-columns",
+      "detail": "two-up columns stack",
+      "measuredFrom": [
+        "specs/product.md:693"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/product.md:692"
+  ],
+  "wordBudgets": {
+    "blocks[].cards[].image.alt": 18,
+    "blocks[].cards[].title": 3,
+    "blocks[].description": 8,
+    "blocks[].title": 9
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "image.product-screenshot"
+  ],
+  "usedByTemplates": [
+    "template.integration-detail"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__feature.integration-custom-blocks",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

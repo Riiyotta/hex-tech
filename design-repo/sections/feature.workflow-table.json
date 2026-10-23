@@ -1,0 +1,142 @@
+{
+  "id": "feature.workflow-table",
+  "category": "feature",
+  "purpose": "Three-column task / prompt / result table with chat-bubble prompts and a highlighted result column.",
+  "variants": [],
+  "content": {
+    "heading": {
+      "kind": "object",
+      "required": true,
+      "fields": {
+        "title": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 3,
+          "observedWords": [
+            2
+          ],
+          "measuredFrom": [
+            "specs/product.md:329"
+          ]
+        },
+        "italicLine": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 3,
+          "observedWords": [
+            2
+          ],
+          "measuredFrom": [
+            "specs/product.md:329"
+          ]
+        }
+      }
+    },
+    "columns": {
+      "kind": "list",
+      "required": true,
+      "minItems": 3,
+      "maxItems": 3,
+      "measuredFrom": [
+        "specs/product.md:331"
+      ],
+      "item": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 4,
+        "observedWords": [
+          3
+        ],
+        "measuredFrom": [
+          "specs/product.md:331"
+        ]
+      }
+    },
+    "rows": {
+      "kind": "list",
+      "required": true,
+      "minItems": 3,
+      "maxItems": 3,
+      "measuredFrom": [
+        "specs/product.md:330"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "task": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 7,
+            "observedWords": [
+              5
+            ],
+            "measuredFrom": [
+              "specs/product.md:332"
+            ]
+          },
+          "prompt": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 32,
+            "observedWords": [
+              25
+            ],
+            "measuredFrom": [
+              "specs/product.md:336"
+            ]
+          },
+          "result": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 28,
+            "observedWords": [
+              22
+            ],
+            "measuredFrom": [
+              "specs/product.md:336"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "stack-columns",
+      "detail": "rows stack task -> prompt -> result",
+      "measuredFrom": [
+        "specs/product.md:337"
+      ]
+    }
+  ],
+  "constraints": {},
+  "measuredFrom": [
+    "specs/product.md:328"
+  ],
+  "wordBudgets": {
+    "columns[]": 4,
+    "heading.italicLine": 3,
+    "heading.title": 3,
+    "rows[].prompt": 32,
+    "rows[].result": 28,
+    "rows[].task": 7
+  },
+  "richTextBudgets": {},
+  "assetRoles": [],
+  "usedByTemplates": [
+    "template.product-feature"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__feature.workflow-table",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

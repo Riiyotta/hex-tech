@@ -1,0 +1,1049 @@
+## about@390 page 4688
+   LayoutGrid__LayoutGridCondensed AboutHero__Wrapper y=0 374x973 x=8 cols=14×12px
+   PerlinNoise__Wrapper y=0 374x800 x=8
+   AboutHero__TextContent y=0 350x973 x=20 fd=column pad=150px 20px 50px
+   H1 Heading__HeadingInternal Heading___Style box=34,150,322x150 fs=36.8px/40.48px «the world uses data» {padding:0px 6px 6p
+   AboutHero__BottomContent y=324 310x599 x=40 fd=column
+   AboutHero__LeftContent y=324 310x195 x=40
+   Card__Wrapper AboutHero__AboutImage y=324 310x195 x=40 fd=column
+   AboutHero__RightContent y=549 310x374 x=40 fd=column
+   Text__TextWrapper Text___StyledTextWrapper y=549 310x60 x=40
+   Text__TextWrapper Text___StyledTextWrapper y=634 310x210 x=40
+   AboutHero__Actions y=869 189x54 x=101
+   H2 CustomerBannerSectionLabel-module__1XCmu box=63,967,265x12 fs=10px/12px «Trusted by leading data companies» {posi
+   LayoutGrid__LayoutSubgrid BasicPageRow__Wrapper y=1476 390x638 x=0 cols=16×subgrid
+   ToutBackedByTheBest__Wrapper y=1476 374x638 x=8 fd=column
+   ToutBackedByTheBest__TextContent y=1526 314x178 x=38 fd=column
+   AboutTextLockup__Wrapper y=1526 314x178 x=38 fd=column
+   H2 Heading__HeadingInternal Heading___Style box=94,1526,203x114 fs=40px/40px «the best» {padding:0px 6px 6px; margin:0
+   Text__TextWrapper Text___StyledTextWrapper y=1644 314x60 x=38
+   LayoutGrid__LayoutSubgrid BasicPageRow__Wrapper y=2114 390x677 x=0 cols=16×subgrid
+   ToutElsewhereOnTheInternet__Wrapper y=2115 374x676 x=8 fd=column
+   H2 Heading__HeadingInternal Heading___Style box=32,2155,326x120 fs=38px/49.4px «the internet» {padding:0px 6px 6px; marg
+   ToutElsewhereOnTheInternet__Main y=2289 374x462 x=8 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=2289 267x392 x=38 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=2612 217x44 x=63 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=2289 267x392 x=325 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=2612 217x44 x=350 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=2289 267x392 x=612 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=2612 217x44 x=637 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=2289 267x392 x=899 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=2612 217x44 x=924 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=2289 267x392 x=1186 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=2612 217x44 x=1211 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=2289 267x392 x=1473 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=2612 217x44 x=1498 fd=column
+   CornerLines__Wrapper y=2702 200x48 x=95
+   LayoutGrid__LayoutSubgrid BasicPageRow__Wrapper y=2791 390x752 x=0 cols=16×subgrid
+   ToutATeamOfDataNerds__Wrapper y=2791 374x752 x=8 fd=column
+   ToutATeamOfDataNerdsPhotoGrid__PhotoGrid y=2831 951x120 x=-281 fd=column
+   Card__Wrapper ToutATeamOfDataNerdsPhotoGrid__PhotoGridItem y=2831 161x120 x=-281 fd=column
+   Card__Wrapper ToutATeamOfDataNerdsPhotoGrid__PhotoGridItem y=2831 197x120 x=-110 fd=column
+   Card__Wrapper ToutATeamOfDataNerdsPhotoGrid__PhotoGridItem y=2831 205x120 x=97 fd=column
+   Card__Wrapper ToutATeamOfDataNerdsPhotoGrid__PhotoGridItem y=2831 192x120 x=312 fd=column
+   Card__Wrapper ToutATeamOfDataNerdsPhotoGrid__PhotoGridItem y=2831 157x120 x=514 fd=column
+   ToutATeamOfDataNerds__TextContent y=2991 314x352 x=38
+   AboutTextLockup__Wrapper y=2991 314x352 x=38 fd=column
+   H2 Heading__HeadingInternal Heading___Style box=65,2991,261x114 fs=40px/40px «data nerds» {padding:0px 6px 6px; margin
+   Text__TextWrapper Text___StyledTextWrapper y=3109 314x120 x=38
+   AboutTextLockup__Actions y=3239 189x104 x=101 fd=column pad=10px 0px 0px
+   CornerLines__Wrapper y=3250 187x40 x=102
+   CornerLines__Wrapper y=3302 187x40 x=102
+   ToutATeamOfDataNerdsPhotoGrid__PhotoGrid y=3383 1258x120 x=-434 fd=column
+   Card__Wrapper ToutATeamOfDataNerdsPhotoGrid__PhotoGridItem y=3383 112x120 x=-434 fd=column
+   Card__Wrapper ToutATeamOfDataNerdsPhotoGrid__PhotoGridItem y=3383 137x120 x=-312 fd=column
+   Card__Wrapper ToutATeamOfDataNerdsPhotoGrid__PhotoGridItem y=3383 148x120 x=-165 fd=column
+   Card__Wrapper ToutATeamOfDataNerdsPhotoGrid__PhotoGridItem y=3383 69x120 x=-7 fd=column
+   Card__Wrapper ToutATeamOfDataNerdsPhotoGrid__PhotoGridItem y=3383 83x120 x=72 fd=column
+   Card__Wrapper ToutATeamOfDataNerdsPhotoGrid__PhotoGridItem y=3383 178x120 x=165 fd=column
+   Card__Wrapper ToutATeamOfDataNerdsPhotoGrid__PhotoGridItem y=3383 236x120 x=352 fd=column
+   Card__Wrapper ToutATeamOfDataNerdsPhotoGrid__PhotoGridItem y=3383 225x120 x=599 fd=column
+## blog@390 page 4883
+   Masthead__Hero y=0 350x271 x=20 pad=94.8438px 0px 0px
+   Masthead__CommandCenter y=223 350x36 x=20
+   H1 Masthead__Headline box=20,233,46x26 fs=20px/26px «Blog» {font-family:PP Formula; font-size
+   FeaturedPosts__Wrapper y=271 374x1348 x=8
+   FeaturedPosts__Grid y=276 366x1339 x=12 cols=366.25px
+   Primary__PrimaryPostGrid y=276 366x479 x=12 cols=342.25px pad=12px
+   H2 Primary__PostTitle box=40,543,310x52 fs=20px/26px «
+   Secondary__Info y=982 342x193 x=24 fd=column pad=16px
+   H2 .heading-3 box=40,1026,310x26 fs=20px/26px «
+   Secondary__Info y=1410 342x193 x=24 fd=column pad=16px
+   H2 .heading-3 box=40,1454,310x26 fs=20px/26px «
+   RecentPosts__FeaturedGrid y=1620 390x580 x=0 cols=390px
+   H2 Tertiary__H2 box=16,1664,358x26 fs=20px/26px «
+   H2 Tertiary__H2 box=16,1877,358x26 fs=20px/26px «
+   H2 Tertiary__H2 box=16,2029,358x52 fs=20px/26px «
+   LayoutGrid__LayoutSubgrid Feed__Wrapper y=2218 390x1520 x=0 cols=16×subgrid pad=24px 0px
+   Feed__FilterWrapper y=2246 390x49 x=0 pad=0px 8px
+   Filter__Grid y=2246 374x49 x=8
+   H2 Filter__Headline box=8,2246,175x49 fs=38px/49.4px «Feed» {padding:0px 0px 0px 16px; font-fa
+   Post__Info y=2315 358x68 x=16 fd=column pad=0px 12px 0px 0px
+   Post__Info y=2405 358x68 x=16 fd=column pad=0px 12px 0px 0px
+   Post__Info y=2495 358x68 x=16 fd=column pad=0px 12px 0px 0px
+   Post__Info y=2585 358x68 x=16 fd=column pad=0px 12px 0px 0px
+   Post__Info y=2675 358x68 x=16 fd=column pad=0px 12px 0px 0px
+   Post__Info y=2765 358x68 x=16 fd=column pad=0px 12px 0px 0px
+   Post__Info y=2854 358x68 x=16 fd=column pad=0px 12px 0px 0px
+   Post__Info y=2944 358x68 x=16 fd=column pad=0px 12px 0px 0px
+   Post__Info y=3034 358x68 x=16 fd=column pad=0px 12px 0px 0px
+   Post__Info y=3124 358x68 x=16 fd=column pad=0px 12px 0px 0px
+   Post__Info y=3214 358x68 x=16 fd=column pad=0px 12px 0px 0px
+   Post__Info y=3304 358x68 x=16 fd=column pad=0px 12px 0px 0px
+   Post__Info y=3394 358x68 x=16 fd=column pad=0px 12px 0px 0px
+   Post__Info y=3484 358x68 x=16 fd=column pad=0px 12px 0px 0px
+   Post__Info y=3574 358x68 x=16 fd=column pad=0px 12px 0px 0px
+## blog_introducing-generative-data-apps@390 page 9957
+   LayoutGrid__LayoutSubgrid BasicPageRow__Wrapper y=0 390x8812 x=0 cols=16×subgrid
+   BlogPostContent__Wrapper y=0 374x8812 x=8 fd=column pad=200px 0px 0px
+   BlogPostHeader__Wrapper y=200 374x611 x=8 fd=column
+   BlogPostHeader__Info y=200 374x463 x=8 fd=column pad=0px 40px
+   H1 Heading__HeadingInternal Heading___Style box=48,248,294x148 fs=38px/49.4px «Introducing Generative Data Apps» {margi
+   Text__TextWrapper Text___StyledTextWrapper y=416 294x116 x=48 pad=0px 0px 25px
+   BlogPostHeroMedia__Wrapper y=723 374x188 x=8 fd=column pad=0px 20px
+   MediaEmbed__Wrapper BlogPostHeroMediaVideo__StyledLoomVideo y=723 334x188 x=28
+   BlogPostContent__Content y=761 374x8050 x=8 pad=180px 40px 40px
+   RunningText__Wrapper BlogPostContent__ThisText y=941 294x7830 x=48 fd=column
+   BlogRichText__Wrapper y=941 294x7280 x=48
+   Text__TextWrapper Text___StyledTextWrapper y=941 294x160 x=48
+   Callout__Wrapper y=1125 294x170 x=48
+   Text__TextWrapper Text___StyledTextWrapper y=1150 223x120 x=84
+   Text__TextWrapper Text___StyledTextWrapper y=1335 294x192 x=48
+   Text__TextWrapper Text___StyledTextWrapper y=1551 294x320 x=48
+   Text__TextWrapper Text___StyledTextWrapper y=1895 294x160 x=48
+   Text__TextWrapper Text___StyledTextWrapper y=2079 294x256 x=48
+   VideoFile__Wrapper y=2359 294x167 x=48
+   H2 Heading__HeadingInternal Heading___Style box=48,2550,294x98 fs=28px/36.4px «Any data app, just a prompt away» {paddi
+   Text__TextWrapper Text___StyledTextWrapper y=2672 294x96 x=48
+   Text__TextWrapper Text___StyledTextWrapper y=2792 294x192 x=48
+   Text__TextWrapper Text___StyledTextWrapper y=3008 294x96 x=48
+   Text__TextWrapper Text___StyledTextWrapper y=3128 294x160 x=48
+   VideoFile__Wrapper y=3312 294x166 x=48
+   Text__TextWrapper Text___StyledTextWrapper y=3501 294x352 x=48
+   VideoFile__Wrapper y=3877 294x158 x=48
+   H2 Heading__HeadingInternal Heading___Style box=48,4059,294x171 fs=28px/36.4px «Backed by your trusted context and a rea
+   Text__TextWrapper Text___StyledTextWrapper y=4254 294x160 x=48
+   Text__TextWrapper Text___StyledTextWrapper y=5131 294x256 x=48
+   Text__TextWrapper Text___StyledTextWrapper y=5616 294x544 x=48
+   H2 Heading__HeadingInternal Heading___Style box=48,6184,294x171 fs=28px/36.4px «Built with first-class security, permiss
+   Text__TextWrapper Text___StyledTextWrapper y=6378 294x640 x=48
+   Text__TextWrapper Text___StyledTextWrapper y=7042 294x288 x=48
+   VideoFile__Wrapper y=7354 294x166 x=48
+   Text__TextWrapper Text___StyledTextWrapper y=7544 294x96 x=48
+   H2 Heading__HeadingInternal Heading___Style box=48,7664,294x61 fs=28px/36.4px «Access and pricing» {padding:25px 0px 0p
+   Text__TextWrapper Text___StyledTextWrapper y=7749 294x224 x=48
+   Text__TextWrapper Text___StyledTextWrapper y=7997 294x224 x=48
+   BlogKicker__Wrapper y=8323 294x448 x=48 fd=column pad=25px
+   CornerLines__Wrapper y=8652 240x38 x=75
+   CornerLines__Wrapper y=8707 240x38 x=75
+## careers@390 page 8463
+   LayoutGrid__LayoutSubgrid BasicPageRow__Wrapper y=0 390x870 x=0 cols=16×subgrid
+   HeroCareers__Wrapper y=0 374x870 x=8 fd=column pad=140px 0px 40px
+   Card__Wrapper HeroPhoto y=730 83x100 x=-393 fd=column
+   Card__Wrapper HeroPhoto y=730 83x100 x=-300 fd=column
+   Card__Wrapper HeroPhoto y=730 116x100 x=-207 fd=column
+   Card__Wrapper HeroPhoto y=730 128x100 x=-81 fd=column
+   Card__Wrapper HeroPhoto y=730 84x100 x=58 fd=column
+   Card__Wrapper HeroPhoto y=730 90x100 x=151 fd=column
+   Card__Wrapper HeroPhoto y=730 109x100 x=251 fd=column
+   Card__Wrapper HeroPhoto y=730 84x100 x=370 fd=column
+   Card__Wrapper HeroPhoto y=730 155x100 x=464 fd=column
+   Card__Wrapper HeroPhoto y=730 155x100 x=629 fd=column
+   Card__Wrapper HeroPhoto y=140 90x100 x=-418 fd=column
+   Card__Wrapper HeroPhoto y=140 96x100 x=-318 fd=column
+   Card__Wrapper HeroPhoto y=140 88x100 x=-212 fd=column
+   Card__Wrapper HeroPhoto y=140 155x100 x=-114 fd=column
+   Card__Wrapper HeroPhoto y=140 96x100 x=51 fd=column
+   Card__Wrapper HeroPhoto y=140 155x100 x=157 fd=column
+   Card__Wrapper HeroPhoto y=140 110x100 x=321 fd=column
+   Card__Wrapper HeroPhoto y=140 155x100 x=441 fd=column
+   Card__Wrapper HeroPhoto y=140 90x100 x=605 fd=column
+   Card__Wrapper HeroPhoto y=140 103x100 x=705 fd=column
+   HeroCareers__TextContent y=280 314x410 x=38 fd=column
+   H1 Heading__HeadingInternal Heading___Style box=32,280,326x123 fs=40px/44px «a data person» {padding:0px 6px 6px; mar
+   HeroCareers__Info y=412 314x278 x=38 fd=column
+   Text__TextWrapper Text___StyledTextWrapper y=412 314x120 x=38
+   HeroCareers__Actions y=562 217x128 x=86 fd=column
+   LayoutGrid__LayoutSubgrid BasicPageRow__Wrapper y=870 390x984 x=0 cols=16×subgrid
+   DoYourBestWorkTout__Wrapper y=871 374x983 x=8 fd=column
+   H2 Heading__HeadingInternal Heading___Style box=32,911,326x167 fs=40px/44px «your best work» {padding:0px 6px 6px; ma
+   Text__TextWrapper Text___StyledTextWrapper y=1082 314x120 x=38
+   CornerLines__Wrapper y=1233 192x48 x=99
+   CornerCircles__Wrapper y=1233 192x48 x=99
+   ToutHighlight__Wrapper y=1322 314x226 x=38 fd=column
+   ToutHighlight__Info y=1380 314x168 x=38 fd=column
+   Text__TextWrapper Text___StyledTextWrapper y=1380 314x60 x=38
+   Text__TextWrapper Text___StyledTextWrapper y=1450 314x66 x=38
+   ToutHighlight__Wrapper y=1588 314x226 x=38 fd=column
+   ToutHighlight__Info y=1646 314x168 x=38 fd=column
+   Text__TextWrapper Text___StyledTextWrapper y=1646 314x60 x=38
+   Text__TextWrapper Text___StyledTextWrapper y=1716 314x66 x=38
+   LayoutGrid__LayoutSubgrid BasicPageRow__Wrapper y=1854 390x5463 x=0 cols=16×subgrid
+   OpenRolesTout__Wrapper y=1855 374x5462 x=8 fd=column
+   OpenRolesSidebar__Wrapper y=1855 374x208 x=8 fd=column pad=30px 0px
+   H2 Heading__HeadingInternal Heading___Style box=32,1885,183x45 fs=30px/39px «Open roles» {padding:0px 6px 6px; margin
+   OpenRolesSidebar__Section y=1934 374x44 x=8 fd=column
+   OpenRolesSidebar__Section y=1988 374x44 x=8 fd=column
+   OpenRolesList__RoleDept y=2093 314x989 x=38 fd=column
+   Text__TextWrapper Text___StyledTextWrapper y=2127 314x66 x=38
+   OpenRole__Wrapper y=2203 314x75 x=38 fd=column pad=15px 0px
+   OpenRole__Wrapper y=2278 314x93 x=38 fd=column pad=15px 0px
+   Text__TextWrapper Text___StyledTextWrapper y=2319 289x36 x=63
+   OpenRole__Wrapper y=2371 314x75 x=38 fd=column pad=15px 0px
+   OpenRole__Wrapper y=2446 314x75 x=38 fd=column pad=15px 0px
+   OpenRole__Wrapper y=2521 314x75 x=38 fd=column pad=15px 0px
+   OpenRole__Wrapper y=2596 314x75 x=38 fd=column pad=15px 0px
+   OpenRole__Wrapper y=2671 314x75 x=38 fd=column pad=15px 0px
+   OpenRole__Wrapper y=2746 314x93 x=38 fd=column pad=15px 0px
+   Text__TextWrapper Text___StyledTextWrapper y=2787 289x36 x=63
+   OpenRole__Wrapper y=2839 314x93 x=38 fd=column pad=15px 0px
+   Text__TextWrapper Text___StyledTextWrapper y=2880 289x36 x=63
+   OpenRole__Wrapper y=2932 314x75 x=38 fd=column pad=15px 0px
+   OpenRole__Wrapper y=3007 314x75 x=38 fd=column pad=15px 0px
+   OpenRolesList__RoleDept y=3112 314x282 x=38 fd=column
+   Text__TextWrapper Text___StyledTextWrapper y=3146 314x88 x=38
+   OpenRole__Wrapper y=3244 314x75 x=38 fd=column pad=15px 0px
+   OpenRole__Wrapper y=3319 314x75 x=38 fd=column pad=15px 0px
+   OpenRolesList__RoleDept y=3424 314x327 x=38 fd=column
+   Text__TextWrapper Text___StyledTextWrapper y=3458 314x66 x=38
+   OpenRole__Wrapper y=3565 314x93 x=38 fd=column pad=15px 0px
+   Text__TextWrapper Text___StyledTextWrapper y=3606 289x36 x=63
+   OpenRole__Wrapper y=3658 314x93 x=38 fd=column pad=15px 0px
+   Text__TextWrapper Text___StyledTextWrapper y=3699 289x36 x=63
+   OpenRolesList__RoleDept y=3781 314x206 x=38 fd=column
+   Text__TextWrapper Text___StyledTextWrapper y=3815 314x66 x=38
+   OpenRole__Wrapper y=3891 314x96 x=38 fd=column pad=15px 0px
+   Text__TextWrapper Text___StyledTextWrapper y=3906 289x42 x=63
+   OpenRolesList__RoleDept y=4017 314x260 x=38 fd=column
+   Text__TextWrapper Text___StyledTextWrapper y=4051 314x66 x=38
+   OpenRole__Wrapper y=4127 314x75 x=38 fd=column pad=15px 0px
+   OpenRole__Wrapper y=4202 314x75 x=38 fd=column pad=15px 0px
+   OpenRolesList__RoleDept y=4307 314x917 x=38 fd=column
+   Text__TextWrapper Text___StyledTextWrapper y=4341 314x66 x=38
+   OpenRole__Wrapper y=4417 314x75 x=38 fd=column pad=15px 0px
+   OpenRole__Wrapper y=4492 314x75 x=38 fd=column pad=15px 0px
+   OpenRole__Wrapper y=4567 314x93 x=38 fd=column pad=15px 0px
+   Text__TextWrapper Text___StyledTextWrapper y=4608 289x36 x=63
+   OpenRole__Wrapper y=4660 314x75 x=38 fd=column pad=15px 0px
+   OpenRole__Wrapper y=4735 314x96 x=38 fd=column pad=15px 0px
+   Text__TextWrapper Text___StyledTextWrapper y=4750 289x42 x=63
+   OpenRole__Wrapper y=4831 314x75 x=38 fd=column pad=15px 0px
+   OpenRole__Wrapper y=4906 314x93 x=38 fd=column pad=15px 0px
+   Text__TextWrapper Text___StyledTextWrapper y=4947 289x36 x=63
+   OpenRole__Wrapper y=4999 314x75 x=38 fd=column pad=15px 0px
+   OpenRole__Wrapper y=5074 314x75 x=38 fd=column pad=15px 0px
+   OpenRole__Wrapper y=5149 314x75 x=38 fd=column pad=15px 0px
+   OpenRolesList__RoleDept y=5254 314x499 x=38 fd=column
+   Text__TextWrapper Text___StyledTextWrapper y=5288 314x88 x=38
+   OpenRole__Wrapper y=5417 314x75 x=38 fd=column pad=15px 0px
+   OpenRole__Wrapper y=5492 314x93 x=38 fd=column pad=15px 0px
+   Text__TextWrapper Text___StyledTextWrapper y=5533 289x36 x=63
+   OpenRole__Wrapper y=5585 314x93 x=38 fd=column pad=15px 0px
+   Text__TextWrapper Text___StyledTextWrapper y=5626 289x36 x=63
+   OpenRole__Wrapper y=5678 314x75 x=38 fd=column pad=15px 0px
+   OpenRolesList__RoleDept y=5783 314x410 x=38 fd=column
+   Text__TextWrapper Text___StyledTextWrapper y=5817 314x66 x=38
+   OpenRole__Wrapper y=5893 314x75 x=38 fd=column pad=15px 0px
+   OpenRole__Wrapper y=5968 314x75 x=38 fd=column pad=15px 0px
+   OpenRole__Wrapper y=6043 314x75 x=38 fd=column pad=15px 0px
+   OpenRole__Wrapper y=6118 314x75 x=38 fd=column pad=15px 0px
+   OpenRolesList__RoleDept y=6223 314x260 x=38 fd=column
+   Text__TextWrapper Text___StyledTextWrapper y=6257 314x66 x=38
+   OpenRole__Wrapper y=6333 314x75 x=38 fd=column pad=15px 0px
+   OpenRole__Wrapper y=6408 314x75 x=38 fd=column pad=15px 0px
+   OpenRolesList__RoleDept y=6513 314x111 x=38 fd=column
+   OpenRole__Wrapper y=6549 314x75 x=38 fd=column pad=15px 0px
+   Callout__Wrapper y=6654 314x594 x=38
+## customers@390 page 21011
+   LayoutGrid__LayoutSubgrid BasicPageRow__Wrapper y=0 390x704 x=0 cols=16×subgrid
+   CustomersIndexContent__Header y=0 374x559 x=8 fd=column pad=180px 40px 30px
+   H1 Heading__HeadingInternal Heading___Style box=42,180,306x170 fs=42px/54.6px «
+   Text__TextWrapper Text___StyledTextWrapper y=349 294x180 x=48
+   FeaturedCustomerStories__Wrapper y=559 454x145 x=-32
+   FeaturedCustomerStories__Grid y=559 454x145 x=-32
+   FeaturedStoryCard__Wrapper y=559 145x145 x=-32
+   Card__Wrapper FeaturedStoryCard__StoryCard y=559 145x145 x=-32 fd=column
+   FeaturedStoryCard__Info y=559 145x145 x=-32 fd=column pad=20px
+   FeaturedStoryCard__Wrapper y=559 145x145 x=123
+   Card__Wrapper FeaturedStoryCard__StoryCard y=559 145x145 x=123 fd=column
+   FeaturedStoryCard__Info y=559 145x145 x=123 fd=column pad=20px
+   FeaturedStoryCard__Wrapper y=559 145x145 x=277
+   Card__Wrapper FeaturedStoryCard__StoryCard y=559 145x145 x=277 fd=column
+   FeaturedStoryCard__Info y=559 145x145 x=277 fd=column pad=20px
+   LayoutGrid__LayoutSubgrid BasicPageRow__Wrapper y=704 390x747 x=0 cols=16×subgrid
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=-9858 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=-9538 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=-9218 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=-8898 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=-8578 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=-8258 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=-7938 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=-7618 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=-7298 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=-6978 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=-6658 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=-6338 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=-6018 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=-5698 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=-5378 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=-5058 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=-4738 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=-4418 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=-4098 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=-3778 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=-3458 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=-3138 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=-2818 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=-2498 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=-2178 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=-1858 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=-1538 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=-1218 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=-898 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=-578 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=-258 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=62 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=382 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=702 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=1022 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=1342 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=1662 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=1982 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=2302 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=2622 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=2942 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=3262 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=3582 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=3902 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=4222 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=4542 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=4862 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=5182 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=5502 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=5822 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=6142 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=6462 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=6782 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=7102 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=7422 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=7742 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=8062 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=8382 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=8702 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=744 300x312 x=9022 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=-10552 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=-10232 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=-9912 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=-9592 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=-9272 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=-8952 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=-8632 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=-8312 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=-7992 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=-7672 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=-7352 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=-7032 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=-6712 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=-6392 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=-6072 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=-5752 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=-5432 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=-5112 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=-4792 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=-4472 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=-4152 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=-3832 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=-3512 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=-3192 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=-2872 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=-2552 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=-2232 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=-1912 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=-1592 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=-1272 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=-952 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=-632 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=-312 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=8 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=328 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=648 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=968 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=1288 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=1608 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=1928 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=2248 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=2568 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=2888 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=3208 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=3528 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=3848 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=4168 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=4488 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=4808 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=5128 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=5448 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=5768 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=6088 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=6408 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=6728 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=7048 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=7368 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=7688 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=8008 fd=column pad=20px 20px 16px
+   Card__Wrapper UserQuoteCard__Wrapper y=1075 300x336 x=8328 fd=column pad=20px 20px 16px
+   LayoutGrid__LayoutSubgrid BasicPageRow__Wrapper y=1451 390x17605 x=0 cols=16×subgrid
+   CustomersNav__Wrapper y=1451 374x114 x=8 fd=column pad=0px 40px 20px
+   CustomersNav__FilterGroup y=1451 294x94 x=48 cols=142.125px 142.125px
+   CornerLines__Wrapper y=1452 140x40 x=49
+   CornerLines__Wrapper y=1452 140x40 x=201
+   CornerLines__Wrapper y=1504 140x40 x=49
+   CornerLines__Wrapper y=1504 140x40 x=201
+   CustomersIndexContent__List y=1565 374x17491 x=8 fd=column pad=10px 40px 60px
+   CustomersIndexContent__Grid y=1575 294x17421 x=48 cols=311px
+   Card__Wrapper CustomerStoryCard__Wrapper y=1575 311x443 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=1765 271x233 x=60 fd=column
+   CustomerStoryCard__Metadata y=1879 271x119 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=2038 311x440 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=2228 271x230 x=60 fd=column
+   CustomerStoryCard__Metadata y=2368 271x90 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=2498 311x414 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=2688 271x204 x=60 fd=column
+   CustomerStoryCard__Metadata y=2802 271x90 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=2932 311x388 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=3122 271x178 x=60 fd=column
+   CustomerStoryCard__Metadata y=3210 271x90 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=3340 311x417 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=3530 271x207 x=60 fd=column
+   CustomerStoryCard__Metadata y=3670 271x67 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=3777 311x391 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=3967 271x181 x=60 fd=column
+   CustomerStoryCard__Metadata y=4081 271x67 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=4188 311x469 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=4378 271x259 x=60 fd=column
+   CustomerStoryCard__Metadata y=4518 271x119 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=4677 311x443 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=4867 271x233 x=60 fd=column
+   CustomerStoryCard__Metadata y=4981 271x119 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=5140 311x466 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=5330 271x256 x=60 fd=column
+   CustomerStoryCard__Metadata y=5496 271x90 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=5626 311x414 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=5816 271x204 x=60 fd=column
+   CustomerStoryCard__Metadata y=5930 271x90 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=6060 311x440 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=6250 271x230 x=60 fd=column
+   CustomerStoryCard__Metadata y=6390 271x90 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=6520 311x414 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=6710 271x204 x=60 fd=column
+   CustomerStoryCard__Metadata y=6824 271x90 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=6954 311x388 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=7144 271x178 x=60 fd=column
+   CustomerStoryCard__Metadata y=7232 271x90 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=7362 311x414 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=7552 271x204 x=60 fd=column
+   CustomerStoryCard__Metadata y=7666 271x90 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=7796 311x414 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=7986 271x204 x=60 fd=column
+   CustomerStoryCard__Metadata y=8100 271x90 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=8230 311x414 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=8420 271x204 x=60 fd=column
+   CustomerStoryCard__Metadata y=8534 271x90 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=8664 311x414 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=8854 271x204 x=60 fd=column
+   CustomerStoryCard__Metadata y=8968 271x90 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=9098 311x414 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=9288 271x204 x=60 fd=column
+   CustomerStoryCard__Metadata y=9402 271x90 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=9532 311x388 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=9722 271x178 x=60 fd=column
+   CustomerStoryCard__Metadata y=9810 271x90 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=9940 311x365 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=10130 271x155 x=60 fd=column
+   CustomerStoryCard__Metadata y=10218 271x67 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=10325 311x466 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=10515 271x256 x=60 fd=column
+   CustomerStoryCard__Metadata y=10681 271x90 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=10811 311x388 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=11001 271x178 x=60 fd=column
+   CustomerStoryCard__Metadata y=11089 271x90 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=11219 311x414 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=11409 271x204 x=60 fd=column
+   CustomerStoryCard__Metadata y=11523 271x90 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=11653 311x440 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=11843 271x230 x=60 fd=column
+   CustomerStoryCard__Metadata y=11983 271x90 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=12113 311x440 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=12303 271x230 x=60 fd=column
+   CustomerStoryCard__Metadata y=12443 271x90 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=12573 311x440 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=12763 271x230 x=60 fd=column
+   CustomerStoryCard__Metadata y=12903 271x90 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=13033 311x414 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=13223 271x204 x=60 fd=column
+   CustomerStoryCard__Metadata y=13337 271x90 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=13467 311x414 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=13657 271x204 x=60 fd=column
+   CustomerStoryCard__Metadata y=13771 271x90 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=13901 311x414 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=14091 271x204 x=60 fd=column
+   CustomerStoryCard__Metadata y=14205 271x90 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=14335 311x414 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=14525 271x204 x=60 fd=column
+   CustomerStoryCard__Metadata y=14639 271x90 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=14769 311x414 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=14959 271x204 x=60 fd=column
+   CustomerStoryCard__Metadata y=15073 271x90 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=15203 311x440 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=15393 271x230 x=60 fd=column
+   CustomerStoryCard__Metadata y=15533 271x90 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=15663 311x440 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=15853 271x230 x=60 fd=column
+   CustomerStoryCard__Metadata y=15993 271x90 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=16123 311x466 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=16313 271x256 x=60 fd=column
+   CustomerStoryCard__Metadata y=16479 271x90 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=16609 311x440 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=16799 271x230 x=60 fd=column
+   CustomerStoryCard__Metadata y=16939 271x90 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=17069 311x492 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=17259 271x282 x=60 fd=column
+   CustomerStoryCard__Metadata y=17451 271x90 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=17581 311x492 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=17771 271x282 x=60 fd=column
+   CustomerStoryCard__Metadata y=17963 271x90 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=18093 311x466 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=18283 271x256 x=60 fd=column
+   CustomerStoryCard__Metadata y=18449 271x90 x=60 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=18579 311x417 x=40 fd=column pad=20px
+   CustomerStoryCard__Content y=18769 271x207 x=60 fd=column
+   CustomerStoryCard__Metadata y=18909 271x67 x=60 fd=column
+   LayoutGrid__LayoutSubgrid BasicPageRow__Wrapper y=19056 390x809 x=0 cols=16×subgrid
+   CustomersLovedByManyMore__Wrapper y=19057 374x808 x=8 fd=column pad=60px 40px
+   H2 Heading__HeadingInternal Heading___Style box=48,19117,294x78 fs=30px/39px «And loved by many more» {font-family:PP 
+   CustomersLovedByManyMore__Grid y=19225 294x580 x=48
+## customers_chime@390 page 18653
+   LayoutGrid__LayoutSubgrid BasicPageRow__Wrapper y=0 390x1457 x=0 cols=16×subgrid
+   CustomerStoryHeader__Wrapper y=150 374x1307 x=8
+   CustomerStoryHeader__Top y=151 374x1306 x=8 cols=374.25px
+   H1 Heading__HeadingInternal Heading___Style box=38,289,314x445 fs=38px/49.4px «Chime® built a context workflow and eval
+   Text__TextWrapper Text___StyledTextWrapper y=795 314x210 x=38
+   CustomerStoryMetaData__Metadata y=1035 314x186 x=38 fd=column pad=30px 10px 0px 0px
+   Card__Wrapper CustomerStoryHeader__VideoWrapper y=1251 314x177 x=38 fd=column
+   MediaEmbed__Wrapper y=1251 314x177 x=38
+   LayoutGrid__LayoutSubgrid BasicPageRow__Wrapper y=1457 390x1171 x=0 cols=16×subgrid
+   CustomerStoryDetails__Wrapper y=1457 374x1171 x=8
+   Card__Wrapper CustomerStoryDetails__DetailCard y=1478 314x390 x=38 fd=column pad=30px
+   CornerLines__Wrapper y=1797 126x40 x=69
+   Card__Wrapper CustomerStoryDetails__DetailCard y=1888 314x420 x=38 fd=column pad=30px
+   CustomerStoryDetails__List y=1964 254x314 x=68 fd=column pad=0px 0px 0px 20px
+   Card__Wrapper CustomerStoryDetails__DetailCard y=2328 314x280 x=38 fd=column pad=30px
+   CustomerStoryDetails__List y=2404 254x174 x=68 fd=column pad=0px 0px 0px 20px
+   LayoutGrid__LayoutSubgrid BasicPageRow__Wrapper y=2628 390x12035 x=0 cols=16×subgrid
+   CustomerStoryContent__HatchedBox y=2629 0x12034 x=8
+   CustomerStoryContent__TextWrapper y=2629 374x12034 x=8 pad=40px
+   PortableText__List y=13415 292x840 x=49 pad=0px 0px 0px 24px
+   CustomerStoryContent__HatchedBox y=2629 0x12034 x=382
+   LayoutGrid__LayoutSubgrid BasicPageRow__Wrapper y=14663 390x2844 x=0 cols=16×subgrid
+   CustomerStoryRelatedStories__Wrapper y=14664 374x2843 x=8 fd=column pad=40px
+   H2 Heading__HeadingInternal Heading___Style box=73,14704,244x39 fs=30px/39px «Related stories» {font-family:PP Formula
+   CustomerStoryRelatedStories__Grid y=14773 294x2694 x=48 cols=294.25px
+   Card__Wrapper CustomerStoryCard__Wrapper y=14773 294x440 x=48 fd=column pad=20px
+   CustomerStoryCard__Content y=14963 254x230 x=68 fd=column
+   CustomerStoryCard__Metadata y=15103 254x90 x=68 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=15233 294x414 x=48 fd=column pad=20px
+   CustomerStoryCard__Content y=15423 254x204 x=68 fd=column
+   CustomerStoryCard__Metadata y=15537 254x90 x=68 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=15667 294x417 x=48 fd=column pad=20px
+   CustomerStoryCard__Content y=15857 254x207 x=68 fd=column
+   CustomerStoryCard__Metadata y=15997 254x67 x=68 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=16104 294x391 x=48 fd=column pad=20px
+   CustomerStoryCard__Content y=16294 254x181 x=68 fd=column
+   CustomerStoryCard__Metadata y=16408 254x67 x=68 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=16515 294x414 x=48 fd=column pad=20px
+   CustomerStoryCard__Content y=16705 254x204 x=68 fd=column
+   CustomerStoryCard__Metadata y=16819 254x90 x=68 fd=column
+   Card__Wrapper CustomerStoryCard__Wrapper y=16949 294x518 x=48 fd=column pad=20px
+   CustomerStoryCard__Content y=17139 254x308 x=68 fd=column
+   CustomerStoryCard__Metadata y=17357 254x90 x=68 fd=column
+## newsroom@390 page 13324
+   LayoutGrid__LayoutSubgrid BasicPageRow__Wrapper y=0 390x12179 x=0 cols=16×subgrid
+   NewsroomContent__Header y=40 340x367 x=25 fd=column pad=120px 0px 20px
+   H1 Heading__HeadingInternal Heading___Style box=19,160,352x55 fs=38px/49.4px «Newsroom» {padding:0px 6px 6px; margin:0
+   Text__TextWrapper Text___StyledTextWrapper y=209 340x60 x=25
+   Callout__Wrapper NewsroomContent__MediaKitCallout y=289 340x98 x=25
+   NewsroomContent__Grid y=407 340x11731 x=25 cols=340.25px
+   Card__Wrapper NewsroomPost__StyledCard y=407 340x326 x=25 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=664 290x44 x=50 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=738 340x378 x=25 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=1047 290x44 x=50 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=1121 340x326 x=25 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=1377 290x44 x=50 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=1451 340x378 x=25 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=1760 290x44 x=50 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=1834 340x352 x=25 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=2117 290x44 x=50 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=2191 340x326 x=25 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=2447 290x44 x=50 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=2521 340x300 x=25 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=2752 290x44 x=50 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=2826 340x352 x=25 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=3109 290x44 x=50 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=3183 340x352 x=25 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=3465 290x44 x=50 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=3539 340x352 x=25 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=3822 290x44 x=50 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=3896 340x378 x=25 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=4205 290x44 x=50 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=4279 340x326 x=25 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=4535 290x44 x=50 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=4609 340x326 x=25 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=4866 290x44 x=50 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=4940 340x352 x=25 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=5223 290x44 x=50 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=5297 340x326 x=25 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=5553 290x44 x=50 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=5627 340x352 x=25 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=5910 290x44 x=50 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=5984 340x326 x=25 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=6241 290x44 x=50 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=6315 340x326 x=25 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=6571 290x44 x=50 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=6645 340x326 x=25 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=6902 290x44 x=50 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=6976 340x352 x=25 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=7259 290x44 x=50 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=7333 340x326 x=25 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=7589 290x44 x=50 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=7663 340x352 x=25 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=7946 290x44 x=50 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=8020 340x352 x=25 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=8303 290x44 x=50 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=8376 340x352 x=25 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=8659 290x44 x=50 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=8733 340x326 x=25 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=8990 290x44 x=50 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=9064 340x326 x=25 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=9320 290x44 x=50 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=9394 340x326 x=25 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=9651 290x44 x=50 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=9725 340x326 x=25 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=9982 290x44 x=50 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=10056 340x326 x=25 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=10312 290x44 x=50 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=10386 340x378 x=25 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=10695 290x44 x=50 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=10769 340x326 x=25 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=11026 290x44 x=50 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=11100 340x326 x=25 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=11356 290x44 x=50 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=11430 340x352 x=25 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=11713 290x44 x=50 fd=column
+   Card__Wrapper NewsroomPost__StyledCard y=11787 340x352 x=25 fd=column pad=10px
+   Text__TextWrapper Text___StyledTextWrapper y=12070 290x44 x=50 fd=column
+## resources_events@390 page 10229
+   EventsLanding__Wrapper y=144 374x8739 x=8 fd=column pad=0px 40px
+   EventsAndGuidesIntro__Wrapper y=144 294x403 x=48 fd=column
+   EventsAndGuidesIntro__Copy y=144 294x175 x=48
+   H1 Heading__HeadingInternal Heading___Style box=42,144,306x61 fs=42px/54.6px «Events» {padding:0px 6px 6px; margin:0px
+   Text__TextWrapper Text___StyledTextWrapper y=199 294x120 x=48
+   EventsAndGuidesIntro__Illustration y=351 324x197 x=33
+   EventsLanding__Body y=627 294x8256 x=48 fd=column
+   SectionHeader__Wrapper y=627 294x69 x=48
+   SectionHeader__TextWrapper y=657 294x39 x=48
+   H2 Heading__HeadingInternal Heading___Style box=48,657,294x39 fs=30px/39px «Upcoming» {margin:0px 0px 10px; font-fam
+   EventsLanding__List y=716 294x705 x=48 cols=294.25px
+   Card__Wrapper y=716 294x283 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=870 145x118 x=59 fd=column pad=15px
+   Card__Wrapper y=1019 294x402 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=1183 272x227 x=59 fd=column pad=15px
+   SectionHeader__Wrapper y=1487 294x74 x=48
+   SectionHeader__TextWrapper y=1522 294x39 x=48
+   H2 Heading__HeadingInternal Heading___Style box=48,1522,294x39 fs=30px/39px «On-demand» {margin:0px 0px 10px; font-fa
+   EventsLanding__List y=1581 294x7302 x=48 cols=294.25px
+   Card__Wrapper y=1581 294x392 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=1735 272x227 x=59 fd=column pad=15px
+   Card__Wrapper y=1993 294x319 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=2147 272x154 x=59 fd=column pad=15px
+   Card__Wrapper y=2332 294x356 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=2486 272x191 x=59 fd=column pad=15px
+   Card__Wrapper y=2707 294x356 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=2861 272x191 x=59 fd=column pad=15px
+   Card__Wrapper y=3083 294x319 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=3237 272x154 x=59 fd=column pad=15px
+   Card__Wrapper y=3422 294x356 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=3576 272x191 x=59 fd=column pad=15px
+   Card__Wrapper y=3798 294x319 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=3951 272x154 x=59 fd=column pad=15px
+   Card__Wrapper y=4137 294x392 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=4291 272x227 x=59 fd=column pad=15px
+   Card__Wrapper y=4549 294x428 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=4702 272x263 x=59 fd=column pad=15px
+   Card__Wrapper y=4997 294x402 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=5161 272x227 x=59 fd=column pad=15px
+   Card__Wrapper y=5419 294x321 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=5539 272x191 x=59 fd=column pad=15px
+   Card__Wrapper y=5760 294x319 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=5914 272x154 x=59 fd=column pad=15px
+   Card__Wrapper y=6100 294x319 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=6253 272x154 x=59 fd=column pad=15px
+   Card__Wrapper y=6439 294x402 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=6603 272x227 x=59 fd=column pad=15px
+   Card__Wrapper y=6861 294x366 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=7025 272x191 x=59 fd=column pad=15px
+   Card__Wrapper y=7246 294x356 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=7400 272x191 x=59 fd=column pad=15px
+   Card__Wrapper y=7622 294x428 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=7775 272x263 x=59 fd=column pad=15px
+   Card__Wrapper y=8070 294x428 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=8223 272x263 x=59 fd=column pad=15px
+   Card__Wrapper y=8518 294x366 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=8682 272x191 x=59 fd=column pad=15px
+## resources_guides@390 page 11012
+   GuidesLanding__Wrapper y=144 374x9522 x=8 fd=column pad=0px 40px
+   EventsAndGuidesIntro__Wrapper y=144 294x373 x=48 fd=column
+   EventsAndGuidesIntro__Copy y=144 294x145 x=48
+   H1 Heading__HeadingInternal Heading___Style box=42,144,306x61 fs=42px/54.6px «Guides» {padding:0px 6px 6px; margin:0px
+   Text__TextWrapper Text___StyledTextWrapper y=199 294x90 x=48
+   EventsAndGuidesIntro__Illustration y=321 324x197 x=33
+   GuidesLanding__List y=597 294x9069 x=48 cols=294.25px
+   Card__Wrapper y=597 294x398 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=794 272x191 x=59 fd=column pad=15px
+   Card__Wrapper y=1015 294x435 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=1212 272x227 x=59 fd=column pad=15px
+   Card__Wrapper y=1470 294x435 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=1667 272x227 x=59 fd=column pad=15px
+   Card__Wrapper y=1925 294x471 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=2122 272x263 x=59 fd=column pad=15px
+   Card__Wrapper y=2416 294x580 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=2613 272x373 x=59 fd=column pad=15px
+   Card__Wrapper y=3017 294x398 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=3213 272x191 x=59 fd=column pad=15px
+   Card__Wrapper y=3435 294x398 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=3632 272x191 x=59 fd=column pad=15px
+   Card__Wrapper y=3853 294x362 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=4050 272x154 x=59 fd=column pad=15px
+   Card__Wrapper y=4235 294x544 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=4432 272x336 x=59 fd=column pad=15px
+   Card__Wrapper y=4799 294x471 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=4996 272x263 x=59 fd=column pad=15px
+   Card__Wrapper y=5291 294x362 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=5487 272x154 x=59 fd=column pad=15px
+   Card__Wrapper y=5673 294x428 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=5826 272x263 x=59 fd=column pad=15px
+   Card__Wrapper y=6121 294x435 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=6318 272x227 x=59 fd=column pad=15px
+   Card__Wrapper y=6576 294x471 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=6772 272x263 x=59 fd=column pad=15px
+   Card__Wrapper y=7067 294x398 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=7264 272x191 x=59 fd=column pad=15px
+   Card__Wrapper y=7485 294x435 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=7682 272x227 x=59 fd=column pad=15px
+   Card__Wrapper y=7940 294x398 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=8137 272x191 x=59 fd=column pad=15px
+   Card__Wrapper y=8358 294x435 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=8555 272x227 x=59 fd=column pad=15px
+   Card__Wrapper y=8813 294x398 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=9010 272x191 x=59 fd=column pad=15px
+   Card__Wrapper y=9231 294x435 x=48 fd=column pad=10px
+   EventAndGuideCard__Copy y=9428 272x227 x=59 fd=column pad=15px
+## resources_guides_ai-analytics@390 page 7791
+   LayoutGrid__LayoutGridCondensed AIAnalyticsHero__Wrapper y=0 374x1291 x=8 cols=9×1fr fd=column pad=224px 0px 80px
+   AIAnalyticsHero__TextContent y=224 374x437 x=8 fd=column
+   H1 Heading__HeadingInternal Heading___Style box=2,224,386x243 fs=48px/62.4px «Stop fielding questions.» {position:rela
+   Text__TextWrapper Text___StyledTextWrapper y=481 374x180 x=8 pad=0px 20px
+   SectionGuideDownload__Wrapper y=711 344x500 x=23 pad=5px
+   Card__Wrapper SectionGuideDownload__StyledCard y=716 334x490 x=28 fd=column
+   SectionGuideDownload__Grid y=736 294x450 x=48 cols=2fr 1fr fd=column
+   H2 Heading__HeadingInternal Heading___Style box=63,757,263x123 fs=30px/39px «The Data Leader's Guide to AI Analytics»
+   Text__TextWrapper Text___StyledTextWrapper y=915 251x120 x=69
+   SectionGuideDownload__Actions y=1055 251x110 x=69 fd=column
+   LayoutGrid__LayoutSubgrid BasicPageRow__Wrapper y=1291 390x1283 x=0 cols=16×subgrid
+   SectionPodcasts__Wrapper y=1332 350x1202 x=20 fd=column
+   InfoText__Wrapper y=1332 350x296 x=20 fd=column
+   AbstractMark10__Wrapper y=1332 60x60 x=20
+   Text__TextWrapper Text___StyledTextWrapper y=1484 350x144 x=20
+   Card__Wrapper SectionPodcasts__PodcastEpisodeCard y=1668 350x411 x=20 fd=column
+   FloatyDarkButton__Wrapper y=1742 179x50 x=106 pad=0px 22.5px
+   Text__TextWrapper Text___StyledTextWrapper y=1977 290x72 x=50
+   Card__Wrapper SectionPodcasts__PodcastEpisodeCard y=2099 350x435 x=20 fd=column
+   FloatyDarkButton__Wrapper y=2173 179x50 x=106 pad=0px 22.5px
+   Text__TextWrapper Text___StyledTextWrapper y=2408 290x96 x=50
+   LayoutGrid__LayoutSubgrid BasicPageRow__Wrapper y=2574 390x2435 x=0 cols=16×subgrid
+   sharedStyles__Section y=2615 350x2354 x=20 fd=column
+   H2 Heading__HeadingInternal Heading___Style box=20,2615,350x78 fs=30px/39px «We're obsessed with this stuff» {font-fa
+   Text__TextWrapper Text___StyledTextWrapper y=2703 350x120 x=20
+   Card__Wrapper SolutionResourceCard__Wrapper y=2863 350x390 x=20 fd=column
+   SolutionResourceCard__Illustration y=2863 350x215 x=20
+   SolutionResourceCard__Content y=3078 350x175 x=20 fd=column pad=24px
+   SolutionResourceCard__Metadata y=3193 302x35 x=44 fd=column
+   Card__Wrapper SolutionResourceCard__Wrapper y=3273 350x390 x=20 fd=column
+   SolutionResourceCard__Illustration y=3273 350x215 x=20
+   SolutionResourceCard__Content y=3487 350x175 x=20 fd=column pad=24px
+   SolutionResourceCard__Metadata y=3603 302x35 x=44 fd=column
+   Card__Wrapper SolutionResourceCard__Wrapper y=3682 350x416 x=20 fd=column
+   SolutionResourceCard__Illustration y=3682 350x215 x=20
+   SolutionResourceCard__Content y=3897 350x201 x=20 fd=column pad=24px
+   SolutionResourceCard__Metadata y=4039 302x35 x=44 fd=column
+   Card__Wrapper SolutionResourceCard__Wrapper y=4118 350x416 x=20 fd=column
+   SolutionResourceCard__Illustration y=4118 350x215 x=20
+   SolutionResourceCard__Content y=4333 350x201 x=20 fd=column pad=24px
+   SolutionResourceCard__Metadata y=4474 302x35 x=44 fd=column
+   Card__Wrapper SolutionResourceCard__Wrapper y=4554 350x416 x=20 fd=column
+   SolutionResourceCard__Illustration y=4554 350x215 x=20
+   SolutionResourceCard__Content y=4768 350x201 x=20 fd=column pad=24px
+   SolutionResourceCard__Metadata y=4910 302x35 x=44 fd=column
+   LayoutGrid__LayoutSubgrid BasicPageRow__Wrapper y=5009 390x1125 x=0 cols=16×subgrid
+   sharedStyles__Section y=5050 350x1044 x=20 fd=column
+   H2 Heading__HeadingInternal Heading___Style box=80,5050,230x39 fs=30px/39px «See it in action» {font-family:PP Formul
+   Text__TextWrapper Text___StyledTextWrapper y=5099 350x150 x=20
+   CustomerGridItem__Wrapper y=5289 350x263 x=20 fd=column
+   CornerLines__Wrapper y=5290 350x263 x=21
+   CustomerQuote__Wrapper y=5321 290x201 x=51 fd=column
+   CustomerGridItem__Wrapper y=5572 350x263 x=20 fd=column
+   CornerLines__Wrapper y=5573 350x263 x=21
+   CustomerQuote__Wrapper y=5604 290x201 x=51 fd=column
+   CustomerGridItem__Wrapper y=5855 350x239 x=20 fd=column
+   CornerLines__Wrapper y=5856 350x239 x=21
+   CustomerQuote__Wrapper y=5887 290x177 x=51 fd=column
+   LayoutGrid__LayoutSubgrid BasicPageRow__Wrapper y=6134 390x511 x=0 cols=16×subgrid
+   OutroTout__Wrapper y=6134 374x511 x=8 fd=column
+   TronDivider__Wrapper y=6134 374x61 x=8
+   Card__Wrapper OutroTout__TopCard y=6225 314x340 x=38 fd=column pad=40px 28px
+   OutroTout__TextWrapper y=6266 256x178 x=67 fd=column
+   H2 Heading__HeadingInternal Heading___Style box=67,6266,256x78 fs=30px/39px «Questions? Talk to us» {font-family:PP F
+   Text__TextWrapper Text___StyledTextWrapper y=6354 256x90 x=67
+   CornerLines__Wrapper y=6475 130x48 x=130
+   CornerCircles__Wrapper y=6475 130x48 x=130
+## state-of-data-teams@390 page 14117
+   PageShell__Wrapper y=0 390x14117 x=0
+   SectionHero__Wrapper y=30 330x599 x=30 fd=column
+   Text__TextWrapper Text___StyledTextWrapper y=379 330x168 x=30
+   Text__TextWrapper Text___StyledTextWrapper y=557 330x72 x=30
+   SectionIntro__Wrapper y=679 330x1784 x=30 fd=column
+   H2 sharedStyles__HeadingTwo box=30,1544,330x197 fs=48px/48px «Data teams are hitting the gas on AI – b
+   Text__TextWrapper Text___StyledTextWrapper y=1751 330x96 x=30
+   Text__TextWrapper Text___StyledTextWrapper y=1857 330x144 x=30
+   Text__TextWrapper Text___StyledTextWrapper y=2011 330x264 x=30
+   Text__TextWrapper Text___StyledTextWrapper y=2285 330x144 x=30
+   Card__Wrapper KeyTakeaways__Wrapper y=679 330x835 x=30 fd=column pad=40px
+   KeyTakeaways__List y=796 250x678 x=70 fd=column
+   Text__TextWrapper Text___StyledTextWrapper y=796 250x120 x=70
+   Text__TextWrapper Text___StyledTextWrapper y=946 250x96 x=70
+   Text__TextWrapper Text___StyledTextWrapper y=1072 250x96 x=70
+   Text__TextWrapper Text___StyledTextWrapper y=1198 250x72 x=70
+   Text__TextWrapper Text___StyledTextWrapper y=1300 250x48 x=70
+   Text__TextWrapper Text___StyledTextWrapper y=1378 250x96 x=70
+   SectionTOC__Wrapper y=2513 330x623 x=30 fd=column
+   H2 sharedStyles__HeadingTwo box=30,2514,296x48 fs=48px/48px «Table of contents» {font-family:PP Edito
+   SectionTOC__List y=2582 330x554 x=30
+   Card__Wrapper SectionTOC__Option y=2582 330x103 x=30 pad=20px
+   Text__TextWrapper Text___StyledTextWrapper y=2610 242x48 x=98
+   Card__Wrapper SectionTOC__Option y=2695 330x103 x=30 pad=20px
+   Text__TextWrapper Text___StyledTextWrapper y=2722 236x48 x=104
+   Card__Wrapper SectionTOC__Option y=2808 330x103 x=30 pad=20px
+   Text__TextWrapper Text___StyledTextWrapper y=2835 237x48 x=103
+   Card__Wrapper SectionTOC__Option y=2921 330x103 x=30 pad=20px
+   Text__TextWrapper Text___StyledTextWrapper y=2948 235x48 x=105
+   Card__Wrapper SectionTOC__Option y=3034 330x103 x=30 pad=20px
+   Text__TextWrapper Text___StyledTextWrapper y=3061 238x48 x=102
+   SectionHeader__Wrapper y=3187 330x244 x=30 fd=column
+   Card__Wrapper SectionHeader__NumberCard y=3187 80x80 x=30 fd=column
+   H2 sharedStyles__HeadingTwo box=30,3287,330x144 fs=48px/48px «AI is a top priority for data teams» {fo
+   Text__TextWrapper Text___StyledTextWrapper y=3461 330x120 x=30
+   SectionTwoUp__Wrapper y=3611 330x856 x=30 fd=column
+   Text__TextWrapper Text___StyledTextWrapper y=3701 330x192 x=30
+   Text__TextWrapper Text___StyledTextWrapper y=3903 330x144 x=30
+   Text__TextWrapper Text___StyledTextWrapper y=4057 330x96 x=30
+   SectionChart__Wrapper y=4173 330x294 x=30
+   SectionTwoUp__Wrapper y=4497 330x817 x=30 fd=column
+   SectionChart__Wrapper y=4990 330x325 x=30
+   SectionChart__Content y=4990 248x162 x=30 fd=column
+   Card__Wrapper SurveyQuestion__Wrapper y=4990 248x93 x=15 fd=column pad=10px 18px
+   Text__TextWrapper Text___StyledTextWrapper y=5000 212x73 x=33
+   Text__TextWrapper Text___StyledTextWrapper y=5098 248x55 x=30
+   Text__TextWrapper Text___StyledTextWrapper y=4624 330x240 x=30
+   Text__TextWrapper Text___StyledTextWrapper y=4874 330x96 x=30
+   SectionFullQuote__Wrapper y=5345 330x224 x=30 pad=26px 0px 0px
+   Card__Wrapper SurveyQuestion__Wrapper y=5346 328x56 x=31 fd=column pad=10px 18px
+   Text__TextWrapper Text___StyledTextWrapper y=5356 292x36 x=49
+   Text__TextWrapper Text___StyledTextWrapper y=5422 248x77 x=71
+   SectionHeader__Wrapper y=5619 330x292 x=30 fd=column
+   Card__Wrapper SectionHeader__NumberCard y=5619 80x80 x=30 fd=column
+   H2 sharedStyles__HeadingTwo box=30,5719,330x192 fs=48px/48px «Trust and data accuracy are the biggest 
+   Text__TextWrapper Text___StyledTextWrapper y=5941 330x96 x=30
+   SectionTwoUp__Wrapper y=6067 330x902 x=30 fd=column
+   Text__TextWrapper Text___StyledTextWrapper y=6231 330x168 x=30
+   Text__TextWrapper Text___StyledTextWrapper y=6409 330x168 x=30
+   Text__TextWrapper Text___StyledTextWrapper y=6587 330x72 x=30
+   SectionChart__Wrapper y=6679 330x291 x=30
+   SectionChart__Content y=6679 248x36 x=30 fd=column
+   Text__TextWrapper Text___StyledTextWrapper y=6679 248x36 x=30
+   SectionTwoUp__Wrapper y=7000 330x729 x=30 fd=column
+   SectionChart__Wrapper y=7384 330x345 x=30
+   SectionChart__Content y=7384 300x36 x=30 fd=column
+   Text__TextWrapper Text___StyledTextWrapper y=7384 300x36 x=30
+   Text__TextWrapper Text___StyledTextWrapper y=7090 330x168 x=30
+   Text__TextWrapper Text___StyledTextWrapper y=7268 330x96 x=30
+   SectionTwoUp__Wrapper y=7759 330x594 x=30 fd=column
+   Text__TextWrapper Text___StyledTextWrapper y=7922 330x96 x=30
+   Text__TextWrapper Text___StyledTextWrapper y=8028 330x96 x=30
+   SectionChart__Wrapper y=8144 330x208 x=30
+   SectionChart__Content y=8144 248x55 x=30 fd=column
+   Text__TextWrapper Text___StyledTextWrapper y=8144 248x55 x=30
+   SectionFullQuote__Wrapper y=8382 330x377 x=30 pad=26px 0px 0px
+   Card__Wrapper SurveyQuestion__Wrapper y=8383 328x56 x=31 fd=column pad=10px 18px
+   Text__TextWrapper Text___StyledTextWrapper y=8393 292x36 x=49
+   Text__TextWrapper Text___StyledTextWrapper y=8459 248x230 x=71
+   SectionHeader__Wrapper y=8810 330x292 x=30 fd=column
+   Card__Wrapper SectionHeader__NumberCard y=8810 80x80 x=30 fd=column
+   H2 sharedStyles__HeadingTwo box=30,8910,330x192 fs=48px/48px «Leaders and practitioners want different
+   SectionTwoUp__Wrapper y=9132 330x1049 x=30 fd=column
+   Text__TextWrapper Text___StyledTextWrapper y=9259 330x192 x=30
+   Text__TextWrapper Text___StyledTextWrapper y=9461 330x120 x=30
+   Text__TextWrapper Text___StyledTextWrapper y=9591 330x144 x=30
+   SectionChart__Wrapper y=9755 330x426 x=30
+   SectionChart__Content y=9755 330x126 x=30 fd=column
+   Card__Wrapper SurveyQuestion__Wrapper y=9755 330x75 x=15 fd=column pad=10px 18px
+   Text__TextWrapper Text___StyledTextWrapper y=9765 294x55 x=33
+   Text__TextWrapper Text___StyledTextWrapper y=9844 330x36 x=30
+   SectionFullQuote__Wrapper y=10211 330x319 x=30 pad=26px 0px 0px
+   Card__Wrapper SurveyQuestion__Wrapper y=10212 328x56 x=31 fd=column pad=10px 18px
+   Text__TextWrapper Text___StyledTextWrapper y=10222 292x36 x=49
+   Text__TextWrapper Text___StyledTextWrapper y=10288 248x154 x=71
+   SectionHeader__Wrapper y=10581 330x292 x=30 fd=column
+   Card__Wrapper SectionHeader__NumberCard y=10581 80x80 x=30 fd=column
+   H2 sharedStyles__HeadingTwo box=30,10681,330x192 fs=48px/48px «Data teams are still growing as AI adopt
+   SectionTwoUp__Wrapper y=10903 330x593 x=30 fd=column
+   Text__TextWrapper Text___StyledTextWrapper y=10904 330x96 x=30
+   Text__TextWrapper Text___StyledTextWrapper y=11010 330x144 x=30
+   Text__TextWrapper Text___StyledTextWrapper y=11202 131x48 x=50
+   Text__TextWrapper Text___StyledTextWrapper y=11250 131x48 x=50
+   Text__TextWrapper Text___StyledTextWrapper y=11202 129x48 x=231
+   Text__TextWrapper Text___StyledTextWrapper y=11250 129x48 x=231
+   SectionChart__Wrapper y=11342 330x154 x=30
+   SectionChart__Content y=11342 248x56 x=30 fd=column
+   Card__Wrapper SurveyQuestion__Wrapper y=11342 248x56 x=15 fd=column pad=10px 18px
+   Text__TextWrapper Text___StyledTextWrapper y=11352 212x36 x=33
+   SectionFullQuote__Wrapper y=11526 330x319 x=30 pad=26px 0px 0px
+   Card__Wrapper SurveyQuestion__Wrapper y=11527 328x56 x=31 fd=column pad=10px 18px
+   Text__TextWrapper Text___StyledTextWrapper y=11537 292x36 x=49
+   Text__TextWrapper Text___StyledTextWrapper y=11603 248x154 x=71
+   SectionHeader__Wrapper y=11896 330x196 x=30 fd=column
+   Card__Wrapper SectionHeader__NumberCard y=11896 80x80 x=30 fd=column
+   H2 sharedStyles__HeadingTwo box=30,11996,330x96 fs=48px/48px «What does this all mean for 2026?» {font
+   Text__TextWrapper Text___StyledTextWrapper y=12122 330x96 x=30
+   Text__TextWrapper Text___StyledTextWrapper y=12228 330x168 x=30
+   Text__TextWrapper Text___StyledTextWrapper y=12406 330x96 x=30
+   Text__TextWrapper Text___StyledTextWrapper y=12512 330x48 x=30
+   Text__TextWrapper Text___StyledTextWrapper y=12570 330x120 x=30
+   Text__TextWrapper Text___StyledTextWrapper y=12700 330x144 x=30
+   Card__Wrapper Section5__OutroWrapper y=12874 330x338 x=30 fd=column pad=40px
+   H2 sharedStyles__HeadingTwo box=70,12914,250x96 fs=48px/48px «Questions? Talk to us.» {font-family:PP 
+   Text__TextWrapper Text___StyledTextWrapper y=13030 250x72 x=70
+   CornerLines__Wrapper y=13123 168x48 x=71
+   CornerCircles__Wrapper y=13123 168x48 x=71
+   SectionFAQ__Wrapper y=13242 330x845 x=30 fd=column pad=40px 0px
+   FAQ__Wrapper y=13341 330x706 x=30
+   FAQ__List y=13341 330x647 x=30 fd=column
+## templates@390 page 25833
+   sharedStyles__Wrapper y=144 374x24443 x=8 fd=column pad=0px 40px
+   H1 Heading__HeadingInternal Heading___Style box=48,144,294x49 fs=38px/49.4px «Templates» {margin:0px 0px 16px; font-fa
+   Text__TextWrapper Text___StyledTextWrapper y=209 294x180 x=48
+   TemplatesNavigation__Wrapper y=409 294x304 x=48
+   CornerLines__Wrapper y=410 44x36 x=49
+   TemplatesGrid__Wrapper y=743 294x23844 x=48 fd=column
+   TemplatesGrid__Section y=743 294x2108 x=48 fd=column
+   SectionHeader__Wrapper y=743 294x316 x=48
+   SectionHeader__TextWrapper y=780 294x259 x=48
+   H2 Heading__HeadingInternal Heading___Style box=48,780,294x39 fs=30px/39px «Data Clustering» {margin:0px 0px 10px; f
+   Card__Wrapper sharedStyles__GridItemWrapper y=1129 294x438 x=48 fd=column pad=10px
+   Card__Wrapper sharedStyles__GridItemWrapper y=1587 294x416 x=48 fd=column pad=10px
+   Card__Wrapper sharedStyles__GridItemWrapper y=2023 294x366 x=48 fd=column pad=10px
+   Card__Wrapper sharedStyles__GridItemWrapper y=2409 294x442 x=48 fd=column pad=10px
+   TemplatesGrid__Section y=2901 294x1684 x=48 fd=column
+   SectionHeader__Wrapper y=2901 294x256 x=48
+   SectionHeader__TextWrapper y=2938 294x199 x=48
+   H2 Heading__HeadingInternal Heading___Style box=48,2938,294x39 fs=30px/39px «Data Modeling» {margin:0px 0px 10px; fon
+   Card__Wrapper sharedStyles__GridItemWrapper y=3227 294x442 x=48 fd=column pad=10px
+   Card__Wrapper sharedStyles__GridItemWrapper y=3689 294x390 x=48 fd=column pad=10px
+   Card__Wrapper sharedStyles__GridItemWrapper y=4099 294x486 x=48 fd=column pad=10px
+   TemplatesGrid__Section y=4635 294x1994 x=48 fd=column
+   SectionHeader__Wrapper y=4635 294x226 x=48
+   SectionHeader__TextWrapper y=4672 294x169 x=48
+   H2 Heading__HeadingInternal Heading___Style box=48,4672,294x39 fs=30px/39px «Data Science» {margin:0px 0px 10px; font
+   Card__Wrapper sharedStyles__GridItemWrapper y=4931 294x414 x=48 fd=column pad=10px
+   Card__Wrapper sharedStyles__GridItemWrapper y=5365 294x342 x=48 fd=column pad=10px
+   Card__Wrapper sharedStyles__GridItemWrapper y=5727 294x414 x=48 fd=column pad=10px
+   Card__Wrapper sharedStyles__GridItemWrapper y=6161 294x468 x=48 fd=column pad=10px
+   TemplatesGrid__Section y=6679 294x1662 x=48 fd=column
+   SectionHeader__Wrapper y=6679 294x226 x=48
+   SectionHeader__TextWrapper y=6716 294x169 x=48
+   H2 Heading__HeadingInternal Heading___Style box=48,6716,294x39 fs=30px/39px «Data Visualization» {margin:0px 0px 10px
+   Card__Wrapper sharedStyles__GridItemWrapper y=6975 294x468 x=48 fd=column pad=10px
+   Card__Wrapper sharedStyles__GridItemWrapper y=7463 294x366 x=48 fd=column pad=10px
+   Card__Wrapper sharedStyles__GridItemWrapper y=7849 294x492 x=48 fd=column pad=10px
+   TemplatesGrid__Section y=8391 294x2063 x=48 fd=column
+   SectionHeader__Wrapper y=8391 294x235 x=48
+   SectionHeader__TextWrapper y=8428 294x178 x=48
+   H2 Heading__HeadingInternal Heading___Style box=48,8428,294x78 fs=30px/39px «Exploratory Analysis» {margin:0px 0px 10
+   Card__Wrapper sharedStyles__GridItemWrapper y=8696 294x442 x=48 fd=column pad=10px
+   Card__Wrapper sharedStyles__GridItemWrapper y=9158 294x468 x=48 fd=column pad=10px
+   Card__Wrapper sharedStyles__GridItemWrapper y=9646 294x394 x=48 fd=column pad=10px
+   Card__Wrapper sharedStyles__GridItemWrapper y=10060 294x394 x=48 fd=column pad=10px
+   TemplatesGrid__Section y=10504 294x1652 x=48 fd=column
+   SectionHeader__Wrapper y=10504 294x316 x=48
+   SectionHeader__TextWrapper y=10541 294x259 x=48
+   H2 Heading__HeadingInternal Heading___Style box=48,10541,294x39 fs=30px/39px «Feature Selection» {margin:0px 0px 10px;
+   Card__Wrapper sharedStyles__GridItemWrapper y=10890 294x396 x=48 fd=column pad=10px
+   Card__Wrapper sharedStyles__GridItemWrapper y=11306 294x438 x=48 fd=column pad=10px
+   Card__Wrapper sharedStyles__GridItemWrapper y=11764 294x392 x=48 fd=column pad=10px
+   TemplatesGrid__Section y=12206 294x2056 x=48 fd=column
+   SectionHeader__Wrapper y=12206 294x256 x=48
+   SectionHeader__TextWrapper y=12243 294x199 x=48
+   H2 Heading__HeadingInternal Heading___Style box=48,12243,294x39 fs=30px/39px «KPI Dashboards» {margin:0px 0px 10px; fo
+   Card__Wrapper sharedStyles__GridItemWrapper y=12532 294x440 x=48 fd=column pad=10px
+   Card__Wrapper sharedStyles__GridItemWrapper y=12992 294x394 x=48 fd=column pad=10px
+   Card__Wrapper sharedStyles__GridItemWrapper y=13406 294x368 x=48 fd=column pad=10px
+   Card__Wrapper sharedStyles__GridItemWrapper y=13794 294x468 x=48 fd=column pad=10px
+   TemplatesGrid__Section y=14312 294x1297 x=48 fd=column
+   SectionHeader__Wrapper y=14312 294x325 x=48
+   SectionHeader__TextWrapper y=14349 294x268 x=48
+   H2 Heading__HeadingInternal Heading___Style box=48,14349,294x78 fs=30px/39px «Natural Language Processing» {margin:0px
+   Card__Wrapper sharedStyles__GridItemWrapper y=14707 294x390 x=48 fd=column pad=10px
+   Card__Wrapper sharedStyles__GridItemWrapper y=15117 294x492 x=48 fd=column pad=10px
+   TemplatesGrid__Section y=15659 294x893 x=48 fd=column
+   SectionHeader__Wrapper y=15659 294x355 x=48
+   SectionHeader__TextWrapper y=15696 294x298 x=48
+   H2 Heading__HeadingInternal Heading___Style box=48,15696,294x78 fs=30px/39px «Parameterized Queries» {margin:0px 0px 1
+   Card__Wrapper sharedStyles__GridItemWrapper y=16084 294x468 x=48 fd=column pad=10px
+   TemplatesGrid__Section y=16602 294x2028 x=48 fd=column
+   SectionHeader__Wrapper y=16602 294x226 x=48
+   SectionHeader__TextWrapper y=16639 294x169 x=48
+   H2 Heading__HeadingInternal Heading___Style box=48,16639,294x39 fs=30px/39px «Reporting» {margin:0px 0px 10px; font-fa
+   Card__Wrapper sharedStyles__GridItemWrapper y=16898 294x468 x=48 fd=column pad=10px
+   Card__Wrapper sharedStyles__GridItemWrapper y=17386 294x342 x=48 fd=column pad=10px
+   Card__Wrapper sharedStyles__GridItemWrapper y=17748 294x394 x=48 fd=column pad=10px
+   Card__Wrapper sharedStyles__GridItemWrapper y=18162 294x468 x=48 fd=column pad=10px
+   TemplatesGrid__Section y=18680 294x2299 x=48 fd=column
+   SectionHeader__Wrapper y=18680 294x355 x=48
+   SectionHeader__TextWrapper y=18717 294x298 x=48
+   H2 Heading__HeadingInternal Heading___Style box=48,18717,294x78 fs=30px/39px «Sentiment Analysis» {margin:0px 0px 10px
+   Card__Wrapper sharedStyles__GridItemWrapper y=19105 294x468 x=48 fd=column pad=10px
+   Card__Wrapper sharedStyles__GridItemWrapper y=19593 294x492 x=48 fd=column pad=10px
+   Card__Wrapper sharedStyles__GridItemWrapper y=20105 294x440 x=48 fd=column pad=10px
+   Card__Wrapper sharedStyles__GridItemWrapper y=20565 294x414 x=48 fd=column pad=10px
+   TemplatesGrid__Section y=21029 294x2000 x=48 fd=column
+   SectionHeader__Wrapper y=21029 294x226 x=48
+   SectionHeader__TextWrapper y=21066 294x169 x=48
+   H2 Heading__HeadingInternal Heading___Style box=48,21066,294x39 fs=30px/39px «Snowpark» {margin:0px 0px 10px; font-fam
+   Card__Wrapper sharedStyles__GridItemWrapper y=21325 294x492 x=48 fd=column pad=10px
+   Card__Wrapper sharedStyles__GridItemWrapper y=21837 294x368 x=48 fd=column pad=10px
+   Card__Wrapper sharedStyles__GridItemWrapper y=22225 294x344 x=48 fd=column pad=10px
+   Card__Wrapper sharedStyles__GridItemWrapper y=22589 294x440 x=48 fd=column pad=10px
+   TemplatesGrid__Section y=23079 294x1508 x=48 fd=column
+   SectionHeader__Wrapper y=23079 294x196 x=48
+   SectionHeader__TextWrapper y=23116 294x139 x=48
+   H2 Heading__HeadingInternal Heading___Style box=48,23116,294x39 fs=30px/39px «Time Series» {margin:0px 0px 10px; font-
+   Card__Wrapper sharedStyles__GridItemWrapper y=23345 294x468 x=48 fd=column pad=10px
+   Card__Wrapper sharedStyles__GridItemWrapper y=23833 294x368 x=48 fd=column pad=10px
+   Card__Wrapper sharedStyles__GridItemWrapper y=24221 294x366 x=48 fd=column pad=10px

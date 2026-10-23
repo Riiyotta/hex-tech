@@ -1,0 +1,16 @@
+# integrations-databricks @390 — doc height 4080 (1440: 3077)
+
+## Sections (matched by component class from the 1440 section list)
+- 0 RunningText__ @1440 [100,908,1240,630] → @390 [48, 1042, 357, 592]  | H2:How it works
+- 1 FAQ__ @1440 [29,1638,1382,518] → @390 [48, 2116, 294, 402] (+10 more)  | H2:FAQ / H3:How is Hex different from what Databricks offers?chevron-down
+- 2 ExternalLinks__ @1440 [100,2256,1240,135] → @390 [48, 2699, 294, 135] (+8 more)  | 
+
+## Text roles @390 (H1–H4, lead/body P, buttons): tag [x,y,w,h] «text» font/size/lh
+- H1 [48, 309, 294, 198] «A flexible workspace for your data lakehouse» fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px; margin:0px 0px 20px; textAlign:center
+- P [48, 526, 294, 210] «Hex's powerful end-to-end platform makes it easy t» fontSize:20px; fontWeight:300; lineHeight:30px; margin:0px 0px 25px; textAlign:center
+- H2 [48, 983, 357, 39] «How it works» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px; margin:0px 0px 20px
+- P [48, 1042, 357, 192] «Once a Hex admin has connected a Databricks SQL en» fontSize:18px; lineHeight:32px; margin:0px 0px 24px
+- P [48, 1258, 357, 160] «Hex has first-class SQL support, so you can build » fontSize:18px; lineHeight:32px; margin:0px 0px 24px
+- P [48, 1442, 357, 192] «Need to pull in some less structured data or run D» fontSize:18px; lineHeight:32px
+- H2 [164, 2191, 62, 39] «FAQ» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px; margin:15px 0px
+- P [48, 2390, 294, 48] «Can't find your answer here? .» fontSize:16px; fontWeight:300; lineHeight:24px; margin:35px 0px 0px; textAlign:center

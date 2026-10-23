@@ -1,0 +1,36 @@
+# embedded-analytics @390 — doc height 9135 (1440: 6551)
+
+## Sections (matched by component class from the 1440 section list)
+- 0 Hero__ @1440 [98,200,1244,1214] → @390 [27, 144, 337, 1112] (+2 more)  | H1:Embedded analytics, built for agility
+- 1 H2__FadeIn @1440 [98,1414,1244,174] → @390 [27, 1256, 337, 408] (+1 more)  | H2:Drive growthwith stunning analytics
+- 2 TwoUp__ @1440 [98,1588,1244,592] → @390 [27, 1664, 337, 792] (+7 more)  | H2:Ship faster
+- 3 TwoUp__ @1440 [98,2180,1244,592] → @390 [27, 1664, 337, 792] (+7 more)  | H2:Make it yours
+- 4 TwoUp__ @1440 [98,2772,1244,592] → @390 [27, 1664, 337, 792] (+7 more)  | H2:Easy, breezy integration
+- 5 TwoUp__ @1440 [98,3364,1244,592] → @390 [27, 1664, 337, 792] (+7 more)  | H2:Low floor, high ceiling
+- 6 Quote__ @1440 [29,3956,1382,666] → @390 [8, 4537, 374, 1634]  | 
+- 7 H2__FadeIn @1440 [98,4622,1244,334] → @390 [27, 1256, 337, 408] (+1 more)  | H2:Deliver a first-class user experience
+- 8 EmbeddedAnalyticsPageContent__ @1440 [98,4961,1244,334] → @390 [27, 557, 337, 110] (+24 more)  | H3:Seamless authentication / H3:Interactive analytics
+- 9 OutroTout__ @1440 [29,5295,1382,675] → @390 [8, 7401, 374, 589] (+5 more)  | H2:Monetize your data with embedded analytics
+
+## Text roles @390 (H1–H4, lead/body P, buttons): tag [x,y,w,h] «text» font/size/lh
+- H1 [21, 228, 349, 224] «Embedded analytics, built for agility» fontFamily:"PP Formula SemiExtended"; fontSize:42px; fontWeight:700; lineHeight:54.6px; letterSpacing:-1.05px; padding:0px 6px 6px; margin:0px -6px 20px; textAlign:center
+- P [27, 472, 337, 60] «Seamlessly embed powerful data experiences for you» fontSize:20px; fontWeight:300; lineHeight:30px; margin:0px 0px 25px; textAlign:center
+- H2 [27, 1256, 337, 396] «Drive growth with stunning analytics» fontFamily:"PP Formula"; fontSize:60px; fontWeight:800; lineHeight:78px; letterSpacing:-1.5px; padding:0px 6px 6px; margin:0px 0px 12px; textAlign:center
+- H2 [27, 2002, 178, 39] «Ship faster» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px
+- P [27, 2061, 337, 120] «Use Hex's fast, flexible notebook to deliver data » fontSize:20px; fontWeight:300; lineHeight:30px; margin:0px 0px 15px
+- P [27, 2196, 337, 150] «With queries, code, and no-code living in one canv» fontSize:20px; fontWeight:300; lineHeight:30px
+- H2 [27, 2794, 214, 39] «Make it yours» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px
+- P [27, 2853, 337, 120] «Customize your embedded app for a white-labeled us» fontSize:20px; fontWeight:300; lineHeight:30px; margin:0px 0px 15px
+- P [27, 2988, 337, 120] «Easily preview and test your embedded experience t» fontSize:20px; fontWeight:300; lineHeight:30px
+- H2 [27, 3556, 337, 78] «Easy, breezy integration» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px
+- P [27, 3654, 337, 90] «Light-weight and easy to use, the Hex Embed API is» fontSize:20px; fontWeight:300; lineHeight:30px; margin:0px 0px 15px
+- P [27, 3759, 337, 90] «No bulky SDK integrations — just hand off your bea» fontSize:20px; fontWeight:300; lineHeight:30px
+- H2 [27, 4235, 334, 39] «Low floor, high ceiling» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px
+- P [27, 4294, 337, 90] «Build one project to power tailored data apps for » fontSize:20px; fontWeight:300; lineHeight:30px; margin:0px 0px 15px
+- P [27, 4399, 337, 90] «Start small, and scale as you grow new revenue str» fontSize:20px; fontWeight:300; lineHeight:30px
+- H2 [27, 6251, 337, 396] «Deliver a first-class user experience» fontFamily:"PP Formula"; fontSize:60px; fontWeight:800; lineHeight:78px; letterSpacing:-1.5px; padding:0px 6px 6px; margin:0px 0px 12px; textAlign:center
+- H3 [64, 6773, 263, 26] «Seamless authentication» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px
+- H3 [83, 6977, 225, 26] «Interactive analytics» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px
+- H3 [115, 7181, 160, 26] «Real-time data» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px
+- H2 [67, 7533, 256, 156] «Monetize your data with embedded analytics» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px
+- P [67, 7699, 256, 90] «Get in touch with us to see a demo or find out whi» fontSize:20px; fontWeight:300; lineHeight:30px

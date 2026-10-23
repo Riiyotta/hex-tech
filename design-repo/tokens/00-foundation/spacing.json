@@ -1,0 +1,159 @@
+{
+  "$description": "Measured spacing rhythm. No value outside this list is allowed in new contracts.",
+  "spacing": {
+    "4": {
+      "$type": "dimension",
+      "$value": "4px",
+      "measuredFrom": [
+        "CLONE_SPEC.md:131"
+      ]
+    },
+    "6": {
+      "$type": "dimension",
+      "$value": "6px",
+      "measuredFrom": [
+        "CLONE_SPEC.md:131"
+      ]
+    },
+    "8": {
+      "$type": "dimension",
+      "$value": "8px",
+      "measuredFrom": [
+        "CLONE_SPEC.md:131"
+      ]
+    },
+    "10": {
+      "$type": "dimension",
+      "$value": "10px",
+      "measuredFrom": [
+        "CLONE_SPEC.md:131"
+      ]
+    },
+    "12": {
+      "$type": "dimension",
+      "$value": "12px",
+      "measuredFrom": [
+        "CLONE_SPEC.md:131"
+      ]
+    },
+    "15": {
+      "$type": "dimension",
+      "$value": "15px",
+      "measuredFrom": [
+        "CLONE_SPEC.md:131"
+      ]
+    },
+    "16": {
+      "$type": "dimension",
+      "$value": "16px",
+      "measuredFrom": [
+        "CLONE_SPEC.md:131"
+      ]
+    },
+    "20": {
+      "$type": "dimension",
+      "$value": "20px",
+      "measuredFrom": [
+        "CLONE_SPEC.md:131"
+      ]
+    },
+    "24": {
+      "$type": "dimension",
+      "$value": "24px",
+      "measuredFrom": [
+        "CLONE_SPEC.md:131"
+      ]
+    },
+    "25": {
+      "$type": "dimension",
+      "$value": "25px",
+      "measuredFrom": [
+        "CLONE_SPEC.md:131"
+      ]
+    },
+    "30": {
+      "$type": "dimension",
+      "$value": "30px",
+      "measuredFrom": [
+        "CLONE_SPEC.md:131"
+      ]
+    },
+    "32": {
+      "$type": "dimension",
+      "$value": "32px",
+      "measuredFrom": [
+        "CLONE_SPEC.md:131"
+      ]
+    },
+    "40": {
+      "$type": "dimension",
+      "$value": "40px",
+      "measuredFrom": [
+        "CLONE_SPEC.md:131"
+      ]
+    },
+    "44": {
+      "$type": "dimension",
+      "$value": "44px",
+      "measuredFrom": [
+        "CLONE_SPEC.md:131"
+      ]
+    },
+    "50": {
+      "$type": "dimension",
+      "$value": "50px",
+      "measuredFrom": [
+        "CLONE_SPEC.md:131"
+      ]
+    },
+    "54": {
+      "$type": "dimension",
+      "$value": "54px",
+      "measuredFrom": [
+        "CLONE_SPEC.md:131"
+      ]
+    },
+    "60": {
+      "$type": "dimension",
+      "$value": "60px",
+      "measuredFrom": [
+        "CLONE_SPEC.md:131"
+      ]
+    },
+    "70": {
+      "$type": "dimension",
+      "$value": "70px",
+      "measuredFrom": [
+        "CLONE_SPEC.md:131"
+      ]
+    },
+    "80": {
+      "$type": "dimension",
+      "$value": "80px",
+      "measuredFrom": [
+        "CLONE_SPEC.md:131"
+      ]
+    },
+    "100": {
+      "$type": "dimension",
+      "$value": "100px",
+      "measuredFrom": [
+        "CLONE_SPEC.md:131"
+      ]
+    },
+    "120": {
+      "$type": "dimension",
+      "$value": "120px",
+      "measuredFrom": [
+        "specs/product.md:262"
+      ]
+    },
+    "200": {
+      "$type": "dimension",
+      "$value": "200px",
+      "measuredFrom": [
+        "specs/company.md:105"
+      ]
+    }
+  }
+}

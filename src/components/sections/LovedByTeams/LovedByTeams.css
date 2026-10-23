@@ -1,0 +1,92 @@
+/* CLONE_SPEC §4.11 "Loved by the best data teams" — ported from CustomerStoriesTout__*, AnchorLines__*,
+   CustomerStoryItem__*, SocialTout__*, G2SocialProofCard__*, CustomerQuoteCard__* rules in
+   reference/dom/computed-stylesheets.css. This file loads before src/index.css, so overrides of shared
+   classes use raised specificity. */
+
+/* ----- AnchorLines: 11px corner brackets in --highlightColor, positioned against the block ----- */
+.anchor-lines::before,
+.anchor-lines::after {
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: 1;
+  background: var(--highlightColor);
+}
+.anchor-lines::before { width: 1px; height: 11px; }
+.anchor-lines::after { width: 11px; height: 1px; }
+.anchor-lines[data-corner='tl']::before,
+.anchor-lines[data-corner='tl']::after { top: -1px; left: -1px; }
+.anchor-lines[data-corner='tr']::before,
+.anchor-lines[data-corner='tr']::after { top: -1px; right: -1px; }
+.anchor-lines[data-corner='bl']::before,
+.anchor-lines[data-corner='bl']::after { bottom: -1px; left: -1px; }
+.anchor-lines[data-corner='br']::before,
+.anchor-lines[data-corner='br']::after { bottom: -1px; right: -1px; }
+/* title block bottom corners: vertical stroke runs 10px past the edge (⊢ / ⊣ joints with the stories grid) */
+.anchor-lines[data-extend]::before { height: 21px; bottom: -11px; }
+
+/* ----- Title heading: GradientHeader with inline spans, no padding (CustomerStoriesTout__StyledHeading) ----- */
+.stories-tout__heading.gradient-heading { margin-bottom: 0; padding: 0; }
+.stories-tout__heading.gradient-heading span { display: inline; }
+
+/* ----- CustomerStoryItem ----- */
+.story-card {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0px;
+  min-width: 0;
+  padding: 30px;
+  gap: 15px;
+  cursor: pointer;
+  color: inherit;
+  background-color: transparent;
+  border-right: 1px solid var(--grid300);
+  transition: box-shadow var(--animation-duration) var(--animation-easing);
+}
+.story-card:last-of-type { border-right: none; }
+@media (max-width: 1250px) {
+  .story-card:nth-child(1),
+  .story-card:nth-child(2) { border-bottom: 1px solid var(--grid300); }
+  .story-card:nth-child(2),
+  .story-card:nth-child(4) { border-right: none; }
+}
+@media (max-width: 600px) {
+  .story-card.story-card { border-bottom: 1px solid var(--grid300); border-right: none; }
+  .story-card.story-card:last-of-type { border-bottom: none; }
+}
+.story-card:hover {
+  background-color: transparent;
+  box-shadow: theme('boxShadow.story-hover');
+}
+
+.story-card__top {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  transition: transform var(--animation-duration) var(--animation-easing);
+}
+.story-card__top > img { margin-bottom: 10px; }
+.story-card:hover .story-card__top { transform: translateY(-2px); }
+
+.story-card__bottom {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  opacity: 0.4;
+}
+.story-card__bottom span {
+  font-family: theme('fontFamily.plex-mono');
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 11px;
+  text-transform: uppercase;
+  color: var(--fontColorMUTED);
+  opacity: 0;
+  transition: opacity var(--animation-duration) var(--animation-easing);
+}
+.story-card:hover .story-card__bottom,
+.story-card:hover .story-card__bottom span { opacity: 1; }
+
+/* G2 card link + CustomerQuoteCard rail/author rules moved to src/components/shared/cards.css (G2Card / QuoteCard). */

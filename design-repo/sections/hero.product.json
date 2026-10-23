@@ -1,0 +1,221 @@
+{
+  "id": "hero.product",
+  "category": "hero",
+  "purpose": "Product/capability hero: optional announcement pill, gradient H1 (+ italic line), lead and CTAs beside a product visual.",
+  "variants": [
+    "illustration",
+    "terminal",
+    "video",
+    "prompt",
+    "voronoi"
+  ],
+  "content": {
+    "announcement": {
+      "kind": "object",
+      "required": false,
+      "fields": {
+        "label": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 4,
+          "observedWords": [
+            2,
+            3
+          ],
+          "measuredFrom": [
+            "specs/product.md:134"
+          ]
+        },
+        "text": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 5,
+          "observedWords": [
+            3,
+            4
+          ],
+          "measuredFrom": [
+            "specs/product.md:134"
+          ]
+        },
+        "href": {
+          "kind": "href",
+          "required": true
+        },
+        "external": {
+          "kind": "boolean",
+          "required": false,
+          "measuredFrom": [
+            "specs/product.md:134"
+          ]
+        }
+      }
+    },
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 10,
+      "observedWords": [
+        6,
+        2,
+        8
+      ],
+      "measuredFrom": [
+        "specs/product.md:303",
+        "specs/product.md:355",
+        "specs/product.md:541"
+      ]
+    },
+    "italicLine": {
+      "kind": "text",
+      "required": false,
+      "maxWords": 3,
+      "observedWords": [
+        2,
+        2
+      ],
+      "measuredFrom": [
+        "specs/product.md:245",
+        "specs/product.md:303"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 27,
+      "observedWords": [
+        20,
+        19,
+        21
+      ],
+      "measuredFrom": [
+        "specs/product.md:246",
+        "specs/product.md:356",
+        "specs/product.md:421"
+      ]
+    },
+    "actions": {
+      "kind": "list",
+      "required": true,
+      "minItems": 0,
+      "maxItems": 2,
+      "measuredFrom": [
+        "specs/product.md:357",
+        "specs/product.md:305"
+      ],
+      "item": {
+        "kind": "action",
+        "required": true,
+        "label": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 10,
+          "observedWords": [
+            4,
+            3,
+            4,
+            8
+          ],
+          "measuredFrom": [
+            "CLONE_SPEC.md:208",
+            "specs/product.md:258",
+            "specs/solutions.md:291"
+          ]
+        },
+        "variants": [
+          "primary",
+          "secondary"
+        ],
+        "sizes": [
+          "lg",
+          "md"
+        ]
+      }
+    },
+    "visual": {
+      "kind": "media",
+      "required": false,
+      "roles": [
+        "illustration.decorative",
+        "image.product-ui",
+        "video.loop",
+        "canvas.runtime"
+      ],
+      "alt": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 18,
+        "observedWords": [
+          14,
+          14
+        ],
+        "measuredFrom": [
+          "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+          "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+        ]
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-on-mount",
+      "typing-prompt"
+    ],
+    "default": "reveal-on-mount"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.laptop}",
+      "change": "stack-columns",
+      "detail": "text column above the visual",
+      "measuredFrom": [
+        "specs/product.md:300"
+      ]
+    },
+    {
+      "atOrBelow": "{breakpoint.phone}",
+      "change": "resize-type",
+      "detail": "H1 to heading-1 phone scale; spans inline",
+      "measuredFrom": [
+        "specs/product.md:248"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/product.md:241",
+    "specs/product.md:298",
+    "specs/product.md:349",
+    "specs/product.md:416",
+    "specs/product.md:453",
+    "specs/product.md:499"
+  ],
+  "notes": "variant 'prompt' uses a runtime canvas that is a redrawn approximation, not the original (see asset role canvas.runtime).",
+  "wordBudgets": {
+    "actions[].label": 10,
+    "announcement.label": 4,
+    "announcement.text": 5,
+    "description": 27,
+    "headline": 10,
+    "italicLine": 3,
+    "visual.alt": 18
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "canvas.runtime",
+    "illustration.decorative",
+    "image.product-ui",
+    "video.loop"
+  ],
+  "usedByTemplates": [
+    "template.product-feature"
+  ],
+  "observedThemes": [
+    "dark",
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__hero.product",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

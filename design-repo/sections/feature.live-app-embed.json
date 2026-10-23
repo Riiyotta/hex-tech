@@ -1,0 +1,139 @@
+{
+  "id": "feature.live-app-embed",
+  "category": "feature",
+  "purpose": "Centred H2 + text with inline link over tabbed external app embeds in a 16:9 white frame with an 'Explore this app' overlay link.",
+  "variants": [],
+  "content": {
+    "title": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 7,
+      "observedWords": [
+        5
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:306"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 15,
+      "observedWords": [
+        11,
+        12
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:418",
+        "specs/solutions.md:485"
+      ]
+    },
+    "tabs": {
+      "kind": "list",
+      "required": true,
+      "minItems": 2,
+      "maxItems": 2,
+      "measuredFrom": [
+        "specs/solutions.md:309"
+      ],
+      "item": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 7,
+        "observedWords": [
+          5
+        ],
+        "measuredFrom": [
+          "specs/solutions.md:309"
+        ]
+      }
+    },
+    "embeds": {
+      "kind": "list",
+      "required": true,
+      "minItems": 2,
+      "maxItems": 2,
+      "measuredFrom": [
+        "specs/solutions.md:310"
+      ],
+      "item": {
+        "kind": "media",
+        "required": true,
+        "roles": [
+          "embed.external"
+        ],
+        "alt": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 18,
+          "observedWords": [
+            14,
+            14
+          ],
+          "measuredFrom": [
+            "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+            "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+          ]
+        }
+      }
+    },
+    "overlayLabel": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 4,
+      "observedWords": [
+        3
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:311"
+      ]
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.phone}",
+      "change": "hide-element",
+      "detail": "tabs hidden; frame 16:12",
+      "measuredFrom": [
+        "specs/solutions.md:309"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/solutions.md:305"
+  ],
+  "behavior": {
+    "embeds": "external iframes; may render blank",
+    "measuredFrom": [
+      "specs/solutions.md:312"
+    ]
+  },
+  "wordBudgets": {
+    "description": 15,
+    "embeds[].alt": 18,
+    "overlayLabel": 4,
+    "tabs[]": 7,
+    "title": 7
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "embed.external"
+  ],
+  "usedByTemplates": [
+    "template.solution-detail"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__feature.live-app-embed",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

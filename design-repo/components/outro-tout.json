@@ -1,0 +1,33 @@
+{
+  "id": "component.outro-tout",
+  "purpose": "Tron divider + accented outline card with H2, text and lg buttons; band variant.",
+  "composes": [
+    "primitive.tron-divider",
+    "component.outline-card",
+    "primitive.button",
+    "primitive.reveal"
+  ],
+  "props": {
+    "variant": {
+      "type": "enum",
+      "measuredFrom": [
+        "src/components/shared/OutroTout.jsx:19"
+      ],
+      "enum": [
+        "default",
+        "band"
+      ]
+    }
+  },
+  "tokens": [
+    "component.outline-card.max-width",
+    "typography.scale.heading-2",
+    "typography.scale.lead-l"
+  ],
+  "measuredFrom": [
+    "specs/product.md:156",
+    "src/components/shared/OutroTout.jsx:19"
+  ],
+  "layer": "component",
+  "provisional": true
+}

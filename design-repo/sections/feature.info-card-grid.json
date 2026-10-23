@@ -1,0 +1,182 @@
+{
+  "id": "feature.info-card-grid",
+  "category": "feature",
+  "purpose": "Grid of 2-3 glass cards: copy (optional eyebrow, H3, text, optional CTA) on top, screenshot bottom-aligned.",
+  "variants": [
+    "default",
+    "eyebrowed"
+  ],
+  "content": {
+    "heading": {
+      "kind": "object",
+      "required": false,
+      "fields": {
+        "title": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 5,
+          "observedWords": [
+            4
+          ],
+          "measuredFrom": [
+            "specs/product.md:378"
+          ]
+        },
+        "description": {
+          "kind": "text",
+          "required": false,
+          "maxWords": 23,
+          "observedWords": [
+            18
+          ],
+          "measuredFrom": [
+            "specs/product.md:378"
+          ]
+        }
+      }
+    },
+    "cards": {
+      "kind": "list",
+      "required": true,
+      "minItems": 2,
+      "maxItems": 3,
+      "measuredFrom": [
+        "specs/product.md:177"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "eyebrow": {
+            "kind": "text",
+            "required": false,
+            "maxWords": 2,
+            "observedWords": [
+              1
+            ],
+            "measuredFrom": [
+              "specs/product.md:491"
+            ]
+          },
+          "title": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 7,
+            "observedWords": [
+              5
+            ],
+            "measuredFrom": [
+              "specs/product.md:315"
+            ]
+          },
+          "description": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 23,
+            "observedWords": [
+              18
+            ],
+            "measuredFrom": [
+              "specs/product.md:314"
+            ]
+          },
+          "action": {
+            "kind": "action",
+            "required": false,
+            "label": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 10,
+              "observedWords": [
+                4,
+                3,
+                4,
+                8
+              ],
+              "measuredFrom": [
+                "CLONE_SPEC.md:208",
+                "specs/product.md:258",
+                "specs/solutions.md:291"
+              ]
+            },
+            "variants": [
+              "secondary"
+            ],
+            "sizes": [
+              "md"
+            ]
+          },
+          "image": {
+            "kind": "media",
+            "required": true,
+            "roles": [
+              "image.product-screenshot"
+            ],
+            "alt": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 18,
+              "observedWords": [
+                14,
+                14
+              ],
+              "measuredFrom": [
+                "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+                "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.tablet}",
+      "change": "reposition",
+      "detail": "card becomes a row",
+      "measuredFrom": [
+        "specs/product.md:178"
+      ]
+    },
+    {
+      "atOrBelow": "{breakpoint.phone-sm}",
+      "change": "stack-columns",
+      "detail": "column again",
+      "measuredFrom": [
+        "specs/product.md:178"
+      ]
+    }
+  ],
+  "constraints": {},
+  "measuredFrom": [
+    "specs/product.md:176"
+  ],
+  "wordBudgets": {
+    "cards[].action.label": 10,
+    "cards[].description": 23,
+    "cards[].eyebrow": 2,
+    "cards[].image.alt": 18,
+    "cards[].title": 7,
+    "heading.description": 23,
+    "heading.title": 5
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "image.product-screenshot"
+  ],
+  "usedByTemplates": [
+    "template.product-feature"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__feature.info-card-grid",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

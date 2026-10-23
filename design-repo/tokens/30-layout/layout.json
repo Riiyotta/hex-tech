@@ -1,0 +1,111 @@
+{
+  "layout": {
+    "grid-template": {
+      "$type": "dimension",
+      "$value": "1fr repeat(12, calc(min(96%, 1840px)/12)) 1fr",
+      "measuredFrom": [
+        "CLONE_SPEC.md:32"
+      ]
+    },
+    "content-max": {
+      "$type": "dimension",
+      "$value": "1840px",
+      "measuredFrom": [
+        "tailwind.config.cjs:249"
+      ]
+    },
+    "section-max": {
+      "$type": "dimension",
+      "$value": "1240px",
+      "measuredFrom": [
+        "src/index.css:312"
+      ]
+    },
+    "section-gutter": {
+      "$type": "dimension",
+      "$value": "40px",
+      "measuredFrom": [
+        "src/index.css:313"
+      ]
+    },
+    "section-padding-block": {
+      "$type": "dimension",
+      "$value": "60px",
+      "measuredFrom": [
+        "src/index.css:314"
+      ]
+    },
+    "section-row-gap": {
+      "$type": "dimension",
+      "$value": "60px",
+      "measuredFrom": [
+        "src/index.css:315"
+      ]
+    },
+    "section-column-gap": {
+      "$type": "dimension",
+      "$value": "80px",
+      "measuredFrom": [
+        "src/index.css:316"
+      ]
+    },
+    "copy-max": {
+      "$type": "dimension",
+      "$value": "425px",
+      "measuredFrom": [
+        "tailwind.config.cjs:245"
+      ]
+    },
+    "hero-max": {
+      "$type": "dimension",
+      "$value": "1080px",
+      "measuredFrom": [
+        "tailwind.config.cjs:244"
+      ]
+    },
+    "hero-sub-max": {
+      "$type": "dimension",
+      "$value": "580px",
+      "measuredFrom": [
+        "tailwind.config.cjs:247"
+      ]
+    },
+    "v1-padding-top": {
+      "$type": "dimension",
+      "$value": "200px",
+      "measuredFrom": [
+        "specs/product.md:97"
+      ]
+    },
+    "v1-grid-rule-columns": {
+      "$type": "dimension",
+      "$value": "4, 7, 10",
+      "measuredFrom": [
+        "specs/solutions.md:65"
+      ]
+    },
+    "v1-grid-rule-hide-below": {
+      "$type": "dimension",
+      "$value": "450px",
+      "measuredFrom": [
+        "specs/solutions.md:65",
+        "specs/SHARED_BUILT.md:146"
+      ],
+      "note": "Live CSS (@media max-width:450px) wins over specs/product.md 'hidden <=800px' prose"
+    },
+    "bottom-grid-row": {
+      "$type": "dimension",
+      "$value": "2rem",
+      "measuredFrom": [
+        "CLONE_SPEC.md:38"
+      ]
+    },
+    "report-shell-padding": {
+      "$type": "dimension",
+      "$value": "80px",
+      "measuredFrom": [
+        "specs/company.md:349"
+      ]
+    }
+  }
+}

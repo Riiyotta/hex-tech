@@ -1,0 +1,162 @@
+{
+  "id": "feature.highlights",
+  "category": "feature",
+  "purpose": "Three-column tout: centred italic+display H2, lead and CTA flanked by two icon highlights with inline links.",
+  "variants": [],
+  "content": {
+    "italicLine": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 5,
+      "observedWords": [
+        4
+      ],
+      "measuredFrom": [
+        "specs/company.md:197"
+      ]
+    },
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 4,
+      "observedWords": [
+        3
+      ],
+      "measuredFrom": [
+        "specs/company.md:197"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 28,
+      "observedWords": [
+        22
+      ],
+      "measuredFrom": [
+        "specs/company.md:197"
+      ]
+    },
+    "action": {
+      "kind": "action",
+      "required": true,
+      "label": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 4,
+        "observedWords": [
+          3
+        ],
+        "measuredFrom": [
+          "specs/company.md:197"
+        ]
+      },
+      "variants": [
+        "primary"
+      ],
+      "sizes": [
+        "lg"
+      ]
+    },
+    "highlights": {
+      "kind": "list",
+      "required": true,
+      "minItems": 2,
+      "maxItems": 2,
+      "measuredFrom": [
+        "specs/company.md:194"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "title": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 12,
+            "observedWords": [
+              9
+            ],
+            "measuredFrom": [
+              "specs/company.md:196"
+            ]
+          },
+          "description": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 25,
+            "observedWords": [
+              20
+            ],
+            "measuredFrom": [
+              "specs/company.md:196"
+            ]
+          },
+          "icon": {
+            "kind": "media",
+            "required": true,
+            "roles": [
+              "icon.ui"
+            ],
+            "alt": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 18,
+              "observedWords": [
+                14,
+                14
+              ],
+              "measuredFrom": [
+                "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+                "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "stack-columns",
+      "detail": "centre first, then the two highlights",
+      "measuredFrom": [
+        "specs/company.md:198"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/company.md:193"
+  ],
+  "wordBudgets": {
+    "action.label": 4,
+    "description": 28,
+    "headline": 4,
+    "highlights[].description": 25,
+    "highlights[].icon.alt": 18,
+    "highlights[].title": 12,
+    "italicLine": 5
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "icon.ui"
+  ],
+  "usedByTemplates": [
+    "template.careers"
+  ],
+  "observedThemes": [
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__feature.highlights",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

@@ -1,0 +1,127 @@
+{
+  "id": "conversion.cta-split",
+  "category": "conversion",
+  "purpose": "Gradient title + two-column tick checklist beside the bordered outline CTA card.",
+  "variants": [],
+  "content": {
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 8,
+      "observedWords": [
+        6
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:641"
+      ]
+    },
+    "checklist": {
+      "kind": "list",
+      "required": true,
+      "minItems": 5,
+      "maxItems": 5,
+      "measuredFrom": [
+        "specs/solutions.md:681"
+      ],
+      "item": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 5,
+        "observedWords": [
+          4
+        ],
+        "measuredFrom": [
+          "specs/solutions.md:681"
+        ]
+      }
+    },
+    "card": {
+      "kind": "object",
+      "required": true,
+      "fields": {
+        "title": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 5,
+          "observedWords": [
+            4
+          ],
+          "measuredFrom": [
+            "specs/solutions.md:682"
+          ]
+        },
+        "description": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 15,
+          "observedWords": [
+            12
+          ],
+          "measuredFrom": [
+            "specs/solutions.md:682"
+          ]
+        },
+        "action": {
+          "kind": "action",
+          "required": true,
+          "label": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 3,
+            "observedWords": [
+              2
+            ],
+            "measuredFrom": [
+              "specs/solutions.md:682"
+            ]
+          },
+          "variants": [
+            "primary"
+          ],
+          "sizes": [
+            "lg"
+          ]
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.tablet}",
+      "change": "stack-columns",
+      "detail": "card below checklist",
+      "measuredFrom": [
+        "specs/solutions.md:680"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/solutions.md:679"
+  ],
+  "wordBudgets": {
+    "card.action.label": 3,
+    "card.description": 15,
+    "card.title": 5,
+    "checklist[]": 5,
+    "headline": 8
+  },
+  "richTextBudgets": {},
+  "assetRoles": [],
+  "usedByTemplates": [
+    "template.enterprise"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__conversion.cta-split",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

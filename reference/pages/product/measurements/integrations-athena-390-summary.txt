@@ -1,0 +1,25 @@
+# integrations-athena @390 — doc height 5710 (1440: 3837)
+
+## Sections (matched by component class from the 1440 section list)
+- 0 Banner__ @1440 [245,200,950,470] → @390 [150, 144, 90, 20]  | H1:AWS Data, meet Hex
+- 1 RunningText__ @1440 [29,750,1382,2401] → @390 [48, 943, 294, 600] (+2 more)  | H2:How it works / H2:AWS connections
+
+## Text roles @390 (H1–H4, lead/body P, buttons): tag [x,y,w,h] «text» font/size/lh
+- H1 [48, 309, 294, 99] «AWS Data, meet Hex» fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px; margin:0px 0px 20px; textAlign:center
+- P [48, 427, 294, 210] «Connect to Athena, Redshift, RDS, S3, and ECR from» fontSize:20px; fontWeight:300; lineHeight:30px; margin:0px 0px 25px; textAlign:center
+- H2 [48, 884, 294, 39] «How it works» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px; margin:0px 0px 20px
+- P [48, 943, 294, 352] «A Hex admin configures your AWS connections once, » fontSize:18px; lineHeight:32px; margin:0px 0px 24px
+- P [48, 1319, 294, 224] «When you need to go deeper than SQL, switch to Pyt» fontSize:18px; lineHeight:32px
+- H2 [48, 2071, 294, 36] «AWS connections» fontFamily:"PP Formula"; fontSize:28px; fontWeight:800; lineHeight:36.4px; letterSpacing:-0.7px; margin:0px 0px 24px
+- H3 [48, 2131, 294, 41] «Athena» fontFamily:"PP Formula"; fontSize:20px; fontWeight:800; lineHeight:26px; letterSpacing:-0.5px; padding:15px 0px 0px; margin:0px 0px 24px
+- P [48, 2196, 294, 160] «Query data stored in S3 using SQL. Athena is a goo» fontSize:18px; lineHeight:32px; margin:0px 0px 24px
+- H3 [48, 2436, 294, 41] «Redshift» fontFamily:"PP Formula"; fontSize:20px; fontWeight:800; lineHeight:26px; letterSpacing:-0.5px; padding:15px 0px 0px; margin:0px 0px 24px
+- P [48, 2501, 294, 224] «A columnar data warehouse built for complex analyt» fontSize:18px; lineHeight:32px; margin:0px 0px 24px
+- H3 [48, 2805, 294, 41] «RDS» fontFamily:"PP Formula"; fontSize:20px; fontWeight:800; lineHeight:26px; letterSpacing:-0.5px; padding:15px 0px 0px; margin:0px 0px 24px
+- P [48, 2870, 294, 224] «Connect to MySQL, PostgreSQL, or other relational » fontSize:18px; lineHeight:32px; margin:0px 0px 24px
+- H3 [48, 3174, 294, 41] «S3» fontFamily:"PP Formula"; fontSize:20px; fontWeight:800; lineHeight:26px; letterSpacing:-0.5px; padding:15px 0px 0px; margin:0px 0px 24px
+- P [48, 3239, 294, 160] «Import flat files from your S3 buckets directly in» fontSize:18px; lineHeight:32px; margin:0px 0px 24px
+- H3 [48, 3479, 294, 41] «ECR» fontFamily:"PP Formula"; fontSize:20px; fontWeight:800; lineHeight:26px; letterSpacing:-0.5px; padding:15px 0px 0px; margin:0px 0px 24px
+- P [48, 3544, 294, 192] «Register custom Docker images with Hex using Amazo» fontSize:18px; lineHeight:32px; margin:0px 0px 24px
+- H2 [48, 3832, 294, 109] «IAM role support across every AWS connection» fontFamily:"PP Formula"; fontSize:28px; fontWeight:800; lineHeight:36.4px; letterSpacing:-0.7px; margin:0px 0px 24px
+- P [48, 3966, 294, 320] «Hex now supports IAM roles as an authentication me» fontSize:18px; lineHeight:32px

@@ -1,0 +1,167 @@
+{
+  "id": "collection.guides",
+  "category": "collection",
+  "purpose": "Three-column grid of dark guide cards (image, H4, 'Download now').",
+  "variants": [],
+  "content": {
+    "cards": {
+      "kind": "list",
+      "required": true,
+      "minItems": 20,
+      "maxItems": 20,
+      "measuredFrom": [
+        "specs/company.md:2919",
+        "reference/pages/company/measurements/resources_guides@1440.tree.txt"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "title": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 18,
+            "observedWords": [
+              8,
+              9,
+              10,
+              9,
+              14,
+              6,
+              7,
+              5,
+              11,
+              6,
+              5,
+              8,
+              9,
+              12,
+              9,
+              7,
+              6,
+              8,
+              9,
+              10
+            ],
+            "measuredFrom": [
+              "specs/company.md:2921",
+              "specs/company.md:2927",
+              "specs/company.md:2933",
+              "specs/company.md:2939",
+              "specs/company.md:2945",
+              "specs/company.md:2951",
+              "specs/company.md:2957",
+              "specs/company.md:2963",
+              "specs/company.md:2969",
+              "specs/company.md:2975",
+              "specs/company.md:2981",
+              "specs/company.md:2987",
+              "specs/company.md:2993",
+              "specs/company.md:2999",
+              "specs/company.md:3005",
+              "specs/company.md:3011",
+              "specs/company.md:3017",
+              "specs/company.md:3023",
+              "specs/company.md:3029",
+              "specs/company.md:3035"
+            ]
+          },
+          "cta": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 3,
+            "observedWords": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "measuredFrom": [
+              "specs/company.md:125"
+            ]
+          },
+          "href": {
+            "kind": "href",
+            "required": true
+          },
+          "image": {
+            "kind": "media",
+            "required": true,
+            "roles": [
+              "image.editorial-thumbnail"
+            ],
+            "alt": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 18,
+              "observedWords": [
+                14,
+                14
+              ],
+              "measuredFrom": [
+                "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+                "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.tablet}",
+      "change": "reduce-columns",
+      "detail": "2 then 1 column",
+      "measuredFrom": [
+        "specs/company.md:318"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/company.md:317"
+  ],
+  "notes": "Card count is 20 (live DOM / measured tree / clone data). specs/company.md says 21: corrected.",
+  "wordBudgets": {
+    "cards[].cta": 3,
+    "cards[].image.alt": 18,
+    "cards[].title": 18
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "image.editorial-thumbnail"
+  ],
+  "usedByTemplates": [
+    "template.v1-resource-index"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__collection.guides",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

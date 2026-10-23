@@ -1,0 +1,159 @@
+{
+  "id": "feature.numbered-grid",
+  "category": "feature",
+  "purpose": "Gradient H1-scale title, 2-column numbered feature grid with a CTA, beside a staggered column of compliance badge boxes.",
+  "variants": [],
+  "content": {
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 8,
+      "observedWords": [
+        6
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:662"
+      ]
+    },
+    "items": {
+      "kind": "list",
+      "required": true,
+      "minItems": 3,
+      "maxItems": 3,
+      "measuredFrom": [
+        "specs/solutions.md:662"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "number": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 2,
+            "observedWords": [
+              1
+            ],
+            "measuredFrom": [
+              "specs/solutions.md:664"
+            ]
+          },
+          "title": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 4,
+            "observedWords": [
+              3
+            ],
+            "measuredFrom": [
+              "specs/solutions.md:664"
+            ]
+          },
+          "description": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 10,
+            "observedWords": [
+              8
+            ],
+            "measuredFrom": [
+              "specs/solutions.md:664"
+            ]
+          }
+        }
+      }
+    },
+    "action": {
+      "kind": "action",
+      "required": true,
+      "label": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 5,
+        "observedWords": [
+          4
+        ],
+        "measuredFrom": [
+          "specs/solutions.md:665"
+        ]
+      },
+      "variants": [
+        "secondary"
+      ],
+      "sizes": [
+        "md"
+      ]
+    },
+    "badges": {
+      "kind": "list",
+      "required": true,
+      "minItems": 3,
+      "maxItems": 3,
+      "measuredFrom": [
+        "specs/solutions.md:666"
+      ],
+      "item": {
+        "kind": "media",
+        "required": true,
+        "roles": [
+          "logo.certification"
+        ],
+        "alt": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 18,
+          "observedWords": [
+            14,
+            14
+          ],
+          "measuredFrom": [
+            "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+            "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+          ]
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "reposition",
+      "detail": "badges become a row between title and grid",
+      "measuredFrom": [
+        "specs/solutions.md:667"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/solutions.md:660"
+  ],
+  "wordBudgets": {
+    "action.label": 5,
+    "badges[].alt": 18,
+    "headline": 8,
+    "items[].description": 10,
+    "items[].number": 2,
+    "items[].title": 4
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "logo.certification"
+  ],
+  "usedByTemplates": [
+    "template.enterprise"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__feature.numbered-grid",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

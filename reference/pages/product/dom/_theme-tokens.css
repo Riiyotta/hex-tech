@@ -1,0 +1,346 @@
+/* hex.tech theme token blocks, serialized from document.styleSheets on /product/cli/ (dark) and /product/bi/ (light). Every product page except /product/bi/ renders inside [data-theme="dark"] on the PageWrapper (LayoutGrid) element. */
+
+:root { --colorVars-gray: #f8fafb;
+  --colorVars-black: #01011b;
+  --colorVars-white: #fff;
+  --colorVars-purple: #473982;
+  --colorVars-lightPurple: #ad8eb6;
+  --colorVars-lightPink: #f5c0c0;
+  --colorVars-lightGreen: #43d59d;
+  --colorVars-lightBlue: #8abbff;
+  --colorVars-darkGreen: #1c866b;
+  --colorVars-darkBlue: #215db0;
+  --colorVars-obsidian: #14141c;
+  --colorVars-violetTopaz: #5f509d;
+  --colorVars-lightVioletTopaz: #eae8f0;
+  --colorVars-lightestVioletTopaz: #faf7ff;
+  --paletteBase-black: #01011b;
+  --paletteBase-white: #fff;
+  --paletteBase-obsidian: #14141c;
+  --paletteBase-roseQuartz: #f5c0c0;
+  --paletteBase-amethyst: #a477b2;
+  --paletteBase-minsk: #473982;
+  --paletteBase-eggplant: #31263b;
+  --paletteBase-jade: #5cb198;
+  --paletteBase-citrine: #cda849;
+  --paletteBase-opal: #fbf9f9;
+  --paletteBase-violetTopaz: #5f509d;
+  --paletteBase-cement: #717a94;
+  --appUI-borderColor-default: #3f4257;
+  --appUI-borderColor-muted: #2a2a38;
+  --appUI-outlinedBorderColor-default: #f5c0c04d;
+  --appUI-outlinedBorderColor-muted: #f5c0c026;
+  --appUI-fontColor-default: #e4e6ec;
+  --appUI-fontColor-muted: #b1b6c4;
+  --appUI-backgroundColor-default: #1f1f29;
+  --appUI-backgroundColor-muted: #191922;
+  --appUI-primaryColor: #f5c0c0;
+  --appUI-intent-danger: #e54d62;
+  --appUI-intent-success: #2ba88a;
+  --appUI-intent-warning: #d4a032;
+  --appUI-intent-primary: #f5c0c0;
+  --magicColors-backgroundGradient: linear-gradient(90deg, #6646a81a 0%, #9757ab12 100%);
+  --magicColors-primaryColor: #f5c0c0;
+  --magicColors-secondaryColor: #f5c0c0;
+  --magicColors-tertiaryColor: #f5c0c0;
+  --magicColors-removingColor: #e85a69;
+  }
+
+[data-theme="dark"] { --appUI-borderColor-default: #3f4257;
+  --appUI-borderColor-muted: #2a2a38;
+  --appUI-outlinedBorderColor-default: #f5c0c04d;
+  --appUI-outlinedBorderColor-muted: #f5c0c026;
+  --appUI-fontColor-default: #e4e6ec;
+  --appUI-fontColor-muted: #b1b6c4;
+  --appUI-backgroundColor-default: #1f1f29;
+  --appUI-backgroundColor-muted: #191922;
+  --appUI-primaryColor: #f5c0c0;
+  --appUI-intent-danger: #e54d62;
+  --appUI-intent-success: #2ba88a;
+  --appUI-intent-warning: #d4a032;
+  --appUI-intent-primary: #f5c0c0;
+  --magicColors-backgroundGradient: linear-gradient(90deg, #6646a81a 0%, #9757ab12 100%);
+  --magicColors-primaryColor: #f5c0c0;
+  --magicColors-secondaryColor: #f5c0c0;
+  --magicColors-tertiaryColor: #f5c0c0;
+  --magicColors-removingColor: #e85a69;
+  }
+
+[data-theme="light"] { --appUI-borderColor-default: #dadde6;
+  --appUI-borderColor-muted: #ecedf2;
+  --appUI-outlinedBorderColor-default: #f5c0c066;
+  --appUI-outlinedBorderColor-muted: #f5c0c033;
+  --appUI-fontColor-default: #01011b;
+  --appUI-fontColor-muted: #717a94;
+  --appUI-backgroundColor-muted: #f8fafb;
+  --appUI-backgroundColor-default: #fff;
+  --appUI-primaryColor: #254685;
+  --appUI-intent-danger: #b63245;
+  --appUI-intent-success: #0f6b5b;
+  --appUI-intent-warning: #a67908;
+  --appUI-intent-primary: #473982;
+  --magicColors-backgroundGradient: linear-gradient(90deg, #6646a80c 0%, #9757ab06 100%);
+  --magicColors-primaryColor: #f5c0c0;
+  --magicColors-secondaryColor: #f5c0c0;
+  --magicColors-tertiaryColor: #f5c0c0;
+  --magicColors-removingColor: #c84654;
+  }
+
+[data-theme="dark"] .hlFGHr [data-color="primary"] { color: rgb(255, 255, 255);
+  }
+
+[data-theme="dark"] .hlFGHr [data-color="secondary"] { color: rgb(245, 192, 192);
+  }
+
+[data-theme="dark"] .hlFGHr [data-color="highlight"] { color: rgb(92, 177, 152);
+  }
+
+[data-theme="light"] .hlFGHr [data-color="primary"] { color: rgb(245, 192, 192);
+  }
+
+[data-theme="light"] .hlFGHr [data-color="secondary"] { color: rgb(49, 38, 59);
+  }
+
+[data-theme="light"] .hlFGHr [data-color="highlight"] { color: rgb(92, 177, 152);
+  }
+
+:root { --black: #01011b;
+  --white: #ffffff;
+  --obsidian: #14141C;
+  --roseQuartz: #F5C0C0;
+  --amethyst: #A477B2;
+  --minsk: #473982;
+  --eggplant: #31263B;
+  --jade: #5CB198;
+  --citrine: #CDA849;
+  --opal: #FBF9F9;
+  --violetTopaz: #5F509D;
+  --cement: #717A94;
+  --fg100: #14141C;
+  --fg200: #191820;
+  --fg300: #201d25;
+  --fg400: #252128;
+  --fg500: #2b252c;
+  --fg600: #312a31;
+  --fg700: #3a3138;
+  --fg800: #4c3e44;
+  --fg900: #6a565b;
+  --fg1000: #786065;
+  --fg1100: #99797d;
+  --fg1200: #e3b2b3;
+  --fgA100: rgba(245,192,192,0);
+  --fgA200: rgba(245,192,192,0.026);
+  --fgA300: rgba(245,192,192,0.056);
+  --fgA400: rgba(245,192,192,0.077);
+  --fgA500: rgba(245,192,192,0.103);
+  --fgA600: rgba(245,192,192,0.129);
+  --fgA700: rgba(245,192,192,0.172);
+  --fgA800: rgba(245,192,192,0.249);
+  --fgA900: rgba(245,192,192,0.386);
+  --fgA1000: rgba(245,192,192,0.446);
+  --fgA1100: rgba(245,192,192,0.592);
+  --fgA1200: rgba(245,192,192,0.923);
+  --grid200: #252128;
+  --grid300: #2b252c;
+  --grid400: #312a31;
+  --grid500: #3a3138;
+  --grid600: #4c3e44;
+  --grid700: #6a565b;
+  --grid1200: #e3b2b3;
+  --bg300: #0f0f15;
+  --bg400: #111118;
+  --bg500: #14141c;
+  --fgLoud: #ffffff;
+  --highlightColor: #F5C0C0;
+  --fontColorDEFAULT: #F5C0C0;
+  --fontColorMUTED: #99797d;
+  --fontColorLOUD: #ffffff;
+  --texture-paper-img: url('/images/bkg-noise.webp');
+  --texture-paper-size: 200px 200px;
+  --texture-paper-mixBlendMode: normal;
+  --texture-paper-opacity: 0.0625;
+  --texture-hatch-img: repeating-linear-gradient(
+    45deg,
+    transparent 0,
+    transparent calc(var(--hatch-size, 6px) - 1px),
+    var(--hatch-color, var(--bg500)) calc(var(--hatch-size, 6px) - 1px),
+    var(--hatch-color, var(--bg500)) var(--hatch-size, 6px)
+  );
+  --borderColorMUTED: var(--grid300);
+  --borderColorDEFAULT: var(--grid500);
+  --borderColorSTRONG: var(--grid700);
+  }
+
+[data-theme="light"] { --black: #01011b;
+  --white: #ffffff;
+  --obsidian: #14141C;
+  --roseQuartz: #F5C0C0;
+  --amethyst: #A477B2;
+  --minsk: #473982;
+  --eggplant: #31263B;
+  --jade: #5CB198;
+  --citrine: #CDA849;
+  --opal: #FBF9F9;
+  --violetTopaz: #5F509D;
+  --cement: #717A94;
+  --fg100: #FFFCFC;
+  --fg200: #f8f5f6;
+  --fg300: #f4f1f2;
+  --fg400: #f0edee;
+  --fg500: #ece8ea;
+  --fg600: #e8e4e6;
+  --fg700: #e2dee0;
+  --fg800: #d1ccd1;
+  --fg900: #a49da7;
+  --fg1000: #9c959f;
+  --fg1100: #89828d;
+  --fg1200: #43394c;
+  --fgA100: rgba(49,38,59,0);
+  --fgA200: rgba(49,38,59,0.03);
+  --fgA300: rgba(49,38,59,0.05);
+  --fgA400: rgba(49,38,59,0.07);
+  --fgA500: rgba(49,38,59,0.09);
+  --fgA600: rgba(49,38,59,0.11);
+  --fgA700: rgba(49,38,59,0.14);
+  --fgA800: rgba(49,38,59,0.22);
+  --fgA900: rgba(49,38,59,0.44);
+  --fgA1000: rgba(49,38,59,0.48);
+  --fgA1100: rgba(49,38,59,0.57);
+  --fgA1200: rgba(49,38,59,0.91);
+  --grid200: #efebed;
+  --grid300: #e9e5e8;
+  --grid400: #e4e0e3;
+  --grid500: #dbd7da;
+  --grid600: #cbc6cb;
+  --grid700: #afa9b1;
+  --grid1200: #403649;
+  --bg300: #fcf8f8;
+  --bg400: #f9f1f1;
+  --bg500: #ebcccc;
+  --fgLoud: #14141C;
+  --highlightColor: #31263B;
+  --fontColorDEFAULT: #31263B;
+  --fontColorMUTED: #89828d;
+  --fontColorLOUD: #14141C;
+  --texture-paper-img: url('/images/light-bkg-noise.webp');
+  --texture-paper-size: 256px 256px;
+  --texture-paper-mixBlendMode: normal;
+  --texture-paper-opacity: 0.06;
+  --texture-hatch-img: repeating-linear-gradient(
+    45deg,
+    transparent 0,
+    transparent calc(var(--hatch-size, 6px) - 1px),
+    var(--hatch-color, var(--bg500)) calc(var(--hatch-size, 6px) - 1px),
+    var(--hatch-color, var(--bg500)) var(--hatch-size, 6px)
+  );
+  --borderColorMUTED: var(--grid300);
+  --borderColorDEFAULT: var(--grid500);
+  --borderColorSTRONG: var(--grid700);
+  }
+
+[data-theme="dark"] { --black: #01011b;
+  --white: #ffffff;
+  --obsidian: #14141C;
+  --roseQuartz: #F5C0C0;
+  --amethyst: #A477B2;
+  --minsk: #473982;
+  --eggplant: #31263B;
+  --jade: #5CB198;
+  --citrine: #CDA849;
+  --opal: #FBF9F9;
+  --violetTopaz: #5F509D;
+  --cement: #717A94;
+  --fg100: #14141C;
+  --fg200: #191820;
+  --fg300: #201d25;
+  --fg400: #252128;
+  --fg500: #2b252c;
+  --fg600: #312a31;
+  --fg700: #3a3138;
+  --fg800: #4c3e44;
+  --fg900: #6a565b;
+  --fg1000: #786065;
+  --fg1100: #99797d;
+  --fg1200: #e3b2b3;
+  --fgA100: rgba(245,192,192,0);
+  --fgA200: rgba(245,192,192,0.026);
+  --fgA300: rgba(245,192,192,0.056);
+  --fgA400: rgba(245,192,192,0.077);
+  --fgA500: rgba(245,192,192,0.103);
+  --fgA600: rgba(245,192,192,0.129);
+  --fgA700: rgba(245,192,192,0.172);
+  --fgA800: rgba(245,192,192,0.249);
+  --fgA900: rgba(245,192,192,0.386);
+  --fgA1000: rgba(245,192,192,0.446);
+  --fgA1100: rgba(245,192,192,0.592);
+  --fgA1200: rgba(245,192,192,0.923);
+  --grid200: #252128;
+  --grid300: #2b252c;
+  --grid400: #312a31;
+  --grid500: #3a3138;
+  --grid600: #4c3e44;
+  --grid700: #6a565b;
+  --grid1200: #e3b2b3;
+  --bg300: #0f0f15;
+  --bg400: #111118;
+  --bg500: #14141c;
+  --fgLoud: #ffffff;
+  --highlightColor: #F5C0C0;
+  --fontColorDEFAULT: #F5C0C0;
+  --fontColorMUTED: #99797d;
+  --fontColorLOUD: #ffffff;
+  --texture-paper-img: url('/images/bkg-noise.webp');
+  --texture-paper-size: 200px 200px;
+  --texture-paper-mixBlendMode: normal;
+  --texture-paper-opacity: 0.0625;
+  --texture-hatch-img: repeating-linear-gradient(
+    45deg,
+    transparent 0,
+    transparent calc(var(--hatch-size, 6px) - 1px),
+    var(--hatch-color, var(--bg500)) calc(var(--hatch-size, 6px) - 1px),
+    var(--hatch-color, var(--bg500)) var(--hatch-size, 6px)
+  );
+  --borderColorMUTED: var(--grid300);
+  --borderColorDEFAULT: var(--grid500);
+  --borderColorSTRONG: var(--grid700);
+  }
+
+@layer application { :root { --app-focus-outline: 2px solid var(--fgA900, rgba(49,38,59,0.44));
+  --app-focus-outline-offset: 2px;
+  } }
+
+@layer utility { :root { --animation-duration: 0.25s;
+  --animation-easing: cubic-bezier(0.25, 0.1, 0.25, 1);
+  --spring-easing: linear(
+      0,
+      0.0007 0.36%,
+      0.0058 1.08%,
+      0.0217,
+      0.0454 3.23%,
+      0.086 4.66%,
+      0.1594 6.81%,
+      0.4654 15.05%,
+      0.5681 18.28%,
+      0.6468 21.15%,
+      0.7212,
+      0.782 27.6%,
+      0.8355,
+      0.8769 34.77%,
+      0.8968,
+      0.9137,
+      0.928 41.22%,
+      0.9419,
+      0.9531 46.24%,
+      0.9635 49.1%,
+      0.9786 55.2%,
+      0.9888 62.36%,
+      0.9949 70.97%,
+      0.9982 82.44%,
+      0.9997 100%
+    );
+  --spring-duration: 0.747s;
+  } }
+
+@layer application { :root { --app-focus-outline: 2px solid var(--fgA900, rgba(245,192,192,0.386));
+  --app-focus-outline-offset: 2px;
+  } }

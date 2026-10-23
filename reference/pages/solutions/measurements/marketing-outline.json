@@ -1,0 +1,377 @@
+{
+  "url": "/solutions/marketing/",
+  "docH": 8211,
+  "title": "Marketing Analytics for Campaign and Attribution | Hex",
+  "metaDesc": "Analyze campaign performance, attribution, and acquisition in Hex. Give your marketing team self-serve analytics on trusted data so decisions happen faster.",
+  "hidden": 0,
+  "secs": [
+    {
+      "c": "LayoutGrid__LayoutSubgrid",
+      "b": [
+        0,
+        0,
+        1440,
+        7624
+      ],
+      "dir": "",
+      "h": [],
+      "p": [],
+      "a": [],
+      "img": [],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": []
+    },
+    {
+      "c": "sharedStyles__Info",
+      "b": [
+        290,
+        200,
+        861,
+        376
+      ],
+      "dir": "",
+      "h": [
+        "H1:Grow pipeline with clarity"
+      ],
+      "p": [
+        "Turn scattered marketing data into clear growth opportunities"
+      ],
+      "a": [
+        "Request a demo -> https://hex.tech/request-a-demo/",
+        "Get started now -> https://app.hex.tech/signup?source=nav&_gl=1*1gb4jmm*_gcl_au*MTE3NTA3ODUwNS4xNzQwNTk1ODUz"
+      ],
+      "img": [],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": []
+    },
+    {
+      "c": "CustomerBanner.logos CustomerBanner.logosMinimal",
+      "b": [
+        220,
+        658,
+        1000,
+        50
+      ],
+      "dir": "",
+      "h": [],
+      "p": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "a": [],
+      "img": [
+        "SANITY/7bb676f30dbd80023b0c7af23e60ff630b4cdc4d-115x50.svg?auto=format 115x50 alt=Hex customer: Reddit",
+        "SANITY/6f211c674b14be69b85497264b1d654b138dce01-39x50.svg?auto=format 39x50 alt=Hex customer: Notion",
+        "SANITY/41a6cd8e000ffa2cf99de391f0104b2cbdd9072e-132x50.svg?auto=format 132x50 alt=Hex customer: Anthropic",
+        "SANITY/b2ffbeeff0804c87f45b94444476c7025fce5719-51x50.svg?auto=format 51x50 alt=Hex customer: SeatGeek",
+        "SANITY/8ec37f2330ffd132be12ea66bad243453af0d047-119x50.svg?auto=format 119x50 alt=Hex customer: ClickUp",
+        "SANITY/22fd2415f0d3f16dc2c3d9d7853147757c60e708-151x50.svg?auto=format 151x50 alt=Hex customer: AllTrails"
+      ],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": []
+    },
+    {
+      "c": "sharedStyles__FeatureWrapper",
+      "b": [
+        157,
+        786,
+        1126,
+        513
+      ],
+      "dir": "",
+      "h": [
+        "H2:When’s the last time you asked which attribution model is right?"
+      ],
+      "p": [
+        "When we are all working from the same context, the analysis doesn't drift.",
+        "Endorse your attribution model once in Hex, and every agent conversation, dashboard, and app pulls from that same definition."
+      ],
+      "a": [],
+      "img": [
+        "SANITY/4f32b2ab55d90ee060e86af37ebbdbbc5154ada2-1569x1200.png?w=1200&w=640&q=75 600x458 alt=When’s the last time you asked which attribution model is ri"
+      ],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": []
+    },
+    {
+      "c": "sharedStyles__Quote",
+      "b": [
+        136,
+        1478,
+        1168,
+        196
+      ],
+      "dir": "",
+      "h": [],
+      "p": [
+        "We built a self-serve data app in Hex that lets sales and marketing teams manage healthcare data mappings without SQL, saving the data team hours weekly on massive datasets.”",
+        "Zach Bryant  ·  Associate Director of Data & Analytics at OM1"
+      ],
+      "a": [],
+      "img": [
+        "SANITY/ea3c3c81a65eb288ea6390f3290531197721ca6c-94x50.svg?auto=format 66x35 alt=OM1"
+      ],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": []
+    },
+    {
+      "c": "sharedStyles__FeatureWrapper",
+      "b": [
+        157,
+        1853,
+        1126,
+        513
+      ],
+      "dir": "",
+      "h": [
+        "H2:Trying to answer on the spot questions about marketing-sourced pipeline?"
+      ],
+      "p": [
+        "Your next read out just got a lot easier.",
+        "Ask the agent and get a real, governed answer — delivered as a presentation-ready visual you can screen-share straight from Hex, not a query result you have to rebuild into slides."
+      ],
+      "a": [],
+      "img": [
+        "SANITY/ae0c122e0a546ab3ed4fd0cc34df9a5ffad73fde-1581x1215.png?w=1200&w=640&q=75 600x460 alt=Trying to answer on the spot questions about marketing-sourc"
+      ],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": []
+    },
+    {
+      "c": "sharedStyles__Quote",
+      "b": [
+        136,
+        2545,
+        1168,
+        261
+      ],
+      "dir": "",
+      "h": [],
+      "p": [
+        "My Hex application gives marketing leaders the ability to analyze different lead qualifiers and see hypothetical results. Now they are generating higher quality leads. By removing over 1,100 low-quality demo requests, Sales avoided spending an estimated 140 hours manually qualifying leads in a singl",
+        "Jillian Lellis  ·  Senior Marketing Data Operations Manager at Algolia"
+      ],
+      "a": [],
+      "img": [
+        "SANITY/baea542d81adfefae4a1a6409a8260e0bac56f00-97x50.svg?auto=format 68x35 alt=Algolia"
+      ],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": []
+    },
+    {
+      "c": "sharedStyles__FeatureWrapper",
+      "b": [
+        157,
+        2984,
+        1126,
+        513
+      ],
+      "dir": "",
+      "h": [
+        "H2:Catching a conversion drop after it's already cost you the quarter?"
+      ],
+      "p": [
+        "Define what metrics matter and Hex watches the rest.",
+        "Set up Tasks to surface conversion drops, channel shifts, or pipeline anomalies right in Slack before anyone has to notice something's off and figure out why."
+      ],
+      "a": [],
+      "img": [
+        "SANITY/86fb1e8f7f5ec19b815f42c439471c38f2a9a97b-779x792.png?w=1200&w=640&q=75 600x609 alt=Catching a conversion drop after it's already cost you the q"
+      ],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": []
+    },
+    {
+      "c": "sharedStyles__Quote",
+      "b": [
+        136,
+        3676,
+        1168,
+        228
+      ],
+      "dir": "",
+      "h": [],
+      "p": [
+        "Our marketing lifecycle teams could not use existing views to create a solution. We needed a tool with the flexibility for anyone to explore and build segments related to their part of the business. Hex unlocks that for ClickUp and has helped our teams save millions of dollars in churn.”",
+        "Sai Srigiriaju  ·  Head of Growth Strategy & Ops at ClickUp"
+      ],
+      "a": [],
+      "img": [
+        "SANITY/8ec37f2330ffd132be12ea66bad243453af0d047-119x50.svg?auto=format 83x35 alt=ClickUp"
+      ],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": []
+    },
+    {
+      "c": "sharedStyles__Wrapper sharedStyles__StyledWrapper",
+      "b": [
+        360,
+        4084,
+        720,
+        1201
+      ],
+      "dir": "column-reverse",
+      "h": [
+        "H2:Explore a live data app"
+      ],
+      "p": [
+        "Build your own Bottoms-up Pipeline dashboard to understand campaign performance against targets."
+      ],
+      "a": [
+        "What you can build (app) -> null",
+        "How it's built (logic) -> null",
+        "Explore this app -> https://app.hex.tech/hex-public/app/034bMZkDGfvJGfA70QkjMY/latest"
+      ],
+      "img": [],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": [
+        "https://app.hex.tech/hex-public/app/034bMZkDGfvJGfA70QkjMY/latest?embedded=true",
+        "https://app.hex.tech/hex-public/hex/Sales-Account-Prioritization-Tool-034bMZkDGfvJGfA70QkjMY?threadId=01a112aa-657a-777f-83bd-f701e687b94f&threadLayout=collapsed&embedded=true"
+      ]
+    },
+    {
+      "c": "Heading__HeadingInternal Heading___StyledHeadingInternal Heading__H2",
+      "b": [
+        420,
+        5437,
+        600,
+        110
+      ],
+      "dir": "",
+      "h": [],
+      "p": [],
+      "a": [],
+      "img": [],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": []
+    },
+    {
+      "c": "sharedStyles__FeatureWrapper",
+      "b": [
+        157,
+        5651,
+        1126,
+        513
+      ],
+      "dir": "",
+      "h": [
+        "H2:Tired of pipeline forecast panic? Here’s how we beat it"
+      ],
+      "p": [
+        "Here's why a data app is better than spreadsheets every time."
+      ],
+      "a": [
+        "Read more -> https://hex.tech/blog/pipeline-forecast-data-app/?utm_source=marketing_site&utm_medium=solutions&utm_campaign=marketing_analytics"
+      ],
+      "img": [
+        "SANITY/459c3f67dadbbc87073d77ee31c985cb829e4eef-2400x1260.png?w=1200&w=640&q=75 600x315 alt=Tired of pipeline forecast panic? Here’s how we beat it"
+      ],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": []
+    },
+    {
+      "c": "Cards__Wrapper",
+      "b": [
+        100,
+        6204,
+        1240,
+        587
+      ],
+      "dir": "",
+      "h": [
+        "H3:How we cracked lead conversion by segment",
+        "H3:Why, when and how to use a first-touch attribution model",
+        "H3:ClickUp: How a data app saved $1M in churn"
+      ],
+      "p": [
+        "Here's how to see what leads are worth chasing and which aren’t.",
+        "First-touch attribution is a first-step to providing your marketing team value. Here’s how we did it in Hex.",
+        "ClickUp’s data app helped multiple marketing teams reduce churn, with reports they could explore on their own."
+      ],
+      "a": [
+        "Read more -> https://hex.tech/blog/lead-conversion-in-hex/",
+        "Read more -> https://hex.tech/blog/building-a-first-touch-attribution-model/",
+        "Read more -> https://hex.tech/resources/data-app-click-up/"
+      ],
+      "img": [
+        "SANITY/1b910ed63aebd4801ed43978ecf82b7c7cbf10f5-1680x1020.png?w=827&w=640&q=75 360x218 alt=figure - How we cracked lead conversion by segment",
+        "SANITY/80042e489c3f220677d279f8c248a2a990528abf-1680x1020.png?w=827&w=640&q=75 360x218 alt=figure - Why, when and how to use a first-touch attribution ",
+        "SANITY/553213895cffd9474f7a9be8091bef4910085e8d-1680x1020.jpg?w=827&w=640&q=75 360x218 alt=figure - ClickUp: How a data app saved $1M in churn"
+      ],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": []
+    },
+    {
+      "c": "SelfServeOutroTout__Inner",
+      "b": [
+        29,
+        6922,
+        1382,
+        702
+      ],
+      "dir": "",
+      "h": [
+        "H2:Learn why data teams choose Hex for marketing analytics"
+      ],
+      "p": [
+        "Contact sales"
+      ],
+      "a": [
+        "Request a demo -> https://hex.tech/request-a-demo/"
+      ],
+      "img": [],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": []
+    },
+    {
+      "c": "SCRIPT",
+      "b": [
+        0,
+        6069,
+        0,
+        0
+      ],
+      "dir": "",
+      "h": [],
+      "p": [],
+      "a": [],
+      "img": [],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": []
+    }
+  ]
+}

@@ -1,0 +1,587 @@
+638
+h y20 x-9971 w16 h19 A ["Cinetype Mono" | 12px | 400 | 18.852px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Ticker__MarqueeItem-sc-a0530985-4 :: how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data
+h y20 x-9963 w12 h19 SPAN ["Cinetype Mono" | 12px | 400 | 18.852px | normal | normal | none | rgb(49, 38, 59) | normal | normal]  :: 📊
+h y20 x-9943 w169 h19 SPAN ["Cinetype Mono" | 12px | 400 | 18.852px | normal | normal | none | rgb(20, 20, 28) | normal | normal] Ticker__MarqueeItemTitle-sc-a0530985-5 :: AI analytics use case:
+h y39 x-9971 w16 h19 A ["Cinetype Mono" | 12px | 400 | 18.852px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Ticker__MarqueeItem-sc-a0530985-4 :: Gorgeous, interactive dashboards and apps you can build with just a prompt
+h y39 x-9963 w12 h19 SPAN ["Cinetype Mono" | 12px | 400 | 18.852px | normal | normal | none | rgb(49, 38, 59) | normal | normal]  :: 🤯
+h y39 x-9943 w161 h19 SPAN ["Cinetype Mono" | 12px | 400 | 18.852px | normal | normal | none | rgb(20, 20, 28) | normal | normal] Ticker__MarqueeItemTitle-sc-a0530985-5 :: Generative data apps:
+h y58 x-9971 w16 h19 A ["Cinetype Mono" | 12px | 400 | 18.852px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Ticker__MarqueeItem-sc-a0530985-4 :: discover key insights from data leaders
+h y58 x-9963 w12 h19 SPAN ["Cinetype Mono" | 12px | 400 | 18.852px | normal | normal | none | rgb(49, 38, 59) | normal | normal]  :: 📖
+h y58 x-9943 w184 h19 SPAN ["Cinetype Mono" | 12px | 400 | 18.852px | normal | normal | none | rgb(20, 20, 28) | normal | normal] Ticker__MarqueeItemTitle-sc-a0530985-5 :: State of Data Teams 2026
+h y77 x-9971 w16 h19 A ["Cinetype Mono" | 12px | 400 | 18.852px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Ticker__MarqueeItem-sc-a0530985-4 :: Not "HEX" or "Hex dot tech"
+h y77 x-9963 w12 h19 SPAN ["Cinetype Mono" | 12px | 400 | 18.852px | normal | normal | none | rgb(49, 38, 59) | normal | normal]  :: 🙏
+h y77 x-9943 w123 h19 SPAN ["Cinetype Mono" | 12px | 400 | 18.852px | normal | normal | none | rgb(20, 20, 28) | normal | normal] Ticker__MarqueeItemTitle-sc-a0530985-5 :: It's just "Hex"!
+h y80 x962 w63 h36 A [Cinetype | 14px | 400 | 14px | normal | normal | none | rgb(67, 57, 76) | normal | normal] Nav__LogInLink-sc-a3199122-5 :: Log In
+h y81 x353 w100 h34 BUTTON [Cinetype | 14px | 400 | 14px | normal | normal | none | rgb(20, 20, 28) | normal | normal] NavMenuItem__NavItemLink-sc-7f05634c-1 :: Platform
+h y81 x453 w104 h34 BUTTON [Cinetype | 14px | 400 | 14px | normal | normal | none | rgb(20, 20, 28) | normal | normal] NavMenuItem__NavItemLink-sc-7f05634c-1 :: Solutions
+h y81 x557 w95 h33 A [Cinetype | 14px | 400 | 14px | normal | normal | none | rgb(20, 20, 28) | normal | normal] NavMenuItem__NavItemLink-sc-7f05634c-1 :: Enterprise
+h y81 x780 w110 h34 BUTTON [Cinetype | 14px | 400 | 14px | normal | normal | none | rgb(20, 20, 28) | normal | normal] NavMenuItem__NavItemLink-sc-7f05634c-1 :: Resources
+h y81 x890 w72 h33 A [Cinetype | 14px | 400 | 14px | normal | normal | none | rgb(20, 20, 28) | normal | normal] NavMenuItem__NavItemLink-sc-7f05634c-1 :: Pricing
+h y91 x1053 w75 h14 DIV [Cinetype | 14px | 400 | 14px | normal | normal | none | rgb(20, 20, 28) | normal | normal] Button__Children-sc-3759e784-4 :: Get started
+h y124 x9 w378 h33 DIV ["Cinetype Mono" | 11px | 400 | 17.281px | 0.9163px | normal | none | rgb(20, 20, 28) | normal | normal] NavMenuDropdown__ListTitle-sc-2400fe1c-10 :: Products
+h y124 x9 w378 h33 DIV ["Cinetype Mono" | 11px | 400 | 17.281px | 0.9163px | normal | none | rgb(20, 20, 28) | normal | normal] NavMenuDropdown__ListTitle-sc-2400fe1c-10 :: Get started
+h y124 x387 w378 h33 DIV ["Cinetype Mono" | 11px | 400 | 17.281px | 0.9163px | normal | none | rgb(20, 20, 28) | normal | normal] NavMenuDropdown__ListTitle-sc-2400fe1c-10 :: Capabilities
+h y124 x387 w378 h33 DIV ["Cinetype Mono" | 11px | 400 | 17.281px | 0.9163px | normal | none | rgb(20, 20, 28) | normal | normal] NavMenuDropdown__ListTitle-sc-2400fe1c-10 :: Inspiration
+h y162 x23 w350 h22 DIV [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(20, 20, 28) | normal | normal] NavMenuDropdown__NavItemTitle-sc-2400fe1c-3 :: Explore all solutions
+h y165 x60 w308 h22 DIV [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(20, 20, 28) | normal | normal] NavMenuDropdown__NavItemTitle-sc-2400fe1c-3 :: Agentic notebooks
+h y165 x60 w308 h22 DIV [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(20, 20, 28) | normal | normal] NavMenuDropdown__NavItemTitle-sc-2400fe1c-3 :: Switching to Hex
+h y165 x438 w308 h22 DIV [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(20, 20, 28) | normal | normal] NavMenuDropdown__NavItemTitle-sc-2400fe1c-3 :: Exploratory analysis
+h y165 x438 w308 h22 DIV [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(20, 20, 28) | normal | normal] NavMenuDropdown__NavItemTitle-sc-2400fe1c-3 :: Blog
+h y184 x23 w350 h18 DIV [Cinetype | 12px | 400 | 18px | normal | normal | none | rgba(49, 38, 59, 0.91) | normal | normal] NavMenuDropdown__NavItemDescription-sc-2400fe1c-4 :: One connected system - infinite data answers
+h y188 x60 w308 h18 DIV [Cinetype | 12px | 400 | 18px | normal | normal | none | rgba(49, 38, 59, 0.91) | normal | normal] NavMenuDropdown__NavItemDescription-sc-2400fe1c-4 :: Powerful, deep-dive analysis without the silos
+h y188 x60 w308 h18 DIV [Cinetype | 12px | 400 | 18px | normal | normal | none | rgba(49, 38, 59, 0.91) | normal | normal] NavMenuDropdown__NavItemDescription-sc-2400fe1c-4 :: A guide to getting started on agentic analytics
+h y188 x438 w308 h36 DIV [Cinetype | 12px | 400 | 18px | normal | normal | none | rgba(49, 38, 59, 0.91) | normal | normal] NavMenuDropdown__NavItemDescription-sc-2400fe1c-4 :: Go from quick question to deep analysis to data app in one place
+h y188 x438 w308 h18 DIV [Cinetype | 12px | 400 | 18px | normal | normal | none | rgba(49, 38, 59, 0.91) | normal | normal] NavMenuDropdown__NavItemDescription-sc-2400fe1c-4 :: From data teams to data teams
+m y0 x-10000 w1 h1 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(67, 57, 76) | normal | normal]  :: Skip to main content
+m y418 x446 w122 h36 P [Cinetype | 24px | 300 | 36px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: Rethinking
+m y422 x620 w22 h29 P [Cinetype | 24px | 300 | normal | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: BI
+m y422 x707 w274 h29 P [Cinetype | 24px | 300 | normal | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: Conversational analytics
+m y470 x430 w42 h36 P [Cinetype | 24px | 300 | 36px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: and
+m y470 x791 w218 h36 P [Cinetype | 24px | 300 | 36px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: for the agentic era.
+m y474 x524 w245 h29 P [Cinetype | 24px | 300 | normal | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: Context management
+m y528 x258 w268 h110 BLOCKQUOTE [Cinetype | 14px | 300 | 21.994px | normal | normal | none | rgb(49, 38, 59) | normal | normal] CustomerLogo__PopoverQuote-sc-8dd4a870-9 :: " Our vision for Notion’s data team is that anyone, regardless of technical proficiency, is comforta
+m y557 x918 w268 h66 BLOCKQUOTE [Cinetype | 14px | 300 | 21.994px | normal | normal | none | rgb(49, 38, 59) | normal | normal] CustomerLogo__PopoverQuote-sc-8dd4a870-9 :: " With Hex’s Notebook Agent, I never have to build another chart again? What a dream come true. "
+m y558 x816 w260 h33 DIV ["IBM Plex Sans" | 12px | 400 | 16.8px | normal | normal | none | rgb(71, 57, 130) | normal | normal] ThreadItem__Wrapper-sc-7a31caad-0 :: Get me NexaCorp's Q3 sales by product line
+m y564 x572 w128 h22 DIV [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(20, 20, 28) | normal | normal] Button__Children-sc-3759e784-4 :: Get started for free
+m y564 x762 w106 h22 DIV [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Button__Children-sc-3759e784-4 :: Request a demo
+m y594 x816 w268 h44 BLOCKQUOTE [Cinetype | 14px | 300 | 21.994px | normal | normal | none | rgb(49, 38, 59) | normal | normal] CustomerLogo__PopoverQuote-sc-8dd4a870-9 :: " We like to embed Hex dashboards where teams work. "
+m y595 x512 w564 h58 DIV ["IBM Plex Sans" | 12px | 400 | 16.8px | normal | normal | none | rgb(1, 1, 27) | normal | normal] ThreadItem__Wrapper-sc-7a31caad-0 :: I'll help you analyze NexaCorp's revenue by product line. I'll pull data from Q1-Q3 so you can compa
+m y614 x665 w268 h88 BLOCKQUOTE [Cinetype | 14px | 300 | 21.994px | normal | normal | none | rgb(49, 38, 59) | normal | normal] CustomerLogo__PopoverQuote-sc-8dd4a870-9 :: " Hex’s Notebook Agent’s ability to build reports increases our operational speed — days into hours,
+m y621 x930 w268 h66 BLOCKQUOTE [Cinetype | 14px | 300 | 21.994px | normal | normal | none | rgb(49, 38, 59) | normal | normal] CustomerLogo__PopoverQuote-sc-8dd4a870-9 :: " Hex’s Slack integration unlocked silos of data, in governed ways, increasing trusted answers and i
+m y635 x918 w268 h16 STRONG [Cinetype | 10px | 400 | 15.71px | normal | normal | none | rgb(137, 130, 141) | normal | normal] CustomerLogo__PopoverAuthor-sc-8dd4a870-11 Custome :: Rie McGiwer
+m y636 x546 w268 h66 BLOCKQUOTE [Cinetype | 14px | 300 | 21.994px | normal | normal | none | rgb(49, 38, 59) | normal | normal] CustomerLogo__PopoverQuote-sc-8dd4a870-9 :: " Hex has helped us empower business analysts to explore and dig into data on their own "
+m y636 x1059 w268 h66 BLOCKQUOTE [Cinetype | 14px | 300 | 21.994px | normal | normal | none | rgb(49, 38, 59) | normal | normal] CustomerLogo__PopoverQuote-sc-8dd4a870-9 :: " Hex’s Context Studio and Evals give us the visibility needed to manage our context at scale. "
+m y650 x258 w268 h16 STRONG [Cinetype | 10px | 400 | 15.71px | normal | normal | none | rgb(137, 130, 141) | normal | normal] CustomerLogo__PopoverAuthor-sc-8dd4a870-11 Custome :: Aks Nemana
+m y650 x816 w268 h16 STRONG [Cinetype | 10px | 400 | 15.71px | normal | normal | none | rgb(137, 130, 141) | normal | normal] CustomerLogo__PopoverAuthor-sc-8dd4a870-11 Custome :: Ian Macomber
+m y652 x918 w268 h31 SPAN [Cinetype | 10px | 400 | 15.71px | normal | normal | none | rgb(137, 130, 141) | normal | normal] CustomerLogo__PopoverAuthorTitle-sc-8dd4a870-12 :: AI Insights Researcher and Molly Jane Nicholas, Senior Researcher
+m y657 x512 w564 h33 DIV ["IBM Plex Sans" | 12px | 400 | 16.8px | normal | normal | none | rgb(113, 122, 148) | normal | normal] ThreadItem__Wrapper-sc-7a31caad-0 :: Thought for 23 seconds
+m y668 x258 w268 h16 SPAN [Cinetype | 10px | 400 | 15.71px | normal | normal | none | rgb(137, 130, 141) | normal | normal] CustomerLogo__PopoverAuthorTitle-sc-8dd4a870-12 :: Data Scientist & Abhishek Modi, AI Software Engineer
+m y668 x816 w268 h16 SPAN [Cinetype | 10px | 400 | 15.71px | normal | normal | none | rgb(137, 130, 141) | normal | normal] CustomerLogo__PopoverAuthorTitle-sc-8dd4a870-12 :: Head of Data and Analytics Engineering
+m y694 x588 w265 h12 H2 ["Cinetype Mono" | 10px | 400 | 12px | 0.833px | normal | uppercase | rgb(67, 57, 76) | normal | normal] CustomerBannerSectionLabel-module__1XCmuW__label C :: Trusted by leading data companies
+m y699 x930 w268 h16 STRONG [Cinetype | 10px | 400 | 15.71px | normal | normal | none | rgb(137, 130, 141) | normal | normal] CustomerLogo__PopoverAuthor-sc-8dd4a870-11 Custome :: Brandon Rochon
+m y705 x524 w540 h22 H2 ["IBM Plex Sans" | 16px | 600 | 22.4px | -0.4px | normal | none | rgb(20, 20, 28) | normal | normal]  :: NexaCorp revenue trends by product line
+m y714 x546 w268 h16 STRONG [Cinetype | 10px | 400 | 15.71px | normal | normal | none | rgb(137, 130, 141) | normal | normal] CustomerLogo__PopoverAuthor-sc-8dd4a870-11 Custome :: Meghana Reddy
+m y714 x665 w268 h16 STRONG [Cinetype | 10px | 400 | 15.71px | normal | normal | none | rgb(137, 130, 141) | normal | normal] CustomerLogo__PopoverAuthor-sc-8dd4a870-11 Custome :: Dhaval Patel
+m y714 x1059 w268 h16 STRONG [Cinetype | 10px | 400 | 15.71px | normal | normal | none | rgb(137, 130, 141) | normal | normal] CustomerLogo__PopoverAuthor-sc-8dd4a870-11 Custome :: Jordan Farrer
+m y716 x930 w268 h31 SPAN [Cinetype | 10px | 400 | 15.71px | normal | normal | none | rgb(137, 130, 141) | normal | normal] CustomerLogo__PopoverAuthorTitle-sc-8dd4a870-12 :: VP of Data & Analytics and David Adair, Group Product Manager for Cards and Lending
+m y732 x546 w268 h16 SPAN [Cinetype | 10px | 400 | 15.71px | normal | normal | none | rgb(137, 130, 141) | normal | normal] CustomerLogo__PopoverAuthorTitle-sc-8dd4a870-12 :: Head of Data at Stubhub
+m y732 x665 w268 h16 SPAN [Cinetype | 10px | 400 | 15.71px | normal | normal | none | rgb(137, 130, 141) | normal | normal] CustomerLogo__PopoverAuthorTitle-sc-8dd4a870-12 :: Account Lead
+m y732 x1059 w268 h16 SPAN [Cinetype | 10px | 400 | 15.71px | normal | normal | none | rgb(137, 130, 141) | normal | normal] CustomerLogo__PopoverAuthorTitle-sc-8dd4a870-12 :: Director of Data Science & Analytics
+m y736 x524 w540 h17 P ["IBM Plex Sans" | 12px | 400 | 16.8px | normal | normal | none | rgb(1, 1, 27) | normal | normal]  :: Here's what I found in the "nexacorp_sales" tables (powered by the Galactic Sales semantic model):
+m y761 x538 w526 h17 LI ["IBM Plex Sans" | 12px | 400 | 16.8px | normal | normal | none | rgb(1, 1, 27) | normal | normal]  :: Teleportation pads —
+m y761 x654 w42 h16 STRONG ["IBM Plex Sans" | 12px | 500 | 16.8px | normal | normal | none | rgb(1, 1, 27) | normal | normal]  :: $ 42.3 M
+m y777 x538 w526 h17 LI ["IBM Plex Sans" | 12px | 400 | 16.8px | normal | normal | none | rgb(1, 1, 27) | normal | normal]  :: Quantum drives —
+m y777 x639 w42 h16 STRONG ["IBM Plex Sans" | 12px | 500 | 16.8px | normal | normal | none | rgb(1, 1, 27) | normal | normal]  :: $ 38.7 M
+m y794 x538 w526 h17 LI ["IBM Plex Sans" | 12px | 400 | 16.8px | normal | normal | none | rgb(1, 1, 27) | normal | normal]  :: Wormhole initiators —
+m y794 x659 w42 h16 STRONG ["IBM Plex Sans" | 12px | 500 | 16.8px | normal | normal | none | rgb(1, 1, 27) | normal | normal]  :: $ 33.1 M
+m y811 x538 w526 h17 LI ["IBM Plex Sans" | 12px | 400 | 16.8px | normal | normal | none | rgb(1, 1, 27) | normal | normal]  :: Dark matter lasers —
+m y811 x652 w42 h16 STRONG ["IBM Plex Sans" | 12px | 500 | 16.8px | normal | normal | none | rgb(1, 1, 27) | normal | normal]  :: $ 28.6 M
+m y828 x538 w526 h17 LI ["IBM Plex Sans" | 12px | 400 | 16.8px | normal | normal | none | rgb(1, 1, 27) | normal | normal]  :: Temporal stabilizers —
+m y828 x662 w42 h16 STRONG ["IBM Plex Sans" | 12px | 500 | 16.8px | normal | normal | none | rgb(1, 1, 27) | normal | normal]  :: $ 21.8 M
+m y845 x538 w526 h17 LI ["IBM Plex Sans" | 12px | 400 | 16.8px | normal | normal | none | rgb(1, 1, 27) | normal | normal]  :: Anti-gravity generators —
+m y845 x677 w42 h16 STRONG ["IBM Plex Sans" | 12px | 500 | 16.8px | normal | normal | none | rgb(1, 1, 27) | normal | normal]  :: $ 11.2 M
+m y878 x513 w562 h32 DIV ["IBM Plex Sans" | 12px | 400 | 16.8px | normal | normal | none | rgb(113, 122, 148) | normal | normal] ThreadItem__ChartHeader-sc-7a31caad-1 :: Revenue by Product Line Over Time (Q1-Q3)
+m y887 x1022 w41 h15 SPAN ["IBM Plex Sans" | 12px | 400 | 15px | normal | normal | none | rgb(113, 122, 148) | normal | normal]  :: Explore
+m y919 x525 w12 h13 DIV ["IBM Plex Sans" | 10px | 400 | normal | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 50
+m y947 x525 w12 h13 DIV ["IBM Plex Sans" | 10px | 400 | normal | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 40
+m y974 x525 w12 h13 DIV ["IBM Plex Sans" | 10px | 400 | normal | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 30
+m y989 x256 w928 h162 H2 ["PP Formula SemiExtended" | 60px | 700 | 78px | -1.848px | normal | none | rgb(20, 20, 28) | normal | normal] Heading__HeadingInternal-sc-b33f802a-0 Heading___S :: A different approach to Analytics and BI
+m y1002 x525 w12 h13 DIV ["IBM Plex Sans" | 10px | 400 | normal | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 20
+m y1029 x525 w12 h13 DIV ["IBM Plex Sans" | 10px | 400 | normal | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 10
+m y1057 x531 w6 h13 DIV ["IBM Plex Sans" | 10px | 400 | normal | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 0
+m y1071 x624 w13 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: Q1
+m y1071 x797 w13 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: Q2
+m y1071 x971 w13 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: Q3
+m y1119 x513 w562 h32 DIV ["IBM Plex Sans" | 12px | 400 | 16.8px | normal | normal | none | rgb(113, 122, 148) | normal | normal] ThreadItem__ChartHeader-sc-7a31caad-1 :: Account Revenue vs Growth (Q3)
+m y1128 x1022 w41 h15 SPAN ["IBM Plex Sans" | 12px | 400 | 15px | normal | normal | none | rgb(113, 122, 148) | normal | normal]  :: Explore
+m y1160 x525 w12 h13 DIV ["IBM Plex Sans" | 10px | 400 | normal | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 25
+m y1161 x340 w760 h90 P [Cinetype | 20px | 300 | 30px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: BI tools, chat apps, and vibe-coding only give you inconsistent answers and poor user experience. He
+m y1188 x525 w12 h13 DIV ["IBM Plex Sans" | 10px | 400 | normal | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 20
+m y1215 x525 w12 h13 DIV ["IBM Plex Sans" | 10px | 400 | normal | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 15
+m y1243 x525 w12 h13 DIV ["IBM Plex Sans" | 10px | 400 | normal | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 10
+m y1270 x531 w6 h13 DIV ["IBM Plex Sans" | 10px | 400 | normal | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 5
+m y1298 x531 w6 h13 DIV ["IBM Plex Sans" | 10px | 400 | normal | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 0
+m y1312 x582 w6 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 0
+m y1312 x664 w12 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 10
+m y1312 x751 w12 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 20
+m y1312 x839 w12 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 30
+m y1312 x927 w12 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 40
+m y1312 x1014 w12 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 50
+m y1315 x1200 w88 h30 BUTTON ["Cinetype Mono" | 11px | 400 | 17.281px | 0.9996px | normal | none | rgb(49, 38, 59) | normal | normal] InteractiveFeatureMCP-module__zikdgW__client Inter :: Claude
+m y1315 x1296 w80 h30 BUTTON ["Cinetype Mono" | 11px | 400 | 17.281px | 0.9996px | normal | none | rgb(137, 130, 141) | normal | normal] InteractiveFeatureMCP-module__zikdgW__client :: Codex
+m y1347 x512 w564 h58 DIV ["IBM Plex Sans" | 12px | 400 | 16.8px | normal | normal | none | rgb(1, 1, 27) | normal | normal] ThreadItem__Wrapper-sc-7a31caad-0 :: I also created a chart showing revenue vs growth. Let me know if you'd like to break this down by re
+m y1355 x1168 w268 h17 SPAN ["IBM Plex Sans" | 12px | 600 | 16.8px | normal | normal | none | rgb(20, 20, 19) | normal | normal] InteractiveFeatureMCPClaude-module__JqFSgW__title :: Show NexaCorp Q3 sales
+m y1358 x525 w183 h13 SPAN ["Cinetype Mono" | 11px | 400 | 28px | 0.9163px | normal | none | rgb(49, 38, 59) | normal | normal]  :: Chat with the Hex Agent
+m y1389 x558 w114 h15 SPAN ["IBM Plex Sans" | 12px | 400 | 15px | normal | normal | none | rgb(1, 1, 27) | normal | normal] NavBar__TitleText-sc-dee489d7-3 :: Galactic Revenue Insights
+m y1389 x716 w32 h15 SPAN ["IBM Plex Sans" | 12px | 400 | 15px | normal | normal | none | rgb(71, 57, 130) | normal | normal]  :: Agent
+m y1389 x782 w53 h15 SPAN ["IBM Plex Sans" | 12px | 400 | 15px | normal | normal | none | rgb(113, 122, 148) | normal | normal]  :: Notebook
+m y1389 x870 w22 h15 SPAN ["IBM Plex Sans" | 12px | 400 | 15px | normal | normal | none | rgb(113, 122, 148) | normal | normal]  :: App
+m y1389 x1042 w31 h15 SPAN ["IBM Plex Sans" | 12px | 400 | 15px | normal | normal | none | rgb(1, 1, 27) | normal | normal]  :: Share
+m y1389 x1189 w259 h35 P ["IBM Plex Sans" | 12px | 400 | 16.8px | normal | normal | none | rgb(20, 20, 19) | normal | normal] InteractiveFeatureMCPClaude-module__JqFSgW__userPr :: Get me NexaCorp’s Q3 sales by product line
+m y1409 x625 w451 h50 DIV ["IBM Plex Sans" | 12px | 400 | 16.8px | normal | normal | none | rgb(71, 57, 130) | normal | normal] ThreadItem__Wrapper-sc-7a31caad-0 :: Can you break this out by region too? I want to see how each product line performed across the Core 
+m y1434 x1128 w320 h22 DIV ["IBM Plex Sans" | 12px | 400 | 16.8px | normal | normal | none | rgb(115, 113, 108) | normal | normal] InteractiveFeatureMCPClaude-module__JqFSgW__though :: Thought for 27s
+m y1463 x512 w564 h58 DIV ["IBM Plex Sans" | 12px | 400 | 16.8px | normal | normal | none | rgb(1, 1, 27) | normal | normal] ThreadItem__Wrapper-sc-7a31caad-0 :: I'll help you analyze NexaCorp's Q3 revenue by product line and region. Let me search for the most r
+m y1472 x1161 w22 h17 SPAN ["IBM Plex Sans" | 12px | 600 | 16.8px | normal | normal | none | rgb(20, 20, 19) | normal | normal] InteractiveFeatureMCPClaude-module__JqFSgW__toolNa :: Hex
+m y1472 x1189 w84 h17 SPAN ["IBM Plex Sans" | 12px | 400 | 16.8px | normal | normal | none | rgb(115, 113, 108) | normal | normal] InteractiveFeatureMCPClaude-module__JqFSgW__toolAc :: Search projects
+m y1506 x1154 w294 h20 P [ui-serif | 13px | 700 | 19.5px | normal | normal | none | rgb(20, 20, 19) | normal | normal] InteractiveFeatureMCPClaude-module__JqFSgW__answer :: NexaCorp Q3 sales by product line
+m y1524 x512 w564 h33 DIV ["IBM Plex Sans" | 12px | 400 | 16.8px | normal | normal | none | rgb(113, 122, 148) | normal | normal] ThreadItem__Wrapper-sc-7a31caad-0 :: Thought for 11 seconds
+m y1536 x1154 w294 h20 P [ui-serif | 13px | 400 | 19.5px | normal | normal | none | rgb(20, 20, 19) | normal | normal] InteractiveFeatureMCPClaude-module__JqFSgW__answer :: Here’s what I found in the “nexacorp_sales” tables:
+m y1555 x100 w330 h73 H3 ["PP Formula" | 28px | 800 | 36.4px | -0.7px | normal | none | rgb(20, 20, 28) | normal | normal] Heading__HeadingInternal-sc-b33f802a-0 Heading___S :: Ask a question, get a trusted answer
+m y1565 x1172 w276 h20 LI [ui-serif | 13px | 400 | 19.5px | normal | normal | none | rgb(20, 20, 19) | normal | normal] InteractiveFeatureMCPClaude-module__JqFSgW__produc :: Teleportation field extenders —
+m y1567 x1355 w45 h15 STRONG [ui-serif | 13px | 400 | 19.5px | normal | normal | none | rgb(20, 20, 19) | normal | normal]  :: $ 42.3 M
+m y1573 x524 w540 h84 DIV ["IBM Plex Sans" | 12px | 400 | 16.8px | normal | normal | none | rgb(1, 1, 27) | normal | normal]  :: I found regional revenue data in the endorsed semantic model This model contains standardized region
+m y1573 x861 w188 h16 STRONG ["IBM Plex Sans" | 12px | 500 | 16.8px | normal | normal | none | rgb(1, 1, 27) | normal | normal]  :: "NexaCorp: Galactic Sales Model."
+m y1585 x1172 w276 h20 LI [ui-serif | 13px | 400 | 19.5px | normal | normal | none | rgb(20, 20, 19) | normal | normal] InteractiveFeatureMCPClaude-module__JqFSgW__produc :: Quantum drives —
+m y1586 x1135 w244 h17 SPAN ["IBM Plex Sans" | 12px | 400 | 16.8px | normal | normal | none | rgb(115, 113, 108) | normal | normal] InteractiveFeatureMCPClaude-module__JqFSgW__placeh :: How can I help you today?
+m y1587 x1282 w45 h15 STRONG [ui-serif | 13px | 400 | 19.5px | normal | normal | none | rgb(20, 20, 19) | normal | normal]  :: $ 38.7 M
+m y1604 x1172 w276 h20 LI [ui-serif | 13px | 400 | 19.5px | normal | normal | none | rgb(20, 20, 19) | normal | normal] InteractiveFeatureMCPClaude-module__JqFSgW__produc :: Wormhole initiators —
+m y1606 x1306 w43 h15 STRONG [ui-serif | 13px | 400 | 19.5px | normal | normal | none | rgb(20, 20, 19) | normal | normal]  :: $ 33.1 M
+m y1655 x1230 w116 h17 DIV ["Cinetype Mono" | 11px | 400 | 17.281px | 0.9163px | normal | none | rgb(20, 20, 28) | normal | normal] InteractiveFeatureWrapper-styles__BrowserWindowTit :: Slack
+m y1658 x121 w176 h22 DIV [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(20, 20, 28) | normal | normal] Button__Children-sc-3759e784-4 :: Explore self-serve insights
+m y1674 x513 w562 h32 DIV ["IBM Plex Sans" | 12px | 400 | 16.8px | normal | normal | none | rgb(113, 122, 148) | normal | normal] ThreadItem__ChartHeader-sc-7a31caad-1 :: Galactic Revenue Distribution by Product Line (Q3)
+m y1682 x1022 w41 h15 SPAN ["IBM Plex Sans" | 12px | 400 | 15px | normal | normal | none | rgb(113, 122, 148) | normal | normal]  :: Explore
+m y1695 x1172 w28 h20 DIV [Lato | 14px | 700 | 19.6px | -0.2px | normal | none | rgb(28, 27, 28) | normal | normal] SlackMessage__Name-sc-7a55c669-4 :: Julia
+m y1696 x1207 w50 h17 DIV [Lato | 12px | 400 | 16.8px | normal | normal | none | rgb(123, 122, 123) | normal | normal] SlackMessage__Timestamp-sc-7a55c669-5 :: 4 min ago
+m y1715 x544 w84 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(1, 1, 27) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: Teleportation pads
+m y1718 x1172 w263 h20 DIV [Lato | 12px | 400 | 16.8px | normal | normal | none | rgb(28, 27, 28) | normal | normal] SlackMessage__Message-sc-7a55c669-6 :: get me NexaCorp's Q3 sales by product line
+m y1718 x1172 w35 h18 SPAN [Lato | 12px | 400 | 16.8px | normal | normal | none | rgb(19, 89, 153) | normal | normal]  :: @Hex
+m y1739 x557 w71 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(1, 1, 27) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: Quantum drives
+m y1741 x1114 w348 h32 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(123, 122, 123) | normal | normal] InteractiveFeatureSlack__Separator-sc-22abb7e5-2 :: 3 replies
+m y1761 x127 w303 h96 P [Cinetype | 16px | 300 | 24px | normal | normal | none | rgb(20, 20, 28) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: " is valuable because now we can connect into Hex via my favorite dev tools. "
+m y1763 x127 w279 h43 SPAN [Cinetype | 16px | 300 | 24px | normal | normal | none | rgb(20, 20, 28) | normal | normal]  :: The ability to use Hex in any way we choose
+m y1763 x540 w88 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(1, 1, 27) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: Wormhole initiators
+m y1777 x1172 w25 h20 DIV [Lato | 14px | 700 | 19.6px | -0.2px | normal | none | rgb(28, 27, 28) | normal | normal] SlackMessage__Name-sc-7a55c669-4 :: Hex
+m y1778 x1204 w50 h17 DIV [Lato | 12px | 400 | 16.8px | normal | normal | none | rgb(123, 122, 123) | normal | normal] SlackMessage__Timestamp-sc-7a55c669-5 :: 4 min ago
+m y1787 x545 w83 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(1, 1, 27) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: Dark matter lasers
+m y1800 x1172 w274 h37 DIV [Lato | 12px | 400 | 16.8px | normal | normal | none | rgb(28, 27, 28) | normal | normal] SlackMessage__Message-sc-7a55c669-6 :: Your question was sent to Hex! The answer will be posted here, but you can also follow along in Hex.
+m y1811 x538 w90 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(1, 1, 27) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: Temporal stabilizers
+m y1835 x525 w103 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(1, 1, 27) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: Anti-gravity generators
+m y1839 x1172 w80 h24 DIV [Lato | 12px | 700 | 24px | normal | normal | none | rgb(28, 27, 28) | normal | normal] SlackMessage__Button-sc-7a55c669-8 :: View in Hex
+m y1859 x636 w15 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 0%
+m y1859 x711 w21 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 20%
+m y1859 x792 w21 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 40%
+m y1859 x873 w21 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 60%
+m y1859 x955 w21 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 80%
+m y1859 x1036 w27 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 100%
+m y1871 x1172 w274 h25 H2 [Lato | 14px | 700 | 19.6px | -0.2px | normal | none | rgb(20, 20, 28) | normal | normal]  :: NexaCorp Q3 revenue trends by product line
+m y1879 x206 w104 h14 SPAN ["Cinetype Mono" | 12px | 400 | 18.852px | 0.9996px | normal | none | rgb(49, 38, 59) | normal | normal] InlineQuote-module__ju4aKG__authorName :: Nithin Bose.
+m y1879 x206 w174 h33 SPAN ["Cinetype Mono" | 12px | 400 | 18.852px | 0.9996px | normal | none | rgb(137, 130, 141) | normal | normal] InlineQuote-module__ju4aKG__authorTitle :: VP of Customer Engineering
+m y1901 x1172 w274 h34 P [Lato | 12px | 400 | 16.8px | normal | normal | none | rgb(28, 27, 28) | normal | normal]  :: Here's what I found in the “nexacorp_sales” tables (powered by the Galactic Sales semantic model):
+m y1906 x524 w540 h34 DIV ["IBM Plex Sans" | 12px | 400 | 16.8px | normal | normal | none | rgb(1, 1, 27) | normal | normal]  :: Quick insight: , while Wormhole initiators see a stronger mix from the Outer Rim.
+m y1906 x600 w379 h16 STRONG ["IBM Plex Sans" | 12px | 500 | 16.8px | normal | normal | none | rgb(1, 1, 27) | normal | normal]  :: Core Worlds lead revenue for Teleportation pads and Quantum drives
+m y1942 x1187 w259 h17 LI [Lato | 12px | 400 | 16.8px | normal | normal | none | rgb(28, 27, 28) | normal | normal]  :: Teleportation pads —
+m y1943 x1299 w42 h15 STRONG [Lato | 12px | 600 | 16.8px | normal | normal | none | rgb(28, 27, 28) | normal | normal]  :: $ 42.3 M
+m y1959 x1187 w259 h17 LI [Lato | 12px | 400 | 16.8px | normal | normal | none | rgb(28, 27, 28) | normal | normal]  :: Quantum drives —
+m y1960 x1286 w42 h15 STRONG [Lato | 12px | 600 | 16.8px | normal | normal | none | rgb(28, 27, 28) | normal | normal]  :: $ 38.7 M
+m y1962 x1172 w56 h17 DIV ["Cinetype Mono" | 11px | 400 | 17.281px | 0.9163px | normal | none | rgb(20, 20, 28) | normal | normal] InteractiveFeatureWrapper-styles__BrowserWindowTit :: Hex CLI
+m y1976 x1187 w259 h17 LI [Lato | 12px | 400 | 16.8px | normal | normal | none | rgb(28, 27, 28) | normal | normal]  :: Wormhole initiators —
+m y1977 x1308 w42 h15 STRONG [Lato | 12px | 600 | 16.8px | normal | normal | none | rgb(28, 27, 28) | normal | normal]  :: $ 33.1 M
+m y1987 x1124 w344 h17 DIV ["IBM Plex Mono" | 11px | 400 | 16.5px | normal | normal | none | rgb(1, 1, 27) | "calt" 0, "liga" 0 | normal] InteractiveTerminal-styles__TranscriptLine-sc-3ce2 :: hex thread create "Get me NexaCorp’s Q3 sales by product line"
+m y1993 x1187 w259 h17 LI [Lato | 12px | 400 | 16.8px | normal | normal | none | rgb(28, 27, 28) | normal | normal]  :: Dark matter lasers —
+m y1994 x1123 w1 h1 LABEL ["IBM Plex Mono" | 11px | 400 | 16.5px | normal | normal | none | rgb(1, 1, 27) | "calt" 0, "liga" 0 | normal] InteractiveTerminal-styles__ScreenReaderLabel-sc-3 :: Terminal demo: type a command and press Enter.
+m y1994 x1299 w42 h15 STRONG [Lato | 12px | 600 | 16.8px | normal | normal | none | rgb(28, 27, 28) | normal | normal]  :: $ 28.6 M
+m y2010 x849 w163 h15 SPAN ["IBM Plex Sans" | 12px | 400 | 15px | normal | normal | none | rgb(113, 122, 148) | normal | normal]  :: NexaCorp Galactic Warehouse
+m y2010 x1187 w259 h17 LI [Lato | 12px | 400 | 16.8px | normal | normal | none | rgb(28, 27, 28) | normal | normal]  :: Temporal stabilizers —
+m y2011 x1306 w42 h15 STRONG [Lato | 12px | 600 | 16.8px | normal | normal | none | rgb(28, 27, 28) | normal | normal]  :: $ 21.8 M
+m y2020 x1124 w344 h17 DIV ["IBM Plex Mono" | 11px | 400 | 16.5px | normal | normal | none | rgb(1, 1, 27) | "calt" 0, "liga" 0 | normal] InteractiveTerminal-styles__TranscriptLine-sc-3ce2 :: Thread ID:
+m y2021 x1216 w238 h15 SPAN ["IBM Plex Mono" | 11px | 400 | 16.5px | normal | normal | none | rgb(15, 107, 91) | "calt" 0, "liga" 0 | normal] InteractiveTerminal-styles__TerminalId-sc-3ce23765 :: 019fb3c7-0dbe-7550-b735-7590006ecc27
+m y2026 x1187 w259 h17 LI [Lato | 12px | 400 | 16.8px | normal | normal | none | rgb(28, 27, 28) | normal | normal]  :: Anti-gravity generators —
+m y2027 x1324 w42 h15 STRONG [Lato | 12px | 600 | 16.8px | normal | normal | none | rgb(28, 27, 28) | normal | normal]  :: $ 11.2 M
+m y2036 x1124 w344 h17 DIV ["IBM Plex Mono" | 11px | 400 | 16.5px | normal | normal | none | rgb(1, 1, 27) | "calt" 0, "liga" 0 | normal] InteractiveTerminal-styles__TranscriptLine-sc-3ce2 :: Created: 2026-07-30T16:06:34.601Z
+m y2053 x1124 w344 h17 DIV ["IBM Plex Mono" | 11px | 400 | 16.5px | normal | normal | none | rgb(1, 1, 27) | "calt" 0, "liga" 0 | normal] InteractiveTerminal-styles__TranscriptLine-sc-3ce2 :: URL:
+m y2054 x1177 w482 h15 A ["IBM Plex Mono" | 11px | 400 | 16.5px | normal | normal | none | rgb(71, 57, 130) | "calt" 0, "liga" 0 | normal] InteractiveTerminal-styles__TranscriptLink-sc-3ce2 :: https://nexacorp.hex.tech/hex/thread/019fb3c7-0dbe-7550-b735-7590006ecc27
+m y2060 x1172 w267 h17 DIV [Lato | 12px | 400 | 16.8px | normal | normal | none | rgb(123, 122, 123) | normal | normal] SlackMessage__AttachmentName-sc-7a55c669-10 :: Revenue Trends by Product Line (Q1-Q3) (56 kB)
+m y2084 x1124 w9 h19 SPAN ["IBM Plex Mono" | 14.74px | 400 | 14.74px | normal | normal | none | rgb(15, 107, 91) | "calt" 0, "liga" 0 | normal] InteractiveTerminal-styles__PromptArrow-sc-3ce2376 :: →
+m y2084 x1142 w9 h19 SPAN ["IBM Plex Mono" | 14.74px | 400 | 14.74px | normal | normal | none | rgb(138, 187, 255) | "calt" 0, "liga" 0 | normal] InteractiveTerminal-styles__PromptTilde-sc-3ce2376 :: ~
+m y2093 x1183 w12 h12 DIV [Lato | 10px | 400 | normal | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 50
+m y2121 x1183 w12 h12 DIV [Lato | 10px | 400 | normal | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 40
+m y2148 x1183 w12 h12 DIV [Lato | 10px | 400 | normal | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 30
+m y2176 x1183 w12 h12 DIV [Lato | 10px | 400 | normal | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 20
+m y2203 x1183 w12 h12 DIV [Lato | 10px | 400 | normal | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 10
+m y2231 x1189 w6 h12 DIV [Lato | 10px | 400 | normal | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 0
+m y2245 x1233 w14 h22 DIV [Lato | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: Q1
+m y2245 x1308 w14 h22 DIV [Lato | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: Q2
+m y2245 x1384 w14 h22 DIV [Lato | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: Q3
+m y2281 x1172 w274 h37 DIV [Lato | 12px | 400 | 16.8px | normal | normal | none | rgb(28, 27, 28) | normal | normal] SlackMessage__Message-sc-7a55c669-6 :: Let me know if you'd like to break this down by region or customer sector.
+m y2283 x486 w129 h49 textPath ["Cinetype Mono" | 10px | 400 | 15.71px | normal | normal | uppercase | rgb(92, 177, 152) | normal | normal]  :: Build apps + ask questions
+m y2289 x840 w330 h109 H3 ["PP Formula" | 28px | 800 | 36.4px | -0.7px | normal | none | rgb(20, 20, 28) | normal | normal] Heading__HeadingInternal-sc-b33f802a-0 Heading___S :: Ground every answer in your organization’s context
+m y2428 x861 w179 h22 DIV [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(20, 20, 28) | normal | normal] Button__Children-sc-3759e784-4 :: Explore the Context Engine
+m y2439 x458 w184 h54 SPAN ["PP Formula" | 19.4px | 600 | 27.16px | -0.485px | normal | none | rgb(20, 20, 28) | normal | normal] HomeOrganizationContextCycle-module__mBC41G__cente :: Compounding context
+m y2531 x867 w303 h120 P [Cinetype | 16px | 300 | 24px | normal | normal | none | rgb(20, 20, 28) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: " It's something I check every day — provides a practical way for us to bring trusted AI self-servic
+m y2558 x867 w285 h43 SPAN [Cinetype | 16px | 300 | 24px | normal | normal | none | rgb(20, 20, 28) | normal | normal]  :: seeing context gaps and suggested improvements surfaced automatically
+m y2604 x320 w107 h33 textPath ["Cinetype Mono" | 10px | 400 | 15.71px | normal | normal | uppercase | rgb(95, 80, 157) | normal | normal]  :: Sharpen the context
+m y2610 x680 w93 h27 textPath ["Cinetype Mono" | 10px | 400 | 15.71px | normal | normal | uppercase | color(srgb 0.368627 0.310588 0.180392) | normal | normal]  :: Auto-detect gaps
+m y2675 x910 w69 h14 SPAN ["Cinetype Mono" | 12px | 400 | 18.852px | 0.9996px | normal | none | rgb(49, 38, 59) | normal | normal] InlineQuote-module__ju4aKG__authorName :: Craig W.
+m y2675 x988 w165 h14 SPAN ["Cinetype Mono" | 12px | 400 | 18.852px | 0.9996px | normal | none | rgb(137, 130, 141) | normal | normal] InlineQuote-module__ju4aKG__authorTitle :: Staff Data Engineer
+m y2942 x100 w330 h146 H3 ["PP Formula" | 28px | 800 | 36.4px | -0.7px | normal | none | rgb(20, 20, 28) | normal | normal] Heading__HeadingInternal-sc-b33f802a-0 Heading___S :: Share insights with generative dashboards and data apps
+m y3090 x510 w321 h14 SPAN [Cinetype | 14px | 400 | 14px | normal | normal | none | rgb(49, 38, 59) | normal | normal] FloatingPrompt-module__hD9Eta__labelPlaceholder :: Give this a dark, high-contrast control-room look
+m y3090 x510 w321 h14 SPAN [Cinetype | 14px | 400 | 14px | normal | normal | none | rgb(49, 38, 59) | normal | normal] FloatingPrompt-module__hD9Eta__labelTyped :: Give this a dark, high-contrast control-room look
+m y3090 x940 w172 h14 SPAN [Cinetype | 14px | 400 | 14px | normal | normal | none | rgb(49, 38, 59) | normal | normal] FloatingPrompt-module__hD9Eta__labelPlaceholder :: Put the key takeaway first
+m y3090 x940 w172 h14 SPAN [Cinetype | 14px | 400 | 14px | normal | normal | none | rgb(49, 38, 59) | normal | normal] FloatingPrompt-module__hD9Eta__labelTyped :: Put the key takeaway first
+m y3097 x510 w1 h1 SPAN [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(49, 38, 59) | normal | normal] FloatingPrompt-module__hD9Eta__visuallyHidden :: Give this a dark, high-contrast control-room look
+m y3097 x940 w1 h1 SPAN [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(49, 38, 59) | normal | normal] FloatingPrompt-module__hD9Eta__visuallyHidden :: Put the key takeaway first
+m y3118 x121 w151 h22 DIV [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(20, 20, 28) | normal | normal] Button__Children-sc-3759e784-4 :: Explore AI app building
+m y3221 x127 w303 h72 P [Cinetype | 16px | 300 | 24px | normal | normal | none | rgb(20, 20, 28) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: " With Hex's Notebook Agent, What a dream come true. "
+m y3223 x127 w270 h43 SPAN [Cinetype | 16px | 300 | 24px | normal | normal | none | rgb(20, 20, 28) | normal | normal]  :: I never have to build another chart again?
+m y3315 x187 w174 h14 SPAN ["Cinetype Mono" | 12px | 400 | 18.852px | 0.9996px | normal | none | rgb(49, 38, 59) | normal | normal] InlineQuote-module__ju4aKG__authorName :: Molly Jane Nicholas.
+m y3315 x187 w234 h33 SPAN ["Cinetype Mono" | 12px | 400 | 18.852px | 0.9996px | normal | none | rgb(137, 130, 141) | normal | normal] InlineQuote-module__ju4aKG__authorTitle :: Senior Researcher
+m y3407 x510 w232 h14 SPAN [Cinetype | 14px | 400 | 14px | normal | normal | none | rgb(49, 38, 59) | normal | normal] FloatingPrompt-module__hD9Eta__labelPlaceholder :: Compare the scenarios side by side
+m y3407 x510 w232 h14 SPAN [Cinetype | 14px | 400 | 14px | normal | normal | none | rgb(49, 38, 59) | normal | normal] FloatingPrompt-module__hD9Eta__labelTyped :: Compare the scenarios side by side
+m y3407 x940 w291 h14 SPAN [Cinetype | 14px | 400 | 14px | normal | normal | none | rgb(49, 38, 59) | normal | normal] FloatingPrompt-module__hD9Eta__labelPlaceholder :: Make it feel warmer and more approachable
+m y3407 x940 w291 h14 SPAN [Cinetype | 14px | 400 | 14px | normal | normal | none | rgb(49, 38, 59) | normal | normal] FloatingPrompt-module__hD9Eta__labelTyped :: Make it feel warmer and more approachable
+m y3414 x510 w1 h1 SPAN [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(49, 38, 59) | normal | normal] FloatingPrompt-module__hD9Eta__visuallyHidden :: Compare the scenarios side by side
+m y3414 x940 w1 h1 SPAN [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(49, 38, 59) | normal | normal] FloatingPrompt-module__hD9Eta__visuallyHidden :: Make it feel warmer and more approachable
+m y3578 x125 w151 h13 SPAN ["Cinetype Mono" | 11px | 400 | 28px | 0.9163px | normal | none | rgb(49, 38, 59) | normal | normal]  :: Agent observability
+m y3611 x160 w82 h15 SPAN ["IBM Plex Sans" | 12px | 400 | 15px | normal | normal | none | rgb(1, 1, 27) | normal | normal] NavBar__TitleText-sc-dee489d7-3 :: Context Studio
+m y3611 x290 w44 h16 SPAN ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal]  :: All roles
+m y3611 x384 w46 h16 SPAN ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal]  :: All users
+m y3611 x480 w50 h16 SPAN ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal]  :: All topics
+m y3611 x580 w66 h16 SPAN ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal]  :: All warnings
+m y3611 x696 w59 h16 SPAN ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal]  :: All sources
+m y3611 x849 w60 h16 SPAN ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal]  :: Last 7 days
+m y3634 x268 w110 h24 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(71, 57, 130) | normal | normal] HexPopover__PopoverItem-sc-b8dbcf44-4 :: All roles
+m y3634 x362 w110 h24 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(71, 57, 130) | normal | normal] HexPopover__PopoverItem-sc-b8dbcf44-4 :: All users
+m y3634 x458 w149 h24 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(71, 57, 130) | normal | normal] HexPopover__PopoverItem-sc-b8dbcf44-4 :: All topics
+m y3634 x558 w110 h24 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(71, 57, 130) | normal | normal] HexPopover__PopoverItem-sc-b8dbcf44-4 :: All warnings
+m y3634 x674 w110 h24 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(71, 57, 130) | normal | normal] HexPopover__PopoverItem-sc-b8dbcf44-4 :: All sources
+m y3634 x846 w110 h24 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(71, 57, 130) | normal | normal] HexPopover__PopoverItem-sc-b8dbcf44-4 :: Last 7 days
+m y3651 x108 w138 h13 DIV ["IBM Plex Sans" | 10px | 500 | 13px | normal | normal | uppercase | rgb(113, 122, 148) | normal | normal] CSSidebar__SectionHeader-sc-909d60ae-4 :: Observability
+m y3658 x268 w110 h24 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(1, 1, 27) | normal | normal] HexPopover__PopoverItem-sc-b8dbcf44-4 :: Admin
+m y3658 x362 w110 h24 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(1, 1, 27) | normal | normal] HexPopover__PopoverItem-sc-b8dbcf44-4 :: Kira Vance
+m y3658 x458 w149 h24 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(1, 1, 27) | normal | normal] HexPopover__PopoverItem-sc-b8dbcf44-4 :: Revenue by Product Line
+m y3658 x558 w110 h24 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(1, 1, 27) | normal | normal] HexPopover__PopoverItem-sc-b8dbcf44-4 :: User doubt
+m y3658 x674 w110 h24 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(1, 1, 27) | normal | normal] HexPopover__PopoverItem-sc-b8dbcf44-4 :: Hex
+m y3658 x846 w110 h24 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(1, 1, 27) | normal | normal] HexPopover__PopoverItem-sc-b8dbcf44-4 :: Last 30 days
+m y3659 x275 w109 h16 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(1, 1, 27) | normal | normal] Sparkline__Title-sc-d7faa19-1 :: Agent conversations
+m y3659 x404 w223 h16 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(1, 1, 27) | normal | normal] InteractiveFeatureCSDashboard__ChartTitle-sc-b434a :: Conversation volume
+m y3659 x647 w273 h16 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(1, 1, 27) | normal | normal] InteractiveFeatureCSDashboard__ChartTitle-sc-b434a :: Top conversation topics
+m y3673 x135 w50 h15 SPAN ["IBM Plex Sans" | 12px | 400 | 15px | normal | normal | none | rgb(71, 57, 130) | normal | normal]  :: Overview
+m y3677 x275 w109 h31 DIV ["IBM Plex Sans" | 24px | 700 | 31.2px | normal | normal | none | rgb(1, 1, 27) | normal | normal] Sparkline__Value-sc-d7faa19-2 :: 461
+m y3682 x268 w110 h24 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(1, 1, 27) | normal | normal] HexPopover__PopoverItem-sc-b8dbcf44-4 :: Editor
+m y3682 x362 w110 h24 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(1, 1, 27) | normal | normal] HexPopover__PopoverItem-sc-b8dbcf44-4 :: Marcus Sol
+m y3682 x458 w149 h24 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(1, 1, 27) | normal | normal] HexPopover__PopoverItem-sc-b8dbcf44-4 :: Sales Breakdown
+m y3682 x558 w110 h24 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(1, 1, 27) | normal | normal] HexPopover__PopoverItem-sc-b8dbcf44-4 :: Missing context
+m y3682 x674 w110 h24 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(1, 1, 27) | normal | normal] HexPopover__PopoverItem-sc-b8dbcf44-4 :: Slack
+m y3682 x846 w110 h24 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(1, 1, 27) | normal | normal] HexPopover__PopoverItem-sc-b8dbcf44-4 :: Last 60 days
+m y3685 x404 w18 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 500
+m y3685 x647 w111 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: Revenue by Product Line
+m y3704 x108 w138 h13 DIV ["IBM Plex Sans" | 10px | 500 | 13px | normal | normal | uppercase | rgb(113, 122, 148) | normal | normal] CSSidebar__SectionHeader-sc-909d60ae-4 :: Management
+m y3705 x268 w110 h24 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(1, 1, 27) | normal | normal] HexPopover__PopoverItem-sc-b8dbcf44-4 :: Explorer
+m y3705 x362 w110 h24 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(1, 1, 27) | normal | normal] HexPopover__PopoverItem-sc-b8dbcf44-4 :: Vega Chen
+m y3705 x458 w149 h24 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(1, 1, 27) | normal | normal] HexPopover__PopoverItem-sc-b8dbcf44-4 :: Sector Analysis
+m y3705 x674 w110 h24 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(1, 1, 27) | normal | normal] HexPopover__PopoverItem-sc-b8dbcf44-4 :: MCP
+m y3705 x846 w110 h24 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(1, 1, 27) | normal | normal] HexPopover__PopoverItem-sc-b8dbcf44-4 :: Custom range
+m y3709 x404 w18 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 400
+m y3709 x681 w77 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: Sales Breakdown
+m y3721 x1010 w330 h109 H3 ["PP Formula" | 28px | 800 | 36.4px | -0.7px | normal | none | rgb(20, 20, 28) | normal | normal] Heading__HeadingInternal-sc-b33f802a-0 Heading___S :: See what people are asking, and whether the answers are right
+m y3725 x275 w109 h16 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(1, 1, 27) | normal | normal] Sparkline__Title-sc-d7faa19-1 :: Unique users
+m y3726 x135 w65 h15 SPAN ["IBM Plex Sans" | 12px | 400 | 15px | normal | normal | none | rgb(113, 122, 148) | normal | normal]  :: Suggestions
+m y3729 x362 w110 h24 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(1, 1, 27) | normal | normal] HexPopover__PopoverItem-sc-b8dbcf44-4 :: Orion Reyes
+m y3729 x458 w149 h24 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(1, 1, 27) | normal | normal] HexPopover__PopoverItem-sc-b8dbcf44-4 :: Quarterly Trends
+m y3729 x674 w110 h24 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(1, 1, 27) | normal | normal] HexPopover__PopoverItem-sc-b8dbcf44-4 :: CLI
+m y3733 x404 w18 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 300
+m y3733 x689 w69 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: Sector Analysis
+m y3742 x275 w109 h31 DIV ["IBM Plex Sans" | 24px | 700 | 31.2px | normal | normal | none | rgb(1, 1, 27) | normal | normal] Sparkline__Value-sc-d7faa19-2 :: 55
+m y3750 x135 w78 h15 SPAN ["IBM Plex Sans" | 12px | 400 | 15px | normal | normal | none | rgb(113, 122, 148) | normal | normal]  :: Endorsements
+m y3752 x362 w110 h24 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(1, 1, 27) | normal | normal] HexPopover__PopoverItem-sc-b8dbcf44-4 :: Nova Okafor
+m y3752 x458 w149 h24 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(1, 1, 27) | normal | normal] HexPopover__PopoverItem-sc-b8dbcf44-4 :: Product Comparisons
+m y3757 x404 w18 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 200
+m y3757 x683 w75 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: Quarterly Trends
+m y3774 x135 w38 h15 SPAN ["IBM Plex Sans" | 12px | 400 | 15px | normal | normal | none | rgb(113, 122, 148) | normal | normal]  :: Guides
+m y3776 x362 w110 h24 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(1, 1, 27) | normal | normal] HexPopover__PopoverItem-sc-b8dbcf44-4 :: Cass Meridian
+m y3776 x458 w149 h24 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(1, 1, 27) | normal | normal] HexPopover__PopoverItem-sc-b8dbcf44-4 :: Sector Revenue
+m y3780 x716 w40 h13 SPAN ["Cinetype Mono" | 11px | 400 | 28px | 0.9163px | normal | none | rgb(49, 38, 59) | normal | normal]  :: Evals
+m y3781 x404 w18 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 100
+m y3781 x662 w96 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: Product Comparisons
+m y3790 x275 w109 h16 DIV ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(1, 1, 27) | normal | normal] Sparkline__Title-sc-d7faa19-1 :: Warnings
+m y3798 x135 w39 h15 SPAN ["IBM Plex Sans" | 12px | 400 | 15px | normal | normal | none | rgb(113, 122, 148) | normal | normal]  :: Models
+m y3805 x416 w6 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 0
+m y3805 x688 w70 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: Sector Revenue
+m y3807 x275 w109 h31 DIV ["IBM Plex Sans" | 24px | 700 | 31.2px | normal | normal | none | rgb(1, 1, 27) | normal | normal] Sparkline__Value-sc-d7faa19-2 :: 12
+m y3822 x135 w67 h15 SPAN ["IBM Plex Sans" | 12px | 400 | 15px | normal | normal | none | rgb(113, 122, 148) | normal | normal]  :: Connections
+m y3829 x435 w22 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 9/19
+m y3829 x468 w22 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 9/20
+m y3829 x501 w22 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 9/21
+m y3829 x535 w22 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 9/22
+m y3829 x568 w22 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 9/23
+m y3829 x601 w22 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 9/24
+m y3829 x766 w6 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 0
+m y3829 x782 w6 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 5
+m y3829 x798 w12 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 10
+m y3829 x820 w12 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 15
+m y3829 x842 w12 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 20
+m y3829 x864 w12 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 25
+m y3829 x886 w12 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 30
+m y3829 x908 w12 h22 DIV ["IBM Plex Sans" | 10px | 400 | 22px | normal | normal | none | rgb(113, 122, 148) | normal | normal] chartSharedStyles__TickText-sc-2de1310f-4 :: 35
+m y3861 x1031 w176 h22 DIV [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(20, 20, 28) | normal | normal] Button__Children-sc-3759e784-4 :: Explore the Context Studio
+m y3864 x255 w88 h30 TH ["IBM Plex Sans" | 10px | 500 | 13px | normal | normal | uppercase | rgb(113, 122, 148) | normal | normal] ThreadsTable__Th-sc-caa35dd5-0 :: DATE
+m y3864 x343 w69 h30 TH ["IBM Plex Sans" | 10px | 500 | 13px | normal | normal | uppercase | rgb(113, 122, 148) | normal | normal] ThreadsTable__Th-sc-caa35dd5-0 :: AGENT
+m y3864 x411 w250 h30 TH ["IBM Plex Sans" | 10px | 500 | 13px | normal | normal | uppercase | rgb(113, 122, 148) | normal | normal] ThreadsTable__Th-sc-caa35dd5-0 :: PROMPT
+m y3864 x661 w100 h30 TH ["IBM Plex Sans" | 10px | 500 | 13px | normal | normal | uppercase | rgb(113, 122, 148) | normal | normal] ThreadsTable__Th-sc-caa35dd5-0 :: TOPIC
+m y3864 x761 w112 h30 TH ["IBM Plex Sans" | 10px | 500 | 13px | normal | normal | uppercase | rgb(113, 122, 148) | normal | normal] ThreadsTable__Th-sc-caa35dd5-0 :: WARNINGS
+m y3864 x873 w55 h30 TH ["IBM Plex Sans" | 10px | 500 | 13px | normal | normal | uppercase | rgb(113, 122, 148) | normal | normal] ThreadsTable__Th-sc-caa35dd5-0 :: SOURCE
+m y3864 x928 w96 h30 TH ["IBM Plex Sans" | 10px | 500 | 13px | normal | normal | uppercase | rgb(113, 122, 148) | normal | normal] ThreadsTable__Th-sc-caa35dd5-0 :: USER
+m y3864 x1024 w73 h30 TH ["IBM Plex Sans" | 10px | 500 | 13px | normal | normal | uppercase | rgb(113, 122, 148) | normal | normal] ThreadsTable__Th-sc-caa35dd5-0 :: ROLE
+m y3894 x255 w88 h32 TD ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal] ThreadsTable__Td-sc-caa35dd5-2 :: 44 min ago
+m y3894 x343 w69 h32 TD ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal] ThreadsTable__Td-sc-caa35dd5-2 :: Notebook
+m y3894 x411 w250 h32 TD ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(1, 1, 27) | normal | normal] ThreadsTable__Td-sc-caa35dd5-2 :: How did revenue change across the Outer Rim compared to last quarter?
+m y3894 x661 w100 h32 TD ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal] ThreadsTable__Td-sc-caa35dd5-2 :: Revenue by Product Line
+m y3894 x873 w55 h32 TD ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal] ThreadsTable__Td-sc-caa35dd5-2 :: Hex
+m y3894 x928 w96 h32 TD ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal] ThreadsTable__Td-sc-caa35dd5-2 :: Luc Patton
+m y3894 x1024 w73 h32 TD ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal] ThreadsTable__Td-sc-caa35dd5-2 :: Admin
+m y3908 x-60 w120 h37 TH ["IBM Plex Sans" | 10px | 400 | 36px | normal | normal | none | rgb(113, 122, 148) | normal | normal] InteractiveFeatureEvals-module__yMOMca__columnHead :: Grade
+m y3908 x60 w432 h37 TH ["IBM Plex Sans" | 10px | 400 | 36px | normal | normal | none | rgb(113, 122, 148) | normal | normal] InteractiveFeatureEvals-module__yMOMca__columnHead :: Prompt
+m y3908 x492 w148 h37 TH ["IBM Plex Sans" | 10px | 400 | 36px | normal | normal | none | rgb(113, 122, 148) | normal | normal] InteractiveFeatureEvals-module__yMOMca__columnHead :: Attempts
+m y3908 x640 w84 h37 TH ["IBM Plex Sans" | 10px | 400 | 36px | normal | normal | none | rgb(113, 122, 148) | normal | normal] InteractiveFeatureEvals-module__yMOMca__columnHead :: Rubrics
+m y3908 x724 w106 h37 TH ["IBM Plex Sans" | 10px | 400 | 36px | normal | normal | none | rgb(113, 122, 148) | normal | normal] InteractiveFeatureEvals-module__yMOMca__columnHead :: Average time
+m y3908 x830 w92 h37 TH ["IBM Plex Sans" | 10px | 400 | 36px | normal | normal | none | rgb(113, 122, 148) | normal | normal] InteractiveFeatureEvals-module__yMOMca__columnHead :: Total credits
+m y3926 x255 w88 h32 TD ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal] ThreadsTable__Td-sc-caa35dd5-2 :: 1 hr ago
+m y3926 x343 w69 h32 TD ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal] ThreadsTable__Td-sc-caa35dd5-2 :: Threads
+m y3926 x411 w250 h32 TD ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(1, 1, 27) | normal | normal] ThreadsTable__Td-sc-caa35dd5-2 :: Which product lines saw the strongest Research-sector demand?
+m y3926 x661 w100 h32 TD ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal] ThreadsTable__Td-sc-caa35dd5-2 :: Sales Breakdown
+m y3926 x873 w55 h32 TD ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal] ThreadsTable__Td-sc-caa35dd5-2 :: Slack
+m y3926 x928 w96 h32 TD ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal] ThreadsTable__Td-sc-caa35dd5-2 :: Eels Gulsen
+m y3926 x1024 w73 h32 TD ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal] ThreadsTable__Td-sc-caa35dd5-2 :: Editor
+m y3930 x769 w71 h22 SPAN ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(166, 121, 8) | normal | normal] ThreadsTable__Warning-sc-caa35dd5-4 :: User doubt
+m y3945 x60 w432 h50 TH ["IBM Plex Sans" | 12px | 400 | 16px | normal | normal | none | rgb(1, 1, 27) | normal | normal] InteractiveFeatureEvals-module__yMOMca__promptCell :: How much ARR do we have from currently active customers?
+m y3945 x640 w84 h50 TD ["IBM Plex Sans" | 10px | 400 | 13px | normal | normal | none | rgb(113, 122, 148) | normal | normal] InteractiveFeatureEvals-module__yMOMca__cell :: 3
+m y3945 x724 w106 h50 TD ["IBM Plex Sans" | 10px | 400 | 13px | normal | normal | none | rgb(113, 122, 148) | normal | normal] InteractiveFeatureEvals-module__yMOMca__cell :: 56s
+m y3945 x830 w92 h50 TD ["IBM Plex Sans" | 10px | 400 | 13px | normal | normal | none | rgb(113, 122, 148) | normal | normal] InteractiveFeatureEvals-module__yMOMca__cell :: 8.6
+m y3957 x255 w88 h32 TD ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal] ThreadsTable__Td-sc-caa35dd5-2 :: 2 hrs ago
+m y3957 x343 w69 h32 TD ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal] ThreadsTable__Td-sc-caa35dd5-2 :: Modeling
+m y3957 x411 w250 h32 TD ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(1, 1, 27) | normal | normal] ThreadsTable__Td-sc-caa35dd5-2 :: Help me define measures and dimensions for the Core Worlds semantic model.
+m y3957 x661 w100 h32 TD ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal] ThreadsTable__Td-sc-caa35dd5-2 :: Sector Analysis
+m y3957 x873 w55 h32 TD ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal] ThreadsTable__Td-sc-caa35dd5-2 :: MCP
+m y3957 x928 w96 h32 TD ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal] ThreadsTable__Td-sc-caa35dd5-2 :: Andrei Leesom
+m y3957 x1024 w73 h32 TD ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal] ThreadsTable__Td-sc-caa35dd5-2 :: Explorer
+m y3959 x-10 w58 h20 SPAN ["IBM Plex Sans" | 10px | 400 | 13px | normal | normal | none | rgb(15, 107, 91) | normal | normal] InteractiveFeatureEvals-module__yMOMca__status Int :: Passed
+m y3962 x542 w16 h13 SPAN ["IBM Plex Sans" | 10px | 400 | 13px | normal | normal | none | rgb(113, 122, 148) | normal | normal]  :: 1/1
+m y3964 x1037 w303 h168 P [Cinetype | 16px | 300 | 24px | normal | normal | none | rgb(20, 20, 28) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: " We have so many people and products that our context is never stagnant. Even when we launch a new 
+m y3989 x255 w88 h32 TD ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal] ThreadsTable__Td-sc-caa35dd5-2 :: 3 hrs ago
+m y3989 x343 w69 h32 TD ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal] ThreadsTable__Td-sc-caa35dd5-2 :: Threads
+m y3989 x411 w250 h32 TD ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(1, 1, 27) | normal | normal] ThreadsTable__Td-sc-caa35dd5-2 :: Give me a breakdown of negative customer feedback in the Outer Rim this month.
+m y3989 x661 w100 h32 TD ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal] ThreadsTable__Td-sc-caa35dd5-2 :: Sector Revenue
+m y3989 x873 w55 h32 TD ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal] ThreadsTable__Td-sc-caa35dd5-2 :: CLI
+m y3989 x928 w96 h32 TD ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal] ThreadsTable__Td-sc-caa35dd5-2 :: Andrei Leesom
+m y3989 x1024 w73 h32 TD ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal] ThreadsTable__Td-sc-caa35dd5-2 :: Explorer
+m y3993 x769 w96 h22 SPAN ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(166, 121, 8) | normal | normal] ThreadsTable__Warning-sc-caa35dd5-4 :: Missing context
+m y4006 x-9 w495 h38 TH ["IBM Plex Sans" | 10px | 500 | 14px | normal | normal | none | rgb(1, 1, 27) | normal | normal] InteractiveFeatureEvals-module__yMOMca__rubricHead :: Rubric
+m y4014 x506 w113 h20 SPAN ["IBM Plex Sans" | 10px | 500 | 14px | normal | normal | none | rgb(1, 1, 27) | normal | normal] InteractiveFeatureEvals-module__yMOMca__attemptHea :: Attempt 1
+m y4014 x560 w59 h20 SPAN ["IBM Plex Sans" | 10px | 500 | 14px | normal | normal | none | rgb(15, 107, 91) | normal | normal] InteractiveFeatureEvals-module__yMOMca__status Int :: Passed
+m y4020 x255 w88 h32 TD ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal] ThreadsTable__Td-sc-caa35dd5-2 :: 3 hrs ago
+m y4020 x343 w69 h32 TD ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal] ThreadsTable__Td-sc-caa35dd5-2 :: Threads
+m y4020 x411 w250 h32 TD ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(1, 1, 27) | normal | normal] ThreadsTable__Td-sc-caa35dd5-2 :: What are this quarter's top customer pain points in the Outer Rim?
+m y4020 x661 w100 h32 TD ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal] ThreadsTable__Td-sc-caa35dd5-2 :: Quarterly Trends
+m y4020 x873 w55 h32 TD ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal] ThreadsTable__Td-sc-caa35dd5-2 :: Hex
+m y4020 x928 w96 h32 TD ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal] ThreadsTable__Td-sc-caa35dd5-2 :: Andrei Leesom
+m y4020 x1024 w73 h32 TD ["IBM Plex Sans" | 12px | 400 | 15.6px | normal | normal | none | rgb(113, 122, 148) | normal | normal] ThreadsTable__Td-sc-caa35dd5-2 :: Explorer
+m y4058 x11 w442 h14 P ["IBM Plex Sans" | 10px | 400 | 14px | normal | normal | none | rgb(1, 1, 27) | normal | normal] InteractiveFeatureEvals-module__yMOMca__rubricText :: Numeric target: SQL ground truth
+m y4062 x1037 w303 h43 SPAN [Cinetype | 16px | 300 | 24px | normal | normal | none | rgb(20, 20, 28) | normal | normal]  :: Hex’s Context Studio and Evals give us the visibility needed
+m y4064 x542 w150 h14 DIV ["IBM Plex Sans" | 10px | 400 | 14px | normal | normal | none | rgb(1, 1, 27) | normal | normal]  :: 26683729
+m y4064 x542 w45 h13 SPAN ["IBM Plex Sans" | 10px | 400 | 14px | normal | normal | none | rgb(113, 122, 148) | normal | normal] InteractiveFeatureEvals-module__yMOMca__muted :: Reported:
+m y4078 x542 w150 h14 DIV ["IBM Plex Sans" | 10px | 400 | 14px | normal | normal | none | rgb(1, 1, 27) | normal | normal]  :: 26683729 (SQL result)
+m y4078 x542 w45 h13 SPAN ["IBM Plex Sans" | 10px | 400 | 14px | normal | normal | none | rgb(113, 122, 148) | normal | normal] InteractiveFeatureEvals-module__yMOMca__muted :: Expected:
+m y4082 x11 w71 h17 SPAN ["IBM Plex Sans" | 10px | 400 | 14px | normal | normal | none | rgb(1, 1, 27) | normal | normal] InteractiveFeatureEvals-module__yMOMca__rubricTag :: Numeric value
+m y4127 x11 w442 h42 P ["IBM Plex Sans" | 10px | 400 | 14px | normal | normal | none | rgb(1, 1, 27) | normal | normal] InteractiveFeatureEvals-module__yMOMca__rubricText :: Did the agent source ARR from dim_customers.total_arr (the canonical point-in-time ARR source) joine
+m y4140 x542 w266 h42 P ["IBM Plex Sans" | 10px | 400 | 14px | normal | normal | none | rgb(1, 1, 27) | normal | normal] InteractiveFeatureEvals-module__yMOMca__resultText :: The agent returned $26,683,729 using dim_customers.total_arr joined to dim_accounts and filtered on 
+m y4154 x1086 w122 h14 SPAN ["Cinetype Mono" | 12px | 400 | 18.852px | 0.9996px | normal | none | rgb(49, 38, 59) | normal | normal] InlineQuote-module__ju4aKG__authorName :: Jordan Farrer.
+m y4154 x1086 w226 h33 SPAN ["Cinetype Mono" | 12px | 400 | 18.852px | 0.9996px | normal | none | rgb(137, 130, 141) | normal | normal] InlineQuote-module__ju4aKG__authorTitle :: Director of Data Science & Analytics
+m y4179 x11 w65 h17 SPAN ["IBM Plex Sans" | 10px | 400 | 14px | normal | normal | none | rgb(1, 1, 27) | normal | normal] InteractiveFeatureEvals-module__yMOMca__rubricTag :: Thread judge
+m y4224 x11 w442 h42 P ["IBM Plex Sans" | 10px | 400 | 14px | normal | normal | none | rgb(1, 1, 27) | normal | normal] InteractiveFeatureEvals-module__yMOMca__rubricText :: Did the agent apply the correct definition of "active" - the account lifecycle status flag (dim_acco
+m y4237 x542 w266 h42 P ["IBM Plex Sans" | 10px | 400 | 14px | normal | normal | none | rgb(1, 1, 27) | normal | normal] InteractiveFeatureEvals-module__yMOMca__resultText :: The agent summed dim_customers.total_arr for records joined to accounts where dim_accounts.account_s
+m y4276 x11 w65 h17 SPAN ["IBM Plex Sans" | 10px | 400 | 14px | normal | normal | none | rgb(1, 1, 27) | normal | normal] InteractiveFeatureEvals-module__yMOMca__rubricTag :: Thread judge
+m y4315 x506 w163 h14 SPAN ["IBM Plex Sans" | 10px | 400 | 14px | normal | normal | none | rgb(113, 122, 148) | normal | normal] InteractiveFeatureEvals-module__yMOMca__timing :: 52s agent 8.6 credits
+m y4315 x563 w47 h14 SPAN ["IBM Plex Sans" | 10px | 400 | 14px | normal | normal | none | rgb(113, 122, 148) | normal | normal]  :: 4.6s judge
+m y4377 x60 w432 h50 TH ["IBM Plex Sans" | 12px | 400 | 16px | normal | normal | none | rgb(1, 1, 27) | normal | normal] InteractiveFeatureEvals-module__yMOMca__promptCell :: Which features are included in the NexaCorp Enterprise launch?
+m y4377 x640 w84 h50 TD ["IBM Plex Sans" | 10px | 400 | 13px | normal | normal | none | rgb(113, 122, 148) | normal | normal] InteractiveFeatureEvals-module__yMOMca__cell :: 3
+m y4377 x724 w106 h50 TD ["IBM Plex Sans" | 10px | 400 | 13px | normal | normal | none | rgb(113, 122, 148) | normal | normal] InteractiveFeatureEvals-module__yMOMca__cell :: 41.8s
+m y4377 x830 w92 h50 TD ["IBM Plex Sans" | 10px | 400 | 13px | normal | normal | none | rgb(113, 122, 148) | normal | normal] InteractiveFeatureEvals-module__yMOMca__cell :: 9.2
+m y4391 x-10 w58 h20 SPAN ["IBM Plex Sans" | 10px | 400 | 13px | normal | normal | none | rgb(15, 107, 91) | normal | normal] InteractiveFeatureEvals-module__yMOMca__status Int :: Passed
+m y4394 x598 w16 h13 SPAN ["IBM Plex Sans" | 10px | 400 | 13px | normal | normal | none | rgb(113, 122, 148) | normal | normal]  :: 3 / 3
+m y4427 x60 w432 h50 TH ["IBM Plex Sans" | 12px | 400 | 16px | normal | normal | none | rgb(1, 1, 27) | normal | normal] InteractiveFeatureEvals-module__yMOMca__promptCell :: What migration discounts are available for existing NexaCorp customers?
+m y4427 x640 w84 h50 TD ["IBM Plex Sans" | 10px | 400 | 13px | normal | normal | none | rgb(113, 122, 148) | normal | normal] InteractiveFeatureEvals-module__yMOMca__cell :: 2
+m y4427 x724 w106 h50 TD ["IBM Plex Sans" | 10px | 400 | 13px | normal | normal | none | rgb(113, 122, 148) | normal | normal] InteractiveFeatureEvals-module__yMOMca__cell :: 38.6s
+m y4427 x830 w92 h50 TD ["IBM Plex Sans" | 10px | 400 | 13px | normal | normal | none | rgb(113, 122, 148) | normal | normal] InteractiveFeatureEvals-module__yMOMca__cell :: 7.4
+m y4441 x-10 w53 h20 SPAN ["IBM Plex Sans" | 10px | 400 | 13px | normal | normal | none | rgb(182, 50, 69) | normal | normal] InteractiveFeatureEvals-module__yMOMca__status Int :: Failed
+m y4444 x598 w16 h13 SPAN ["IBM Plex Sans" | 10px | 400 | 13px | normal | normal | none | rgb(113, 122, 148) | normal | normal]  :: 1 / 3
+m y4477 x60 w432 h50 TH ["IBM Plex Sans" | 12px | 400 | 16px | normal | normal | none | rgb(1, 1, 27) | normal | normal] InteractiveFeatureEvals-module__yMOMca__promptCell :: Which connectors are generally available on launch day?
+m y4477 x640 w84 h50 TD ["IBM Plex Sans" | 10px | 400 | 13px | normal | normal | none | rgb(113, 122, 148) | normal | normal] InteractiveFeatureEvals-module__yMOMca__cell :: 2
+m y4477 x724 w106 h50 TD ["IBM Plex Sans" | 10px | 400 | 13px | normal | normal | none | rgb(113, 122, 148) | normal | normal] InteractiveFeatureEvals-module__yMOMca__cell :: 33.2s
+m y4477 x830 w92 h50 TD ["IBM Plex Sans" | 10px | 400 | 13px | normal | normal | none | rgb(113, 122, 148) | normal | normal] InteractiveFeatureEvals-module__yMOMca__cell :: 7.0
+m y4491 x-10 w53 h20 SPAN ["IBM Plex Sans" | 10px | 400 | 13px | normal | normal | none | rgb(182, 50, 69) | normal | normal] InteractiveFeatureEvals-module__yMOMca__status Int :: Failed
+m y4494 x598 w16 h13 SPAN ["IBM Plex Sans" | 10px | 400 | 13px | normal | normal | none | rgb(113, 122, 148) | normal | normal]  :: 2 / 3
+m y4527 x60 w432 h50 TH ["IBM Plex Sans" | 12px | 400 | 16px | normal | normal | none | rgb(1, 1, 27) | normal | normal] InteractiveFeatureEvals-module__yMOMca__promptCell :: Summarize the Q3 Enterprise messaging for Sales
+m y4527 x640 w84 h50 TD ["IBM Plex Sans" | 10px | 400 | 13px | normal | normal | none | rgb(113, 122, 148) | normal | normal] InteractiveFeatureEvals-module__yMOMca__cell :: 3
+m y4527 x724 w106 h50 TD ["IBM Plex Sans" | 10px | 400 | 13px | normal | normal | none | rgb(113, 122, 148) | normal | normal] InteractiveFeatureEvals-module__yMOMca__cell :: 47.9s
+m y4527 x830 w92 h50 TD ["IBM Plex Sans" | 10px | 400 | 13px | normal | normal | none | rgb(113, 122, 148) | normal | normal] InteractiveFeatureEvals-module__yMOMca__cell :: 9.5
+m y4541 x-10 w58 h20 SPAN ["IBM Plex Sans" | 10px | 400 | 13px | normal | normal | none | rgb(15, 107, 91) | normal | normal] InteractiveFeatureEvals-module__yMOMca__status Int :: Passed
+m y4544 x598 w16 h13 SPAN ["IBM Plex Sans" | 10px | 400 | 13px | normal | normal | none | rgb(113, 122, 148) | normal | normal]  :: 3 / 3
+m y4668 x140 w181 h21 DIV ["Cinetype Mono" | 13px | 400 | 13px | 1.0829px | normal | none | rgb(169, 133, 41) | normal | normal] HomeProductEthos-module__bpl4nW__eyebrow :: Flexible by design
+m y4668 x770 w256 h21 DIV ["Cinetype Mono" | 13px | 400 | 13px | 1.0829px | normal | none | rgb(66, 80, 160) | normal | normal] HomeProductEthos-module__bpl4nW__eyebrow :: Control without compromise
+m y4704 x134 w542 h115 H2 ["PP Formula" | 28px | 800 | 36.4px | -0.7px | normal | none | rgb(20, 20, 28) | normal | normal] Heading__HeadingInternal-sc-b33f802a-0 Heading___S :: Work with any data, any AI model, and any context, so you aren’t locked in
+m y4704 x764 w542 h79 H2 ["PP Formula" | 28px | 800 | 36.4px | -0.7px | normal | none | rgb(20, 20, 28) | normal | normal] Heading__HeadingInternal-sc-b33f802a-0 Heading___S :: Secure your data, with enterprise-grade permissions and trust
+m y4792 x770 w530 h48 P [Cinetype | 16px | 300 | 24px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: Hex is built so organizations can open up access without giving up control.
+m y4829 x140 w530 h48 P [Cinetype | 16px | 300 | 24px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: Your AI bill is getting big – but you don’t know who is spending how much on what things, and whethe
+m y4860 x770 w530 h72 P [Cinetype | 16px | 300 | 24px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: Bring AI and data work onto a platform backed by enterprise-grade security, governance, organization
+m y4897 x140 w530 h24 P [Cinetype | 16px | 300 | 24px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: Hex helps you get control of this:
+m y4941 x164 w506 h24 P [Cinetype | 16px | 300 | 24px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: Model choice, including open source models
+m y4952 x770 w530 h48 P [Cinetype | 16px | 300 | 24px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: The infrastructure stays rigorous so the people using it don’t have to think about it.
+m y4965 x164 w506 h48 P [Cinetype | 16px | 300 | 24px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: Thread-level observability into token spend, so you can see who is spending what on which projects
+m y5013 x164 w506 h48 P [Cinetype | 16px | 300 | 24px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: Eval sweeps that let you dial in the price / quality frontier across models
+m y5035 x791 w134 h22 DIV [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(20, 20, 28) | normal | normal] Button__Children-sc-3759e784-4 :: Explore Trust Center
+m y5096 x161 w231 h22 DIV [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(20, 20, 28) | normal | normal] Button__Children-sc-3759e784-4 :: Explore how Hex keeps you flexible
+m y5329 x778 w576 h90 Q [Cinetype | 20px | 300 | 30px | normal | normal | none | rgb(49, 38, 59) | normal | normal] CustomerStoriesTwoUp__Quote-sc-3a58b311-4 :: "AI can do almost everything for you in Hex. I use it to scaffold entire apps and help me debug SQL 
+m y5344 x86 w576 h60 Q [Cinetype | 20px | 300 | 30px | normal | normal | none | rgb(49, 38, 59) | normal | normal] CustomerStoriesTwoUp__Quote-sc-3a58b311-4 :: "If we didn’t have Hex, That might even be an underestimate."
+m y5347 x129 w516 h54 EM [Cinetype | 20px | 700 | 30px | normal | normal | none | rgb(20, 20, 28) | normal | normal] CustomerStoriesTwoUp__Em-sc-3a58b311-5 :: we might’ve left more than $100M on the table.
+m y5392 x1047 w218 h24 EM [Cinetype | 20px | 700 | 30px | normal | normal | none | rgb(20, 20, 28) | normal | normal] CustomerStoriesTwoUp__Em-sc-3a58b311-5 :: It makes me 10x faster.
+m y5420 x345 w59 h22 P [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(20, 20, 28) | normal | normal]  :: Dhaval P.
+m y5435 x1044 w43 h22 P [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(20, 20, 28) | normal | normal]  :: Tom C.
+m y5442 x322 w104 h19 P ["Cinetype Mono" | 12px | 400 | 18.852px | 0.9996px | normal | none | rgb(137, 130, 141) | normal | normal]  :: Account Lead
+m y5457 x987 w156 h19 P ["Cinetype Mono" | 12px | 400 | 18.852px | 0.9996px | normal | none | rgb(137, 130, 141) | normal | normal]  :: Principal Engineer
+m y5667 x585 w663 h26 H3 ["PP Formula" | 20px | 600 | 26px | -0.5px | normal | none | rgb(20, 20, 28) | normal | normal] Heading__HeadingInternal-sc-b33f802a-0 Heading___S :: Migrate from traditional BI to modern AI-powered self-serve
+m y5701 x585 w715 h48 P [Cinetype | 16px | 300 | 24px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: Move beyond static dashboards and give teams trusted, AI-powered access to the data they need while 
+m y5816 x134 w252 h193 H2 ["PP Formula" | 40px | 800 | 52px | -1px | normal | none | rgb(20, 20, 28) | normal | normal] Heading__HeadingInternal-sc-b33f802a-0 Heading___S :: Use cases
+m y5828 x585 w377 h26 H3 ["PP Formula" | 20px | 600 | 26px | -0.5px | normal | none | rgb(20, 20, 28) | normal | normal] Heading__HeadingInternal-sc-b33f802a-0 Heading___S :: Build a Context Layer for AI on data
+m y5862 x585 w715 h48 P [Cinetype | 16px | 300 | 24px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: Bring business logic, definitions, models, and institutional knowledge together so agents can reason
+m y5868 x140 w240 h135 SPAN ["PP Editorial New" | 52px | 200 | 67.6px | -1px | italic | none | rgb(20, 20, 28) | normal | normal] HomeUseCases-module__7W7WPW__subheading :: Get the most out of Hex
+m y5989 x585 w330 h26 H3 ["PP Formula" | 20px | 600 | 26px | -0.5px | normal | none | rgb(20, 20, 28) | normal | normal] Heading__HeadingInternal-sc-b33f802a-0 Heading___S :: Make chat apps work with data
+m y6023 x585 w715 h48 P [Cinetype | 16px | 300 | 24px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: Let teams work from Claude, Codex, Cursor, or wherever they’re most productive while Hex provides a 
+m y6368 x521 w168 h110 SPAN ["PP Editorial New" | 78px | 200 | 101.4px | -1.848px | italic | none | rgb(20, 20, 28) | normal | normal]  :: Loved
+m y6373 x442 w556 h103 DIV ["PP Formula SemiExtended" | 60px | 700 | 78px | -1.848px | normal | none | rgb(20, 20, 28) | normal | normal]  :: by the
+m y6475 x442 w556 h78 DIV ["PP Formula SemiExtended" | 60px | 700 | 78px | -1.848px | normal | none | rgb(20, 20, 28) | normal | normal]  :: best data teams
+m y6553 x451 w538 h30 P [Cinetype | 20px | 300 | 30px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: Hex helps companies of all sizes do more with their data.
+m y6785 x163 w233 h26 H4 ["PP Formula" | 20px | 600 | 26px | -0.5px | normal | none | rgb(20, 20, 28) | normal | normal] Heading__HeadingInternal-sc-b33f802a-0 Heading___S :: One place for insights
+m y6785 x457 w233 h52 H4 ["PP Formula" | 20px | 600 | 26px | -0.5px | normal | none | rgb(20, 20, 28) | normal | normal] Heading__HeadingInternal-sc-b33f802a-0 Heading___S :: Scaling self-serve AI analytics
+m y6785 x751 w233 h52 H4 ["PP Formula" | 20px | 600 | 26px | -0.5px | normal | none | rgb(20, 20, 28) | normal | normal] Heading__HeadingInternal-sc-b33f802a-0 Heading___S :: Lowering barriers to insight
+m y6785 x1044 w233 h26 H4 ["PP Formula" | 20px | 600 | 26px | -0.5px | normal | none | rgb(20, 20, 28) | normal | normal] Heading__HeadingInternal-sc-b33f802a-0 Heading___S :: Breaking data silos
+m y6826 x163 w233 h96 P [Cinetype | 16px | 300 | 24px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: Notion made Hex the one place for everyone, from data science to CX and sales, to make decisions wit
+m y6826 x1044 w233 h72 P [Cinetype | 16px | 300 | 24px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: Neo drives insights right where they work using Threads and Slack integration.
+m y6852 x457 w233 h72 P [Cinetype | 16px | 300 | 24px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: Mercor democratizes analysis across their org with Notebook Agent.
+m y6852 x751 w233 h72 P [Cinetype | 16px | 300 | 24px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: Figma's team focuses on strategy over syntax using Hex's AI agents.
+m y6941 x306 w65 h11 SPAN ["IBM Plex Mono" | 12px | 700 | 11px | normal | normal | uppercase | rgb(137, 130, 141) | normal | normal]  :: Read more
+m y6941 x600 w65 h11 SPAN ["IBM Plex Mono" | 12px | 700 | 11px | normal | normal | uppercase | rgb(137, 130, 141) | normal | normal]  :: Read more
+m y6941 x893 w65 h11 SPAN ["IBM Plex Mono" | 12px | 700 | 11px | normal | normal | uppercase | rgb(137, 130, 141) | normal | normal]  :: Read more
+m y6941 x1187 w65 h11 SPAN ["IBM Plex Mono" | 12px | 700 | 11px | normal | normal | uppercase | rgb(137, 130, 141) | normal | normal]  :: Read more
+m y7132 x594 w669 h144 BLOCKQUOTE [Cinetype | 24px | 300 | 36px | normal | normal | none | rgb(20, 20, 28) | normal | normal]  :: " Our vision for Notion's data team is that anyone, regardless of technical proficiency, is comforta
+m y7306 x168 w280 h36 H3 ["PP Formula" | 28px | 800 | 36.4px | -0.7px | normal | none | rgb(20, 20, 28) | normal | normal] Heading__HeadingInternal-sc-b33f802a-0 Heading___S :: Users love Hex
+m y7346 x168 w280 h44 P [Cinetype | 14px | 300 | 21.994px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: Rated on G2 as an industry leader based on customer reviews.
+m y7358 x606 w291 h22 P [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: Abhishek Modi
+m y7360 x701 w195 h17 SPAN [Cinetype | 14px | 300 | 21.994px | normal | normal | none | rgb(49, 38, 59) | normal | normal]  :: Software Engineer at Notion
+m y7368 x312 w123 h22 SPAN [Cinetype | 14px | 300 | 21.994px | normal | normal | none | rgb(67, 57, 76) | normal | normal] G2SocialProofCard__CheckThemOutLinkInline-sc-95f60 :: Check them out
+m y7599 x364 w711 h185 H2 ["PP Formula SemiExtended" | 60px | 700 | 78px | -1.848px | normal | none | rgb(20, 20, 28) | normal | normal] Heading__HeadingInternal-sc-b33f802a-0 Heading___S :: with the whole stack
+m y7599 x370 w699 h101 SPAN ["PP Editorial New" | 78px | 200 | 101.4px | -1.848px | italic | none | rgb(20, 20, 28) | normal | normal]  :: Instant integration
+m y7800 x470 w500 h72 P [Cinetype | 24px | 300 | 36px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: Out-of-the-box connections and flexible APIs make setup a breeze.
+m y7979 x721 w26 h24 P [Cinetype | 16px | 300 | 24px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: dbt
+m y7979 x1030 w77 h24 P [Cinetype | 16px | 300 | 24px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: Snowflake
+m y7979 x1154 w70 h24 P [Cinetype | 16px | 300 | 24px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: BigQuery
+m y8019 x1087 w80 h24 P [Cinetype | 16px | 300 | 24px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: Databricks
+m y8142 x165 w323 h26 H4 ["PP Formula" | 20px | 600 | 26px | -0.5px | normal | none | rgb(20, 20, 28) | normal | normal] Heading__HeadingInternal-sc-b33f802a-0 Heading___S :: Built for the warehouse
+m y8142 x558 w323 h26 H4 ["PP Formula" | 20px | 600 | 26px | -0.5px | normal | none | rgb(20, 20, 28) | normal | normal] Heading__HeadingInternal-sc-b33f802a-0 Heading___S :: dbt metadata, docs, & metrics
+m y8142 x952 w323 h52 H4 ["PP Formula" | 20px | 600 | 26px | -0.5px | normal | none | rgb(20, 20, 28) | normal | normal] Heading__HeadingInternal-sc-b33f802a-0 Heading___S :: Connect to your warehouse with oAuth
+m y8175 x165 w323 h88 P [Cinetype | 14px | 300 | 21.994px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: Hex has built-in connections to the most popular data warehouses, lakehouses, and databases. It’s ea
+m y8175 x558 w323 h44 P [Cinetype | 14px | 300 | 21.994px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: Hex has a deep integration with dbt, including automatically enriching schemas with dbt docs.
+m y8201 x952 w323 h44 P [Cinetype | 14px | 300 | 21.994px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: Leverage the permissions set up in your data warehouse, by authenticating with oAuth
+m y8275 x401 w72 h11 SPAN ["IBM Plex Mono" | 12px | 700 | 11px | normal | normal | uppercase | rgb(49, 38, 59) | normal | normal]  :: Learn more
+m y8275 x795 w72 h11 SPAN ["IBM Plex Mono" | 12px | 700 | 11px | normal | normal | uppercase | rgb(49, 38, 59) | normal | normal]  :: Learn more
+m y8275 x1188 w72 h11 SPAN ["IBM Plex Mono" | 12px | 700 | 11px | normal | normal | uppercase | rgb(49, 38, 59) | normal | normal]  :: Learn more
+m y8360 x266 w52 h24 P [Cinetype | 16px | 300 | 24px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: GitHub
+m y8360 x365 w49 h24 P [Cinetype | 16px | 300 | 24px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: GitLab
+m y8360 x654 w53 h24 P [Cinetype | 16px | 300 | 24px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: Airflow
+m y8360 x754 w59 h24 P [Cinetype | 16px | 300 | 24px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: Dagster
+m y8400 x706 w54 h24 P [Cinetype | 16px | 300 | 24px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: Prefect
+m y8523 x165 w323 h26 H4 ["PP Formula" | 20px | 600 | 26px | -0.5px | normal | none | rgb(20, 20, 28) | normal | normal] Heading__HeadingInternal-sc-b33f802a-0 Heading___S :: Git it together
+m y8523 x558 w323 h26 H4 ["PP Formula" | 20px | 600 | 26px | -0.5px | normal | none | rgb(20, 20, 28) | normal | normal] Heading__HeadingInternal-sc-b33f802a-0 Heading___S :: Orchestration
+m y8523 x952 w323 h26 H4 ["PP Formula" | 20px | 600 | 26px | -0.5px | normal | none | rgb(20, 20, 28) | normal | normal] Heading__HeadingInternal-sc-b33f802a-0 Heading___S :: Hex API
+m y8556 x165 w323 h44 P [Cinetype | 14px | 300 | 21.994px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: Export your projects to GitHub or GitLab to create an audit trail.
+m y8556 x558 w323 h44 P [Cinetype | 14px | 300 | 21.994px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: You can include Hex projects in DAGs in Airflow, Dagster, or Prefect.
+m y8556 x952 w323 h66 P [Cinetype | 14px | 300 | 21.994px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: Want to connect to something we haven't thought of? Use our powerful public API to write your own in
+m y8634 x401 w72 h11 SPAN ["IBM Plex Mono" | 12px | 700 | 11px | normal | normal | uppercase | rgb(49, 38, 59) | normal | normal]  :: Learn more
+m y8634 x795 w72 h11 SPAN ["IBM Plex Mono" | 12px | 700 | 11px | normal | normal | uppercase | rgb(49, 38, 59) | normal | normal]  :: Learn more
+m y8634 x1188 w72 h11 SPAN ["IBM Plex Mono" | 12px | 700 | 11px | normal | normal | uppercase | rgb(49, 38, 59) | normal | normal]  :: Learn more
+m y8863 x284 w350 h36 H3 ["PP Formula" | 28px | 800 | 36.4px | -0.7px | normal | none | rgb(20, 20, 28) | normal | normal] Heading__HeadingInternal-sc-b33f802a-0 Heading___S :: Getting started is easy.
+m y8898 x884 w246 h48 P [Cinetype | 16px | 300 | 24px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: Check out all of our plans to fit your team or organization.
+m y8909 x290 w493 h60 P [Cinetype | 20px | 300 | 30px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: Connect Hex to your data warehouse and do more with it immediately.
+m y8976 x905 w89 h22 DIV [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Button__Children-sc-3759e784-4 :: See our plans
+m y9008 x311 w128 h22 DIV [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(20, 20, 28) | normal | normal] Button__Children-sc-3759e784-4 :: Get started for free
+m y9008 x501 w62 h22 DIV [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Button__Children-sc-3759e784-4 :: Talk to us
+m y9371 x679 w82 h52 H2 ["PP Formula" | 40px | 800 | 52px | -1px | normal | none | rgb(20, 20, 28) | normal | normal] Heading__HeadingInternal-sc-b33f802a-0 Heading___S :: FAQ
+m y9479 x438 w102 h24 SPAN [Cinetype | 18px | 400 | 24px | -0.5px | normal | none | rgb(20, 20, 28) | normal | normal] FAQ__Question-sc-c91ba0f9-8 :: What is Hex?
+m y9544 x438 w119 h24 SPAN [Cinetype | 18px | 400 | 24px | -0.5px | normal | none | rgb(20, 20, 28) | normal | normal] FAQ__Question-sc-c91ba0f9-8 :: Who uses Hex?
+m y9609 x438 w274 h24 SPAN [Cinetype | 18px | 400 | 24px | -0.5px | normal | none | rgb(20, 20, 28) | normal | normal] FAQ__Question-sc-c91ba0f9-8 :: Why do data teams switch to Hex?
+m y9674 x438 w512 h24 SPAN [Cinetype | 18px | 400 | 24px | -0.5px | normal | none | rgb(20, 20, 28) | normal | normal] FAQ__Question-sc-c91ba0f9-8 :: Can business users access data without knowing SQL or Python?
+m y9739 x438 w507 h24 SPAN [Cinetype | 18px | 400 | 24px | -0.5px | normal | none | rgb(20, 20, 28) | normal | normal] FAQ__Question-sc-c91ba0f9-8 :: How does Hex ensure AI answers are accurate and trustworthy?
+m y9804 x438 w549 h48 SPAN [Cinetype | 18px | 400 | 24px | -0.5px | normal | none | rgb(20, 20, 28) | normal | normal] FAQ__Question-sc-c91ba0f9-8 :: How is Hex different from just using ChatGPT, Claude, Codex, or any other AI assistant?
+m y9893 x438 w441 h24 SPAN [Cinetype | 18px | 400 | 24px | -0.5px | normal | none | rgb(20, 20, 28) | normal | normal] FAQ__Question-sc-c91ba0f9-8 :: How is Hex different than point solution analytics tools?
+m y9973 x418 w604 h24 P [Cinetype | 16px | 300 | 24px | normal | normal | none | rgb(49, 38, 59) | normal | normal] Text__TextWrapper-sc-f5e7deee-0 Text___StyledTextW :: Can't find your answer here? .
+m y9976 x781 w92 h20 A [Cinetype | 16px | 300 | 24px | normal | normal | none | rgb(67, 57, 76) | normal | normal]  :: Get in touch
+f y10128 x320 w63 h19 DIV ["IBM Plex Mono" | 12px | 700 | 18.852px | 0.7px | normal | uppercase | rgb(20, 20, 28) | normal | normal] Footer__ColTitle-sc-b29c701c-10 :: Platform
+f y10128 x535 w71 h19 DIV ["IBM Plex Mono" | 12px | 700 | 18.852px | 0.7px | normal | uppercase | rgb(20, 20, 28) | normal | normal] Footer__ColTitle-sc-b29c701c-10 :: Resources
+f y10128 x750 w55 h19 DIV ["IBM Plex Mono" | 12px | 700 | 18.852px | 0.7px | normal | uppercase | rgb(20, 20, 28) | normal | normal] Footer__ColTitle-sc-b29c701c-10 :: Company
+f y10128 x965 w55 h19 DIV ["IBM Plex Mono" | 12px | 700 | 18.852px | 0.7px | normal | uppercase | rgb(20, 20, 28) | normal | normal] Footer__ColTitle-sc-b29c701c-10 :: Connect
+f y10148 x203 w20 h20 SPAN [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(137, 130, 141) | normal | normal] EmojiGlyph-module__AX5Y3a__emojiGlyph :: 🥖
+f y10157 x320 w90 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(67, 57, 76) | normal | normal]  :: AI and agents
+f y10157 x535 w45 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(67, 57, 76) | normal | normal]  :: Pricing
+f y10157 x750 w39 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(67, 57, 76) | normal | normal]  :: About
+f y10157 x965 w106 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(67, 57, 76) | normal | normal]  :: Request a demo
+f y10163 x227 w40 h23 SPAN [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(137, 130, 141) | normal | normal]  :: on .
+f y10164 x130 w69 h22 SPAN [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(137, 130, 141) | normal | normal]  :: Made with
+f y10167 x248 w14 h17 SPAN [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(137, 130, 141) | normal | normal] EmojiGlyph-module__AX5Y3a__emojiGlyph :: 🌎
+f y10168 x203 w20 h20 SPAN [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(137, 130, 141) | normal | normal] EmojiGlyph-module__AX5Y3a__emojiGlyph :: 🍷
+f y10188 x203 w20 h20 SPAN [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(137, 130, 141) | normal | normal] EmojiGlyph-module__AX5Y3a__emojiGlyph :: 🛌
+f y10189 x320 w121 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(67, 57, 76) | normal | normal]  :: Agentic notebooks
+f y10189 x535 w110 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(67, 57, 76) | normal | normal]  :: Switching to Hex
+f y10189 x750 w51 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(67, 57, 76) | normal | normal]  :: Careers
+f y10189 x965 w116 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(67, 57, 76) | normal | normal]  :: Technical support
+f y10208 x203 w20 h20 SPAN [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(137, 130, 141) | normal | normal] EmojiGlyph-module__AX5Y3a__emojiGlyph :: 💜
+f y10221 x320 w158 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(67, 57, 76) | normal | normal]  :: Conversational analytics
+f y10221 x535 w68 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(67, 57, 76) | normal | normal]  :: Enterprise
+f y10221 x750 w70 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(67, 57, 76) | normal | normal]  :: Customers
+f y10221 x965 w70 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(67, 57, 76) | normal | normal]  :: Contact us
+f y10228 x203 w20 h20 SPAN [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(137, 130, 141) | normal | normal] EmojiGlyph-module__AX5Y3a__emojiGlyph :: 🥨
+f y10248 x203 w20 h20 SPAN [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(137, 130, 141) | normal | normal] EmojiGlyph-module__AX5Y3a__emojiGlyph :: 🛹
+f y10253 x320 w97 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(67, 57, 76) | normal | normal]  :: Context Studio
+f y10253 x535 w31 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(67, 57, 76) | normal | normal]  :: Docs
+f y10253 x750 w60 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(67, 57, 76) | normal | normal]  :: Solutions
+f y10253 x965 w55 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(67, 57, 76) | normal | normal]  :: LinkedIn
+f y10268 x203 w20 h20 SPAN [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(137, 130, 141) | normal | normal] EmojiGlyph-module__AX5Y3a__emojiGlyph :: 🍤
+f y10285 x320 w66 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(67, 57, 76) | normal | normal]  :: Data apps
+f y10285 x535 w29 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(67, 57, 76) | normal | normal]  :: Blog
+f y10285 x750 w61 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(67, 57, 76) | normal | normal]  :: Media kit
+f y10285 x965 w68 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(67, 57, 76) | normal | normal]  :: X (Twitter)
+f y10288 x203 w20 h20 SPAN [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(137, 130, 141) | normal | normal] EmojiGlyph-module__AX5Y3a__emojiGlyph :: 🧄
+f y10308 x203 w20 h20 SPAN [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(137, 130, 141) | normal | normal] EmojiGlyph-module__AX5Y3a__emojiGlyph :: 🍞
+f y10317 x320 w49 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(67, 57, 76) | normal | normal]  :: Hex CLI
+f y10317 x535 w44 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(67, 57, 76) | normal | normal]  :: Events
+f y10317 x750 w69 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(67, 57, 76) | normal | normal]  :: Newsroom
+f y10317 x965 w53 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(67, 57, 76) | normal | normal]  :: YouTube
+f y10328 x203 w20 h20 SPAN [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(137, 130, 141) | normal | normal] EmojiGlyph-module__AX5Y3a__emojiGlyph :: 🥥
+f y10348 x203 w20 h20 SPAN [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(137, 130, 141) | normal | normal] EmojiGlyph-module__AX5Y3a__emojiGlyph :: ⛳
+f y10349 x320 w137 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(67, 57, 76) | normal | normal]  :: Business intelligence
+f y10349 x535 w67 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(67, 57, 76) | normal | normal]  :: Templates
+f y10368 x203 w20 h20 SPAN [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(137, 130, 141) | normal | normal] EmojiGlyph-module__AX5Y3a__emojiGlyph :: 🤞
+f y10381 x320 w132 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(67, 57, 76) | normal | normal]  :: Exploratory analysis
+f y10381 x535 w59 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(67, 57, 76) | normal | normal]  :: Compare
+f y10388 x203 w20 h20 SPAN [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(137, 130, 141) | normal | normal] EmojiGlyph-module__AX5Y3a__emojiGlyph :: ✨
+f y10408 x203 w20 h20 SPAN [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(137, 130, 141) | normal | normal] EmojiGlyph-module__AX5Y3a__emojiGlyph :: 🔊
+f y10413 x320 w132 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(67, 57, 76) | normal | normal]  :: Embedded analytics
+f y10413 x535 w81 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(67, 57, 76) | normal | normal]  :: Trust Center
+f y10428 x203 w20 h20 SPAN [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(137, 130, 141) | normal | normal] EmojiGlyph-module__AX5Y3a__emojiGlyph :: 🎧
+f y10445 x320 w79 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(67, 57, 76) | normal | normal]  :: Integrations
+f y10445 x535 w42 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(67, 57, 76) | normal | normal]  :: Status
+f y10448 x203 w20 h20 SPAN [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(137, 130, 141) | normal | normal] EmojiGlyph-module__AX5Y3a__emojiGlyph :: 🌊
+f y10468 x203 w20 h20 SPAN [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(137, 130, 141) | normal | normal] EmojiGlyph-module__AX5Y3a__emojiGlyph :: 🍀
+f y10477 x320 w69 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(67, 57, 76) | normal | normal]  :: Changelog
+f y10488 x203 w20 h20 SPAN [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(137, 130, 141) | normal | normal] EmojiGlyph-module__AX5Y3a__emojiGlyph :: 🤠
+f y10508 x203 w20 h20 SPAN [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(137, 130, 141) | normal | normal] EmojiGlyph-module__AX5Y3a__emojiGlyph :: 🎷
+f y10528 x203 w20 h20 SPAN [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(137, 130, 141) | normal | normal] EmojiGlyph-module__AX5Y3a__emojiGlyph :: 🍩
+f y10548 x203 w20 h20 SPAN [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(137, 130, 141) | normal | normal] EmojiGlyph-module__AX5Y3a__emojiGlyph :: ☕
+f y10559 x329 w191 h22 DIV [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(137, 130, 141) | normal | normal] Footer__Copyright-sc-b29c701c-11 :: © 2026 Hex Technologies Inc.
+f y10559 x540 w89 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(137, 130, 141) | normal | normal]  :: Privacy policy
+f y10559 x649 w124 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(137, 130, 141) | normal | normal]  :: Terms & conditions
+f y10559 x793 w173 h22 A [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(137, 130, 141) | normal | normal]  :: Modern slavery statement
+f y10559 x986 w125 h22 BUTTON [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(137, 130, 141) | normal | normal] OptOutOfTrackingLink-module__ax0AOW__button :: Opt out of tracking
+f y10568 x203 w20 h20 SPAN [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(137, 130, 141) | normal | normal] EmojiGlyph-module__AX5Y3a__emojiGlyph :: 🥟
+f y10588 x203 w20 h20 SPAN [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(137, 130, 141) | normal | normal] EmojiGlyph-module__AX5Y3a__emojiGlyph :: 🍺
+f y10608 x203 w20 h20 SPAN [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(137, 130, 141) | normal | normal] EmojiGlyph-module__AX5Y3a__emojiGlyph :: 🍰
+f y10628 x203 w20 h20 SPAN [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(137, 130, 141) | normal | normal] EmojiGlyph-module__AX5Y3a__emojiGlyph :: 🔮
+f y10648 x203 w20 h20 SPAN [Cinetype | 14px | 400 | 21.994px | normal | normal | none | rgb(137, 130, 141) | normal | normal] EmojiGlyph-module__AX5Y3a__emojiGlyph :: 🔒

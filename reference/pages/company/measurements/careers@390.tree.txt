@@ -1,0 +1,1078 @@
+<BODY > [0,0,390,8463] {font-family:Cinetype; font-size:14px; line-height:21.994px; font-weight:400; font-style:normal; letter-spacing:normal; text-transform:none; text-align:start; color:rgb(227, 178, 179); background-color:rgb(20, 20, 28); overflow:clip visible; z-index:0; list-style-type:disc; white-space:normal; text-wrap:wrap}
+ <DIV PageWrapper__PageLayoutGrid> [0,0,390,8463] {display:grid; gap:0px; grid-template-columns:7.875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 7.875px; grid-template-rows:8463.16px; color:rgb(49, 38, 59); background-color:rgb(255, 252, 252)}
+  <A .sr-only> [-10000,0,1,1] href=#main «Skip to main content» {position:absolute; grid-column:2 / -2; color:rgb(67, 57, 76); border-bottom:1px solid rgb(67, 57, 76); transition:background-color 0.1s linear; overflow:hidden}
+  <DIV LayoutGrid__LayoutSubgrid PageWrapper__PaperTexture> [0,0,390,8463] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-column:1 / -1; background-image:url("https://hex.tech/images/light-bkg-noise.webp"); opacity:0.06}
+  <DIV LayoutGrid__LayoutSubgrid> [0,0,390,8463] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:7317.44px 1113.72px 32px; grid-column:1 / -1}
+   <DIV .LayoutGrid-sc-51ec3774-0.gfIDZt> [0,0,390,68] {display:grid; position:fixed; gap:0px; grid-template-columns:7.875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 7.875px; grid-template-rows:12px 56px; grid-column:2 / -2; z-index:3}
+    <DIV LayoutGrid__LayoutSubgrid Header__TopGridLines> [0,0,390,12] {display:grid; position:relative; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:12px; grid-column:1 / -1; background-color:rgb(255, 252, 252)}
+     <DIV GridLines__ContentMarginLine> [0,0,8,12] {grid-column:1; border-right:1px solid rgb(233, 229, 232)}
+     <DIV GridLines__GridRule> [101,0,1,12] {grid-column:4; background-color:rgb(233, 229, 232); transform:matrix(1, 0, 0, 1, 0.5, 0)}
+     <DIV GridLines__GridRule> [288,0,1,12] {grid-column:10; background-color:rgb(233, 229, 232); transform:matrix(1, 0, 0, 1, 0.5, 0)}
+     <DIV GridLines__ContentMarginLine> [382,0,8,12] {grid-column:-2 / span 1; border-left:1px solid rgb(233, 229, 232)}
+    <HEADER LayoutGrid__LayoutSubgrid> [0,12,390,56] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:56px; grid-column:1 / -1}
+     <DIV LayoutGrid__LayoutSubgrid Header__TickerWrapper> [0,12,390,27] {display:grid; position:relative; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:26.8438px; grid-column:1 / -1; background-color:rgb(255, 252, 252)}
+      <DIV GridLines__ContentMarginLine> [0,12,8,27] {grid-column:1; border-right:1px solid rgb(233, 229, 232)}
+      <DIV LayoutGrid__LayoutSubgrid Ticker__Bg> [8,12,374,27] {display:grid; grid-template-columns:31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px; grid-template-rows:26.8438px; grid-column:2 / -2; background-color:rgb(240, 237, 238); background-image:linear-gradient(to left, rgb(240, 237, 238), rgb(244, 241, 242), rgb(240, 237, 238)); box-shadow:rgba(49, 38, 59, 0.14) 0px 1px 1px 0px inset; overflow:hidden}
+       <DIV Ticker__Marquee> [8,12,374,27] {display:flex; position:relative; grid-column:1 / -1; overflow:hidden; z-index:1}
+        <DIV .sr-only> [-9992,12,1,1] {position:absolute; overflow:hidden}
+         <A Ticker__MarqueeItem> [-9992,12,16,19] href=/customers/langchain/ «how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+          <SPAN > [-9984,12,15,19] «📊» {}
+          <SPAN Ticker__MarqueeItemTitle> [-9961,12,169,19] «AI analytics use case:» {color:rgb(20, 20, 28)}
+          <SPAN Ticker__Circle> [-9113,16,10,10] {display:grid; align-items:center; grid-template-columns:10px; grid-template-rows:10px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+           <svg Ticker__StyledArrowRight> [-9113,18,10,7] {overflow:hidden}
+         <A Ticker__MarqueeItem> [-9992,31,16,19] href=/blog/introducing-generative-data-apps/ «Gorgeous, interactive dashboards and apps you can build with just a prompt» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+          <SPAN > [-9984,31,15,19] «🤯» {}
+          <SPAN Ticker__MarqueeItemTitle> [-9961,31,161,19] «Generative data apps:» {color:rgb(20, 20, 28)}
+          <SPAN Ticker__Circle> [-9220,35,10,10] {display:grid; align-items:center; grid-template-columns:10px; grid-template-rows:10px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+           <svg Ticker__StyledArrowRight> [-9220,37,10,7] {overflow:hidden}
+         <A Ticker__MarqueeItem> [-9992,50,16,19] href=/state-of-data-teams/ «discover key insights from data leaders» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+          <SPAN > [-9984,50,15,19] «📖» {}
+          <SPAN Ticker__MarqueeItemTitle> [-9961,50,184,19] «State of Data Teams 2026» {color:rgb(20, 20, 28)}
+          <SPAN Ticker__Circle> [-9466,54,10,10] {display:grid; align-items:center; grid-template-columns:10px; grid-template-rows:10px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+           <svg Ticker__StyledArrowRight> [-9466,56,10,7] {overflow:hidden}
+         <A Ticker__MarqueeItem> [-9992,69,16,19] href=/ «Not "HEX" or "Hex dot tech"» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+          <SPAN > [-9984,69,15,19] «🙏» {}
+          <SPAN Ticker__MarqueeItemTitle> [-9961,69,123,19] «It's just "Hex"!» {color:rgb(20, 20, 28)}
+          <SPAN Ticker__Circle> [-9619,73,10,10] {display:grid; align-items:center; grid-template-columns:10px; grid-template-rows:10px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+           <svg Ticker__StyledArrowRight> [-9619,74,10,7] {overflow:hidden}
+        <DIV Ticker__InstanceAnim> [-543,12,13568,27] {display:flex; transform:matrix(1, 0, 0, 1, -550.754, 0); animation:56s linear infinite ticker}
+         <SPAN > [-543,12,2714,27] {display:flex; white-space:nowrap; text-wrap:nowrap}
+          <SPAN Ticker__MarqueeItems> [-543,12,2714,27] {display:flex; gap:16px; padding:4px 16px 4px 0px}
+           <A Ticker__MarqueeItem> [-543,16,904,19] href=/customers/langchain/ «how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [-534,16,15,19] «📊» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [-510,16,169,19] «AI analytics use case:» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [338,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [341,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [377,16,797,19] href=/blog/introducing-generative-data-apps/ «Gorgeous, interactive dashboards and apps you can build with just a prompt» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [387,16,15,19] «🤯» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [410,16,161,19] «Generative data apps:» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [1151,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [1154,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [1190,16,551,19] href=/state-of-data-teams/ «discover key insights from data leaders» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [1199,16,15,19] «📖» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [1223,16,184,19] «State of Data Teams 2026» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [1718,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [1721,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [1757,16,397,19] href=/ «Not "HEX" or "Hex dot tech"» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [1766,16,15,19] «🙏» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [1790,16,123,19] «It's just "Hex"!» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [2132,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [2134,22,10,7] {overflow:hidden}
+         <SPAN > [2171,12,2714,27] {display:flex; white-space:nowrap; text-wrap:nowrap}
+          <SPAN Ticker__MarqueeItems> [2171,12,2714,27] {display:flex; gap:16px; padding:4px 16px 4px 0px}
+           <A Ticker__MarqueeItem> [2171,16,904,19] href=/customers/langchain/ «how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [2180,16,15,19] «📊» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [2203,16,169,19] «AI analytics use case:» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [3052,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [3054,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [3091,16,797,19] href=/blog/introducing-generative-data-apps/ «Gorgeous, interactive dashboards and apps you can build with just a prompt» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [3100,16,15,19] «🤯» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [3123,16,161,19] «Generative data apps:» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [3865,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [3867,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [3904,16,551,19] href=/state-of-data-teams/ «discover key insights from data leaders» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [3913,16,15,19] «📖» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [3936,16,184,19] «State of Data Teams 2026» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [4432,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [4434,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [4471,16,397,19] href=/ «Not "HEX" or "Hex dot tech"» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [4480,16,15,19] «🙏» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [4503,16,123,19] «It's just "Hex"!» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [4845,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [4848,22,10,7] {overflow:hidden}
+         <SPAN > [4884,12,2714,27] {display:flex; white-space:nowrap; text-wrap:nowrap}
+          <SPAN Ticker__MarqueeItems> [4884,12,2714,27] {display:flex; gap:16px; padding:4px 16px 4px 0px}
+           <A Ticker__MarqueeItem> [4884,16,904,19] href=/customers/langchain/ «how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [4893,16,15,19] «📊» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [4917,16,169,19] «AI analytics use case:» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [5765,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [5768,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [5804,16,797,19] href=/blog/introducing-generative-data-apps/ «Gorgeous, interactive dashboards and apps you can build with just a prompt» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [5814,16,15,19] «🤯» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [5837,16,161,19] «Generative data apps:» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [6578,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [6581,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [6617,16,551,19] href=/state-of-data-teams/ «discover key insights from data leaders» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [6626,16,15,19] «📖» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [6650,16,184,19] «State of Data Teams 2026» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [7145,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [7148,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [7184,16,397,19] href=/ «Not "HEX" or "Hex dot tech"» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [7193,16,15,19] «🙏» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [7217,16,123,19] «It's just "Hex"!» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [7559,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [7561,22,10,7] {overflow:hidden}
+         <SPAN > [7598,12,2713,27] {display:flex; white-space:nowrap; text-wrap:nowrap}
+          <SPAN Ticker__MarqueeItems> [7598,12,2713,27] {display:flex; gap:16px; padding:4px 16px 4px 0px}
+           <A Ticker__MarqueeItem> [7598,16,904,19] href=/customers/langchain/ «how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [7607,16,15,19] «📊» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [7630,16,169,19] «AI analytics use case:» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [8479,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [8481,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [8518,16,797,19] href=/blog/introducing-generative-data-apps/ «Gorgeous, interactive dashboards and apps you can build with just a prompt» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [8527,16,15,19] «🤯» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [8550,16,161,19] «Generative data apps:» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [9292,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [9294,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [9331,16,551,19] href=/state-of-data-teams/ «discover key insights from data leaders» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [9340,16,15,19] «📖» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [9363,16,184,19] «State of Data Teams 2026» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [9859,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [9861,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [9898,16,397,19] href=/ «Not "HEX" or "Hex dot tech"» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [9907,16,15,19] «🙏» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [9930,16,123,19] «It's just "Hex"!» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [10272,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [10275,22,10,7] {overflow:hidden}
+         <SPAN > [10311,12,2714,27] {display:flex; white-space:nowrap; text-wrap:nowrap}
+          <SPAN Ticker__MarqueeItems> [10311,12,2714,27] {display:flex; gap:16px; padding:4px 16px 4px 0px}
+           <A Ticker__MarqueeItem> [10311,16,904,19] href=/customers/langchain/ «how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [10320,16,15,19] «📊» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [10344,16,169,19] «AI analytics use case:» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [11192,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [11195,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [11231,16,797,19] href=/blog/introducing-generative-data-apps/ «Gorgeous, interactive dashboards and apps you can build with just a prompt» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [11241,16,15,19] «🤯» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [11264,16,161,19] «Generative data apps:» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [12005,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [12008,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [12044,16,551,19] href=/state-of-data-teams/ «discover key insights from data leaders» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [12053,16,15,19] «📖» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [12077,16,184,19] «State of Data Teams 2026» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [12572,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [12575,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [12611,16,397,19] href=/ «Not "HEX" or "Hex dot tech"» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [12620,16,15,19] «🙏» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [12644,16,123,19] «It's just "Hex"!» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [12986,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [12988,22,10,7] {overflow:hidden}
+      <DIV GridLines__ContentMarginLine> [382,12,8,27] {grid-column:-2 / span 1; border-left:1px solid rgb(233, 229, 232)}
+     <DIV LayoutGrid__LayoutSubgrid> [0,12,390,56] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:56px; grid-column:1 / -1}
+      <NAV LayoutGrid__LayoutSubgrid> [0,12,390,56] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:56px 0px; grid-column:1 / -1}
+       <DIV LayoutGrid__LayoutSubgrid Nav__NavWrapper> [0,39,390,56] {display:grid; position:relative; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:56px; grid-column:1 / -1; transform:matrix(1, 0, 0, 1, 0, 26.8438)}
+        <DIV LayoutGrid__LayoutSubgrid Nav__Background> [0,39,390,56] {display:grid; position:relative; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:56px; grid-column:1 / -1; z-index:-1}
+         <DIV Nav__BackgroundInner> [0,39,390,56] {position:absolute; grid-column:1 / -1; mask-image:linear-gradient(rgba(0, 0, 0, 0.48) 30%, rgba(0, 0, 0, 0))}
+        <DIV LayoutGrid__LayoutSubgrid> [0,59,390,56] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:56px; grid-column:1 / -1; transform:matrix(1, 0, 0, 1, 0, 20)}
+         <DIV Nav__NavShadow> [0,59,390,56] {position:relative; grid-column:1 / -1; opacity:0; overflow:clip visible; z-index:3}
+         <DIV LayoutGrid__LayoutSubgrid> [0,59,390,56] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:56px; grid-column:1 / -1}
+          <DIV Nav__NavBorderBottom> [0,114,8,1] {grid-column:1; background-color:rgb(233, 229, 232); opacity:0}
+          <DIV Nav__NavigationRootEl> [8,59,374,56] {display:grid; position:relative; align-items:center; grid-template-columns:187.125px 0px 187.125px; grid-template-rows:0px 40px; grid-column:2 / -2; padding:8px 0px}
+           <DIV > [8,67,187,0] {position:relative}
+           <A Nav__HomeNavLinkWrapper> [22,75,64,25] href=/ {grid-column:1 / span 1; margin:0px 0px 0px 14.4px; color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+            <svg Nav__Hex> [22,75,64,25] {overflow:hidden}
+           <DIV > [195,87,0,0] {position:relative}
+           <BUTTON MobileNav__HamburgerButton> [334,67,40,40] {display:grid; position:relative; align-items:center; grid-template-columns:40px; grid-template-rows:40px; margin:0px 8px 0px 0px; aspect-ratio:1 / 1; font-family:Arial; font-size:13.3333px; line-height:normal; text-align:center; color:rgb(0, 0, 0); border-radius:999px}
+            <DIV MobileNav__HamburgerButtonShadow> [334,67,40,40] {position:absolute; background-image:radial-gradient(circle at 66.66% 50%, rgb(255, 255, 255) 0%, rgb(248, 245, 246) 80%); border-radius:999px; box-shadow:rgb(239, 235, 237) 0px 0px 34px 0px inset, rgba(100, 63, 63, 0.01) 6px 27px 10px 0px, rgba(100, 63, 63, 0.04) 4px 4px 10px 0px, rgba(100, 63, 63, 0.06) 2px 13px 8px 0px, rgba(100, 63, 63, 0.06) 1px 6px 6px 0px, rgba(100, 63, 63, 0.18) 0px 1px 3px 0px; z-index:-1}
+            <DIV MobileNav__HamburgerButtonBg> [334,67,40,40] {position:absolute; background-color:rgb(255, 252, 252); border-radius:999px; z-index:-1}
+           <DIV Nav__NavRootBorder> [195,114,0,1] {position:absolute; background-color:rgb(219, 215, 218); opacity:0; transform:matrix(0, 0, 0, 1, 0, 0)}
+          <DIV Nav__NavBorderBottom> [382,114,8,1] {grid-column:-1; background-color:rgb(233, 229, 232); opacity:0}
+        <DIV Accent__LContainer> [-1,31,16,16] {display:grid; position:absolute; align-items:center; grid-template-columns:16px; grid-template-rows:16px; grid-column:2 / -2; transform:matrix(1, 0, 0, 1, -8, -8); z-index:2}
+         <DIV Accent__VerticalBar> [7,31,1,16] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+         <DIV Accent__HorizontalBar> [-1,39,16,1] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+        <DIV Accent__LContainer> [375,31,16,16] {display:grid; position:absolute; align-items:center; grid-template-columns:16px; grid-template-rows:16px; grid-column:2 / -2; transform:matrix(1, 0, 0, 1, 8, -8); z-index:2}
+         <DIV Accent__VerticalBar> [382,31,1,16] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+         <DIV Accent__HorizontalBar> [375,39,16,1] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+        <DIV Accent__LContainer> [375,86,16,16] {display:grid; position:absolute; align-items:center; grid-template-columns:16px; grid-template-rows:16px; grid-column:2 / -2; transform:matrix(1, 0, 0, 1, 8, 8); z-index:2}
+         <DIV Accent__VerticalBar> [382,86,1,16] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+         <DIV Accent__HorizontalBar> [375,94,16,1] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+        <DIV Accent__LContainer> [-1,86,16,16] {display:grid; position:absolute; align-items:center; grid-template-columns:16px; grid-template-rows:16px; grid-column:2 / -2; transform:matrix(1, 0, 0, 1, -8, 8); z-index:2}
+         <DIV Accent__VerticalBar> [7,86,1,16] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+         <DIV Accent__HorizontalBar> [-1,94,16,1] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+       <DIV > [0,115,390,0] {grid-column:1 / -1; transform:matrix(1, 0, 0, 1, 0, 46.8438)}
+   <MAIN LayoutGrid__LayoutSubgrid> [0,0,390,7317] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:870.188px 984.062px 0px 5463.19px; grid-column:1 / -1}
+    <DIV LayoutGrid__LayoutSubgrid BasicPageRow__Wrapper> [0,0,390,870] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:870.188px; grid-column:1 / -1; overflow:clip visible}
+     <DIV GridLines__CheckeredMargin> [0,0,8,870] {position:relative; grid-column:1 / span 1; background-image:url("data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"4\" height=\"4\"><rect width=\"2\" height=\"2\" fill=\"%23e8e4e6\" /><rect x=\"2\" y=\"2\" width=\"2\" height=\"2\" fill=\"%23e8e4e6\"/></svg>"); border-right:1px solid rgb(219, 215, 218)}
+     <DIV LayoutGrid__LayoutGridCondensed BasicPageRow__StyledLayoutGridCondensed> [8,0,374,870] {display:grid; position:relative; gap:0px; grid-template-columns:12px 29.1875px 29.1875px 29.1875px 29.1875px 29.1875px 29.1875px 29.1875px 29.1875px 29.1875px 29.1875px 29.1875px 29.1875px 12px; grid-template-rows:870.188px; grid-column:2 / -2}
+      <DIV CartesianGrid__UnitGrid> [8,0,374,870] {position:absolute; grid-column:1 / -1; mask-image:linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) calc(100% - 1px), rgb(255, 255, 255) calc(100% - 1px), rgb(255, 255, 255)), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) calc(100% - 1px), rgb(255, 255, 255) calc(100% - 1px), rgb(255, 255, 255))}
+       <DIV CartesianGrid__UnitGridMask> [8,0,374,870] {position:absolute; mask-image:linear-gradient(rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0.01) 10.8586%, rgba(255, 255, 255, 0.02) 11.7172%, rgba(255, 255, 255, 0.03) 12.5758%, rgba(255, 255, 255, 0.04) 13.4343%, rgba(255, 255, 255, 0.05) 14.2929%, rgba(255, 255, 255, 0.06) 15.1515%, rgba(255, 255, 255, 0.07) 16.0101%, rgba(255, 255, 255, 0.082) 16.8687%, rgba(255, 255, 255, 0.09) 17.7273%, rgba(255, 255, 255, 0.1) 18.5859%, rgba(255, 255, 255, 0.11) 19.4444%, rgba(255, 255, 255, 0.12) 20.303%, rgba(255, 255, 255, 0.13) 21.1616%, rgba(255, 255, 255, 0.14) 22.0202%, rgba(255, 255, 255, 0.153) 22.8788%, rgba(255, 255, 255, 0.16) 23.7374%, rgba(255, 255, 255, 0.173) 24.596%, rgba(255, 255, 255, 0.18) 25.4545%, rgba(255, 255, 255, 0.192) 26.3131%, rgba(255, 255, 255, 0.204) 27.1717%, rgba(255, 255, 255, 0.21) 28.0303%, rgba(255, 255, 255, 0.224) 28.8889%, rgba(255, 255, 255, 0.23) 29.7475%, rgba(255, 255, 255, 0.243) 30.6061%, rgba(255, 255, 255, 0.25) 31.4646%, rgba(255, 255, 255, 0.263) 32.3232%, rgba(255, 255, 255, 0.275) 33.1818%, rgba(255, 255, 255, 0.282) 34.0404%, rgba(255, 255, 255, 0.294) 34.899%, rgba(255, 255, 255, 0.3) 35.7576%, rgba(255, 255, 255, 0.314) 36.6162%, rgba(255, 255, 255, 0.32) 37.4747%, rgba(255, 255, 255, 0.333) 38.3333%, rgba(255, 255, 255, 0.345) 39.1919%, rgba(255, 255, 255, 0.353) 40.0505%, rgba(255, 255, 255, 0.365) 40.9091%, rgba(255, 255, 255, 0.373) 41.7677%, rgba(255, 255, 255, 0.384) 42.6263%, rgba(255, 255, 255, 0.392) 43.4848%, rgba(255, 255, 255, 0.404) 44.3434%, rgba(255, 255, 255, 0.416) 45.202%, rgba(255, 255, 255, 0.424) 46.0606%, rgba(255, 255, 255, 0.435) 46.9192%, rgba(255, 255, 255, 0.443) 47.7778%, rgba(255, 255, 255, 0.455) 48.6364%, rgba(255, 255, 255, 0.463) 49.4949%, rgba(255, 255, 255, 0.475) 50.3535%, rgba(255, 255, 255, 0.486) 51.2121%, rgba(255, 255, 255, 0.494) 52.0707%, rgba(255, 255, 255, 0.506) 52.9293%, rgba(255, 255, 255, 0.514) 53.7879%, rgba(255, 255, 255, 0.525) 54.6465%, rgba(255, 255, 255, 0.537) 55.5051%, rgba(255, 255, 255, 0.545) 56.3636%, rgba(255, 255, 255, 0.557) 57.2222%, rgba(255, 255, 255, 0.565) 58.0808%, rgba(255, 255, 255, 0.576) 58.9394%, rgba(255, 255, 255, 0.584) 59.798%, rgba(255, 255, 255, 0.596) 60.6566%, rgba(255, 255, 255, 0.608) 61.5152%, rgba(255, 255, 255, 0.616) 62.3737%, rgba(255, 255, 255, 0.627) 63.2323%, rgba(255, 255, 255, 0.635) 64.0909%, rgba(255, 255, 255, 0.647) 64.9495%, rgba(255, 255, 255, 0.655) 65.8081%, rgba(255, 255, 255, 0.667) 66.6667%, rgba(255, 255, 255, 0.68) 67.5253%, rgba(255, 255, 255, 0.686) 68.3838%, rgba(255, 255, 255, 0.698) 69.2424%, rgba(255, 255, 255, 0.706) 70.101%, rgba(255, 255, 255, 0.718) 70.9596%, rgba(255, 255, 255, 0.725) 71.8182%, rgba(255, 255, 255, 0.737) 72.6768%, rgba(255, 255, 255, 0.75) 73.5354%, rgba(255, 255, 255, 0.757) 74.3939%, rgba(255, 255, 255, 0.77) 75.2525%, rgba(255, 255, 255, 0.776) 76.1111%, rgba(255, 255, 255, 0.79) 76.9697%, rgba(255, 255, 255, 0.796) 77.8283%, rgba(255, 255, 255, 0.808) 78.6869%, rgba(255, 255, 255, 0.82) 79.5455%, rgba(255, 255, 255, 0.827) 80.404%, rgba(255, 255, 255, 0.84) 81.2626%, rgba(255, 255, 255, 0.847) 82.1212%, rgba(255, 255, 255, 0.86) 82.9798%, rgba(255, 255, 255, 0.87) 83.8384%, rgba(255, 255, 255, 0.88) 84.697%, rgba(255, 255, 255, 0.89) 85.5556%, rgba(255, 255, 255, 0.898) 86.4141%, rgba(255, 255, 255, 0.91) 87.2727%, rgba(255, 255, 255, 0.918) 88.1313%, rgba(255, 255, 255, 0.93) 88.9899%, rgba(255, 255, 255, 0.94) 89.8485%, rgba(255, 255, 255, 0.95) 90.7071%, rgba(255, 255, 255, 0.96) 91.5657%, rgba(255, 255, 255, 0.97) 92.4242%, rgba(255, 255, 255, 0.98) 93.2828%, rgba(255, 255, 255, 0.99) 94.1414%, rgb(255, 255, 255) 95%, rgba(0, 0, 0, 0))}
+        <DIV CartesianGrid__RadialGradient> [8,0,374,870] {position:absolute; background-image:radial-gradient(circle, color(srgb 0.192157 0.14902 0.231373 / 0.05) 50%, color(srgb 0.192157 0.14902 0.231373 / 0.2))}
+      <DIV BasicPageRow__InnerStatic> [8,0,374,870] {display:flex; position:relative; flex-direction:column; justify-content:center; align-items:center; grid-column:1 / -1}
+       <DIV HeroCareers__Wrapper> [8,0,374,870] {display:flex; position:relative; flex-direction:column; align-items:center; gap:40px; padding:140px 0px 40px; overflow:clip visible}
+        <DIV HeroCareers__HiddenHeroPreload> [195,139,1,1] {position:absolute; margin:-1px; overflow:hidden; white-space:nowrap; text-wrap:nowrap}
+         <IMG > [195,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-curator-shirt.jpg nat=258x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [196,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-claire.jpg nat=258x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [197,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-clairea.jpg nat=359x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [198,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-greg.jpg nat=398x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [199,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-savannah.jpg nat=260x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [200,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-gary.jpg nat=278x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [201,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-nisha.jpg nat=339x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [202,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-sammy.jpg nat=259x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [203,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-haley.jpg nat=479x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [204,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-hex-three-point-oh.jpg nat=479x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [205,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-lili.jpg nat=278x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [206,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-mon.jpg nat=299x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [207,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-debbie.jpg nat=272x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [208,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-angela.jpg nat=479x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [209,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-megha.jpg nat=298x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [210,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-thomas.jpg nat=479x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [211,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-sara-squared.jpg nat=340x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [212,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-ben.jpg nat=479x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [213,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-alexis.jpg nat=278x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [214,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-gabe.jpg nat=318x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [215,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-hat-hat.jpg nat=276x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [216,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-brady.jpg nat=226x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [217,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-ashley.jpg nat=340x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [218,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-ramona.jpg nat=259x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [219,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-tahlia.jpg nat=499x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [220,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-alana.jpg nat=279x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [221,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-jan.jpg nat=299x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [222,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-neil.jpg nat=398x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [223,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-glen.jpg nat=520x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [224,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-benk.jpg nat=339x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [225,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-sukwan.jpg nat=259x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [226,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-christine.jpg nat=339x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [227,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-ryan.jpg nat=279x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [228,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-nikki.jpg nat=318x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [229,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-david.jpg nat=400x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [230,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-barry.jpg nat=299x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [231,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-alexa.jpg nat=318x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+         <IMG > [232,154,1,1] src=https://hex.tech/images/careers/hero-images/careers-hero-grace.jpg nat=359x310 {display:inline; aspect-ratio:auto 1 / 1; overflow:clip}
+        <DIV HeroCareers__PhotoRow HeroCareers__PhotoWideRowBottom> [-393,730,1176,100] {display:flex; gap:10px}
+         <DIV HeroPhoto__PhotoShell> [-393,730,83,100] {line-height:0px; transform:matrix(1, 0, 0, 1, 0, 0); filter:blur(0px)}
+          <DIV Card__Wrapper HeroPhoto> [-393,730,83,100] {display:flex; position:relative; flex-direction:column; align-items:flex-start; text-align:left; background-color:rgba(253, 253, 253, 0.4); background-image:linear-gradient(105deg, rgba(245, 192, 192, 0) 10.56%, rgba(245, 192, 192, 0.02) 108.41%), none; border-radius:12px; box-shadow:rgba(0, 0, 0, 0.05) 0px 0px 11px 0px inset, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 16px 24px -8px, rgba(0, 0, 0, 0.05) 0px 8px 12px -4px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px; backdrop-filter:blur(7.5px); overflow:hidden}
+           <IMG HeroPhoto__HeroPhotoImg> [-393,730,83,100] src=https://hex.tech/images/careers/hero-images/careers-hero-curator-shirt.jpg nat=258x310 {overflow:clip}
+         <DIV HeroPhoto__PhotoShell> [-300,730,83,100] {line-height:0px; transform:matrix(1, 0, 0, 1, 0, 0); filter:blur(0px)}
+          <DIV Card__Wrapper HeroPhoto> [-300,730,83,100] {display:flex; position:relative; flex-direction:column; align-items:flex-start; text-align:left; background-color:rgba(253, 253, 253, 0.4); background-image:linear-gradient(105deg, rgba(245, 192, 192, 0) 10.56%, rgba(245, 192, 192, 0.02) 108.41%), none; border-radius:12px; box-shadow:rgba(0, 0, 0, 0.05) 0px 0px 11px 0px inset, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 16px 24px -8px, rgba(0, 0, 0, 0.05) 0px 8px 12px -4px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px; backdrop-filter:blur(7.5px); overflow:hidden}
+           <IMG HeroPhoto__HeroPhotoImg> [-300,730,83,100] src=https://hex.tech/images/careers/hero-images/careers-hero-claire.jpg nat=258x310 {overflow:clip}
+         <DIV HeroPhoto__PhotoShell> [-207,730,116,100] {line-height:0px; transform:matrix(1, 0, 0, 1, 0, 0); filter:blur(0px)}
+          <DIV Card__Wrapper HeroPhoto> [-207,730,116,100] {display:flex; position:relative; flex-direction:column; align-items:flex-start; text-align:left; background-color:rgba(253, 253, 253, 0.4); background-image:linear-gradient(105deg, rgba(245, 192, 192, 0) 10.56%, rgba(245, 192, 192, 0.02) 108.41%), none; border-radius:12px; box-shadow:rgba(0, 0, 0, 0.05) 0px 0px 11px 0px inset, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 16px 24px -8px, rgba(0, 0, 0, 0.05) 0px 8px 12px -4px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px; backdrop-filter:blur(7.5px); overflow:hidden}
+           <IMG HeroPhoto__HeroPhotoImg> [-207,730,116,100] src=https://hex.tech/images/careers/hero-images/careers-hero-clairea.jpg nat=359x310 {overflow:clip}
+         <DIV HeroPhoto__PhotoShell> [-81,730,128,100] {line-height:0px; transform:matrix(1, 0, 0, 1, 0, 0); filter:blur(0px)}
+          <DIV Card__Wrapper HeroPhoto> [-81,730,128,100] {display:flex; position:relative; flex-direction:column; align-items:flex-start; text-align:left; background-color:rgba(253, 253, 253, 0.4); background-image:linear-gradient(105deg, rgba(245, 192, 192, 0) 10.56%, rgba(245, 192, 192, 0.02) 108.41%), none; border-radius:12px; box-shadow:rgba(0, 0, 0, 0.05) 0px 0px 11px 0px inset, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 16px 24px -8px, rgba(0, 0, 0, 0.05) 0px 8px 12px -4px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px; backdrop-filter:blur(7.5px); overflow:hidden}
+           <IMG HeroPhoto__HeroPhotoImg> [-81,730,128,100] src=https://hex.tech/images/careers/hero-images/careers-hero-greg.jpg nat=398x310 {overflow:clip}
+         <DIV HeroPhoto__PhotoShell> [58,730,84,100] {line-height:0px; transform:matrix(1, 0, 0, 1, 0, 0); filter:blur(0px)}
+          <DIV Card__Wrapper HeroPhoto> [58,730,84,100] {display:flex; position:relative; flex-direction:column; align-items:flex-start; text-align:left; background-color:rgba(253, 253, 253, 0.4); background-image:linear-gradient(105deg, rgba(245, 192, 192, 0) 10.56%, rgba(245, 192, 192, 0.02) 108.41%), none; border-radius:12px; box-shadow:rgba(0, 0, 0, 0.05) 0px 0px 11px 0px inset, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 16px 24px -8px, rgba(0, 0, 0, 0.05) 0px 8px 12px -4px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px; backdrop-filter:blur(7.5px); overflow:hidden}
+           <IMG HeroPhoto__HeroPhotoImg> [58,730,84,100] src=https://hex.tech/images/careers/hero-images/careers-hero-savannah.jpg nat=260x310 {overflow:clip}
+         <DIV HeroPhoto__PhotoShell> [151,730,90,100] {line-height:0px; transform:matrix(1, 0, 0, 1, 0, 0); filter:blur(0px)}
+          <DIV Card__Wrapper HeroPhoto> [151,730,90,100] {display:flex; position:relative; flex-direction:column; align-items:flex-start; text-align:left; background-color:rgba(253, 253, 253, 0.4); background-image:linear-gradient(105deg, rgba(245, 192, 192, 0) 10.56%, rgba(245, 192, 192, 0.02) 108.41%), none; border-radius:12px; box-shadow:rgba(0, 0, 0, 0.05) 0px 0px 11px 0px inset, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 16px 24px -8px, rgba(0, 0, 0, 0.05) 0px 8px 12px -4px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px; backdrop-filter:blur(7.5px); overflow:hidden}
+           <IMG HeroPhoto__HeroPhotoImg> [151,730,90,100] src=https://hex.tech/images/careers/hero-images/careers-hero-gary.jpg nat=278x310 {overflow:clip}
+         <DIV HeroPhoto__PhotoShell> [251,730,109,100] {line-height:0px; transform:matrix(1, 0, 0, 1, 0, 0); filter:blur(0px)}
+          <DIV Card__Wrapper HeroPhoto> [251,730,109,100] {display:flex; position:relative; flex-direction:column; align-items:flex-start; text-align:left; background-color:rgba(253, 253, 253, 0.4); background-image:linear-gradient(105deg, rgba(245, 192, 192, 0) 10.56%, rgba(245, 192, 192, 0.02) 108.41%), none; border-radius:12px; box-shadow:rgba(0, 0, 0, 0.05) 0px 0px 11px 0px inset, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 16px 24px -8px, rgba(0, 0, 0, 0.05) 0px 8px 12px -4px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px; backdrop-filter:blur(7.5px); overflow:hidden}
+           <IMG HeroPhoto__HeroPhotoImg> [251,730,109,100] src=https://hex.tech/images/careers/hero-images/careers-hero-nisha.jpg nat=339x310 {overflow:clip}
+         <DIV HeroPhoto__PhotoShell> [370,730,84,100] {line-height:0px; transform:matrix(1, 0, 0, 1, 0, 0); filter:blur(0px)}
+          <DIV Card__Wrapper HeroPhoto> [370,730,84,100] {display:flex; position:relative; flex-direction:column; align-items:flex-start; text-align:left; background-color:rgba(253, 253, 253, 0.4); background-image:linear-gradient(105deg, rgba(245, 192, 192, 0) 10.56%, rgba(245, 192, 192, 0.02) 108.41%), none; border-radius:12px; box-shadow:rgba(0, 0, 0, 0.05) 0px 0px 11px 0px inset, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 16px 24px -8px, rgba(0, 0, 0, 0.05) 0px 8px 12px -4px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px; backdrop-filter:blur(7.5px); overflow:hidden}
+           <IMG HeroPhoto__HeroPhotoImg> [370,730,84,100] src=https://hex.tech/images/careers/hero-images/careers-hero-sammy.jpg nat=259x310 {overflow:clip}
+         <DIV HeroPhoto__PhotoShell> [464,730,155,100] {line-height:0px; transform:matrix(1, 0, 0, 1, 0, 0); filter:blur(0px)}
+          <DIV Card__Wrapper HeroPhoto> [464,730,155,100] {display:flex; position:relative; flex-direction:column; align-items:flex-start; text-align:left; background-color:rgba(253, 253, 253, 0.4); background-image:linear-gradient(105deg, rgba(245, 192, 192, 0) 10.56%, rgba(245, 192, 192, 0.02) 108.41%), none; border-radius:12px; box-shadow:rgba(0, 0, 0, 0.05) 0px 0px 11px 0px inset, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 16px 24px -8px, rgba(0, 0, 0, 0.05) 0px 8px 12px -4px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px; backdrop-filter:blur(7.5px); overflow:hidden}
+           <IMG HeroPhoto__HeroPhotoImg> [464,730,155,100] src=https://hex.tech/images/careers/hero-images/careers-hero-haley.jpg nat=479x310 {overflow:clip}
+         <DIV HeroPhoto__PhotoShell> [629,730,155,100] {line-height:0px; transform:matrix(1, 0, 0, 1, 0, 0); filter:blur(0px)}
+          <DIV Card__Wrapper HeroPhoto> [629,730,155,100] {display:flex; position:relative; flex-direction:column; align-items:flex-start; text-align:left; background-color:rgba(253, 253, 253, 0.4); background-image:linear-gradient(105deg, rgba(245, 192, 192, 0) 10.56%, rgba(245, 192, 192, 0.02) 108.41%), none; border-radius:12px; box-shadow:rgba(0, 0, 0, 0.05) 0px 0px 11px 0px inset, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 16px 24px -8px, rgba(0, 0, 0, 0.05) 0px 8px 12px -4px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px; backdrop-filter:blur(7.5px); overflow:hidden}
+           <IMG HeroPhoto__HeroPhotoImg> [629,730,155,100] src=https://hex.tech/images/careers/hero-images/careers-hero-hex-three-point-oh.jpg nat=479x310 {overflow:clip}
+        <DIV HeroCareers__PhotoRow HeroCareers__PhotoWideRowTop> [-418,140,1225,100] {display:flex; gap:10px}
+         <DIV HeroPhoto__PhotoShell> [-418,140,90,100] {line-height:0px; transform:matrix(1, 0, 0, 1, 0, 0); filter:blur(0px)}
+          <DIV Card__Wrapper HeroPhoto> [-418,140,90,100] {display:flex; position:relative; flex-direction:column; align-items:flex-start; text-align:left; background-color:rgba(253, 253, 253, 0.4); background-image:linear-gradient(105deg, rgba(245, 192, 192, 0) 10.56%, rgba(245, 192, 192, 0.02) 108.41%), none; border-radius:12px; box-shadow:rgba(0, 0, 0, 0.05) 0px 0px 11px 0px inset, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 16px 24px -8px, rgba(0, 0, 0, 0.05) 0px 8px 12px -4px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px; backdrop-filter:blur(7.5px); overflow:hidden}
+           <IMG HeroPhoto__HeroPhotoImg> [-418,140,90,100] src=https://hex.tech/images/careers/hero-images/careers-hero-lili.jpg nat=278x310 {overflow:clip}
+         <DIV HeroPhoto__PhotoShell> [-318,140,96,100] {line-height:0px; transform:matrix(1, 0, 0, 1, 0, 0); filter:blur(0px)}
+          <DIV Card__Wrapper HeroPhoto> [-318,140,96,100] {display:flex; position:relative; flex-direction:column; align-items:flex-start; text-align:left; background-color:rgba(253, 253, 253, 0.4); background-image:linear-gradient(105deg, rgba(245, 192, 192, 0) 10.56%, rgba(245, 192, 192, 0.02) 108.41%), none; border-radius:12px; box-shadow:rgba(0, 0, 0, 0.05) 0px 0px 11px 0px inset, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 16px 24px -8px, rgba(0, 0, 0, 0.05) 0px 8px 12px -4px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px; backdrop-filter:blur(7.5px); overflow:hidden}
+           <IMG HeroPhoto__HeroPhotoImg> [-318,140,96,100] src=https://hex.tech/images/careers/hero-images/careers-hero-mon.jpg nat=299x310 {overflow:clip}
+         <DIV HeroPhoto__PhotoShell> [-212,140,88,100] {line-height:0px; transform:matrix(1, 0, 0, 1, 0, 0); filter:blur(0px)}
+          <DIV Card__Wrapper HeroPhoto> [-212,140,88,100] {display:flex; position:relative; flex-direction:column; align-items:flex-start; text-align:left; background-color:rgba(253, 253, 253, 0.4); background-image:linear-gradient(105deg, rgba(245, 192, 192, 0) 10.56%, rgba(245, 192, 192, 0.02) 108.41%), none; border-radius:12px; box-shadow:rgba(0, 0, 0, 0.05) 0px 0px 11px 0px inset, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 16px 24px -8px, rgba(0, 0, 0, 0.05) 0px 8px 12px -4px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px; backdrop-filter:blur(7.5px); overflow:hidden}
+           <IMG HeroPhoto__HeroPhotoImg> [-212,140,88,100] src=https://hex.tech/images/careers/hero-images/careers-hero-debbie.jpg nat=272x310 {overflow:clip}
+         <DIV HeroPhoto__PhotoShell> [-114,140,155,100] {line-height:0px; transform:matrix(1, 0, 0, 1, 0, 0); filter:blur(0px)}
+          <DIV Card__Wrapper HeroPhoto> [-114,140,155,100] {display:flex; position:relative; flex-direction:column; align-items:flex-start; text-align:left; background-color:rgba(253, 253, 253, 0.4); background-image:linear-gradient(105deg, rgba(245, 192, 192, 0) 10.56%, rgba(245, 192, 192, 0.02) 108.41%), none; border-radius:12px; box-shadow:rgba(0, 0, 0, 0.05) 0px 0px 11px 0px inset, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 16px 24px -8px, rgba(0, 0, 0, 0.05) 0px 8px 12px -4px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px; backdrop-filter:blur(7.5px); overflow:hidden}
+           <IMG HeroPhoto__HeroPhotoImg> [-114,140,155,100] src=https://hex.tech/images/careers/hero-images/careers-hero-angela.jpg nat=479x310 {overflow:clip}
+         <DIV HeroPhoto__PhotoShell> [51,140,96,100] {line-height:0px; transform:matrix(1, 0, 0, 1, 0, 0); filter:blur(0px)}
+          <DIV Card__Wrapper HeroPhoto> [51,140,96,100] {display:flex; position:relative; flex-direction:column; align-items:flex-start; text-align:left; background-color:rgba(253, 253, 253, 0.4); background-image:linear-gradient(105deg, rgba(245, 192, 192, 0) 10.56%, rgba(245, 192, 192, 0.02) 108.41%), none; border-radius:12px; box-shadow:rgba(0, 0, 0, 0.05) 0px 0px 11px 0px inset, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 16px 24px -8px, rgba(0, 0, 0, 0.05) 0px 8px 12px -4px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px; backdrop-filter:blur(7.5px); overflow:hidden}
+           <IMG HeroPhoto__HeroPhotoImg> [51,140,96,100] src=https://hex.tech/images/careers/hero-images/careers-hero-megha.jpg nat=298x310 {overflow:clip}
+         <DIV HeroPhoto__PhotoShell> [157,140,155,100] {line-height:0px; transform:matrix(1, 0, 0, 1, 0, 0); filter:blur(0px)}
+          <DIV Card__Wrapper HeroPhoto> [157,140,155,100] {display:flex; position:relative; flex-direction:column; align-items:flex-start; text-align:left; background-color:rgba(253, 253, 253, 0.4); background-image:linear-gradient(105deg, rgba(245, 192, 192, 0) 10.56%, rgba(245, 192, 192, 0.02) 108.41%), none; border-radius:12px; box-shadow:rgba(0, 0, 0, 0.05) 0px 0px 11px 0px inset, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 16px 24px -8px, rgba(0, 0, 0, 0.05) 0px 8px 12px -4px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px; backdrop-filter:blur(7.5px); overflow:hidden}
+           <IMG HeroPhoto__HeroPhotoImg> [157,140,155,100] src=https://hex.tech/images/careers/hero-images/careers-hero-thomas.jpg nat=479x310 {overflow:clip}
+         <DIV HeroPhoto__PhotoShell> [321,140,110,100] {line-height:0px; transform:matrix(1, 0, 0, 1, 0, 0); filter:blur(0px)}
+          <DIV Card__Wrapper HeroPhoto> [321,140,110,100] {display:flex; position:relative; flex-direction:column; align-items:flex-start; text-align:left; background-color:rgba(253, 253, 253, 0.4); background-image:linear-gradient(105deg, rgba(245, 192, 192, 0) 10.56%, rgba(245, 192, 192, 0.02) 108.41%), none; border-radius:12px; box-shadow:rgba(0, 0, 0, 0.05) 0px 0px 11px 0px inset, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 16px 24px -8px, rgba(0, 0, 0, 0.05) 0px 8px 12px -4px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px; backdrop-filter:blur(7.5px); overflow:hidden}
+           <IMG HeroPhoto__HeroPhotoImg> [321,140,110,100] src=https://hex.tech/images/careers/hero-images/careers-hero-sara-squared.jpg nat=340x310 {overflow:clip}
+         <DIV HeroPhoto__PhotoShell> [441,140,155,100] {line-height:0px; transform:matrix(1, 0, 0, 1, 0, 0); filter:blur(0px)}
+          <DIV Card__Wrapper HeroPhoto> [441,140,155,100] {display:flex; position:relative; flex-direction:column; align-items:flex-start; text-align:left; background-color:rgba(253, 253, 253, 0.4); background-image:linear-gradient(105deg, rgba(245, 192, 192, 0) 10.56%, rgba(245, 192, 192, 0.02) 108.41%), none; border-radius:12px; box-shadow:rgba(0, 0, 0, 0.05) 0px 0px 11px 0px inset, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 16px 24px -8px, rgba(0, 0, 0, 0.05) 0px 8px 12px -4px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px; backdrop-filter:blur(7.5px); overflow:hidden}
+           <IMG HeroPhoto__HeroPhotoImg> [441,140,155,100] src=https://hex.tech/images/careers/hero-images/careers-hero-ben.jpg nat=479x310 {overflow:clip}
+         <DIV HeroPhoto__PhotoShell> [605,140,90,100] {line-height:0px; transform:matrix(1, 0, 0, 1, 0, 0); filter:blur(0px)}
+          <DIV Card__Wrapper HeroPhoto> [605,140,90,100] {display:flex; position:relative; flex-direction:column; align-items:flex-start; text-align:left; background-color:rgba(253, 253, 253, 0.4); background-image:linear-gradient(105deg, rgba(245, 192, 192, 0) 10.56%, rgba(245, 192, 192, 0.02) 108.41%), none; border-radius:12px; box-shadow:rgba(0, 0, 0, 0.05) 0px 0px 11px 0px inset, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 16px 24px -8px, rgba(0, 0, 0, 0.05) 0px 8px 12px -4px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px; backdrop-filter:blur(7.5px); overflow:hidden}
+           <IMG HeroPhoto__HeroPhotoImg> [605,140,90,100] src=https://hex.tech/images/careers/hero-images/careers-hero-alexis.jpg nat=278x310 {overflow:clip}
+         <DIV HeroPhoto__PhotoShell> [705,140,103,100] {line-height:0px; transform:matrix(1, 0, 0, 1, 0, 0); filter:blur(0px)}
+          <DIV Card__Wrapper HeroPhoto> [705,140,103,100] {display:flex; position:relative; flex-direction:column; align-items:flex-start; text-align:left; background-color:rgba(253, 253, 253, 0.4); background-image:linear-gradient(105deg, rgba(245, 192, 192, 0) 10.56%, rgba(245, 192, 192, 0.02) 108.41%), none; border-radius:12px; box-shadow:rgba(0, 0, 0, 0.05) 0px 0px 11px 0px inset, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 16px 24px -8px, rgba(0, 0, 0, 0.05) 0px 8px 12px -4px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px; backdrop-filter:blur(7.5px); overflow:hidden}
+           <IMG HeroPhoto__HeroPhotoImg> [705,140,103,100] src=https://hex.tech/images/careers/hero-images/careers-hero-gabe.jpg nat=318x310 {overflow:clip}
+        <DIV HeroCareers__MainContent HeroCareers__MainContentOrdered> [8,280,374,410] {display:grid; align-items:center; grid-template-columns:0px 314.25px 0px; grid-template-rows:410.188px; padding:0px 30px}
+         <DIV HeroCareers__PhotoGridCell> [38,485,0,0] {}
+         <DIV HeroCareers__TextContent> [38,280,314,410] {display:flex; flex-direction:column; align-items:center; gap:15px; max-width:740px}
+          <H1 Heading__HeadingInternal Heading___StyledHeadingInternal> [32,280,326,123] «a data person» {padding:0px 6px 6px; margin:0px -6px -6px; font-family:PP Formula SemiExtended; font-size:40px; line-height:44px; font-weight:700; letter-spacing:-1.232px; text-align:center; color:rgb(20, 20, 28); background-color:rgb(20, 20, 28); background-image:linear-gradient(90deg, rgb(49, 38, 59) 0%, rgb(1, 1, 27) 100%)}
+           <SPAN > [38,280,314,57] «Make everyone» {margin:0px 0px 16px; font-family:PP Editorial New; font-size:52px; line-height:57.2px; font-weight:200; font-style:italic}
+          <DIV HeroCareers__Info> [38,412,314,278] {display:flex; flex-direction:column; align-items:center; gap:30px}
+           <DIV HeroCareers__Description> [38,412,314,120] {display:flex; flex-direction:column; text-align:center}
+            <P Text__TextWrapper Text___StyledTextWrapper> [38,412,314,120] «At Hex, we build beloved tools that allow people and teams to make sense of their world.» {font-size:16px; line-height:24px; font-weight:300}
+             <STRONG > [44,462,301,68] «Our roadmap is full of big ideas and little details, and we want your help bringing them t» {display:inline; font-weight:500}
+           <DIV HeroCareers__Actions> [86,562,217,128] {display:flex; flex-direction:column; align-items:center; gap:20px}
+            <DIV > [101,562,189,54] {}
+             <DIV Accents__AccentsContainer> [101,562,189,54] {display:flex; position:relative}
+              <DIV Accents__Circle> [95,556,14,14] {position:absolute; aspect-ratio:1 / 1; border-top:1px solid rgb(156, 149, 159); border-right:1px solid rgb(156, 149, 159); border-bottom:1px solid rgb(156, 149, 159); border-left:1px solid rgb(156, 149, 159); border-radius:999px; transition:scale 0.3s cubic-bezier(1, -0.4, 0.35, 0.95)}
+              <DIV Accents__Circle> [281,556,14,14] {position:absolute; aspect-ratio:1 / 1; border-top:1px solid rgb(156, 149, 159); border-right:1px solid rgb(156, 149, 159); border-bottom:1px solid rgb(156, 149, 159); border-left:1px solid rgb(156, 149, 159); border-radius:999px; transition:scale 0.3s cubic-bezier(1, -0.4, 0.35, 0.95)}
+              <DIV Accents__Circle> [95,608,14,14] {position:absolute; aspect-ratio:1 / 1; border-top:1px solid rgb(156, 149, 159); border-right:1px solid rgb(156, 149, 159); border-bottom:1px solid rgb(156, 149, 159); border-left:1px solid rgb(156, 149, 159); border-radius:999px; transition:scale 0.3s cubic-bezier(1, -0.4, 0.35, 0.95)}
+              <DIV Accents__Circle> [281,608,14,14] {position:absolute; aspect-ratio:1 / 1; border-top:1px solid rgb(156, 149, 159); border-right:1px solid rgb(156, 149, 159); border-bottom:1px solid rgb(156, 149, 159); border-left:1px solid rgb(156, 149, 159); border-radius:999px; transition:scale 0.3s cubic-bezier(1, -0.4, 0.35, 0.95)}
+              <DIV Accents__AccentsContainer> [101,562,189,54] {display:flex; position:relative}
+               <DIV Accents__CornerTrack> [97,558,197,1] {position:absolute; overflow:clip}
+                <DIV Accents__CornerLinePosition> [97,558,197,1] {position:absolute; opacity:0; transition:transform cubic-bezier(0.645, 0.045, 0.355, 1), opacity 0.4s cubic-bezier(0.215, 0.61, 0.355, 1)}
+                 <DIV Accents__CornerLine> [-100,558,197,1] {position:absolute; transform:matrix(1, 0, 0, 1, -196.547, 0)}
+                 <DIV Accents__CornerLine> [97,558,197,1] {position:absolute; transform:matrix(1, 0, 0, 1, 0, 0)}
+                 <DIV Accents__CornerLine> [293,558,197,1] {position:absolute; transform:matrix(1, 0, 0, 1, 196.547, 0)}
+               <DIV Accents__CornerTrack> [292,558,1,62] {position:absolute; overflow:clip}
+                <DIV Accents__CornerLinePosition> [292,558,1,62] {position:absolute; opacity:0; transition:transform cubic-bezier(0.645, 0.045, 0.355, 1), opacity 0.4s cubic-bezier(0.215, 0.61, 0.355, 1)}
+                 <DIV Accents__CornerLine> [292,496,1,62] {position:absolute; transform:matrix(1, 0, 0, 1, 0, -62)}
+                 <DIV Accents__CornerLine> [292,558,1,62] {position:absolute; transform:matrix(1, 0, 0, 1, 0, 0)}
+                 <DIV Accents__CornerLine> [292,620,1,62] {position:absolute; transform:matrix(1, 0, 0, 1, 0, 62)}
+               <DIV Accents__CornerTrack> [97,619,197,1] {position:absolute; overflow:clip}
+                <DIV Accents__CornerLinePosition> [97,619,197,1] {position:absolute; opacity:0; transition:transform cubic-bezier(0.645, 0.045, 0.355, 1), opacity 0.4s cubic-bezier(0.215, 0.61, 0.355, 1)}
+                 <DIV Accents__CornerLine> [97,619,197,1] {position:absolute; transform:matrix(1, 0, 0, 1, 0, 0)}
+                 <DIV Accents__CornerLine> [293,619,197,1] {position:absolute; transform:matrix(1, 0, 0, 1, 196.547, 0)}
+                 <DIV Accents__CornerLine> [490,619,197,1] {position:absolute; transform:matrix(1, 0, 0, 1, 393.094, 0)}
+               <DIV Accents__CornerTrack> [97,558,1,62] {position:absolute; overflow:clip}
+                <DIV Accents__CornerLinePosition> [97,558,1,62] {position:absolute; opacity:0; transition:transform cubic-bezier(0.645, 0.045, 0.355, 1), opacity 0.4s cubic-bezier(0.215, 0.61, 0.355, 1)}
+                 <DIV Accents__CornerLine> [97,558,1,62] {position:absolute; transform:matrix(1, 0, 0, 1, 0, 0)}
+                 <DIV Accents__CornerLine> [97,620,1,62] {position:absolute; transform:matrix(1, 0, 0, 1, 0, 62)}
+                 <DIV Accents__CornerLine> [97,682,1,62] {position:absolute; transform:matrix(1, 0, 0, 1, 0, 124)}
+               <DIV ButtonAnimated__PrimaryCtaAsDiv> [101,562,189,54] «See open roles» {display:flex; position:relative; align-items:center; gap:16px; padding:8px 18px 8px 6px; font-size:16px; line-height:24px; color:rgb(20, 20, 28); background-image:linear-gradient(to right, rgb(255, 252, 252), rgb(255, 252, 252)), linear-gradient(45deg, rgb(49, 38, 59), rgb(173, 142, 182)); border-top:1px solid rgba(0, 0, 0, 0); border-right:1px solid rgba(0, 0, 0, 0); border-bottom:1px solid rgba(0, 0, 0, 0); border-left:1px solid rgba(0, 0, 0, 0); border-radius:1px; box-shadow:rgb(239, 235, 237) 0px 0px 34px 0px inset, rgba(100, 63, 63, 0.01) 6px 27px 10px 0px, rgba(100, 63, 63, 0.04) 4px 4px 10px 0px, rgba(100, 63, 63, 0.06) 2px 13px 8px 0px, rgba(100, 63, 63, 0.06) 1px 6px 6px 0px, rgba(100, 63, 63, 0.18) 0px 1px 3px 0px; white-space:nowrap; text-wrap:nowrap}
+                <DIV Cta__PrimaryCtaIconWrapper> [108,571,36,36] {display:grid; position:relative; justify-content:center; grid-template-columns:16px; grid-template-rows:16px; aspect-ratio:1 / 1; color:rgb(67, 57, 76); border-top:1px solid rgb(67, 57, 76); border-right:1px solid rgb(67, 57, 76); border-bottom:1px solid rgb(67, 57, 76); border-left:1px solid rgb(67, 57, 76); border-radius:999px}
+                 <svg > [118,581,16,16] {overflow:hidden}
+            <DIV > [86,636,217,54] {}
+             <DIV Accents__AccentsContainer> [86,636,217,54] {display:flex; position:relative}
+              <DIV Accents__Circle> [80,630,14,14] {position:absolute; aspect-ratio:1 / 1; border-top:1px solid rgb(156, 149, 159); border-right:1px solid rgb(156, 149, 159); border-bottom:1px solid rgb(156, 149, 159); border-left:1px solid rgb(156, 149, 159); border-radius:999px; transition:scale 0.3s cubic-bezier(1, -0.4, 0.35, 0.95)}
+              <DIV Accents__Circle> [296,630,14,14] {position:absolute; aspect-ratio:1 / 1; border-top:1px solid rgb(156, 149, 159); border-right:1px solid rgb(156, 149, 159); border-bottom:1px solid rgb(156, 149, 159); border-left:1px solid rgb(156, 149, 159); border-radius:999px; transition:scale 0.3s cubic-bezier(1, -0.4, 0.35, 0.95)}
+              <DIV Accents__Circle> [80,682,14,14] {position:absolute; aspect-ratio:1 / 1; border-top:1px solid rgb(156, 149, 159); border-right:1px solid rgb(156, 149, 159); border-bottom:1px solid rgb(156, 149, 159); border-left:1px solid rgb(156, 149, 159); border-radius:999px; transition:scale 0.3s cubic-bezier(1, -0.4, 0.35, 0.95)}
+              <DIV Accents__Circle> [296,682,14,14] {position:absolute; aspect-ratio:1 / 1; border-top:1px solid rgb(156, 149, 159); border-right:1px solid rgb(156, 149, 159); border-bottom:1px solid rgb(156, 149, 159); border-left:1px solid rgb(156, 149, 159); border-radius:999px; transition:scale 0.3s cubic-bezier(1, -0.4, 0.35, 0.95)}
+              <DIV Accents__AccentsContainer> [86,636,217,54] {display:flex; position:relative}
+               <DIV Accents__CornerTrack> [82,632,225,1] {position:absolute; overflow:clip}
+                <DIV Accents__CornerLinePosition> [82,632,225,1] {position:absolute; opacity:0; transition:transform cubic-bezier(0.645, 0.045, 0.355, 1), opacity 0.4s cubic-bezier(0.215, 0.61, 0.355, 1)}
+                 <DIV Accents__CornerLine> [-143,632,225,1] {position:absolute; transform:matrix(1, 0, 0, 1, -225.297, 0)}
+                 <DIV Accents__CornerLine> [82,632,225,1] {position:absolute; transform:matrix(1, 0, 0, 1, 0, 0)}
+                 <DIV Accents__CornerLine> [308,632,225,1] {position:absolute; transform:matrix(1, 0, 0, 1, 225.297, 0)}
+               <DIV Accents__CornerTrack> [307,632,1,62] {position:absolute; overflow:clip}
+                <DIV Accents__CornerLinePosition> [307,632,1,62] {position:absolute; opacity:0; transition:transform cubic-bezier(0.645, 0.045, 0.355, 1), opacity 0.4s cubic-bezier(0.215, 0.61, 0.355, 1)}
+                 <DIV Accents__CornerLine> [307,570,1,62] {position:absolute; transform:matrix(1, 0, 0, 1, 0, -62)}
+                 <DIV Accents__CornerLine> [307,632,1,62] {position:absolute; transform:matrix(1, 0, 0, 1, 0, 0)}
+                 <DIV Accents__CornerLine> [307,694,1,62] {position:absolute; transform:matrix(1, 0, 0, 1, 0, 62)}
+               <DIV Accents__CornerTrack> [82,693,225,1] {position:absolute; overflow:clip}
+                <DIV Accents__CornerLinePosition> [82,693,225,1] {position:absolute; opacity:0; transition:transform cubic-bezier(0.645, 0.045, 0.355, 1), opacity 0.4s cubic-bezier(0.215, 0.61, 0.355, 1)}
+                 <DIV Accents__CornerLine> [82,693,225,1] {position:absolute; transform:matrix(1, 0, 0, 1, 0, 0)}
+                 <DIV Accents__CornerLine> [308,693,225,1] {position:absolute; transform:matrix(1, 0, 0, 1, 225.297, 0)}
+                 <DIV Accents__CornerLine> [533,693,225,1] {position:absolute; transform:matrix(1, 0, 0, 1, 450.594, 0)}
+               <DIV Accents__CornerTrack> [82,632,1,62] {position:absolute; overflow:clip}
+                <DIV Accents__CornerLinePosition> [82,632,1,62] {position:absolute; opacity:0; transition:transform cubic-bezier(0.645, 0.045, 0.355, 1), opacity 0.4s cubic-bezier(0.215, 0.61, 0.355, 1)}
+                 <DIV Accents__CornerLine> [82,632,1,62] {position:absolute; transform:matrix(1, 0, 0, 1, 0, 0)}
+                 <DIV Accents__CornerLine> [82,694,1,62] {position:absolute; transform:matrix(1, 0, 0, 1, 0, 62)}
+                 <DIV Accents__CornerLine> [82,756,1,62] {position:absolute; transform:matrix(1, 0, 0, 1, 0, 124)}
+               <A Cta__PrimaryCta ButtonAnimated__PrimaryCtaAsLink> [86,636,217,54] href=https://www.notion.so/hexhq/Hex-Handbook-9fff0d42860e4f70815c599e0d1664d6 «The Hex Handbook» {display:flex; position:relative; align-items:center; gap:16px; padding:8px 18px 8px 6px; font-size:16px; line-height:24px; color:rgb(20, 20, 28); background-image:linear-gradient(to right, rgb(255, 252, 252), rgb(255, 252, 252)), linear-gradient(45deg, rgb(49, 38, 59), rgb(173, 142, 182)); border-top:1px solid rgba(0, 0, 0, 0); border-right:1px solid rgba(0, 0, 0, 0); border-bottom:1px solid rgba(0, 0, 0, 0); border-left:1px solid rgba(0, 0, 0, 0); border-radius:1px; box-shadow:rgb(239, 235, 237) 0px 0px 34px 0px inset, rgba(100, 63, 63, 0.01) 6px 27px 10px 0px, rgba(100, 63, 63, 0.04) 4px 4px 10px 0px, rgba(100, 63, 63, 0.06) 2px 13px 8px 0px, rgba(100, 63, 63, 0.06) 1px 6px 6px 0px, rgba(100, 63, 63, 0.18) 0px 1px 3px 0px; transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+                <DIV Cta__PrimaryCtaIconWrapper> [93,645,36,36] {display:grid; position:relative; justify-content:center; grid-template-columns:15px; grid-template-rows:15px; aspect-ratio:1 / 1; color:rgb(67, 57, 76); border-top:1px solid rgb(67, 57, 76); border-right:1px solid rgb(67, 57, 76); border-bottom:1px solid rgb(67, 57, 76); border-left:1px solid rgb(67, 57, 76); border-radius:999px}
+                 <SPAN createIcon__Wrapper> [104,656,15,15] {display:flex}
+                  <svg > [104,656,15,15] {overflow:hidden}
+         <DIV HeroCareers__PhotoGridCell> [352,485,0,0] {}
+     <DIV GridLines__CheckeredMargin> [382,0,8,870] {position:relative; grid-column:-2 / span 1; background-image:url("data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"4\" height=\"4\"><rect width=\"2\" height=\"2\" fill=\"%23e8e4e6\" /><rect x=\"2\" y=\"2\" width=\"2\" height=\"2\" fill=\"%23e8e4e6\"/></svg>"); border-left:1px solid rgb(219, 215, 218)}
+    <DIV LayoutGrid__LayoutSubgrid BasicPageRow__Wrapper> [0,870,390,984] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:983.062px; grid-column:1 / -1; border-top:1px solid rgb(219, 215, 218); overflow:clip visible}
+     <DIV GridLines__CheckeredMargin> [0,871,8,983] {position:relative; grid-column:1 / span 1; background-image:url("data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"4\" height=\"4\"><rect width=\"2\" height=\"2\" fill=\"%23e8e4e6\" /><rect x=\"2\" y=\"2\" width=\"2\" height=\"2\" fill=\"%23e8e4e6\"/></svg>"); border-right:1px solid rgb(219, 215, 218)}
+     <DIV LayoutGrid__LayoutGridCondensed BasicPageRow__StyledLayoutGridCondensed> [8,871,374,983] {display:grid; position:relative; gap:0px; grid-template-columns:12px 29.1875px 29.1875px 29.1875px 29.1875px 29.1875px 29.1875px 29.1875px 29.1875px 29.1875px 29.1875px 29.1875px 29.1875px 12px; grid-template-rows:983.062px; grid-column:2 / -2}
+      <DIV BasicPageRow__InnerStatic> [8,871,374,983] {display:flex; position:relative; flex-direction:column; justify-content:center; align-items:center; grid-column:1 / -1}
+       <DIV DoYourBestWorkTout__Wrapper> [8,871,374,983] {display:flex; position:relative; flex-direction:column; align-items:center; overflow:hidden}
+        <svg DoYourBestWorkTout__BkgIllustration> [-349,994,1087,574] {position:absolute; transform:matrix(-1, 0, 0, -1, 0, 0); overflow:hidden}
+        <DIV DoYourBestWorkTout> [8,871,374,983] {display:flex; flex-direction:column; justify-content:center; align-items:center; gap:40px; padding:40px 30px; max-width:1240px}
+         <DIV DoYourBestWorkTout__Center> [38,911,314,371] {display:flex; flex-direction:column; align-items:center; gap:10px; text-align:center}
+          <H2 Heading__HeadingInternal Heading___StyledHeadingInternal> [32,911,326,167] «your best work» {padding:0px 6px 6px; margin:0px -6px -6px; font-family:PP Formula; font-size:40px; line-height:44px; font-weight:800; letter-spacing:-1px; color:rgb(20, 20, 28); background-color:rgb(20, 20, 28); background-image:linear-gradient(90deg, rgb(49, 38, 59) 0%, rgb(1, 1, 27) 100%)}
+           <SPAN > [38,911,314,57] «A place to do» {margin:0px 0px 16px; font-family:PP Editorial New; font-size:52px; line-height:57.2px; font-weight:200; font-style:italic}
+          <P Text__TextWrapper Text___StyledTextWrapper> [38,1082,314,120] «We spend our days designing and developing beautiful products, growing and supporting our » {margin:0px 0px 20px; font-size:16px; line-height:24px; font-weight:300}
+           <SPAN > [48,1084,187,20] «We’re a team of builders.» {display:inline; font-weight:500}
+          <A Button__LinkWrapperBase> [98,1232,194,50] href=https://www.notion.so/hexhq/Hex-Handbook-9fff0d42860e4f70815c599e0d1664d6 {display:flex; position:relative; padding:0px 20px; color:rgb(20, 20, 28); background-image:linear-gradient(to right, rgb(255, 252, 252), rgb(255, 252, 252)), linear-gradient(45deg, rgb(205, 160, 165), rgb(49, 38, 59)); border-top:1px solid rgba(0, 0, 0, 0); border-right:1px solid rgba(0, 0, 0, 0); border-bottom:1px solid rgba(0, 0, 0, 0); border-left:1px solid rgba(0, 0, 0, 0); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+           <DIV Button> [119,1233,152,48] {display:flex; justify-content:center; align-items:center; gap:10px; white-space:nowrap; text-wrap:nowrap}
+            <DIV CornerLines__Wrapper> [99,1233,192,48] {position:absolute; opacity:0}
+            <DIV Button__Icon> [119,1250,15,15] {display:flex; justify-content:center; align-items:center; z-index:2}
+             <SPAN createIcon__Wrapper> [119,1250,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [119,1250,15,15] {overflow:hidden}
+            <DIV Button__Children> [144,1246,127,22] «Read our handbook» {display:flex; position:relative; justify-content:center; align-items:center; overflow:hidden; z-index:2}
+            <DIV CornerCircles__Wrapper> [99,1233,192,48] {position:absolute; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+         <DIV DoYourBestWorkTout__Side> [38,1322,314,226] {display:flex}
+          <DIV ToutHighlight__Wrapper> [38,1322,314,226] {display:flex; flex-direction:column}
+           <DIV ToutHighlight__IconWrapper> [38,1322,314,58] {display:flex; flex-direction:column; align-items:center}
+            <DIV ToutHighlight__Icon> [171,1322,48,48] {display:flex; justify-content:center; align-items:center; margin:0px 0px 10px; border-top:1px solid rgb(219, 215, 218); border-right:1px solid rgb(219, 215, 218); border-bottom:1px solid rgb(219, 215, 218); border-left:1px solid rgb(219, 215, 218); border-radius:50%}
+             <SPAN createIcon__Wrapper> [188,1339,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [188,1339,15,15] {overflow:hidden}
+           <DIV ToutHighlight__Info> [38,1380,314,168] {display:flex; flex-direction:column; align-items:center; gap:10px}
+            <P Text__TextWrapper Text___StyledTextWrapper> [38,1380,314,60] «Our culture is focused on quality, craft, and speed.» {font-size:20px; line-height:30px; font-weight:500; text-align:center}
+            <DIV ToutHighlight__Description> [38,1450,314,98] {display:flex; flex-direction:column; gap:10px}
+             <P Text__TextWrapper Text___StyledTextWrapper> [38,1450,314,66] «We have very few meetings, bias toward action, and take care of each other through feedbac» {font-weight:300; text-align:center}
+             <P Text__TextWrapper Text___StyledTextWrapper> [38,1526,314,22] «Check out our  !» {font-weight:300; text-align:center}
+              <A > [207,1528,68,18] href=https://learn.hex.tech/changelog «changelog» {display:inline; color:rgb(67, 57, 76); border-bottom:1px solid rgb(67, 57, 76); transition:background-color 0.1s linear}
+         <DIV DoYourBestWorkTout__Side> [38,1588,314,226] {display:flex}
+          <DIV ToutHighlight__Wrapper> [38,1588,314,226] {display:flex; flex-direction:column}
+           <DIV ToutHighlight__IconWrapper> [38,1588,314,58] {display:flex; flex-direction:column; align-items:center}
+            <DIV ToutHighlight__Icon> [171,1588,48,48] {display:flex; justify-content:center; align-items:center; margin:0px 0px 10px; border-top:1px solid rgb(219, 215, 218); border-right:1px solid rgb(219, 215, 218); border-bottom:1px solid rgb(219, 215, 218); border-left:1px solid rgb(219, 215, 218); border-radius:50%}
+             <SPAN createIcon__Wrapper> [188,1605,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [188,1605,15,15] {overflow:hidden}
+           <DIV ToutHighlight__Info> [38,1646,314,168] {display:flex; flex-direction:column; align-items:center; gap:10px}
+            <P Text__TextWrapper Text___StyledTextWrapper> [38,1646,314,60] «We're hiring in San Francisco, New York, and remote.» {font-size:20px; line-height:30px; font-weight:500; text-align:center}
+            <DIV ToutHighlight__Description> [38,1716,314,98] {display:flex; flex-direction:column; gap:10px}
+             <P Text__TextWrapper Text___StyledTextWrapper> [38,1716,314,66] «We have beautiful offices in both cities – and remote team members throughout US, Canada, » {font-weight:300; text-align:center}
+             <P Text__TextWrapper Text___StyledTextWrapper> [38,1792,314,22] «Learn more about  .» {font-weight:300; text-align:center}
+              <A > [211,1794,85,18] href=https://www.notion.so/hexhq/Working-at-Hex-4396aaae4827457c97739093a3d67340 «how we work» {display:inline; color:rgb(67, 57, 76); border-bottom:1px solid rgb(67, 57, 76); transition:background-color 0.1s linear}
+     <DIV GridLines__CheckeredMargin> [382,871,8,983] {position:relative; grid-column:-2 / span 1; background-image:url("data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"4\" height=\"4\"><rect width=\"2\" height=\"2\" fill=\"%23e8e4e6\" /><rect x=\"2\" y=\"2\" width=\"2\" height=\"2\" fill=\"%23e8e4e6\"/></svg>"); border-left:1px solid rgb(219, 215, 218)}
+    <DIV > [8,1854,374,0] {grid-column:2 / -2}
+    <DIV LayoutGrid__LayoutSubgrid BasicPageRow__Wrapper> [0,1854,390,5463] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:5462.19px; grid-column:1 / -1; border-top:1px solid rgb(219, 215, 218); overflow:clip visible}
+     <DIV GridLines__CheckeredMargin> [0,1855,8,5462] {position:relative; grid-column:1 / span 1; background-image:url("data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"4\" height=\"4\"><rect width=\"2\" height=\"2\" fill=\"%23e8e4e6\" /><rect x=\"2\" y=\"2\" width=\"2\" height=\"2\" fill=\"%23e8e4e6\"/></svg>"); border-right:1px solid rgb(219, 215, 218)}
+     <DIV LayoutGrid__LayoutGridCondensed BasicPageRow__StyledLayoutGridCondensed> [8,1855,374,5462] {display:grid; position:relative; gap:0px; grid-template-columns:12px 29.1875px 29.1875px 29.1875px 29.1875px 29.1875px 29.1875px 29.1875px 29.1875px 29.1875px 29.1875px 29.1875px 29.1875px 12px; grid-template-rows:5462.19px; grid-column:2 / -2}
+      <DIV BasicPageRow__InnerStatic> [8,1855,374,5462] {display:flex; position:relative; flex-direction:column; justify-content:center; align-items:center; grid-column:1 / -1}
+       <DIV OpenRolesTout__Wrapper> [8,1855,374,5462] {display:flex; flex-direction:column}
+        <DIV OpenRolesSidebar__Wrapper> [8,1855,374,208] {display:flex; flex-direction:column; align-items:stretch; padding:30px 0px; border-bottom:1px solid rgb(233, 229, 232)}
+         <DIV OpenRolesSidebar> [8,1885,374,147] {display:flex; position:relative; flex-direction:column; gap:10px}
+          <DIV OpenRolesSidebar__HeaderWrapper> [8,1885,374,39] {display:flex; position:relative; align-items:flex-end; gap:10px; padding:0px 30px}
+           <H2 Heading__HeadingInternal Heading___StyledHeadingInternal> [32,1885,183,45] «Open roles» {padding:0px 6px 6px; margin:0px -6px -6px; font-family:PP Formula; font-size:30px; line-height:39px; font-weight:800; letter-spacing:-0.75px; text-align:left; color:rgb(20, 20, 28); background-color:rgb(20, 20, 28); background-image:linear-gradient(90deg, rgb(49, 38, 59) 0%, rgb(1, 1, 27) 100%)}
+           <DIV OpenRolesSidebar__TotalRoleCount> [331,1895,35,29] «[ 39 ]» {position:absolute; padding:0px 0px 10px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+          <DIV OpenRolesSidebar__Section> [8,1934,374,44] {display:flex; flex-direction:column; gap:16px}
+           <DIV NativePickerSelect> [8,1934,374,44] {display:grid; grid-template-columns:314.25px; grid-template-rows:44px; padding:0px 30px}
+            <DIV NativePickerSelect__Toggle> [38,1934,314,44] {display:flex; justify-content:space-between; align-items:center; gap:10px; grid-column:1; padding:10px 14px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; letter-spacing:0.9996px; color:rgb(20, 20, 28); background-color:color(srgb 0.192157 0.14902 0.231373 / 0.05); border-top:1px solid rgb(233, 229, 232); border-right:1px solid rgb(233, 229, 232); border-bottom:1px solid rgb(233, 229, 232); border-left:1px solid rgb(233, 229, 232); border-radius:4px}
+             <SPAN NativePickerSelect__ToggleText> [53,1947,174,19] «All departments [ 39 ]» {text-align:left}
+             <svg > [321,1949,16,16] {transform:matrix(0, 1, -1, 0, 0, 1); overflow:hidden}
+            <SELECT NativePickerSelect__HitAreaSelect> [38,1934,314,44] {align-items:center; grid-column:1; font-family:Arial; font-size:16px; line-height:normal; color:rgb(0, 0, 0); opacity:0; overflow:clip; white-space:pre; text-wrap:nowrap}
+          <DIV OpenRolesSidebar__Section> [8,1988,374,44] {display:flex; flex-direction:column; gap:16px}
+           <DIV NativePickerSelect> [8,1988,374,44] {display:grid; grid-template-columns:314.25px; grid-template-rows:44px; padding:0px 30px}
+            <DIV NativePickerSelect__Toggle> [38,1988,314,44] {display:flex; justify-content:space-between; align-items:center; gap:10px; grid-column:1; padding:10px 14px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; letter-spacing:0.9996px; color:rgb(20, 20, 28); background-color:color(srgb 0.192157 0.14902 0.231373 / 0.05); border-top:1px solid rgb(233, 229, 232); border-right:1px solid rgb(233, 229, 232); border-bottom:1px solid rgb(233, 229, 232); border-left:1px solid rgb(233, 229, 232); border-radius:4px}
+             <SPAN NativePickerSelect__ToggleText> [53,2001,113,19] «All locations» {text-align:left}
+             <svg > [321,2003,16,16] {transform:matrix(0, 1, -1, 0, 0, 1); overflow:hidden}
+            <SELECT NativePickerSelect__HitAreaSelect> [38,1988,314,44] {align-items:center; grid-column:1; font-family:Arial; font-size:16px; line-height:normal; color:rgb(0, 0, 0); opacity:0; overflow:clip; white-space:pre; text-wrap:nowrap}
+        <DIV OpenRolesList__RoleList> [8,2063,374,5254] {display:flex; flex-direction:column; gap:30px; padding:30px}
+         <DIV OpenRolesList__RoleDept> [38,2093,314,989] {display:flex; position:relative; flex-direction:column; gap:10px}
+          <DIV OpenRolesList__RoleDeptInfo> [38,2093,314,100] {display:flex; position:relative; flex-direction:column; gap:8px}
+           <H3 Heading__HeadingInternal Heading___StyledHeadingInternal> [38,2093,314,26] «Engineering» {font-family:PP Formula; font-size:20px; line-height:26px; font-weight:800; letter-spacing:-0.5px; color:rgb(20, 20, 28)}
+           <P Text__TextWrapper Text___StyledTextWrapper> [38,2127,314,66] «Build and scale Hex: AI, notebooks, data apps, and core infrastructure - with a focus on r» {font-weight:300}
+          <DIV OpenRolesList__RoleDeptList> [38,2203,314,879] {display:flex; flex-direction:column}
+           <A OpenRole__Wrapper> [38,2203,314,75] href=/careers/ai-research-engineer/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,2218,164,21] {display:flex; align-items:center; gap:10px; margin:0px 150.594px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,2221,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,2221,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,2218,139,21] «AI Research Engineer» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,2244,242,18] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,2246,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,2246,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,2244,217,18] «New York or San Francisco» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+           <A OpenRole__Wrapper> [38,2278,314,93] href=/careers/cloud-security-engineer/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,2293,182,21] {display:flex; align-items:center; gap:10px; margin:0px 131.938px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,2296,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,2296,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,2293,157,21] «Cloud Security Engineer» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,2319,314,36] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,2330,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,2330,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,2319,289,36] «Remote - US, San Francisco or New York» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+           <A OpenRole__Wrapper> [38,2371,314,75] href=/careers/data-person/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,2386,104,21] {display:flex; align-items:center; gap:10px; margin:0px 210.219px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,2389,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,2389,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,2386,79,21] «Data Person» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,2412,138,18] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,2414,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,2414,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,2412,113,18] «San Francisco» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+           <A OpenRole__Wrapper> [38,2446,314,75] href=/careers/engineering-director-ai-engineering/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,2461,261,21] {display:flex; align-items:center; gap:10px; margin:0px 53.2812px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,2464,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,2464,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,2461,236,21] «Engineering Director, AI Engineering» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,2487,242,18] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,2489,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,2489,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,2487,217,18] «San Francisco or New York» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+           <A OpenRole__Wrapper> [38,2521,314,75] href=/careers/engineering-lead/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,2536,139,21] {display:flex; align-items:center; gap:10px; margin:0px 175.703px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,2539,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,2539,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,2536,114,21] «Engineering Lead» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,2562,242,18] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,2564,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,2564,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,2562,217,18] «San Francisco or New York» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+           <A OpenRole__Wrapper> [38,2596,314,75] href=/careers/senior-it-systems-engineer/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,2611,203,21] {display:flex; align-items:center; gap:10px; margin:0px 111.328px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,2614,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,2614,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,2611,178,21] «Senior IT Systems Engineer» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,2637,138,18] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,2639,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,2639,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,2637,113,18] «San Francisco» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+           <A OpenRole__Wrapper> [38,2671,314,75] href=/careers/software-engineer-ai-agent/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,2686,208,21] {display:flex; align-items:center; gap:10px; margin:0px 106.297px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,2689,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,2689,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,2686,183,21] «Software Engineer, AI Agent» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,2712,242,18] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,2714,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,2714,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,2712,217,18] «San Francisco or New York» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+           <A OpenRole__Wrapper> [38,2746,314,93] href=/careers/software-engineer-backend-(product)/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,2761,273,21] {display:flex; align-items:center; gap:10px; margin:0px 40.8906px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,2764,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,2764,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,2761,248,21] «Software Engineer, Backend (Product)» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,2787,314,36] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,2798,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,2798,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,2787,289,36] «Remote - US, San Francisco or New York» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+           <A OpenRole__Wrapper> [38,2839,314,93] href=/careers/software-engineer-foundations/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,2854,232,21] {display:flex; align-items:center; gap:10px; margin:0px 81.9844px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,2857,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,2857,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,2854,207,21] «Software Engineer, Foundations» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,2880,314,36] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,2891,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,2891,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,2880,289,36] «Remote - US, San Francisco or New York» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+           <A OpenRole__Wrapper> [38,2932,314,75] href=/careers/software-engineer-fullstack/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,2947,211,21] {display:flex; align-items:center; gap:10px; margin:0px 103.75px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,2950,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,2950,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,2947,186,21] «Software Engineer, Fullstack» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,2973,242,18] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,2975,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,2975,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,2973,217,18] «San Francisco or New York» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+           <A OpenRole__Wrapper> [38,3007,314,75] href=/careers/software-engineer-infrastructure/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,3022,244,21] {display:flex; align-items:center; gap:10px; margin:0px 70.0312px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,3025,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,3025,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,3022,219,21] «Software Engineer, Infrastructure» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,3048,120,18] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,3050,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,3050,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,3048,95,18] «Remote - US» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+         <DIV OpenRolesList__RoleDept> [38,3112,314,282] {display:flex; position:relative; flex-direction:column; gap:10px}
+          <DIV OpenRolesList__RoleDeptInfo> [38,3112,314,122] {display:flex; position:relative; flex-direction:column; gap:8px}
+           <H3 Heading__HeadingInternal Heading___StyledHeadingInternal> [38,3112,314,26] «Product» {font-family:PP Formula; font-size:20px; line-height:26px; font-weight:800; letter-spacing:-0.5px; color:rgb(20, 20, 28)}
+           <P Text__TextWrapper Text___StyledTextWrapper> [38,3146,314,88] «PM e2e: understand users and the business, set strategy and priorities, shape the roadmap,» {font-weight:300}
+          <DIV OpenRolesList__RoleDeptList> [38,3244,314,150] {display:flex; flex-direction:column}
+           <A OpenRole__Wrapper> [38,3244,314,75] href=/careers/product-manager-(nyc)/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,3259,177,21] {display:flex; align-items:center; gap:10px; margin:0px 136.797px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,3262,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,3262,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,3259,152,21] «Product Manager (NYC)» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,3285,94,18] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,3287,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,3287,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,3285,69,18] «New York» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+           <A OpenRole__Wrapper> [38,3319,314,75] href=/careers/product-manager-(sf)/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,3334,167,21] {display:flex; align-items:center; gap:10px; margin:0px 147.094px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,3337,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,3337,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,3334,142,21] «Product Manager (SF)» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,3360,120,18] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,3362,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,3362,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,3360,95,18] «Remote - US» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+         <DIV OpenRolesList__RoleDept> [38,3424,314,327] {display:flex; position:relative; flex-direction:column; gap:10px}
+          <DIV OpenRolesList__RoleDeptInfo> [38,3424,314,131] {display:flex; position:relative; flex-direction:column; gap:8px}
+           <H3 Heading__HeadingInternal Heading___StyledHeadingInternal> [38,3424,314,26] «Design» {font-family:PP Formula; font-size:20px; line-height:26px; font-weight:800; letter-spacing:-0.5px; color:rgb(20, 20, 28)}
+           <P Text__TextWrapper Text___StyledTextWrapper> [38,3458,314,66] «Product and brand design across the full Hex experience: shipping at a high bar for clarit» {font-weight:300}
+           <DIV OpenRolesList__RoleDeptTeamPageLink> [38,3532,314,23] {display:flex; align-items:center; gap:10px}
+            <SPAN createIcon__Wrapper> [38,3536,15,15] {display:flex; color:rgb(67, 57, 76)}
+             <svg > [38,3536,15,15] {overflow:hidden}
+            <A > [63,3532,75,23] href=https://hex.tech/design «Learn more» {color:rgb(67, 57, 76); border-bottom:1px solid rgb(67, 57, 76); transition:background-color 0.1s linear}
+          <DIV OpenRolesList__RoleDeptList> [38,3565,314,186] {display:flex; flex-direction:column}
+           <A OpenRole__Wrapper> [38,3565,314,93] href=/careers/brand-designer/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,3580,126,21] {display:flex; align-items:center; gap:10px; margin:0px 188.312px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,3583,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,3583,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,3580,101,21] «Brand Designer» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,3606,314,36] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,3617,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,3617,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,3606,289,36] «Remote - US, San Francisco or New York» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+           <A OpenRole__Wrapper> [38,3658,314,93] href=/careers/web-designer/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,3673,115,21] {display:flex; align-items:center; gap:10px; margin:0px 198.953px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,3676,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,3676,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,3673,90,21] «Web Designer» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,3699,314,36] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,3710,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,3710,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,3699,289,36] «Remote - US, San Francisco or New York» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+         <DIV OpenRolesList__RoleDept> [38,3781,314,206] {display:flex; position:relative; flex-direction:column; gap:10px}
+          <DIV OpenRolesList__RoleDeptInfo> [38,3781,314,100] {display:flex; position:relative; flex-direction:column; gap:8px}
+           <H3 Heading__HeadingInternal Heading___StyledHeadingInternal> [38,3781,314,26] «Marketing» {font-family:PP Formula; font-size:20px; line-height:26px; font-weight:800; letter-spacing:-0.5px; color:rgb(20, 20, 28)}
+           <P Text__TextWrapper Text___StyledTextWrapper> [38,3815,314,66] «Brand, demand, and product marketing that introduce Hex to teams rethinking data and analy» {font-weight:300}
+          <DIV OpenRolesList__RoleDeptList> [38,3891,314,96] {display:flex; flex-direction:column}
+           <A OpenRole__Wrapper> [38,3891,314,96] href=/careers/growth-marketing-manager-paid-marketing/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,3906,314,42] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,3920,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,3920,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,3906,289,42] «Growth Marketing Manager - Paid Marketing» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,3953,242,18] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,3955,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,3955,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,3953,217,18] «San Francisco or New York» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+         <DIV OpenRolesList__RoleDept> [38,4017,314,260] {display:flex; position:relative; flex-direction:column; gap:10px}
+          <DIV OpenRolesList__RoleDeptInfo> [38,4017,314,100] {display:flex; position:relative; flex-direction:column; gap:8px}
+           <H3 Heading__HeadingInternal Heading___StyledHeadingInternal> [38,4017,314,26] «Partnerships» {font-family:PP Formula; font-size:20px; line-height:26px; font-weight:800; letter-spacing:-0.5px; color:rgb(20, 20, 28)}
+           <P Text__TextWrapper Text___StyledTextWrapper> [38,4051,314,66] «Forge strategic alliances that expand Hex’s reach and create value for customers and partn» {font-weight:300}
+          <DIV OpenRolesList__RoleDeptList> [38,4127,314,150] {display:flex; flex-direction:column}
+           <A OpenRole__Wrapper> [38,4127,314,75] href=/careers/partner-manager-sis/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,4142,163,21] {display:flex; align-items:center; gap:10px; margin:0px 151.641px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,4145,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,4145,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,4142,138,21] «Partner Manager, SIs» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,4168,120,18] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,4169,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,4169,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,4168,95,18] «Remote - US» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+           <A OpenRole__Wrapper> [38,4202,314,75] href=/careers/partner-solutions-engineer/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,4217,202,21] {display:flex; align-items:center; gap:10px; margin:0px 112.719px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,4220,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,4220,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,4217,177,21] «Partner Solutions Engineer» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,4243,120,18] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,4244,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,4244,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,4243,95,18] «Remote - US» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+         <DIV OpenRolesList__RoleDept> [38,4307,314,917] {display:flex; position:relative; flex-direction:column; gap:10px}
+          <DIV OpenRolesList__RoleDeptInfo> [38,4307,314,100] {display:flex; position:relative; flex-direction:column; gap:8px}
+           <H3 Heading__HeadingInternal Heading___StyledHeadingInternal> [38,4307,314,26] «Sales» {font-family:PP Formula; font-size:20px; line-height:26px; font-weight:800; letter-spacing:-0.5px; color:rgb(20, 20, 28)}
+           <P Text__TextWrapper Text___StyledTextWrapper> [38,4341,314,66] «Consultative go-to-market: help teams evaluate and adopt Hex, then deepen partnerships as » {font-weight:300}
+          <DIV OpenRolesList__RoleDeptList> [38,4417,314,807] {display:flex; flex-direction:column}
+           <A OpenRole__Wrapper> [38,4417,314,75] href=/careers/account-executive-commercial/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,4432,230,21] {display:flex; align-items:center; gap:10px; margin:0px 84.4219px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,4435,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,4435,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,4432,205,21] «Account Executive, Commercial» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,4458,242,18] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,4459,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,4459,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,4458,217,18] «New York or San Francisco» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+           <A OpenRole__Wrapper> [38,4492,314,75] href=/careers/deal-desk-manager/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,4507,151,21] {display:flex; align-items:center; gap:10px; margin:0px 162.828px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,4510,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,4510,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,4507,126,21] «Deal Desk Manager» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,4533,120,18] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,4534,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,4534,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,4533,95,18] «Remote - US» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+           <A OpenRole__Wrapper> [38,4567,314,93] href=/careers/enterprise-account-executive/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,4582,216,21] {display:flex; align-items:center; gap:10px; margin:0px 97.9688px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,4585,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,4585,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,4582,191,21] «Enterprise Account Executive» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,4608,314,36] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,4618,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,4618,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,4608,289,36] «Remote - US, San Francisco or New York» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+           <A OpenRole__Wrapper> [38,4660,314,75] href=/careers/founding-commercial-account-manager-/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,4675,284,21] {display:flex; align-items:center; gap:10px; margin:0px 30.2188px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,4678,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,4678,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,4675,259,21] «Founding Commercial Account Manager» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,4701,94,18] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,4702,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,4702,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,4701,69,18] «New York» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+           <A OpenRole__Wrapper> [38,4735,314,96] href=/careers/founding-expansion-account-executive-(commercial)/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,4750,314,42] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,4763,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,4763,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,4750,289,42] «Founding Expansion Account Executive (Commercial)» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,4797,94,18] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,4798,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,4798,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,4797,69,18] «New York» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+           <A OpenRole__Wrapper> [38,4831,314,75] href=/careers/manager-enterprise-sales/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,4846,196,21] {display:flex; align-items:center; gap:10px; margin:0px 117.938px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,4849,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,4849,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,4846,171,21] «Manager, Enterprise Sales» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,4872,138,18] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,4873,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,4873,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,4872,113,18] «San Francisco» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+           <A OpenRole__Wrapper> [38,4906,314,93] href=/careers/midmarket-account-executive/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,4921,225,21] {display:flex; align-items:center; gap:10px; margin:0px 89.3125px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,4924,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,4924,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,4921,200,21] «Mid-Market Account Executive» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,4947,314,36] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,4957,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,4957,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,4947,289,36] «New York, Remote - US or San Francisco» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+           <A OpenRole__Wrapper> [38,4999,314,75] href=/careers/revenue-operations-director/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,5014,213,21] {display:flex; align-items:center; gap:10px; margin:0px 101.141px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,5017,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,5017,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,5014,188,21] «Revenue Operations Director» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,5040,120,18] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,5041,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,5041,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,5040,95,18] «Remote - US» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+           <A OpenRole__Wrapper> [38,5074,314,75] href=/careers/revenue-systems/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,5089,140,21] {display:flex; align-items:center; gap:10px; margin:0px 174.391px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,5092,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,5092,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,5089,115,21] «Revenue Systems» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,5115,120,18] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,5116,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,5116,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,5115,95,18] «Remote - US» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+           <A OpenRole__Wrapper> [38,5149,314,75] href=/careers/sales-development-representative/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,5164,254,21] {display:flex; align-items:center; gap:10px; margin:0px 60.7344px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,5167,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,5167,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,5164,229,21] «Sales Development Representative» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,5190,242,18] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,5191,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,5191,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,5190,217,18] «San Francisco or New York» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+         <DIV OpenRolesList__RoleDept> [38,5254,314,499] {display:flex; position:relative; flex-direction:column; gap:10px}
+          <DIV OpenRolesList__RoleDeptInfo> [38,5254,314,153] {display:flex; position:relative; flex-direction:column; gap:8px}
+           <H3 Heading__HeadingInternal Heading___StyledHeadingInternal> [38,5254,314,26] «Customer» {font-family:PP Formula; font-size:20px; line-height:26px; font-weight:800; letter-spacing:-0.5px; color:rgb(20, 20, 28)}
+           <P Text__TextWrapper Text___StyledTextWrapper> [38,5288,314,88] «Partnering with our prospects & customers at every phase to address their pre-sales evalua» {font-weight:300}
+           <DIV OpenRolesList__RoleDeptTeamPageLink> [38,5384,314,23] {display:flex; align-items:center; gap:10px}
+            <SPAN createIcon__Wrapper> [38,5388,15,15] {display:flex; color:rgb(67, 57, 76)}
+             <svg > [38,5388,15,15] {overflow:hidden}
+            <A > [63,5384,75,23] href=https://hexhq.notion.site/the-customer-team-hex «Learn more» {color:rgb(67, 57, 76); border-bottom:1px solid rgb(67, 57, 76); transition:background-color 0.1s linear}
+          <DIV OpenRolesList__RoleDeptList> [38,5417,314,336] {display:flex; flex-direction:column}
+           <A OpenRole__Wrapper> [38,5417,314,75] href=/careers/customer-engineer/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,5432,151,21] {display:flex; align-items:center; gap:10px; margin:0px 163.391px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,5435,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,5435,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,5432,126,21] «Customer Engineer» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,5458,138,18] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,5459,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,5459,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,5458,113,18] «San Francisco» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+           <A OpenRole__Wrapper> [38,5492,314,93] href=/careers/sales-engineer-commercial-midmarket/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,5507,287,21] {display:flex; align-items:center; gap:10px; margin:0px 27.1562px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,5510,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,5510,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,5507,262,21] «Sales Engineer, Commercial Mid-Market» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,5533,314,36] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,5543,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,5543,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,5533,289,36] «New York, Remote - US (EST), San Francisco or Remote - US (PST)» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+           <A OpenRole__Wrapper> [38,5585,314,93] href=/careers/sales-engineer-enterprise/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,5600,197,21] {display:flex; align-items:center; gap:10px; margin:0px 117.469px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,5603,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,5603,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,5600,172,21] «Sales Engineer, Enterprise» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,5626,314,36] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,5636,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,5636,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,5626,289,36] «Remote - US, San Francisco or New York» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+           <A OpenRole__Wrapper> [38,5678,314,75] href=/careers/sales-engineering-manager-commercial/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,5693,288,21] {display:flex; align-items:center; gap:10px; margin:0px 26.1875px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,5696,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,5696,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,5693,263,21] «Sales Engineering Manager, Commercial» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,5719,94,18] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,5720,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,5720,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,5719,69,18] «New York» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+         <DIV OpenRolesList__RoleDept> [38,5783,314,410] {display:flex; position:relative; flex-direction:column; gap:10px}
+          <DIV OpenRolesList__RoleDeptInfo> [38,5783,314,100] {display:flex; position:relative; flex-direction:column; gap:8px}
+           <H3 Heading__HeadingInternal Heading___StyledHeadingInternal> [38,5783,314,26] «People» {font-family:PP Formula; font-size:20px; line-height:26px; font-weight:800; letter-spacing:-0.5px; color:rgb(20, 20, 28)}
+           <P Text__TextWrapper Text___StyledTextWrapper> [38,5817,314,66] «Recruiting, people programs, and ops: the team behind hiring, growth, and day-to-day life » {font-weight:300}
+          <DIV OpenRolesList__RoleDeptList> [38,5893,314,300] {display:flex; flex-direction:column}
+           <A OpenRole__Wrapper> [38,5893,314,75] href=/careers/head-of-talent/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,5908,120,21] {display:flex; align-items:center; gap:10px; margin:0px 194.531px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,5911,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,5911,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,5908,95,21] «Head of Talent» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,5934,242,18] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,5935,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,5935,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,5934,217,18] «San Francisco or New York» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+           <A OpenRole__Wrapper> [38,5968,314,75] href=/careers/recruiting-coordinator/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,5983,173,21] {display:flex; align-items:center; gap:10px; margin:0px 141.172px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,5986,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,5986,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,5983,148,21] «Recruiting Coordinator» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,6009,138,18] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,6010,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,6010,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,6009,113,18] «San Francisco» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+           <A OpenRole__Wrapper> [38,6043,314,75] href=/careers/recruiting-operations-manager/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,6058,230,21] {display:flex; align-items:center; gap:10px; margin:0px 84.4219px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,6061,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,6061,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,6058,205,21] «Recruiting Operations Manager» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,6084,242,18] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,6085,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,6085,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,6084,217,18] «New York or San Francisco» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+           <A OpenRole__Wrapper> [38,6118,314,75] href=/careers/technical-sourcer/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,6133,139,21] {display:flex; align-items:center; gap:10px; margin:0px 174.953px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,6136,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,6136,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,6133,114,21] «Technical Sourcer» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,6159,242,18] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,6160,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,6160,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,6159,217,18] «New York or San Francisco» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+         <DIV OpenRolesList__RoleDept> [38,6223,314,260] {display:flex; position:relative; flex-direction:column; gap:10px}
+          <DIV OpenRolesList__RoleDeptInfo> [38,6223,314,100] {display:flex; position:relative; flex-direction:column; gap:8px}
+           <H3 Heading__HeadingInternal Heading___StyledHeadingInternal> [38,6223,314,26] «University» {font-family:PP Formula; font-size:20px; line-height:26px; font-weight:800; letter-spacing:-0.5px; color:rgb(20, 20, 28)}
+           <P Text__TextWrapper Text___StyledTextWrapper> [38,6257,314,66] «Internships and early-career roles: learn the business and ship real product work alongsid» {font-weight:300}
+          <DIV OpenRolesList__RoleDeptList> [38,6333,314,150] {display:flex; flex-direction:column}
+           <A OpenRole__Wrapper> [38,6333,314,75] href=/careers/ai-engineer-intern/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,6348,143,21] {display:flex; align-items:center; gap:10px; margin:0px 170.859px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,6351,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,6351,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,6348,118,21] «AI Engineer Intern» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,6374,138,18] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,6375,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,6375,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,6374,113,18] «San Francisco» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+           <A OpenRole__Wrapper> [38,6408,314,75] href=/careers/product-engineer-intern/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,6423,182,21] {display:flex; align-items:center; gap:10px; margin:0px 132.578px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,6426,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,6426,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,6423,157,21] «Product Engineer Intern» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,6449,138,18] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,6450,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,6450,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,6449,113,18] «San Francisco» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+         <DIV OpenRolesList__RoleDept> [38,6513,314,111] {display:flex; position:relative; flex-direction:column; gap:10px}
+          <DIV OpenRolesList__RoleDeptInfo> [38,6513,314,26] {display:flex; position:relative; flex-direction:column; gap:8px}
+           <H3 Heading__HeadingInternal Heading___StyledHeadingInternal> [38,6513,314,26] «Legal» {font-family:PP Formula; font-size:20px; line-height:26px; font-weight:800; letter-spacing:-0.5px; color:rgb(20, 20, 28)}
+          <DIV OpenRolesList__RoleDeptList> [38,6549,314,75] {display:flex; flex-direction:column}
+           <A OpenRole__Wrapper> [38,6549,314,75] href=/careers/legal-ops/ {display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:15px 0px; border-bottom:1px solid rgb(233, 229, 232); transition:background-color 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV OpenRole__TitleWrapper> [38,6564,89,21] {display:flex; align-items:center; gap:10px; margin:0px 224.859px 0px 0px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,6567,15,15] {display:flex; color:rgb(67, 57, 76)}
+              <svg > [38,6567,15,15] {overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,6564,64,21] «Legal Ops» {line-height:21px; font-weight:500}
+            <DIV OpenRole__LocationWrapper> [38,6590,94,18] {display:flex; align-items:center; gap:10px; transition:transform 0.18s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <SPAN createIcon__Wrapper> [38,6591,15,15] {display:flex; color:rgb(67, 57, 76); opacity:0}
+              <svg > [38,6591,15,15] {opacity:0; overflow:hidden}
+             <P Text__TextWrapper Text___StyledTextWrapper> [63,6590,69,18] «New York» {font-family:Cinetype Mono; font-size:12px; line-height:18px; letter-spacing:0.9996px; color:rgb(137, 130, 141)}
+         <DIV Callout__Wrapper> [38,6654,314,594] {display:flex; position:relative; margin:0px 0px 40px}
+          <DIV Callout> [38,6654,314,594] {padding:25px 35px; background-color:color(srgb 0.192157 0.14902 0.231373 / 0.05); border-left:1px solid rgb(219, 215, 218)}
+           <DIV Callout__Icon> [20,6675,35,35] {display:flex; position:absolute; justify-content:center; align-items:center; background-color:rgb(255, 255, 255); border-top:1px solid rgb(219, 215, 218); border-right:1px solid rgb(219, 215, 218); border-bottom:1px solid rgb(219, 215, 218); border-left:1px solid rgb(219, 215, 218); border-radius:50%}
+            <SPAN createIcon__Wrapper> [30,6685,15,15] {display:flex; color:rgb(67, 57, 76)}
+             <svg > [30,6685,15,15] {color:rgb(71, 57, 130); overflow:hidden}
+           <DIV ScamCallout__SafetyCalloutWrapper> [74,6679,243,544] {max-width:702.156px}
+            <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [74,6679,243,52] «Your safety matters to us» {margin:0px 0px 15px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(20, 20, 28)}
+            <P > [74,6746,243,220] «To protect yourself from potential scams, remember that Hex recruiters only contact you fr» {margin:0px 0px 15px}
+            <P > [74,6981,243,242] «Be cautious of messages from other sources. Legitimate Hex recruiters will never ask for m» {}
+     <DIV GridLines__CheckeredMargin> [382,1855,8,5462] {position:relative; grid-column:-2 / span 1; background-image:url("data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"4\" height=\"4\"><rect width=\"2\" height=\"2\" fill=\"%23e8e4e6\" /><rect x=\"2\" y=\"2\" width=\"2\" height=\"2\" fill=\"%23e8e4e6\"/></svg>"); border-left:1px solid rgb(219, 215, 218)}
+   <DIV LayoutGrid__LayoutSubgrid> [0,7317,390,1114] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:1113.72px; grid-column:1 / -1}
+    <DIV GridLines__ContentMarginLine> [0,7317,8,1114] {grid-column:1; border-top:1px solid rgb(233, 229, 232); border-right:1px solid rgb(219, 215, 218); border-bottom:1px solid rgb(233, 229, 232)}
+    <FOOTER Footer__Wrapper> [8,7317,374,1114] {display:flex; flex-direction:column; grid-column:2 / -2}
+     <DIV Footer__Divider> [8,7317,374,1] {background-color:rgb(219, 215, 218)}
+     <DIV Footer> [8,7318,374,1112] {display:flex; flex-direction:column; gap:45px; grid-template-columns:minmax(0px, 1fr) auto minmax(0px, 1fr); padding:50px 30px; max-width:1240px}
+      <DIV Footer__Left> [38,7368,314,58] {display:flex; flex-direction:column; align-items:center; gap:15px}
+       <svg > [165,7368,60,20] {overflow:hidden}
+       <DIV Footer__MadeWith> [125,7403,141,23] {display:flex; align-items:center; color:rgb(137, 130, 141)}
+        <SPAN > [125,7404,69,22] «Made with» {margin:0px 4px 0px 0px}
+        <DIV Rotator__Wrapper> [197,7405,20,20] {display:flex; position:relative; overflow:hidden}
+         <DIV Rotator> [197,7387,20,20] {display:flex; flex-direction:column; transform:matrix(1, 0, 0, 1, 0, -18.2727); transition:transform 0.8s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <DIV Rotator__Option> [197,7387,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,7387,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,7387,20,20] «🍰» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,7407,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,7407,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,7407,20,20] «🔮» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,7427,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,7427,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,7427,20,20] «🔒» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,7447,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,7447,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,7447,20,20] «🥖» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,7467,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,7467,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,7467,20,20] «🍷» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,7487,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,7487,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,7487,20,20] «🛌» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,7507,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,7507,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,7507,20,20] «💜» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,7527,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,7527,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,7527,20,20] «🥨» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,7547,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,7547,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,7547,20,20] «🛹» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,7567,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,7567,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,7567,20,20] «🍤» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,7587,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,7587,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,7587,20,20] «🧄» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,7607,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,7607,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,7607,20,20] «🍞» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,7627,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,7627,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,7627,20,20] «🥥» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,7647,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,7647,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,7647,20,20] «⛳» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,7667,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,7667,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,7667,20,20] «🤞» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,7687,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,7687,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,7687,20,20] «✨» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,7707,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,7707,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,7707,20,20] «🔊» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,7727,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,7727,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,7727,20,20] «🎧» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,7747,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,7747,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,7747,20,20] «🌊» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,7767,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,7767,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,7767,20,20] «🍀» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,7787,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,7787,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,7787,20,20] «🤠» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,7807,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,7807,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,7807,20,20] «🎷» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,7827,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,7827,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,7827,20,20] «🍩» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,7847,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,7847,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,7847,20,20] «☕» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,7867,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,7867,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,7867,20,20] «🥟» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,7887,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,7887,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,7887,20,20] «🍺» {display:flex; align-items:center}
+        <SPAN > [221,7403,44,23] «on .» {margin:0px 0px 0px 4px}
+         <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [243,7407,18,17] «🌎» {display:inline; margin:0px 0.7px 0px 1.4px}
+      <DIV Footer__Center> [38,7472,314,821] {display:flex; flex-direction:column; align-items:center; gap:60px}
+       <DIV Footer> [38,7472,314,611] {display:grid; justify-content:center; gap:30px; grid-template-columns:158.375px 125.875px; grid-template-rows:370.672px 210.75px; max-width:800px}
+        <DIV Footer__Column> [38,7472,158,371] {display:flex; flex-direction:column; align-items:center; gap:10px}
+         <DIV Footer__ColTitle> [85,7472,63,19] «Platform» {font-family:IBM Plex Mono; font-size:12px; line-height:18.852px; font-weight:700; letter-spacing:0.7px; text-transform:uppercase; color:rgb(20, 20, 28)}
+         <A > [72,7501,90,22] href=/capability/ai/ «AI and agents» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [56,7533,121,22] href=/product/notebooks/ «Agentic notebooks» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [38,7565,158,22] href=/product/threads/ «Conversational analytics» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [68,7597,97,22] href=/product/context-studio/ «Context Studio» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [84,7629,66,22] href=/product/data-apps/ «Data apps» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [93,7661,49,22] href=/product/cli/ «Hex CLI» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [48,7693,137,22] href=/product/bi/ «Business intelligence» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [51,7725,132,22] href=/capability/exploratory-analysis/ «Exploratory analysis» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [51,7757,132,22] href=/product/embedded-analytics/ «Embedded analytics» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [77,7789,79,22] href=/product/integrations/ «Integrations» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [82,7821,69,22] href=https://learn.hex.tech/changelog «Changelog» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+        <DIV Footer__Column> [226,7472,126,371] {display:flex; flex-direction:column; align-items:center; gap:10px}
+         <DIV Footer__ColTitle> [254,7472,71,19] «Resources» {font-family:IBM Plex Mono; font-size:12px; line-height:18.852px; font-weight:700; letter-spacing:0.7px; text-transform:uppercase; color:rgb(20, 20, 28)}
+         <A > [267,7501,45,22] href=/pricing/ «Pricing» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [234,7533,110,22] href=/product/switching-to-hex/ «Switching to Hex» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [255,7565,68,22] href=/enterprise/ «Enterprise» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [274,7597,31,22] href=https://learn.hex.tech «Docs» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [275,7629,29,22] href=/blog/ «Blog» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [267,7661,44,22] href=/resources/events/ «Events» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [256,7693,67,22] href=/templates/ «Templates» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [260,7725,59,22] href=/compare/ «Compare» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [249,7757,81,22] href=https://trust.hex.tech «Trust Center» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [268,7789,42,22] href=https://status.hex.tech «Status» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+        <DIV Footer__Column> [38,7872,158,211] {display:flex; flex-direction:column; align-items:center; gap:10px}
+         <DIV Footer__ColTitle> [89,7872,55,19] «Company» {font-family:IBM Plex Mono; font-size:12px; line-height:18.852px; font-weight:700; letter-spacing:0.7px; text-transform:uppercase; color:rgb(20, 20, 28)}
+         <A > [98,7901,39,22] href=/about/ «About» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [92,7933,51,22] href=/careers/ «Careers» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [82,7965,70,22] href=/customers/ «Customers» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [87,7997,60,22] href=/solutions/ «Solutions» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [87,8029,61,22] href=https://hexhq.notion.site/a091e1bb7bb34019bc4ccf2e3da8645f?v=bb640f9e0ef4499198673561e42a93f0 «Media kit» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [83,8061,69,22] href=/newsroom/ «Newsroom» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+        <DIV Footer__Column> [226,7872,126,211] {display:flex; flex-direction:column; align-items:center; gap:10px}
+         <DIV Footer__ColTitle> [262,7872,55,19] «Connect» {font-family:IBM Plex Mono; font-size:12px; line-height:18.852px; font-weight:700; letter-spacing:0.7px; text-transform:uppercase; color:rgb(20, 20, 28)}
+         <A > [236,7901,106,22] href=/request-a-demo/ «Request a demo» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [231,7933,116,22] href=mailto:support@hex.tech «Technical support» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [254,7965,70,22] href=/contact-us/ «Contact us» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [262,7997,55,22] href=https://www.linkedin.com/company/hex-technologies «LinkedIn» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [255,8029,68,22] href=https://x.com/hexanalytics «X (Twitter)» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [263,8061,53,22] href=https://www.youtube.com/@_hex_tech «YouTube» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+       <DIV Footer__Bottom> [38,8143,314,150] {display:flex; flex-direction:column; flex-wrap:wrap; justify-content:center; align-items:center; gap:10px}
+        <DIV Footer__Copyright> [100,8143,191,22] «© 2026 Hex Technologies Inc.» {color:rgb(137, 130, 141)}
+        <A > [150,8175,89,22] href=https://learn.hex.tech/docs/trust/privacy-policy «Privacy policy» {color:rgb(137, 130, 141); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+        <A > [133,8207,124,22] href=https://learn.hex.tech/docs/legal/terms-and-conditions «Terms & conditions» {color:rgb(137, 130, 141); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+        <A > [108,8239,173,22] href=/files/Hex_UK_Modern_Slavery_Act_Statement.pdf «Modern slavery statement» {color:rgb(137, 130, 141); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+        <BUTTON OptOutOfTrackingLink-module__ax0AOW__button> [133,8271,125,22] «Opt out of tracking» {text-align:center; color:rgb(137, 130, 141); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+      <DIV Footer> [38,8338,314,42] {display:flex; flex-direction:column; align-items:center}
+       <DIV HitCounter__Wrapper> [132,8338,126,42] {padding:5px 0px}
+        <DIV HitCounter> [132,8343,126,32] {display:flex; position:relative; gap:5px; padding:5px; border-top:1px solid rgb(219, 215, 218); border-right:1px solid rgb(219, 215, 218); border-bottom:1px solid rgb(219, 215, 218); border-left:1px solid rgb(219, 215, 218); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+         <DIV HitCounter__DigitWrapper> [138,8349,12,20] {display:flex; position:relative; gap:1px}
+          <DIV HitCounter__Col> [138,8349,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [138,8349,1,10] {background-color:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+           <DIV HitCounter__Line> [138,8359,1,10] {background-color:rgb(49, 38, 59)}
+          <DIV HitCounter__Col> [140,8349,8,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [140,8349,8,1] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [140,8359,8,1] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [140,8368,8,1] {background-color:rgb(49, 38, 59)}
+          <DIV HitCounter__Col> [149,8349,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [149,8349,1,10] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [149,8359,1,10] {background-color:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+         <DIV HitCounter__DigitWrapper> [155,8349,12,20] {display:flex; position:relative; gap:1px}
+          <DIV HitCounter__Col> [155,8349,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [155,8349,1,10] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [155,8359,1,10] {background-color:rgb(49, 38, 59)}
+          <DIV HitCounter__Col> [157,8349,8,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [157,8349,8,1] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [157,8359,8,1] {background-color:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+           <DIV HitCounter__Line> [157,8368,8,1] {background-color:rgb(49, 38, 59)}
+          <DIV HitCounter__Col> [166,8349,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [166,8349,1,10] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [166,8359,1,10] {background-color:rgb(49, 38, 59)}
+         <DIV HitCounter__DigitWrapper> [172,8349,12,20] {display:flex; position:relative; gap:1px}
+          <DIV HitCounter__Col> [172,8349,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [172,8349,1,10] {background-color:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+           <DIV HitCounter__Line> [172,8359,1,10] {background-color:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+          <DIV HitCounter__Col> [174,8349,8,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [174,8349,8,1] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [174,8359,8,1] {background-color:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+           <DIV HitCounter__Line> [174,8368,8,1] {background-color:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+          <DIV HitCounter__Col> [183,8349,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [183,8349,1,10] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [183,8359,1,10] {background-color:rgb(49, 38, 59)}
+         <DIV HitCounter__DigitWrapper> [189,8349,12,20] {display:flex; position:relative; gap:1px}
+          <DIV HitCounter__Col> [189,8349,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [189,8349,1,10] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [189,8359,1,10] {background-color:rgb(49, 38, 59)}
+          <DIV HitCounter__Col> [191,8349,8,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [191,8349,8,1] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [191,8359,8,1] {background-color:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+           <DIV HitCounter__Line> [191,8368,8,1] {background-color:rgb(49, 38, 59)}
+          <DIV HitCounter__Col> [200,8349,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [200,8349,1,10] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [200,8359,1,10] {background-color:rgb(49, 38, 59)}
+         <DIV HitCounter__DigitWrapper> [206,8349,12,20] {display:flex; position:relative; gap:1px}
+          <DIV HitCounter__Col> [206,8349,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [206,8349,1,10] {background-color:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+           <DIV HitCounter__Line> [206,8359,1,10] {background-color:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+          <DIV HitCounter__Col> [208,8349,8,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [208,8349,8,1] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [208,8359,8,1] {background-color:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+           <DIV HitCounter__Line> [208,8368,8,1] {background-color:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+          <DIV HitCounter__Col> [217,8349,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [217,8349,1,10] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [217,8359,1,10] {background-color:rgb(49, 38, 59)}
+         <DIV HitCounter__DigitWrapper> [223,8349,12,20] {display:flex; position:relative; gap:1px}
+          <DIV HitCounter__Col> [223,8349,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [223,8349,1,10] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [223,8359,1,10] {background-color:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+          <DIV HitCounter__Col> [225,8349,8,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [225,8349,8,1] {background-color:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+           <DIV HitCounter__Line> [225,8359,8,1] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [225,8368,8,1] {background-color:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+          <DIV HitCounter__Col> [234,8349,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [234,8349,1,10] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [234,8359,1,10] {background-color:rgb(49, 38, 59)}
+         <DIV HitCounter__DigitWrapper> [240,8349,12,20] {display:flex; position:relative; gap:1px}
+          <DIV HitCounter__Col> [240,8349,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [240,8349,1,10] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [240,8359,1,10] {background-color:rgb(49, 38, 59)}
+          <DIV HitCounter__Col> [242,8349,8,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [242,8349,8,1] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [242,8359,8,1] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [242,8368,8,1] {background-color:rgb(49, 38, 59)}
+          <DIV HitCounter__Col> [251,8349,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [251,8349,1,10] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [251,8359,1,10] {background-color:rgb(49, 38, 59)}
+     <DIV Footer__Divider> [8,8430,374,1] {background-color:rgb(219, 215, 218)}
+    <DIV GridLines__ContentMarginLine> [382,7317,8,1114] {grid-column:-2 / span 1; border-top:1px solid rgb(233, 229, 232); border-bottom:1px solid rgb(233, 229, 232); border-left:1px solid rgb(219, 215, 218)}
+   <DIV LayoutGrid__LayoutSubgrid> [0,8431,390,32] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:32px; grid-column:1 / -1}
+    <DIV GridLines__ContentMarginLine> [0,8431,8,32] {grid-column:1; border-right:1px solid rgb(233, 229, 232)}
+    <DIV GridLines__GridRule> [101,8431,1,32] {grid-column:4; background-color:rgb(233, 229, 232); transform:matrix(1, 0, 0, 1, 0.5, 0)}
+    <DIV GridLines__GridRule> [288,8431,1,32] {grid-column:10; background-color:rgb(233, 229, 232); transform:matrix(1, 0, 0, 1, 0.5, 0)}
+    <DIV GridLines__ContentMarginLine> [382,8431,8,32] {grid-column:-2 / span 1; border-left:1px solid rgb(233, 229, 232)}

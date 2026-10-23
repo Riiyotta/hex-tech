@@ -1,0 +1,103 @@
+{
+  "$description": "Closed, evidence-grounded motion vocabulary. A node's motion object has exactly {pattern, trigger, reducedMotionFallback}; trigger and fallback are locked per pattern.",
+  "fields": [
+    "pattern",
+    "trigger",
+    "reducedMotionFallback"
+  ],
+  "patterns": {
+    "reveal-fade-in": {
+      "trigger": "in-view-once",
+      "reducedMotionFallback": "show-final-state",
+      "continuous": false,
+      "measuredFrom": [
+        "src/components/shared/Reveal.jsx:6",
+        "src/index.css:1444"
+      ]
+    },
+    "reveal-on-mount": {
+      "trigger": "on-mount",
+      "reducedMotionFallback": "show-final-state",
+      "continuous": false,
+      "measuredFrom": [
+        "CLONE_SPEC.md:456",
+        "src/index.css:1444"
+      ]
+    },
+    "nav-squish": {
+      "trigger": "scroll-position",
+      "reducedMotionFallback": "instant-state-change",
+      "continuous": false,
+      "measuredFrom": [
+        "CLONE_SPEC.md:444",
+        "src/layouts/SiteShell.jsx:68"
+      ]
+    },
+    "marquee-scroll": {
+      "trigger": "continuous",
+      "reducedMotionFallback": "static-first-frame",
+      "continuous": true,
+      "measuredFrom": [
+        "CLONE_SPEC.md:458",
+        "specs/product.md:171",
+        "src/index.css:1445",
+        "CLONE_SPEC.md:442"
+      ]
+    },
+    "rotator-cycle": {
+      "trigger": "timer",
+      "reducedMotionFallback": "static-first-item",
+      "continuous": true,
+      "measuredFrom": [
+        "specs/SHARED_BUILT.md:82",
+        "specs/solutions.md:178"
+      ]
+    },
+    "perlin-drift": {
+      "trigger": "continuous",
+      "reducedMotionFallback": "static-texture",
+      "continuous": true,
+      "measuredFrom": [
+        "CLONE_SPEC.md:482",
+        "src/index.css:1446"
+      ]
+    },
+    "staggered-pop-in": {
+      "trigger": "in-view-once",
+      "reducedMotionFallback": "show-final-state",
+      "continuous": false,
+      "measuredFrom": [
+        "CLONE_SPEC.md:461",
+        "CLONE_SPEC.md:464",
+        "CLONE_SPEC.md:442"
+      ]
+    },
+    "typing-prompt": {
+      "trigger": "timer",
+      "reducedMotionFallback": "static-final-frame",
+      "continuous": true,
+      "measuredFrom": [
+        "CLONE_SPEC.md:467",
+        "specs/product.md:460",
+        "CLONE_SPEC.md:442"
+      ]
+    },
+    "photo-wall-blur-in": {
+      "trigger": "on-load",
+      "reducedMotionFallback": "show-final-state",
+      "continuous": false,
+      "measuredFrom": [
+        "specs/company.md:378",
+        "CLONE_SPEC.md:442"
+      ]
+    },
+    "none": {
+      "trigger": "none",
+      "reducedMotionFallback": "none",
+      "continuous": false,
+      "measuredFrom": [
+        "specs/company.md:381"
+      ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+# cli @390 — doc height 8403 (1440: 5619)
+
+## Sections (matched by component class from the 1440 section list)
+- 0 CartesianGrid__ @1440 [0,0,1440,875] → @390 [8, 0, 374, 1306] (+2 more)  | H1:Command (line) and conquer
+- 1 FullWidthQuote__ @1440 [0,875,1440,254] → @390 [0, 1306, 390, 382] (+11 more)  | 
+- 2 SectionAnalyticsAgentWork__ @1440 [0,1129,1440,982] → @390 [20, 1729, 350, 1799] (+1 more)  | H2:Analytics where your agent works / H3:Works in any terminal
+- 3 SectionEverythingYouNeed__ @1440 [0,2111,1440,475] → @390 [8, 3569, 374, 1131] (+5 more)  | H2:Everything you need to control Hex with code / H3:Create & manage projects
+- 4 SectionBuiltFor__ @1440 [0,2586,1440,916] → @390 [20, 4741, 350, 1274] (+31 more)  | H2:Built for real workflows / H3:BI migrations
+- 5 SectionFooter__ @1440 [0,3502,1440,826] → @390 [20, 6096, 350, 442] (+1 more)  | H2:Control Hex from your terminal
+- 6 OutroTout__ @1440 [29,4328,1382,705] → @390 [8, 6578, 374, 679] (+5 more)  | H2:Built for data teams who want more than a dashboard
+
+## Text roles @390 (H1–H4, lead/body P, buttons): tag [x,y,w,h] «text» font/size/lh
+- H1 [27, 207, 336, 100] «Command (line)» fontFamily:"PP Formula SemiExtended"; fontSize:36.8px; fontWeight:700; lineHeight:44.16px; letterSpacing:-1.13344px; padding:0px 6px 6px; margin:0px -6px -6px; textAlign:left
+- P [33, 321, 324, 120] «Create projects, write SQL, run analyses, and conn» fontSize:20px; fontWeight:300; lineHeight:30px; margin:0px 0px 10px
+- P [296, 507, 63, 18] «Copy script» fontSize:12px; lineHeight:18px
+- BLOCKQUOTE [8, 1407, 374, 180] «“We're already seeing strong pull for Hex AI acros» fontSize:20px; fontWeight:300; lineHeight:30px; padding:0px 12px; textAlign:center
+- H2 [20, 1729, 350, 79] «Analytics where» fontFamily:"PP Formula SemiExtended"; fontSize:30px; fontWeight:700; lineHeight:39px; letterSpacing:-0.924px; margin:0px -6px -6px
+- P [20, 1812, 350, 60] «Build locally, share and collaborate in Hex.» fontSize:20px; fontWeight:300; lineHeight:30px
+- H3 [60, 1942, 231, 26] «Works in any terminal» fontFamily:"PP Formula"; fontSize:20px; fontWeight:800; lineHeight:26px; letterSpacing:-0.5px
+- P [60, 1984, 270, 96] «Interact directly with Hex from your terminal. Get» fontSize:16px; fontWeight:300; lineHeight:24px
+- H3 [60, 2456, 270, 52] «Plays nicely with coding agents» fontFamily:"PP Formula"; fontSize:20px; fontWeight:800; lineHeight:26px; letterSpacing:-0.5px
+- P [60, 2524, 270, 144] «Use Claude Code or Cursor to generate an analysis,» fontSize:16px; fontWeight:300; lineHeight:24px
+- H3 [60, 3044, 270, 52] «Orchestrate and automate» fontFamily:"PP Formula"; fontSize:20px; fontWeight:800; lineHeight:26px; letterSpacing:-0.5px
+- P [60, 3112, 270, 96] «The Hex CLI is a standard UNIX tool - trigger auto» fontSize:16px; fontWeight:300; lineHeight:24px
+- H2 [32, 3719, 326, 135] «you need to control Hex with code» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px; padding:0px 6px 6px; margin:0px -6px -6px; textAlign:left
+- H3 [63, 3888, 279, 26] «Create & manage projects» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px
+- P [38, 3926, 314, 120] «Spin up Hex projects in seconds. Use , , and to bu» fontSize:16px; fontWeight:300; lineHeight:24px
+- H3 [63, 4086, 147, 26] «Run & validate» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px
+- P [38, 4124, 314, 120] «Execute projects and apps programmatically with . » fontSize:16px; fontWeight:300; lineHeight:24px
+- H3 [63, 4284, 232, 26] «Put the agent to work» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px
+- P [38, 4322, 314, 120] «Kick off the Hex Agent from where your team alread» fontSize:16px; fontWeight:300; lineHeight:24px
+- H3 [63, 4482, 251, 26] «Keep context up to date» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px
+- P [38, 4520, 314, 120] «Keep your context in line with how the business ev» fontSize:16px; fontWeight:300; lineHeight:24px
+- H2 [20, 4741, 350, 79] «Built for» fontFamily:"PP Formula SemiExtended"; fontSize:30px; fontWeight:700; lineHeight:39px; letterSpacing:-0.924px; margin:0px -6px -6px
+- H3 [40, 4874, 146, 26] «BI migrations» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px
+- P [40, 4915, 310, 136] «Pull all the .sql files from /legacy-bi/hyperdrive» fontSize:16px; fontWeight:300; lineHeight:24px; padding:8px 12px
+- P [41, 5087, 308, 96] «In one script, fetch the SQL powering the most pop» fontSize:16px; fontWeight:300; lineHeight:24px
+- H3 [40, 5255, 226, 26] «Bulk schema updates» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px
+- P [40, 5296, 310, 208] «I just pushed a new PR, search across all my Hex p» fontSize:16px; fontWeight:300; lineHeight:24px; padding:8px 12px
+- P [41, 5540, 308, 96] «List all projects, scan all SQL cells for the old » fontSize:16px; fontWeight:300; lineHeight:24px
+- H3 [40, 5708, 296, 26] «Generate locally, ship to Hex» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px
+- P [40, 5749, 310, 136] «Find "hyperdrive_maintenance_churn_v2.ipynb" and u» fontSize:16px; fontWeight:300; lineHeight:24px; padding:8px 12px
+- P [41, 5921, 308, 72] «Use any AI tool to write SQL and Python, push the » fontSize:16px; fontWeight:300; lineHeight:24px
+- H2 [32, 6230, 326, 79] «Control Hex» fontFamily:"PP Formula SemiExtended"; fontSize:30px; fontWeight:700; lineHeight:39px; letterSpacing:-0.924px; margin:0px -6px -6px
+- P [32, 6313, 326, 60] «Install the CLI and start building today» fontSize:20px; fontWeight:300; lineHeight:30px
+- H2 [67, 6710, 256, 156] «Built for data teams who want more than a dashboar» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px
+- P [67, 6876, 256, 180] «Hex is the AI analytics platform where your notebo» fontSize:20px; fontWeight:300; lineHeight:30px

@@ -1,0 +1,27 @@
+{
+  "id": "primitive.grayscale-logo",
+  "purpose": "Customer logo recoloured by the themed logo filter (grayscale on light, white on dark).",
+  "props": {
+    "src": {
+      "type": "asset",
+      "measuredFrom": [
+        "src/components/shared/LogoFilter.jsx:7"
+      ]
+    },
+    "alt": {
+      "type": "text",
+      "measuredFrom": [
+        "src/components/shared/LogoFilter.jsx:7"
+      ]
+    }
+  },
+  "tokens": [
+    "filter.logo"
+  ],
+  "measuredFrom": [
+    "CLONE_SPEC.md:227",
+    "src/components/shared/LogoFilter.jsx:7"
+  ],
+  "layer": "primitive",
+  "provisional": true
+}

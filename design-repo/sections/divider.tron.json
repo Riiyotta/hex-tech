@@ -1,0 +1,48 @@
+{
+  "id": "divider.tron",
+  "category": "divider",
+  "purpose": "Nine 1px gradient rules with increasing gaps and decreasing opacity separating major blocks; optionally flipped.",
+  "variants": [
+    "default",
+    "flipped"
+  ],
+  "content": {
+    "flipped": {
+      "kind": "boolean",
+      "required": false,
+      "measuredFrom": [
+        "specs/SHARED_BUILT.md:65"
+      ]
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "default": "none"
+  },
+  "responsive": [],
+  "constraints": {},
+  "measuredFrom": [
+    "CLONE_SPEC.md:404"
+  ],
+  "sourceEvidence": [
+    "src/components/shared/TronDivider.jsx:19"
+  ],
+  "wordBudgets": {},
+  "richTextBudgets": {},
+  "assetRoles": [],
+  "usedByTemplates": [
+    "template.enterprise",
+    "template.home",
+    "template.integration-detail",
+    "template.partners",
+    "template.pricing"
+  ],
+  "observedThemes": [
+    "dark",
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__divider.tron",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

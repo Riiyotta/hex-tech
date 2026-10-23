@@ -1,0 +1,284 @@
+{
+  "id": "feature.split",
+  "category": "feature",
+  "purpose": "Feature row: InfoText (icon, H3, optional description, CTA) + dashed inline quote beside an illustration or product mock; row or row-reverse.",
+  "variants": [
+    "chat-tools",
+    "org-cycle",
+    "project-windows",
+    "dashboard-evals",
+    "image"
+  ],
+  "content": {
+    "heading": {
+      "kind": "object",
+      "required": false,
+      "fields": {
+        "title": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 3,
+          "observedWords": [
+            2
+          ],
+          "measuredFrom": [
+            "specs/product.md:427"
+          ]
+        },
+        "subtitle": {
+          "kind": "text",
+          "required": false,
+          "maxWords": 10,
+          "observedWords": [
+            8
+          ],
+          "measuredFrom": [
+            "specs/product.md:428"
+          ]
+        }
+      }
+    },
+    "direction": {
+      "kind": "enum",
+      "values": [
+        "row",
+        "row-reverse"
+      ],
+      "required": true,
+      "measuredFrom": [
+        "specs/product.md:117"
+      ]
+    },
+    "icon": {
+      "kind": "media",
+      "required": false,
+      "roles": [
+        "icon.abstract-mark",
+        "icon.agent-logos"
+      ],
+      "alt": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 18,
+        "observedWords": [
+          14,
+          14
+        ],
+        "measuredFrom": [
+          "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+          "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+        ]
+      }
+    },
+    "title": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 14,
+      "observedWords": [
+        7,
+        11
+      ],
+      "measuredFrom": [
+        "CLONE_SPEC.md:305",
+        "CLONE_SPEC.md:329"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": false,
+      "maxWords": 27,
+      "observedWords": [
+        21
+      ],
+      "measuredFrom": [
+        "specs/product.md:258"
+      ]
+    },
+    "action": {
+      "kind": "action",
+      "required": false,
+      "label": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 10,
+        "observedWords": [
+          4,
+          3,
+          4,
+          8
+        ],
+        "measuredFrom": [
+          "CLONE_SPEC.md:208",
+          "specs/product.md:258",
+          "specs/solutions.md:291"
+        ]
+      },
+      "variants": [
+        "primary",
+        "secondary"
+      ],
+      "sizes": [
+        "md"
+      ]
+    },
+    "quote": {
+      "kind": "object",
+      "required": false,
+      "fields": {
+        "quote": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 30,
+          "observedWords": [
+            24
+          ],
+          "measuredFrom": [
+            "CLONE_SPEC.md:299"
+          ]
+        },
+        "emphasis": {
+          "kind": "text",
+          "required": false,
+          "maxWords": 10,
+          "observedWords": [
+            8
+          ],
+          "measuredFrom": [
+            "CLONE_SPEC.md:308"
+          ]
+        },
+        "logo": {
+          "kind": "media",
+          "required": true,
+          "roles": [
+            "logo.customer"
+          ],
+          "alt": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 18,
+            "observedWords": [
+              14,
+              14
+            ],
+            "measuredFrom": [
+              "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+              "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+            ]
+          }
+        },
+        "name": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 4,
+          "observedWords": [
+            2,
+            3
+          ],
+          "measuredFrom": [
+            "CLONE_SPEC.md:282",
+            "CLONE_SPEC.md:286"
+          ]
+        },
+        "title": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 8,
+          "observedWords": [
+            6,
+            6,
+            5
+          ],
+          "measuredFrom": [
+            "CLONE_SPEC.md:281",
+            "CLONE_SPEC.md:286",
+            "specs/product.md:154"
+          ]
+        }
+      }
+    },
+    "illustration": {
+      "kind": "media",
+      "required": true,
+      "roles": [
+        "image.product-ui",
+        "image.product-screenshot",
+        "illustration.decorative"
+      ],
+      "alt": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 18,
+        "observedWords": [
+          14,
+          14
+        ],
+        "measuredFrom": [
+          "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+          "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+        ]
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in",
+      "typing-prompt",
+      "staggered-pop-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "stack-columns",
+      "detail": "info above illustration; quote below illustration",
+      "measuredFrom": [
+        "CLONE_SPEC.md:303"
+      ]
+    }
+  ],
+  "constraints": {
+    "consecutiveAllowed": true
+  },
+  "measuredFrom": [
+    "CLONE_SPEC.md:215",
+    "specs/product.md:117"
+  ],
+  "sourceEvidence": [
+    "src/components/sections/ConversationalAnalytics/FeatureSection.jsx:13"
+  ],
+  "wordBudgets": {
+    "action.label": 10,
+    "description": 27,
+    "heading.subtitle": 10,
+    "heading.title": 3,
+    "icon.alt": 18,
+    "illustration.alt": 18,
+    "quote.emphasis": 10,
+    "quote.logo.alt": 18,
+    "quote.name": 4,
+    "quote.quote": 30,
+    "quote.title": 8,
+    "title": 14
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "icon.abstract-mark",
+    "icon.agent-logos",
+    "illustration.decorative",
+    "image.product-screenshot",
+    "image.product-ui",
+    "logo.customer"
+  ],
+  "usedByTemplates": [
+    "template.home",
+    "template.product-feature"
+  ],
+  "observedThemes": [
+    "dark",
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__feature.split",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

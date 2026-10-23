@@ -1,0 +1,35 @@
+# data-apps @390 — doc height 12801 (1440: 9902)
+
+## Sections (matched by component class from the 1440 section list)
+- 0 AppBuilderHeroTout__ @1440 [29,200,1382,1111] → @390 [8, 144, 374, 1189] (+4 more)  | H1:Share your data in beautiful, governed data apps
+- 1 CodeGenGallery__ @1440 [29,1311,1382,2401] → @390 [8, 1333, 374, 3673] (+7 more)  | H2:Prompt, build, share / H3:Not sure what to build?
+- 2 FeaturesTout__ @1440 [29,3712,1382,3382] → @390 [8, 5007, 374, 3875] (+16 more)  | H2:Drag, drop, data app / H2:Beautiful visualizations
+- 3 SocialTout__ @1440 [29,7099,1382,558] → @390 [8, 8882, 374, 1259] (+1 more)  | 
+- 4 FeedbackLoopTout__ @1440 [100,7657,1240,1092] → @390 [8, 10141, 374, 1004] (+8 more)  | H2:Tighten the feedback loop
+- 5 OutroTout__ @1440 [29,8749,1382,571] → @390 [8, 11145, 374, 511] (+5 more)  | H2:Questions? Talk to us
+
+## Text roles @390 (H1–H4, lead/body P, buttons): tag [x,y,w,h] «text» font/size/lh
+- H1 [42, 231, 306, 253] «Share your data in beautiful, governed data apps» fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px; padding:0px 6px 6px; margin:0px -6px -6px; textAlign:center
+- P [70, 498, 250, 270] «For too long, data has been stuck in boring, stati» fontSize:20px; fontWeight:300; lineHeight:30px; textAlign:center
+- H2 [32, 1433, 326, 105] «Prompt, build, share» fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px; padding:0px 6px 6px; margin:0px -6px -6px
+- P [38, 1542, 314, 180] «Hex's agent can build entirely custom generative a» fontSize:20px; fontWeight:300; lineHeight:30px; margin:0px 0px 25px
+- H3 [73, 2313, 245, 26] «Not sure what to build?» fontFamily:"PP Formula"; fontSize:20px; fontWeight:800; lineHeight:26px; letterSpacing:-0.5px
+- H4 [92, 2679, 206, 78] «Revenue (or any KPI) command center» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px
+- H4 [92, 3111, 206, 78] «Lifecycle explorer with global time grain» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px
+- H4 [92, 3544, 206, 78] «Forecast vs. actuals storyboard» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px
+- H4 [92, 3976, 206, 52] «What-if scenario simulator» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px
+- H4 [92, 4382, 206, 78] «Animated network or flow visualization» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px
+- H4 [92, 4815, 206, 26] «Sonify your metric» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px
+- H2 [48, 5143, 294, 78] «data app» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px
+- P [48, 5241, 294, 120] «Hex’s classic app builder and complete set of comp» fontSize:20px; fontWeight:300; lineHeight:30px
+- H2 [48, 5928, 294, 78] «Beautiful visualizations» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px
+- P [48, 6026, 294, 90] «Interactive charts, tables, and maps bring your da» fontSize:20px; fontWeight:300; lineHeight:30px
+- H2 [48, 6603, 294, 117] «Follow-up question?» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px
+- H2 [48, 7362, 288, 39] «drill, filter» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px
+- P [48, 7421, 294, 150] «Hex native charts and tables automatically come re» fontSize:20px; fontWeight:300; lineHeight:30px
+- H2 [48, 8073, 294, 117] «Answers right where you need them» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px
+- P [48, 8210, 294, 120] «Reports are always up to date with automatic upstr» fontSize:20px; fontWeight:300; lineHeight:30px
+- H2 [42, 10221, 306, 154] «Tighten the feedback loop» fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px; padding:0px 6px 6px; margin:0px -6px 20px; textAlign:center
+- P [48, 10395, 294, 210] «When it's time to share your masterpiece, one URL » fontSize:20px; fontWeight:300; lineHeight:30px; margin:0px 0px 30px; textAlign:center
+- H2 [67, 11277, 256, 78] «Questions? Talk to us» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px
+- P [67, 11365, 256, 90] «Get in touch with us to see a demo or find out whi» fontSize:20px; fontWeight:300; lineHeight:30px

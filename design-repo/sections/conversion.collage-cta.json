@@ -1,0 +1,111 @@
+{
+  "id": "conversion.collage-cta",
+  "category": "conversion",
+  "purpose": "Centred two-line gradient H2, text and md CTA above a collage of overlapping product cells.",
+  "variants": [],
+  "content": {
+    "title": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 5,
+      "observedWords": [
+        4
+      ],
+      "measuredFrom": [
+        "specs/product.md:567"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 39,
+      "observedWords": [
+        31
+      ],
+      "measuredFrom": [
+        "specs/product.md:567"
+      ]
+    },
+    "action": {
+      "kind": "action",
+      "required": true,
+      "label": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 3,
+        "observedWords": [
+          2
+        ],
+        "measuredFrom": [
+          "specs/product.md:567"
+        ]
+      },
+      "variants": [
+        "primary"
+      ],
+      "sizes": [
+        "md"
+      ]
+    },
+    "cells": {
+      "kind": "list",
+      "required": true,
+      "minItems": 4,
+      "maxItems": 4,
+      "measuredFrom": [
+        "specs/product.md:568"
+      ],
+      "item": {
+        "kind": "media",
+        "required": true,
+        "roles": [
+          "image.product-screenshot"
+        ],
+        "alt": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 18,
+          "observedWords": [
+            14,
+            14
+          ],
+          "measuredFrom": [
+            "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+            "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+          ]
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/product.md:566"
+  ],
+  "wordBudgets": {
+    "action.label": 3,
+    "cells[].alt": 18,
+    "description": 39,
+    "title": 5
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "image.product-screenshot"
+  ],
+  "usedByTemplates": [
+    "template.product-v1"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__conversion.collage-cta",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

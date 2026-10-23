@@ -1,0 +1,112 @@
+{
+  "id": "hero.heading-with-callout",
+  "category": "hero",
+  "purpose": "Index heading: two-line solid H1 + lead on the left, ruled tinted callout with a mail link on the right.",
+  "variants": [],
+  "content": {
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 3,
+      "observedWords": [
+        2
+      ],
+      "measuredFrom": [
+        "specs/product.md:648"
+      ]
+    },
+    "secondLine": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 4,
+      "observedWords": [
+        3
+      ],
+      "measuredFrom": [
+        "specs/product.md:648"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 19,
+      "observedWords": [
+        15
+      ],
+      "measuredFrom": [
+        "specs/product.md:648"
+      ]
+    },
+    "callout": {
+      "kind": "object",
+      "required": true,
+      "fields": {
+        "text": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 14,
+          "observedWords": [
+            11
+          ],
+          "measuredFrom": [
+            "specs/product.md:649"
+          ]
+        },
+        "link": {
+          "kind": "link",
+          "required": true,
+          "label": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 2,
+            "observedWords": [
+              1
+            ],
+            "measuredFrom": [
+              "specs/product.md:649"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-on-mount"
+    ],
+    "default": "reveal-on-mount"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "stack-columns",
+      "detail": "callout drops below the heading",
+      "measuredFrom": [
+        "specs/product.md:307"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/product.md:647"
+  ],
+  "wordBudgets": {
+    "callout.link.label": 2,
+    "callout.text": 14,
+    "description": 19,
+    "headline": 3,
+    "secondLine": 4
+  },
+  "richTextBudgets": {},
+  "assetRoles": [],
+  "usedByTemplates": [
+    "template.integrations-index"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__hero.heading-with-callout",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

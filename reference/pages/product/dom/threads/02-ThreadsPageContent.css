@@ -1,0 +1,8 @@
+/* threads section 2: every CSS rule from document.styleSheets whose selector matches a class used in this section (incl. @media/@supports wrappers), plus referenced @keyframes */
+.gFrqQS { display: grid; grid-column: 1 / -1; grid-template-columns: subgrid; }
+.gFrqQS[data-pile] { grid-row: 1 / -1; }
+.gFrqQS[data-content-grid] { grid-column: 2 / -2; grid-template-columns: repeat(var(--columns), 1fr); }
+.gFrqQS[data-content-grid] > * { grid-column: 1 / -1; }
+[data-content-grid]:where(.gFrqQS > *) { grid-column: 1 / -1; }
+:where(.gFrqQS > *) { grid-column: 2 / -2; }
+.ciDeTy { border-top: 1px solid var(--grid500, #3a3138); }

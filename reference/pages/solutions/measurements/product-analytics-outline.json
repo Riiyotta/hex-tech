@@ -1,0 +1,322 @@
+{
+  "url": "/solutions/product-analytics/",
+  "docH": 7000,
+  "title": "Product Analytics for Data-Driven Teams | Hex",
+  "metaDesc": "Analyze user behavior, build funnel and retention dashboards, and share product insights across your org in one Hex workspace. See how product teams use Hex.",
+  "hidden": 0,
+  "secs": [
+    {
+      "c": "LayoutGrid__LayoutSubgrid",
+      "b": [
+        0,
+        0,
+        1440,
+        6413
+      ],
+      "dir": "",
+      "h": [],
+      "p": [],
+      "a": [],
+      "img": [],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": []
+    },
+    {
+      "c": "sharedStyles__Info",
+      "b": [
+        220,
+        200,
+        1000,
+        484
+      ],
+      "dir": "",
+      "h": [
+        "H1:Product moves faster when data is in the room"
+      ],
+      "p": [
+        "Explore, test, and learn, so that every launch is faster, and more connected to what users actually need."
+      ],
+      "a": [
+        "Request a demo -> https://hex.tech/request-a-demo/",
+        "Get started now -> https://app.hex.tech/signup?source=nav&_gl=1*1gb4jmm*_gcl_au*MTE3NTA3ODUwNS4xNzQwNTk1ODUz"
+      ],
+      "img": [],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": []
+    },
+    {
+      "c": "CustomerBanner.logos CustomerBanner.logosMinimal",
+      "b": [
+        220,
+        766,
+        1000,
+        50
+      ],
+      "dir": "",
+      "h": [],
+      "p": [],
+      "a": [],
+      "img": [
+        "SANITY/7bb676f30dbd80023b0c7af23e60ff630b4cdc4d-115x50.svg?auto=format 115x50 alt=Hex customer: Reddit",
+        "SANITY/6f211c674b14be69b85497264b1d654b138dce01-39x50.svg?auto=format 39x50 alt=Hex customer: Notion",
+        "SANITY/41a6cd8e000ffa2cf99de391f0104b2cbdd9072e-132x50.svg?auto=format 132x50 alt=Hex customer: Anthropic",
+        "SANITY/b2ffbeeff0804c87f45b94444476c7025fce5719-51x50.svg?auto=format 51x50 alt=Hex customer: SeatGeek",
+        "SANITY/8ec37f2330ffd132be12ea66bad243453af0d047-119x50.svg?auto=format 119x50 alt=Hex customer: ClickUp",
+        "SANITY/22fd2415f0d3f16dc2c3d9d7853147757c60e708-151x50.svg?auto=format 151x50 alt=Hex customer: AllTrails"
+      ],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": []
+    },
+    {
+      "c": "sharedStyles__FeatureWrapper",
+      "b": [
+        157,
+        894,
+        1126,
+        513
+      ],
+      "dir": "row-reverse",
+      "h": [
+        "H2:Learn the reasons behind churn and expansion"
+      ],
+      "p": [
+        "With Hex, Kong identified a hidden nuance in customers with a fast product activation rate — which resulted in increased retention and revenue."
+      ],
+      "a": [
+        "Read more -> https://hex.tech/customers/kong/"
+      ],
+      "img": [
+        "SANITY/2cab0d5eb3b73515443d107be897b5975261e4b6-1340x940.png?w=1200&w=640&q=75 600x421 alt=Learn the reasons behind churn and expansion"
+      ],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": []
+    },
+    {
+      "c": "sharedStyles__Author",
+      "b": [
+        297,
+        1704,
+        845,
+        45
+      ],
+      "dir": "",
+      "h": [],
+      "p": [
+        "Snehal Karanjkar  ·  Product Analytics at Kong"
+      ],
+      "a": [],
+      "img": [],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": []
+    },
+    {
+      "c": "sharedStyles__FeatureWrapper",
+      "b": [
+        157,
+        1928,
+        1126,
+        513
+      ],
+      "dir": "row",
+      "h": [
+        "H2:Know where to invest in your product next"
+      ],
+      "p": [
+        "Build your product roadmap with data analysis, not gut feels.",
+        "Do the deep, exploratory work needed to define a product strategy. Dive into user behavior, run experiments, and get to the root causes of growth — all in one place."
+      ],
+      "a": [],
+      "img": [
+        "SANITY/761f1d60dfff26830a74bc42be8d460553ffc580-1216x896.png?w=1200&w=640&q=75 600x442 alt=Know where to invest in your product next"
+      ],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": []
+    },
+    {
+      "c": "sharedStyles__FeatureWrapper",
+      "b": [
+        157,
+        2521,
+        1126,
+        513
+      ],
+      "dir": "row-reverse",
+      "h": [
+        "H2:Show your work as you go"
+      ],
+      "p": [
+        "Every Hex workbook is a living guide.",
+        "Show your logic with a documented workbook that steps you through metric definitions, data sources, hypotheses, decisions — no detective work required."
+      ],
+      "a": [],
+      "img": [
+        "SANITY/d04db4ff087e43668ab62b75e17cb94893e83778-1233x948.png?w=1200&w=640&q=75 600x461 alt=Show your work as you go"
+      ],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": []
+    },
+    {
+      "c": "sharedStyles__FeatureWrapper",
+      "b": [
+        157,
+        3114,
+        1126,
+        513
+      ],
+      "dir": "row",
+      "h": [
+        "H2:Close product feedback loops faster"
+      ],
+      "p": [
+        "Interactive workspaces mean faster feedback loops.",
+        "Collaborate in real time on analysis, accelerate feedback loops, and create alignment on decisions. With Hex you can explore, iterate, and decide in the same place."
+      ],
+      "a": [],
+      "img": [
+        "SANITY/e94af611459c1d5f0e0faa1e94bd34d9f2b6dc09-1788x1236.png?w=1200&w=640&q=75 600x414 alt=Close product feedback loops faster"
+      ],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": []
+    },
+    {
+      "c": "sharedStyles__Wrapper sharedStyles__StyledWrapper",
+      "b": [
+        360,
+        3707,
+        720,
+        1201
+      ],
+      "dir": "column-reverse",
+      "h": [
+        "H2:Explore a live data app"
+      ],
+      "p": [
+        "Build your own Product KPIs dashboard to dig into feature adoption and usage metrics."
+      ],
+      "a": [
+        "What you can build (app) -> null",
+        "How it's built (logic) -> null",
+        "Explore this app -> https://app.hex.tech/hex-public/app/Product-KPIs-0311bZZ7yTSTefhjCF3cEV/latest"
+      ],
+      "img": [],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": [
+        "https://app.hex.tech/hex-public/app/Product-KPIs-0311bZZ7yTSTefhjCF3cEV/latest?embedded=true",
+        "https://app.hex.tech/hex-public/hex/Product-KPIs-0311bZZ7yTSTefhjCF3cEV/draft/logic?embedded=true"
+      ]
+    },
+    {
+      "c": "Heading__HeadingInternal Heading___StyledHeadingInternal Heading__H2",
+      "b": [
+        420,
+        5060,
+        600,
+        110
+      ],
+      "dir": "",
+      "h": [
+        "H2:From product questions to data-backed answers"
+      ],
+      "p": [],
+      "a": [],
+      "img": [],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": []
+    },
+    {
+      "c": "Cards__Wrapper",
+      "b": [
+        100,
+        5234,
+        1240,
+        449
+      ],
+      "dir": "",
+      "h": [
+        "H3:How Kong's product analyst uses Hex to make product improvements",
+        "H3:Why warehouse-based product analytics tells you more",
+        "H3:How PMs can find their own business-impacting insights in Hex",
+        "H3:5 Product metrics that actually drive growth (not vanity metrics)"
+      ],
+      "p": [],
+      "a": [
+        "Read more -> https://hex.tech/blog/how-kong-is-scaling-analytics-with-hex/",
+        "Read more -> https://hex.tech/blog/measuring-feature-success/",
+        "Read more -> https://hex.tech/blog/exploratory-product-analysis-for-product-and-engineering-teams/",
+        "Read more -> https://hex.tech/blog/product-metrics-that-drive-growth/"
+      ],
+      "img": [
+        "SANITY/440f5624b2d0df481cd5ecfa9f1a9dcee3bf909d-1680x1040.jpg?w=620&w=640&q=75 260x161 alt=figure - How Kong's product analyst uses Hex to make product",
+        "SANITY/16d94d9461239e179518e738e0ffe8d265f52f62-1680x1020.png?w=620&w=640&q=75 260x158 alt=figure - Why warehouse-based product analytics tells you mor",
+        "SANITY/dc87784b60c4ded232ba96433276ebb73f60d400-1680x1020.png?w=620&w=640&q=75 260x158 alt=figure - How PMs can find their own business-impacting insig",
+        "SANITY/576c2d0d4db331421cc5d69fae7e4925744970d9-1680x1040.png?w=620&w=640&q=75 260x161 alt=figure - 5 Product metrics that actually drive growth (not v"
+      ],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": []
+    },
+    {
+      "c": "SelfServeOutroTout__Inner",
+      "b": [
+        29,
+        5815,
+        1382,
+        598
+      ],
+      "dir": "",
+      "h": [
+        "H2:Product and data teams, in lock-step"
+      ],
+      "p": [
+        "Start now with a free trial"
+      ],
+      "a": [
+        "Sign up now -> https://app.hex.tech/signup?_gl=1*ey9vmn*_gcl_au*MTE3NTA3ODUwNS4xNzQwNTk1ODUz"
+      ],
+      "img": [],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": []
+    },
+    {
+      "c": "SCRIPT",
+      "b": [
+        0,
+        5069,
+        0,
+        0
+      ],
+      "dir": "",
+      "h": [],
+      "p": [],
+      "a": [],
+      "img": [],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": []
+    }
+  ]
+}

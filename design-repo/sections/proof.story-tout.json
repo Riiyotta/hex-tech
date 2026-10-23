@@ -1,0 +1,147 @@
+{
+  "id": "proof.story-tout",
+  "category": "proof",
+  "purpose": "Homepage 'Loved by the best data teams' tout: graph-paper title block, four story cards and the social row.",
+  "variants": [],
+  "content": {
+    "italicWord": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 2,
+      "observedWords": [
+        1
+      ],
+      "measuredFrom": [
+        "CLONE_SPEC.md:369"
+      ]
+    },
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 4,
+      "observedWords": [
+        3
+      ],
+      "measuredFrom": [
+        "CLONE_SPEC.md:151"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 14,
+      "observedWords": [
+        11
+      ],
+      "measuredFrom": [
+        "CLONE_SPEC.md:370"
+      ]
+    },
+    "stories": {
+      "kind": "list",
+      "required": true,
+      "minItems": 4,
+      "maxItems": 4,
+      "measuredFrom": [
+        "CLONE_SPEC.md:371"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "logo": {
+            "kind": "media",
+            "required": true,
+            "roles": [
+              "logo.customer"
+            ],
+            "alt": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 18,
+              "observedWords": [
+                14,
+                14
+              ],
+              "measuredFrom": [
+                "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+                "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+              ]
+            }
+          },
+          "title": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 5,
+            "observedWords": [
+              4,
+              4
+            ],
+            "measuredFrom": [
+              "CLONE_SPEC.md:372",
+              "CLONE_SPEC.md:373"
+            ]
+          },
+          "description": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 25,
+            "observedWords": [
+              20
+            ],
+            "measuredFrom": [
+              "CLONE_SPEC.md:372"
+            ]
+          },
+          "href": {
+            "kind": "href",
+            "required": true
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.tablet}",
+      "change": "reduce-columns",
+      "detail": "stories grid 2x2; social row stacks",
+      "measuredFrom": [
+        "CLONE_SPEC.md:380"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "homeRouteOnly": true
+  },
+  "measuredFrom": [
+    "CLONE_SPEC.md:366"
+  ],
+  "wordBudgets": {
+    "description": 14,
+    "headline": 4,
+    "italicWord": 2,
+    "stories[].description": 25,
+    "stories[].logo.alt": 18,
+    "stories[].title": 5
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "logo.customer"
+  ],
+  "usedByTemplates": [
+    "template.home"
+  ],
+  "observedThemes": [
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__proof.story-tout",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

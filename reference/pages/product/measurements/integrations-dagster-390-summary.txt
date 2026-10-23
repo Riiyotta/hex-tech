@@ -1,0 +1,14 @@
+# integrations-dagster @390 — doc height 3423 (1440: 3031)
+
+## Sections (matched by component class from the 1440 section list)
+- 0 Banner__ @1440 [245,200,950,596] → @390 [150, 144, 90, 20]  | H1:Add Hex apps to your Dagster pipelines and dataflows
+- 1 RunningText__ @1440 [29,876,1382,1469] → @390 [48, 1123, 294, 624]  | H2:How it works / H2:See it in action
+
+## Text roles @390 (H1–H4, lead/body P, buttons): tag [x,y,w,h] «text» font/size/lh
+- H1 [48, 309, 294, 247] «Add Hex apps to your Dagster pipelines and dataflo» fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px; margin:0px 0px 20px; textAlign:center
+- P [48, 576, 294, 150] «Programmatically trigger data transformations, app» fontSize:20px; fontWeight:300; lineHeight:30px; margin:0px 0px 25px; textAlign:center
+- H2 [48, 1064, 294, 39] «How it works» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px; margin:0px 0px 20px
+- P [48, 1123, 294, 192] «The Dagster Hex library lets Dagster users easily » fontSize:18px; lineHeight:32px; margin:0px 0px 24px
+- P [48, 1339, 294, 96] «Including Hex in your Dagster data pipelines and o» fontSize:18px; lineHeight:32px; margin:0px 0px 24px
+- P [48, 1459, 294, 288] «- Trigger a Hex app to update cached values after » fontSize:18px; lineHeight:32px
+- H2 [48, 1859, 294, 39] «See it in action» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px; margin:0px 0px 30px

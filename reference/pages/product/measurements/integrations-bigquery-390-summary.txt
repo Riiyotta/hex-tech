@@ -1,0 +1,15 @@
+# integrations-bigquery @390 — doc height 4013 (1440: 2842)
+
+## Sections (matched by component class from the 1440 section list)
+- 0 Banner__ @1440 [245,200,950,596] → @390 [150, 144, 90, 20]  | H1:Power interactive insights with data from Google BigQuery
+- 1 QuotesMultiple__ @1440 [29,876,1382,308] → @390 [8, 972, 374, 368] (+8 more)  | 
+- 2 RunningText__ @1440 [29,1183,1382,972] → @390 [48, 1570, 357, 496]  | H2:How it works
+
+## Text roles @390 (H1–H4, lead/body P, buttons): tag [x,y,w,h] «text» font/size/lh
+- H1 [48, 309, 294, 296] «Power interactive insights with data from Google B» fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px; margin:0px 0px 20px; textAlign:center
+- P [48, 625, 294, 180] «Hex connects directly to Google BigQuery to let yo» fontSize:20px; fontWeight:300; lineHeight:30px; margin:0px 0px 25px; textAlign:center
+- P [141, 1283, 109, 16] «Infinite Lambda» fontFamily:"Cinetype Mono"; fontSize:10px; lineHeight:15.71px; letterSpacing:0.833px; textAlign:center
+- H2 [48, 1511, 357, 39] «How it works» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px; margin:0px 0px 20px
+- P [48, 1570, 357, 160] «Connecting a Google BigQuery project to Hex means » fontSize:18px; lineHeight:32px; margin:0px 0px 24px
+- P [48, 1754, 357, 96] «Hex features full SQL IDE functionality, with auto» fontSize:18px; lineHeight:32px; margin:0px 0px 24px
+- P [48, 1874, 357, 192] «You can build and publish beautiful and interactiv» fontSize:18px; lineHeight:32px

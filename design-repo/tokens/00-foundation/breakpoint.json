@@ -1,0 +1,82 @@
+{
+  "$description": "Desktop-first max-width breakpoints measured from the live stylesheets.",
+  "breakpoint": {
+    "laptop": {
+      "$type": "dimension",
+      "$value": "1250px",
+      "query": "max-width",
+      "measuredFrom": [
+        "tailwind.config.cjs:17",
+        "CLONE_SPEC.md:41"
+      ]
+    },
+    "tablet": {
+      "$type": "dimension",
+      "$value": "1000px",
+      "query": "max-width",
+      "measuredFrom": [
+        "tailwind.config.cjs:18",
+        "CLONE_SPEC.md:41"
+      ]
+    },
+    "stack": {
+      "$type": "dimension",
+      "$value": "800px",
+      "query": "max-width",
+      "measuredFrom": [
+        "tailwind.config.cjs:19",
+        "CLONE_SPEC.md:41"
+      ]
+    },
+    "phone": {
+      "$type": "dimension",
+      "$value": "600px",
+      "query": "max-width",
+      "measuredFrom": [
+        "tailwind.config.cjs:20",
+        "CLONE_SPEC.md:41"
+      ]
+    },
+    "phone-sm": {
+      "$type": "dimension",
+      "$value": "450px",
+      "query": "max-width",
+      "measuredFrom": [
+        "tailwind.config.cjs:21",
+        "CLONE_SPEC.md:41"
+      ]
+    },
+    "phone-xs": {
+      "$type": "dimension",
+      "$value": "420px",
+      "query": "max-width",
+      "measuredFrom": [
+        "tailwind.config.cjs:22",
+        "CLONE_SPEC.md:41"
+      ]
+    },
+    "phone-xxs": {
+      "$type": "dimension",
+      "$value": "360px",
+      "query": "max-width",
+      "measuredFrom": [
+        "tailwind.config.cjs:23",
+        "CLONE_SPEC.md:41"
+      ]
+    },
+    "can-hover": {
+      "$type": "mediaQuery",
+      "$value": "(hover: hover)",
+      "measuredFrom": [
+        "tailwind.config.cjs:24"
+      ]
+    },
+    "reduced-motion": {
+      "$type": "mediaQuery",
+      "$value": "(prefers-reduced-motion: reduce)",
+      "measuredFrom": [
+        "src/index.css:958"
+      ]
+    }
+  }
+}

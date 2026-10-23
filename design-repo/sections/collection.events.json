@@ -1,0 +1,219 @@
+{
+  "id": "collection.events",
+  "category": "collection",
+  "purpose": "Sticky filter sidebar beside grouped event-card grids under dark section headers (upcoming / on-demand).",
+  "variants": [],
+  "content": {
+    "filters": {
+      "kind": "list",
+      "required": true,
+      "minItems": 3,
+      "maxItems": 3,
+      "measuredFrom": [
+        "specs/company.md:316"
+      ],
+      "item": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 2,
+        "observedWords": [
+          1
+        ],
+        "measuredFrom": [
+          "specs/company.md:316"
+        ]
+      }
+    },
+    "groups": {
+      "kind": "list",
+      "required": true,
+      "minItems": 2,
+      "maxItems": 2,
+      "measuredFrom": [
+        "specs/company.md:316"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "title": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 2,
+            "observedWords": [
+              1
+            ],
+            "measuredFrom": [
+              "specs/company.md:316"
+            ]
+          },
+          "cards": {
+            "kind": "list",
+            "required": true,
+            "minItems": 1,
+            "maxItems": 19,
+            "measuredFrom": [
+              "specs/company.md:316"
+            ],
+            "item": {
+              "kind": "object",
+              "required": true,
+              "fields": {
+                "title": {
+                  "kind": "text",
+                  "required": true,
+                  "maxWords": 14,
+                  "observedWords": [
+                    1,
+                    5,
+                    8,
+                    3,
+                    5,
+                    6,
+                    4,
+                    4,
+                    3,
+                    7,
+                    8,
+                    7,
+                    8,
+                    5,
+                    4,
+                    7,
+                    4,
+                    7,
+                    8,
+                    11,
+                    9
+                  ],
+                  "measuredFrom": [
+                    "specs/company.md:1183",
+                    "specs/company.md:2790",
+                    "specs/company.md:2796",
+                    "specs/company.md:2804",
+                    "specs/company.md:2810",
+                    "specs/company.md:2816",
+                    "specs/company.md:2822",
+                    "specs/company.md:2828",
+                    "specs/company.md:2840",
+                    "specs/company.md:2846",
+                    "specs/company.md:2852",
+                    "specs/company.md:2858",
+                    "specs/company.md:2864",
+                    "specs/company.md:2870",
+                    "specs/company.md:2876",
+                    "specs/company.md:2882",
+                    "specs/company.md:2888",
+                    "specs/company.md:2894",
+                    "specs/company.md:2900",
+                    "specs/company.md:2906",
+                    "specs/company.md:2912"
+                  ]
+                },
+                "cta": {
+                  "kind": "text",
+                  "required": true,
+                  "maxWords": 5,
+                  "observedWords": [
+                    1,
+                    4,
+                    3,
+                    2,
+                    3,
+                    3,
+                    3,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2
+                  ],
+                  "measuredFrom": [
+                    "specs/company.md:125",
+                    "specs/company.md:2797",
+                    "specs/company.md:2805",
+                    "specs/company.md:2817"
+                  ]
+                },
+                "href": {
+                  "kind": "href",
+                  "required": true
+                },
+                "image": {
+                  "kind": "media",
+                  "required": true,
+                  "roles": [
+                    "image.editorial-thumbnail"
+                  ],
+                  "alt": {
+                    "kind": "text",
+                    "required": true,
+                    "maxWords": 18,
+                    "observedWords": [
+                      14,
+                      14
+                    ],
+                    "measuredFrom": [
+                      "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+                      "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.tablet}",
+      "change": "stack-columns",
+      "detail": "filter above content; grid 1 column",
+      "measuredFrom": [
+        "specs/company.md:318"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/company.md:316"
+  ],
+  "wordBudgets": {
+    "filters[]": 2,
+    "groups[].cards[].cta": 5,
+    "groups[].cards[].image.alt": 18,
+    "groups[].cards[].title": 14,
+    "groups[].title": 2
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "image.editorial-thumbnail"
+  ],
+  "usedByTemplates": [
+    "template.v1-resource-index"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__collection.events",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

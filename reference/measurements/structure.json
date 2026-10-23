@@ -1,0 +1,414 @@
+[
+  {
+    "tag": "DIV",
+    "cls": "LayoutGrid-sc-51ec3774-0 LayoutGrid__LayoutGridCondensed-sc-51ec3774-2 gfIDZt bWeZIK ContentSection-module__rnYOla__contentContainer",
+    "y": 0,
+    "h": 5228,
+    "w": 1382,
+    "x": 29,
+    "disp": "grid",
+    "gtc": "12px 113.195px 113.195px 113.195px 113.195px 113.195px 113.195px 113.195px 113.195px 113.195px 113.195px 113.195px 113.195px 12px",
+    "gap": "0px",
+    "txt": "The Analytics platform | for humans and agents | Rethinking | BI | Conversational analytics | and | Context management | for the",
+    "kids": [
+      {
+        "tag": "DIV",
+        "cls": "HomePageFall2026Content-module__LS_yOG__page",
+        "y": 0,
+        "h": 5228,
+        "w": 1382,
+        "x": 29,
+        "disp": "block",
+        "txt": "The Analytics platform | for humans and agents | Rethinking | BI | Conversational analytics | and | Context management | for the",
+        "kids": [
+          {
+            "tag": "DIV",
+            "cls": "HomePageFall2026Content-module__LS_yOG__stage",
+            "y": 0,
+            "h": 700,
+            "w": 1382,
+            "x": 29,
+            "disp": "block",
+            "pad": "102px 0px 0px",
+            "txt": "The Analytics platform | for humans and agents | Rethinking | BI | Conversational analytics | and | Context management | for the",
+            "kids": [
+              {
+                "tag": "DIV",
+                "cls": "HomeHeroBackdrop-module__AYu51q__backdrop",
+                "y": 0,
+                "h": 700,
+                "w": 1382,
+                "x": 29,
+                "disp": "block",
+                "txt": "",
+                "kids": 2
+              },
+              {
+                "tag": "DIV",
+                "cls": "",
+                "y": 102,
+                "h": 598,
+                "w": 1382,
+                "x": 29,
+                "disp": "block",
+                "txt": "The Analytics platform | for humans and agents | Rethinking | BI | Conversational analytics | and | Context management | for the",
+                "kids": 1
+              }
+            ]
+          },
+          {
+            "tag": "DIV",
+            "cls": "CustomerBanner-module__QGw5Ra__frame",
+            "y": 700,
+            "h": 189,
+            "w": 1382,
+            "x": 29,
+            "bg": "color(srgb 1 0.988235 0.988235 / 0.3)",
+            "disp": "block",
+            "txt": "TRUSTED BY LEADING DATA COMPANIES | \"Our vision for Notion’s data team is that anyone, regardless of technical proficiency",
+            "kids": [
+              {
+                "tag": "DIV",
+                "cls": "CustomerBanner-module__QGw5Ra__accents",
+                "y": 700,
+                "h": 0,
+                "w": 1382,
+                "x": 29,
+                "disp": "block",
+                "txt": "",
+                "kids": 0
+              },
+              {
+                "tag": "DIV",
+                "cls": "CustomerBanner-module__QGw5Ra__topEdge",
+                "y": 694,
+                "h": 12,
+                "w": 1382,
+                "x": 29,
+                "disp": "flex",
+                "txt": "TRUSTED BY LEADING DATA COMPANIES",
+                "kids": 3
+              },
+              {
+                "tag": "UL",
+                "cls": "CustomerBanner-module__QGw5Ra__logos CustomerBanner-module__QGw5Ra__logosDefault",
+                "y": 700,
+                "h": 188,
+                "w": 1382,
+                "x": 29,
+                "disp": "flex",
+                "gap": "24px 54px",
+                "pad": "44px 32px 40px",
+                "txt": "\"Our vision for Notion’s data team is that anyone, regardless of technical proficiency, is comfortable using data to ans",
+                "kids": 18
+              }
+            ]
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "y": 889,
+            "h": 362,
+            "w": 1382,
+            "x": 29,
+            "disp": "block",
+            "txt": "A different approach to Analytics and BI | BI tools, chat apps, and vibe-coding only give you inconsistent answers and po",
+            "kids": [
+              {
+                "tag": "SECTION",
+                "cls": "HomeBuiltDifferent-module__X_TMTG__builtDifferent",
+                "y": 889,
+                "h": 362,
+                "w": 1382,
+                "x": 29,
+                "disp": "flex",
+                "txt": "A different approach to Analytics and BI | BI tools, chat apps, and vibe-coding only give you inconsistent answers and po",
+                "kids": 2
+              }
+            ]
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "y": 1256,
+            "h": 928,
+            "w": 1382,
+            "x": 29,
+            "disp": "block",
+            "txt": "Ask a question, get a trusted answer | Explore self-serve insights | \"The ability to use Hex in any way we choose is valuab",
+            "kids": [
+              {
+                "tag": "DIV",
+                "cls": "HomeTrustedAnswers-module__G5svba__content",
+                "y": 1256,
+                "h": 928,
+                "w": 1240,
+                "x": 100,
+                "disp": "block",
+                "pad": "60px 0px",
+                "txt": "Ask a question, get a trusted answer | Explore self-serve insights | \"The ability to use Hex in any way we choose is valuab",
+                "kids": 1
+              }
+            ]
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "y": 2184,
+            "h": 575,
+            "w": 1382,
+            "x": 29,
+            "disp": "block",
+            "txt": "Ground every answer in your organization’s context | Explore the Context Engine | \"It's something I check every day — seein",
+            "kids": [
+              {
+                "tag": "SECTION",
+                "cls": "HomeOrganizationContext-module__wQwOha__content",
+                "y": 2184,
+                "h": 575,
+                "w": 900,
+                "x": 270,
+                "disp": "block",
+                "txt": "Ground every answer in your organization’s context | Explore the Context Engine | \"It's something I check every day — seein",
+                "kids": 1
+              }
+            ]
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "y": 2759,
+            "h": 735,
+            "w": 1382,
+            "x": 29,
+            "disp": "block",
+            "txt": "Share insights with generative dashboards and data apps | Explore AI app building | \"With Hex's Notebook Agent, I never hav",
+            "kids": [
+              {
+                "tag": "DIV",
+                "cls": "HomeConversationalAnalytics-module__EjFBoa__content",
+                "y": 2759,
+                "h": 735,
+                "w": 1240,
+                "x": 100,
+                "disp": "block",
+                "pad": "60px 0px",
+                "txt": "Share insights with generative dashboards and data apps | Explore AI app building | \"With Hex's Notebook Agent, I never hav",
+                "kids": 1
+              }
+            ]
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "y": 3493,
+            "h": 884,
+            "w": 1382,
+            "x": 29,
+            "disp": "block",
+            "txt": "See what people are asking, and whether the answers are right | Explore the Context Studio | \"We have so many people and pr",
+            "kids": [
+              {
+                "tag": "DIV",
+                "cls": "HomeContextStudio-module__npjq9a__content",
+                "y": 3493,
+                "h": 884,
+                "w": 1240,
+                "x": 100,
+                "disp": "block",
+                "pad": "60px 0px",
+                "txt": "See what people are asking, and whether the answers are right | Explore the Context Studio | \"We have so many people and pr",
+                "kids": 1
+              }
+            ]
+          },
+          {
+            "tag": "DIV",
+            "cls": "",
+            "y": 4377,
+            "h": 855,
+            "w": 1382,
+            "x": 29,
+            "disp": "block",
+            "txt": "Flexible by design | Work with any data, any AI model, and any context, so you aren’t locked in | Your AI bill is getting b",
+            "kids": [
+              {
+                "tag": "SECTION",
+                "cls": "HomeProductEthos-module__bpl4nW__productEthos",
+                "y": 4377,
+                "h": 855,
+                "w": 1240,
+                "x": 100,
+                "disp": "grid",
+                "gtc": "610px 610px",
+                "gap": "20px",
+                "pad": "0px 0px 60px",
+                "txt": "Flexible by design | Work with any data, any AI model, and any context, so you aren’t locked in | Your AI bill is getting b",
+                "kids": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "DIV",
+    "cls": "LayoutGrid-sc-51ec3774-0 LayoutGrid__LayoutGridCondensed-sc-51ec3774-2 gfIDZt bWeZIK ContentSection-module__rnYOla__contentContainer",
+    "y": 5528,
+    "h": 4549,
+    "w": 1382,
+    "x": 29,
+    "disp": "grid",
+    "gtc": "12px 113.195px 113.195px 113.195px 113.195px 113.195px 113.195px 113.195px 113.195px 113.195px 113.195px 113.195px 113.195px 12px",
+    "gap": "0px",
+    "txt": "Use cases | Get the most out of Hex | Migrate from traditional BI to modern AI-powered self-serve | Move beyond static dashbo",
+    "kids": [
+      {
+        "tag": "DIV",
+        "cls": "HomePageFall2026Content-module__LS_yOG__page",
+        "y": 5528,
+        "h": 4549,
+        "w": 1382,
+        "x": 29,
+        "disp": "block",
+        "txt": "Use cases | Get the most out of Hex | Migrate from traditional BI to modern AI-powered self-serve | Move beyond static dashbo",
+        "kids": [
+          {
+            "tag": "DIV",
+            "cls": "",
+            "y": 5533,
+            "h": 657,
+            "w": 1382,
+            "x": 29,
+            "disp": "block",
+            "txt": "Use cases | Get the most out of Hex | Migrate from traditional BI to modern AI-powered self-serve | Move beyond static dashbo",
+            "kids": [
+              {
+                "tag": "SECTION",
+                "cls": "HomeUseCases-module__7W7WPW__useCases",
+                "y": 5533,
+                "h": 657,
+                "w": 1382,
+                "x": 29,
+                "disp": "block",
+                "pad": "100px 0px 75px",
+                "txt": "Use cases | Get the most out of Hex | Migrate from traditional BI to modern AI-powered self-serve | Move beyond static dashbo",
+                "kids": 2
+              }
+            ]
+          },
+          {
+            "tag": "DIV",
+            "cls": "ToutWrapper__Wrapper-sc-3805269d-0 gTUKBc",
+            "y": 6190,
+            "h": 1344,
+            "w": 1382,
+            "x": 29,
+            "disp": "flex",
+            "pad": "100px 0px",
+            "txt": "Loved by the | best data teams | Hex helps companies of all sizes do more with their data. | One place for insights | Notion ",
+            "kids": [
+              {
+                "tag": "DIV",
+                "cls": "CustomerStoriesTout__Inner-sc-cce02b78-0 dBKBEL",
+                "y": 6290,
+                "h": 1144,
+                "w": 1240,
+                "x": 100,
+                "disp": "flex",
+                "pad": "0px 32px",
+                "txt": "Loved by the | best data teams | Hex helps companies of all sizes do more with their data. | One place for insights | Notion ",
+                "kids": 3
+              }
+            ]
+          },
+          {
+            "tag": "DIV",
+            "cls": "IntegrationsTout__Wrapper-sc-3b2f6083-0 kfwCiR",
+            "y": 7534,
+            "h": 1192,
+            "w": 1382,
+            "x": 29,
+            "disp": "flex",
+            "pad": "70px 0px 60px",
+            "txt": "Instant integration | with the whole stack | Out-of-the-box connections and flexible APIs make setup a breeze. | Built for t",
+            "kids": [
+              {
+                "tag": "DIV",
+                "cls": "IntegrationsTout__Inner-sc-3b2f6083-1 ktTzZw",
+                "y": 7604,
+                "h": 1062,
+                "w": 1240,
+                "x": 100,
+                "disp": "flex",
+                "pad": "0px 40px",
+                "txt": "Instant integration | with the whole stack | Out-of-the-box connections and flexible APIs make setup a breeze. | Built for t",
+                "kids": 2
+              }
+            ]
+          },
+          {
+            "tag": "DIV",
+            "cls": "ToutWrapper__Wrapper-sc-3805269d-0 gTUKBc",
+            "y": 8727,
+            "h": 463,
+            "w": 1382,
+            "x": 29,
+            "disp": "flex",
+            "pad": "100px 0px",
+            "txt": "Getting started is easy. | Connect Hex to your data warehouse and do more with it immediately. | Get started for free | Talk",
+            "kids": [
+              {
+                "tag": "DIV",
+                "cls": "BottomCTATout__Inner-sc-c0f33c84-0 iTCKoH",
+                "y": 8827,
+                "h": 263,
+                "w": 1382,
+                "x": 29,
+                "disp": "flex",
+                "txt": "Getting started is easy. | Connect Hex to your data warehouse and do more with it immediately. | Get started for free | Talk",
+                "kids": 1
+              }
+            ]
+          },
+          {
+            "tag": "DIV",
+            "cls": "HomeFAQ__FAQWrapper-sc-23da054a-0 kqpCHD",
+            "y": 9185,
+            "h": 892,
+            "w": 1382,
+            "x": 29,
+            "disp": "block",
+            "txt": "FAQ | What is Hex? | Who uses Hex? | Why do data teams switch to Hex? | Can business users access data without knowing SQL or Py",
+            "kids": [
+              {
+                "tag": "DIV",
+                "cls": "TronDivider__Wrapper-sc-824f0806-1 icolWM",
+                "y": 9185,
+                "h": 61,
+                "w": 1382,
+                "x": 29,
+                "disp": "block",
+                "txt": "",
+                "kids": 9
+              },
+              {
+                "tag": "DIV",
+                "cls": "FAQ__Wrapper-sc-c91ba0f9-1 eDmutK",
+                "y": 9281,
+                "h": 801,
+                "w": 1382,
+                "x": 29,
+                "disp": "block",
+                "pad": "80px 0px",
+                "txt": "FAQ | What is Hex? | Who uses Hex? | Why do data teams switch to Hex? | Can business users access data without knowing SQL or Py",
+                "kids": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

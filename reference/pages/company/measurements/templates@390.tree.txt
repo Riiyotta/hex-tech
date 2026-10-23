@@ -1,0 +1,984 @@
+<BODY > [0,0,390,25833] {font-family:Cinetype; font-size:14px; line-height:21.994px; font-weight:400; font-style:normal; letter-spacing:normal; text-transform:none; text-align:start; color:rgb(227, 178, 179); background-color:rgb(20, 20, 28); overflow:clip visible; z-index:0; list-style-type:disc; white-space:normal; text-wrap:wrap}
+ <DIV PageWrapper__PageLayoutGrid> [0,0,390,25833] {display:grid; gap:0px; grid-template-columns:7.875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 7.875px; grid-template-rows:25832.6px; color:rgb(245, 192, 192); background-color:rgb(20, 20, 28)}
+  <A .sr-only> [-10000,0,1,1] href=#main «Skip to main content» {position:absolute; grid-column:2 / -2; color:rgb(227, 178, 179); border-bottom:1px solid rgb(227, 178, 179); transition:background-color 0.1s linear; overflow:hidden}
+  <DIV LayoutGrid__LayoutSubgrid PageWrapper__PaperTexture> [0,0,390,25833] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-column:1 / -1; background-image:url("https://hex.tech/images/bkg-noise.webp"); opacity:0.0625}
+  <DIV LayoutGrid__LayoutSubgrid> [0,0,390,25833] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:24686.9px 1113.72px 32px; grid-column:1 / -1}
+   <DIV .LayoutGrid-sc-51ec3774-0.gfIDZt> [0,0,390,68] {display:grid; position:fixed; gap:0px; grid-template-columns:7.875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 7.875px; grid-template-rows:12px 56px; grid-column:2 / -2; z-index:3}
+    <DIV LayoutGrid__LayoutSubgrid Header__TopGridLines> [0,0,390,12] {display:grid; position:relative; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:12px; grid-column:1 / -1; background-color:rgb(20, 20, 28)}
+     <DIV GridLines__ContentMarginLine> [0,0,8,12] {grid-column:1; border-right:1px solid rgb(43, 37, 44)}
+     <DIV GridLines__GridRule> [101,0,1,12] {grid-column:4; background-color:rgb(43, 37, 44); transform:matrix(1, 0, 0, 1, 0.5, 0)}
+     <DIV GridLines__GridRule> [288,0,1,12] {grid-column:10; background-color:rgb(43, 37, 44); transform:matrix(1, 0, 0, 1, 0.5, 0)}
+     <DIV GridLines__ContentMarginLine> [382,0,8,12] {grid-column:-2 / span 1; border-left:1px solid rgb(43, 37, 44)}
+    <HEADER LayoutGrid__LayoutSubgrid> [0,12,390,56] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:56px; grid-column:1 / -1}
+     <DIV LayoutGrid__LayoutSubgrid Header__TickerWrapper> [0,12,390,27] {display:grid; position:relative; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:26.8438px; grid-column:1 / -1; background-color:rgb(20, 20, 28)}
+      <DIV GridLines__ContentMarginLine> [0,12,8,27] {grid-column:1; border-right:1px solid rgb(43, 37, 44)}
+      <DIV LayoutGrid__LayoutSubgrid Ticker__Bg> [8,12,374,27] {display:grid; grid-template-columns:31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px; grid-template-rows:26.8438px; grid-column:2 / -2; background-color:rgb(37, 33, 40); background-image:linear-gradient(to left, rgb(37, 33, 40), rgb(32, 29, 37), rgb(37, 33, 40)); box-shadow:rgba(245, 192, 192, 0.173) 0px 1px 1px 0px inset; overflow:hidden}
+       <DIV Ticker__Marquee> [8,12,374,27] {display:flex; position:relative; grid-column:1 / -1; overflow:hidden; z-index:1}
+        <DIV .sr-only> [-9992,12,1,1] {position:absolute; overflow:hidden}
+         <A Ticker__MarqueeItem> [-9992,12,16,19] href=/customers/langchain/ «how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+          <SPAN > [-9984,12,15,19] «📊» {}
+          <SPAN Ticker__MarqueeItemTitle> [-9961,12,169,19] «AI analytics use case:» {color:rgb(255, 255, 255)}
+          <SPAN Ticker__Circle> [-9113,16,10,10] {display:grid; align-items:center; grid-template-columns:10px; grid-template-rows:10px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+           <svg Ticker__StyledArrowRight> [-9113,18,10,7] {overflow:hidden}
+         <A Ticker__MarqueeItem> [-9992,31,16,19] href=/blog/introducing-generative-data-apps/ «Gorgeous, interactive dashboards and apps you can build with just a prompt» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+          <SPAN > [-9984,31,15,19] «🤯» {}
+          <SPAN Ticker__MarqueeItemTitle> [-9961,31,161,19] «Generative data apps:» {color:rgb(255, 255, 255)}
+          <SPAN Ticker__Circle> [-9220,35,10,10] {display:grid; align-items:center; grid-template-columns:10px; grid-template-rows:10px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+           <svg Ticker__StyledArrowRight> [-9220,37,10,7] {overflow:hidden}
+         <A Ticker__MarqueeItem> [-9992,50,16,19] href=/state-of-data-teams/ «discover key insights from data leaders» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+          <SPAN > [-9984,50,15,19] «📖» {}
+          <SPAN Ticker__MarqueeItemTitle> [-9961,50,184,19] «State of Data Teams 2026» {color:rgb(255, 255, 255)}
+          <SPAN Ticker__Circle> [-9466,54,10,10] {display:grid; align-items:center; grid-template-columns:10px; grid-template-rows:10px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+           <svg Ticker__StyledArrowRight> [-9466,56,10,7] {overflow:hidden}
+         <A Ticker__MarqueeItem> [-9992,69,16,19] href=/ «Not "HEX" or "Hex dot tech"» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+          <SPAN > [-9984,69,15,19] «🙏» {}
+          <SPAN Ticker__MarqueeItemTitle> [-9961,69,123,19] «It's just "Hex"!» {color:rgb(255, 255, 255)}
+          <SPAN Ticker__Circle> [-9619,73,10,10] {display:grid; align-items:center; grid-template-columns:10px; grid-template-rows:10px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+           <svg Ticker__StyledArrowRight> [-9619,74,10,7] {overflow:hidden}
+        <DIV Ticker__InstanceAnim> [-2500,12,13568,27] {display:flex; transform:matrix(1, 0, 0, 1, -2508.27, 0); animation:56s linear infinite ticker}
+         <SPAN > [-2500,12,2714,27] {display:flex; white-space:nowrap; text-wrap:nowrap}
+          <SPAN Ticker__MarqueeItems> [-2500,12,2714,27] {display:flex; gap:16px; padding:4px 16px 4px 0px}
+           <A Ticker__MarqueeItem> [-2500,16,904,19] href=/customers/langchain/ «how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [-2491,16,15,19] «📊» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [-2468,16,169,19] «AI analytics use case:» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [-1619,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [-1617,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [-1580,16,797,19] href=/blog/introducing-generative-data-apps/ «Gorgeous, interactive dashboards and apps you can build with just a prompt» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [-1571,16,15,19] «🤯» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [-1548,16,161,19] «Generative data apps:» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [-806,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [-804,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [-767,16,551,19] href=/state-of-data-teams/ «discover key insights from data leaders» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [-758,16,15,19] «📖» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [-735,16,184,19] «State of Data Teams 2026» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [-239,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [-237,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [-200,16,397,19] href=/ «Not "HEX" or "Hex dot tech"» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [-191,16,15,19] «🙏» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [-168,16,123,19] «It's just "Hex"!» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [174,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [177,22,10,7] {overflow:hidden}
+         <SPAN > [213,12,2714,27] {display:flex; white-space:nowrap; text-wrap:nowrap}
+          <SPAN Ticker__MarqueeItems> [213,12,2714,27] {display:flex; gap:16px; padding:4px 16px 4px 0px}
+           <A Ticker__MarqueeItem> [213,16,904,19] href=/customers/langchain/ «how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [222,16,15,19] «📊» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [246,16,169,19] «AI analytics use case:» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [1094,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [1097,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [1133,16,797,19] href=/blog/introducing-generative-data-apps/ «Gorgeous, interactive dashboards and apps you can build with just a prompt» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [1143,16,15,19] «🤯» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [1166,16,161,19] «Generative data apps:» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [1907,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [1910,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [1946,16,551,19] href=/state-of-data-teams/ «discover key insights from data leaders» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [1955,16,15,19] «📖» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [1979,16,184,19] «State of Data Teams 2026» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [2474,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [2477,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [2513,16,397,19] href=/ «Not "HEX" or "Hex dot tech"» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [2522,16,15,19] «🙏» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [2546,16,123,19] «It's just "Hex"!» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [2888,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [2890,22,10,7] {overflow:hidden}
+         <SPAN > [2927,12,2714,27] {display:flex; white-space:nowrap; text-wrap:nowrap}
+          <SPAN Ticker__MarqueeItems> [2927,12,2714,27] {display:flex; gap:16px; padding:4px 16px 4px 0px}
+           <A Ticker__MarqueeItem> [2927,16,904,19] href=/customers/langchain/ «how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [2936,16,15,19] «📊» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [2959,16,169,19] «AI analytics use case:» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [3808,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [3810,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [3847,16,797,19] href=/blog/introducing-generative-data-apps/ «Gorgeous, interactive dashboards and apps you can build with just a prompt» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [3856,16,15,19] «🤯» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [3879,16,161,19] «Generative data apps:» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [4621,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [4623,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [4660,16,551,19] href=/state-of-data-teams/ «discover key insights from data leaders» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [4669,16,15,19] «📖» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [4692,16,184,19] «State of Data Teams 2026» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [5188,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [5190,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [5227,16,397,19] href=/ «Not "HEX" or "Hex dot tech"» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [5236,16,15,19] «🙏» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [5259,16,123,19] «It's just "Hex"!» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [5601,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [5604,22,10,7] {overflow:hidden}
+         <SPAN > [5640,12,2714,27] {display:flex; white-space:nowrap; text-wrap:nowrap}
+          <SPAN Ticker__MarqueeItems> [5640,12,2714,27] {display:flex; gap:16px; padding:4px 16px 4px 0px}
+           <A Ticker__MarqueeItem> [5640,16,904,19] href=/customers/langchain/ «how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [5649,16,15,19] «📊» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [5673,16,169,19] «AI analytics use case:» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [6521,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [6524,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [6560,16,797,19] href=/blog/introducing-generative-data-apps/ «Gorgeous, interactive dashboards and apps you can build with just a prompt» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [6570,16,15,19] «🤯» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [6593,16,161,19] «Generative data apps:» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [7334,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [7337,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [7373,16,551,19] href=/state-of-data-teams/ «discover key insights from data leaders» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [7382,16,15,19] «📖» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [7406,16,184,19] «State of Data Teams 2026» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [7901,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [7904,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [7940,16,397,19] href=/ «Not "HEX" or "Hex dot tech"» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [7949,16,15,19] «🙏» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [7973,16,123,19] «It's just "Hex"!» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [8315,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [8317,22,10,7] {overflow:hidden}
+         <SPAN > [8354,12,2714,27] {display:flex; white-space:nowrap; text-wrap:nowrap}
+          <SPAN Ticker__MarqueeItems> [8354,12,2714,27] {display:flex; gap:16px; padding:4px 16px 4px 0px}
+           <A Ticker__MarqueeItem> [8354,16,904,19] href=/customers/langchain/ «how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [8363,16,15,19] «📊» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [8386,16,169,19] «AI analytics use case:» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [9235,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [9237,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [9274,16,797,19] href=/blog/introducing-generative-data-apps/ «Gorgeous, interactive dashboards and apps you can build with just a prompt» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [9283,16,15,19] «🤯» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [9306,16,161,19] «Generative data apps:» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [10048,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [10050,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [10087,16,551,19] href=/state-of-data-teams/ «discover key insights from data leaders» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [10096,16,15,19] «📖» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [10119,16,184,19] «State of Data Teams 2026» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [10615,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [10617,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [10654,16,397,19] href=/ «Not "HEX" or "Hex dot tech"» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [10663,16,15,19] «🙏» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [10686,16,123,19] «It's just "Hex"!» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [11028,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [11031,22,10,7] {overflow:hidden}
+      <DIV GridLines__ContentMarginLine> [382,12,8,27] {grid-column:-2 / span 1; border-left:1px solid rgb(43, 37, 44)}
+     <DIV LayoutGrid__LayoutSubgrid> [0,12,390,56] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:56px; grid-column:1 / -1}
+      <NAV LayoutGrid__LayoutSubgrid> [0,12,390,56] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:56px 0px; grid-column:1 / -1}
+       <DIV LayoutGrid__LayoutSubgrid Nav__NavWrapper> [0,39,390,56] {display:grid; position:relative; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:56px; grid-column:1 / -1; transform:matrix(1, 0, 0, 1, 0, 26.8438)}
+        <DIV LayoutGrid__LayoutSubgrid Nav__Background> [0,39,390,56] {display:grid; position:relative; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:56px; grid-column:1 / -1; z-index:-1}
+         <DIV Nav__BackgroundInner> [0,39,390,56] {position:absolute; grid-column:1 / -1; mask-image:linear-gradient(rgba(0, 0, 0, 0.48) 30%, rgba(0, 0, 0, 0))}
+        <DIV LayoutGrid__LayoutSubgrid> [0,59,390,56] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:56px; grid-column:1 / -1; transform:matrix(1, 0, 0, 1, 0, 20)}
+         <DIV Nav__NavShadow> [0,59,390,56] {position:relative; grid-column:1 / -1; opacity:0; overflow:clip visible; z-index:3}
+         <DIV LayoutGrid__LayoutSubgrid> [0,59,390,56] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:56px; grid-column:1 / -1}
+          <DIV Nav__NavBorderBottom> [0,114,8,1] {grid-column:1; background-color:rgb(43, 37, 44); opacity:0}
+          <DIV Nav__NavigationRootEl> [8,59,374,56] {display:grid; position:relative; align-items:center; grid-template-columns:187.125px 0px 187.125px; grid-template-rows:0px 40px; grid-column:2 / -2; padding:8px 0px}
+           <DIV > [8,67,187,0] {position:relative}
+           <A Nav__HomeNavLinkWrapper> [22,75,64,25] href=/ {grid-column:1 / span 1; margin:0px 0px 0px 14.4px; color:rgb(227, 178, 179); transition:background-color 0.1s linear}
+            <svg Nav__Hex> [22,75,64,25] {overflow:hidden}
+           <DIV > [195,87,0,0] {position:relative}
+           <BUTTON MobileNav__HamburgerButton> [334,67,40,40] {display:grid; position:relative; align-items:center; grid-template-columns:40px; grid-template-rows:40px; margin:0px 8px 0px 0px; aspect-ratio:1 / 1; font-family:Arial; font-size:13.3333px; line-height:normal; text-align:center; color:rgb(0, 0, 0); border-radius:999px}
+            <DIV MobileNav__HamburgerButtonShadow> [334,67,40,40] {position:absolute; background-image:radial-gradient(circle at 66.66% 50%, rgb(29, 29, 41) 0%, rgb(15, 15, 21) 80%); border-radius:999px; box-shadow:rgb(17, 17, 24) 0px 0px 24px 0px inset, rgb(47, 47, 65) 0px 0.5px 0px 0.75px, rgba(0, 0, 0, 0.01) 6px 37px 10px 0px, rgba(0, 0, 0, 0.04) 4px 24px 10px 0px, rgba(0, 0, 0, 0.14) 2px 13px 8px 0px, rgba(0, 0, 0, 0.24) 1px 6px 6px 0px, rgba(0, 0, 0, 0.27) 0px 1px 3px 0px; z-index:-1}
+            <DIV MobileNav__HamburgerButtonBg> [334,67,40,40] {position:absolute; background-color:rgb(20, 20, 28); border-radius:999px; z-index:-1}
+           <DIV Nav__NavRootBorder> [195,114,0,1] {position:absolute; background-color:rgb(58, 49, 56); opacity:0; transform:matrix(0, 0, 0, 1, 0, 0)}
+          <DIV Nav__NavBorderBottom> [382,114,8,1] {grid-column:-1; background-color:rgb(43, 37, 44); opacity:0}
+        <DIV Accent__LContainer> [-1,31,16,16] {display:grid; position:absolute; align-items:center; grid-template-columns:16px; grid-template-rows:16px; grid-column:2 / -2; transform:matrix(1, 0, 0, 1, -8, -8); z-index:2}
+         <DIV Accent__VerticalBar> [7,31,1,16] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+         <DIV Accent__HorizontalBar> [-1,39,16,1] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+        <DIV Accent__LContainer> [375,31,16,16] {display:grid; position:absolute; align-items:center; grid-template-columns:16px; grid-template-rows:16px; grid-column:2 / -2; transform:matrix(1, 0, 0, 1, 8, -8); z-index:2}
+         <DIV Accent__VerticalBar> [382,31,1,16] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+         <DIV Accent__HorizontalBar> [375,39,16,1] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+        <DIV Accent__LContainer> [375,86,16,16] {display:grid; position:absolute; align-items:center; grid-template-columns:16px; grid-template-rows:16px; grid-column:2 / -2; transform:matrix(1, 0, 0, 1, 8, 8); z-index:2}
+         <DIV Accent__VerticalBar> [382,86,1,16] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+         <DIV Accent__HorizontalBar> [375,94,16,1] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+        <DIV Accent__LContainer> [-1,86,16,16] {display:grid; position:absolute; align-items:center; grid-template-columns:16px; grid-template-rows:16px; grid-column:2 / -2; transform:matrix(1, 0, 0, 1, -8, 8); z-index:2}
+         <DIV Accent__VerticalBar> [7,86,1,16] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+         <DIV Accent__HorizontalBar> [-1,94,16,1] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+       <DIV > [0,115,390,0] {grid-column:1 / -1; transform:matrix(1, 0, 0, 1, 0, 46.8438)}
+   <MAIN LayoutGrid__LayoutSubgrid> [0,0,390,24687] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:24686.9px; grid-column:1 / -1}
+    <DIV LayoutGrid__LayoutSubgrid> [0,0,390,24687] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:24686.9px; grid-column:1 / -1}
+     <DIV GridLines__GridRule> [195,0,1,24687] {grid-column:7; background-color:rgb(43, 37, 44); transform:matrix(1, 0, 0, 1, 0.5, 0)}
+    <DIV LayoutGrid__LayoutSubgrid> [0,0,390,24687] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:24686.9px; grid-column:1 / -1}
+     <DIV GridLines__ContentMarginLine> [0,0,8,24687] {grid-column:1; background-image:linear-gradient(rgba(0, 0, 0, 0) calc(100% - 1px), rgb(43, 37, 44) calc(100% - 1px)); border-right:1px solid rgb(58, 49, 56)}
+     <DIV LayoutGrid__LayoutSubgrid V1PageWrapper__V1Subgrid> [8,0,374,24687] {display:grid; position:relative; grid-template-columns:31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px; grid-template-rows:24542.9px; grid-column:2 / -2; padding:144px 0px 0px; overflow:clip visible}
+      <DIV TemplatesIndexContent__HeroWrapper> [8,144,374,24543] {grid-column:1 / -1}
+       <DIV sharedStyles__Wrapper> [8,144,374,24443] {display:flex; flex-direction:column; padding:0px 40px; margin:0px 0px 100px; max-width:1240px}
+        <DIV TemplatesIndexContent__Heading> [48,144,294,245] {margin:0px 0px 20px; text-align:left}
+         <H1 Heading__HeadingInternal Heading___StyledHeadingInternal> [48,144,294,49] «Templates» {margin:0px 0px 16px; font-family:PP Formula SemiExtended; font-size:38px; line-height:49.4px; font-weight:700; letter-spacing:-1.1704px; color:rgb(255, 255, 255)}
+         <P Text__TextWrapper Text___StyledTextWrapper> [48,209,294,180] «From complex ML forecasting to critical business dashboards, Hex lets data teams work toge» {font-size:20px; line-height:30px; font-weight:300}
+        <DIV TemplatesIndexContent__ContentWrapper> [48,409,294,24178] {display:flex; flex-direction:column; gap:0px}
+         <DIV sharedStyles__Left> [48,409,294,334] {}
+          <DIV TemplatesNavigation__Wrapper> [48,409,294,304] {display:flex; position:relative; flex-wrap:wrap; margin:0px 0px 30px}
+           <DIV TemplatesNavigation__ProgressBar> [48,409,294,304] {position:absolute}
+           <A Button__LinkWrapperBase> [48,409,46,38] href=/templates/ {display:flex; position:relative; padding:0px 15px; font-size:12px; line-height:18.852px; border-top:1px solid rgb(58, 49, 56); border-right:1px solid rgb(58, 49, 56); border-bottom:1px solid rgb(58, 49, 56); border-left:1px solid rgb(58, 49, 56); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV Button> [64,410,14,36] {display:flex; justify-content:center; align-items:center; gap:10px; text-align:center; white-space:nowrap; text-wrap:nowrap}
+             <DIV CornerLines__Wrapper> [49,410,44,36] {position:absolute; opacity:0}
+             <DIV Button__Children> [64,419,14,19] «All» {display:flex; position:relative; justify-content:center; align-items:center; overflow:hidden; z-index:2}
+           <A Button__LinkWrapperBase> [94,409,119,38] href=/templates/data-clustering/ {display:flex; position:relative; padding:0px 15px; font-size:12px; line-height:18.852px; border-top:1px solid rgba(0, 0, 0, 0); border-right:1px solid rgba(0, 0, 0, 0); border-bottom:1px solid rgba(0, 0, 0, 0); border-left:1px solid rgba(0, 0, 0, 0); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV Button> [110,410,87,36] {display:flex; justify-content:center; align-items:center; gap:10px; text-align:center; white-space:nowrap; text-wrap:nowrap}
+             <DIV Button__Children> [110,419,87,19] «Data Clustering» {display:flex; position:relative; justify-content:center; align-items:center; overflow:hidden; z-index:2}
+           <A Button__LinkWrapperBase> [212,409,113,38] href=/templates/data-modeling/ {display:flex; position:relative; padding:0px 15px; font-size:12px; line-height:18.852px; border-top:1px solid rgba(0, 0, 0, 0); border-right:1px solid rgba(0, 0, 0, 0); border-bottom:1px solid rgba(0, 0, 0, 0); border-left:1px solid rgba(0, 0, 0, 0); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV Button> [228,410,81,36] {display:flex; justify-content:center; align-items:center; gap:10px; text-align:center; white-space:nowrap; text-wrap:nowrap}
+             <DIV Button__Children> [228,419,81,19] «Data Modeling» {display:flex; position:relative; justify-content:center; align-items:center; overflow:hidden; z-index:2}
+           <A Button__LinkWrapperBase> [48,447,105,38] href=/templates/data-science/ {display:flex; position:relative; padding:0px 15px; font-size:12px; line-height:18.852px; border-top:1px solid rgba(0, 0, 0, 0); border-right:1px solid rgba(0, 0, 0, 0); border-bottom:1px solid rgba(0, 0, 0, 0); border-left:1px solid rgba(0, 0, 0, 0); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV Button> [64,448,73,36] {display:flex; justify-content:center; align-items:center; gap:10px; text-align:center; white-space:nowrap; text-wrap:nowrap}
+             <DIV Button__Children> [64,457,73,19] «Data Science» {display:flex; position:relative; justify-content:center; align-items:center; overflow:hidden; z-index:2}
+           <A Button__LinkWrapperBase> [152,447,133,38] href=/templates/data-visualization/ {display:flex; position:relative; padding:0px 15px; font-size:12px; line-height:18.852px; border-top:1px solid rgba(0, 0, 0, 0); border-right:1px solid rgba(0, 0, 0, 0); border-bottom:1px solid rgba(0, 0, 0, 0); border-left:1px solid rgba(0, 0, 0, 0); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV Button> [168,448,101,36] {display:flex; justify-content:center; align-items:center; gap:10px; text-align:center; white-space:nowrap; text-wrap:nowrap}
+             <DIV Button__Children> [168,457,101,19] «Data Visualization» {display:flex; position:relative; justify-content:center; align-items:center; overflow:hidden; z-index:2}
+           <A Button__LinkWrapperBase> [48,485,146,38] href=/templates/exploratory-analysis/ {display:flex; position:relative; padding:0px 15px; font-size:12px; line-height:18.852px; border-top:1px solid rgba(0, 0, 0, 0); border-right:1px solid rgba(0, 0, 0, 0); border-bottom:1px solid rgba(0, 0, 0, 0); border-left:1px solid rgba(0, 0, 0, 0); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV Button> [64,486,114,36] {display:flex; justify-content:center; align-items:center; gap:10px; text-align:center; white-space:nowrap; text-wrap:nowrap}
+             <DIV Button__Children> [64,495,114,19] «Exploratory Analysis» {display:flex; position:relative; justify-content:center; align-items:center; overflow:hidden; z-index:2}
+           <A Button__LinkWrapperBase> [193,485,130,38] href=/templates/feature-selection/ {display:flex; position:relative; padding:0px 15px; font-size:12px; line-height:18.852px; border-top:1px solid rgba(0, 0, 0, 0); border-right:1px solid rgba(0, 0, 0, 0); border-bottom:1px solid rgba(0, 0, 0, 0); border-left:1px solid rgba(0, 0, 0, 0); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV Button> [209,486,98,36] {display:flex; justify-content:center; align-items:center; gap:10px; text-align:center; white-space:nowrap; text-wrap:nowrap}
+             <DIV Button__Children> [209,495,98,19] «Feature Selection» {display:flex; position:relative; justify-content:center; align-items:center; overflow:hidden; z-index:2}
+           <A Button__LinkWrapperBase> [48,523,120,38] href=/templates/kpi-dashboards/ {display:flex; position:relative; padding:0px 15px; font-size:12px; line-height:18.852px; border-top:1px solid rgba(0, 0, 0, 0); border-right:1px solid rgba(0, 0, 0, 0); border-bottom:1px solid rgba(0, 0, 0, 0); border-left:1px solid rgba(0, 0, 0, 0); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV Button> [64,524,88,36] {display:flex; justify-content:center; align-items:center; gap:10px; text-align:center; white-space:nowrap; text-wrap:nowrap}
+             <DIV Button__Children> [64,533,88,19] «KPI Dashboards» {display:flex; position:relative; justify-content:center; align-items:center; overflow:hidden; z-index:2}
+           <A Button__LinkWrapperBase> [48,561,196,38] href=/templates/natural-language-processing/ {display:flex; position:relative; padding:0px 15px; font-size:12px; line-height:18.852px; border-top:1px solid rgba(0, 0, 0, 0); border-right:1px solid rgba(0, 0, 0, 0); border-bottom:1px solid rgba(0, 0, 0, 0); border-left:1px solid rgba(0, 0, 0, 0); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV Button> [64,562,164,36] {display:flex; justify-content:center; align-items:center; gap:10px; text-align:center; white-space:nowrap; text-wrap:nowrap}
+             <DIV Button__Children> [64,571,164,19] «Natural Language Processing» {display:flex; position:relative; justify-content:center; align-items:center; overflow:hidden; z-index:2}
+           <A Button__LinkWrapperBase> [48,599,160,38] href=/templates/parameterized-query/ {display:flex; position:relative; padding:0px 15px; font-size:12px; line-height:18.852px; border-top:1px solid rgba(0, 0, 0, 0); border-right:1px solid rgba(0, 0, 0, 0); border-bottom:1px solid rgba(0, 0, 0, 0); border-left:1px solid rgba(0, 0, 0, 0); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV Button> [64,600,128,36] {display:flex; justify-content:center; align-items:center; gap:10px; text-align:center; white-space:nowrap; text-wrap:nowrap}
+             <DIV Button__Children> [64,609,128,19] «Parameterized Queries» {display:flex; position:relative; justify-content:center; align-items:center; overflow:hidden; z-index:2}
+           <A Button__LinkWrapperBase> [208,599,87,38] href=/templates/reporting/ {display:flex; position:relative; padding:0px 15px; font-size:12px; line-height:18.852px; border-top:1px solid rgba(0, 0, 0, 0); border-right:1px solid rgba(0, 0, 0, 0); border-bottom:1px solid rgba(0, 0, 0, 0); border-left:1px solid rgba(0, 0, 0, 0); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV Button> [224,600,55,36] {display:flex; justify-content:center; align-items:center; gap:10px; text-align:center; white-space:nowrap; text-wrap:nowrap}
+             <DIV Button__Children> [224,609,55,19] «Reporting» {display:flex; position:relative; justify-content:center; align-items:center; overflow:hidden; z-index:2}
+           <A Button__LinkWrapperBase> [48,637,139,38] href=/templates/sentiment-analysis/ {display:flex; position:relative; padding:0px 15px; font-size:12px; line-height:18.852px; border-top:1px solid rgba(0, 0, 0, 0); border-right:1px solid rgba(0, 0, 0, 0); border-bottom:1px solid rgba(0, 0, 0, 0); border-left:1px solid rgba(0, 0, 0, 0); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV Button> [64,638,107,36] {display:flex; justify-content:center; align-items:center; gap:10px; text-align:center; white-space:nowrap; text-wrap:nowrap}
+             <DIV Button__Children> [64,647,107,19] «Sentiment Analysis» {display:flex; position:relative; justify-content:center; align-items:center; overflow:hidden; z-index:2}
+           <A Button__LinkWrapperBase> [187,637,87,38] href=/templates/snowpark/ {display:flex; position:relative; padding:0px 15px; font-size:12px; line-height:18.852px; border-top:1px solid rgba(0, 0, 0, 0); border-right:1px solid rgba(0, 0, 0, 0); border-bottom:1px solid rgba(0, 0, 0, 0); border-left:1px solid rgba(0, 0, 0, 0); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV Button> [203,638,55,36] {display:flex; justify-content:center; align-items:center; gap:10px; text-align:center; white-space:nowrap; text-wrap:nowrap}
+             <DIV Button__Children> [203,647,55,19] «Snowpark» {display:flex; position:relative; justify-content:center; align-items:center; overflow:hidden; z-index:2}
+           <A Button__LinkWrapperBase> [48,675,97,38] href=/templates/time-series/ {display:flex; position:relative; padding:0px 15px; font-size:12px; line-height:18.852px; border-top:1px solid rgba(0, 0, 0, 0); border-right:1px solid rgba(0, 0, 0, 0); border-bottom:1px solid rgba(0, 0, 0, 0); border-left:1px solid rgba(0, 0, 0, 0); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV Button> [64,676,65,36] {display:flex; justify-content:center; align-items:center; gap:10px; text-align:center; white-space:nowrap; text-wrap:nowrap}
+             <DIV Button__Children> [64,685,65,19] «Time Series» {display:flex; position:relative; justify-content:center; align-items:center; overflow:hidden; z-index:2}
+         <DIV sharedStyles> [48,743,294,23844] {}
+          <DIV TemplatesGrid__Wrapper> [48,743,294,23844] {display:flex; flex-direction:column; gap:50px}
+           <DIV TemplatesGrid__Section> [48,743,294,2108] {display:flex; flex-direction:column; align-items:flex-start}
+            <DIV TemplatesGrid__Heading> [48,743,294,366] {display:flex; flex-direction:column; justify-content:space-between; align-items:flex-start}
+             <DIV SectionHeader__Wrapper> [48,743,294,316] {}
+              <DIV SectionHeader__IconWrapper> [48,743,294,22] {display:flex; align-items:center; margin:0px 0px 15px}
+               <DIV SectionHeader__Icon> [98,743,16,22] {margin:0px 15px}
+                <IMG > [98,743,16,16] src=https://cdn.sanity.io/images/e92memrj/production/00c584bd9c85d1024e23f2461bbe1985b571965e-16x16.svg?auto=format nat=16x16 {display:inline; overflow:clip}
+              <DIV SectionHeader__TextWrapper> [48,780,294,259] {margin:0px 0px 20px}
+               <H2 Heading__HeadingInternal Heading___StyledHeadingInternal> [48,780,294,39] «Data Clustering» {margin:0px 0px 10px; font-family:PP Formula; font-size:30px; line-height:39px; font-weight:800; letter-spacing:-0.75px; color:rgb(255, 255, 255)}
+               <P Text__TextWrapper Text___StyledTextWrapper> [48,829,294,210] «Unleash the power of data clustering—an unsupervised machine learning technique that uncov» {font-size:20px; line-height:30px; font-weight:300}
+             <A Button__LinkWrapperBase> [48,1059,336,50] href=/templates/data-clustering/ {display:flex; position:relative; padding:0px 20px; background-image:linear-gradient(to right, rgb(20, 20, 28), rgb(20, 20, 28)), linear-gradient(45deg, rgb(245, 192, 192), rgb(173, 142, 182)); border-top:1px solid rgba(0, 0, 0, 0); border-right:1px solid rgba(0, 0, 0, 0); border-bottom:1px solid rgba(0, 0, 0, 0); border-left:1px solid rgba(0, 0, 0, 0); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+              <DIV Button> [69,1060,294,48] {display:flex; justify-content:center; align-items:center; gap:10px; text-align:center; white-space:nowrap; text-wrap:nowrap}
+               <DIV CornerLines__Wrapper> [49,1060,334,48] {position:absolute; opacity:0}
+               <DIV Button__Children> [191,1073,51,22] «View all» {display:flex; position:relative; justify-content:center; align-items:center; overflow:hidden; z-index:2}
+               <DIV CornerCircles__Wrapper> [49,1060,334,48] {position:absolute; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV sharedStyles__GridWrapper> [48,1129,294,1722] {display:grid; gap:20px; grid-template-columns:294.25px; grid-template-rows:438px 416px 366px 441.984px; margin:20px 0px 0px}
+             <A TemplatesCard__CardLink> [48,1129,294,438] href=/templates/data-clustering/cluster-analysis/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,1129,294,438] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,1140,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,1140,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F1ca0c88b4e458d48ee1bde503884f22e08f8ef9d-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,1360,272,196] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,1375,262,26] «Cluster analysis» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,1407,262,144] «Build an interactive K-means clustering app in minutes with Hex. Scale, reduce, and encode» {font-size:16px; line-height:24px; font-weight:300}
+             <A TemplatesCard__CardLink> [48,1587,294,416] href=/templates/data-clustering/document-similarity/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,1587,294,416] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,1598,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,1598,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F63126e0cbc8f6838c5bfa59299bdabc730369895-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,1818,272,174] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,1833,262,52] «Document Similarity with Embeddings» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,1891,262,96] «Explore document similarity using embeddings, swiftly visualizing and interpreting text cl» {font-size:16px; line-height:24px; font-weight:300}
+             <A TemplatesCard__CardLink> [48,2023,294,366] href=/templates/data-clustering/clustering-algorithms/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,2023,294,366] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,2034,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,2034,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F0e662dcb33459fd6c62c78b5c40701ef63283948-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,2254,272,124] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,2269,262,26] «Clustering algorithms» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,2301,262,72] «Group similar data points together to discover patterns, structures, or subgroups within a» {font-size:16px; line-height:24px; font-weight:300}
+             <A TemplatesCard__CardLink> [48,2409,294,442] href=/templates/data-clustering/customer-segmentation/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,2409,294,442] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,2420,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,2420,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2Fb1bb2ab7b5c99ea0b3defbe370808d265ab439b6-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,2640,272,200] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,2655,262,26] «Customer Segmentation» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,2687,262,22] «Izzy Miller» {margin:0px 0px 6px; font-weight:300; opacity:0.8}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,2715,262,120] «Group users by behavior or purchase history using clustering in Python. This Hex customer » {font-size:16px; line-height:24px; font-weight:300}
+           <DIV TemplatesGrid__Section> [48,2901,294,1684] {display:flex; flex-direction:column; align-items:flex-start}
+            <DIV TemplatesGrid__Heading> [48,2901,294,306] {display:flex; flex-direction:column; justify-content:space-between; align-items:flex-start}
+             <DIV SectionHeader__Wrapper> [48,2901,294,256] {}
+              <DIV SectionHeader__IconWrapper> [48,2901,294,22] {display:flex; align-items:center; margin:0px 0px 15px}
+               <DIV SectionHeader__Icon> [98,2901,15,22] {margin:0px 15px}
+                <IMG > [98,2902,15,15] src=https://cdn.sanity.io/images/e92memrj/production/a10c948f756f265bb6cccdb412b7ae3d198bfcb9-15x15.svg?auto=format nat=15x15 {display:inline; overflow:clip}
+              <DIV SectionHeader__TextWrapper> [48,2938,294,199] {margin:0px 0px 20px}
+               <H2 Heading__HeadingInternal Heading___StyledHeadingInternal> [48,2938,294,39] «Data Modeling» {margin:0px 0px 10px; font-family:PP Formula; font-size:30px; line-height:39px; font-weight:800; letter-spacing:-0.75px; color:rgb(255, 255, 255)}
+               <P Text__TextWrapper Text___StyledTextWrapper> [48,2987,294,150] «Take raw data and transform it into ready to use data sets for predictive models, interact» {font-size:20px; line-height:30px; font-weight:300}
+             <A Button__LinkWrapperBase> [48,3157,336,50] href=/templates/data-modeling/ {display:flex; position:relative; padding:0px 20px; background-image:linear-gradient(to right, rgb(20, 20, 28), rgb(20, 20, 28)), linear-gradient(45deg, rgb(245, 192, 192), rgb(173, 142, 182)); border-top:1px solid rgba(0, 0, 0, 0); border-right:1px solid rgba(0, 0, 0, 0); border-bottom:1px solid rgba(0, 0, 0, 0); border-left:1px solid rgba(0, 0, 0, 0); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+              <DIV Button> [69,3158,294,48] {display:flex; justify-content:center; align-items:center; gap:10px; text-align:center; white-space:nowrap; text-wrap:nowrap}
+               <DIV CornerLines__Wrapper> [49,3158,334,48] {position:absolute; opacity:0}
+               <DIV Button__Children> [191,3171,51,22] «View all» {display:flex; position:relative; justify-content:center; align-items:center; overflow:hidden; z-index:2}
+               <DIV CornerCircles__Wrapper> [49,3158,334,48] {position:absolute; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV sharedStyles__GridWrapper> [48,3227,294,1358] {display:grid; gap:20px; grid-template-columns:294.25px; grid-template-rows:441.984px 390px 486px; margin:20px 0px 0px}
+             <A TemplatesCard__CardLink> [48,3227,294,442] href=/templates/data-modeling/collaborative-filtering/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,3227,294,442] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,3238,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,3238,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F98cef83853f37b8084327a6e242d1c1b490e7eb2-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,3458,272,200] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,3473,262,26] «Collaborative filtering» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,3505,262,22] «Izzy Miller» {margin:0px 0px 6px; font-weight:300; opacity:0.8}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,3533,262,120] «Build a recommendation engine with collaborative filtering in Python. Find similar users, » {font-size:16px; line-height:24px; font-weight:300}
+             <A TemplatesCard__CardLink> [48,3689,294,390] href=/templates/data-modeling/market-basket-analysis/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,3689,294,390] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,3700,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,3700,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F7fe4e380621dd6b9b2497e1c10e4f773d1e7b7fa-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,3920,272,148] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,3935,262,26] «Market Basket Analysis» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,3967,262,96] «Identify high-impact product pairings and optimize promotional strategies with apriori mar» {font-size:16px; line-height:24px; font-weight:300}
+             <A TemplatesCard__CardLink> [48,4099,294,486] href=/templates/data-modeling/content-based-filtering/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,4099,294,486] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,4110,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,4110,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2Fb58ff1289e0822a9444fefb86ca88bdad26d688a-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,4330,272,244] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,4345,262,26] «Content based filtering» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,4377,262,192] «Content-based filtering and collaborative filtering are two data modeling techniques for r» {font-size:16px; line-height:24px; font-weight:300}
+           <DIV TemplatesGrid__Section> [48,4635,294,1994] {display:flex; flex-direction:column; align-items:flex-start}
+            <DIV TemplatesGrid__Heading> [48,4635,294,276] {display:flex; flex-direction:column; justify-content:space-between; align-items:flex-start}
+             <DIV SectionHeader__Wrapper> [48,4635,294,226] {}
+              <DIV SectionHeader__IconWrapper> [48,4635,294,22] {display:flex; align-items:center; margin:0px 0px 15px}
+               <DIV SectionHeader__Icon> [98,4635,15,22] {margin:0px 15px}
+                <IMG > [98,4636,15,15] src=https://cdn.sanity.io/images/e92memrj/production/a10c948f756f265bb6cccdb412b7ae3d198bfcb9-15x15.svg?auto=format nat=15x15 {display:inline; overflow:clip}
+              <DIV SectionHeader__TextWrapper> [48,4672,294,169] {margin:0px 0px 20px}
+               <H2 Heading__HeadingInternal Heading___StyledHeadingInternal> [48,4672,294,39] «Data Science» {margin:0px 0px 10px; font-family:PP Formula; font-size:30px; line-height:39px; font-weight:800; letter-spacing:-0.75px; color:rgb(255, 255, 255)}
+               <P Text__TextWrapper Text___StyledTextWrapper> [48,4721,294,120] «Unearth hidden insights and power business decisions with machine learning— or just good o» {font-size:20px; line-height:30px; font-weight:300}
+             <A Button__LinkWrapperBase> [48,4861,336,50] href=/templates/data-science/ {display:flex; position:relative; padding:0px 20px; background-image:linear-gradient(to right, rgb(20, 20, 28), rgb(20, 20, 28)), linear-gradient(45deg, rgb(245, 192, 192), rgb(173, 142, 182)); border-top:1px solid rgba(0, 0, 0, 0); border-right:1px solid rgba(0, 0, 0, 0); border-bottom:1px solid rgba(0, 0, 0, 0); border-left:1px solid rgba(0, 0, 0, 0); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+              <DIV Button> [69,4862,294,48] {display:flex; justify-content:center; align-items:center; gap:10px; text-align:center; white-space:nowrap; text-wrap:nowrap}
+               <DIV CornerLines__Wrapper> [49,4862,334,48] {position:absolute; opacity:0}
+               <DIV Button__Children> [191,4875,51,22] «View all» {display:flex; position:relative; justify-content:center; align-items:center; overflow:hidden; z-index:2}
+               <DIV CornerCircles__Wrapper> [49,4862,334,48] {position:absolute; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV sharedStyles__GridWrapper> [48,4931,294,1698] {display:grid; gap:20px; grid-template-columns:294.25px; grid-template-rows:414px 342px 414px 467.984px; margin:20px 0px 0px}
+             <A TemplatesCard__CardLink> [48,4931,294,414] href=/templates/data-science/anomaly-detection/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,4931,294,414] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,4942,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,4942,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2Fb30cfb8043a7185cb14542086853478bf351542f-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,5162,272,172] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,5177,262,26] «Anomaly Detection» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,5209,262,120] «Detect anomalies in time series and tabular data using Python in Hex. This template covers» {font-size:16px; line-height:24px; font-weight:300}
+             <A TemplatesCard__CardLink> [48,5365,294,342] href=/templates/data-science/dbt-audit-helper/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,5365,294,342] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,5376,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,5376,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F18745a0a63012fda9e8d89f8a70c90211e0fa871-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,5596,272,100] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,5611,262,26] «dbt Audit Helper» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,5643,262,48] «Validate dbt PRs and document changes with a Hex UI» {font-size:16px; line-height:24px; font-weight:300}
+             <A TemplatesCard__CardLink> [48,5727,294,414] href=/templates/data-science/a-b-testing/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,5727,294,414] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,5738,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,5738,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2Fb0ad524a52cc37a22040aed2b99bdb865fc86f0d-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,5958,272,172] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,5973,262,26] «A/B testing» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,6005,262,120] «Run A/B tests and analyze results with Python in Hex. This template covers hypothesis test» {font-size:16px; line-height:24px; font-weight:300}
+             <A TemplatesCard__CardLink> [48,6161,294,468] href=/templates/data-science/fab-testing/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,6161,294,468] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,6172,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,6172,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2Faf2393641f17e9958420dd79de871d20f4380d89-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,6392,272,226] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,6407,262,52] «Build, test, and deploy powerful ML models» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,6465,262,22] «Izzy Miller» {margin:0px 0px 6px; font-weight:300; opacity:0.8}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,6493,262,120] «Build, test, and deploy powerful ML models in Hex using Python and scikit-learn. Covers th» {font-size:16px; line-height:24px; font-weight:300}
+           <DIV TemplatesGrid__Section> [48,6679,294,1662] {display:flex; flex-direction:column; align-items:flex-start}
+            <DIV TemplatesGrid__Heading> [48,6679,294,276] {display:flex; flex-direction:column; justify-content:space-between; align-items:flex-start}
+             <DIV SectionHeader__Wrapper> [48,6679,294,226] {}
+              <DIV SectionHeader__IconWrapper> [48,6679,294,22] {display:flex; align-items:center; margin:0px 0px 15px}
+               <DIV SectionHeader__Icon> [98,6679,15,22] {margin:0px 15px}
+                <IMG > [98,6680,15,15] src=https://cdn.sanity.io/images/e92memrj/production/b63a0c9ba842a0b5b0b10a877b3f53ed8e4779ab-15x15.svg?auto=format nat=15x15 {display:inline; overflow:clip}
+              <DIV SectionHeader__TextWrapper> [48,6716,294,169] {margin:0px 0px 20px}
+               <H2 Heading__HeadingInternal Heading___StyledHeadingInternal> [48,6716,294,39] «Data Visualization» {margin:0px 0px 10px; font-family:PP Formula; font-size:30px; line-height:39px; font-weight:800; letter-spacing:-0.75px; color:rgb(255, 255, 255)}
+               <P Text__TextWrapper Text___StyledTextWrapper> [48,6765,294,120] «Transform raw data into actionable insights with interactive visualizations, dashboards, a» {font-size:20px; line-height:30px; font-weight:300}
+             <A Button__LinkWrapperBase> [48,6905,336,50] href=/templates/data-visualization/ {display:flex; position:relative; padding:0px 20px; background-image:linear-gradient(to right, rgb(20, 20, 28), rgb(20, 20, 28)), linear-gradient(45deg, rgb(245, 192, 192), rgb(173, 142, 182)); border-top:1px solid rgba(0, 0, 0, 0); border-right:1px solid rgba(0, 0, 0, 0); border-bottom:1px solid rgba(0, 0, 0, 0); border-left:1px solid rgba(0, 0, 0, 0); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+              <DIV Button> [69,6906,294,48] {display:flex; justify-content:center; align-items:center; gap:10px; text-align:center; white-space:nowrap; text-wrap:nowrap}
+               <DIV CornerLines__Wrapper> [49,6906,334,48] {position:absolute; opacity:0}
+               <DIV Button__Children> [191,6919,51,22] «View all» {display:flex; position:relative; justify-content:center; align-items:center; overflow:hidden; z-index:2}
+               <DIV CornerCircles__Wrapper> [49,6906,334,48] {position:absolute; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV sharedStyles__GridWrapper> [48,6975,294,1366] {display:grid; gap:20px; grid-template-columns:294.25px; grid-template-rows:467.984px 366px 491.984px; margin:20px 0px 0px}
+             <A TemplatesCard__CardLink> [48,6975,294,468] href=/templates/data-visualization/python-visualization/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,6975,294,468] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,6986,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,6986,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F18c8a12ea94d0e89a5450f3c50d52643fa9e542f-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,7206,272,226] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,7221,262,52] «Python Data Visualization» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,7279,262,22] «Izzy Miller» {margin:0px 0px 6px; font-weight:300; opacity:0.8}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,7307,262,120] «Move from SQL results to interactive charts using Matplotlib, Plotly, Altair, and Seaborn » {font-size:16px; line-height:24px; font-weight:300}
+             <A TemplatesCard__CardLink> [48,7463,294,366] href=/templates/data-visualization/geospatial-analysis/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,7463,294,366] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,7474,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,7474,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2Fe7e29fda5a9eded20c7f8a4451d0e563afd99115-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,7694,272,124] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,7709,262,26] «Geospatial Data Analysis» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,7741,262,72] «Use powerful GIS techniques alongside SQL and built-in mapping tools» {font-size:16px; line-height:24px; font-weight:300}
+             <A TemplatesCard__CardLink> [48,7849,294,492] href=/templates/data-visualization/python-mapping-libraries/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,7849,294,492] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,7860,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,7860,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2Fc53ef9a641c7f1be9918d2ba97217d3b10bc4387-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,8080,272,250] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,8095,262,52] «Python mapping libraries» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,8153,262,22] «Izzy Miller» {margin:0px 0px 6px; font-weight:300; opacity:0.8}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,8181,262,144] «Explore Folium, Plotly, and more - all inside a Hex notebook, alongside your SQL and Pytho» {font-size:16px; line-height:24px; font-weight:300}
+           <DIV TemplatesGrid__Section> [48,8391,294,2063] {display:flex; flex-direction:column; align-items:flex-start}
+            <DIV TemplatesGrid__Heading> [48,8391,294,285] {display:flex; flex-direction:column; justify-content:space-between; align-items:flex-start}
+             <DIV SectionHeader__Wrapper> [48,8391,294,235] {}
+              <DIV SectionHeader__IconWrapper> [48,8391,294,22] {display:flex; align-items:center; margin:0px 0px 15px}
+               <DIV SectionHeader__Icon> [98,8391,15,22] {margin:0px 15px}
+                <IMG > [98,8392,15,15] src=https://cdn.sanity.io/images/e92memrj/production/afc22dfaa36402315f4b0fdc5594745075b3f274-15x15.svg?auto=format nat=15x15 {display:inline; overflow:clip}
+              <DIV SectionHeader__TextWrapper> [48,8428,294,178] {margin:0px 0px 20px}
+               <H2 Heading__HeadingInternal Heading___StyledHeadingInternal> [48,8428,294,78] «Exploratory Analysis» {margin:0px 0px 10px; font-family:PP Formula; font-size:30px; line-height:39px; font-weight:800; letter-spacing:-0.75px; color:rgb(255, 255, 255)}
+               <P Text__TextWrapper Text___StyledTextWrapper> [48,8516,294,90] «Deep dives, rabbit holes, side quests, and ad-hoc explorations.» {font-size:20px; line-height:30px; font-weight:300}
+             <A Button__LinkWrapperBase> [48,8626,336,50] href=/templates/exploratory-analysis/ {display:flex; position:relative; padding:0px 20px; background-image:linear-gradient(to right, rgb(20, 20, 28), rgb(20, 20, 28)), linear-gradient(45deg, rgb(245, 192, 192), rgb(173, 142, 182)); border-top:1px solid rgba(0, 0, 0, 0); border-right:1px solid rgba(0, 0, 0, 0); border-bottom:1px solid rgba(0, 0, 0, 0); border-left:1px solid rgba(0, 0, 0, 0); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+              <DIV Button> [69,8627,294,48] {display:flex; justify-content:center; align-items:center; gap:10px; text-align:center; white-space:nowrap; text-wrap:nowrap}
+               <DIV CornerLines__Wrapper> [49,8627,334,48] {position:absolute; opacity:0}
+               <DIV Button__Children> [191,8640,51,22] «View all» {display:flex; position:relative; justify-content:center; align-items:center; overflow:hidden; z-index:2}
+               <DIV CornerCircles__Wrapper> [49,8627,334,48] {position:absolute; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV sharedStyles__GridWrapper> [48,8696,294,1758] {display:grid; gap:20px; grid-template-columns:294.25px; grid-template-rows:441.984px 467.984px 393.984px 393.984px; margin:20px 0px 0px}
+             <A TemplatesCard__CardLink> [48,8696,294,442] href=/templates/exploratory-analysis/interactive-data-stories/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,8696,294,442] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,8707,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,8707,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F64aa53c32741fd5497764a53b8546ba3a051384e-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,8927,272,200] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,8942,262,26] «Interactive Data stories» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,8974,262,22] «Izzy Miller» {margin:0px 0px 6px; font-weight:300; opacity:0.8}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,9002,262,120] «Build narrative data stories that combine charts, text, and live data in one Hex document.» {font-size:16px; line-height:24px; font-weight:300}
+             <A TemplatesCard__CardLink> [48,9158,294,468] href=/templates/exploratory-analysis/exploratory-data-analysis/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,9158,294,468] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,9169,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,9169,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F1b75379a661bb9108f231075afef10a965b73f6e-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,9389,272,226] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,9404,262,52] «Exploratory Data Analysis» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,9462,262,22] «Izzy Miller» {margin:0px 0px 6px; font-weight:300; opacity:0.8}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,9490,262,120] «Understand your data before you model it. This Hex EDA template covers distributions, corr» {font-size:16px; line-height:24px; font-weight:300}
+             <A TemplatesCard__CardLink> [48,9646,294,394] href=/templates/exploratory-analysis/ad-hoc-exploration/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,9646,294,394] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,9657,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,9657,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F5855c5e340fd32d6c0fba35a26f1d3095d1678e5-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,9877,272,152] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,9892,262,26] «Ad-hoc exploration» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,9924,262,22] «Izzy Miller, Dev Advocate at Hex» {margin:0px 0px 6px; font-weight:300; opacity:0.8}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,9952,262,72] «Ad-hoc or deep-dive, Hex is the fastest path from question to insight.» {font-size:16px; line-height:24px; font-weight:300}
+             <A TemplatesCard__CardLink> [48,10060,294,394] href=/templates/exploratory-analysis/text-SQL-chatbot/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,10060,294,394] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,10071,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,10071,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2Ff495ba1cb8d9dbbcbfedd59a99dad09e2846dd93-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,10291,272,152] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,10306,262,26] «Text to SQL Chatbot» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,10338,262,22] «Jordan East» {margin:0px 0px 6px; font-weight:300; opacity:0.8}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,10366,262,72] «Learn how to build your own text to SQL chatbot in Hex using OpenAI and LangChain» {font-size:16px; line-height:24px; font-weight:300}
+           <DIV TemplatesGrid__Section> [48,10504,294,1652] {display:flex; flex-direction:column; align-items:flex-start}
+            <DIV TemplatesGrid__Heading> [48,10504,294,366] {display:flex; flex-direction:column; justify-content:space-between; align-items:flex-start}
+             <DIV SectionHeader__Wrapper> [48,10504,294,316] {}
+              <DIV SectionHeader__IconWrapper> [48,10504,294,22] {display:flex; align-items:center; margin:0px 0px 15px}
+               <DIV SectionHeader__Icon> [98,10504,15,22] {margin:0px 15px}
+                <IMG > [98,10505,15,15] src=https://cdn.sanity.io/images/e92memrj/production/a10c948f756f265bb6cccdb412b7ae3d198bfcb9-15x15.svg?auto=format nat=15x15 {display:inline; overflow:clip}
+              <DIV SectionHeader__TextWrapper> [48,10541,294,259] {margin:0px 0px 20px}
+               <H2 Heading__HeadingInternal Heading___StyledHeadingInternal> [48,10541,294,39] «Feature Selection» {margin:0px 0px 10px; font-family:PP Formula; font-size:30px; line-height:39px; font-weight:800; letter-spacing:-0.75px; color:rgb(255, 255, 255)}
+               <P Text__TextWrapper Text___StyledTextWrapper> [48,10590,294,210] «Determine the most appropriate features of your Machine Learning model to make it easy to » {font-size:20px; line-height:30px; font-weight:300}
+             <A Button__LinkWrapperBase> [48,10820,336,50] href=/templates/feature-selection/ {display:flex; position:relative; padding:0px 20px; background-image:linear-gradient(to right, rgb(20, 20, 28), rgb(20, 20, 28)), linear-gradient(45deg, rgb(245, 192, 192), rgb(173, 142, 182)); border-top:1px solid rgba(0, 0, 0, 0); border-right:1px solid rgba(0, 0, 0, 0); border-bottom:1px solid rgba(0, 0, 0, 0); border-left:1px solid rgba(0, 0, 0, 0); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+              <DIV Button> [69,10821,294,48] {display:flex; justify-content:center; align-items:center; gap:10px; text-align:center; white-space:nowrap; text-wrap:nowrap}
+               <DIV CornerLines__Wrapper> [49,10821,334,48] {position:absolute; opacity:0}
+               <DIV Button__Children> [191,10834,51,22] «View all» {display:flex; position:relative; justify-content:center; align-items:center; overflow:hidden; z-index:2}
+               <DIV CornerCircles__Wrapper> [49,10821,334,48] {position:absolute; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV sharedStyles__GridWrapper> [48,10890,294,1266] {display:grid; gap:20px; grid-template-columns:294.25px; grid-template-rows:395.984px 438px 392px; margin:20px 0px 0px}
+             <A TemplatesCard__CardLink> [48,10890,294,396] href=/templates/feature-selection/linear-dimensionality-reduction/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,10890,294,396] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,10901,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,10901,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F5b3697d5aef82c83384e57ef88a080b38967d239-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,11121,272,154] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,11136,262,52] «Linear Dimensionality Reduction» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,11194,262,22] «Izzy Miller» {margin:0px 0px 6px; font-weight:300; opacity:0.8}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,11222,262,48] «Visualize high dimensional data using linear reduction techniques» {font-size:16px; line-height:24px; font-weight:300}
+             <A TemplatesCard__CardLink> [48,11306,294,438] href=/templates/feature-selection/feature-selection/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,11306,294,438] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,11317,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,11317,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F7fe4e380621dd6b9b2497e1c10e4f773d1e7b7fa-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,11537,272,196] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,11552,262,26] «Feature Selection» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,11584,262,144] «Choose the right input variables for your ML model using filter, wrapper, and embedded met» {font-size:16px; line-height:24px; font-weight:300}
+             <A TemplatesCard__CardLink> [48,11764,294,392] href=/templates/feature-selection/non-linear-dimensionality-reduction/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,11764,294,392] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,11775,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,11775,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F330f05c468ab09154eee8172999027129da22e1b-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,11995,272,150] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,12010,262,52] «Non-linear dimensionality reduction» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,12068,262,72] «Visualize high dimensional data using non-linear reduction techniques» {font-size:16px; line-height:24px; font-weight:300}
+           <DIV TemplatesGrid__Section> [48,12206,294,2056] {display:flex; flex-direction:column; align-items:flex-start}
+            <DIV TemplatesGrid__Heading> [48,12206,294,306] {display:flex; flex-direction:column; justify-content:space-between; align-items:flex-start}
+             <DIV SectionHeader__Wrapper> [48,12206,294,256] {}
+              <DIV SectionHeader__IconWrapper> [48,12206,294,22] {display:flex; align-items:center; margin:0px 0px 15px}
+               <DIV SectionHeader__Icon> [98,12206,15,22] {margin:0px 15px}
+                <IMG > [98,12207,15,15] src=https://cdn.sanity.io/images/e92memrj/production/b63a0c9ba842a0b5b0b10a877b3f53ed8e4779ab-15x15.svg?auto=format nat=15x15 {display:inline; overflow:clip}
+              <DIV SectionHeader__TextWrapper> [48,12243,294,199] {margin:0px 0px 20px}
+               <H2 Heading__HeadingInternal Heading___StyledHeadingInternal> [48,12243,294,39] «KPI Dashboards» {margin:0px 0px 10px; font-family:PP Formula; font-size:30px; line-height:39px; font-weight:800; letter-spacing:-0.75px; color:rgb(255, 255, 255)}
+               <P Text__TextWrapper Text___StyledTextWrapper> [48,12292,294,150] «Track and monitor business KPIs, offer insights into sales performance, customer satisfact» {font-size:20px; line-height:30px; font-weight:300}
+             <A Button__LinkWrapperBase> [48,12462,336,50] href=/templates/kpi-dashboards/ {display:flex; position:relative; padding:0px 20px; background-image:linear-gradient(to right, rgb(20, 20, 28), rgb(20, 20, 28)), linear-gradient(45deg, rgb(245, 192, 192), rgb(173, 142, 182)); border-top:1px solid rgba(0, 0, 0, 0); border-right:1px solid rgba(0, 0, 0, 0); border-bottom:1px solid rgba(0, 0, 0, 0); border-left:1px solid rgba(0, 0, 0, 0); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+              <DIV Button> [69,12463,294,48] {display:flex; justify-content:center; align-items:center; gap:10px; text-align:center; white-space:nowrap; text-wrap:nowrap}
+               <DIV CornerLines__Wrapper> [49,12463,334,48] {position:absolute; opacity:0}
+               <DIV Button__Children> [191,12476,51,22] «View all» {display:flex; position:relative; justify-content:center; align-items:center; overflow:hidden; z-index:2}
+               <DIV CornerCircles__Wrapper> [49,12463,334,48] {position:absolute; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV sharedStyles__GridWrapper> [48,12532,294,1730] {display:grid; gap:20px; grid-template-columns:294.25px; grid-template-rows:440px 393.984px 368px 467.984px; margin:20px 0px 0px}
+             <A TemplatesCard__CardLink> [48,12532,294,440] href=/templates/kpi-dashboards/customer-health-dash/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,12532,294,440] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,12543,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,12543,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2Fe5dc776555bc722e7b3a5449e77383e2fd00419a-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,12763,272,198] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,12778,262,52] «Customer Health Dashboard» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,12836,262,120] «Track customer health scores, usage signals, and risk indicators in Hex. Build an interact» {font-size:16px; line-height:24px; font-weight:300}
+             <A TemplatesCard__CardLink> [48,12992,294,394] href=/templates/kpi-dashboards/feature-success/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,12992,294,394] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,13003,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,13003,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F47ba31fae50d54590b88ba23417753cc090e2ae5-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,13223,272,152] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,13238,262,26] «Feature Success» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,13270,262,22] «Jo Engreitz» {margin:0px 0px 6px; font-weight:300; opacity:0.8}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,13298,262,72] «Measure Feature adoption, retention and satisfaction with this interactive Hex app.» {font-size:16px; line-height:24px; font-weight:300}
+             <A TemplatesCard__CardLink> [48,13406,294,368] href=/templates/kpi-dashboards/sql-powered-dashboards/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,13406,294,368] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,13417,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,13417,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2Fef3778817758ea0534107d6086725ab3c22293c4-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,13637,272,126] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,13652,262,52] «SQL Powered Dashboards» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,13710,262,48] «Build flexible BI dashboards out of SQL queries» {font-size:16px; line-height:24px; font-weight:300}
+             <A TemplatesCard__CardLink> [48,13794,294,468] href=/templates/kpi-dashboards/customer-lifetime-value/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,13794,294,468] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,13805,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,13805,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2Fa93ee58df7550e5a430d513a5315f54f31967b7b-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,14025,272,226] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,14040,262,52] «Customer lifetime value Dashboard» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,14098,262,22] «Izzy Miller» {margin:0px 0px 6px; font-weight:300; opacity:0.8}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,14126,262,120] «Calculate and visualize customer lifetime value in Hex using SQL and Python. This template» {font-size:16px; line-height:24px; font-weight:300}
+           <DIV TemplatesGrid__Section> [48,14312,294,1297] {display:flex; flex-direction:column; align-items:flex-start}
+            <DIV TemplatesGrid__Heading> [48,14312,294,375] {display:flex; flex-direction:column; justify-content:space-between; align-items:flex-start}
+             <DIV SectionHeader__Wrapper> [48,14312,294,325] {}
+              <DIV SectionHeader__IconWrapper> [48,14312,294,22] {display:flex; align-items:center; margin:0px 0px 15px}
+               <DIV SectionHeader__Icon> [98,14312,15,22] {margin:0px 15px}
+                <IMG > [98,14313,15,15] src=https://cdn.sanity.io/images/e92memrj/production/a10c948f756f265bb6cccdb412b7ae3d198bfcb9-15x15.svg?auto=format nat=15x15 {display:inline; overflow:clip}
+              <DIV SectionHeader__TextWrapper> [48,14349,294,268] {margin:0px 0px 20px}
+               <H2 Heading__HeadingInternal Heading___StyledHeadingInternal> [48,14349,294,78] «Natural Language Processing» {margin:0px 0px 10px; font-family:PP Formula; font-size:30px; line-height:39px; font-weight:800; letter-spacing:-0.75px; color:rgb(255, 255, 255)}
+               <P Text__TextWrapper Text___StyledTextWrapper> [48,14437,294,180] «Empower your AI and ML applications to interpret, recognize, and generate human language w» {font-size:20px; line-height:30px; font-weight:300}
+             <A Button__LinkWrapperBase> [48,14637,336,50] href=/templates/natural-language-processing/ {display:flex; position:relative; padding:0px 20px; background-image:linear-gradient(to right, rgb(20, 20, 28), rgb(20, 20, 28)), linear-gradient(45deg, rgb(245, 192, 192), rgb(173, 142, 182)); border-top:1px solid rgba(0, 0, 0, 0); border-right:1px solid rgba(0, 0, 0, 0); border-bottom:1px solid rgba(0, 0, 0, 0); border-left:1px solid rgba(0, 0, 0, 0); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+              <DIV Button> [69,14638,294,48] {display:flex; justify-content:center; align-items:center; gap:10px; text-align:center; white-space:nowrap; text-wrap:nowrap}
+               <DIV CornerLines__Wrapper> [49,14638,334,48] {position:absolute; opacity:0}
+               <DIV Button__Children> [191,14651,51,22] «View all» {display:flex; position:relative; justify-content:center; align-items:center; overflow:hidden; z-index:2}
+               <DIV CornerCircles__Wrapper> [49,14638,334,48] {position:absolute; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV sharedStyles__GridWrapper> [48,14707,294,902] {display:grid; gap:20px; grid-template-columns:294.25px; grid-template-rows:390px 491.984px; margin:20px 0px 0px}
+             <A TemplatesCard__CardLink> [48,14707,294,390] href=/templates/natural-language-processing/nlp-spacy/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,14707,294,390] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,14718,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,14718,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F4076dc58f07ca865e5c7b04d1a3a855a5088cd94-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,14938,272,148] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,14953,262,26] «Using SpaCy for NLP» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,14985,262,96] «Harness SpaCy for NLP to effortlessly analyze, extract insights, and visualize results fro» {font-size:16px; line-height:24px; font-weight:300}
+             <A TemplatesCard__CardLink> [48,15117,294,492] href=/templates/natural-language-processing/natural-language-processing/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,15117,294,492] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,15128,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,15128,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F45b7c0fd496d06caef44a6a86ae453fbad503932-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,15348,272,250] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,15363,262,52] «Natural Language Processing» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,15421,262,22] «Izzy Miller» {margin:0px 0px 6px; font-weight:300; opacity:0.8}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,15449,262,144] «Sentiment analysis, emotion detection, and text classification in one Hex notebook using H» {font-size:16px; line-height:24px; font-weight:300}
+           <DIV TemplatesGrid__Section> [48,15659,294,893] {display:flex; flex-direction:column; align-items:flex-start}
+            <DIV TemplatesGrid__Heading> [48,15659,294,405] {display:flex; flex-direction:column; justify-content:space-between; align-items:flex-start}
+             <DIV SectionHeader__Wrapper> [48,15659,294,355] {}
+              <DIV SectionHeader__IconWrapper> [48,15659,294,22] {display:flex; align-items:center; margin:0px 0px 15px}
+               <DIV SectionHeader__Icon> [98,15659,16,22] {margin:0px 15px}
+                <IMG > [98,15659,16,16] src=https://cdn.sanity.io/images/e92memrj/production/00c584bd9c85d1024e23f2461bbe1985b571965e-16x16.svg?auto=format nat=16x16 {display:inline; overflow:clip}
+              <DIV SectionHeader__TextWrapper> [48,15696,294,298] {margin:0px 0px 20px}
+               <H2 Heading__HeadingInternal Heading___StyledHeadingInternal> [48,15696,294,78] «Parameterized Queries» {margin:0px 0px 10px; font-family:PP Formula; font-size:30px; line-height:39px; font-weight:800; letter-spacing:-0.75px; color:rgb(255, 255, 255)}
+               <P Text__TextWrapper Text___StyledTextWrapper> [48,15784,294,210] «Upgrade your projects with parameterized SQL queries. Create interactive dashboards and ex» {font-size:20px; line-height:30px; font-weight:300}
+             <A Button__LinkWrapperBase> [48,16014,336,50] href=/templates/parameterized-query/ {display:flex; position:relative; padding:0px 20px; background-image:linear-gradient(to right, rgb(20, 20, 28), rgb(20, 20, 28)), linear-gradient(45deg, rgb(245, 192, 192), rgb(173, 142, 182)); border-top:1px solid rgba(0, 0, 0, 0); border-right:1px solid rgba(0, 0, 0, 0); border-bottom:1px solid rgba(0, 0, 0, 0); border-left:1px solid rgba(0, 0, 0, 0); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+              <DIV Button> [69,16015,294,48] {display:flex; justify-content:center; align-items:center; gap:10px; text-align:center; white-space:nowrap; text-wrap:nowrap}
+               <DIV CornerLines__Wrapper> [49,16015,334,48] {position:absolute; opacity:0}
+               <DIV Button__Children> [191,16028,51,22] «View all» {display:flex; position:relative; justify-content:center; align-items:center; overflow:hidden; z-index:2}
+               <DIV CornerCircles__Wrapper> [49,16015,334,48] {position:absolute; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV sharedStyles__GridWrapper> [48,16084,294,468] {display:grid; gap:20px; grid-template-columns:294.25px; grid-template-rows:467.984px; margin:20px 0px 0px}
+             <A TemplatesCard__CardLink> [48,16084,294,468] href=/templates/parameterized-query/feature-success-dashboard/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,16084,294,468] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,16095,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,16095,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F9ea2c94ea1340e0fbd3748976b5f8f3a6f4cf9d0-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,16315,272,226] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,16330,262,52] «Feature Success Interactive Dashboard» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,16388,262,22] «Jo Engreitz» {margin:0px 0px 6px; font-weight:300; opacity:0.8}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,16416,262,120] «Build feature success dashboards with Hex. Monitor usage metrics using parameterized SQL, » {font-size:16px; line-height:24px; font-weight:300}
+           <DIV TemplatesGrid__Section> [48,16602,294,2028] {display:flex; flex-direction:column; align-items:flex-start}
+            <DIV TemplatesGrid__Heading> [48,16602,294,276] {display:flex; flex-direction:column; justify-content:space-between; align-items:flex-start}
+             <DIV SectionHeader__Wrapper> [48,16602,294,226] {}
+              <DIV SectionHeader__IconWrapper> [48,16602,294,22] {display:flex; align-items:center; margin:0px 0px 15px}
+               <DIV SectionHeader__Icon> [98,16602,15,22] {margin:0px 15px}
+                <IMG > [98,16603,15,15] src=https://cdn.sanity.io/images/e92memrj/production/b63a0c9ba842a0b5b0b10a877b3f53ed8e4779ab-15x15.svg?auto=format nat=15x15 {display:inline; overflow:clip}
+              <DIV SectionHeader__TextWrapper> [48,16639,294,169] {margin:0px 0px 20px}
+               <H2 Heading__HeadingInternal Heading___StyledHeadingInternal> [48,16639,294,39] «Reporting» {margin:0px 0px 10px; font-family:PP Formula; font-size:30px; line-height:39px; font-weight:800; letter-spacing:-0.75px; color:rgb(255, 255, 255)}
+               <P Text__TextWrapper Text___StyledTextWrapper> [48,16688,294,120] «Bring your business data to life with interactive reports, beautiful dashboards, and rich » {font-size:20px; line-height:30px; font-weight:300}
+             <A Button__LinkWrapperBase> [48,16828,336,50] href=/templates/reporting/ {display:flex; position:relative; padding:0px 20px; background-image:linear-gradient(to right, rgb(20, 20, 28), rgb(20, 20, 28)), linear-gradient(45deg, rgb(245, 192, 192), rgb(173, 142, 182)); border-top:1px solid rgba(0, 0, 0, 0); border-right:1px solid rgba(0, 0, 0, 0); border-bottom:1px solid rgba(0, 0, 0, 0); border-left:1px solid rgba(0, 0, 0, 0); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+              <DIV Button> [69,16829,294,48] {display:flex; justify-content:center; align-items:center; gap:10px; text-align:center; white-space:nowrap; text-wrap:nowrap}
+               <DIV CornerLines__Wrapper> [49,16829,334,48] {position:absolute; opacity:0}
+               <DIV Button__Children> [191,16842,51,22] «View all» {display:flex; position:relative; justify-content:center; align-items:center; overflow:hidden; z-index:2}
+               <DIV CornerCircles__Wrapper> [49,16829,334,48] {position:absolute; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV sharedStyles__GridWrapper> [48,16898,294,1732] {display:grid; gap:20px; grid-template-columns:294.25px; grid-template-rows:467.984px 342px 394px 467.984px; margin:20px 0px 0px}
+             <A TemplatesCard__CardLink> [48,16898,294,468] href=/templates/reporting/period-over-period-analysis/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,16898,294,468] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,16909,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,16909,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2Fc703d954a23240da2e864d607aa18a930400cefd-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,17129,272,226] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,17144,262,52] «Period over period analysis» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,17202,262,22] «Izzy Miller» {margin:0px 0px 6px; font-weight:300; opacity:0.8}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,17230,262,120] «Compare MoM, QoQ, and YoY metrics in SQL with reusable logic. This Hex template covers per» {font-size:16px; line-height:24px; font-weight:300}
+             <A TemplatesCard__CardLink> [48,17386,294,342] href=/templates/reporting/dbt-metrics/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,17386,294,342] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,17397,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,17397,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F69f338f790d540faf00e3df899fd63689b94a346-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,17617,272,100] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,17632,262,26] «dbt Metrics» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,17664,262,48] «Access trusted metrics with Hex's dbt integration» {font-size:16px; line-height:24px; font-weight:300}
+             <A TemplatesCard__CardLink> [48,17748,294,394] href=/templates/reporting/replacing-google-analytics-rudderstack/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,17748,294,394] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,17759,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,17759,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F95d7ec2785474e7bd8ebde16a530eae2c57c31a3-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,17979,272,152] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,17994,262,78] «Replace Google Analytics with Rudderstack & Hex» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,18078,262,48] «Build a more in-depth and flexible analytics stack» {font-size:16px; line-height:24px; font-weight:300}
+             <A TemplatesCard__CardLink> [48,18162,294,468] href=/templates/reporting/automating-quarterly-reviews/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,18162,294,468] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,18173,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,18173,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F58a8352cf14782f60dce580db095bd478d8b42f9-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,18393,272,226] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,18408,262,52] «Automating Quarterly Reviews» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,18466,262,22] «Izzy Miller» {margin:0px 0px 6px; font-weight:300; opacity:0.8}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,18494,262,120] «Connect your data between Hex, Google Sheets and Google Slides. Give your stakeholders acc» {font-size:16px; line-height:24px; font-weight:300}
+           <DIV TemplatesGrid__Section> [48,18680,294,2299] {display:flex; flex-direction:column; align-items:flex-start}
+            <DIV TemplatesGrid__Heading> [48,18680,294,405] {display:flex; flex-direction:column; justify-content:space-between; align-items:flex-start}
+             <DIV SectionHeader__Wrapper> [48,18680,294,355] {}
+              <DIV SectionHeader__IconWrapper> [48,18680,294,22] {display:flex; align-items:center; margin:0px 0px 15px}
+               <DIV SectionHeader__Icon> [98,18680,16,22] {margin:0px 15px}
+                <IMG > [98,18680,16,16] src=https://cdn.sanity.io/images/e92memrj/production/00c584bd9c85d1024e23f2461bbe1985b571965e-16x16.svg?auto=format nat=16x16 {display:inline; overflow:clip}
+              <DIV SectionHeader__TextWrapper> [48,18717,294,298] {margin:0px 0px 20px}
+               <H2 Heading__HeadingInternal Heading___StyledHeadingInternal> [48,18717,294,78] «Sentiment Analysis» {margin:0px 0px 10px; font-family:PP Formula; font-size:30px; line-height:39px; font-weight:800; letter-spacing:-0.75px; color:rgb(255, 255, 255)}
+               <P Text__TextWrapper Text___StyledTextWrapper> [48,18805,294,210] «Decipher subjective information in text to determine its polarity and subjectivity, explor» {font-size:20px; line-height:30px; font-weight:300}
+             <A Button__LinkWrapperBase> [48,19035,336,50] href=/templates/sentiment-analysis/ {display:flex; position:relative; padding:0px 20px; background-image:linear-gradient(to right, rgb(20, 20, 28), rgb(20, 20, 28)), linear-gradient(45deg, rgb(245, 192, 192), rgb(173, 142, 182)); border-top:1px solid rgba(0, 0, 0, 0); border-right:1px solid rgba(0, 0, 0, 0); border-bottom:1px solid rgba(0, 0, 0, 0); border-left:1px solid rgba(0, 0, 0, 0); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+              <DIV Button> [69,19036,294,48] {display:flex; justify-content:center; align-items:center; gap:10px; text-align:center; white-space:nowrap; text-wrap:nowrap}
+               <DIV CornerLines__Wrapper> [49,19036,334,48] {position:absolute; opacity:0}
+               <DIV Button__Children> [191,19049,51,22] «View all» {display:flex; position:relative; justify-content:center; align-items:center; overflow:hidden; z-index:2}
+               <DIV CornerCircles__Wrapper> [49,19036,334,48] {position:absolute; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV sharedStyles__GridWrapper> [48,19105,294,1874] {display:grid; gap:20px; grid-template-columns:294.25px; grid-template-rows:467.984px 491.984px 440px 414px; margin:20px 0px 0px}
+             <A TemplatesCard__CardLink> [48,19105,294,468] href=/templates/sentiment-analysis/vader-sentiment-analysis/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,19105,294,468] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,19116,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,19116,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F3b4c4a77254cd9c17282d59176b9359a873fff9f-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,19336,272,226] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,19351,262,52] «VADER sentiment analysis» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,19409,262,22] «Izzy Miller» {margin:0px 0px 6px; font-weight:300; opacity:0.8}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,19437,262,120] «Use VADER's rule-based sentiment model to analyze social media, customer reviews, and more» {font-size:16px; line-height:24px; font-weight:300}
+             <A TemplatesCard__CardLink> [48,19593,294,492] href=/templates/sentiment-analysis/social-media-sentiment-analysis/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,19593,294,492] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,19604,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,19604,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F65990d699bf8c7243c6f99894da358c3d7cdb836-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,19824,272,250] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,19839,262,52] «Social Media Sentiment Analysis» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,19897,262,22] «Izzy Miller» {margin:0px 0px 6px; font-weight:300; opacity:0.8}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,19925,262,144] «Parse tweets, posts, and comments to track brand sentiment over time. Hex template covers » {font-size:16px; line-height:24px; font-weight:300}
+             <A TemplatesCard__CardLink> [48,20105,294,440] href=/templates/sentiment-analysis/named-entity-recognition/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,20105,294,440] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,20116,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,20116,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F2cceb7b4ccdb48939b12395caae7775bcbf2fa2e-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,20336,272,198] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,20351,262,52] «Named Entity Recognition» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,20409,262,120] «Extract entities (people, places, orgs) from text using spaCy and HuggingFace in a Hex not» {font-size:16px; line-height:24px; font-weight:300}
+             <A TemplatesCard__CardLink> [48,20565,294,414] href=/templates/sentiment-analysis/sentiment-analysis/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,20565,294,414] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,20576,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,20576,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F216c7a1cd6f2b413fa6acf5bfd7c9405458947e2-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,20796,272,172] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,20811,262,26] «Sentiment Analysis» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,20843,262,120] «Turn unstructured text — reviews, support tickets, and surveys — into sentiment scores usi» {font-size:16px; line-height:24px; font-weight:300}
+           <DIV TemplatesGrid__Section> [48,21029,294,2000] {display:flex; flex-direction:column; align-items:flex-start}
+            <DIV TemplatesGrid__Heading> [48,21029,294,276] {display:flex; flex-direction:column; justify-content:space-between; align-items:flex-start}
+             <DIV SectionHeader__Wrapper> [48,21029,294,226] {}
+              <DIV SectionHeader__IconWrapper> [48,21029,294,22] {display:flex; align-items:center; margin:0px 0px 15px}
+               <DIV SectionHeader__Icon> [98,21029,15,22] {margin:0px 15px}
+                <IMG > [98,21030,15,15] src=https://cdn.sanity.io/images/e92memrj/production/afc22dfaa36402315f4b0fdc5594745075b3f274-15x15.svg?auto=format nat=15x15 {display:inline; overflow:clip}
+              <DIV SectionHeader__TextWrapper> [48,21066,294,169] {margin:0px 0px 20px}
+               <H2 Heading__HeadingInternal Heading___StyledHeadingInternal> [48,21066,294,39] «Snowpark» {margin:0px 0px 10px; font-family:PP Formula; font-size:30px; line-height:39px; font-weight:800; letter-spacing:-0.75px; color:rgb(255, 255, 255)}
+               <P Text__TextWrapper Text___StyledTextWrapper> [48,21115,294,120] «Use Hex with Snowpark for Python to do complex data science on datasets of any scale» {font-size:20px; line-height:30px; font-weight:300}
+             <A Button__LinkWrapperBase> [48,21255,336,50] href=/templates/snowpark/ {display:flex; position:relative; padding:0px 20px; background-image:linear-gradient(to right, rgb(20, 20, 28), rgb(20, 20, 28)), linear-gradient(45deg, rgb(245, 192, 192), rgb(173, 142, 182)); border-top:1px solid rgba(0, 0, 0, 0); border-right:1px solid rgba(0, 0, 0, 0); border-bottom:1px solid rgba(0, 0, 0, 0); border-left:1px solid rgba(0, 0, 0, 0); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+              <DIV Button> [69,21256,294,48] {display:flex; justify-content:center; align-items:center; gap:10px; text-align:center; white-space:nowrap; text-wrap:nowrap}
+               <DIV CornerLines__Wrapper> [49,21256,334,48] {position:absolute; opacity:0}
+               <DIV Button__Children> [191,21269,51,22] «View all» {display:flex; position:relative; justify-content:center; align-items:center; overflow:hidden; z-index:2}
+               <DIV CornerCircles__Wrapper> [49,21256,334,48] {position:absolute; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV sharedStyles__GridWrapper> [48,21325,294,1704] {display:grid; gap:20px; grid-template-columns:294.25px; grid-template-rows:492px 368px 344px 440px; margin:20px 0px 0px}
+             <A TemplatesCard__CardLink> [48,21325,294,492] href=/templates/snowpark/analysis-of-customer-purchasing-behavior/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,21325,294,492] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,21336,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,21336,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F28904a40598c3865cb92f29a2ee376d55f21e7f2-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,21556,272,250] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,21571,262,104] «Customer Behavior Analysis And New Product Sales Forecasting» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,21681,262,120] «Analyze customer purchasing behavior and forecast new product sales in Hex. Covers segment» {font-size:16px; line-height:24px; font-weight:300}
+             <A TemplatesCard__CardLink> [48,21837,294,368] href=/templates/snowpark/time-series-analysis-snowpark/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,21837,294,368] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,21848,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,21848,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F85d7b0598ca973279104c115dc2edf00aa7cb65f-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,22068,272,126] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,22083,262,52] «Time series analysis with Snowpark» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,22141,262,48] «Forecast hourly restaurant traffic using UDTFs in Snowpark» {font-size:16px; line-height:24px; font-weight:300}
+             <A TemplatesCard__CardLink> [48,22225,294,344] href=/templates/snowpark/data-science-with-snowpark/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,22225,294,344] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,22236,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,22236,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2Fb79554b0eab9771ffb62ee0b7512e3c8f1a82349-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,22456,272,102] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,22471,262,52] «Data Science with Snowpark» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,22529,262,24] «The easy button for Snowpark» {font-size:16px; line-height:24px; font-weight:300}
+             <A TemplatesCard__CardLink> [48,22589,294,440] href=/templates/snowpark/snowpark-ml-stored-procedures/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,22589,294,440] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,22600,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,22600,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F78a135da9747c4f55d9b20f5be2277fdc530b918-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,22820,272,198] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,22835,262,52] «Snowpark ML using Stored Procedures» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,22893,262,120] «Use Snowpark ML and stored procedures to build powerful machine learning pipelines that ru» {font-size:16px; line-height:24px; font-weight:300}
+           <DIV TemplatesGrid__Section> [48,23079,294,1508] {display:flex; flex-direction:column; align-items:flex-start}
+            <DIV TemplatesGrid__Heading> [48,23079,294,246] {display:flex; flex-direction:column; justify-content:space-between; align-items:flex-start}
+             <DIV SectionHeader__Wrapper> [48,23079,294,196] {}
+              <DIV SectionHeader__IconWrapper> [48,23079,294,22] {display:flex; align-items:center; margin:0px 0px 15px}
+               <DIV SectionHeader__Icon> [98,23079,15,22] {margin:0px 15px}
+                <IMG > [98,23080,15,15] src=https://cdn.sanity.io/images/e92memrj/production/b63a0c9ba842a0b5b0b10a877b3f53ed8e4779ab-15x15.svg?auto=format nat=15x15 {display:inline; overflow:clip}
+              <DIV SectionHeader__TextWrapper> [48,23116,294,139] {margin:0px 0px 20px}
+               <H2 Heading__HeadingInternal Heading___StyledHeadingInternal> [48,23116,294,39] «Time Series» {margin:0px 0px 10px; font-family:PP Formula; font-size:30px; line-height:39px; font-weight:800; letter-spacing:-0.75px; color:rgb(255, 255, 255)}
+               <P Text__TextWrapper Text___StyledTextWrapper> [48,23165,294,90] «Discover meaningful patterns and trends by visualizing data over time.» {font-size:20px; line-height:30px; font-weight:300}
+             <A Button__LinkWrapperBase> [48,23275,336,50] href=/templates/time-series/ {display:flex; position:relative; padding:0px 20px; background-image:linear-gradient(to right, rgb(20, 20, 28), rgb(20, 20, 28)), linear-gradient(45deg, rgb(245, 192, 192), rgb(173, 142, 182)); border-top:1px solid rgba(0, 0, 0, 0); border-right:1px solid rgba(0, 0, 0, 0); border-bottom:1px solid rgba(0, 0, 0, 0); border-left:1px solid rgba(0, 0, 0, 0); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+              <DIV Button> [69,23276,294,48] {display:flex; justify-content:center; align-items:center; gap:10px; text-align:center; white-space:nowrap; text-wrap:nowrap}
+               <DIV CornerLines__Wrapper> [49,23276,334,48] {position:absolute; opacity:0}
+               <DIV Button__Children> [191,23289,51,22] «View all» {display:flex; position:relative; justify-content:center; align-items:center; overflow:hidden; z-index:2}
+               <DIV CornerCircles__Wrapper> [49,23276,334,48] {position:absolute; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <DIV sharedStyles__GridWrapper> [48,23345,294,1242] {display:grid; gap:20px; grid-template-columns:294.25px; grid-template-rows:467.984px 368px 366px; margin:20px 0px 0px}
+             <A TemplatesCard__CardLink> [48,23345,294,468] href=/templates/time-series/time-series-forecasting-prophet/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,23345,294,468] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,23356,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,23356,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2Fe61193c818d074d6e03c0c882df895abd2b5f11f-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,23576,272,226] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,23591,262,52] «Time Series Forecasting with Prophet» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,23649,262,22] «Izzy Miller, Dev Advocate at Hex» {margin:0px 0px 6px; font-weight:300; opacity:0.8}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,23677,262,120] «Build time series forecasting models with Prophet in a Hex notebook — decompose trends, ha» {font-size:16px; line-height:24px; font-weight:300}
+             <A TemplatesCard__CardLink> [48,23833,294,368] href=/templates/time-series/time-series-analysis-in-snowpark/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,23833,294,368] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,23844,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,23844,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F85d7b0598ca973279104c115dc2edf00aa7cb65f-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,24064,272,126] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,24079,262,52] «Time series analysis in Snowpark» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,24137,262,48] «Forecast hourly restaurant traffic using UDTFs in Snowpark» {font-size:16px; line-height:24px; font-weight:300}
+             <A TemplatesCard__CardLink> [48,24221,294,366] href=/templates/time-series/time-series-forecasting/ {transition:background-color 0.1s linear}
+              <DIV Card__Wrapper sharedStyles__GridItemWrapper> [48,24221,294,366] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV sharedStyles__PreviewImage sharedStyles__StyledPreviewImage> [59,24232,272,220] {position:relative; overflow:hidden}
+                <IMG > [59,24232,272,220] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2Feae7b70f033535a5b035929a99f05b495637abe2-16 nat=390x236 {position:absolute; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+               <DIV sharedStyles__Info sharedStyles__StyledInfo> [59,24452,272,124] {display:flex; flex-direction:column; padding:15px 5px 5px}
+                <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [64,24467,262,26] «Time Series Forecasting» {margin:0px 0px 6px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+                <P Text__TextWrapper Text___StyledTextWrapper> [64,24499,262,72] «One workspace with everything you need to build complex time series models» {font-size:16px; line-height:24px; font-weight:300}
+     <DIV GridLines__ContentMarginLine> [382,0,8,24687] {grid-column:-2 / span 1; background-image:linear-gradient(rgba(0, 0, 0, 0) calc(100% - 1px), rgb(43, 37, 44) calc(100% - 1px)); border-left:1px solid rgb(58, 49, 56)}
+   <DIV LayoutGrid__LayoutSubgrid> [0,24687,390,1114] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:1113.72px; grid-column:1 / -1}
+    <DIV GridLines__ContentMarginLine> [0,24687,8,1114] {grid-column:1; border-top:1px solid rgb(43, 37, 44); border-right:1px solid rgb(58, 49, 56); border-bottom:1px solid rgb(43, 37, 44)}
+    <FOOTER Footer__Wrapper> [8,24687,374,1114] {display:flex; flex-direction:column; grid-column:2 / -2}
+     <DIV Footer__Divider> [8,24687,374,1] {background-color:rgb(58, 49, 56)}
+     <DIV Footer> [8,24688,374,1112] {display:flex; flex-direction:column; gap:45px; grid-template-columns:minmax(0px, 1fr) auto minmax(0px, 1fr); padding:50px 30px; max-width:1240px}
+      <DIV Footer__Left> [38,24738,314,58] {display:flex; flex-direction:column; align-items:center; gap:15px}
+       <svg > [165,24738,60,20] {overflow:hidden}
+       <DIV Footer__MadeWith> [125,24773,141,23] {display:flex; align-items:center; color:rgb(153, 121, 125)}
+        <SPAN > [125,24774,69,22] «Made with» {margin:0px 4px 0px 0px}
+        <DIV Rotator__Wrapper> [197,24775,20,20] {display:flex; position:relative; overflow:hidden}
+         <DIV Rotator> [197,24775,20,20] {display:flex; flex-direction:column; transform:matrix(1, 0, 0, 1, 0, 0)}
+          <DIV Rotator__Option> [197,24775,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,24775,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,24775,20,20] «🛹» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,24795,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,24795,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,24795,20,20] «🍤» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,24815,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,24815,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,24815,20,20] «🧄» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,24835,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,24835,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,24835,20,20] «🍞» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,24855,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,24855,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,24855,20,20] «🥥» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,24875,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,24875,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,24875,20,20] «⛳» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,24895,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,24895,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,24895,20,20] «🤞» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,24915,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,24915,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,24915,20,20] «✨» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,24935,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,24935,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,24935,20,20] «🔊» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,24955,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,24955,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,24955,20,20] «🎧» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,24975,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,24975,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,24975,20,20] «🌊» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,24995,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,24995,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,24995,20,20] «🍀» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,25015,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,25015,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,25015,20,20] «🤠» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,25035,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,25035,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,25035,20,20] «🎷» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,25055,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,25055,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,25055,20,20] «🍩» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,25075,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,25075,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,25075,20,20] «☕» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,25095,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,25095,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,25095,20,20] «🥟» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,25115,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,25115,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,25115,20,20] «🍺» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,25135,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,25135,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,25135,20,20] «🍰» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,25155,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,25155,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,25155,20,20] «🔮» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,25175,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,25175,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,25175,20,20] «🔒» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,25195,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,25195,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,25195,20,20] «🥖» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,25215,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,25215,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,25215,20,20] «🍷» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,25235,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,25235,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,25235,20,20] «🛌» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,25255,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,25255,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,25255,20,20] «💜» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,25275,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,25275,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,25275,20,20] «🥨» {display:flex; align-items:center}
+        <SPAN > [221,24773,44,23] «on .» {margin:0px 0px 0px 4px}
+         <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [243,24776,18,17] «🌎» {display:inline; margin:0px 0.7px 0px 1.4px}
+      <DIV Footer__Center> [38,24841,314,821] {display:flex; flex-direction:column; align-items:center; gap:60px}
+       <DIV Footer> [38,24841,314,611] {display:grid; justify-content:center; gap:30px; grid-template-columns:158.375px 125.875px; grid-template-rows:370.672px 210.75px; max-width:800px}
+        <DIV Footer__Column> [38,24841,158,371] {display:flex; flex-direction:column; align-items:center; gap:10px}
+         <DIV Footer__ColTitle> [85,24841,63,19] «Platform» {font-family:IBM Plex Mono; font-size:12px; line-height:18.852px; font-weight:700; letter-spacing:0.7px; text-transform:uppercase; color:rgb(255, 255, 255)}
+         <A > [72,24870,90,22] href=/capability/ai/ «AI and agents» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [56,24902,121,22] href=/product/notebooks/ «Agentic notebooks» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [38,24934,158,22] href=/product/threads/ «Conversational analytics» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [68,24966,97,22] href=/product/context-studio/ «Context Studio» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [84,24998,66,22] href=/product/data-apps/ «Data apps» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [93,25030,49,22] href=/product/cli/ «Hex CLI» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [48,25062,137,22] href=/product/bi/ «Business intelligence» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [51,25094,132,22] href=/capability/exploratory-analysis/ «Exploratory analysis» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [51,25126,132,22] href=/product/embedded-analytics/ «Embedded analytics» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [77,25158,79,22] href=/product/integrations/ «Integrations» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [82,25190,69,22] href=https://learn.hex.tech/changelog «Changelog» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+        <DIV Footer__Column> [226,24841,126,371] {display:flex; flex-direction:column; align-items:center; gap:10px}
+         <DIV Footer__ColTitle> [254,24841,71,19] «Resources» {font-family:IBM Plex Mono; font-size:12px; line-height:18.852px; font-weight:700; letter-spacing:0.7px; text-transform:uppercase; color:rgb(255, 255, 255)}
+         <A > [267,24870,45,22] href=/pricing/ «Pricing» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [234,24902,110,22] href=/product/switching-to-hex/ «Switching to Hex» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [255,24934,68,22] href=/enterprise/ «Enterprise» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [274,24966,31,22] href=https://learn.hex.tech «Docs» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [275,24998,29,22] href=/blog/ «Blog» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [267,25030,44,22] href=/resources/events/ «Events» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [256,25062,67,22] href=/templates/ «Templates» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [260,25094,59,22] href=/compare/ «Compare» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [249,25126,81,22] href=https://trust.hex.tech «Trust Center» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [268,25158,42,22] href=https://status.hex.tech «Status» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+        <DIV Footer__Column> [38,25242,158,211] {display:flex; flex-direction:column; align-items:center; gap:10px}
+         <DIV Footer__ColTitle> [89,25242,55,19] «Company» {font-family:IBM Plex Mono; font-size:12px; line-height:18.852px; font-weight:700; letter-spacing:0.7px; text-transform:uppercase; color:rgb(255, 255, 255)}
+         <A > [98,25271,39,22] href=/about/ «About» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [92,25303,51,22] href=/careers/ «Careers» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [82,25335,70,22] href=/customers/ «Customers» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [87,25367,60,22] href=/solutions/ «Solutions» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [87,25399,61,22] href=https://hexhq.notion.site/a091e1bb7bb34019bc4ccf2e3da8645f?v=bb640f9e0ef4499198673561e42a93f0 «Media kit» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [83,25431,69,22] href=/newsroom/ «Newsroom» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+        <DIV Footer__Column> [226,25242,126,211] {display:flex; flex-direction:column; align-items:center; gap:10px}
+         <DIV Footer__ColTitle> [262,25242,55,19] «Connect» {font-family:IBM Plex Mono; font-size:12px; line-height:18.852px; font-weight:700; letter-spacing:0.7px; text-transform:uppercase; color:rgb(255, 255, 255)}
+         <A > [236,25271,106,22] href=/request-a-demo/ «Request a demo» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [231,25303,116,22] href=mailto:support@hex.tech «Technical support» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [254,25335,70,22] href=/contact-us/ «Contact us» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [262,25367,55,22] href=https://www.linkedin.com/company/hex-technologies «LinkedIn» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [255,25399,68,22] href=https://x.com/hexanalytics «X (Twitter)» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [263,25431,53,22] href=https://www.youtube.com/@_hex_tech «YouTube» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+       <DIV Footer__Bottom> [38,25513,314,150] {display:flex; flex-direction:column; flex-wrap:wrap; justify-content:center; align-items:center; gap:10px}
+        <DIV Footer__Copyright> [100,25513,191,22] «© 2026 Hex Technologies Inc.» {color:rgb(153, 121, 125)}
+        <A > [150,25545,89,22] href=https://learn.hex.tech/docs/trust/privacy-policy «Privacy policy» {color:rgb(153, 121, 125); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+        <A > [133,25577,124,22] href=https://learn.hex.tech/docs/legal/terms-and-conditions «Terms & conditions» {color:rgb(153, 121, 125); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+        <A > [108,25609,173,22] href=/files/Hex_UK_Modern_Slavery_Act_Statement.pdf «Modern slavery statement» {color:rgb(153, 121, 125); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+        <BUTTON OptOutOfTrackingLink-module__ax0AOW__button> [133,25641,125,22] «Opt out of tracking» {text-align:center; color:rgb(153, 121, 125); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+      <DIV Footer> [38,25708,314,42] {display:flex; flex-direction:column; align-items:center}
+       <DIV HitCounter__Wrapper> [132,25708,126,42] {padding:5px 0px}
+        <DIV HitCounter> [132,25713,126,32] {display:flex; position:relative; gap:5px; padding:5px; border-top:1px solid rgb(58, 49, 56); border-right:1px solid rgb(58, 49, 56); border-bottom:1px solid rgb(58, 49, 56); border-left:1px solid rgb(58, 49, 56); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+         <DIV HitCounter__DigitWrapper> [138,25719,12,20] {display:flex; position:relative; gap:1px}
+          <DIV HitCounter__Col> [138,25719,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [138,25719,1,10] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [138,25729,1,10] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+          <DIV HitCounter__Col> [140,25719,8,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [140,25719,8,1] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [140,25728,8,1] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [140,25738,8,1] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+          <DIV HitCounter__Col> [149,25719,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [149,25719,1,10] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [149,25729,1,10] {background-color:rgb(245, 192, 192)}
+         <DIV HitCounter__DigitWrapper> [155,25719,12,20] {display:flex; position:relative; gap:1px}
+          <DIV HitCounter__Col> [155,25719,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [155,25719,1,10] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+           <DIV HitCounter__Line> [155,25729,1,10] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+          <DIV HitCounter__Col> [157,25719,8,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [157,25719,8,1] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [157,25728,8,1] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [157,25738,8,1] {background-color:rgb(245, 192, 192)}
+          <DIV HitCounter__Col> [166,25719,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [166,25719,1,10] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [166,25729,1,10] {background-color:rgb(245, 192, 192)}
+         <DIV HitCounter__DigitWrapper> [172,25719,12,20] {display:flex; position:relative; gap:1px}
+          <DIV HitCounter__Col> [172,25719,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [172,25719,1,10] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+           <DIV HitCounter__Line> [172,25729,1,10] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+          <DIV HitCounter__Col> [174,25719,8,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [174,25719,8,1] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+           <DIV HitCounter__Line> [174,25728,8,1] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+           <DIV HitCounter__Line> [174,25738,8,1] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+          <DIV HitCounter__Col> [183,25719,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [183,25719,1,10] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [183,25729,1,10] {background-color:rgb(245, 192, 192)}
+         <DIV HitCounter__DigitWrapper> [189,25719,12,20] {display:flex; position:relative; gap:1px}
+          <DIV HitCounter__Col> [189,25719,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [189,25719,1,10] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [189,25729,1,10] {background-color:rgb(245, 192, 192)}
+          <DIV HitCounter__Col> [191,25719,8,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [191,25719,8,1] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [191,25728,8,1] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [191,25738,8,1] {background-color:rgb(245, 192, 192)}
+          <DIV HitCounter__Col> [200,25719,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [200,25719,1,10] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [200,25729,1,10] {background-color:rgb(245, 192, 192)}
+         <DIV HitCounter__DigitWrapper> [206,25719,12,20] {display:flex; position:relative; gap:1px}
+          <DIV HitCounter__Col> [206,25719,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [206,25719,1,10] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+           <DIV HitCounter__Line> [206,25729,1,10] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+          <DIV HitCounter__Col> [208,25719,8,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [208,25719,8,1] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [208,25728,8,1] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [208,25738,8,1] {background-color:rgb(245, 192, 192)}
+          <DIV HitCounter__Col> [217,25719,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [217,25719,1,10] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [217,25729,1,10] {background-color:rgb(245, 192, 192)}
+         <DIV HitCounter__DigitWrapper> [223,25719,12,20] {display:flex; position:relative; gap:1px}
+          <DIV HitCounter__Col> [223,25719,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [223,25719,1,10] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+           <DIV HitCounter__Line> [223,25729,1,10] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+          <DIV HitCounter__Col> [225,25719,8,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [225,25719,8,1] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+           <DIV HitCounter__Line> [225,25728,8,1] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+           <DIV HitCounter__Line> [225,25738,8,1] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+          <DIV HitCounter__Col> [234,25719,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [234,25719,1,10] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [234,25729,1,10] {background-color:rgb(245, 192, 192)}
+         <DIV HitCounter__DigitWrapper> [240,25719,12,20] {display:flex; position:relative; gap:1px}
+          <DIV HitCounter__Col> [240,25719,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [240,25719,1,10] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+           <DIV HitCounter__Line> [240,25729,1,10] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+          <DIV HitCounter__Col> [242,25719,8,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [242,25719,8,1] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [242,25728,8,1] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [242,25738,8,1] {background-color:rgb(245, 192, 192)}
+          <DIV HitCounter__Col> [251,25719,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [251,25719,1,10] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [251,25729,1,10] {background-color:rgb(245, 192, 192)}
+     <DIV Footer__Divider> [8,25800,374,1] {background-color:rgb(58, 49, 56)}
+    <DIV GridLines__ContentMarginLine> [382,24687,8,1114] {grid-column:-2 / span 1; border-top:1px solid rgb(43, 37, 44); border-bottom:1px solid rgb(43, 37, 44); border-left:1px solid rgb(58, 49, 56)}
+   <DIV LayoutGrid__LayoutSubgrid> [0,25801,390,32] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:32px; grid-column:1 / -1}
+    <DIV GridLines__ContentMarginLine> [0,25801,8,32] {grid-column:1; border-right:1px solid rgb(43, 37, 44)}
+    <DIV GridLines__GridRule> [101,25801,1,32] {grid-column:4; background-color:rgb(43, 37, 44); transform:matrix(1, 0, 0, 1, 0.5, 0)}
+    <DIV GridLines__GridRule> [288,25801,1,32] {grid-column:10; background-color:rgb(43, 37, 44); transform:matrix(1, 0, 0, 1, 0.5, 0)}
+    <DIV GridLines__ContentMarginLine> [382,25801,8,32] {grid-column:-2 / span 1; border-left:1px solid rgb(43, 37, 44)}

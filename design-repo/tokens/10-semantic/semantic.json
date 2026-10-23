@@ -1,0 +1,201 @@
+{
+  "$description": "One semantic token set. Every name resolves in BOTH themes (themes/light.json, themes/dark.json). Generators reference these names, never raw values.",
+  "measuredFrom": [
+    "src/theme/Theme.jsx:1",
+    "specs/product.md:38"
+  ],
+  "tokens": {
+    "color.surface.page": {
+      "$type": "color",
+      "description": "Page background, nav background, button inner fill"
+    },
+    "color.surface.hover": {
+      "$type": "color",
+      "description": "Ticker item hover fill"
+    },
+    "color.surface.ticker": {
+      "$type": "color",
+      "description": "Announcement ticker strip"
+    },
+    "color.surface.sunken": {
+      "$type": "color",
+      "description": "Full-bleed quote bands, story bands (--bg300)"
+    },
+    "color.surface.menu": {
+      "$type": "color",
+      "description": "Mobile menu panel (--bg400)"
+    },
+    "color.surface.hatch": {
+      "$type": "color",
+      "description": "45deg hatch stroke (--bg500)"
+    },
+    "color.surface.dropdown": {
+      "$type": "color",
+      "description": "Mega-menu viewport (dark value unmeasured)"
+    },
+    "color.text.default": {
+      "$type": "color",
+      "description": "Body copy (--fontColorDEFAULT)"
+    },
+    "color.text.loud": {
+      "$type": "color",
+      "description": "Headings, nav items, button labels (--fontColorLOUD)"
+    },
+    "color.text.muted": {
+      "$type": "color",
+      "description": "Quote titles, legal, meta (--fontColorMUTED)"
+    },
+    "color.text.link": {
+      "$type": "color",
+      "description": "Links, Log In, logo, footer links (--fg1200)"
+    },
+    "color.text.meta": {
+      "$type": "color",
+      "description": "MetaRows label colour"
+    },
+    "color.highlight": {
+      "$type": "color",
+      "description": "--highlightColor: tints, outline cards, gradient rings"
+    },
+    "color.border.muted": {
+      "$type": "color",
+      "description": "Minor rules (--borderColorMUTED)"
+    },
+    "color.border.default": {
+      "$type": "color",
+      "description": "Major borders, dividers (--borderColorDEFAULT)"
+    },
+    "color.border.strong": {
+      "$type": "color",
+      "description": "Hover borders (--borderColorSTRONG)"
+    },
+    "color.border.accent": {
+      "$type": "color",
+      "description": "Nav accent bars (--grid1200)"
+    },
+    "color.border.faint": {
+      "$type": "color",
+      "description": "Report rules and report FAQ dividers"
+    },
+    "color.interactive.hover-fill": {
+      "$type": "color",
+      "description": "Nav item / dropdown hover fill (--fgA500)"
+    },
+    "color.interactive.focus-outline": {
+      "$type": "color",
+      "description": "Focus-visible outline"
+    },
+    "color.checker": {
+      "$type": "color",
+      "description": "Checkered margin squares (--fg600)"
+    },
+    "color.feedback.error": {
+      "$type": "color",
+      "description": "Form error text and required asterisk"
+    },
+    "color.app.surface": {
+      "$type": "color",
+      "description": "Product-mock window background"
+    },
+    "color.app.surface-muted": {
+      "$type": "color",
+      "description": "Product-mock muted background"
+    },
+    "color.app.border": {
+      "$type": "color",
+      "description": "Product-mock border"
+    },
+    "color.app.text": {
+      "$type": "color",
+      "description": "Product-mock text"
+    },
+    "color.app.text-muted": {
+      "$type": "color",
+      "description": "Product-mock muted text"
+    },
+    "color.app.primary": {
+      "$type": "color",
+      "description": "Product-mock primary"
+    },
+    "color.app.success": {
+      "$type": "color",
+      "description": "Product-mock success"
+    },
+    "color.app.danger": {
+      "$type": "color",
+      "description": "Product-mock danger"
+    },
+    "gradient.heading": {
+      "$type": "gradient",
+      "description": "GradientHeader text fill"
+    },
+    "gradient.button-border": {
+      "$type": "gradient",
+      "description": "Primary button gradient border"
+    },
+    "gradient.button-fill": {
+      "$type": "gradient",
+      "description": "Primary button ::after fill"
+    },
+    "shadow.button-fill": {
+      "$type": "shadow",
+      "description": "Primary button inset ring"
+    },
+    "opacity.button-fill": {
+      "$type": "number",
+      "description": "Primary button fill opacity at rest"
+    },
+    "filter.logo": {
+      "$type": "filter",
+      "description": "Customer logo recolouring filter"
+    },
+    "shadow.nav-squished": {
+      "$type": "shadow",
+      "description": "Nav shadow when squished"
+    },
+    "surface.glass-popover": {
+      "$type": "gradient",
+      "description": "Popover / hamburger glass fill"
+    },
+    "shadow.glass-popover": {
+      "$type": "shadow",
+      "description": "Popover / hamburger glass shadow"
+    },
+    "surface.glass-card": {
+      "$type": "gradient",
+      "description": "Glass card fill image"
+    },
+    "shadow.glass-card": {
+      "$type": "shadow",
+      "description": "Glass card rest shadow"
+    },
+    "shadow.glass-card-hover": {
+      "$type": "shadow",
+      "description": "Interactive glass card hover shadow"
+    },
+    "shadow.window": {
+      "$type": "shadow",
+      "description": "Product window rest shadow"
+    },
+    "shadow.window-hover": {
+      "$type": "shadow",
+      "description": "Product window hover shadow (dark unmeasured)"
+    },
+    "texture.paper": {
+      "$type": "asset",
+      "description": "Paper-noise overlay image"
+    },
+    "texture.paper-size": {
+      "$type": "dimension",
+      "description": "Paper-noise tile size"
+    },
+    "texture.paper-opacity": {
+      "$type": "number",
+      "description": "Paper-noise overlay opacity"
+    },
+    "texture.checker": {
+      "$type": "asset",
+      "description": "Checkered margin SVG"
+    }
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "$description": "Theme-variant gradients, shadows, textures and filters (raw values, light and dark sets).",
+  "effect": {
+    "light": {
+      "heading-gradient": {
+        "$type": "gradient",
+        "$value": "linear-gradient(90deg, #31263B 0%, #01011B 100%)",
+        "sourceVar": "--heading-gradient",
+        "measuredFrom": [
+          "src/index.css:161",
+          "CLONE_SPEC.md:104"
+        ]
+      },
+      "button-border-gradient": {
+        "$type": "gradient",
+        "$value": "linear-gradient(45deg, #CDA0A5, #31263B)",
+        "sourceVar": "--button-border-gradient",
+        "measuredFrom": [
+          "src/index.css:163"
+        ]
+      },
+      "button-fill": {
+        "$type": "gradient",
+        "$value": "linear-gradient(135deg, rgba(245, 192, 192, 0.23) 0%, rgba(245, 192, 192, 0.12) 100%), #FFFCFC",
+        "sourceVar": "--button-fill",
+        "measuredFrom": [
+          "src/index.css:164"
+        ]
+      },
+      "button-fill-shadow": {
+        "$type": "shadow",
+        "$value": "inset 0 0 0 1px rgba(71, 12, 12, 0.15)",
+        "sourceVar": "--button-fill-shadow",
+        "measuredFrom": [
+          "src/index.css:165"
+        ]
+      },
+      "button-fill-opacity": {
+        "$type": "number",
+        "$value": "1",
+        "sourceVar": "--button-fill-opacity",
+        "measuredFrom": [
+          "src/index.css:166"
+        ]
+      },
+      "logo-filter": {
+        "$type": "filter",
+        "$value": "invert(1) sepia(0) saturate(0.01) hue-rotate(339deg) brightness(1) contrast(1.01)",
+        "sourceVar": "--logo-filter",
+        "measuredFrom": [
+          "src/index.css:168"
+        ]
+      },
+      "nav-squished-shadow": {
+        "$type": "shadow",
+        "$value": "0px 3px 12px -3px rgba(100, 63, 63, 0.32)",
+        "sourceVar": "--nav-squished-shadow",
+        "measuredFrom": [
+          "src/index.css:169"
+        ]
+      },
+      "glass-popover-bg": {
+        "$type": "gradient",
+        "$value": "radial-gradient(circle at 66.66% 50%, #FFFFFF 0%, #F8F5F6 80%)",
+        "sourceVar": "--glass-popover-bg",
+        "measuredFrom": [
+          "src/index.css:171"
+        ]
+      },
+      "glass-popover-shadow": {
+        "$type": "shadow",
+        "$value": "inset 0 0 34px 0 #EFEBED, 6px 27px 10px 0 rgba(100, 63, 63, 0.01), 4px 4px 10px 0 rgba(100, 63, 63, 0.04), 2px 13px 8px 0 rgba(100, 63, 63, 0.06), 1px 6px 6px 0 rgba(100, 63, 63, 0.06), 0 1px 3px 0 rgba(100, 63, 63, 0.18)",
+        "sourceVar": "--glass-popover-shadow",
+        "measuredFrom": [
+          "src/index.css:172"
+        ]
+      },
+      "glass-card-image": {
+        "$type": "gradient",
+        "$value": "linear-gradient(105deg, rgba(245, 192, 192, 0) 10.56%, rgba(245, 192, 192, 0.02) 108.41%)",
+        "sourceVar": "--glass-card-image",
+        "measuredFrom": [
+          "src/index.css:175"
+        ]
+      },
+      "glass-card-shadow": {
+        "$type": "shadow",
+        "$value": "0 16px 24px -8px rgba(0, 0, 0, 0.05), 0 8px 12px -4px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.06), inset 0 0 11px 0 rgba(0, 0, 0, 0.05)",
+        "sourceVar": "--glass-card-shadow",
+        "measuredFrom": [
+          "src/index.css:176"
+        ]
+      },
+      "glass-card-hover-shadow": {
+        "$type": "shadow",
+        "$value": "inset 0 0 16px 0 rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(0, 0, 0, 0.1), 0 20px 32px -8px rgba(0, 0, 0, 0.08), 0 12px 16px -4px rgba(0, 0, 0, 0.06), 0 6px 8px -2px rgba(0, 0, 0, 0.06), 0 2px 4px 0 rgba(0, 0, 0, 0.04), 0 1px 2px 0 rgba(0, 0, 0, 0.04)",
+        "sourceVar": "--glass-card-hover-shadow",
+        "measuredFrom": [
+          "src/index.css:177"
+        ]
+      },
+      "window-shadow": {
+        "$type": "shadow",
+        "$value": "0 0 0 1px rgba(49, 38, 59, 0.22), 0 103px 103px 0 rgba(49, 38, 59, 0.03), 0 26px 57px 0 rgba(49, 38, 59, 0.05)",
+        "sourceVar": "--window-shadow",
+        "measuredFrom": [
+          "src/index.css:183"
+        ]
+      },
+      "window-hover-shadow": {
+        "$type": "shadow",
+        "$value": "0 0 0 1px rgba(49, 38, 59, 0.32), 0 103px 103px 0 rgba(49, 38, 59, 0.12), 0 26px 57px 0 rgba(49, 38, 59, 0.15)",
+        "sourceVar": "--window-hover-shadow",
+        "measuredFrom": [
+          "src/index.css:184"
+        ]
+      },
+      "checker-img": {
+        "$type": "asset",
+        "$value": "url(\"data:image/svg+xml",
+        "sourceVar": "--checker-img",
+        "measuredFrom": [
+          "src/index.css:167"
+        ]
+      },
+      "texture-paper-img": {
+        "$type": "asset",
+        "$value": "url(/assets/textures/light-bkg-noise.webp)",
+        "sourceVar": "--texture-paper-img",
+        "measuredFrom": [
+          "src/index.css:133"
+        ]
+      },
+      "texture-paper-size": {
+        "$type": "dimension",
+        "$value": "256px 256px",
+        "sourceVar": "--texture-paper-size",
+        "measuredFrom": [
+          "src/index.css:134"
+        ]
+      },
+      "texture-paper-opacity": {
+        "$type": "number",
+        "$value": "0.06",
+        "sourceVar": "--texture-paper-opacity",
+        "measuredFrom": [
+          "src/index.css:135"
+        ]
+      }
+    },
+    "dark": {
+      "heading-gradient": {
+        "$type": "gradient",
+        "$value": "linear-gradient(55deg, #FFFFFF 20%, rgba(245, 192, 192, 0.8) 100%)",
+        "sourceVar": "--heading-gradient",
+        "measuredFrom": [
+          "src/index.css:271",
+          "specs/product.md:70"
+        ]
+      },
+      "button-border-gradient": {
+        "$type": "gradient",
+        "$value": "linear-gradient(45deg, #F5C0C0, #AD8EB6)",
+        "sourceVar": "--button-border-gradient",
+        "measuredFrom": [
+          "src/index.css:273"
+        ]
+      },
+      "button-fill": {
+        "$type": "gradient",
+        "$value": "linear-gradient(45deg, rgba(245, 192, 192, 0.85), rgba(71, 57, 130, 0.5))",
+        "sourceVar": "--button-fill",
+        "measuredFrom": [
+          "src/index.css:274"
+        ]
+      },
+      "button-fill-shadow": {
+        "$type": "shadow",
+        "$value": "none",
+        "sourceVar": "--button-fill-shadow",
+        "measuredFrom": [
+          "src/index.css:275"
+        ]
+      },
+      "button-fill-opacity": {
+        "$type": "number",
+        "$value": "0.2",
+        "sourceVar": "--button-fill-opacity",
+        "measuredFrom": [
+          "src/index.css:276"
+        ]
+      },
+      "logo-filter": {
+        "$type": "filter",
+        "$value": "brightness(0) invert(1)",
+        "sourceVar": "--logo-filter",
+        "measuredFrom": [
+          "src/index.css:281"
+        ]
+      },
+      "nav-squished-shadow": {
+        "$type": "shadow",
+        "$value": "0 2px 8px -2px rgba(0, 0, 0, 0.56)",
+        "sourceVar": "--nav-squished-shadow",
+        "measuredFrom": [
+          "src/index.css:282"
+        ]
+      },
+      "glass-popover-bg": {
+        "$type": "gradient",
+        "$value": "radial-gradient(circle at 66.66% 50%, #1D1D29 0%, #0F0F15 80%)",
+        "sourceVar": "--glass-popover-bg",
+        "measuredFrom": [
+          "src/index.css:284"
+        ]
+      },
+      "glass-popover-shadow": {
+        "$type": "shadow",
+        "$value": "#111118 0 0 24px 0 inset, #2F2F41 0 0.5px 0 0.75px, rgba(0, 0, 0, 0.01) 6px 37px 10px 0, rgba(0, 0, 0, 0.04) 4px 24px 10px 0, rgba(0, 0, 0, 0.14) 2px 13px 8px 0, rgba(0, 0, 0, 0.24) 1px 6px 6px 0, rgba(0, 0, 0, 0.27) 0 1px 3px 0",
+        "sourceVar": "--glass-popover-shadow",
+        "measuredFrom": [
+          "src/index.css:285"
+        ]
+      },
+      "glass-card-image": {
+        "$type": "gradient",
+        "$value": "radial-gradient(circle at 66.66% 50%, rgba(26, 26, 37, 0.5) 0%, rgba(15, 15, 21, 0.5) 80%)",
+        "sourceVar": "--glass-card-image",
+        "measuredFrom": [
+          "src/index.css:287"
+        ]
+      },
+      "glass-card-shadow": {
+        "$type": "shadow",
+        "$value": "#111118 0 0 24px 0 inset, #2F2F41 0 0.5px 0 0.75px, rgba(0, 0, 0, 0.01) 6px 37px 10px 0, rgba(0, 0, 0, 0.04) 4px 24px 10px 0, rgba(0, 0, 0, 0.14) 2px 13px 8px 0, rgba(0, 0, 0, 0.24) 1px 6px 6px 0, rgba(0, 0, 0, 0.27) 0 1px 3px 0",
+        "sourceVar": "--glass-card-shadow",
+        "measuredFrom": [
+          "src/index.css:288"
+        ]
+      },
+      "glass-card-hover-shadow": {
+        "$type": "shadow",
+        "$value": "inset 0 0 24px rgba(255, 255, 255, 0.08), 0 0.5px 0 0.75px rgba(255, 255, 255, 0.15), rgba(0, 0, 0, 0.01) 6px 37px 10px 0, rgba(0, 0, 0, 0.04) 4px 24px 10px 0, rgba(0, 0, 0, 0.14) 2px 13px 8px 0, rgba(0, 0, 0, 0.24) 1px 6px 6px 0, rgba(0, 0, 0, 0.27) 0 1px 3px 0",
+        "sourceVar": "--glass-card-hover-shadow",
+        "measuredFrom": [
+          "src/index.css:289"
+        ]
+      },
+      "window-shadow": {
+        "$type": "shadow",
+        "$value": "rgba(245, 192, 192, 0.3) 0 0 0 1px, rgba(0, 0, 0, 0.25) 0 103px 103px 0, rgba(0, 0, 0, 0.3) 0 26px 57px 0",
+        "sourceVar": "--window-shadow",
+        "measuredFrom": [
+          "src/index.css:293"
+        ]
+      },
+      "window-hover-shadow": {
+        "$type": "shadow",
+        "$value": "rgba(245, 192, 192, 0.3) 0 0 0 1px, rgba(0, 0, 0, 0.25) 0 103px 103px 0, rgba(0, 0, 0, 0.3) 0 26px 57px 0",
+        "sourceVar": "--window-hover-shadow",
+        "measuredFrom": [
+          "src/index.css:294",
+          "specs/SHARED_BUILT.md:159"
+        ],
+        "evidence": "NOT MEASURED on dark: reuses the dark rest shadow"
+      },
+      "checker-img": {
+        "$type": "asset",
+        "$value": "url(\"data:image/svg+xml",
+        "sourceVar": "--checker-img",
+        "measuredFrom": [
+          "src/index.css:277"
+        ]
+      },
+      "texture-paper-img": {
+        "$type": "asset",
+        "$value": "url(/assets/textures/bkg-noise.webp)",
+        "sourceVar": "--texture-paper-img",
+        "measuredFrom": [
+          "src/index.css:244"
+        ]
+      },
+      "texture-paper-size": {
+        "$type": "dimension",
+        "$value": "200px 200px",
+        "sourceVar": "--texture-paper-size",
+        "measuredFrom": [
+          "src/index.css:245"
+        ]
+      },
+      "texture-paper-opacity": {
+        "$type": "number",
+        "$value": "0.0625",
+        "sourceVar": "--texture-paper-opacity",
+        "measuredFrom": [
+          "src/index.css:246"
+        ]
+      }
+    }
+  }
+}

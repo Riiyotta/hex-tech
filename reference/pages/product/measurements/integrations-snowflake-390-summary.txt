@@ -1,0 +1,48 @@
+# integrations-snowflake @390 — doc height 10494 (1440: 6253)
+
+## Sections (matched by component class from the 1440 section list)
+- 0 RunningText__ @1440 [100,1245,1240,470] → @390 [48, 1804, 294, 432] (+2 more)  | H2:How it works
+- 1 IntegrationBlockRenderer__ @1440 [29,1815,1382,2529] → @390 [73, 3252, 244, 26] (+8 more)  | H2:Why is Hex great for Snowflake? / H4:Data apps
+- 2 IntegrationDetailContent__ @1440 [100,4444,1240,632] → @390 [48, 309, 294, 198] (+2 more)  | H2:See it in action
+- 3 ExternalLinks__ @1440 [100,5176,1240,390] → @390 [48, 8158, 294, 1090] (+52 more)  | 
+
+## Text roles @390 (H1–H4, lead/body P, buttons): tag [x,y,w,h] «text» font/size/lh
+- H1 [48, 309, 294, 198] «The best front-end for the AI Data Cloud» fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px; margin:0px 0px 20px; textAlign:center
+- P [48, 526, 294, 120] «Hex makes it easy to securely and efficiently quer» fontSize:20px; fontWeight:300; lineHeight:30px; margin:0px 0px 25px; textAlign:center
+- P [173, 1271, 43, 16] «Notion» fontFamily:"Cinetype Mono"; fontSize:10px; lineHeight:15.71px; letterSpacing:0.833px; textAlign:center
+- P [170, 1608, 51, 16] «Opensea» fontFamily:"Cinetype Mono"; fontSize:10px; lineHeight:15.71px; letterSpacing:0.833px; textAlign:center
+- H2 [48, 1745, 294, 39] «How it works» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px; margin:0px 0px 20px
+- P [48, 1804, 294, 160] «Hex is an all-in-one, unified workspace for buildi» fontSize:18px; lineHeight:32px; margin:0px 0px 24px
+- P [48, 1988, 294, 128] «Hex is the ultimate front-end experience for Snowf» fontSize:18px; lineHeight:32px; margin:0px 0px 24px
+- P [48, 2140, 294, 96] «Use Snowflake credits to purchase Hex through the » fontSize:18px; lineHeight:32px
+- H2 [77, 2644, 235, 117] «Why is Hex great for Snowflake?» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px
+- P [77, 2777, 235, 240] «Hex enables data teams to build advanced analytics» fontSize:20px; fontWeight:300; lineHeight:30px
+- H4 [73, 3252, 244, 26] «Data apps» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 8px
+- P [73, 3286, 244, 48] «Provide actionable analytics built into user workf» fontSize:16px; fontWeight:300; lineHeight:24px
+- H4 [73, 3578, 244, 26] «Data science» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 8px
+- P [73, 3612, 244, 48] «Surface complex and predictive insights.» fontSize:16px; fontWeight:300; lineHeight:24px
+- H4 [73, 3905, 244, 26] «Enhanced self-service» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 8px
+- P [73, 3939, 244, 72] «Enable AI-enhanced, ad-hoc question-answering in a» fontSize:16px; fontWeight:300; lineHeight:24px
+- H2 [77, 4116, 235, 156] «Hex offers a new approach to data and analytics» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px
+- H4 [73, 4409, 244, 26] «Native data connection» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 8px
+- P [73, 4443, 244, 48] «Connect to your Snowflake data for SQL and Python » fontSize:16px; fontWeight:300; lineHeight:24px; margin:0px 0px 20px
+- H4 [73, 4699, 244, 26] «No-code exploration» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 8px
+- P [73, 4733, 244, 72] «Perform drag-and-drop data exploration and create » fontSize:16px; fontWeight:300; lineHeight:24px; margin:0px 0px 20px
+- H4 [73, 5014, 244, 26] «AI code generation» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 8px
+- P [73, 5048, 244, 48] «Use Hex Magic to generate and debug Snowpark code» fontSize:16px; fontWeight:300; lineHeight:24px; margin:0px 0px 20px
+- H4 [73, 5320, 244, 26] «Governed data models» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 8px
+- P [73, 5354, 244, 48] «Sync your Snowflake Semantic Views for trusted sel» fontSize:16px; fontWeight:300; lineHeight:24px; margin:0px 0px 20px
+- H4 [73, 5610, 244, 52] «True AI model residency» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 8px
+- P [73, 5670, 244, 48] «Tap into Snowflake Cortex and AISQL to speed up yo» fontSize:16px; fontWeight:300; lineHeight:24px
+- H4 [73, 5865, 244, 26] «Secure OAuth support» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 8px
+- P [73, 5899, 244, 48] «Configure OAuth for both Snowpark and Snowflake SQ» fontSize:16px; fontWeight:300; lineHeight:24px
+- H2 [77, 6052, 235, 156] «How does Hex compare to Snowflake Notebooks?» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px
+- H3 [48, 6296, 294, 52] «Data Exploration in Snowflake» fontFamily:"PP Formula"; fontSize:20px; fontWeight:800; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 24px
+- P [48, 6372, 294, 32] «Multiple products» fontSize:18px; lineHeight:32px; margin:0px 0px 24px
+- P [48, 6428, 294, 256] «Snowflake notebooks are best for one-off, individu» fontSize:18px; lineHeight:32px
+- H3 [48, 6724, 294, 26] «Hex» fontFamily:"PP Formula"; fontSize:20px; fontWeight:800; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 24px
+- P [48, 6774, 294, 32] «One Platform for all data workflows» fontSize:18px; lineHeight:32px; margin:0px 0px 24px
+- P [48, 6830, 294, 288] «Hex is a platform designed for multiple personas -» fontSize:18px; lineHeight:32px
+- H2 [164, 7281, 62, 39] «FAQ» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px; margin:15px 0px
+- P [48, 7480, 294, 48] «Can't find your answer here? .» fontSize:16px; fontWeight:300; lineHeight:24px; margin:35px 0px 0px; textAlign:center
+- H2 [48, 7789, 294, 39] «See it in action» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px; margin:0px 0px 30px

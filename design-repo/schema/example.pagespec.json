@@ -1,0 +1,185 @@
+{
+  "pageSpecVersion": "1.0.0",
+  "template": "template.integration-detail",
+  "route": "/product/integrations/quarry-lake/",
+  "theme": "dark",
+  "layout": "site",
+  "meta": {
+    "title": "Quarry Lake integration | Example workspace",
+    "description": "Connect a Quarry Lake warehouse, explore its tables with SQL and Python, and share governed apps without exporting files."
+  },
+  "nodes": [
+    {
+      "section": "shell.header",
+      "content": {},
+      "motion": {
+        "pattern": "nav-squish",
+        "trigger": "scroll-position",
+        "reducedMotionFallback": "instant-state-change"
+      }
+    },
+    {
+      "section": "hero.integration",
+      "content": {
+        "label": "Integration",
+        "logo": {
+          "assetRole": "logo.integration",
+          "alt": "Placeholder vendor logo",
+          "src": "placeholder:integration-logo"
+        },
+        "headline": "Query Quarry Lake tables from one flexible analytics workspace",
+        "description": "Connect Quarry Lake once, then explore its tables with SQL, Python and no-code cells while permissions stay where your administrators set them.",
+        "actions": [
+          {
+            "label": "Start a trial",
+            "href": "https://example.com/signup/",
+            "external": true,
+            "variant": "primary",
+            "size": "md"
+          },
+          {
+            "label": "Talk to sales",
+            "href": "/request-a-demo/",
+            "external": false,
+            "variant": "secondary",
+            "size": "md"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "reveal-on-mount",
+        "trigger": "on-mount",
+        "reducedMotionFallback": "show-final-state"
+      }
+    },
+    {
+      "section": "proof.stories-two-up",
+      "variant": "quotes-multiple",
+      "content": {
+        "stories": [
+          {
+            "logo": {
+              "assetRole": "logo.customer",
+              "alt": "Placeholder customer logo",
+              "src": "placeholder:customer-logo"
+            },
+            "quote": "Our analysts stopped exporting spreadsheets the week we connected the lake.",
+            "emphasis": "stopped exporting spreadsheets",
+            "name": "Rowan T.",
+            "title": "Analytics Lead, Example Logistics"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "reveal-fade-in",
+        "trigger": "in-view-once",
+        "reducedMotionFallback": "show-final-state"
+      }
+    },
+    {
+      "section": "divider.tron",
+      "variant": "default",
+      "content": {},
+      "motion": {
+        "pattern": "none",
+        "trigger": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "feature.how-it-works",
+      "content": {
+        "title": "How it works",
+        "layout": "two-column",
+        "body": [
+          {
+            "type": "paragraph",
+            "text": "Add a Quarry Lake connection with a service account, choose which schemas to expose, and every notebook in the workspace can query them directly without moving data."
+          },
+          {
+            "type": "list",
+            "items": [
+              "Pick the schemas to share",
+              "Query them from SQL or Python cells",
+              "Publish an app with the same permissions"
+            ]
+          }
+        ],
+        "actions": [
+          {
+            "label": "Request a walkthrough",
+            "href": "/request-a-demo/",
+            "variant": "primary",
+            "size": "md"
+          }
+        ],
+        "illustration": {
+          "assetRole": "image.product-ui",
+          "alt": "Illustrative stack of three connection cards",
+          "src": "placeholder:connection-cards"
+        }
+      },
+      "motion": {
+        "pattern": "reveal-fade-in",
+        "trigger": "in-view-once",
+        "reducedMotionFallback": "show-final-state"
+      }
+    },
+    {
+      "section": "faq.accordion",
+      "variant": "page",
+      "content": {
+        "title": "FAQ",
+        "items": [
+          {
+            "question": "Does Quarry Lake data leave the warehouse?",
+            "answer": [
+              {
+                "type": "paragraph",
+                "text": "No. Queries run inside Quarry Lake and only the result rows a cell needs are returned to the workspace, so warehouse permissions keep applying."
+              }
+            ]
+          }
+        ],
+        "showFooter": true
+      },
+      "motion": {
+        "pattern": "reveal-fade-in",
+        "trigger": "in-view-once",
+        "reducedMotionFallback": "show-final-state"
+      }
+    },
+    {
+      "section": "collection.external-links",
+      "content": {
+        "banner": "Learn more",
+        "links": [
+          {
+            "title": "Setting up a Quarry Lake connection",
+            "source": "Example docs",
+            "href": "https://example.com/docs/quarry-lake/"
+          },
+          {
+            "title": "Sharing apps built on lake data",
+            "source": "Example blog",
+            "href": "https://example.com/blog/lake-apps/"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "reveal-fade-in",
+        "trigger": "in-view-once",
+        "reducedMotionFallback": "show-final-state"
+      }
+    },
+    {
+      "section": "shell.footer",
+      "content": {},
+      "motion": {
+        "pattern": "reveal-fade-in",
+        "trigger": "in-view-once",
+        "reducedMotionFallback": "show-final-state"
+      }
+    }
+  ]
+}

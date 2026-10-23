@@ -1,0 +1,43 @@
+{
+  "id": "component.info-text",
+  "purpose": "Icon -> heading (h3 or h2 size) -> optional description -> optional CTA column.",
+  "composes": [
+    "primitive.button"
+  ],
+  "props": {
+    "size": {
+      "type": "enum",
+      "measuredFrom": [
+        "specs/SHARED_BUILT.md:41"
+      ],
+      "enum": [
+        "h3",
+        "h2"
+      ]
+    },
+    "eyebrow": {
+      "type": "text",
+      "measuredFrom": [
+        "specs/SHARED_BUILT.md:43"
+      ]
+    },
+    "cta": {
+      "type": "object",
+      "measuredFrom": [
+        "specs/SHARED_BUILT.md:42"
+      ]
+    }
+  },
+  "tokens": [
+    "component.info-text.column-width",
+    "component.info-text.gap",
+    "typography.scale.heading-3",
+    "typography.scale.heading-2"
+  ],
+  "measuredFrom": [
+    "CLONE_SPEC.md:215",
+    "src/components/shared/InfoText.jsx:25"
+  ],
+  "layer": "component",
+  "provisional": true
+}

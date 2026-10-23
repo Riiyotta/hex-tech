@@ -1,0 +1,511 @@
+{
+  "vw": 390,
+  "docH": 18178,
+  "secs": [
+    [
+      "header",
+      {
+        "x": 0,
+        "y": 258,
+        "w": 390,
+        "h": 56,
+        "disp": "grid",
+        "dir": "row",
+        "pad": "0px",
+        "gap": "normal",
+        "gtc": "subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []"
+      }
+    ],
+    [
+      "__stage",
+      {
+        "x": 8,
+        "y": 0,
+        "w": 374,
+        "h": 941,
+        "disp": "block",
+        "dir": "row",
+        "pad": "102px 0px 0px",
+        "gap": "normal"
+      }
+    ],
+    [
+      "HomeSimplifiedHero-module__-rifNW__hero",
+      {
+        "x": 8,
+        "y": 102,
+        "w": 374,
+        "h": 839,
+        "disp": "flex",
+        "dir": "column",
+        "pad": "100px 32px 87.8px",
+        "gap": "40px"
+      }
+    ],
+    [
+      "CustomerBanner-module__QGw5Ra__frame",
+      {
+        "x": 8,
+        "y": 941,
+        "w": 374,
+        "h": 503,
+        "disp": "block",
+        "dir": "row",
+        "pad": "0px",
+        "gap": "normal"
+      }
+    ],
+    [
+      "HomeBuiltDifferent-module__X_TMTG__builtDifferent",
+      {
+        "x": 8,
+        "y": 1444,
+        "w": 374,
+        "h": 444,
+        "disp": "flex",
+        "dir": "row",
+        "pad": "0px",
+        "gap": "normal"
+      }
+    ],
+    [
+      "HomeTrustedAnswers-module__G5svba__content",
+      {
+        "x": 28,
+        "y": 1888,
+        "w": 334,
+        "h": 1327,
+        "disp": "block",
+        "dir": "row",
+        "pad": "20px 0px",
+        "gap": "normal"
+      }
+    ],
+    [
+      "HomeOrganizationContext-module__wQwOha__content",
+      {
+        "x": 28,
+        "y": 3215,
+        "w": 334,
+        "h": 891,
+        "disp": "block",
+        "dir": "row",
+        "pad": "0px",
+        "gap": "normal"
+      }
+    ],
+    [
+      "HomeConversationalAnalytics-module__EjFBoa__content",
+      {
+        "x": 28,
+        "y": 4106,
+        "w": 334,
+        "h": 972,
+        "disp": "block",
+        "dir": "row",
+        "pad": "20px 0px",
+        "gap": "normal"
+      }
+    ],
+    [
+      "HomeContextStudio-module__npjq9a__content",
+      {
+        "x": 28,
+        "y": 5077,
+        "w": 334,
+        "h": 1366,
+        "disp": "block",
+        "dir": "row",
+        "pad": "20px 0px",
+        "gap": "normal"
+      }
+    ],
+    [
+      "HomeProductEthos-module__bpl4nW__productEthos",
+      {
+        "x": 28,
+        "y": 6443,
+        "w": 334,
+        "h": 1456,
+        "disp": "grid",
+        "dir": "row",
+        "pad": "0px 0px 20px",
+        "gap": "20px",
+        "gtc": "334.344px"
+      }
+    ],
+    [
+      "CustomerStoriesTwoUp__Section",
+      {
+        "x": 0,
+        "y": 7899,
+        "w": 390,
+        "h": 660,
+        "disp": "grid",
+        "dir": "row",
+        "pad": "0px",
+        "gap": "normal",
+        "gtc": "subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []"
+      }
+    ],
+    [
+      "HomeUseCases-module__7W7WPW__useCases",
+      {
+        "x": 8,
+        "y": 8560,
+        "w": 374,
+        "h": 1352,
+        "disp": "block",
+        "dir": "row",
+        "pad": "70px 0px 67.625px",
+        "gap": "normal"
+      }
+    ],
+    [
+      "CustomerStoriesTout__Inner",
+      {
+        "x": 8,
+        "y": 9982,
+        "w": 374,
+        "h": 2726,
+        "disp": "flex",
+        "dir": "column",
+        "pad": "0px 32px",
+        "gap": "normal"
+      }
+    ],
+    [
+      "CustomerStoriesTout__GridInner",
+      {
+        "x": 41,
+        "y": 10406,
+        "w": 308,
+        "h": 1231,
+        "disp": "grid",
+        "dir": "row",
+        "pad": "0px",
+        "gap": "normal",
+        "gtc": "308.344px"
+      }
+    ],
+    [
+      "SocialTout__Inner",
+      {
+        "x": 40,
+        "y": 11678,
+        "w": 310,
+        "h": 1030,
+        "disp": "flex",
+        "dir": "column",
+        "pad": "0px",
+        "gap": "30px"
+      }
+    ],
+    [
+      "IntegrationsTout__Inner",
+      {
+        "x": 8,
+        "y": 12818,
+        "w": 374,
+        "h": 2604,
+        "disp": "flex",
+        "dir": "column",
+        "pad": "0px 40px",
+        "gap": "normal"
+      }
+    ],
+    [
+      "IntegrationsTout__Grid",
+      {
+        "x": 48,
+        "y": 13189,
+        "w": 294,
+        "h": 2234,
+        "disp": "flex",
+        "dir": "column",
+        "pad": "0px",
+        "gap": "20px"
+      }
+    ],
+    [
+      "BottomCTATout__Content",
+      {
+        "x": 8,
+        "y": 15539,
+        "w": 374,
+        "h": 472,
+        "disp": "flex",
+        "dir": "column",
+        "pad": "0px",
+        "gap": "normal"
+      }
+    ],
+    [
+      "FAQ__Inner",
+      {
+        "x": 8,
+        "y": 16233,
+        "w": 374,
+        "h": 724,
+        "disp": "flex",
+        "dir": "column",
+        "pad": "0px",
+        "gap": "normal"
+      }
+    ],
+    [
+      "footer",
+      {
+        "x": 8,
+        "y": 17037,
+        "w": 374,
+        "h": 1114,
+        "disp": "flex",
+        "dir": "column",
+        "pad": "0px",
+        "gap": "normal"
+      }
+    ],
+    [
+      "Footer__Inner",
+      {
+        "x": 8,
+        "y": 17038,
+        "w": 374,
+        "h": 1112,
+        "disp": "flex",
+        "dir": "column",
+        "pad": "50px 30px",
+        "gap": "45px"
+      }
+    ],
+    [
+      "sharedStyles__SectionWrapper",
+      {
+        "x": 28,
+        "y": 1908,
+        "w": 334,
+        "h": 1287,
+        "disp": "flex",
+        "dir": "column",
+        "pad": "0px",
+        "gap": "0px"
+      }
+    ],
+    [
+      "HomeConversationalAnalyticsProjectWindows-module__gM9WiG__projectWindows",
+      {
+        "x": 28,
+        "y": 4370,
+        "w": 334,
+        "h": 497,
+        "disp": "grid",
+        "dir": "row",
+        "pad": "0px",
+        "gap": "12px",
+        "gtc": "334.344px"
+      }
+    ],
+    [
+      "CustomerBanner-module__QGw5Ra__logos",
+      {
+        "x": 8,
+        "y": 941,
+        "w": 374,
+        "h": 502,
+        "disp": "flex",
+        "dir": "row",
+        "pad": "44px 32px 40px",
+        "gap": "14px 39px"
+      }
+    ],
+    [
+      "Nav__NavigationRootEl",
+      {
+        "x": 8,
+        "y": 258,
+        "w": 374,
+        "h": 56,
+        "disp": "grid",
+        "dir": "row",
+        "pad": "8px 0px",
+        "gap": "normal",
+        "gtc": "187.172px 0px 187.172px"
+      }
+    ],
+    [
+      "MobileNav__HamburgerButton",
+      {
+        "x": 334,
+        "y": 266,
+        "w": 40,
+        "h": 40,
+        "disp": "grid",
+        "dir": "row",
+        "pad": "0px",
+        "gap": "normal",
+        "gtc": "40px"
+      }
+    ],
+    [
+      "Header__TickerWrapper",
+      {
+        "x": 0,
+        "y": 258,
+        "w": 390,
+        "h": 27,
+        "disp": "grid",
+        "dir": "row",
+        "pad": "0px",
+        "gap": "normal",
+        "gtc": "subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []"
+      }
+    ]
+  ],
+  "heads": [
+    "H1 | The Analytics platform for humans an | 42px | 50.4px | -1.05px | 34 | 202 | 322 | 294",
+    "P | Rethinking | 20px | 30px | normal | 103 | 516 | 102 | 30",
+    "A | BI | 14px | 21.994px | normal | 213 | 510 | 74 | 42",
+    "P | BI | 20px | normal | normal | 256 | 519 | 18 | 24",
+    "A | Conversational analytics | 14px | 21.994px | normal | 53 | 561 | 284 | 42",
+    "P | Conversational analytics | 20px | normal | normal | 96 | 570 | 228 | 24",
+    "P | and | 20px | 30px | normal | 43 | 618 | 35 | 30",
+    "A | Context management | 14px | 21.994px | normal | 87 | 612 | 260 | 42",
+    "P | Context management | 20px | normal | normal | 130 | 621 | 204 | 24",
+    "P | for the agentic era. | 20px | 30px | normal | 104 | 663 | 182 | 30",
+    "DIV | Get started for free | 14px | 21.994px | normal | 131 | 747 | 128 | 22",
+    "DIV | Request a demo | 14px | 21.994px | normal | 142 | 817 | 106 | 22",
+    "H2 | TRUSTED BY LEADING DATA COMPANIES | 10px | 12px | 0.833px | 63 | 935 | 265 | 12",
+    "H2 | A different approach to Analytics an | 38px | 49.4px | -1.1704px | 22 | 1464 | 346 | 204",
+    "P | BI tools, chat apps, and vibe-coding | 20px | 30px | normal | 28 | 1678 | 334 | 210",
+    "H3 | Ask a question, get a trusted answer | 20px | 26px | -0.5px | 28 | 1978 | 334 | 52",
+    "DIV | Explore self-serve insights | 14px | 21.994px | normal | 49 | 2060 | 176 | 22",
+    "BLOCKQUOTE | \"The ability to use Hex in any way w | 14px | 21.994px | normal | 28 | 3011 | 334 | 96",
+    "P | \"The ability to use Hex in any way w | 16px | 24px | normal | 55 | 3011 | 307 | 96",
+    "P | Nithin Bose. VP of Customer Engineer | 12px | 18.852px | 0.9996px | 134 | 3127 | 228 | 38",
+    "H3 | Ground every answer in your organiza | 20px | 26px | -0.5px | 28 | 3295 | 334 | 52",
+    "DIV | Explore the Context Engine | 14px | 21.994px | normal | 49 | 3377 | 179 | 22",
+    "BLOCKQUOTE | \"It's something I check every day —  | 14px | 21.994px | normal | 28 | 3914 | 334 | 120",
+    "P | \"It's something I check every day —  | 16px | 24px | normal | 55 | 3914 | 307 | 120",
+    "P | Craig W. Staff Data Engineer | 12px | 18.852px | 0.9996px | 98 | 4055 | 243 | 19",
+    "H3 | Share insights with generative dashb | 20px | 26px | -0.5px | 28 | 4206 | 334 | 52",
+    "DIV | Explore AI app building | 14px | 21.994px | normal | 49 | 4288 | 151 | 22",
+    "BLOCKQUOTE | \"With Hex's Notebook Agent, I never  | 14px | 21.994px | normal | 28 | 4898 | 334 | 72",
+    "P | \"With Hex's Notebook Agent, I never  | 16px | 24px | normal | 55 | 4898 | 307 | 72",
+    "P | Molly Jane Nicholas. Senior Research | 12px | 18.852px | 0.9996px | 115 | 4990 | 247 | 38",
+    "H3 | See what people are asking, and whet | 20px | 26px | -0.5px | 28 | 5177 | 334 | 78",
+    "DIV | Explore the Context Studio | 14px | 21.994px | normal | 49 | 5285 | 176 | 22",
+    "BLOCKQUOTE | \"We have so many people and products | 14px | 21.994px | normal | 28 | 6167 | 334 | 168",
+    "P | \"We have so many people and products | 16px | 24px | normal | 55 | 6167 | 307 | 168",
+    "P | Jordan Farrer. Director of Data Scie | 12px | 18.852px | 0.9996px | 104 | 6355 | 258 | 38",
+    "H2 | Work with any data, any AI model, an | 20px | 26px | -0.5px | 42 | 6645 | 306 | 84",
+    "P | Your AI bill is getting big – but yo | 16px | 24px | normal | 48 | 6738 | 294 | 96",
+    "P | Hex helps you get control of this: | 16px | 24px | normal | 48 | 6854 | 294 | 24",
+    "P | Model choice, including open source  | 16px | 24px | normal | 72 | 6898 | 270 | 48",
+    "P | Thread-level observability into toke | 16px | 24px | normal | 72 | 6946 | 270 | 72",
+    "P | Eval sweeps that let you dial in the | 16px | 24px | normal | 72 | 7018 | 270 | 72",
+    "DIV | Explore how Hex keeps you flexible | 14px | 21.994px | normal | 69 | 7125 | 231 | 22",
+    "H2 | Secure your data, with enterprise-gr | 20px | 26px | -0.5px | 42 | 7409 | 306 | 84",
+    "P | Hex is built so organizations can op | 16px | 24px | normal | 48 | 7502 | 294 | 48",
+    "P | Bring AI and data work onto a platfo | 16px | 24px | normal | 48 | 7570 | 294 | 120",
+    "P | The infrastructure stays rigorous so | 16px | 24px | normal | 48 | 7710 | 294 | 72",
+    "DIV | Explore Trust Center | 14px | 21.994px | normal | 69 | 7817 | 134 | 22",
+    "Q | \"If we didn’t have Hex, we might’ve  | 20px | 30px | normal | 20 | 8000 | 350 | 120",
+    "P | Dhaval P. | 14px | 21.994px | normal | 165 | 8136 | 59 | 22",
+    "P | Account Lead | 12px | 18.852px | 0.9996px | 143 | 8158 | 104 | 19",
+    "Q | \"AI can do almost everything for you | 20px | 30px | normal | 20 | 8330 | 350 | 120",
+    "P | Tom C. | 14px | 21.994px | normal | 173 | 8466 | 43 | 22",
+    "P | Principal Engineer | 12px | 18.852px | 0.9996px | 117 | 8488 | 156 | 19",
+    "H2 | Use cases Get the most out of Hex | 30px | 39px | -0.75px | 22 | 8710 | 334 | 96",
+    "SPAN | Get the most out of Hex | 39px | 50.7px | -0.75px | 28 | 8749 | 322 | 51",
+    "H3 | Migrate from traditional BI to moder | 20px | 26px | -0.5px | 28 | 8974 | 314 | 78",
+    "P | Move beyond static dashboards and gi | 16px | 24px | normal | 28 | 9060 | 334 | 96",
+    "H3 | Build a Context Layer for AI on data | 20px | 26px | -0.5px | 28 | 9322 | 314 | 52",
+    "P | Bring business logic, definitions, m | 16px | 24px | normal | 28 | 9382 | 334 | 96",
+    "H3 | Make chat apps work with data | 20px | 26px | -0.5px | 28 | 9644 | 314 | 52",
+    "P | Let teams work from Claude, Codex, C | 16px | 24px | normal | 28 | 9704 | 334 | 120",
+    "H2 | Loved by the best data teams | 38px | 49.4px | -1.1704px | 65 | 10067 | 260 | 164",
+    "P | Hex helps companies of all sizes do  | 20px | 30px | normal | 71 | 10231 | 248 | 90",
+    "H4 | One place for insights | 20px | 26px | -0.5px | 71 | 10521 | 248 | 26",
+    "P | Notion made Hex the one place for ev | 16px | 24px | normal | 71 | 10562 | 248 | 96",
+    "H4 | Scaling self-serve AI analytics | 20px | 26px | -0.5px | 71 | 10834 | 248 | 52",
+    "P | Mercor democratizes analysis across  | 16px | 24px | normal | 71 | 10901 | 248 | 72",
+    "H4 | Lowering barriers to insight | 20px | 26px | -0.5px | 71 | 11149 | 248 | 52",
+    "P | Figma's team focuses on strategy ove | 16px | 24px | normal | 71 | 11216 | 248 | 72",
+    "H4 | Breaking data silos | 20px | 26px | -0.5px | 71 | 11464 | 248 | 26",
+    "P | Neo drives insights right where they | 16px | 24px | normal | 71 | 11505 | 248 | 72",
+    "H3 | Users love Hex | 20px | 26px | -0.5px | 71 | 11909 | 248 | 26",
+    "P | Rated on G2 as an industry leader ba | 14px | 21.994px | normal | 71 | 11939 | 248 | 66",
+    "BLOCKQUOTE | \"Our vision for Notion's data team i | 22px | 33px | normal | 120 | 12172 | 185 | 429",
+    "P | Abhishek Modi  Software Engineer at  | 14px | 21.994px | normal | 132 | 12626 | 173 | 44",
+    "H2 | Instant integration with the whole s | 38px | 49.4px | -1.1704px | 42 | 12818 | 306 | 236",
+    "P | Out-of-the-box connections and flexi | 20px | 30px | normal | 48 | 13069 | 294 | 90",
+    "DIV |  | 12px | 18.852px | normal | 82 | 13215 | 117 | 36",
+    "DIV |  | 12px | 18.852px | normal | 211 | 13215 | 97 | 36",
+    "DIV |  | 12px | 18.852px | normal | 79 | 13258 | 95 | 36",
+    "DIV |  | 12px | 18.852px | normal | 187 | 13258 | 124 | 36",
+    "DIV |  | 12px | 18.852px | normal | 77 | 13298 | 20 | 36",
+    "DIV |  | 12px | 18.852px | normal | 108 | 13298 | 20 | 36",
+    "DIV |  | 12px | 18.852px | normal | 139 | 13298 | 20 | 36",
+    "DIV |  | 12px | 18.852px | normal | 170 | 13298 | 20 | 36",
+    "DIV |  | 12px | 18.852px | normal | 201 | 13298 | 20 | 36",
+    "DIV |  | 12px | 18.852px | normal | 232 | 13298 | 20 | 36",
+    "DIV |  | 12px | 18.852px | normal | 263 | 13298 | 20 | 36",
+    "DIV |  | 12px | 18.852px | normal | 294 | 13298 | 20 | 36",
+    "H4 | Built for the warehouse | 20px | 26px | -0.5px | 73 | 13389 | 244 | 52",
+    "P | Hex has built-in connections to the  | 14px | 21.994px | normal | 73 | 13448 | 244 | 110",
+    "DIV | dbt | 12px | 18.852px | normal | 161 | 13649 | 69 | 36",
+    "P | dbt | 16px | 24px | normal | 196 | 13655 | 26 | 24",
+    "H4 | dbt metadata, docs, & metrics | 20px | 26px | -0.5px | 73 | 13818 | 244 | 52",
+    "P | Hex has a deep integration with dbt, | 14px | 21.994px | normal | 73 | 13877 | 244 | 66",
+    "DIV | Snowflake | 12px | 18.852px | normal | 77 | 14034 | 120 | 36",
+    "P | Snowflake | 16px | 24px | normal | 112 | 14040 | 77 | 24",
+    "DIV | BigQuery | 12px | 18.852px | normal | 200 | 14034 | 113 | 36",
+    "P | BigQuery | 16px | 24px | normal | 235 | 14040 | 70 | 24",
+    "DIV | Databricks | 12px | 18.852px | normal | 134 | 14074 | 123 | 36",
+    "P | Databricks | 16px | 24px | normal | 169 | 14080 | 80 | 24",
+    "H4 | Connect to your warehouse with oAuth | 20px | 26px | -0.5px | 73 | 14203 | 244 | 52",
+    "P | Leverage the permissions set up in y | 14px | 21.994px | normal | 73 | 14262 | 244 | 66",
+    "DIV | GitHub | 12px | 18.852px | normal | 99 | 14419 | 95 | 36",
+    "P | GitHub | 16px | 24px | normal | 134 | 14425 | 52 | 24",
+    "DIV | GitLab | 12px | 18.852px | normal | 198 | 14419 | 92 | 36",
+    "P | GitLab | 16px | 24px | normal | 233 | 14425 | 49 | 24",
+    "H4 | Git it together | 20px | 26px | -0.5px | 73 | 14588 | 244 | 26",
+    "P | Export your projects to GitHub or Gi | 14px | 21.994px | normal | 73 | 14621 | 244 | 44",
+    "DIV | Airflow | 12px | 18.852px | normal | 94 | 14756 | 96 | 36",
+    "P | Airflow | 16px | 24px | normal | 129 | 14762 | 53 | 24",
+    "DIV | Dagster | 12px | 18.852px | normal | 194 | 14756 | 102 | 36",
+    "P | Dagster | 16px | 24px | normal | 229 | 14762 | 59 | 24",
+    "DIV | Prefect | 12px | 18.852px | normal | 146 | 14796 | 97 | 36",
+    "P | Prefect | 16px | 24px | normal | 181 | 14802 | 54 | 24",
+    "H4 | Orchestration | 20px | 26px | -0.5px | 73 | 14925 | 244 | 26",
+    "P | You can include Hex projects in DAGs | 14px | 21.994px | normal | 73 | 14958 | 244 | 44",
+    "H4 | Hex API | 20px | 26px | -0.5px | 73 | 15262 | 260 | 26",
+    "P | Want to connect to something we have | 14px | 21.994px | normal | 73 | 15295 | 260 | 88",
+    "H3 | Getting started is easy. | 20px | 26px | -0.5px | 42 | 15579 | 250 | 26",
+    "P | Connect Hex to your data warehouse a | 20px | 30px | normal | 48 | 15615 | 274 | 90",
+    "DIV | Get started for free | 14px | 21.994px | normal | 69 | 15744 | 128 | 22",
+    "DIV | Talk to us | 14px | 21.994px | normal | 259 | 15744 | 62 | 22",
+    "P | Check out all of our plans to fit yo | 16px | 24px | normal | 48 | 15861 | 274 | 48",
+    "DIV | See our plans | 14px | 21.994px | normal | 69 | 15939 | 89 | 22",
+    "H2 | FAQ | 30px | 39px | -0.75px | 164 | 16248 | 62 | 39",
+    "H3 | What is Hex? | 14px | 21.994px | normal | 8 | 16323 | 374 | 64",
+    "H3 | Who uses Hex? | 14px | 21.994px | normal | 8 | 16388 | 374 | 64",
+    "H3 | Why do data teams switch to Hex? | 14px | 21.994px | normal | 8 | 16453 | 374 | 64",
+    "H3 | Can business users access data witho | 14px | 21.994px | normal | 8 | 16518 | 374 | 88",
+    "H3 | How does Hex ensure AI answers are a | 14px | 21.994px | normal | 8 | 16607 | 374 | 88",
+    "H3 | How is Hex different from just using | 14px | 21.994px | normal | 8 | 16696 | 374 | 112",
+    "H3 | How is Hex different than point solu | 14px | 21.994px | normal | 8 | 16809 | 374 | 88",
+    "P | Can't find your answer here? Get in  | 16px | 24px | normal | 8 | 16933 | 374 | 24"
+  ],
+  "hidden": [
+    "CustomerLogo__CustomerStoryPopover-sc-8dd4a870-1 iWcctY CustomerLogo-module__-F7",
+    "CustomerLogo__CustomerStoryPopover-sc-8dd4a870-1 iWcctY CustomerLogo-module__-F7",
+    "CustomerLogo__CustomerStoryPopover-sc-8dd4a870-1 iWcctY CustomerLogo-module__-F7",
+    "CustomerLogo__CustomerStoryPopover-sc-8dd4a870-1 iWcctY CustomerLogo-module__-F7",
+    "CustomerLogo__CustomerStoryPopover-sc-8dd4a870-1 iWcctY CustomerLogo-module__-F7",
+    "CustomerLogo__CustomerStoryPopover-sc-8dd4a870-1 iWcctY CustomerLogo-module__-F7",
+    "CustomerLogo__CustomerStoryPopover-sc-8dd4a870-1 iWcctY CustomerLogo-module__-F7",
+    "CSSidebar__Wrapper-sc-909d60ae-0 ccqiiy"
+  ]
+}

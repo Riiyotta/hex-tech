@@ -1,0 +1,1452 @@
+{
+  "$description": "One template per distinct page shape. nodes[] are structured entries: {section, required, repeatable, variants?} or bounded {slot, allowedSections, minItems, maxItems}.",
+  "templates": {
+    "template.home": {
+      "id": "template.home",
+      "purpose": "Homepage: the full product story from hero to FAQ.",
+      "layout": "site",
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.home",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.customer-banner",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "framed"
+          ]
+        },
+        {
+          "section": "feature.built-different",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "feature.split",
+          "required": true,
+          "repeatable": true,
+          "variants": [
+            "chat-tools",
+            "org-cycle",
+            "project-windows",
+            "dashboard-evals"
+          ]
+        },
+        {
+          "section": "feature.ethos-cards",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.stories-two-up",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "two-up"
+          ]
+        },
+        {
+          "section": "feature.use-cases",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.story-tout",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "feature.integrations-grid",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.bottom-cta",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "divider.tron",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "faq.accordion",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "home"
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "measuredFrom": [
+        "CLONE_SPEC.md:43",
+        "reference/measurements/structure.json"
+      ],
+      "allowedThemes": [
+        "light"
+      ],
+      "routes": [
+        "/"
+      ],
+      "generationEligible": true
+    },
+    "template.product-feature": {
+      "id": "template.product-feature",
+      "purpose": "Bespoke V2 product/capability page: product hero then a page-specific composition of shared feature, proof and conversion sections.",
+      "layout": "site",
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.product",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "slot": "body",
+          "allowedSections": [
+            "proof.customer-banner",
+            "proof.full-width-quote",
+            "feature.section-heading",
+            "feature.split",
+            "feature.info-card-grid",
+            "feature.bento-cells",
+            "feature.perlin-callout",
+            "feature.approach-cards",
+            "collection.resource-cards",
+            "feature.command-list",
+            "feature.workflow-table",
+            "conversion.install-cta",
+            "feature.platform-overview",
+            "feature.observability-callouts",
+            "proof.stories-two-up",
+            "feature.workflow-split",
+            "proof.quotes-marquee",
+            "feature.demo-accordion",
+            "feature.magic",
+            "feature.cell-collage",
+            "feature.execution-dag",
+            "conversion.wallpaper-cta",
+            "proof.social-tout",
+            "collection.template-cards",
+            "faq.accordion",
+            "conversion.outro-tout"
+          ],
+          "minItems": 7,
+          "maxItems": 10,
+          "boundsDerivedFrom": "min/max over the observed member route sequences (templates/routes.json)"
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "measuredFrom": [
+        "specs/product.md:224"
+      ],
+      "notes": "Each member page is a distinct composition (spec T1); the slot is bounded by the observed member sequences in routes.json.",
+      "allowedThemes": [
+        "dark",
+        "light"
+      ],
+      "routes": [
+        "/product/bi/",
+        "/product/cli/",
+        "/product/context-studio/",
+        "/product/threads/",
+        "/product/notebooks/",
+        "/capability/ai/"
+      ],
+      "generationEligible": true
+    },
+    "template.product-v1": {
+      "id": "template.product-v1",
+      "purpose": "V1 marketing page (plain margins with 160px ticks, grid rules at cols 4/7/10): V1 hero, body blocks, outro.",
+      "layout": "site",
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.v1",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "slot": "body",
+          "allowedSections": [
+            "proof.customer-banner",
+            "feature.codegen-gallery",
+            "feature.snaked-rows",
+            "proof.social-tout",
+            "conversion.collage-cta",
+            "feature.section-heading",
+            "feature.v1-two-up",
+            "feature.icon-row",
+            "collection.template-cards"
+          ],
+          "minItems": 5,
+          "maxItems": 9,
+          "boundsDerivedFrom": "min/max over the observed member route sequences (templates/routes.json)"
+        },
+        {
+          "section": "conversion.outro-tout",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "default"
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "measuredFrom": [
+        "specs/product.md:225"
+      ],
+      "allowedThemes": [
+        "dark"
+      ],
+      "routes": [
+        "/product/data-apps/",
+        "/product/embedded-analytics/",
+        "/capability/exploratory-analysis/"
+      ],
+      "generationEligible": true
+    },
+    "template.long-form-guide": {
+      "id": "template.long-form-guide",
+      "purpose": "Long-form guide: cover card with TOC, chapter cards, closing quotes marquee.",
+      "layout": "site",
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.guide-document",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.guide-chapter",
+          "required": true,
+          "repeatable": true
+        },
+        {
+          "section": "proof.quotes-marquee",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "single-row"
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "measuredFrom": [
+        "specs/product.md:226"
+      ],
+      "allowedThemes": [
+        "dark"
+      ],
+      "routes": [
+        "/product/switching-to-hex/"
+      ],
+      "generationEligible": true
+    },
+    "template.integrations-index": {
+      "id": "template.integrations-index",
+      "purpose": "Integrations index: heading with callout, then categorized logo grids.",
+      "layout": "site",
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.heading-with-callout",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "collection.integration-category",
+          "required": true,
+          "repeatable": true
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "measuredFrom": [
+        "specs/product.md:227"
+      ],
+      "allowedThemes": [
+        "dark"
+      ],
+      "routes": [
+        "/product/integrations/"
+      ],
+      "generationEligible": true
+    },
+    "template.integration-detail": {
+      "id": "template.integration-detail",
+      "purpose": "Integration detail (one data-driven template): hero, optional quotes, tron, how it works, optional blocks, FAQ, video, links.",
+      "layout": "site",
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.integration",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.stories-two-up",
+          "required": false,
+          "repeatable": false,
+          "variants": [
+            "quotes-multiple"
+          ]
+        },
+        {
+          "section": "divider.tron",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "default"
+          ]
+        },
+        {
+          "section": "feature.how-it-works",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "feature.integration-custom-blocks",
+          "required": false,
+          "repeatable": false
+        },
+        {
+          "section": "faq.accordion",
+          "required": false,
+          "repeatable": false,
+          "variants": [
+            "page"
+          ]
+        },
+        {
+          "section": "feature.video-embed",
+          "required": false,
+          "repeatable": false
+        },
+        {
+          "section": "collection.external-links",
+          "required": false,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "measuredFrom": [
+        "specs/product.md:667",
+        "specs/product.md:673"
+      ],
+      "allowedThemes": [
+        "dark"
+      ],
+      "routes": [
+        "/product/integrations/airflow/",
+        "/product/integrations/aws/",
+        "/product/integrations/bigquery/",
+        "/product/integrations/clickhouse/",
+        "/product/integrations/dagster/",
+        "/product/integrations/databricks/",
+        "/product/integrations/dbt/",
+        "/product/integrations/dremio/",
+        "/product/integrations/github/",
+        "/product/integrations/mariadb/",
+        "/product/integrations/ms-sql-server/",
+        "/product/integrations/mysql/",
+        "/product/integrations/postgres/",
+        "/product/integrations/prefect/",
+        "/product/integrations/snowflake/",
+        "/product/integrations/trino/"
+      ],
+      "generationEligible": true
+    },
+    "template.solutions-hub": {
+      "id": "template.solutions-hub",
+      "purpose": "Solutions hub: rotating hero, logo band, filter chips and the filterable resource grid.",
+      "layout": "site",
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.solutions-hub",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.customer-banner",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "framed"
+          ]
+        },
+        {
+          "section": "navigation.filter-chips",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "solutions-hub"
+          ]
+        },
+        {
+          "section": "collection.resource-cards",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "glass-grid"
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:156"
+      ],
+      "allowedThemes": [
+        "dark"
+      ],
+      "routes": [
+        "/solutions/"
+      ],
+      "generationEligible": true
+    },
+    "template.solution-detail": {
+      "id": "template.solution-detail",
+      "purpose": "Solution detail (5 pages): hero, optional banner, feature rows with optional quotes, optional live app, heading, optional blog row, resources, band outro.",
+      "layout": "site",
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.solution",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.customer-banner",
+          "required": false,
+          "repeatable": false,
+          "variants": [
+            "minimal"
+          ]
+        },
+        {
+          "slot": "features",
+          "allowedSections": [
+            "feature.solution-row",
+            "proof.social-tout"
+          ],
+          "minItems": 3,
+          "maxItems": 6,
+          "boundsDerivedFrom": "min/max over the observed member route sequences (templates/routes.json)"
+        },
+        {
+          "section": "feature.live-app-embed",
+          "required": false,
+          "repeatable": false
+        },
+        {
+          "section": "feature.section-heading",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "solution"
+          ]
+        },
+        {
+          "section": "feature.solution-row",
+          "required": false,
+          "repeatable": false
+        },
+        {
+          "section": "collection.resource-cards",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "solution-articles"
+          ]
+        },
+        {
+          "section": "conversion.outro-tout",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "band"
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:273"
+      ],
+      "allowedThemes": [
+        "dark"
+      ],
+      "routes": [
+        "/solutions/data-leaders/",
+        "/solutions/customer-success/",
+        "/solutions/marketing/",
+        "/solutions/product-analytics/",
+        "/solutions/sales-analytics/"
+      ],
+      "generationEligible": true
+    },
+    "template.enterprise": {
+      "id": "template.enterprise",
+      "purpose": "Enterprise: hero, banner, security, governance, support, integrations, CTA split, FAQ.",
+      "layout": "site",
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.enterprise",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.customer-banner",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "minimal"
+          ]
+        },
+        {
+          "section": "feature.numbered-grid",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "feature.illustrated-checklist",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "feature.support-grid",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "feature.integrations-grid",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.cta-split",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "divider.tron",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "default"
+          ]
+        },
+        {
+          "section": "faq.accordion",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "page"
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:630"
+      ],
+      "allowedThemes": [
+        "dark"
+      ],
+      "routes": [
+        "/enterprise/"
+      ],
+      "generationEligible": true
+    },
+    "template.pricing": {
+      "id": "template.pricing",
+      "purpose": "Pricing: header, plan groups, banner, comparison table between tron dividers, FAQ.",
+      "layout": "site",
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.pricing",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "feature.plan-summary",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.customer-banner",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "minimal"
+          ]
+        },
+        {
+          "section": "divider.tron",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "default"
+          ]
+        },
+        {
+          "section": "feature.plan-comparison",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "divider.tron",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "flipped"
+          ]
+        },
+        {
+          "section": "faq.accordion",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "page"
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:698"
+      ],
+      "allowedThemes": [
+        "dark"
+      ],
+      "routes": [
+        "/pricing/"
+      ],
+      "generationEligible": true
+    },
+    "template.compare": {
+      "id": "template.compare",
+      "purpose": "Compare index: hero with vs. panel and a logo band.",
+      "layout": "site",
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.compare",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.customer-banner",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "framed"
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:885"
+      ],
+      "allowedThemes": [
+        "dark"
+      ],
+      "routes": [
+        "/compare/"
+      ],
+      "generationEligible": true
+    },
+    "template.partners": {
+      "id": "template.partners",
+      "purpose": "Partners program: hero, why, tiers, partner grid, visual-only register form.",
+      "layout": "site",
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.partners",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "feature.partners-why",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "divider.tron",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "default"
+          ]
+        },
+        {
+          "section": "feature.partner-tiers",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "collection.partners-grid",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.form-shell",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "partner-register"
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:901"
+      ],
+      "allowedThemes": [
+        "dark"
+      ],
+      "routes": [
+        "/partners/"
+      ],
+      "generationEligible": true
+    },
+    "template.form-page": {
+      "id": "template.form-page",
+      "purpose": "Lead form page (light or dark): heading, visual-only form, logo band.",
+      "layout": "site",
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.form",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.form-shell",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "demo-request",
+            "contact"
+          ]
+        },
+        {
+          "section": "proof.customer-banner",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "minimal"
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:920"
+      ],
+      "allowedThemes": [
+        "dark",
+        "light"
+      ],
+      "routes": [
+        "/request-a-demo/",
+        "/contact-us/"
+      ],
+      "generationEligible": true
+    },
+    "template.blog-index": {
+      "id": "template.blog-index",
+      "purpose": "Dark blog index: masthead, featured, recent strip, filtered feed.",
+      "layout": "site",
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.blog-masthead",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "collection.blog-featured",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "collection.blog-recent",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "collection.blog-feed",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "measuredFrom": [
+        "specs/company.md:226"
+      ],
+      "allowedThemes": [
+        "dark"
+      ],
+      "routes": [
+        "/blog/"
+      ],
+      "generationEligible": true
+    },
+    "template.article": {
+      "id": "template.article",
+      "purpose": "Article: dark header, light content slab.",
+      "layout": "site",
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.article",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.article-body",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "measuredFrom": [
+        "specs/company.md:249"
+      ],
+      "allowedThemes": [
+        "dark"
+      ],
+      "routes": [
+        "/blog/introducing-generative-data-apps/"
+      ],
+      "generationEligible": true
+    },
+    "template.customers-index": {
+      "id": "template.customers-index",
+      "purpose": "Customers index: hero, featured fan, quote marquee, filters, stories grid, logo wall.",
+      "layout": "site",
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.customers",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.featured-stories-fan",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.quotes-marquee",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "dual-row"
+          ]
+        },
+        {
+          "section": "navigation.filter-chips",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "customers"
+          ]
+        },
+        {
+          "section": "collection.customer-stories",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "index-grid"
+          ]
+        },
+        {
+          "section": "proof.logo-wall",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "customers"
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "measuredFrom": [
+        "specs/company.md:272"
+      ],
+      "allowedThemes": [
+        "light"
+      ],
+      "routes": [
+        "/customers/"
+      ],
+      "generationEligible": true
+    },
+    "template.customer-story": {
+      "id": "template.customer-story",
+      "purpose": "Customer story (one template, 8 pages): header grid, detail cards, body, related stories.",
+      "layout": "site",
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.story",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "feature.story-details",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.story-body",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "collection.customer-stories",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "related"
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "measuredFrom": [
+        "specs/company.md:292"
+      ],
+      "allowedThemes": [
+        "light"
+      ],
+      "routes": [
+        "/customers/chime/",
+        "/customers/figma/",
+        "/customers/langchain/",
+        "/customers/mercor/",
+        "/customers/neo-financial/",
+        "/customers/notion/",
+        "/customers/ramp/",
+        "/customers/stubhub/"
+      ],
+      "generationEligible": true
+    },
+    "template.about": {
+      "id": "template.about",
+      "purpose": "About: hero, logo band, investors, press teaser, team collage.",
+      "layout": "site",
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.about",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.customer-banner",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "framed"
+          ]
+        },
+        {
+          "section": "proof.logo-wall",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "investors"
+          ]
+        },
+        {
+          "section": "collection.newsroom-cards",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "teaser"
+          ]
+        },
+        {
+          "section": "feature.photo-collage",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "measuredFrom": [
+        "specs/company.md:141"
+      ],
+      "allowedThemes": [
+        "light"
+      ],
+      "routes": [
+        "/about/"
+      ],
+      "generationEligible": true
+    },
+    "template.careers": {
+      "id": "template.careers",
+      "purpose": "Careers: photo-wall hero, highlights, open roles.",
+      "layout": "site",
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.careers",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "feature.highlights",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "collection.open-roles",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "measuredFrom": [
+        "specs/company.md:175"
+      ],
+      "allowedThemes": [
+        "light"
+      ],
+      "routes": [
+        "/careers/"
+      ],
+      "generationEligible": true
+    },
+    "template.newsroom": {
+      "id": "template.newsroom",
+      "purpose": "Newsroom: header, featured press card, press grid.",
+      "layout": "site",
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.newsroom",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "collection.newsroom-featured",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "collection.newsroom-cards",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "index-grid"
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "measuredFrom": [
+        "specs/company.md:211"
+      ],
+      "allowedThemes": [
+        "light"
+      ],
+      "routes": [
+        "/newsroom/"
+      ],
+      "generationEligible": true
+    },
+    "template.v1-resource-index": {
+      "id": "template.v1-resource-index",
+      "purpose": "Dark V1 resource index (events, guides): intro then one card collection.",
+      "layout": "site",
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.v1-intro",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "split-illustration"
+          ]
+        },
+        {
+          "slot": "collection",
+          "allowedSections": [
+            "collection.events",
+            "collection.guides"
+          ],
+          "minItems": 1,
+          "maxItems": 1,
+          "boundsDerivedFrom": "min/max over the observed member route sequences (templates/routes.json)"
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "measuredFrom": [
+        "specs/company.md:314"
+      ],
+      "allowedThemes": [
+        "dark"
+      ],
+      "routes": [
+        "/resources/events/",
+        "/resources/guides/"
+      ],
+      "generationEligible": true
+    },
+    "template.templates-index": {
+      "id": "template.templates-index",
+      "purpose": "Dark templates catalog: centred intro, sidebar + category sections.",
+      "layout": "site",
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.v1-intro",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "centered"
+          ]
+        },
+        {
+          "section": "collection.templates-catalog",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "measuredFrom": [
+        "specs/company.md:321"
+      ],
+      "allowedThemes": [
+        "dark"
+      ],
+      "routes": [
+        "/templates/"
+      ],
+      "generationEligible": true
+    },
+    "template.guide-landing": {
+      "id": "template.guide-landing",
+      "purpose": "Guide landing: hero with gated download card, podcast, resources, quote tiles, outro.",
+      "layout": "site",
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.guide-landing",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "feature.podcast-episodes",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "collection.resource-cards",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "glass-grid"
+          ]
+        },
+        {
+          "section": "proof.quote-tiles",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.outro-tout",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "default"
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "measuredFrom": [
+        "specs/company.md:326"
+      ],
+      "allowedThemes": [
+        "light"
+      ],
+      "routes": [
+        "/resources/guides/ai-analytics/"
+      ],
+      "generationEligible": true
+    },
+    "template.report": {
+      "id": "template.report",
+      "purpose": "Standalone report microsite: no global header, ticker or footer.",
+      "layout": "standalone",
+      "nodes": [
+        {
+          "section": "hero.report",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.report-intro",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.report-toc",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.report-section",
+          "required": true,
+          "repeatable": true
+        },
+        {
+          "section": "content.report-outro",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "faq.accordion",
+          "required": true,
+          "repeatable": false,
+          "variants": [
+            "report"
+          ]
+        }
+      ],
+      "measuredFrom": [
+        "specs/company.md:347",
+        "src/routes.jsx:4"
+      ],
+      "allowedThemes": [
+        "light"
+      ],
+      "routes": [
+        "/state-of-data-teams/"
+      ],
+      "generationEligible": true
+    },
+    "template.placeholder": {
+      "id": "template.placeholder",
+      "purpose": "Fallback for unrouted internal paths ('page still being built'). Not a generation target.",
+      "layout": "site",
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.placeholder",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "measuredFrom": [
+        "src/routes.jsx:36"
+      ],
+      "allowedThemes": [
+        "light"
+      ],
+      "routes": [
+        "*"
+      ],
+      "generationEligible": false
+    }
+  }
+}

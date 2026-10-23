@@ -1,0 +1,14 @@
+# integrations-airflow @390 — doc height 3323 (1440: 2921)
+
+## Sections (matched by component class from the 1440 section list)
+- 0 Banner__ @1440 [245,200,950,518] → @390 [150, 144, 90, 20]  | H1:Add Hex apps to your Airflow DAGs
+- 1 RunningText__ @1440 [29,798,1382,1437] → @390 [48, 1054, 294, 592]  | H2:How it works / H2:See it in action
+
+## Text roles @390 (H1–H4, lead/body P, buttons): tag [x,y,w,h] «text» font/size/lh
+- H1 [48, 309, 294, 148] «Add Hex apps to your Airflow DAGs» fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px; margin:0px 0px 20px; textAlign:center
+- P [48, 477, 294, 180] «Seamlessly trigger data transformations, app refre» fontSize:20px; fontWeight:300; lineHeight:30px; margin:0px 0px 25px; textAlign:center
+- H2 [48, 995, 294, 39] «How it works» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px; margin:0px 0px 20px
+- P [48, 1054, 294, 160] «The Hex Airflow provider lets you add Hex apps as » fontSize:18px; lineHeight:32px; margin:0px 0px 24px
+- P [48, 1238, 294, 96] «Including Hex in your data pipelines and orchestra» fontSize:18px; lineHeight:32px; margin:0px 0px 24px
+- P [48, 1358, 294, 288] «- Trigger a Hex app to update cached values after » fontSize:18px; lineHeight:32px
+- H2 [48, 1758, 294, 39] «See it in action» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px; margin:0px 0px 30px

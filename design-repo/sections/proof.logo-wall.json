@@ -1,0 +1,118 @@
+{
+  "id": "proof.logo-wall",
+  "category": "proof",
+  "purpose": "Wrapped wall of logos with a heading: customer wall (grayscale) or investor grid with a text lockup.",
+  "variants": [
+    "customers",
+    "investors"
+  ],
+  "content": {
+    "italicLine": {
+      "kind": "text",
+      "required": false,
+      "maxWords": 3,
+      "observedWords": [
+        2
+      ],
+      "measuredFrom": [
+        "specs/company.md:161"
+      ]
+    },
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 7,
+      "observedWords": [
+        5,
+        2
+      ],
+      "measuredFrom": [
+        "specs/company.md:161",
+        "specs/company.md:281"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": false,
+      "maxWords": 12,
+      "observedWords": [
+        9
+      ],
+      "measuredFrom": [
+        "specs/company.md:161"
+      ]
+    },
+    "logos": {
+      "kind": "list",
+      "required": true,
+      "minItems": 13,
+      "maxItems": 50,
+      "measuredFrom": [
+        "specs/company.md:162",
+        "specs/company.md:289"
+      ],
+      "item": {
+        "kind": "media",
+        "required": true,
+        "roles": [
+          "logo.customer",
+          "logo.investor"
+        ],
+        "alt": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 18,
+          "observedWords": [
+            14,
+            14
+          ],
+          "measuredFrom": [
+            "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+            "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+          ]
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "reflow-wrap",
+      "detail": "logos wrap centred",
+      "measuredFrom": [
+        "specs/company.md:163"
+      ]
+    }
+  ],
+  "constraints": {},
+  "measuredFrom": [
+    "specs/company.md:160",
+    "specs/company.md:289"
+  ],
+  "wordBudgets": {
+    "description": 12,
+    "headline": 7,
+    "italicLine": 3,
+    "logos[].alt": 18
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "logo.customer",
+    "logo.investor"
+  ],
+  "usedByTemplates": [
+    "template.about",
+    "template.customers-index"
+  ],
+  "observedThemes": [
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__proof.logo-wall",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

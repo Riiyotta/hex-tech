@@ -1,0 +1,96 @@
+===  html
+<HTML ibm_plex_sans_433bc175-module__L6st6W__variable ibm_plex_mono_ddb47e28-module__E> [0, 0, 1440, 10664] {fontFamily:Times; fontSize:16px; fontWeight:400; lineHeight:normal; letterSpacing:normal; fontStyle:normal; color:rgb(0, 0, 0); backgroundColor:rgb(20, 20, 28); overflow:clip visible; textAlign:start}
+===  body
+<BODY > [0, 0, 1440, 10664] {fontFamily:Cinetype; fontSize:14px; fontWeight:400; lineHeight:21.994px; letterSpacing:normal; fontStyle:normal; color:rgb(227, 178, 179); backgroundColor:rgb(20, 20, 28); zIndex:0; overflow:clip visible; textAlign:start}
+===  header
+<HEADER LayoutGrid__LayoutSubgrid> [0, 20, 1440, 62] {display:grid; gridTemplateColumns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; fontFamily:Cinetype; fontSize:14px; fontWeight:400; lineHeight:21.994px; letterSpacing:normal; fontStyle:normal; color:rgb(49, 38, 59); textAlign:start}
+  <DIV LayoutGrid__LayoutSubgrid Header__TickerWrapper> [0, 20, 1440, 27] {display:grid; position:relative; gridTemplateColumns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; backgroundColor:rgb(255, 252, 252)}
+  <DIV LayoutGrid__LayoutSubgrid> [0, 20, 1440, 62] {display:grid; gridTemplateColumns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []}
+===  ticker
+<DIV LayoutGrid__LayoutSubgrid Header__TickerWrapper> [0, 20, 1440, 27] {display:grid; position:relative; gridTemplateColumns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; fontFamily:Cinetype; fontSize:14px; fontWeight:400; lineHeight:21.994px; letterSpacing:normal; fontStyle:normal; color:rgb(49, 38, 59); backgroundColor:rgb(255, 252, 252); textAlign:start}
+  <DIV GridLines__ContentMarginLine> [0, 20, 29, 27] {border:}
+  <DIV LayoutGrid__LayoutSubgrid Ticker__Bg> [29, 20, 1382, 27] {display:grid; gridTemplateColumns:115.195px 115.195px 115.195px 115.195px 115.195px 115.195px 115.195px 115.195px 115.195px 115.195px 115.195px 115.195px; backgroundColor:rgb(240, 237, 238); backgroundImage:linear-gradient(to left, rgb(240, 237, 238), rgb(244, 241, 242), rgb(240, 237, 238)); boxShadow:rgba(49, 38, 59, 0.14) 0px 1px 1px 0px inset; overflow:hidden}
+    <DIV Ticker__Marquee> [29, 20, 1382, 27] {display:flex; position:relative; zIndex:1; overflow:hidden}
+      <DIV sr-only> [-9971, 20, 1, 1] {position:absolute; overflow:hidden}
+        <A Ticker__MarqueeItem> [-9971, 20, 16, 19] «how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data» {display:flex; padding:0px 8px; alignItems:center; fontFamily:"Cinetype Mono"; fontSize:12px; lineHeight:18.852px; borderRadius:2px; transition:background-color 0.1s linear}
+          <SPAN > [-9963, 20, 12, 19] «📊» {}
+          <SPAN Ticker__MarqueeItemTitle> [-9943, 20, 169, 19] «AI analytics use case:» {color:rgb(20, 20, 28)}
+          <SPAN Ticker__Circle> [-9095, 24, 10, 10] {display:grid; margin:0px 0px 0px 4px; gridTemplateColumns:10px; alignItems:center; color:rgba(49, 38, 59, 0.57); borderRadius:9999px}
+        <A Ticker__MarqueeItem> [-9971, 39, 16, 19] «Gorgeous, interactive dashboards and apps you can build with just a prompt» {display:flex; padding:0px 8px; alignItems:center; fontFamily:"Cinetype Mono"; fontSize:12px; lineHeight:18.852px; borderRadius:2px; transition:background-color 0.1s linear}
+          <SPAN > [-9963, 39, 12, 19] «🤯» {}
+          <SPAN Ticker__MarqueeItemTitle> [-9943, 39, 161, 19] «Generative data apps:» {color:rgb(20, 20, 28)}
+          <SPAN Ticker__Circle> [-9202, 43, 10, 10] {display:grid; margin:0px 0px 0px 4px; gridTemplateColumns:10px; alignItems:center; color:rgba(49, 38, 59, 0.57); borderRadius:9999px}
+        <A Ticker__MarqueeItem> [-9971, 58, 16, 19] «discover key insights from data leaders» {display:flex; padding:0px 8px; alignItems:center; fontFamily:"Cinetype Mono"; fontSize:12px; lineHeight:18.852px; borderRadius:2px; transition:background-color 0.1s linear}
+          <SPAN > [-9963, 58, 12, 19] «📖» {}
+          <SPAN Ticker__MarqueeItemTitle> [-9943, 58, 184, 19] «State of Data Teams 2026» {color:rgb(20, 20, 28)}
+          <SPAN Ticker__Circle> [-9448, 62, 10, 10] {display:grid; margin:0px 0px 0px 4px; gridTemplateColumns:10px; alignItems:center; color:rgba(49, 38, 59, 0.57); borderRadius:9999px}
+        <A Ticker__MarqueeItem> [-9971, 77, 16, 19] «Not "HEX" or "Hex dot tech"» {display:flex; padding:0px 8px; alignItems:center; fontFamily:"Cinetype Mono"; fontSize:12px; lineHeight:18.852px; borderRadius:2px; transition:background-color 0.1s linear}
+          <SPAN > [-9963, 77, 12, 19] «🙏» {}
+          <SPAN Ticker__MarqueeItemTitle> [-9943, 77, 123, 19] «It's just "Hex"!» {color:rgb(20, 20, 28)}
+          <SPAN Ticker__Circle> [-9602, 81, 10, 10] {display:grid; margin:0px 0px 0px 4px; gridTemplateColumns:10px; alignItems:center; color:rgba(49, 38, 59, 0.57); borderRadius:9999px}
+      <DIV Ticker__InstanceAnim> [-508, 20, 13507, 27] {display:flex; transform:matrix(1, 0, 0, 1, -536.996, 0)}
+        <SPAN > [-508, 20, 2701, 27] {display:flex}
+          <SPAN Ticker__MarqueeItems> [-508, 20, 2701, 27] {display:flex; padding:4px 16px 4px 0px; gap:16px}
+        <SPAN > [2193, 20, 2701, 27] {display:flex}
+          <SPAN Ticker__MarqueeItems> [2193, 20, 2701, 27] {display:flex; padding:4px 16px 4px 0px; gap:16px}
+        <SPAN > [4895, 20, 2701, 27] {display:flex}
+          <SPAN Ticker__MarqueeItems> [4895, 20, 2701, 27] {display:flex; padding:4px 16px 4px 0px; gap:16px}
+        <SPAN > [7596, 20, 2701, 27] {display:flex}
+          <SPAN Ticker__MarqueeItems> [7596, 20, 2701, 27] {display:flex; padding:4px 16px 4px 0px; gap:16px}
+        <SPAN > [10298, 20, 2701, 27] {display:flex}
+          <SPAN Ticker__MarqueeItems> [10298, 20, 2701, 27] {display:flex; padding:4px 16px 4px 0px; gap:16px}
+  <DIV GridLines__ContentMarginLine> [1411, 20, 29, 27] {border:}
+===  nav
+<NAV LayoutGrid__LayoutSubgrid> [0, 20, 1440, 62] {display:grid; gridTemplateColumns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; fontFamily:Cinetype; fontSize:14px; fontWeight:400; lineHeight:21.994px; letterSpacing:normal; fontStyle:normal; color:rgb(49, 38, 59); textAlign:start}
+  <DIV LayoutGrid__LayoutSubgrid Nav__NavWrapper> [0, 47, 1440, 62] {display:grid; position:relative; gridTemplateColumns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; transform:matrix(1, 0, 0, 1, 0, 26.8516)}
+    <DIV LayoutGrid__LayoutSubgrid Nav__Background> [0, 47, 1440, 62] {display:grid; position:relative; gridTemplateColumns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; zIndex:-1}
+      <DIV Nav__BackgroundInner> [0, 47, 1440, 62] {position:absolute}
+    <DIV LayoutGrid__LayoutSubgrid> [0, 67, 1440, 62] {display:grid; gridTemplateColumns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; transform:matrix(1, 0, 0, 1, 0, 20)}
+      <DIV Nav__NavShadow> [0, 67, 1440, 62] {position:relative; opacity:0; zIndex:3; overflow:clip visible}
+      <DIV LayoutGrid__LayoutSubgrid> [0, 67, 1440, 62] {display:grid; gridTemplateColumns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []}
+        <DIV Nav__NavBorderBottom> [0, 128, 29, 1] {backgroundColor:rgb(233, 229, 232); opacity:0}
+        <DIV Nav__NavigationRootEl> [29, 67, 1382, 62] {display:grid; position:relative; padding:12px 0px; gridTemplateColumns:659.172px 64px 659.172px; alignItems:center}
+          <DIV > [29, 81, 659, 34] {position:relative}
+            <UL Nav__NavigationList Nav__LeftNav> [29, 81, 659, 34] {display:flex; padding:0px 36px 0px 0px; gap:0px; justifyContent:flex-end}
+              <LI NavMenuItem__StyledNavItem> [353, 81, 100, 34] {display:list-item; position:relative; lineHeight:14px; color:rgb(20, 20, 28)}
+              <LI NavMenuItem__StyledNavItem> [453, 81, 104, 34] {display:list-item; position:relative; lineHeight:14px; color:rgb(20, 20, 28)}
+              <LI NavMenuItem__StyledNavItem> [557, 81, 95, 34] {display:list-item; position:relative; lineHeight:14px; color:rgb(20, 20, 28)}
+          <A Nav__HomeNavLinkWrapper> [688, 86, 64, 25] {color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+            <svg Nav__Hex> [688, 86, 64, 25] {overflow:hidden}
+              <path > [688, 86, 64, 25] {}
+          <DIV > [752, 79, 659, 38] {position:relative}
+            <UL Nav__NavigationList Nav__RightNav> [752, 79, 659, 38] {display:flex; padding:0px 0px 0px 28px; gap:0px; alignItems:center; justifyContent:flex-start}
+              <LI NavMenuItem__StyledNavItem> [780, 81, 110, 34] {display:list-item; position:relative; lineHeight:14px; color:rgb(20, 20, 28)}
+              <LI NavMenuItem__StyledNavItem> [890, 81, 72, 33] {display:list-item; position:relative; lineHeight:14px; color:rgb(20, 20, 28)}
+              <LI > [962, 87, 63, 22] {display:list-item}
+              <LI > [1025, 79, 119, 38] {display:list-item}
+          <BUTTON MobileNav__HamburgerButton> [0, 0, 0, 0] {display:none; position:relative; margin:auto 8px auto auto; alignItems:center; fontFamily:Arial; fontSize:13.3333px; lineHeight:normal; color:rgb(0, 0, 0); borderRadius:999px; textAlign:center}
+            <DIV MobileNav__HamburgerButtonShadow> [0, 0, 0, 0] {position:absolute; backgroundImage:radial-gradient(circle at 66.66% 50%, rgb(255, 255, 255) 0%, rgb(248, 245, 246) 80%); borderRadius:999px; boxShadow:rgb(239, 235, 237) 0px 0px 34px 0px inset, rgba(100, 63, 63, 0.01) 6px 27px 10px 0px, rgba(100, 63, 63, 0.04) 4px 4px 10px 0px, rgba(100, 63, 63, 0.06) 2px 13px 8px 0px, rgba(100, 63, 63, 0.06) 1px 6px 6px 0px, rgba(100,; zIndex:-1}
+            <DIV MobileNav__HamburgerButtonBg> [0, 0, 0, 0] {position:absolute; backgroundColor:rgb(255, 252, 252); borderRadius:999px; zIndex:-1}
+          <DIV Nav__NavRootBorder> [720, 128, 0, 1] {position:absolute; top:61px; backgroundColor:rgb(219, 215, 218); opacity:0; transform:matrix(0, 0, 0, 1, 0, 0)}
+        <DIV Nav__NavBorderBottom> [1411, 128, 29, 1] {backgroundColor:rgb(233, 229, 232); opacity:0}
+    <DIV Accent__LContainer> [20, 39, 16, 16] {display:grid; position:absolute; top:0.5px; gridTemplateColumns:16px; alignItems:center; transform:matrix(1, 0, 0, 1, -8, -8); zIndex:2}
+      <DIV Accent__VerticalBar> [28, 39, 1, 16] {position:relative; opacity:0; overflow:clip}
+      <DIV Accent__HorizontalBar> [20, 47, 16, 1] {position:relative; opacity:0; overflow:clip}
+    <DIV Accent__LContainer> [1404, 39, 16, 16] {display:grid; position:absolute; top:0.5px; gridTemplateColumns:16px; alignItems:center; transform:matrix(1, 0, 0, 1, 8, -8); zIndex:2}
+      <DIV Accent__VerticalBar> [1411, 39, 1, 16] {position:relative; opacity:0; overflow:clip}
+      <DIV Accent__HorizontalBar> [1404, 47, 16, 1] {position:relative; opacity:0; overflow:clip}
+    <DIV Accent__LContainer> [1404, 100, 16, 16] {display:grid; position:absolute; top:45.5px; gridTemplateColumns:16px; alignItems:center; transform:matrix(1, 0, 0, 1, 8, 8); zIndex:2}
+      <DIV Accent__VerticalBar> [1411, 100, 1, 16] {position:relative; opacity:0; overflow:clip}
+      <DIV Accent__HorizontalBar> [1404, 108, 16, 1] {position:relative; opacity:0; overflow:clip}
+    <DIV Accent__LContainer> [20, 100, 16, 16] {display:grid; position:absolute; top:45.5px; gridTemplateColumns:16px; alignItems:center; transform:matrix(1, 0, 0, 1, -8, 8); zIndex:2}
+      <DIV Accent__VerticalBar> [28, 100, 1, 16] {position:relative; opacity:0; overflow:clip}
+      <DIV Accent__HorizontalBar> [20, 108, 16, 1] {position:relative; opacity:0; overflow:clip}
+  <DIV > [0, 129, 1440, 0] {transform:matrix(1, 0, 0, 1, 0, 46.8516)}
+    <DIV NavMenuViewport__ViewportPosition> [0, 115, 1440, 0] {position:absolute; top:-6px; opacity:0; transform:matrix(1, 0, 0, 1, 0, -8); zIndex:10}
+      <DIV NavMenuViewport__NavigationMenuViewportPosition> [0, 115, 2, 2] {position:absolute; backgroundColor:rgb(255, 255, 255); border:1px solid rgb(219, 215, 218); borderRadius:5px; boxShadow:rgba(0, 0, 0, 0.15) 0px 4px 24px -4px; overflow:clip}
+        <DIV NavMenuViewport__NavigationMenuViewport> [1, 116, 0, 0] {position:absolute}
+          <DIV NavMenuDropdown__NavigationMenuContent> [1, 116, 772, 451] {position:absolute}
+            <DIV > [1, 116, 772, 451] {}
+              <DIV NavMenuDropdown__NavMenuInner> [1, 116, 772, 451] {display:flex; padding:8px; gap:8px; flexDirection:column; opacity:0}
+          <DIV NavMenuDropdown__NavigationMenuContent> [1, 116, 394, 433] {position:absolute}
+            <DIV > [1, 116, 394, 433] {}
+              <DIV NavMenuDropdown__NavMenuInner> [1, 116, 394, 433] {display:flex; padding:8px; gap:8px; flexDirection:column; opacity:0}
+          <DIV NavMenuDropdown__NavigationMenuContent> [1, 116, 772, 436] {position:absolute}
+            <DIV > [1, 116, 772, 436] {}
+              <DIV NavMenuDropdown__NavMenuInner> [1, 116, 772, 436] {display:flex; padding:8px; gap:8px; flexDirection:column; opacity:0}

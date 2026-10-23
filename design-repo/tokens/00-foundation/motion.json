@@ -1,0 +1,308 @@
+{
+  "$description": "Measured durations, easings and keyframes (Framer springs + CSS). All motion is disabled under prefers-reduced-motion.",
+  "motion": {
+    "duration": {
+      "interaction": {
+        "$type": "duration",
+        "$value": "250ms",
+        "measuredFrom": [
+          "tailwind.config.cjs:292"
+        ]
+      },
+      "link": {
+        "$type": "duration",
+        "$value": "100ms",
+        "measuredFrom": [
+          "tailwind.config.cjs:294"
+        ]
+      },
+      "window": {
+        "$type": "duration",
+        "$value": "200ms",
+        "measuredFrom": [
+          "tailwind.config.cjs:295"
+        ]
+      },
+      "spring": {
+        "$type": "duration",
+        "$value": "747ms",
+        "measuredFrom": [
+          "src/index.css:323"
+        ]
+      },
+      "reveal-delay": {
+        "$type": "duration",
+        "$value": "200ms",
+        "measuredFrom": [
+          "CLONE_SPEC.md:454"
+        ]
+      },
+      "reveal": {
+        "$type": "duration",
+        "$value": "450ms",
+        "measuredFrom": [
+          "CLONE_SPEC.md:454"
+        ]
+      },
+      "nav-squish": {
+        "$type": "duration",
+        "$value": "400ms",
+        "measuredFrom": [
+          "CLONE_SPEC.md:445"
+        ]
+      },
+      "megamenu-morph": {
+        "$type": "duration",
+        "$value": "320ms",
+        "measuredFrom": [
+          "CLONE_SPEC.md:489"
+        ]
+      },
+      "ticker-loop": {
+        "$type": "duration",
+        "$value": "56s",
+        "measuredFrom": [
+          "src/index.css:328"
+        ]
+      },
+      "noise-loop": {
+        "$type": "duration",
+        "$value": "8s",
+        "measuredFrom": [
+          "src/index.css:329"
+        ]
+      },
+      "step-noise-loop": {
+        "$type": "duration",
+        "$value": "4s",
+        "measuredFrom": [
+          "tailwind.config.cjs:300"
+        ]
+      },
+      "rotator-interval": {
+        "$type": "duration",
+        "$value": "1200ms",
+        "measuredFrom": [
+          "src/index.css:334"
+        ]
+      },
+      "rotator-move": {
+        "$type": "duration",
+        "$value": "800ms",
+        "measuredFrom": [
+          "src/index.css:335"
+        ]
+      },
+      "rotator-fade-in": {
+        "$type": "duration",
+        "$value": "1760ms",
+        "measuredFrom": [
+          "src/index.css:336"
+        ]
+      },
+      "bubble-pop": {
+        "$type": "duration",
+        "$value": "450ms",
+        "measuredFrom": [
+          "tailwind.config.cjs:301"
+        ]
+      },
+      "agent-logo-roll-in": {
+        "$type": "duration",
+        "$value": "200ms",
+        "measuredFrom": [
+          "tailwind.config.cjs:302"
+        ]
+      },
+      "typing-cursor": {
+        "$type": "duration",
+        "$value": "800ms",
+        "measuredFrom": [
+          "tailwind.config.cjs:303"
+        ]
+      },
+      "terminal-cursor": {
+        "$type": "duration",
+        "$value": "1060ms",
+        "measuredFrom": [
+          "tailwind.config.cjs:304"
+        ]
+      },
+      "card-hover-spring": {
+        "$type": "duration",
+        "$value": "529.33ms",
+        "measuredFrom": [
+          "specs/company.md:111"
+        ]
+      },
+      "quotes-marquee-loop": {
+        "$type": "duration",
+        "$value": "72s",
+        "measuredFrom": [
+          "specs/product.md:171"
+        ]
+      },
+      "customers-marquee-loop": {
+        "$type": "duration",
+        "$value": "140s",
+        "measuredFrom": [
+          "specs/company.md:286"
+        ]
+      },
+      "photo-wall-blur-in": {
+        "$type": "duration",
+        "$value": "300ms",
+        "measuredFrom": [
+          "specs/company.md:190"
+        ]
+      }
+    },
+    "easing": {
+      "standard": {
+        "$type": "cubicBezier",
+        "$value": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+        "measuredFrom": [
+          "tailwind.config.cjs:284"
+        ]
+      },
+      "pop": {
+        "$type": "cubicBezier",
+        "$value": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+        "measuredFrom": [
+          "tailwind.config.cjs:287"
+        ]
+      },
+      "out-quint": {
+        "$type": "cubicBezier",
+        "$value": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "measuredFrom": [
+          "tailwind.config.cjs:288"
+        ]
+      },
+      "popover": {
+        "$type": "cubicBezier",
+        "$value": "cubic-bezier(0.25, 1, 0.25, 1)",
+        "measuredFrom": [
+          "tailwind.config.cjs:289"
+        ]
+      },
+      "spring": {
+        "$type": "easing",
+        "$value": "var(--spring-easing) (24-stop linear() spring)",
+        "measuredFrom": [
+          "src/index.css:322"
+        ]
+      },
+      "hover-spring": {
+        "$type": "easing",
+        "$value": "var(--hover-transition-timing-function) (80-stop linear() spring, overshoot 1.0203 at 45%)",
+        "measuredFrom": [
+          "src/index.css:325"
+        ]
+      },
+      "linear": {
+        "$type": "easing",
+        "$value": "linear",
+        "measuredFrom": [
+          "tailwind.config.cjs:298"
+        ]
+      }
+    },
+    "keyframes": {
+      "ticker-scroll": {
+        "$type": "keyframes",
+        "$value": "ticker-scroll",
+        "measuredFrom": [
+          "src/index.css:380"
+        ]
+      },
+      "noise-drift": {
+        "$type": "keyframes",
+        "$value": "noise-drift",
+        "measuredFrom": [
+          "src/index.css:385"
+        ]
+      },
+      "translate-bg": {
+        "$type": "keyframes",
+        "$value": "translate-bg",
+        "measuredFrom": [
+          "src/index.css:390"
+        ]
+      },
+      "step-noise-drift": {
+        "$type": "keyframes",
+        "$value": "step-noise-drift",
+        "measuredFrom": [
+          "src/index.css:395"
+        ]
+      },
+      "bubble-pop": {
+        "$type": "keyframes",
+        "$value": "bubble-pop",
+        "measuredFrom": [
+          "src/index.css:400"
+        ]
+      },
+      "agent-logo-roll-in": {
+        "$type": "keyframes",
+        "$value": "agent-logo-roll-in",
+        "measuredFrom": [
+          "src/index.css:405"
+        ]
+      },
+      "typing-cursor-blink": {
+        "$type": "keyframes",
+        "$value": "typing-cursor-blink",
+        "measuredFrom": [
+          "src/index.css:411"
+        ]
+      },
+      "terminal-cursor-blink": {
+        "$type": "keyframes",
+        "$value": "terminal-cursor-blink",
+        "measuredFrom": [
+          "src/index.css:415"
+        ]
+      },
+      "loading-spin": {
+        "$type": "keyframes",
+        "$value": "loading-spin",
+        "measuredFrom": [
+          "src/index.css:420"
+        ]
+      },
+      "announcement-pill-shine": {
+        "$type": "keyframes",
+        "$value": "announcement-pill-shine",
+        "measuredFrom": [
+          "src/index.css:1437"
+        ]
+      }
+    },
+    "preset": {
+      "simple-fade-in": {
+        "$type": "transition",
+        "$value": {
+          "initial": {
+            "opacity": 0,
+            "y": "5px"
+          },
+          "final": {
+            "opacity": 1,
+            "y": "0px"
+          },
+          "type": "spring",
+          "delay": "{motion.duration.reveal-delay}",
+          "duration": "{motion.duration.reveal}",
+          "bounce": 0,
+          "once": true
+        },
+        "measuredFrom": [
+          "CLONE_SPEC.md:454",
+          "src/components/shared/Reveal.jsx:9"
+        ]
+      }
+    }
+  }
+}

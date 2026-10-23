@@ -1,0 +1,1163 @@
+{
+  "h": 10712,
+  "n": 4,
+  "out": [
+    {
+      "cls": "LayoutGrid__LayoutSubgrid-sc-51ec3774-1",
+      "box": [
+        0,
+        0,
+        1440,
+        706
+      ],
+      "hs": [
+        {
+          "tag": "H1",
+          "t": "Solutions for",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1 SolutionsHero__TopHeading-sc-5dde2743-6",
+          "f": "\"PP Editorial New\" 200 60px/78px lsnormal",
+          "col": "rgb(245, 192, 192)",
+          "box": [
+            577,
+            260,
+            286,
+            78
+          ]
+        },
+        {
+          "tag": "H2",
+          "t": "Product",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1 SolutionsHero__LoopingHeading-sc-5dde2743-7",
+          "f": "\"PP Formula SemiExtended\" 700 74px/121px ls-1.85px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            304,
+            217,
+            832,
+            121
+          ]
+        },
+        {
+          "tag": "H2",
+          "t": "Marketing",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1 SolutionsHero__LoopingHeading-sc-5dde2743-7",
+          "f": "\"PP Formula SemiExtended\" 700 74px/121px ls-1.85px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            304,
+            338,
+            832,
+            121
+          ]
+        },
+        {
+          "tag": "H2",
+          "t": "Sales",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1 SolutionsHero__LoopingHeading-sc-5dde2743-7",
+          "f": "\"PP Formula SemiExtended\" 700 74px/121px ls-1.85px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            304,
+            459,
+            832,
+            121
+          ]
+        },
+        {
+          "tag": "H2",
+          "t": "Customer success",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1 SolutionsHero__LoopingHeading-sc-5dde2743-7",
+          "f": "\"PP Formula SemiExtended\" 700 74px/121px ls-1.85px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            304,
+            580,
+            832,
+            121
+          ]
+        },
+        {
+          "tag": "H2",
+          "t": "Data teams",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1 SolutionsHero__LoopingHeading-sc-5dde2743-7",
+          "f": "\"PP Formula SemiExtended\" 700 74px/121px ls-1.85px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            304,
+            701,
+            832,
+            121
+          ]
+        },
+        {
+          "tag": "H2",
+          "t": "Data leaders",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1 SolutionsHero__LoopingHeading-sc-5dde2743-7",
+          "f": "\"PP Formula SemiExtended\" 700 74px/121px ls-1.85px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            304,
+            822,
+            832,
+            121
+          ]
+        }
+      ],
+      "ps": [
+        "One connected system - infinite data answers"
+      ],
+      "links": [
+        {
+          "t": "Get started for free",
+          "h": "https://app.hex.tech/signup",
+          "c": "Button__LinkWrapperBase-sc-3759e784-1"
+        },
+        {
+          "t": "Request a demo",
+          "h": "/request-a-demo/",
+          "c": "Button__LinkWrapperBase-sc-3759e784-1"
+        }
+      ],
+      "imgs": [],
+      "svgs": 0,
+      "videos": 0,
+      "canvas": 0
+    },
+    {
+      "cls": "CustomerBanner-module__QGw5Ra CustomerBanner-module__QGw5Ra__logosDefault",
+      "box": [
+        0,
+        706,
+        1440,
+        124
+      ],
+      "hs": [],
+      "ps": [
+        "\"Our vision for Notion’s data team is that anyone, regardless of technical proficiency, is comfortable using data to answer their own questions – and Hex enable",
+        "\"Our vision for Notion’s data team is that anyone, regardless of technical proficiency, is comfortable using data to answer their own questions – and Hex enable",
+        "Aks Nemana\nData Scientist & Abhishek Modi, AI Software Engineer",
+        "\"We like to embed Hex dashboards where teams work.\"\n\nIan Macomber\nHead of Data and Analytics Engineering",
+        "\"We like to embed Hex dashboards where teams work.\"",
+        "Ian Macomber\nHead of Data and Analytics Engineering",
+        "\"We’re regarded as top performers because the work we are doing is deemed more credible and more widely surfaced than before Hex.\"\n\nKate Urquiola\nDirector, Go-t",
+        "\"We’re regarded as top performers because the work we are doing is deemed more credible and more widely surfaced than before Hex.\"",
+        "Kate Urquiola\nDirector, Go-to-Market Analytics",
+        "\"Hex has helped us empower business analysts to explore and dig into data on their own\"\n\nMeghana Reddy\nHead of Data at Stubhub",
+        "\"Hex has helped us empower business analysts to explore and dig into data on their own\"",
+        "Meghana Reddy\nHead of Data at Stubhub"
+      ],
+      "links": [
+        {
+          "t": "",
+          "h": "/customers/notion/",
+          "c": "CustomerLogo__LogoLink-sc-8dd4a870-2"
+        },
+        {
+          "t": "",
+          "h": "/customers/ramp/",
+          "c": "CustomerLogo__LogoLink-sc-8dd4a870-2"
+        },
+        {
+          "t": "",
+          "h": "/customers/calendly/",
+          "c": "CustomerLogo__LogoLink-sc-8dd4a870-2"
+        },
+        {
+          "t": "",
+          "h": "/customers/stubhub/",
+          "c": "CustomerLogo__LogoLink-sc-8dd4a870-2"
+        }
+      ],
+      "imgs": [
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/41a6cd8e000ffa2cf99de391f0104b2cbdd9072e-132x50.svg?auto=format",
+          "alt": "Hex customer: Anthropic",
+          "nat": "132x50",
+          "r": [
+            106,
+            40
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/6f211c674b14be69b85497264b1d654b138dce01-39x50.svg?auto=format",
+          "alt": "Hex customer: Notion",
+          "nat": "39x50",
+          "r": [
+            31,
+            40
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/6f211c674b14be69b85497264b1d654b138dce01-39x50.svg?auto=format",
+          "alt": "Hex customer: Notion",
+          "nat": "39x50",
+          "r": [
+            25,
+            32
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/892932e7f3dc3c66d3ae4a16e8bc51e37b7f59f4-120x50.svg?auto=format",
+          "alt": "Hex customer: Ramp",
+          "nat": "120x50",
+          "r": [
+            96,
+            40
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/892932e7f3dc3c66d3ae4a16e8bc51e37b7f59f4-120x50.svg?auto=format",
+          "alt": "Hex customer: Ramp",
+          "nat": "120x50",
+          "r": [
+            77,
+            32
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/7bb676f30dbd80023b0c7af23e60ff630b4cdc4d-115x50.svg?auto=format",
+          "alt": "Hex customer: Reddit",
+          "nat": "115x50",
+          "r": [
+            92,
+            40
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/693c33d9f78d3b5a96db64d08107ca30cf36658d-148x50.svg?auto=format",
+          "alt": "Hex customer: Calendly",
+          "nat": "148x50",
+          "r": [
+            118,
+            40
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/693c33d9f78d3b5a96db64d08107ca30cf36658d-148x50.svg?auto=format",
+          "alt": "Hex customer: Calendly",
+          "nat": "148x50",
+          "r": [
+            95,
+            32
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/84cee8330df6df867d752ef0336d987b73845add-81x50.svg?auto=format",
+          "alt": "Hex customer: StubHub",
+          "nat": "81x50",
+          "r": [
+            65,
+            40
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/84cee8330df6df867d752ef0336d987b73845add-81x50.svg?auto=format",
+          "alt": "Hex customer: StubHub",
+          "nat": "81x50",
+          "r": [
+            52,
+            32
+          ]
+        }
+      ],
+      "svgs": 4,
+      "videos": 0,
+      "canvas": 0
+    },
+    {
+      "cls": "LayoutGrid__LayoutSubgrid-sc-51ec3774-1 BasicPageRow__Wrapper-sc-811624ad-0",
+      "box": [
+        0,
+        831,
+        1440,
+        9294
+      ],
+      "hs": [
+        {
+          "tag": "H4",
+          "t": "You don't need to migrate those 300 dashboards",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1",
+          "f": "\"PP Formula\" 600 20px/26px ls-0.5px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            164,
+            1265,
+            325,
+            52
+          ]
+        },
+        {
+          "tag": "H4",
+          "t": "Customer story: Notion",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1",
+          "f": "\"PP Formula\" 600 20px/26px ls-0.5px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            557,
+            1265,
+            250,
+            26
+          ]
+        },
+        {
+          "tag": "H4",
+          "t": "Customer story: OM1",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1",
+          "f": "\"PP Formula\" 600 20px/26px ls-0.5px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            951,
+            1265,
+            227,
+            26
+          ]
+        },
+        {
+          "tag": "H4",
+          "t": "Customer story: Figma",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1",
+          "f": "\"PP Formula\" 600 20px/26px ls-0.5px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            164,
+            1688,
+            245,
+            26
+          ]
+        },
+        {
+          "tag": "H4",
+          "t": "Customer story: Mercor",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1",
+          "f": "\"PP Formula\" 600 20px/26px ls-0.5px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            557,
+            1688,
+            298,
+            26
+          ]
+        },
+        {
+          "tag": "H4",
+          "t": "Customer story: Valon",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1",
+          "f": "\"PP Formula\" 600 20px/26px ls-0.5px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            951,
+            1688,
+            237,
+            26
+          ]
+        },
+        {
+          "tag": "H4",
+          "t": "Customer story: Algolia",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1",
+          "f": "\"PP Formula\" 600 20px/26px ls-0.5px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            164,
+            2084,
+            249,
+            26
+          ]
+        },
+        {
+          "tag": "H4",
+          "t": "Your next BI tool shouldn't be a BI tool",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1",
+          "f": "\"PP Formula\" 600 20px/26px ls-0.5px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            557,
+            2084,
+            325,
+            52
+          ]
+        },
+        {
+          "tag": "H4",
+          "t": "The market is noisy. Here’s how pipeline intelligence can help.",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1",
+          "f": "\"PP Formula\" 600 20px/26px ls-0.5px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            951,
+            2084,
+            325,
+            78
+          ]
+        },
+        {
+          "tag": "H4",
+          "t": "Dashboards were never the destination",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1",
+          "f": "\"PP Formula\" 600 20px/26px ls-0.5px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            164,
+            2513,
+            325,
+            52
+          ]
+        },
+        {
+          "tag": "H4",
+          "t": "How to Measure Pipeline Quality from Demo Requests with AI",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1",
+          "f": "\"PP Formula\" 600 20px/26px ls-0.5px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            557,
+            2513,
+            325,
+            78
+          ]
+        },
+        {
+          "tag": "H4",
+          "t": "3 ways Hex makes leading a support team less stressful",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1",
+          "f": "\"PP Formula\" 600 20px/26px ls-0.5px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            951,
+            2513,
+            325,
+            52
+          ]
+        },
+        {
+          "tag": "H4",
+          "t": "The unwritten rules of being a head of data",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1",
+          "f": "\"PP Formula\" 600 20px/26px ls-0.5px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            164,
+            2962,
+            325,
+            52
+          ]
+        },
+        {
+          "tag": "H4",
+          "t": "You're probably evaluating AI analytics tools wrong",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1",
+          "f": "\"PP Formula\" 600 20px/26px ls-0.5px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            557,
+            2962,
+            325,
+            52
+          ]
+        },
+        {
+          "tag": "H4",
+          "t": "Your data team is too slow (and accuracy won't save you)",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1",
+          "f": "\"PP Formula\" 600 20px/26px ls-0.5px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            951,
+            2962,
+            325,
+            52
+          ]
+        },
+        {
+          "tag": "H4",
+          "t": "Using AI to choose billboard locations",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1",
+          "f": "\"PP Formula\" 600 20px/26px ls-0.5px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            164,
+            3385,
+            325,
+            52
+          ]
+        },
+        {
+          "tag": "H4",
+          "t": "Why data apps confused the hell out of me (and probably confuse you too)",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1",
+          "f": "\"PP Formula\" 600 20px/26px ls-0.5px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            557,
+            3385,
+            325,
+            78
+          ]
+        },
+        {
+          "tag": "H4",
+          "t": "How I used Hex’s AI to get fully up to speed on our sales data",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1",
+          "f": "\"PP Formula\" 600 20px/26px ls-0.5px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            951,
+            3385,
+            325,
+            78
+          ]
+        },
+        {
+          "tag": "H4",
+          "t": "Self-serve analytics is finally real (and that's terrifying)",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1",
+          "f": "\"PP Formula\" 600 20px/26px ls-0.5px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            164,
+            3833,
+            325,
+            52
+          ]
+        },
+        {
+          "tag": "H4",
+          "t": "How we built a forecasting data app that gets more accurate every quarter",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1",
+          "f": "\"PP Formula\" 600 20px/26px ls-0.5px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            557,
+            3833,
+            325,
+            78
+          ]
+        },
+        {
+          "tag": "H4",
+          "t": "Hex in the Wild: October 2025 spotlights",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1",
+          "f": "\"PP Formula\" 600 20px/26px ls-0.5px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            951,
+            3833,
+            325,
+            52
+          ]
+        },
+        {
+          "tag": "H4",
+          "t": "Lessons from Ramp: Running AI-powered data teams",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1",
+          "f": "\"PP Formula\" 600 20px/26px ls-0.5px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            164,
+            4282,
+            325,
+            52
+          ]
+        },
+        {
+          "tag": "H4",
+          "t": "Using AI thoughtfully: How our data team builds speed without losing depth",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1",
+          "f": "\"PP Formula\" 600 20px/26px ls-0.5px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            557,
+            4282,
+            325,
+            78
+          ]
+        },
+        {
+          "tag": "H4",
+          "t": "Helping your data team become faster with AI, not busier",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1",
+          "f": "\"PP Formula\" 600 20px/26px ls-0.5px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            951,
+            4282,
+            325,
+            78
+          ]
+        },
+        {
+          "tag": "H4",
+          "t": "The complete guide to prompting Hex's Notebook Agent",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1",
+          "f": "\"PP Formula\" 600 20px/26px ls-0.5px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            164,
+            4730,
+            325,
+            78
+          ]
+        },
+        {
+          "tag": "H4",
+          "t": "Building metrics stakeholders need, not what they want",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1",
+          "f": "\"PP Formula\" 600 20px/26px ls-0.5px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            557,
+            4730,
+            325,
+            52
+          ]
+        },
+        {
+          "tag": "H4",
+          "t": "From “we think” to “we know”: Attribution that ties to revenue",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1",
+          "f": "\"PP Formula\" 600 20px/26px ls-0.5px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            951,
+            4730,
+            325,
+            78
+          ]
+        },
+        {
+          "tag": "H4",
+          "t": "Customer retention analytics: Linking metrics to LTV and CAC",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1",
+          "f": "\"PP Formula\" 600 20px/26px ls-0.5px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            164,
+            5179,
+            325,
+            52
+          ]
+        },
+        {
+          "tag": "H4",
+          "t": "AI is changing how our data team works, and that’s great",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1",
+          "f": "\"PP Formula\" 600 20px/26px ls-0.5px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            557,
+            5179,
+            325,
+            52
+          ]
+        },
+        {
+          "tag": "H4",
+          "t": "5 product metrics that change our decisions (and drive revenue)",
+          "c": "Heading__HeadingInternal-sc-b33f802a-0 Heading___StyledHeadingInternal-sc-b33f802a-1",
+          "f": "\"PP Formula\" 600 20px/26px ls-0.5px",
+          "col": "rgb(255, 255, 255)",
+          "box": [
+            951,
+            5179,
+            325,
+            78
+          ]
+        }
+      ],
+      "ps": [],
+      "links": [
+        {
+          "t": "All",
+          "h": null,
+          "c": "Button__ButtonWrapper-sc-3759e784-0"
+        },
+        {
+          "t": "Core data team\n9",
+          "h": null,
+          "c": "Button__ButtonWrapper-sc-3759e784-0"
+        },
+        {
+          "t": "Data leader\n28",
+          "h": null,
+          "c": "Button__ButtonWrapper-sc-3759e784-0"
+        },
+        {
+          "t": "Product\n10",
+          "h": null,
+          "c": "Button__ButtonWrapper-sc-3759e784-0"
+        },
+        {
+          "t": "Marketing\n13",
+          "h": null,
+          "c": "Button__ButtonWrapper-sc-3759e784-0"
+        },
+        {
+          "t": "Sales\n9",
+          "h": null,
+          "c": "Button__ButtonWrapper-sc-3759e784-0"
+        },
+        {
+          "t": "Customer success\n9",
+          "h": null,
+          "c": "Button__ButtonWrapper-sc-3759e784-0"
+        },
+        {
+          "t": "Blog post\nYou don't need to migrate those 300 dashboards\nSol",
+          "h": "/blog/dont-migrate-300-dashboards/",
+          "c": ""
+        },
+        {
+          "t": "Customer story\nCustomer story: Notion\nSolution/\nSales\n3 min",
+          "h": "/customers/notion/",
+          "c": ""
+        },
+        {
+          "t": "Customer story\nCustomer story: OM1\nSolution/\nMarketing\nSales",
+          "h": "/customers/om1/",
+          "c": ""
+        },
+        {
+          "t": "Customer story\nCustomer story: Figma\nSolution/\nProduct\nData ",
+          "h": "/customers/figma/",
+          "c": ""
+        },
+        {
+          "t": "Customer story\nCustomer story: Mercor\nSolution/\nCore data te",
+          "h": "/customers/mercor/",
+          "c": ""
+        },
+        {
+          "t": "Customer story\nCustomer story: Valon\nSolution/\nCustomer succ",
+          "h": "/customers/valon/",
+          "c": ""
+        },
+        {
+          "t": "Customer story\nCustomer story: Algolia\nSolution/\nSales\nMarke",
+          "h": "/customers/algolia/",
+          "c": ""
+        },
+        {
+          "t": "Blog post\nYour next BI tool shouldn't be a BI tool\nSolution/",
+          "h": "/blog/next-bi-tool/",
+          "c": ""
+        },
+        {
+          "t": "Blog post\nThe market is noisy. Here’s how pipeline intellige",
+          "h": "/blog/how-we-solved-the-pipeline-crisis/",
+          "c": ""
+        },
+        {
+          "t": "Blog post\nDashboards were never the destination\nSolution/\nDa",
+          "h": "/blog/dashboards-were-never-the-destination/",
+          "c": ""
+        },
+        {
+          "t": "Video\nHow to Measure Pipeline Quality from Demo Requests wit",
+          "h": "/resources/video/how-to-measure-pipeline-quality-from-demo-requests-with-ai-or-hex/",
+          "c": ""
+        },
+        {
+          "t": "Blog post\n3 ways Hex makes leading a support team less stres",
+          "h": "/blog/how-ai-analytics-helps-with-support-decisions/",
+          "c": ""
+        },
+        {
+          "t": "Blog post\nThe unwritten rules of being a head of data\nSoluti",
+          "h": "/blog/unspoken-rules-of-data-leadership/",
+          "c": ""
+        },
+        {
+          "t": "Blog post\nYou're probably evaluating AI analytics tools wron",
+          "h": "/blog/evaluating-ai-wrong/",
+          "c": ""
+        },
+        {
+          "t": "Blog post\nYour data team is too slow (and accuracy won't sav",
+          "h": "/blog/your-data-team-is-too-slow/",
+          "c": ""
+        },
+        {
+          "t": "Video\nUsing AI to choose billboard locations\nSolution/\nMarke",
+          "h": "/resources/video/using-ai-to-choose-billboard-locations/",
+          "c": ""
+        },
+        {
+          "t": "Blog post\nWhy data apps confused the hell out of me (and pro",
+          "h": "/blog/difference-between-apps-and-dashboards/",
+          "c": ""
+        },
+        {
+          "t": "Blog post\nHow I used Hex’s AI to get fully up to speed on ou",
+          "h": "/blog/using-threads-to-get-sales-team-data/",
+          "c": ""
+        },
+        {
+          "t": "Blog post\nSelf-serve analytics is finally real (and that's t",
+          "h": "/blog/self-serve-is-finally-real/",
+          "c": ""
+        },
+        {
+          "t": "Blog post\nHow we built a forecasting data app that gets more",
+          "h": "/blog/pipeline-forecast-data-app/",
+          "c": ""
+        },
+        {
+          "t": "Blog post\nHex in the Wild: October 2025 spotlights\nSolution/",
+          "h": "/blog/hex-in-the-wild-oct-2025-highlights/",
+          "c": ""
+        },
+        {
+          "t": "Blog post\nLessons from Ramp: Running AI-powered data teams\nS",
+          "h": "/blog/how-data-teams-are-using-ai-ramp/",
+          "c": ""
+        },
+        {
+          "t": "Blog post\nUsing AI thoughtfully: How our data team builds sp",
+          "h": "/blog/ai-for-data-teams-boosting-speed-and-impact/",
+          "c": ""
+        },
+        {
+          "t": "Video\nHelping your data team become faster with AI, not busi",
+          "h": "https://www.youtube.com/shorts/FrMgS7i3lZ4",
+          "c": ""
+        },
+        {
+          "t": "Blog post\nThe complete guide to prompting Hex's Notebook Age",
+          "h": "/blog/notebook-agent-prompting-guide-agentic-analytics/",
+          "c": ""
+        },
+        {
+          "t": "Blog post\nBuilding metrics stakeholders need, not what they ",
+          "h": "/blog/building-actionable-metrics-framework/",
+          "c": ""
+        },
+        {
+          "t": "Blog post\nFrom “we think” to “we know”: Attribution that tie",
+          "h": "/blog/marketing-attribution-data-app-revenue-tracking/",
+          "c": ""
+        },
+        {
+          "t": "Blog post\nBlog post\nCustomer retention analytics: Linking me",
+          "h": "/blog/customer-retention-analytics/",
+          "c": ""
+        },
+        {
+          "t": "Blog post\nAI is changing how our data team works, and that’s",
+          "h": "/blog/lessons-running-a-data-team-with-ai/",
+          "c": ""
+        },
+        {
+          "t": "Blog post\n5 product metrics that change our decisions (and d",
+          "h": "/blog/product-metrics-that-drive-growth/",
+          "c": ""
+        },
+        {
+          "t": "Blog post\n6 Pipeline questions that RevOps teams can answer ",
+          "h": "/blog/pipeline-questions-answered-in-minutes/",
+          "c": ""
+        },
+        {
+          "t": "Video\nMeasuring Hex's performance in Hex\nSolution/\nProduct",
+          "h": "/resources/video/measuring-hexs-performance-in-hex/",
+          "c": ""
+        },
+        {
+          "t": "Video\nHow product teams make faster decisions\nSolution/\nProd",
+          "h": "https://www.youtube.com/shorts/R52NB-F9B5c",
+          "c": ""
+        }
+      ],
+      "imgs": [
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/c58b81b4a104a9f4a167c91e91b0718aed68b9df-840x520.png?w=800&auto=format",
+          "alt": "You don't need to migrate those 300 dashboards",
+          "nat": "800x495",
+          "r": [
+            331,
+            205
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/6f211c674b14be69b85497264b1d654b138dce01-39x50.svg?auto=format",
+          "alt": "Customer story: Notion",
+          "nat": "39x50",
+          "r": [
+            39,
+            50
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/ea3c3c81a65eb288ea6390f3290531197721ca6c-94x50.svg?auto=format",
+          "alt": "Customer story: OM1",
+          "nat": "94x50",
+          "r": [
+            94,
+            50
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/f7df402cfb3dac549c3f877c09425534abc7650b-97x50.svg?auto=format",
+          "alt": "Customer story: Figma",
+          "nat": "97x50",
+          "r": [
+            97,
+            50
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/92b9cd2232a417db021ffe38f96d45a896e85cba-131x50.svg?auto=format",
+          "alt": "Customer story: Mercor",
+          "nat": "131x50",
+          "r": [
+            131,
+            50
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/2c4ef1e2b471b9d7322ef89af16a386864435653-116x50.svg?auto=format",
+          "alt": "Customer story: Valon",
+          "nat": "116x50",
+          "r": [
+            116,
+            50
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/baea542d81adfefae4a1a6409a8260e0bac56f00-97x50.svg?auto=format",
+          "alt": "Customer story: Algolia",
+          "nat": "97x50",
+          "r": [
+            97,
+            50
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/76aeaf65189942ceca5ccc6edf2d0c2db3b1338f-1680x1040.png?w=800&auto=format",
+          "alt": "Your next BI tool shouldn't be a BI tool",
+          "nat": "800x495",
+          "r": [
+            331,
+            205
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/8980b4c593faa0a2ddc3f73e6c785d67d89028b9-1680x1040.png?w=800&auto=format",
+          "alt": "The market is noisy. Here’s how pipeline intelligence can help.",
+          "nat": "800x495",
+          "r": [
+            331,
+            205
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/fbaa3c8343e43c4d71cef2201cb15bf7c00d5fd1-1680x1040.png?w=800&auto=format",
+          "alt": "Dashboards were never the destination",
+          "nat": "800x495",
+          "r": [
+            331,
+            205
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/51c78ce03c99a846fbc29f65010d496e21b6eb75-2554x1440.png?w=800&auto=format",
+          "alt": "How to Measure Pipeline Quality from Demo Requests with AI",
+          "nat": "800x451",
+          "r": [
+            331,
+            187
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/8e2b6472b9d7bcdcbe1f1f0987645c3ec8de3654-1680x1040.png?w=800&auto=format",
+          "alt": "3 ways Hex makes leading a support team less stressful",
+          "nat": "800x495",
+          "r": [
+            331,
+            205
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/4c11040e03a2931b662091412162c0a63dc931f9-1680x1040.png?w=800&auto=format",
+          "alt": "The unwritten rules of being a head of data",
+          "nat": "800x495",
+          "r": [
+            331,
+            205
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/0722bc6369aee70286feb8634d6ce74d1a71906d-1680x1040.png?w=800&auto=format",
+          "alt": "You're probably evaluating AI analytics tools wrong",
+          "nat": "800x495",
+          "r": [
+            331,
+            205
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/633dec3d5b5221ab18f42529d06a9e3c6fd9ea0e-840x520.png?w=800&auto=format",
+          "alt": "Your data team is too slow (and accuracy won't save you)",
+          "nat": "800x495",
+          "r": [
+            331,
+            205
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/a36bf5ba437e12cf1c98aa95a1c8b349669b4f3a-2554x1440.png?w=800&auto=format",
+          "alt": "Using AI to choose billboard locations",
+          "nat": "800x451",
+          "r": [
+            331,
+            187
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/3ab926d9bf26a6d29e6914144bb0c6962225ce6c-840x520.png?w=800&auto=format",
+          "alt": "Why data apps confused the hell out of me (and probably confuse you too)",
+          "nat": "800x495",
+          "r": [
+            331,
+            205
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/d8e0412205706fadc4fbadd33115d027e70cff07-1680x1040.png?w=800&auto=format",
+          "alt": "How I used Hex’s AI to get fully up to speed on our sales data",
+          "nat": "800x495",
+          "r": [
+            331,
+            205
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/1e964af7362a347383d49813f7fcd3748efdf3d3-1680x1040.png?w=800&auto=format",
+          "alt": "Self-serve analytics is finally real (and that's terrifying)",
+          "nat": "800x495",
+          "r": [
+            331,
+            205
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/de9be2ab1a7e661db7392ef005935adbf2fcaf1a-1680x1040.png?w=800&auto=format",
+          "alt": "How we built a forecasting data app that gets more accurate every quarter",
+          "nat": "800x495",
+          "r": [
+            331,
+            205
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/18b21643d43df8afd3336906664cf8445352cf68-1680x1040.png?w=800&auto=format",
+          "alt": "Hex in the Wild: October 2025 spotlights",
+          "nat": "800x495",
+          "r": [
+            331,
+            205
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/0a134db6af30660f26058d22f5f58874dc7b0a5e-2400x1260.png?w=800&auto=format",
+          "alt": "Lessons from Ramp: Running AI-powered data teams",
+          "nat": "800x420",
+          "r": [
+            331,
+            174
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/93074be682d2231bf3e9900142d30bc55d482b86-1680x1040.png?w=800&auto=format",
+          "alt": "Using AI thoughtfully: How our data team builds speed without losing depth",
+          "nat": "800x495",
+          "r": [
+            331,
+            205
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/00ea9d4abd4463a6f1ee01549873bbe36482e0c4-1680x1020.png?w=800&auto=format",
+          "alt": "Helping your data team become faster with AI, not busier",
+          "nat": "800x486",
+          "r": [
+            331,
+            201
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/2aacd093f9cb3648fcde5ad79d85cf60504c6d47-1680x1040.png?w=800&auto=format",
+          "alt": "The complete guide to prompting Hex's Notebook Agent",
+          "nat": "800x495",
+          "r": [
+            331,
+            205
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/3732a7e6ade12c5bba7dc94ff3c1a927b766cf26-1680x1040.png?w=800&auto=format",
+          "alt": "Building metrics stakeholders need, not what they want",
+          "nat": "800x495",
+          "r": [
+            331,
+            205
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/816e142d9b231c14cc1e154b6e1cb155f4d6dfec-1680x1040.png?w=800&auto=format",
+          "alt": "From “we think” to “we know”: Attribution that ties to revenue",
+          "nat": "800x495",
+          "r": [
+            331,
+            205
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/de281fd8f285b19d9a57d29815d9180bc565f492-1680x1040.png?w=800&auto=format",
+          "alt": "AI is changing how our data team works, and that’s great",
+          "nat": "800x495",
+          "r": [
+            331,
+            205
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/576c2d0d4db331421cc5d69fae7e4925744970d9-1680x1040.png?w=800&auto=format",
+          "alt": "5 product metrics that change our decisions (and drive revenue)",
+          "nat": "800x495",
+          "r": [
+            331,
+            205
+          ]
+        },
+        {
+          "src": "https://cdn.sanity.io/images/e92memrj/production/f5f031d8f9beee3fdbad2c0f775ebeb3e0a894a1-1680x1040.png?w=800&auto=format",
+          "alt": "6 Pipeline questions that RevOps teams can answer in minutes in Hex",
+          "nat": "800x495",
+          "r": [
+            331,
+            205
+          ]
+        }
+      ],
+      "svgs": 69,
+      "videos": 0,
+      "canvas": 0
+    },
+    {
+      "cls": "SCRIPT",
+      "box": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "hs": [],
+      "ps": [],
+      "links": [],
+      "imgs": [],
+      "svgs": 0,
+      "videos": 0,
+      "canvas": 0
+    }
+  ]
+}

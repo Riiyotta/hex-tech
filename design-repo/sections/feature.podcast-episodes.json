@@ -1,0 +1,144 @@
+{
+  "id": "feature.podcast-episodes",
+  "category": "feature",
+  "purpose": "InfoText (mark, H3, description) | divider | two interactive episode cards with a floating 'Watch podcast' button.",
+  "variants": [],
+  "content": {
+    "title": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 8,
+      "observedWords": [
+        6
+      ],
+      "measuredFrom": [
+        "specs/company.md:341"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 20,
+      "observedWords": [
+        16
+      ],
+      "measuredFrom": [
+        "specs/company.md:341"
+      ]
+    },
+    "episodes": {
+      "kind": "list",
+      "required": true,
+      "minItems": 2,
+      "maxItems": 2,
+      "measuredFrom": [
+        "specs/company.md:341"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "title": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 9,
+            "observedWords": [
+              7
+            ],
+            "measuredFrom": [
+              "specs/company.md:341"
+            ]
+          },
+          "description": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 20,
+            "observedWords": [
+              16
+            ],
+            "measuredFrom": [
+              "specs/company.md:341"
+            ]
+          },
+          "buttonLabel": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 3,
+            "observedWords": [
+              2
+            ],
+            "measuredFrom": [
+              "specs/company.md:341"
+            ]
+          },
+          "thumbnail": {
+            "kind": "media",
+            "required": true,
+            "roles": [
+              "image.editorial-thumbnail"
+            ],
+            "alt": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 18,
+              "observedWords": [
+                14,
+                14
+              ],
+              "measuredFrom": [
+                "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+                "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+              ]
+            }
+          },
+          "href": {
+            "kind": "href",
+            "required": true
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.phone-sm}",
+      "change": "stack-columns",
+      "detail": "podcasts stack",
+      "measuredFrom": [
+        "specs/company.md:345"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/company.md:341"
+  ],
+  "wordBudgets": {
+    "description": 20,
+    "episodes[].buttonLabel": 3,
+    "episodes[].description": 20,
+    "episodes[].thumbnail.alt": 18,
+    "episodes[].title": 9,
+    "title": 8
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "image.editorial-thumbnail"
+  ],
+  "usedByTemplates": [
+    "template.guide-landing"
+  ],
+  "observedThemes": [
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__feature.podcast-episodes",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

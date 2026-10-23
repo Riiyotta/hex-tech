@@ -1,0 +1,44 @@
+# bi @390 — doc height 12624 (1440: 8559)
+
+## Sections (matched by component class from the 1440 section list)
+- 0 BIHero__ @1440 [0,0,1440,860] → @390 [0, 0, 390, 704] (+6 more)  | H1:A new era of business intelligence has arrived
+- 1 ContentSection__ @1440 [0,860,1440,125] → @390 [0, 704, 390, 233] (+2 more)  | H2:Behind the teams setting the standard
+- 2 BILookingAtItDifferently__ @1440 [0,985,1440,1052] → @390 [8, 937, 374, 355] (+5 more)  | H2:Time to look at BI,differently / H3:Self-serve BI, but it actually works
+- 3 BILookingAtItDifferently__ @1440 [0,2037,1440,2543] → @390 [8, 937, 374, 355] (+5 more)  | H3:Pixel-perfect dashboards, from a prompt / H3:Trust and govern every answer
+- 4 BIApproach__ @1440 [0,4580,1440,698] → @390 [20, 6419, 350, 1259] (+8 more)  | H2:Rethink your BI approach with Hex / H4:Built for every data user
+- 5 BIResources__ @1440 [0,5278,1440,990] → @390 [20, 7760, 350, 1878] (+3 more)  | H2:Make the switch to BI for the AI era / H4:Should you replace your BI tool with an agent
+- 6 FAQ__ @1440 [0,6269,1440,1021] → @390 [20, 9719, 350, 1015] (+55 more)  | H2:FAQ / H3:Is Hex a BI tool?chevron-down
+- 7 OutroTout__ @1440 [0,7290,1440,683] → @390 [8, 10774, 374, 705] (+6 more)  | H2:Want self-serve BI that actually sticks?
+
+## Text roles @390 (H1–H4, lead/body P, buttons): tag [x,y,w,h] «text» font/size/lh
+- H1 [15, 202, 361, 173] «A new era of has arrived» fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px; padding:15px 6px 6px; margin:0px -6px -6px
+- P [8, 384, 374, 120] «With Hex, self-serve trusted answers and build das» fontSize:20px; fontWeight:300; lineHeight:30px; padding:0px 20px
+- H2 [48, 698, 294, 12] «Behind the teams setting the standard» fontFamily:"Cinetype Mono"; fontSize:10px; lineHeight:12px; letterSpacing:0.833px; padding:0px 12px; textAlign:center
+- P [38, 1142, 314, 120] «Legacy BI promised self-serve but gave us endless » fontSize:20px; fontWeight:300; lineHeight:30px
+- H3 [48, 1372, 294, 52] «Self-serve BI, but it actually works» fontFamily:"PP Formula"; fontSize:20px; fontWeight:800; lineHeight:26px; letterSpacing:-0.5px
+- P [48, 1444, 294, 96] «Anyone can ask questions and explore data in plain» fontSize:16px; fontWeight:300; lineHeight:24px
+- P [75, 1668, 267, 120] «" Hex’s agent increased data access for everyone a» fontSize:16px; fontWeight:300; lineHeight:24px
+- H3 [38, 2695, 314, 52] «Pixel-perfect dashboards, from a prompt» fontFamily:"PP Formula"; fontSize:20px; fontWeight:800; lineHeight:26px; letterSpacing:-0.5px
+- P [38, 2767, 314, 96] «Turn insights into polished, customizable dashboar» fontSize:16px; fontWeight:300; lineHeight:24px
+- P [65, 3238, 287, 120] «" Now our team members can build reports themselve» fontSize:16px; fontWeight:300; lineHeight:24px
+- H3 [38, 3606, 314, 52] «Trust and govern every answer» fontFamily:"PP Formula"; fontSize:20px; fontWeight:800; lineHeight:26px; letterSpacing:-0.5px
+- P [38, 3678, 314, 96] «Skip the months of upfront modeling. Ground agents» fontSize:16px; fontWeight:300; lineHeight:24px
+- P [65, 4548, 287, 120] «" I love Hex's Context Studio. I didn’t know how m» fontSize:16px; fontWeight:300; lineHeight:24px
+- H3 [38, 4905, 314, 52] «Bring BI to where people work» fontFamily:"PP Formula"; fontSize:20px; fontWeight:800; lineHeight:26px; letterSpacing:-0.5px
+- P [38, 4977, 314, 120] «People already ask data questions in Slack, Claude» fontSize:16px; fontWeight:300; lineHeight:24px
+- P [65, 6078, 287, 120] «" Through the Slack integration, I can ask Hex que» fontSize:16px; fontWeight:300; lineHeight:24px
+- H2 [36, 6419, 318, 148] «Rethink your BI approach with Hex» fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px; textAlign:center
+- H4 [68, 6663, 254, 52] «Built for every data user» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px
+- P [68, 6731, 254, 120] «Business users can explore data and build dashboar» fontSize:16px; fontWeight:300; lineHeight:24px
+- H4 [68, 7036, 254, 52] «Migrate without the rebuild» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px
+- P [68, 7104, 254, 96] «Agents automatically migrate Tableau and Looker da» fontSize:16px; fontWeight:300; lineHeight:24px
+- H4 [68, 7385, 254, 52] «Point-and-click, when you need it» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px
+- P [68, 7453, 254, 120] «Explore, pivot, filter, and visualize data with fa» fontSize:16px; fontWeight:300; lineHeight:24px
+- H2 [36, 7760, 318, 148] «Make the switch to BI for the AI era» fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px; textAlign:center
+- H4 [60, 8190, 270, 52] «Should you replace your BI tool with an agent?» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px
+- H4 [60, 8578, 270, 52] «Your next BI tool shouldn't be a BI tool» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px
+- H4 [60, 8965, 270, 52] «You don't need to migrate those 300 dashboards» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px
+- H2 [164, 9734, 62, 39] «FAQ» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px; margin:15px 0px
+- P [20, 10710, 350, 24] «Can't find your answer here? .» fontSize:16px; fontWeight:300; lineHeight:24px; margin:35px 0px 0px; textAlign:center
+- H2 [67, 10906, 256, 117] «Want self-serve BI that actually sticks?» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px
+- P [67, 11033, 256, 180] «Learn why 2,000+ teams approach BI differently wit» fontSize:20px; fontWeight:300; lineHeight:30px

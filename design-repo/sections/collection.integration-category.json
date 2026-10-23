@@ -1,0 +1,137 @@
+{
+  "id": "collection.integration-category",
+  "category": "collection",
+  "purpose": "Integration category: H3 + description over a 4-column grid of logo tiles (one special rotating local-files tile).",
+  "variants": [],
+  "content": {
+    "title": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 5,
+      "observedWords": [
+        3,
+        3,
+        4,
+        4,
+        2,
+        3
+      ],
+      "measuredFrom": [
+        "specs/product-integrations.json:111",
+        "specs/product-integrations.json:138",
+        "specs/product-integrations.json:165",
+        "specs/product-integrations.json:184",
+        "specs/product-integrations.json:196",
+        "specs/product-integrations.json:7"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": false,
+      "maxWords": 27,
+      "observedWords": [
+        20,
+        21,
+        13,
+        14
+      ],
+      "measuredFrom": [
+        "specs/product-integrations.json:112",
+        "specs/product-integrations.json:139",
+        "specs/product-integrations.json:197",
+        "specs/product-integrations.json:8"
+      ]
+    },
+    "tiles": {
+      "kind": "list",
+      "required": true,
+      "minItems": 1,
+      "maxItems": 14,
+      "measuredFrom": [
+        "specs/product.md:657"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "name": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 4,
+            "observedWords": [
+              3
+            ],
+            "measuredFrom": [
+              "specs/product.md:657"
+            ]
+          },
+          "href": {
+            "kind": "href",
+            "required": false
+          },
+          "logo": {
+            "kind": "media",
+            "required": true,
+            "roles": [
+              "logo.integration"
+            ],
+            "alt": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 18,
+              "observedWords": [
+                14,
+                14
+              ],
+              "measuredFrom": [
+                "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+                "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in",
+      "rotator-cycle"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "reduce-columns",
+      "detail": "fewer columns; tile height 150",
+      "measuredFrom": [
+        "specs/product.md:653"
+      ]
+    }
+  ],
+  "constraints": {
+    "consecutiveAllowed": true
+  },
+  "measuredFrom": [
+    "specs/product.md:651"
+  ],
+  "wordBudgets": {
+    "description": 27,
+    "tiles[].logo.alt": 18,
+    "tiles[].name": 4,
+    "title": 5
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "logo.integration"
+  ],
+  "usedByTemplates": [
+    "template.integrations-index"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__collection.integration-category",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

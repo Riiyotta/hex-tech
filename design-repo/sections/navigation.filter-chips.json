@@ -1,0 +1,134 @@
+{
+  "id": "navigation.filter-chips",
+  "category": "navigation",
+  "purpose": "Single-select filter chip row (icon + label + optional count) with optional sort control; filters client-side.",
+  "variants": [
+    "solutions-hub",
+    "customers"
+  ],
+  "content": {
+    "chips": {
+      "kind": "list",
+      "required": true,
+      "minItems": 4,
+      "maxItems": 7,
+      "measuredFrom": [
+        "specs/solutions.md:185",
+        "specs/company.md:287"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "label": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 3,
+            "observedWords": [
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "measuredFrom": [
+              "specs/company.md:287",
+              "specs/solutions.md:185"
+            ]
+          },
+          "count": {
+            "kind": "text",
+            "required": false,
+            "maxWords": 2,
+            "observedWords": [
+              1
+            ],
+            "measuredFrom": [
+              "specs/solutions.md:185"
+            ]
+          },
+          "icon": {
+            "kind": "media",
+            "required": false,
+            "roles": [
+              "icon.ui"
+            ],
+            "alt": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 18,
+              "observedWords": [
+                14,
+                14
+              ],
+              "measuredFrom": [
+                "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+                "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "sortLabel": {
+      "kind": "text",
+      "required": false,
+      "maxWords": 5,
+      "observedWords": [
+        4
+      ],
+      "measuredFrom": [
+        "specs/company.md:287"
+      ]
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.laptop}",
+      "change": "reflow-wrap",
+      "detail": "chips wrap centred",
+      "measuredFrom": [
+        "specs/solutions.md:183"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/solutions.md:181",
+    "specs/company.md:287"
+  ],
+  "behavior": {
+    "filtering": "client-side, instant, no URL change",
+    "measuredFrom": [
+      "specs/solutions.md:188"
+    ]
+  },
+  "wordBudgets": {
+    "chips[].count": 2,
+    "chips[].icon.alt": 18,
+    "chips[].label": 3,
+    "sortLabel": 5
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "icon.ui"
+  ],
+  "usedByTemplates": [
+    "template.customers-index",
+    "template.solutions-hub"
+  ],
+  "observedThemes": [
+    "dark",
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__navigation.filter-chips",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

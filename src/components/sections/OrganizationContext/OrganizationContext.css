@@ -1,0 +1,192 @@
+/* §4.5 Ground every answer in your organization's context.
+   Values from home-module-rules.css: HomeOrganizationContext-module__*, HomeOrganizationContextCycle-module__*,
+   and styled-component-rules.css: CycleArrows__*, TextOnPath__Text. */
+
+/* HomeOrganizationContext-module__content */
+.org-context {
+  --organization-context-cycle-size: 560px;
+  --organization-context-column-gap: 10px;
+  --organization-context-copy-width: max(330px, 16vw);
+  position: relative;
+  width: 100%;
+  max-width: min(
+    calc(100% - var(--home-section-gutter) - var(--home-section-gutter)),
+    calc(var(--organization-context-cycle-size) + var(--organization-context-column-gap) + var(--organization-context-copy-width))
+  );
+  margin: 0 auto;
+  padding: 0;
+}
+.org-context__layout.org-context__layout { gap: var(--organization-context-column-gap); }
+
+/* HomeOrganizationContext-module__cycleFigure */
+.org-context__cycle-figure {
+  flex: 1 1 var(--organization-context-cycle-size);
+  max-width: var(--organization-context-cycle-size);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  min-width: 0;
+  container-type: inline-size;
+}
+
+/* HomeOrganizationContextCycle-module__cycle */
+.org-cycle {
+  --cycle-size: min(560px, 97cqw);
+  --cycle-disc-size: calc(var(--cycle-size) * 430 / 560);
+  --cycle-step-radius: calc(var(--cycle-size) * 210 / 560);
+  --cycle-step-size: calc(var(--cycle-size) * 156 / 560);
+  --cycle-step-label-size: calc(var(--cycle-size) * 178 / 560);
+  position: relative;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  width: fit-content;
+  margin: 16px auto;
+}
+.org-cycle > * { grid-area: 1 / -1; }
+@media (max-width: 800px) {
+  .org-cycle { margin: 40px auto; }
+}
+
+.org-cycle__arrows { width: var(--cycle-size); height: var(--cycle-size); }
+.cycle-arrows__marker { stroke-width: 1; stroke: theme('colors.fg.1000'); }
+.cycle-arrows__path { stroke: theme('colors.fg.800'); }
+
+.org-cycle__disc {
+  position: relative;
+  width: var(--cycle-disc-size);
+  height: var(--cycle-disc-size);
+  border: 1px solid theme('colors.grid.500');
+  border-radius: 50%;
+  overflow: clip;
+  box-shadow: theme('boxShadow.org-disc');
+}
+
+.org-cycle__center {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  max-width: calc(var(--cycle-size) * 190 / 560);
+  pointer-events: none;
+}
+.org-cycle__center > * { grid-area: 1 / -1; }
+.org-cycle__center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  text-align: center;
+}
+/* .heading-4 + centerTitle */
+.org-cycle__center-title {
+  font-family: theme('fontFamily.formula');
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  font-size: clamp(14px, calc(var(--cycle-size) * 20 / 560), 20px);
+  line-height: 1.4;
+  color: theme('colors.ink.loud');
+  text-wrap: balance;
+}
+/* .text-s + centerDescription (12px / 1.5 / 400, fg1200) */
+.org-cycle__center-description {
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: theme('colors.fg.1200');
+  text-wrap: balance;
+}
+
+/* HomeOrganizationContextCycle-module__step */
+.org-cycle__step {
+  appearance: none;
+  position: relative;
+  z-index: 2;
+  width: var(--cycle-step-size);
+  height: var(--cycle-step-size);
+  padding: 0;
+  border: 1px solid theme('colors.grid.500');
+  border-radius: 50%;
+  background-color: theme('colors.white');
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  box-shadow: theme('boxShadow.org-step');
+  transform: translate(
+    calc(var(--step-normal-x) * var(--cycle-step-radius)),
+    calc(var(--step-normal-y) * var(--cycle-step-radius))
+  );
+}
+.org-cycle__step:focus-visible { outline: 2px solid theme('colors.ink.loud'); outline-offset: 4px; }
+.org-cycle__step::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background-image: var(--texture-paper-img);
+  background-size: var(--texture-paper-size);
+  mix-blend-mode: var(--texture-paper-mixBlendMode);
+  opacity: var(--texture-paper-opacity);
+  pointer-events: none;
+}
+
+/* stepNoise: step texture, 256px tile drifting down; dot-grid ∩ top-to-bottom fade mask */
+.org-cycle__step-noise {
+  position: absolute;
+  inset: 0;
+  display: block;
+  border-radius: inherit;
+  background-image: var(--step-hover-noise);
+  background-size: 256px 256px;
+  opacity: 0;
+  transition: opacity 500ms var(--hover-transition-timing-function);
+  animation: step-noise-drift 4s linear infinite;
+  -webkit-mask-image: radial-gradient(#fff, #fff 1px, transparent 1px, transparent),
+    linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.1) 60%);
+  mask-image: radial-gradient(#fff, #fff 1px, transparent 1px, transparent),
+    linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.1) 60%);
+  -webkit-mask-size: 6px 6px, 100% 100%;
+  mask-size: 6px 6px, 100% 100%;
+  -webkit-mask-composite: source-in;
+  mask-composite: intersect;
+}
+.org-cycle__step[data-active='true'] .org-cycle__step-noise { opacity: 1; }
+
+.org-cycle__step-illustration {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  width: calc(var(--cycle-size) * var(--step-illustration-ratio));
+  transform: translate(-50%, -54%);
+}
+.org-cycle__step-illustration img { display: block; width: 100%; height: auto; }
+
+.org-cycle__step-label {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  display: block;
+  color: var(--step-hover-color);
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+}
+.org-cycle__step-label-path {
+  display: block;
+  width: var(--cycle-step-label-size);
+  height: var(--cycle-step-label-size);
+}
+/* TextOnPath__Text */
+.org-cycle__step-label-text {
+  font-family: theme('fontFamily.mono');
+  font-size: 10px;
+  text-transform: uppercase;
+  fill: theme('colors.ink.DEFAULT');
+  transition: fill 0.16s linear;
+}
+.org-cycle__step[data-active='true'] .org-cycle__step-label-text { fill: currentColor; }
+
+@media (prefers-reduced-motion: reduce) {
+  .org-cycle__step-noise { transition: none; animation: none; }
+  .org-cycle__step-label-text { transition: none; }
+}

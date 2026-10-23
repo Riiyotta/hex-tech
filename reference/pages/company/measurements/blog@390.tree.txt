@@ -1,0 +1,897 @@
+<BODY > [0,0,390,4883] {font-family:Cinetype; font-size:14px; line-height:21.994px; font-weight:400; font-style:normal; letter-spacing:normal; text-transform:none; text-align:start; color:rgb(227, 178, 179); background-color:rgb(20, 20, 28); overflow:clip visible; z-index:0; list-style-type:disc; white-space:normal; text-wrap:wrap}
+ <DIV PageWrapper__PageLayoutGrid> [0,0,390,4883] {display:grid; gap:0px; grid-template-columns:7.875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 7.875px; grid-template-rows:4883.14px; color:rgb(245, 192, 192); background-color:rgb(20, 20, 28)}
+  <A .sr-only> [-10000,0,1,1] href=#main «Skip to main content» {position:absolute; grid-column:2 / -2; color:rgb(227, 178, 179); border-bottom:1px solid rgb(227, 178, 179); transition:background-color 0.1s linear; overflow:hidden}
+  <DIV LayoutGrid__LayoutSubgrid PageWrapper__PaperTexture> [0,0,390,4883] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-column:1 / -1; background-image:url("https://hex.tech/images/bkg-noise.webp"); opacity:0.0625}
+  <DIV LayoutGrid__LayoutSubgrid> [0,0,390,4883] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:3737.42px 1113.72px 32px; grid-column:1 / -1}
+   <DIV .LayoutGrid-sc-51ec3774-0.gfIDZt> [0,0,390,68] {display:grid; position:fixed; gap:0px; grid-template-columns:7.875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 7.875px; grid-template-rows:12px 56px; grid-column:2 / -2; z-index:3}
+    <DIV LayoutGrid__LayoutSubgrid Header__TopGridLines> [0,0,390,12] {display:grid; position:relative; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:12px; grid-column:1 / -1; background-color:rgb(20, 20, 28)}
+     <DIV GridLines__ContentMarginLine> [0,0,8,12] {grid-column:1; border-right:1px solid rgb(43, 37, 44)}
+     <DIV GridLines__GridRule> [101,0,1,12] {grid-column:4; background-color:rgb(43, 37, 44); transform:matrix(1, 0, 0, 1, 0.5, 0)}
+     <DIV GridLines__GridRule> [288,0,1,12] {grid-column:10; background-color:rgb(43, 37, 44); transform:matrix(1, 0, 0, 1, 0.5, 0)}
+     <DIV GridLines__ContentMarginLine> [382,0,8,12] {grid-column:-2 / span 1; border-left:1px solid rgb(43, 37, 44)}
+    <HEADER LayoutGrid__LayoutSubgrid> [0,12,390,56] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:56px; grid-column:1 / -1}
+     <DIV LayoutGrid__LayoutSubgrid Header__TickerWrapper> [0,12,390,27] {display:grid; position:relative; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:26.8438px; grid-column:1 / -1; background-color:rgb(20, 20, 28)}
+      <DIV GridLines__ContentMarginLine> [0,12,8,27] {grid-column:1; border-right:1px solid rgb(43, 37, 44)}
+      <DIV LayoutGrid__LayoutSubgrid Ticker__Bg> [8,12,374,27] {display:grid; grid-template-columns:31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px; grid-template-rows:26.8438px; grid-column:2 / -2; background-color:rgb(37, 33, 40); background-image:linear-gradient(to left, rgb(37, 33, 40), rgb(32, 29, 37), rgb(37, 33, 40)); box-shadow:rgba(245, 192, 192, 0.173) 0px 1px 1px 0px inset; overflow:hidden}
+       <DIV Ticker__Marquee> [8,12,374,27] {display:flex; position:relative; grid-column:1 / -1; overflow:hidden; z-index:1}
+        <DIV .sr-only> [-9992,12,1,1] {position:absolute; overflow:hidden}
+         <A Ticker__MarqueeItem> [-9992,12,16,19] href=/customers/langchain/ «how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+          <SPAN > [-9984,12,15,19] «📊» {}
+          <SPAN Ticker__MarqueeItemTitle> [-9961,12,169,19] «AI analytics use case:» {color:rgb(255, 255, 255)}
+          <SPAN Ticker__Circle> [-9113,16,10,10] {display:grid; align-items:center; grid-template-columns:10px; grid-template-rows:10px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+           <svg Ticker__StyledArrowRight> [-9113,18,10,7] {overflow:hidden}
+         <A Ticker__MarqueeItem> [-9992,31,16,19] href=/blog/introducing-generative-data-apps/ «Gorgeous, interactive dashboards and apps you can build with just a prompt» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+          <SPAN > [-9984,31,15,19] «🤯» {}
+          <SPAN Ticker__MarqueeItemTitle> [-9961,31,161,19] «Generative data apps:» {color:rgb(255, 255, 255)}
+          <SPAN Ticker__Circle> [-9220,35,10,10] {display:grid; align-items:center; grid-template-columns:10px; grid-template-rows:10px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+           <svg Ticker__StyledArrowRight> [-9220,37,10,7] {overflow:hidden}
+         <A Ticker__MarqueeItem> [-9992,50,16,19] href=/state-of-data-teams/ «discover key insights from data leaders» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+          <SPAN > [-9984,50,15,19] «📖» {}
+          <SPAN Ticker__MarqueeItemTitle> [-9961,50,184,19] «State of Data Teams 2026» {color:rgb(255, 255, 255)}
+          <SPAN Ticker__Circle> [-9466,54,10,10] {display:grid; align-items:center; grid-template-columns:10px; grid-template-rows:10px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+           <svg Ticker__StyledArrowRight> [-9466,56,10,7] {overflow:hidden}
+         <A Ticker__MarqueeItem> [-9992,69,16,19] href=/ «Not "HEX" or "Hex dot tech"» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+          <SPAN > [-9984,69,15,19] «🙏» {}
+          <SPAN Ticker__MarqueeItemTitle> [-9961,69,123,19] «It's just "Hex"!» {color:rgb(255, 255, 255)}
+          <SPAN Ticker__Circle> [-9619,73,10,10] {display:grid; align-items:center; grid-template-columns:10px; grid-template-rows:10px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+           <svg Ticker__StyledArrowRight> [-9619,74,10,7] {overflow:hidden}
+        <DIV Ticker__InstanceAnim> [-473,12,13568,27] {display:flex; transform:matrix(1, 0, 0, 1, -481.307, 0); animation:56s linear infinite ticker}
+         <SPAN > [-473,12,2714,27] {display:flex; white-space:nowrap; text-wrap:nowrap}
+          <SPAN Ticker__MarqueeItems> [-473,12,2714,27] {display:flex; gap:16px; padding:4px 16px 4px 0px}
+           <A Ticker__MarqueeItem> [-473,16,904,19] href=/customers/langchain/ «how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [-464,16,15,19] «📊» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [-441,16,169,19] «AI analytics use case:» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [408,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [410,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [447,16,797,19] href=/blog/introducing-generative-data-apps/ «Gorgeous, interactive dashboards and apps you can build with just a prompt» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [456,16,15,19] «🤯» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [479,16,161,19] «Generative data apps:» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [1221,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [1223,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [1260,16,551,19] href=/state-of-data-teams/ «discover key insights from data leaders» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [1269,16,15,19] «📖» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [1292,16,184,19] «State of Data Teams 2026» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [1788,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [1790,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [1827,16,397,19] href=/ «Not "HEX" or "Hex dot tech"» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [1836,16,15,19] «🙏» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [1859,16,123,19] «It's just "Hex"!» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [2201,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [2204,22,10,7] {overflow:hidden}
+         <SPAN > [2240,12,2714,27] {display:flex; white-space:nowrap; text-wrap:nowrap}
+          <SPAN Ticker__MarqueeItems> [2240,12,2714,27] {display:flex; gap:16px; padding:4px 16px 4px 0px}
+           <A Ticker__MarqueeItem> [2240,16,904,19] href=/customers/langchain/ «how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [2249,16,15,19] «📊» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [2273,16,169,19] «AI analytics use case:» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [3121,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [3124,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [3160,16,797,19] href=/blog/introducing-generative-data-apps/ «Gorgeous, interactive dashboards and apps you can build with just a prompt» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [3170,16,15,19] «🤯» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [3193,16,161,19] «Generative data apps:» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [3934,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [3937,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [3973,16,551,19] href=/state-of-data-teams/ «discover key insights from data leaders» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [3982,16,15,19] «📖» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [4006,16,184,19] «State of Data Teams 2026» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [4501,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [4504,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [4540,16,397,19] href=/ «Not "HEX" or "Hex dot tech"» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [4549,16,15,19] «🙏» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [4573,16,123,19] «It's just "Hex"!» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [4915,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [4917,22,10,7] {overflow:hidden}
+         <SPAN > [4954,12,2714,27] {display:flex; white-space:nowrap; text-wrap:nowrap}
+          <SPAN Ticker__MarqueeItems> [4954,12,2714,27] {display:flex; gap:16px; padding:4px 16px 4px 0px}
+           <A Ticker__MarqueeItem> [4954,16,904,19] href=/customers/langchain/ «how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [4963,16,15,19] «📊» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [4986,16,169,19] «AI analytics use case:» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [5835,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [5837,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [5874,16,797,19] href=/blog/introducing-generative-data-apps/ «Gorgeous, interactive dashboards and apps you can build with just a prompt» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [5883,16,15,19] «🤯» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [5906,16,161,19] «Generative data apps:» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [6648,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [6650,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [6687,16,551,19] href=/state-of-data-teams/ «discover key insights from data leaders» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [6696,16,15,19] «📖» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [6719,16,184,19] «State of Data Teams 2026» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [7215,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [7217,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [7254,16,397,19] href=/ «Not "HEX" or "Hex dot tech"» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [7263,16,15,19] «🙏» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [7286,16,123,19] «It's just "Hex"!» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [7628,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [7631,22,10,7] {overflow:hidden}
+         <SPAN > [7667,12,2714,27] {display:flex; white-space:nowrap; text-wrap:nowrap}
+          <SPAN Ticker__MarqueeItems> [7667,12,2714,27] {display:flex; gap:16px; padding:4px 16px 4px 0px}
+           <A Ticker__MarqueeItem> [7667,16,904,19] href=/customers/langchain/ «how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [7676,16,15,19] «📊» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [7700,16,169,19] «AI analytics use case:» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [8548,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [8551,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [8587,16,797,19] href=/blog/introducing-generative-data-apps/ «Gorgeous, interactive dashboards and apps you can build with just a prompt» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [8597,16,15,19] «🤯» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [8620,16,161,19] «Generative data apps:» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [9361,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [9364,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [9400,16,551,19] href=/state-of-data-teams/ «discover key insights from data leaders» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [9409,16,15,19] «📖» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [9433,16,184,19] «State of Data Teams 2026» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [9928,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [9931,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [9967,16,397,19] href=/ «Not "HEX" or "Hex dot tech"» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [9976,16,15,19] «🙏» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [10000,16,123,19] «It's just "Hex"!» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [10342,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [10344,22,10,7] {overflow:hidden}
+         <SPAN > [10381,12,2714,27] {display:flex; white-space:nowrap; text-wrap:nowrap}
+          <SPAN Ticker__MarqueeItems> [10381,12,2714,27] {display:flex; gap:16px; padding:4px 16px 4px 0px}
+           <A Ticker__MarqueeItem> [10381,16,904,19] href=/customers/langchain/ «how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [10390,16,15,19] «📊» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [10413,16,169,19] «AI analytics use case:» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [11262,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [11264,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [11301,16,797,19] href=/blog/introducing-generative-data-apps/ «Gorgeous, interactive dashboards and apps you can build with just a prompt» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [11310,16,15,19] «🤯» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [11333,16,161,19] «Generative data apps:» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [12075,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [12077,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [12114,16,551,19] href=/state-of-data-teams/ «discover key insights from data leaders» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [12123,16,15,19] «📖» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [12146,16,184,19] «State of Data Teams 2026» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [12642,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [12644,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [12681,16,397,19] href=/ «Not "HEX" or "Hex dot tech"» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [12690,16,15,19] «🙏» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [12713,16,123,19] «It's just "Hex"!» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [13055,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [13058,22,10,7] {overflow:hidden}
+      <DIV GridLines__ContentMarginLine> [382,12,8,27] {grid-column:-2 / span 1; border-left:1px solid rgb(43, 37, 44)}
+     <DIV LayoutGrid__LayoutSubgrid> [0,12,390,56] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:56px; grid-column:1 / -1}
+      <NAV LayoutGrid__LayoutSubgrid> [0,12,390,56] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:56px 0px; grid-column:1 / -1}
+       <DIV LayoutGrid__LayoutSubgrid Nav__NavWrapper> [0,39,390,56] {display:grid; position:relative; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:56px; grid-column:1 / -1; transform:matrix(1, 0, 0, 1, 0, 26.8438)}
+        <DIV LayoutGrid__LayoutSubgrid Nav__Background> [0,39,390,56] {display:grid; position:relative; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:56px; grid-column:1 / -1; z-index:-1}
+         <DIV Nav__BackgroundInner> [0,39,390,56] {position:absolute; grid-column:1 / -1; mask-image:linear-gradient(rgba(0, 0, 0, 0.48) 30%, rgba(0, 0, 0, 0))}
+        <DIV LayoutGrid__LayoutSubgrid> [0,59,390,56] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:56px; grid-column:1 / -1; transform:matrix(1, 0, 0, 1, 0, 20)}
+         <DIV Nav__NavShadow> [0,59,390,56] {position:relative; grid-column:1 / -1; opacity:0; overflow:clip visible; z-index:3}
+         <DIV LayoutGrid__LayoutSubgrid> [0,59,390,56] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:56px; grid-column:1 / -1}
+          <DIV Nav__NavBorderBottom> [0,114,8,1] {grid-column:1; background-color:rgb(43, 37, 44); opacity:0}
+          <DIV Nav__NavigationRootEl> [8,59,374,56] {display:grid; position:relative; align-items:center; grid-template-columns:187.125px 0px 187.125px; grid-template-rows:0px 40px; grid-column:2 / -2; padding:8px 0px}
+           <DIV > [8,67,187,0] {position:relative}
+           <A Nav__HomeNavLinkWrapper> [22,75,64,25] href=/ {grid-column:1 / span 1; margin:0px 0px 0px 14.4px; color:rgb(227, 178, 179); transition:background-color 0.1s linear}
+            <svg Nav__Hex> [22,75,64,25] {overflow:hidden}
+           <DIV > [195,87,0,0] {position:relative}
+           <BUTTON MobileNav__HamburgerButton> [334,67,40,40] {display:grid; position:relative; align-items:center; grid-template-columns:40px; grid-template-rows:40px; margin:0px 8px 0px 0px; aspect-ratio:1 / 1; font-family:Arial; font-size:13.3333px; line-height:normal; text-align:center; color:rgb(0, 0, 0); border-radius:999px}
+            <DIV MobileNav__HamburgerButtonShadow> [334,67,40,40] {position:absolute; background-image:radial-gradient(circle at 66.66% 50%, rgb(29, 29, 41) 0%, rgb(15, 15, 21) 80%); border-radius:999px; box-shadow:rgb(17, 17, 24) 0px 0px 24px 0px inset, rgb(47, 47, 65) 0px 0.5px 0px 0.75px, rgba(0, 0, 0, 0.01) 6px 37px 10px 0px, rgba(0, 0, 0, 0.04) 4px 24px 10px 0px, rgba(0, 0, 0, 0.14) 2px 13px 8px 0px, rgba(0, 0, 0, 0.24) 1px 6px 6px 0px, rgba(0, 0, 0, 0.27) 0px 1px 3px 0px; z-index:-1}
+            <DIV MobileNav__HamburgerButtonBg> [334,67,40,40] {position:absolute; background-color:rgb(20, 20, 28); border-radius:999px; z-index:-1}
+           <DIV Nav__NavRootBorder> [195,114,0,1] {position:absolute; background-color:rgb(58, 49, 56); opacity:0; transform:matrix(0, 0, 0, 1, 0, 0)}
+          <DIV Nav__NavBorderBottom> [382,114,8,1] {grid-column:-1; background-color:rgb(43, 37, 44); opacity:0}
+        <DIV Accent__LContainer> [-1,31,16,16] {display:grid; position:absolute; align-items:center; grid-template-columns:16px; grid-template-rows:16px; grid-column:2 / -2; transform:matrix(1, 0, 0, 1, -8, -8); z-index:2}
+         <DIV Accent__VerticalBar> [7,31,1,16] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+         <DIV Accent__HorizontalBar> [-1,39,16,1] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+        <DIV Accent__LContainer> [375,31,16,16] {display:grid; position:absolute; align-items:center; grid-template-columns:16px; grid-template-rows:16px; grid-column:2 / -2; transform:matrix(1, 0, 0, 1, 8, -8); z-index:2}
+         <DIV Accent__VerticalBar> [382,31,1,16] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+         <DIV Accent__HorizontalBar> [375,39,16,1] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+        <DIV Accent__LContainer> [375,86,16,16] {display:grid; position:absolute; align-items:center; grid-template-columns:16px; grid-template-rows:16px; grid-column:2 / -2; transform:matrix(1, 0, 0, 1, 8, 8); z-index:2}
+         <DIV Accent__VerticalBar> [382,86,1,16] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+         <DIV Accent__HorizontalBar> [375,94,16,1] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+        <DIV Accent__LContainer> [-1,86,16,16] {display:grid; position:absolute; align-items:center; grid-template-columns:16px; grid-template-rows:16px; grid-column:2 / -2; transform:matrix(1, 0, 0, 1, -8, 8); z-index:2}
+         <DIV Accent__VerticalBar> [7,86,1,16] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+         <DIV Accent__HorizontalBar> [-1,94,16,1] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+       <DIV > [0,115,390,0] {grid-column:1 / -1; transform:matrix(1, 0, 0, 1, 0, 46.8438)}
+   <MAIN LayoutGrid__LayoutSubgrid> [0,0,390,3737] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:270.844px 1348.42px 582.422px 16px 1519.73px; grid-column:1 / -1}
+    <DIV LayoutGrid__LayoutSubgrid> [0,0,390,271] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:270.844px; grid-column:1 / -1; z-index:2}
+     <DIV Masthead__CheckeredMargin> [0,0,8,271] {position:relative; grid-column:1 / span 1; background-image:url("data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"4\" height=\"4\"><rect width=\"2\" height=\"2\" fill=\"%23312a31\" /><rect x=\"2\" y=\"2\" width=\"2\" height=\"2\" fill=\"%23312a31\"/></svg>"); border-right:1px solid rgb(58, 49, 56)}
+      <DIV Masthead__CrossAccent> [3,267,8,8] {display:grid; position:absolute; align-items:center; grid-template-columns:8px; grid-template-rows:8px; transform:matrix(1, 0, 0, 1, 4, 4)}
+     <DIV Masthead__Hero> [20,0,350,271] {position:relative; grid-column:2 / -2; padding:94.8438px 0px 0px; margin:0px 12px}
+      <DIV Masthead__CommandCenter> [20,223,350,36] {display:flex; position:relative; justify-content:space-between; align-items:flex-end; gap:24px; margin:128px 0px 12px; color:rgb(58, 49, 56)}
+       <DIV Masthead__HeadlineContainer> [20,233,46,26] {display:grid; align-items:flex-start; grid-template-columns:45.8125px; grid-template-rows:26px}
+        <H1 Masthead__Headline> [20,233,46,26] «Blog» {font-family:PP Formula; font-size:20px; line-height:26px; font-weight:800; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+       <DIV Search__Position> [334,223,36,36] {position:relative; z-index:2}
+        <BUTTON Search__Toggle> [334,223,36,36] {display:inline-block; position:relative; font-family:Arial; font-size:13.3333px; line-height:normal; text-align:center; color:rgba(245, 192, 192, 0.384); border-radius:12px}
+         <DIV Search__ToggleBackground> [334,223,36,36] {display:flex; position:relative; justify-content:flex-start; align-items:center; gap:4px; padding:4px; background-color:rgba(245, 192, 192, 0.055); border-radius:20px; transition:background-color 0.08s linear}
+          <DIV Search__SearchIconWrapper> [338,227,28,28] {display:grid; align-items:center; grid-template-columns:28px; grid-template-rows:28px; border-radius:999px}
+           <SPAN createIcon__Wrapper> [345,233,15,15] {display:flex; color:rgb(227, 178, 179)}
+            <svg > [345,233,15,15] {overflow:hidden}
+     <DIV Masthead__CheckeredMargin> [382,0,8,271] {position:relative; grid-column:-2 / span 1; background-image:url("data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"4\" height=\"4\"><rect width=\"2\" height=\"2\" fill=\"%23312a31\" /><rect x=\"2\" y=\"2\" width=\"2\" height=\"2\" fill=\"%23312a31\"/></svg>"); border-left:1px solid rgb(58, 49, 56)}
+      <DIV Masthead__CrossAccent> [379,267,8,8] {display:grid; position:absolute; align-items:center; grid-template-columns:8px; grid-template-rows:8px; transform:matrix(1, 0, 0, 1, -4, 4)}
+    <DIV LayoutGrid__LayoutSubgrid> [0,271,390,1348] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:1348.42px; grid-column:1 / -1}
+     <DIV GridLines__ContentMarginLine> [0,271,8,1348] {grid-column:1; border-top:1px solid rgb(43, 37, 44); border-right:1px solid rgb(43, 37, 44)}
+     <DIV FeaturedPosts__Wrapper> [8,271,374,1348] {position:relative; grid-column:2 / -2; background-image:url("data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"4\" height=\"4\"><rect width=\"2\" height=\"2\" fill=\"%23312a31\" /><rect x=\"2\" y=\"2\" width=\"2\" height=\"2\" fill=\"%23312a31\"/></svg>"); border-top:1px solid rgb(58, 49, 56)}
+      <DIV FeaturedPosts__Grid> [12,276,366,1339] {display:grid; gap:4px; grid-template-columns:366.25px; grid-template-rows:478.625px 428.625px 424.172px; margin:4px}
+       <DIV postMeta__Card Primary__FeaturedPost> [12,276,366,479] {display:grid; position:relative; grid-template-columns:366.25px; grid-template-rows:478.625px; grid-column:1 / -1; background-color:rgb(15, 15, 21); border-radius:1px; box-shadow:rgb(43, 37, 44) 0px 0px 0px 1px; transition:background-color 0.08s linear, box-shadow 0.08s linear}
+        <DIV Primary__RadialMask> [12,276,366,479] {position:relative; grid-column:-1; mask-image:radial-gradient(circle at 50% 8%, rgb(255, 255, 255) 12%, rgba(0, 0, 0, 0) 90%)}
+         <DIV Primary__DotGridMask> [12,276,366,479] {position:absolute; mask-image:radial-gradient(rgb(255, 255, 255), rgb(255, 255, 255) 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0))}
+          <DIV Primary__PerlinNoise> [12,276,366,479] {position:absolute; background-color:rgb(227, 178, 179); background-image:url("https://hex.tech/images/blog-2/perlin-noise.png"); opacity:0.16; transition:0.3s ease-out; animation:36s linear infinite translate-bg}
+        <DIV Primary__PrimaryPostGrid> [12,276,366,479] {display:grid; position:relative; align-items:stretch; gap:16px; grid-template-columns:342.25px; grid-template-rows:211.219px 227.406px; grid-column:-1; padding:12px}
+         <DIV Primary__Pile> [24,515,342,227] {display:grid; grid-template-columns:342.25px; grid-template-rows:227.406px}
+          <DIV Primary__PostCornerAccents> [24,515,342,227] {position:relative; grid-column:-1}
+          <DIV Primary__PostInfo> [24,515,342,227] {display:flex; flex-direction:column; justify-content:space-between; align-items:flex-start; grid-column:-1; padding:0px 16px 16px}
+           <DIV Primary__TitleInfo> [40,515,310,156] {}
+            <DIV postMeta__DateWithReadTimeWrapper> [40,515,310,28] {display:flex; gap:12px}
+             <DIV postMeta__PostDate> [40,515,100,16] {display:flex; gap:4px; margin:0px 0px 12px; color:rgba(255, 255, 255, 0.447)}
+              <SPAN createIcon__Wrapper postMeta__FlippedMergeIcon> [40,515,16,16] {display:flex; transform:matrix(1, 0, 0, -1, 0, 0)}
+               <svg > [40,515,16,16] {overflow:hidden}
+              <P .annotation> [60,515,80,16] «Oct 8, 2026» {font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px}
+             <DIV postMeta__PostDate> [151,515,49,16] {display:flex; gap:4px; margin:0px 0px 12px; color:rgba(255, 255, 255, 0.447)}
+              <SPAN createIcon__Wrapper> [151,515,16,16] {display:flex}
+               <svg > [151,515,16,16] {overflow:hidden}
+              <P .annotation> [171,515,29,16] «7 min» {font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px}
+            <H2 Primary__PostTitle> [40,543,310,52] {font-family:PP Formula; font-size:20px; line-height:26px; font-weight:800; letter-spacing:-0.5px; color:rgb(255, 255, 255); text-wrap:balance}
+             <A postMeta__PostLink> [40,544,276,50] href=/blog/we-used-evals-to-improve-ai-feature/ «Hill climbing to glory: using evals to cut AI errors 7x» {display:inline; transition:background-color 0.1s linear}
+            <P Primary__PostDescription> [40,599,310,72] «How 1,800 evals showed us AI feature quality improvements go beyond prompting» {margin:4px 0px 0px; font-size:16px; line-height:24px; font-weight:300; text-wrap:balance}
+           <DIV Primary__MetaCta> [40,695,204,31] {display:flex; align-items:center; margin:24px 0px 0px}
+            <DIV postMeta__PostMeta> [40,695,204,31] {position:relative; padding:0px 56px 0px 0px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; letter-spacing:0.9996px; color:rgba(255, 255, 255, 0.447)}
+             <DIV postMeta__Cta> [-13,691,40,40] {display:grid; position:absolute; justify-content:center; grid-template-columns:16px; grid-template-rows:16px; font-size:14px; line-height:21.994px; color:rgba(255, 255, 255, 0.9); background-color:rgb(17, 17, 24); border-radius:999px; box-shadow:rgba(0, 0, 0, 0.64) 4px 8px 12px -6px; opacity:0; transform:matrix(0, -0.88, 0.88, 0, -56, -23); transition:opacity 0.16s cubic-bezier(0.175, 0.885, 0.32, 1.1), transform 0.36s cubic-bezier(0.175, 0.885, 0.32, 1.1); z-index:1}
+              <SPAN createIcon__Wrapper> [0,704,14,14] {display:flex}
+               <svg > [0,704,14,14] {overflow:hidden}
+             <SPAN postMeta__MetaLine> [40,695,148,16] «Author/» {display:flow-root; font-size:10px; line-height:15.71px; transform:matrix(1, 0, 0, 1, 0, 0); transition:transform 0.28s cubic-bezier(0.175, 0.885, 0.32, 1.1) 0.016s; overflow:hidden}
+              <SPAN > [99,696,89,12] «David Wilson» {display:inline; color:rgb(255, 255, 255)}
+             <SPAN postMeta__MetaLine> [40,711,148,16] «Tags/» {display:flow-root; font-size:10px; line-height:15.71px; transform:matrix(1, 0, 0, 1, 0, 0); transition:transform 0.28s cubic-bezier(0.175, 0.885, 0.32, 1.1) 0.032s; overflow:hidden}
+              <SPAN > [84,712,59,12] «Research» {display:inline; color:rgb(107, 168, 212)}
+         <DIV postMeta__FeaturedImage> [24,288,342,211] {display:grid; position:relative; align-items:center; grid-template-columns:342.25px; grid-template-rows:211.219px}
+          <SPAN > [24,288,342,211] {position:relative; border-radius:4px; box-shadow:rgba(0, 0, 0, 0.64) 0px 4px 32px -12px; overflow:hidden}
+           <IMG > [24,288,342,211] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F3a6f256ce2ec2adb95a1b09da05fd170b673b80f-16 nat=350x216 {aspect-ratio:auto 720 / 446; color:rgba(0, 0, 0, 0); overflow:clip}
+       <DIV postMeta__Card Secondary__SecondaryCard> [12,758,366,429] {display:flex; position:relative; flex-direction:column; padding:12px; background-color:rgb(15, 15, 21); border-radius:1px; box-shadow:rgb(43, 37, 44) 0px 0px 0px 1px; transition:background-color 0.08s linear, box-shadow 0.08s linear}
+        <DIV postMeta__FeaturedImage> [24,770,342,211] {display:grid; position:relative; align-items:center; grid-template-columns:342.25px; grid-template-rows:211.219px}
+         <SPAN > [24,770,342,211] {position:relative; border-radius:4px; box-shadow:rgba(0, 0, 0, 0.64) 0px 4px 32px -12px; overflow:hidden}
+          <IMG > [24,770,342,211] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F57a71c868ea017794f715054a911266e42d6607c-16 nat=350x216 {aspect-ratio:auto 480 / 297; color:rgba(0, 0, 0, 0); overflow:clip}
+        <DIV Secondary__Pile> [24,982,342,193] {display:grid; grid-template-columns:342.25px; grid-template-rows:193.406px}
+         <DIV Secondary__PostCornerAccents> [24,982,342,193] {position:relative; grid-column:-1}
+         <DIV Secondary__Info> [24,982,342,193] {display:flex; flex-direction:column; justify-content:space-between; grid-column:-1; padding:16px}
+          <DIV > [40,998,310,106] {}
+           <DIV postMeta__DateWithReadTimeWrapper> [40,998,310,28] {display:flex; gap:12px}
+            <DIV postMeta__PostDate> [40,998,100,16] {display:flex; gap:4px; margin:0px 0px 12px; color:rgba(255, 255, 255, 0.447)}
+             <SPAN createIcon__Wrapper postMeta__FlippedMergeIcon> [40,998,16,16] {display:flex; transform:matrix(1, 0, 0, -1, 0, 0)}
+              <svg > [40,998,16,16] {overflow:hidden}
+             <P .annotation> [60,998,80,16] «Sep 9, 2026» {font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px}
+            <DIV postMeta__PostDate> [151,998,49,16] {display:flex; gap:4px; margin:0px 0px 12px; color:rgba(255, 255, 255, 0.447)}
+             <SPAN createIcon__Wrapper> [151,998,16,16] {display:flex}
+              <svg > [151,998,16,16] {overflow:hidden}
+             <P .annotation> [171,998,29,16] «2 min» {font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px}
+           <H2 .heading-3> [40,1026,310,26] {font-family:PP Formula; font-size:20px; line-height:26px; font-weight:800; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+            <A postMeta__PostLink> [40,1027,201,24] href=/blog/ai-data-sprawl/ «The AI data sprawl» {display:inline; transition:background-color 0.1s linear}
+           <P Secondary__Synopsis> [40,1056,310,48] «Nobody can trace it. The data team still owns the mess.» {margin:4px 0px 0px; font-size:16px; line-height:24px}
+          <DIV Secondary__MetaCta> [40,1128,310,31] {display:flex; margin:24px 0px 0px}
+           <DIV postMeta__PostMeta> [40,1128,219,31] {position:relative; padding:0px 56px 0px 0px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; letter-spacing:0.9996px; color:rgba(255, 255, 255, 0.447)}
+            <DIV postMeta__Cta> [-13,1123,40,40] {display:grid; position:absolute; justify-content:center; grid-template-columns:16px; grid-template-rows:16px; font-size:14px; line-height:21.994px; color:rgba(255, 255, 255, 0.9); background-color:rgb(17, 17, 24); border-radius:999px; box-shadow:rgba(0, 0, 0, 0.64) 4px 8px 12px -6px; opacity:0; transform:matrix(0, -0.88, 0.88, 0, -56, -23); transition:opacity 0.16s cubic-bezier(0.175, 0.885, 0.32, 1.1), transform 0.36s cubic-bezier(0.175, 0.885, 0.32, 1.1); z-index:1}
+             <SPAN createIcon__Wrapper> [0,1136,14,14] {display:flex}
+              <svg > [0,1136,14,14] {overflow:hidden}
+            <SPAN postMeta__MetaLine> [40,1128,163,16] «Author/» {display:flow-root; font-size:10px; line-height:15.71px; transform:matrix(1, 0, 0, 1, 0, 0); transition:transform 0.28s cubic-bezier(0.175, 0.885, 0.32, 1.1) 0.016s; overflow:hidden}
+             <SPAN > [99,1129,104,12] «Barry McCardel» {display:inline; color:rgb(255, 255, 255)}
+            <SPAN postMeta__MetaLine> [40,1143,163,16] «Tags/» {display:flow-root; font-size:10px; line-height:15.71px; transform:matrix(1, 0, 0, 1, 0, 0); transition:transform 0.28s cubic-bezier(0.175, 0.885, 0.32, 1.1) 0.032s; overflow:hidden}
+             <SPAN > [84,1144,74,12] «Data teams» {display:inline; color:rgb(205, 168, 73)}
+       <DIV postMeta__Card Secondary__SecondaryCard> [12,1191,366,424] {display:flex; position:relative; flex-direction:column; padding:12px; background-color:rgb(15, 15, 21); border-radius:1px; box-shadow:rgb(43, 37, 44) 0px 0px 0px 1px; transition:background-color 0.08s linear, box-shadow 0.08s linear}
+        <DIV postMeta__FeaturedImage> [24,1203,342,207] {display:grid; position:relative; align-items:center; grid-template-columns:342.25px; grid-template-rows:206.766px}
+         <SPAN > [24,1203,342,207] {position:relative; border-radius:4px; box-shadow:rgba(0, 0, 0, 0.64) 0px 4px 32px -12px; overflow:hidden}
+          <IMG > [24,1203,342,207] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F105fb1cda614057d85a70dcbeb6e9e60bcecccd1-16 nat=350x212 {aspect-ratio:auto 480 / 291; color:rgba(0, 0, 0, 0); overflow:clip}
+        <DIV Secondary__Pile> [24,1410,342,193] {display:grid; grid-template-columns:342.25px; grid-template-rows:193.406px}
+         <DIV Secondary__PostCornerAccents> [24,1410,342,193] {position:relative; grid-column:-1}
+         <DIV Secondary__Info> [24,1410,342,193] {display:flex; flex-direction:column; justify-content:space-between; grid-column:-1; padding:16px}
+          <DIV > [40,1426,310,106] {}
+           <DIV postMeta__DateWithReadTimeWrapper> [40,1426,310,28] {display:flex; gap:12px}
+            <DIV postMeta__PostDate> [40,1426,107,16] {display:flex; gap:4px; margin:0px 0px 12px; color:rgba(255, 255, 255, 0.447)}
+             <SPAN createIcon__Wrapper postMeta__FlippedMergeIcon> [40,1426,16,16] {display:flex; transform:matrix(1, 0, 0, -1, 0, 0)}
+              <svg > [40,1426,16,16] {overflow:hidden}
+             <P .annotation> [60,1426,87,16] «Aug 13, 2026» {font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px}
+            <DIV postMeta__PostDate> [159,1426,56,16] {display:flex; gap:4px; margin:0px 0px 12px; color:rgba(255, 255, 255, 0.447)}
+             <SPAN createIcon__Wrapper> [159,1426,16,16] {display:flex}
+              <svg > [159,1426,16,16] {overflow:hidden}
+             <P .annotation> [179,1426,36,16] «16 min» {font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px}
+           <H2 .heading-3> [40,1454,310,26] {font-family:PP Formula; font-size:20px; line-height:26px; font-weight:800; letter-spacing:-0.5px; color:rgb(255, 255, 255)}
+            <A postMeta__PostLink> [40,1455,250,24] href=/blog/databench-agentic-analytics-benchmark/ «Introducing DataBench» {display:inline; transition:background-color 0.1s linear}
+           <P Secondary__Synopsis> [40,1484,310,48] «A frontier benchmark for complex data work and analytical reasoning» {margin:4px 0px 0px; font-size:16px; line-height:24px}
+          <DIV Secondary__MetaCta> [40,1556,310,31] {display:flex; margin:24px 0px 0px}
+           <DIV postMeta__PostMeta> [40,1556,197,31] {position:relative; padding:0px 56px 0px 0px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; letter-spacing:0.9996px; color:rgba(255, 255, 255, 0.447)}
+            <DIV postMeta__Cta> [-13,1551,40,40] {display:grid; position:absolute; justify-content:center; grid-template-columns:16px; grid-template-rows:16px; font-size:14px; line-height:21.994px; color:rgba(255, 255, 255, 0.9); background-color:rgb(17, 17, 24); border-radius:999px; box-shadow:rgba(0, 0, 0, 0.64) 4px 8px 12px -6px; opacity:0; transform:matrix(0, -0.88, 0.88, 0, -56, -23); transition:opacity 0.16s cubic-bezier(0.175, 0.885, 0.32, 1.1), transform 0.36s cubic-bezier(0.175, 0.885, 0.32, 1.1); z-index:1}
+             <SPAN createIcon__Wrapper> [0,1565,14,14] {display:flex}
+              <svg > [0,1565,14,14] {overflow:hidden}
+            <SPAN postMeta__MetaLine> [40,1556,141,16] «Author/» {display:flow-root; font-size:10px; line-height:15.71px; transform:matrix(1, 0, 0, 1, 0, 0); transition:transform 0.28s cubic-bezier(0.175, 0.885, 0.32, 1.1) 0.016s; overflow:hidden}
+             <SPAN > [99,1557,81,12] «Izzy Miller» {display:inline; color:rgb(255, 255, 255)}
+            <SPAN postMeta__MetaLine> [40,1572,141,16] «Tags/» {display:flow-root; font-size:10px; line-height:15.71px; transform:matrix(1, 0, 0, 1, 0, 0); transition:transform 0.28s cubic-bezier(0.175, 0.885, 0.32, 1.1) 0.032s; overflow:hidden}
+             <SPAN > [84,1573,59,12] «Research» {display:inline; color:rgb(107, 168, 212)}
+     <DIV GridLines__ContentMarginLine> [382,271,8,1348] {grid-column:-2 / span 1; border-top:1px solid rgb(43, 37, 44); border-left:1px solid rgb(43, 37, 44)}
+    <DIV LayoutGrid__LayoutSubgrid RecentPosts__RecentGrid> [0,1619,390,582] {display:grid; position:relative; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:580.422px; grid-column:1 / -1; border-top:1px solid rgb(58, 49, 56); border-bottom:1px solid rgb(58, 49, 56)}
+     <DIV LayoutGrid__LayoutSubgrid> [0,1620,390,580] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:580.422px; grid-column:1 / -1}
+      <DIV GridLines__ContentMarginLine RecentPosts__ContentMarginWithAccent> [0,1620,8,580] {position:relative; grid-column:1; border-right:1px solid rgba(0, 0, 0, 0)}
+      <DIV GridLines__ContentMarginLine RecentPosts__ContentMarginWithAccent> [382,1620,8,580] {position:relative; grid-column:-2 / span 1; border-left:1px solid rgba(0, 0, 0, 0)}
+     <UL RecentPosts__FeaturedGrid> [0,1620,390,580] {display:grid; position:relative; gap:1px; grid-template-columns:390px; grid-template-rows:211.359px 151.688px 215.375px; grid-column:1 / -1; background-color:rgb(58, 49, 56); list-style-type:none}
+      <LI RecentPosts__Item> [0,1620,390,211] {display:flex; background-color:rgb(20, 20, 28)}
+       <DIV Tertiary__Slot> [0,1620,390,211] {display:flex; position:relative; flex-direction:column; justify-content:space-between; padding:16px}
+        <DIV > [16,1636,358,124] {}
+         <DIV postMeta__DateWithReadTimeWrapper> [16,1636,358,28] {display:flex; gap:12px}
+          <DIV postMeta__PostDate> [16,1636,92,16] {display:flex; gap:4px; margin:0px 0px 12px; color:rgba(255, 255, 255, 0.447)}
+           <SPAN createIcon__Wrapper postMeta__FlippedMergeIcon> [16,1636,16,16] {display:flex; transform:matrix(1, 0, 0, -1, 0, 0)}
+            <svg > [16,1636,16,16] {overflow:hidden}
+           <P .annotation> [36,1636,72,16] «2 days ago» {font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px}
+          <DIV postMeta__PostDate> [120,1636,49,16] {display:flex; gap:4px; margin:0px 0px 12px; color:rgba(255, 255, 255, 0.447)}
+           <SPAN createIcon__Wrapper> [120,1636,16,16] {display:flex}
+            <svg > [120,1636,16,16] {overflow:hidden}
+           <P .annotation> [140,1636,29,16] «7 min» {font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px}
+         <H2 Tertiary__H2> [16,1664,358,26] {margin:0px 0px 4px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255); text-wrap:balance}
+          <A postMeta__PostLink> [16,1665,203,24] href=/blog/muse-wonder-databench/ «Meta joins the pack» {display:inline; transition:background-color 0.1s linear}
+         <P .text-base> [16,1694,358,66] «Muse Wonder is the first model from outside OpenAI and Anthropic to score alongside their » {}
+        <DIV Tertiary__MetaCta> [16,1784,358,31] {display:flex; justify-content:space-between; margin:24px 0px 0px}
+         <DIV postMeta__PostMeta> [16,1784,197,31] {position:relative; padding:0px 56px 0px 0px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; letter-spacing:0.9996px; color:rgba(255, 255, 255, 0.447)}
+          <DIV postMeta__Cta> [-37,1780,40,40] {display:grid; position:absolute; justify-content:center; grid-template-columns:16px; grid-template-rows:16px; font-size:14px; line-height:21.994px; color:rgba(255, 255, 255, 0.9); background-color:rgb(17, 17, 24); border-radius:999px; box-shadow:rgba(0, 0, 0, 0.64) 4px 8px 12px -6px; opacity:0; transform:matrix(0, -0.88, 0.88, 0, -56, -23); transition:opacity 0.16s cubic-bezier(0.175, 0.885, 0.32, 1.1), transform 0.36s cubic-bezier(0.175, 0.885, 0.32, 1.1); z-index:1}
+           <SPAN createIcon__Wrapper> [-24,1793,14,14] {display:flex}
+            <svg > [-24,1793,14,14] {overflow:hidden}
+          <SPAN postMeta__MetaLine> [16,1784,141,16] «Author/» {display:flow-root; font-size:10px; line-height:15.71px; transform:matrix(1, 0, 0, 1, 0, 0); transition:transform 0.28s cubic-bezier(0.175, 0.885, 0.32, 1.1) 0.016s; overflow:hidden}
+           <SPAN > [75,1785,81,12] «Izzy Miller» {display:inline; color:rgb(255, 255, 255)}
+          <SPAN postMeta__MetaLine> [16,1800,141,16] «Tags/» {display:flow-root; font-size:10px; line-height:15.71px; transform:matrix(1, 0, 0, 1, 0, 0); transition:transform 0.28s cubic-bezier(0.175, 0.885, 0.32, 1.1) 0.032s; overflow:hidden}
+           <SPAN > [60,1801,59,12] «Research» {display:inline; color:rgb(107, 168, 212)}
+      <LI RecentPosts__Item> [0,1833,390,152] {display:flex; background-color:rgb(20, 20, 28)}
+       <DIV Tertiary__Slot> [0,1833,390,152] {display:flex; position:relative; flex-direction:column; justify-content:space-between; padding:16px}
+        <DIV > [16,1849,358,80] {}
+         <DIV postMeta__DateWithReadTimeWrapper> [16,1849,358,28] {display:flex; gap:12px}
+          <DIV postMeta__PostDate> [16,1849,92,16] {display:flex; gap:4px; margin:0px 0px 12px; color:rgba(255, 255, 255, 0.447)}
+           <SPAN createIcon__Wrapper postMeta__FlippedMergeIcon> [16,1849,16,16] {display:flex; transform:matrix(1, 0, 0, -1, 0, 0)}
+            <svg > [16,1849,16,16] {overflow:hidden}
+           <P .annotation> [36,1849,72,16] «4 days ago» {font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px}
+          <DIV postMeta__PostDate> [120,1849,49,16] {display:flex; gap:4px; margin:0px 0px 12px; color:rgba(255, 255, 255, 0.447)}
+           <SPAN createIcon__Wrapper> [120,1849,16,16] {display:flex}
+            <svg > [120,1849,16,16] {overflow:hidden}
+           <P .annotation> [140,1849,29,16] «1 min» {font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px}
+         <H2 Tertiary__H2> [16,1877,358,26] {margin:0px 0px 4px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255); text-wrap:balance}
+          <A postMeta__PostLink> [16,1878,216,24] href=/blog/hex-greenflash/ «Greenflash joins Hex» {display:inline; transition:background-color 0.1s linear}
+         <P .text-base> [16,1907,358,22] «Welcome, Greenflash!» {}
+        <DIV Tertiary__MetaCta> [16,1953,358,16] {display:flex; justify-content:space-between; margin:24px 0px 0px}
+         <DIV postMeta__PostMeta> [16,1953,219,16] {position:relative; padding:0px 56px 0px 0px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; letter-spacing:0.9996px; color:rgba(255, 255, 255, 0.447)}
+          <DIV postMeta__Cta> [-37,1940,40,40] {display:grid; position:absolute; justify-content:center; grid-template-columns:16px; grid-template-rows:16px; font-size:14px; line-height:21.994px; color:rgba(255, 255, 255, 0.9); background-color:rgb(17, 17, 24); border-radius:999px; box-shadow:rgba(0, 0, 0, 0.64) 4px 8px 12px -6px; opacity:0; transform:matrix(0, -0.88, 0.88, 0, -56, -23); transition:opacity 0.16s cubic-bezier(0.175, 0.885, 0.32, 1.1), transform 0.36s cubic-bezier(0.175, 0.885, 0.32, 1.1); z-index:1}
+           <SPAN createIcon__Wrapper> [-24,1953,14,14] {display:flex}
+            <svg > [-24,1953,14,14] {overflow:hidden}
+          <SPAN postMeta__MetaLine> [16,1953,163,16] «Author/» {display:flow-root; font-size:10px; line-height:15.71px; transform:matrix(1, 0, 0, 1, 0, 0); transition:transform 0.28s cubic-bezier(0.175, 0.885, 0.32, 1.1) 0.016s; overflow:hidden}
+           <SPAN > [75,1954,104,12] «Barry McCardel» {display:inline; color:rgb(255, 255, 255)}
+      <LI RecentPosts__Item> [0,1985,390,215] {display:flex; background-color:rgb(20, 20, 28)}
+       <DIV Tertiary__Slot> [0,1985,390,215] {display:flex; position:relative; flex-direction:column; justify-content:space-between; padding:16px}
+        <DIV > [16,2001,358,128] {}
+         <DIV postMeta__DateWithReadTimeWrapper> [16,2001,358,28] {display:flex; gap:12px}
+          <DIV postMeta__PostDate> [16,2001,107,16] {display:flex; gap:4px; margin:0px 0px 12px; color:rgba(255, 255, 255, 0.447)}
+           <SPAN createIcon__Wrapper postMeta__FlippedMergeIcon> [16,2001,16,16] {display:flex; transform:matrix(1, 0, 0, -1, 0, 0)}
+            <svg > [16,2001,16,16] {overflow:hidden}
+           <P .annotation> [36,2001,87,16] «Oct 15, 2026» {font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px}
+          <DIV postMeta__PostDate> [135,2001,49,16] {display:flex; gap:4px; margin:0px 0px 12px; color:rgba(255, 255, 255, 0.447)}
+           <SPAN createIcon__Wrapper> [135,2001,16,16] {display:flex}
+            <svg > [135,2001,16,16] {overflow:hidden}
+           <P .annotation> [155,2001,29,16] «7 min» {font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px}
+         <H2 Tertiary__H2> [16,2029,358,52] {margin:0px 0px 4px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(255, 255, 255); text-wrap:balance}
+          <A postMeta__PostLink> [16,2030,260,50] href=/blog/before-you-build-that-data-agent-i-have-notes/ «Before you build that data agent, I have notes.» {display:inline; transition:background-color 0.1s linear}
+         <P .text-base> [16,2085,358,44] «Build vs. buy in data has never been hotter. But do you know what you’re signing up for?» {}
+        <DIV Tertiary__MetaCta> [16,2153,358,31] {display:flex; justify-content:space-between; margin:24px 0px 0px}
+         <DIV postMeta__PostMeta> [16,2153,219,31] {position:relative; padding:0px 56px 0px 0px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; letter-spacing:0.9996px; color:rgba(255, 255, 255, 0.447)}
+          <DIV postMeta__Cta> [-37,2149,40,40] {display:grid; position:absolute; justify-content:center; grid-template-columns:16px; grid-template-rows:16px; font-size:14px; line-height:21.994px; color:rgba(255, 255, 255, 0.9); background-color:rgb(17, 17, 24); border-radius:999px; box-shadow:rgba(0, 0, 0, 0.64) 4px 8px 12px -6px; opacity:0; transform:matrix(0, -0.88, 0.88, 0, -56, -23); transition:opacity 0.16s cubic-bezier(0.175, 0.885, 0.32, 1.1), transform 0.36s cubic-bezier(0.175, 0.885, 0.32, 1.1); z-index:1}
+           <SPAN createIcon__Wrapper> [-24,2162,14,14] {display:flex}
+            <svg > [-24,2162,14,14] {overflow:hidden}
+          <SPAN postMeta__MetaLine> [16,2153,163,16] «Author/» {display:flow-root; font-size:10px; line-height:15.71px; transform:matrix(1, 0, 0, 1, 0, 0); transition:transform 0.28s cubic-bezier(0.175, 0.885, 0.32, 1.1) 0.016s; overflow:hidden}
+           <SPAN > [75,2154,104,12] «Nick Pasquinzo» {display:inline; color:rgb(255, 255, 255)}
+          <SPAN postMeta__MetaLine> [16,2169,163,16] «Tags/» {display:flow-root; font-size:10px; line-height:15.71px; transform:matrix(1, 0, 0, 1, 0, 0); transition:transform 0.28s cubic-bezier(0.175, 0.885, 0.32, 1.1) 0.032s; overflow:hidden}
+           <SPAN > [60,2170,74,12] «Data teams» {display:inline; color:rgb(205, 168, 73)}
+    <DIV LayoutGrid__LayoutSubgrid> [0,2202,390,16] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:16px; grid-column:1 / -1}
+     <DIV GridLines__ContentMarginLine> [0,2202,8,16] {grid-column:1; border-right:1px solid rgb(43, 37, 44)}
+     <DIV Feed__CheckeredGap> [8,2202,374,16] {grid-column:2 / -2; background-image:url("data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"4\" height=\"4\"><rect width=\"2\" height=\"2\" fill=\"%23312a31\" /><rect x=\"2\" y=\"2\" width=\"2\" height=\"2\" fill=\"%23312a31\"/></svg>"); border-bottom:1px solid rgb(58, 49, 56)}
+     <DIV GridLines__ContentMarginLine> [382,2202,8,16] {grid-column:-2 / span 1; border-left:1px solid rgb(43, 37, 44)}
+    <DIV LayoutGrid__LayoutSubgrid> [0,2218,390,1520] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:1519.73px; grid-column:1 / -1}
+     <DIV LayoutGrid__LayoutSubgrid> [0,2218,390,1520] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:1519.73px; grid-column:1 / -1}
+      <DIV GridLines__ContentMarginLine Feed__StyledContentMarginLine> [0,2218,8,1520] {grid-column:1; border-right:1px dashed rgb(43, 37, 44)}
+      <DIV GridLines__GridRule Feed__StyledGridRule> [101,2218,1,1520] {position:relative; grid-column:4; border-right:1px dashed rgb(43, 37, 44); transform:matrix(1, 0, 0, 1, 0.5, 0)}
+      <DIV GridLines__GridRule Feed__StyledGridRule> [195,2218,1,1520] {position:relative; grid-column:7; border-right:1px dashed rgb(43, 37, 44); transform:matrix(1, 0, 0, 1, 0.5, 0)}
+      <DIV GridLines__GridRule Feed__StyledGridRule> [288,2218,1,1520] {position:relative; grid-column:10; border-right:1px dashed rgb(43, 37, 44); transform:matrix(1, 0, 0, 1, 0.5, 0)}
+      <DIV GridLines__ContentMarginLine Feed__StyledContentMarginLine> [382,2218,8,1520] {grid-column:-2 / span 1; border-left:1px dashed rgb(43, 37, 44)}
+     <DIV LayoutGrid__LayoutSubgrid> [0,2218,390,1520] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:1519.73px; grid-column:1 / -1; z-index:1}
+      <DIV LayoutGrid__LayoutSubgrid Feed__Wrapper> [0,2218,390,1520] {display:grid; position:relative; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:53.3906px 1418.34px; grid-column:1 / -1; padding:24px 0px}
+       <DIV Feed__FilterWrapper> [0,2246,390,49] {grid-column:1 / -1; padding:0px 8px; margin:4px 0px 0px}
+        <DIV > [8,2246,374,49] {position:sticky}
+         <DIV Filter__FilterInner> [8,2246,374,49] {}
+          <DIV Filter__Grid> [8,2246,374,49] {display:flex; position:relative; justify-content:space-between; grid-template-rows:min-content min-content}
+           <H2 Filter__Headline> [8,2246,175,49] «Feed» {padding:0px 0px 0px 16px; font-family:PP Formula SemiExtended; font-size:38px; line-height:49.4px; font-weight:700; letter-spacing:-1.1704px; color:rgb(255, 255, 255); white-space:nowrap; text-wrap:nowrap}
+            <DIV .annotation> [139,2269,9,19] «[» {display:inline-block; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; font-weight:400; letter-spacing:0.9996px}
+            <DIV .annotation> [148,2269,9,19] «2» {display:inline-block; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; font-weight:400; letter-spacing:0.9996px}
+            <DIV .annotation> [157,2269,9,19] «8» {display:inline-block; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; font-weight:400; letter-spacing:0.9996px}
+            <DIV .annotation> [165,2269,9,19] «8» {display:inline-block; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; font-weight:400; letter-spacing:0.9996px}
+            <DIV .annotation> [174,2269,9,19] «]» {display:inline-block; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; font-weight:400; letter-spacing:0.9996px}
+           <LABEL Filter__MobileSelectLabel> [234,2257,140,27] {display:grid; justify-content:stretch; grid-template-columns:140px; grid-template-rows:26.8438px; margin:0px 8px 11px 0px}
+            <DIV Filter__MobileSelectLabelToggle> [308,2257,66,27] {display:flex; align-items:center; gap:4px; grid-column:-1; padding:4px 8px 4px 12px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; letter-spacing:0.9996px; color:rgb(255, 255, 255); background-color:rgba(255, 255, 255, 0.1); border-radius:1px}
+             <SPAN > [320,2261,26,19] «All» {display:flow-root; overflow:hidden}
+             <SPAN createIcon__Wrapper> [350,2263,16,16] {display:flex}
+              <svg > [350,2264,16,16] {transform:matrix(0, 1, -1, 0, 0, 1); overflow:hidden}
+            <SELECT > [234,2257,140,27] {align-items:center; grid-column:-1; font-family:Arial; font-size:13.3333px; line-height:normal; color:rgb(0, 0, 0); background-color:rgb(255, 255, 255); border-top:1px solid rgb(118, 118, 118); border-right:1px solid rgb(118, 118, 118); border-bottom:1px solid rgb(118, 118, 118); border-left:1px solid rgb(118, 118, 118); opacity:0; overflow:clip; white-space:pre; text-wrap:nowrap}
+       <DIV Feed> [0,2303,390,1402] {display:flex; flex-direction:column; gap:6px; grid-column:1 / -1; padding:4px; margin:8px 0px}
+        <DIV Post__Detail> [4,2307,382,84] {position:relative; border-radius:1px; box-shadow:rgba(0, 0, 0, 0.24) 0px 14px 8px -10px; transform:matrix(1, 0, 0, 1, 0, 0); overflow:clip}
+         <DIV Post__DetailContent> [4,2307,382,84] {display:flex; position:relative; flex-direction:column; border-radius:1px; z-index:3}
+          <DIV Post__Summary> [4,2307,382,84] {display:flex; position:relative; align-items:center; padding:8px 12px; text-align:left; border-radius:1px}
+           <DIV Post__Info> [16,2315,358,68] {display:flex; flex-direction:column; align-items:flex-start; padding:0px 12px 0px 0px; max-width:800px; color:rgba(255, 255, 255, 0.36)}
+            <DIV Post__DateAndTime> [16,2315,158,16] {display:flex; gap:8px; margin:0px 0px 4px}
+             <DIV postMeta__PostDate Post__StyledDate> [16,2315,92,16] {display:flex; gap:4px; font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px; color:rgba(255, 255, 255, 0.64)}
+              <SPAN createIcon__Wrapper postMeta__FlippedMergeIcon> [16,2315,16,16] {display:flex; transform:matrix(1, 0, 0, -1, 0, 0)}
+               <svg > [16,2315,16,16] {overflow:hidden}
+              <P .annotation> [36,2315,72,16] «2 days ago» {}
+             <DIV Post__TagAndReadtime> [116,2315,58,16] {display:flex; align-items:center; gap:6px}
+              <SPAN postMeta__MiniTagGrid Post__StyledMiniTags> [116,2315,5,15] {display:flex; gap:2px}
+               <SPAN postMeta__MiniTag> [116,2315,5,15] {aspect-ratio:1 / 3; color:rgb(107, 168, 212); background-color:rgb(107, 168, 212); opacity:0.466667}
+              <DIV Post__ReadTime> [127,2315,47,16] «7 min» {display:flex; align-items:center; gap:2px; font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px; color:rgba(255, 255, 255, 0.64)}
+               <SPAN createIcon__Wrapper> [127,2315,16,16] {display:flex}
+                <svg > [127,2315,16,16] {overflow:hidden}
+            <P Post> [16,2339,142,22] {display:flow-root; margin:3.92px 0px 4px; font-family:PP Formula; font-weight:600; letter-spacing:-0.35px; color:rgb(255, 255, 255); opacity:0.8; transition:opacity 0.08s linear; overflow:hidden}
+             <A postMeta__PostLink> [16,2341,142,17] href=/blog/muse-wonder-databench/ «Meta joins the pack» {display:inline; transition:background-color 0.1s linear}
+            <P Post__InlineSynopsis> [16,2365,346,18] «Muse Wonder is the first model from outside OpenAI and Anthropic to score alongside their » {display:flow-root; max-width:462.96px; font-size:12px; line-height:18px; color:rgb(227, 178, 179); opacity:0.8; overflow:hidden}
+        <DIV Post__Detail> [4,2397,382,84] {position:relative; border-radius:1px; box-shadow:rgba(0, 0, 0, 0.24) 0px 14px 8px -10px; transform:matrix(1, 0, 0, 1, 0, 0); overflow:clip}
+         <DIV Post__DetailContent> [4,2397,382,84] {display:flex; position:relative; flex-direction:column; border-radius:1px; z-index:3}
+          <DIV Post__Summary> [4,2397,382,84] {display:flex; position:relative; align-items:center; padding:8px 12px; text-align:left; border-radius:1px}
+           <DIV Post__Info> [16,2405,358,68] {display:flex; flex-direction:column; align-items:flex-start; padding:0px 12px 0px 0px; max-width:800px; color:rgba(255, 255, 255, 0.36)}
+            <DIV Post__DateAndTime> [16,2405,147,16] {display:flex; gap:8px; margin:0px 0px 4px}
+             <DIV postMeta__PostDate Post__StyledDate> [16,2405,92,16] {display:flex; gap:4px; font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px; color:rgba(255, 255, 255, 0.64)}
+              <SPAN createIcon__Wrapper postMeta__FlippedMergeIcon> [16,2405,16,16] {display:flex; transform:matrix(1, 0, 0, -1, 0, 0)}
+               <svg > [16,2405,16,16] {overflow:hidden}
+              <P .annotation> [36,2405,72,16] «4 days ago» {}
+             <DIV Post__TagAndReadtime> [116,2405,47,16] {display:flex; align-items:center; gap:6px}
+              <DIV Post__ReadTime> [116,2405,47,16] «1 min» {display:flex; align-items:center; gap:2px; font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px; color:rgba(255, 255, 255, 0.64)}
+               <SPAN createIcon__Wrapper> [116,2405,16,16] {display:flex}
+                <svg > [116,2405,16,16] {overflow:hidden}
+            <P Post> [16,2429,151,22] {display:flow-root; margin:3.92px 0px 4px; font-family:PP Formula; font-weight:600; letter-spacing:-0.35px; color:rgb(255, 255, 255); opacity:0.8; transition:opacity 0.08s linear; overflow:hidden}
+             <A postMeta__PostLink> [16,2431,151,17] href=/blog/hex-greenflash/ «Greenflash joins Hex» {display:inline; transition:background-color 0.1s linear}
+            <P Post__InlineSynopsis> [16,2455,122,18] «Welcome, Greenflash!» {display:flow-root; max-width:462.96px; font-size:12px; line-height:18px; color:rgb(227, 178, 179); opacity:0.8; overflow:hidden}
+        <DIV Post__Detail> [4,2487,382,84] {position:relative; border-radius:1px; box-shadow:rgba(0, 0, 0, 0.24) 0px 14px 8px -10px; transform:matrix(1, 0, 0, 1, 0, 0); overflow:clip}
+         <DIV Post__DetailContent> [4,2487,382,84] {display:flex; position:relative; flex-direction:column; border-radius:1px; z-index:3}
+          <DIV Post__Summary> [4,2487,382,84] {display:flex; position:relative; align-items:center; padding:8px 12px; text-align:left; border-radius:1px}
+           <DIV Post__Info> [16,2495,358,68] {display:flex; flex-direction:column; align-items:flex-start; padding:0px 12px 0px 0px; max-width:800px; color:rgba(255, 255, 255, 0.36)}
+            <DIV Post__DateAndTime> [16,2495,173,16] {display:flex; gap:8px; margin:0px 0px 4px}
+             <DIV postMeta__PostDate Post__StyledDate> [16,2495,107,16] {display:flex; gap:4px; font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px; color:rgba(255, 255, 255, 0.64)}
+              <SPAN createIcon__Wrapper postMeta__FlippedMergeIcon> [16,2495,16,16] {display:flex; transform:matrix(1, 0, 0, -1, 0, 0)}
+               <svg > [16,2495,16,16] {overflow:hidden}
+              <P .annotation> [36,2495,87,16] «Oct 15, 2026» {}
+             <DIV Post__TagAndReadtime> [131,2495,58,16] {display:flex; align-items:center; gap:6px}
+              <SPAN postMeta__MiniTagGrid Post__StyledMiniTags> [131,2495,5,15] {display:flex; gap:2px}
+               <SPAN postMeta__MiniTag> [131,2495,5,15] {aspect-ratio:1 / 3; color:rgb(205, 168, 73); background-color:rgb(205, 168, 73); opacity:0.466667}
+              <DIV Post__ReadTime> [142,2495,47,16] «7 min» {display:flex; align-items:center; gap:2px; font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px; color:rgba(255, 255, 255, 0.64)}
+               <SPAN createIcon__Wrapper> [142,2495,16,16] {display:flex}
+                <svg > [142,2495,16,16] {overflow:hidden}
+            <P Post> [16,2519,341,22] {display:flow-root; margin:3.92px 0px 4px; font-family:PP Formula; font-weight:600; letter-spacing:-0.35px; color:rgb(255, 255, 255); opacity:0.8; transition:opacity 0.08s linear; overflow:hidden}
+             <A postMeta__PostLink> [16,2521,341,17] href=/blog/before-you-build-that-data-agent-i-have-notes/ «Before you build that data agent, I have notes.» {display:inline; transition:background-color 0.1s linear}
+            <P Post__InlineSynopsis> [16,2545,346,18] «Build vs. buy in data has never been hotter. But do you know what you’re signing up for?» {display:flow-root; max-width:462.96px; font-size:12px; line-height:18px; color:rgb(227, 178, 179); opacity:0.8; overflow:hidden}
+        <DIV Post__Detail> [4,2577,382,84] {position:relative; border-radius:1px; box-shadow:rgba(0, 0, 0, 0.24) 0px 14px 8px -10px; transform:matrix(1, 0, 0, 1, 0, 0); overflow:clip}
+         <DIV Post__DetailContent> [4,2577,382,84] {display:flex; position:relative; flex-direction:column; border-radius:1px; z-index:3}
+          <DIV Post__Summary> [4,2577,382,84] {display:flex; position:relative; align-items:center; padding:8px 12px; text-align:left; border-radius:1px}
+           <DIV Post__Info> [16,2585,358,68] {display:flex; flex-direction:column; align-items:flex-start; padding:0px 12px 0px 0px; max-width:800px; color:rgba(255, 255, 255, 0.36)}
+            <DIV Post__DateAndTime> [16,2585,166,16] {display:flex; gap:8px; margin:0px 0px 4px}
+             <DIV postMeta__PostDate Post__StyledDate> [16,2585,100,16] {display:flex; gap:4px; font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px; color:rgba(255, 255, 255, 0.64)}
+              <SPAN createIcon__Wrapper postMeta__FlippedMergeIcon> [16,2585,16,16] {display:flex; transform:matrix(1, 0, 0, -1, 0, 0)}
+               <svg > [16,2585,16,16] {overflow:hidden}
+              <P .annotation> [36,2585,80,16] «Oct 8, 2026» {}
+             <DIV Post__TagAndReadtime> [124,2585,58,16] {display:flex; align-items:center; gap:6px}
+              <SPAN postMeta__MiniTagGrid Post__StyledMiniTags> [124,2585,5,15] {display:flex; gap:2px}
+               <SPAN postMeta__MiniTag> [124,2585,5,15] {aspect-ratio:1 / 3; color:rgb(107, 168, 212); background-color:rgb(107, 168, 212); opacity:0.466667}
+              <DIV Post__ReadTime> [135,2585,47,16] «7 min» {display:flex; align-items:center; gap:2px; font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px; color:rgba(255, 255, 255, 0.64)}
+               <SPAN createIcon__Wrapper> [135,2585,16,16] {display:flex}
+                <svg > [135,2585,16,16] {overflow:hidden}
+            <P Post> [16,2609,346,22] {display:flow-root; margin:3.92px 0px 4px; font-family:PP Formula; font-weight:600; letter-spacing:-0.35px; color:rgb(255, 255, 255); opacity:0.8; transition:opacity 0.08s linear; overflow:hidden}
+             <A postMeta__PostLink> [16,2611,312,39] href=/blog/we-used-evals-to-improve-ai-feature/ «Hill climbing to glory: using evals to cut AI errors 7x» {display:inline; transition:background-color 0.1s linear}
+            <P Post__InlineSynopsis> [16,2635,346,18] «How 1,800 evals showed us AI feature quality improvements go beyond prompting» {display:flow-root; max-width:462.96px; font-size:12px; line-height:18px; color:rgb(227, 178, 179); opacity:0.8; overflow:hidden}
+        <DIV Post__Detail> [4,2667,382,84] {position:relative; border-radius:1px; box-shadow:rgba(0, 0, 0, 0.24) 0px 14px 8px -10px; transform:matrix(1, 0, 0, 1, 0, 0); overflow:clip}
+         <DIV Post__DetailContent> [4,2667,382,84] {display:flex; position:relative; flex-direction:column; border-radius:1px; z-index:3}
+          <DIV Post__Summary> [4,2667,382,84] {display:flex; position:relative; align-items:center; padding:8px 12px; text-align:left; border-radius:1px}
+           <DIV Post__Info> [16,2675,358,68] {display:flex; flex-direction:column; align-items:flex-start; padding:0px 12px 0px 0px; max-width:800px; color:rgba(255, 255, 255, 0.36)}
+            <DIV Post__DateAndTime> [16,2675,173,16] {display:flex; gap:8px; margin:0px 0px 4px}
+             <DIV postMeta__PostDate Post__StyledDate> [16,2675,107,16] {display:flex; gap:4px; font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px; color:rgba(255, 255, 255, 0.64)}
+              <SPAN createIcon__Wrapper postMeta__FlippedMergeIcon> [16,2675,16,16] {display:flex; transform:matrix(1, 0, 0, -1, 0, 0)}
+               <svg > [16,2675,16,16] {overflow:hidden}
+              <P .annotation> [36,2675,87,16] «Sep 10, 2026» {}
+             <DIV Post__TagAndReadtime> [131,2675,58,16] {display:flex; align-items:center; gap:6px}
+              <SPAN postMeta__MiniTagGrid Post__StyledMiniTags> [131,2675,5,15] {display:flex; gap:2px}
+               <SPAN postMeta__MiniTag> [131,2675,5,15] {aspect-ratio:1 / 3; color:rgb(205, 168, 73); background-color:rgb(205, 168, 73); opacity:0.266667}
+              <DIV Post__ReadTime> [142,2675,47,16] «4 min» {display:flex; align-items:center; gap:2px; font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px; color:rgba(255, 255, 255, 0.64)}
+               <SPAN createIcon__Wrapper> [142,2675,16,16] {display:flex}
+                <svg > [142,2675,16,16] {overflow:hidden}
+            <P Post> [16,2699,346,22] {display:flow-root; margin:3.92px 0px 4px; font-family:PP Formula; font-weight:600; letter-spacing:-0.35px; color:rgb(255, 255, 255); opacity:0.8; transition:opacity 0.08s linear; overflow:hidden}
+             <A postMeta__PostLink> [16,2701,277,39] href=/blog/dont-migrate-300-dashboards/ «You don't need to migrate those 300 dashboards» {display:inline; transition:background-color 0.1s linear}
+            <P Post__InlineSynopsis> [16,2725,330,18] «Real self-service means migrating logic, not dashboard UI.» {display:flow-root; max-width:462.96px; font-size:12px; line-height:18px; color:rgb(227, 178, 179); opacity:0.8; overflow:hidden}
+        <DIV Post__Detail> [4,2757,382,84] {position:relative; border-radius:1px; box-shadow:rgba(0, 0, 0, 0.24) 0px 14px 8px -10px; transform:matrix(1, 0, 0, 1, 0, 0); overflow:clip}
+         <DIV Post__DetailContent> [4,2757,382,84] {display:flex; position:relative; flex-direction:column; border-radius:1px; z-index:3}
+          <DIV Post__Summary> [4,2757,382,84] {display:flex; position:relative; align-items:center; padding:8px 12px; text-align:left; border-radius:1px}
+           <DIV Post__Info> [16,2765,358,68] {display:flex; flex-direction:column; align-items:flex-start; padding:0px 12px 0px 0px; max-width:800px; color:rgba(255, 255, 255, 0.36)}
+            <DIV Post__DateAndTime> [16,2765,166,16] {display:flex; gap:8px; margin:0px 0px 4px}
+             <DIV postMeta__PostDate Post__StyledDate> [16,2765,100,16] {display:flex; gap:4px; font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px; color:rgba(255, 255, 255, 0.64)}
+              <SPAN createIcon__Wrapper postMeta__FlippedMergeIcon> [16,2765,16,16] {display:flex; transform:matrix(1, 0, 0, -1, 0, 0)}
+               <svg > [16,2765,16,16] {overflow:hidden}
+              <P .annotation> [36,2765,80,16] «Sep 9, 2026» {}
+             <DIV Post__TagAndReadtime> [124,2765,58,16] {display:flex; align-items:center; gap:6px}
+              <SPAN postMeta__MiniTagGrid Post__StyledMiniTags> [124,2765,5,15] {display:flex; gap:2px}
+               <SPAN postMeta__MiniTag> [124,2765,5,15] {aspect-ratio:1 / 3; color:rgb(205, 168, 73); background-color:rgb(205, 168, 73); opacity:0.133333}
+              <DIV Post__ReadTime> [135,2765,47,16] «2 min» {display:flex; align-items:center; gap:2px; font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px; color:rgba(255, 255, 255, 0.64)}
+               <SPAN createIcon__Wrapper> [135,2765,16,16] {display:flex}
+                <svg > [135,2765,16,16] {overflow:hidden}
+            <P Post> [16,2788,140,22] {display:flow-root; margin:3.92px 0px 4px; font-family:PP Formula; font-weight:600; letter-spacing:-0.35px; color:rgb(255, 255, 255); opacity:0.8; transition:opacity 0.08s linear; overflow:hidden}
+             <A postMeta__PostLink> [16,2790,140,17] href=/blog/ai-data-sprawl/ «The AI data sprawl» {display:inline; transition:background-color 0.1s linear}
+            <P Post__InlineSynopsis> [16,2814,312,18] «Nobody can trace it. The data team still owns the mess.» {display:flow-root; max-width:462.96px; font-size:12px; line-height:18px; color:rgb(227, 178, 179); opacity:0.8; overflow:hidden}
+        <DIV Post__Detail> [4,2846,382,84] {position:relative; border-radius:1px; box-shadow:rgba(0, 0, 0, 0.24) 0px 14px 8px -10px; transform:matrix(1, 0, 0, 1, 0, 0); overflow:clip}
+         <DIV Post__DetailContent> [4,2846,382,84] {display:flex; position:relative; flex-direction:column; border-radius:1px; z-index:3}
+          <DIV Post__Summary> [4,2846,382,84] {display:flex; position:relative; align-items:center; padding:8px 12px; text-align:left; border-radius:1px}
+           <DIV Post__Info> [16,2854,358,68] {display:flex; flex-direction:column; align-items:flex-start; padding:0px 12px 0px 0px; max-width:800px; color:rgba(255, 255, 255, 0.36)}
+            <DIV Post__DateAndTime> [16,2854,173,16] {display:flex; gap:8px; margin:0px 0px 4px}
+             <DIV postMeta__PostDate Post__StyledDate> [16,2854,107,16] {display:flex; gap:4px; font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px; color:rgba(255, 255, 255, 0.64)}
+              <SPAN createIcon__Wrapper postMeta__FlippedMergeIcon> [16,2854,16,16] {display:flex; transform:matrix(1, 0, 0, -1, 0, 0)}
+               <svg > [16,2854,16,16] {overflow:hidden}
+              <P .annotation> [36,2854,87,16] «Aug 27, 2026» {}
+             <DIV Post__TagAndReadtime> [131,2854,58,16] {display:flex; align-items:center; gap:6px}
+              <SPAN postMeta__MiniTagGrid Post__StyledMiniTags> [131,2855,5,15] {display:flex; gap:2px}
+               <SPAN postMeta__MiniTag> [131,2855,5,15] {aspect-ratio:1 / 3; color:rgb(164, 119, 178); background-color:rgb(164, 119, 178); opacity:0.0666667}
+              <DIV Post__ReadTime> [142,2854,47,16] «1 min» {display:flex; align-items:center; gap:2px; font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px; color:rgba(255, 255, 255, 0.64)}
+               <SPAN createIcon__Wrapper> [142,2854,16,16] {display:flex}
+                <svg > [142,2854,16,16] {overflow:hidden}
+            <P Post> [16,2878,295,22] {display:flow-root; margin:3.92px 0px 4px; font-family:PP Formula; font-weight:600; letter-spacing:-0.35px; color:rgb(255, 255, 255); opacity:0.8; transition:opacity 0.08s linear; overflow:hidden}
+             <A postMeta__PostLink> [16,2880,295,17] href=/blog/generative-chart-controls/ «Introducing: Generative Chart Controls» {display:inline; transition:background-color 0.1s linear}
+            <P Post__InlineSynopsis> [16,2904,346,18] «Breaking the tradeoff between code-gen visualization and last-mile precision» {display:flow-root; max-width:462.96px; font-size:12px; line-height:18px; color:rgb(227, 178, 179); opacity:0.8; overflow:hidden}
+        <DIV Post__Detail> [4,2936,382,84] {position:relative; border-radius:1px; box-shadow:rgba(0, 0, 0, 0.24) 0px 14px 8px -10px; transform:matrix(1, 0, 0, 1, 0, 0); overflow:clip}
+         <DIV Post__DetailContent> [4,2936,382,84] {display:flex; position:relative; flex-direction:column; border-radius:1px; z-index:3}
+          <DIV Post__Summary> [4,2936,382,84] {display:flex; position:relative; align-items:center; padding:8px 12px; text-align:left; border-radius:1px}
+           <DIV Post__Info> [16,2944,358,68] {display:flex; flex-direction:column; align-items:flex-start; padding:0px 12px 0px 0px; max-width:800px; color:rgba(255, 255, 255, 0.36)}
+            <DIV Post__DateAndTime> [16,2944,173,16] {display:flex; gap:8px; margin:0px 0px 4px}
+             <DIV postMeta__PostDate Post__StyledDate> [16,2944,107,16] {display:flex; gap:4px; font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px; color:rgba(255, 255, 255, 0.64)}
+              <SPAN createIcon__Wrapper postMeta__FlippedMergeIcon> [16,2944,16,16] {display:flex; transform:matrix(1, 0, 0, -1, 0, 0)}
+               <svg > [16,2944,16,16] {overflow:hidden}
+              <P .annotation> [36,2944,87,16] «Aug 20, 2026» {}
+             <DIV Post__TagAndReadtime> [131,2944,58,16] {display:flex; align-items:center; gap:6px}
+              <SPAN postMeta__MiniTagGrid Post__StyledMiniTags> [131,2945,5,15] {display:flex; gap:2px}
+               <SPAN postMeta__MiniTag> [131,2945,5,15] {aspect-ratio:1 / 3; color:rgb(245, 192, 192); background-color:rgb(245, 192, 192); opacity:0.266667}
+              <DIV Post__ReadTime> [142,2944,47,16] «4 min» {display:flex; align-items:center; gap:2px; font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px; color:rgba(255, 255, 255, 0.64)}
+               <SPAN createIcon__Wrapper> [142,2944,16,16] {display:flex}
+                <svg > [142,2944,16,16] {overflow:hidden}
+            <P Post> [16,2968,280,22] {display:flow-root; margin:3.92px 0px 4px; font-family:PP Formula; font-weight:600; letter-spacing:-0.35px; color:rgb(255, 255, 255); opacity:0.8; transition:opacity 0.08s linear; overflow:hidden}
+             <A postMeta__PostLink> [16,2970,280,17] href=/blog/next-bi-tool/ «Your next BI tool shouldn't be a BI tool» {display:inline; transition:background-color 0.1s linear}
+            <P Post__InlineSynopsis> [16,2994,346,18] «BI as an industry has become defined by its ever-changing requirements. But what does it m» {display:flow-root; max-width:462.96px; font-size:12px; line-height:18px; color:rgb(227, 178, 179); opacity:0.8; overflow:hidden}
+        <DIV Post__Detail> [4,3026,382,84] {position:relative; border-radius:1px; box-shadow:rgba(0, 0, 0, 0.24) 0px 14px 8px -10px; transform:matrix(1, 0, 0, 1, 0, 0); overflow:clip}
+         <DIV Post__DetailContent> [4,3026,382,84] {display:flex; position:relative; flex-direction:column; border-radius:1px; z-index:3}
+          <DIV Post__Summary> [4,3026,382,84] {display:flex; position:relative; align-items:center; padding:8px 12px; text-align:left; border-radius:1px}
+           <DIV Post__Info> [16,3034,358,68] {display:flex; flex-direction:column; align-items:flex-start; padding:0px 12px 0px 0px; max-width:800px; color:rgba(255, 255, 255, 0.36)}
+            <DIV Post__DateAndTime> [16,3034,180,16] {display:flex; gap:8px; margin:0px 0px 4px}
+             <DIV postMeta__PostDate Post__StyledDate> [16,3034,107,16] {display:flex; gap:4px; font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px; color:rgba(255, 255, 255, 0.64)}
+              <SPAN createIcon__Wrapper postMeta__FlippedMergeIcon> [16,3034,16,16] {display:flex; transform:matrix(1, 0, 0, -1, 0, 0)}
+               <svg > [16,3034,16,16] {overflow:hidden}
+              <P .annotation> [36,3034,87,16] «Aug 13, 2026» {}
+             <DIV Post__TagAndReadtime> [131,3034,65,16] {display:flex; align-items:center; gap:6px}
+              <SPAN postMeta__MiniTagGrid Post__StyledMiniTags> [131,3035,5,15] {display:flex; gap:2px}
+               <SPAN postMeta__MiniTag> [131,3035,5,15] {aspect-ratio:1 / 3; color:rgb(107, 168, 212); background-color:rgb(107, 168, 212)}
+              <DIV Post__ReadTime> [142,3034,54,16] «16 min» {display:flex; align-items:center; gap:2px; font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px; color:rgba(255, 255, 255, 0.64)}
+               <SPAN createIcon__Wrapper> [142,3034,16,16] {display:flex}
+                <svg > [142,3034,16,16] {overflow:hidden}
+            <P Post> [16,3058,175,22] {display:flow-root; margin:3.92px 0px 4px; font-family:PP Formula; font-weight:600; letter-spacing:-0.35px; color:rgb(255, 255, 255); opacity:0.8; transition:opacity 0.08s linear; overflow:hidden}
+             <A postMeta__PostLink> [16,3060,175,17] href=/blog/databench-agentic-analytics-benchmark/ «Introducing DataBench» {display:inline; transition:background-color 0.1s linear}
+            <P Post__InlineSynopsis> [16,3084,346,18] «A frontier benchmark for complex data work and analytical reasoning» {display:flow-root; max-width:462.96px; font-size:12px; line-height:18px; color:rgb(227, 178, 179); opacity:0.8; overflow:hidden}
+        <DIV Post__Detail> [4,3116,382,84] {position:relative; border-radius:1px; box-shadow:rgba(0, 0, 0, 0.24) 0px 14px 8px -10px; transform:matrix(1, 0, 0, 1, 0, 0); overflow:clip}
+         <DIV Post__DetailContent> [4,3116,382,84] {display:flex; position:relative; flex-direction:column; border-radius:1px; z-index:3}
+          <DIV Post__Summary> [4,3116,382,84] {display:flex; position:relative; align-items:center; padding:8px 12px; text-align:left; border-radius:1px}
+           <DIV Post__Info> [16,3124,358,68] {display:flex; flex-direction:column; align-items:flex-start; padding:0px 12px 0px 0px; max-width:800px; color:rgba(255, 255, 255, 0.36)}
+            <DIV Post__DateAndTime> [16,3124,173,16] {display:flex; gap:8px; margin:0px 0px 4px}
+             <DIV postMeta__PostDate Post__StyledDate> [16,3124,100,16] {display:flex; gap:4px; font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px; color:rgba(255, 255, 255, 0.64)}
+              <SPAN createIcon__Wrapper postMeta__FlippedMergeIcon> [16,3124,16,16] {display:flex; transform:matrix(1, 0, 0, -1, 0, 0)}
+               <svg > [16,3124,16,16] {overflow:hidden}
+              <P .annotation> [36,3124,80,16] «Aug 4, 2026» {}
+             <DIV Post__TagAndReadtime> [124,3124,65,16] {display:flex; align-items:center; gap:6px}
+              <SPAN postMeta__MiniTagGrid Post__StyledMiniTags> [124,3124,12,15] {display:flex; gap:2px}
+               <SPAN postMeta__MiniTag> [124,3124,5,15] {aspect-ratio:1 / 3; color:rgb(205, 168, 73); background-color:rgb(205, 168, 73); opacity:0.266667}
+               <SPAN postMeta__MiniTag> [131,3124,5,15] {aspect-ratio:1 / 3; color:rgb(164, 119, 178); background-color:rgb(164, 119, 178); opacity:0.266667}
+              <DIV Post__ReadTime> [142,3124,47,16] «4 min» {display:flex; align-items:center; gap:2px; font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px; color:rgba(255, 255, 255, 0.64)}
+               <SPAN createIcon__Wrapper> [142,3124,16,16] {display:flex}
+                <svg > [142,3124,16,16] {overflow:hidden}
+            <P Post> [16,3148,131,22] {display:flow-root; margin:3.92px 0px 4px; font-family:PP Formula; font-weight:600; letter-spacing:-0.35px; color:rgb(255, 255, 255); opacity:0.8; transition:opacity 0.08s linear; overflow:hidden}
+             <A postMeta__PostLink> [16,3150,131,17] href=/blog/evals/ «Introducing Evals» {display:inline; transition:background-color 0.1s linear}
+            <P Post__InlineSynopsis> [16,3174,346,18] «Measure Hex Agent performance and test context changes safely before they ship, all from t» {display:flow-root; max-width:462.96px; font-size:12px; line-height:18px; color:rgb(227, 178, 179); opacity:0.8; overflow:hidden}
+        <DIV Post__Detail> [4,3206,382,84] {position:relative; border-radius:1px; box-shadow:rgba(0, 0, 0, 0.24) 0px 14px 8px -10px; transform:matrix(1, 0, 0, 1, 0, 0); overflow:clip}
+         <DIV Post__DetailContent> [4,3206,382,84] {display:flex; position:relative; flex-direction:column; border-radius:1px; z-index:3}
+          <DIV Post__Summary> [4,3206,382,84] {display:flex; position:relative; align-items:center; padding:8px 12px; text-align:left; border-radius:1px}
+           <DIV Post__Info> [16,3214,358,68] {display:flex; flex-direction:column; align-items:flex-start; padding:0px 12px 0px 0px; max-width:800px; color:rgba(255, 255, 255, 0.36)}
+            <DIV Post__DateAndTime> [16,3214,173,16] {display:flex; gap:8px; margin:0px 0px 4px}
+             <DIV postMeta__PostDate Post__StyledDate> [16,3214,107,16] {display:flex; gap:4px; font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px; color:rgba(255, 255, 255, 0.64)}
+              <SPAN createIcon__Wrapper postMeta__FlippedMergeIcon> [16,3214,16,16] {display:flex; transform:matrix(1, 0, 0, -1, 0, 0)}
+               <svg > [16,3214,16,16] {overflow:hidden}
+              <P .annotation> [36,3214,87,16] «Jul 29, 2026» {}
+             <DIV Post__TagAndReadtime> [131,3214,58,16] {display:flex; align-items:center; gap:6px}
+              <SPAN postMeta__MiniTagGrid Post__StyledMiniTags> [131,3214,5,15] {display:flex; gap:2px}
+               <SPAN postMeta__MiniTag> [131,3214,5,15] {aspect-ratio:1 / 3; color:rgb(205, 168, 73); background-color:rgb(205, 168, 73); opacity:0.333333}
+              <DIV Post__ReadTime> [142,3214,47,16] «5 min» {display:flex; align-items:center; gap:2px; font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px; color:rgba(255, 255, 255, 0.64)}
+               <SPAN createIcon__Wrapper> [142,3214,16,16] {display:flex}
+                <svg > [142,3214,16,16] {overflow:hidden}
+            <P Post> [16,3238,176,22] {display:flow-root; margin:3.92px 0px 4px; font-family:PP Formula; font-weight:600; letter-spacing:-0.35px; color:rgb(255, 255, 255); opacity:0.8; transition:opacity 0.08s linear; overflow:hidden}
+             <A postMeta__PostLink> [16,3240,176,17] href=/blog/trust-used-to-be-implied/ «Trust used to be implied» {display:inline; transition:background-color 0.1s linear}
+            <P Post__InlineSynopsis> [16,3264,346,18] «Evals aren't just how you fix your agent — they're how you convince people to trust it.» {display:flow-root; max-width:462.96px; font-size:12px; line-height:18px; color:rgb(227, 178, 179); opacity:0.8; overflow:hidden}
+        <DIV Post__Detail> [4,3296,382,84] {position:relative; border-radius:1px; box-shadow:rgba(0, 0, 0, 0.24) 0px 14px 8px -10px; transform:matrix(1, 0, 0, 1, 0, 0); overflow:clip}
+         <DIV Post__DetailContent> [4,3296,382,84] {display:flex; position:relative; flex-direction:column; border-radius:1px; z-index:3}
+          <DIV Post__Summary> [4,3296,382,84] {display:flex; position:relative; align-items:center; padding:8px 12px; text-align:left; border-radius:1px}
+           <DIV Post__Info> [16,3304,358,68] {display:flex; flex-direction:column; align-items:flex-start; padding:0px 12px 0px 0px; max-width:800px; color:rgba(255, 255, 255, 0.36)}
+            <DIV Post__DateAndTime> [16,3304,173,16] {display:flex; gap:8px; margin:0px 0px 4px}
+             <DIV postMeta__PostDate Post__StyledDate> [16,3304,107,16] {display:flex; gap:4px; font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px; color:rgba(255, 255, 255, 0.64)}
+              <SPAN createIcon__Wrapper postMeta__FlippedMergeIcon> [16,3304,16,16] {display:flex; transform:matrix(1, 0, 0, -1, 0, 0)}
+               <svg > [16,3304,16,16] {overflow:hidden}
+              <P .annotation> [36,3304,87,16] «Jul 29, 2026» {}
+             <DIV Post__TagAndReadtime> [131,3304,58,16] {display:flex; align-items:center; gap:6px}
+              <SPAN postMeta__MiniTagGrid Post__StyledMiniTags> [131,3304,5,15] {display:flex; gap:2px}
+               <SPAN postMeta__MiniTag> [131,3304,5,15] {aspect-ratio:1 / 3; color:rgb(103, 182, 158); background-color:rgb(103, 182, 158); opacity:0.466667}
+              <DIV Post__ReadTime> [142,3304,47,16] «7 min» {display:flex; align-items:center; gap:2px; font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px; color:rgba(255, 255, 255, 0.64)}
+               <SPAN createIcon__Wrapper> [142,3304,16,16] {display:flex}
+                <svg > [142,3304,16,16] {overflow:hidden}
+            <P Post> [16,3328,164,22] {display:flow-root; margin:3.92px 0px 4px; font-family:PP Formula; font-weight:600; letter-spacing:-0.35px; color:rgb(255, 255, 255); opacity:0.8; transition:opacity 0.08s linear; overflow:hidden}
+             <A postMeta__PostLink> [16,3330,164,17] href=/blog/caching-is-all-you-need/ «Caching is all you need» {display:inline; transition:background-color 0.1s linear}
+            <P Post__InlineSynopsis> [16,3354,346,18] «Our cache hit rate looked great. Our cost data disagreed. Here's what we found when we sto» {display:flow-root; max-width:462.96px; font-size:12px; line-height:18px; color:rgb(227, 178, 179); opacity:0.8; overflow:hidden}
+        <DIV Post__Detail> [4,3386,382,84] {position:relative; border-radius:1px; box-shadow:rgba(0, 0, 0, 0.24) 0px 14px 8px -10px; transform:matrix(1, 0, 0, 1, 0, 0); overflow:clip}
+         <DIV Post__DetailContent> [4,3386,382,84] {display:flex; position:relative; flex-direction:column; border-radius:1px; z-index:3}
+          <DIV Post__Summary> [4,3386,382,84] {display:flex; position:relative; align-items:center; padding:8px 12px; text-align:left; border-radius:1px}
+           <DIV Post__Info> [16,3394,358,68] {display:flex; flex-direction:column; align-items:flex-start; padding:0px 12px 0px 0px; max-width:800px; color:rgba(255, 255, 255, 0.36)}
+            <DIV Post__DateAndTime> [16,3394,173,16] {display:flex; gap:8px; margin:0px 0px 4px}
+             <DIV postMeta__PostDate Post__StyledDate> [16,3394,107,16] {display:flex; gap:4px; font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px; color:rgba(255, 255, 255, 0.64)}
+              <SPAN createIcon__Wrapper postMeta__FlippedMergeIcon> [16,3394,16,16] {display:flex; transform:matrix(1, 0, 0, -1, 0, 0)}
+               <svg > [16,3394,16,16] {overflow:hidden}
+              <P .annotation> [36,3394,87,16] «Jul 23, 2026» {}
+             <DIV Post__TagAndReadtime> [131,3394,58,16] {display:flex; align-items:center; gap:6px}
+              <SPAN postMeta__MiniTagGrid Post__StyledMiniTags> [131,3394,5,15] {display:flex; gap:2px}
+               <SPAN postMeta__MiniTag> [131,3394,5,15] {aspect-ratio:1 / 3; color:rgb(205, 168, 73); background-color:rgb(205, 168, 73); opacity:0.4}
+              <DIV Post__ReadTime> [142,3394,47,16] «6 min» {display:flex; align-items:center; gap:2px; font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px; color:rgba(255, 255, 255, 0.64)}
+               <SPAN createIcon__Wrapper> [142,3394,16,16] {display:flex}
+                <svg > [142,3394,16,16] {overflow:hidden}
+            <P Post> [16,3418,346,22] {display:flow-root; margin:3.92px 0px 4px; font-family:PP Formula; font-weight:600; letter-spacing:-0.35px; color:rgb(255, 255, 255); opacity:0.8; transition:opacity 0.08s linear; overflow:hidden}
+             <A postMeta__PostLink> [16,3420,337,39] href=/blog/how-data-teams-use-context/ «Accuracy and AI analytics: How the best data teams obsess over context» {display:inline; transition:background-color 0.1s linear}
+            <P Post__InlineSynopsis> [16,3444,346,18] «AI analytics depends on context for trusted answers. Here's how data teams at Ramp, Underd» {display:flow-root; max-width:462.96px; font-size:12px; line-height:18px; color:rgb(227, 178, 179); opacity:0.8; overflow:hidden}
+        <DIV Post__Detail> [4,3476,382,84] {position:relative; border-radius:1px; box-shadow:rgba(0, 0, 0, 0.24) 0px 14px 8px -10px; transform:matrix(1, 0, 0, 1, 0, 0); overflow:clip}
+         <DIV Post__DetailContent> [4,3476,382,84] {display:flex; position:relative; flex-direction:column; border-radius:1px; z-index:3}
+          <DIV Post__Summary> [4,3476,382,84] {display:flex; position:relative; align-items:center; padding:8px 12px; text-align:left; border-radius:1px}
+           <DIV Post__Info> [16,3484,358,68] {display:flex; flex-direction:column; align-items:flex-start; padding:0px 12px 0px 0px; max-width:800px; color:rgba(255, 255, 255, 0.36)}
+            <DIV Post__DateAndTime> [16,3484,180,16] {display:flex; gap:8px; margin:0px 0px 4px}
+             <DIV postMeta__PostDate Post__StyledDate> [16,3484,107,16] {display:flex; gap:4px; font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px; color:rgba(255, 255, 255, 0.64)}
+              <SPAN createIcon__Wrapper postMeta__FlippedMergeIcon> [16,3484,16,16] {display:flex; transform:matrix(1, 0, 0, -1, 0, 0)}
+               <svg > [16,3484,16,16] {overflow:hidden}
+              <P .annotation> [36,3484,87,16] «Jul 17, 2026» {}
+             <DIV Post__TagAndReadtime> [131,3484,65,16] {display:flex; align-items:center; gap:6px}
+              <SPAN postMeta__MiniTagGrid Post__StyledMiniTags> [131,3484,5,15] {display:flex; gap:2px}
+               <SPAN postMeta__MiniTag> [131,3484,5,15] {aspect-ratio:1 / 3; color:rgb(205, 168, 73); background-color:rgb(205, 168, 73); opacity:0.8}
+              <DIV Post__ReadTime> [142,3484,54,16] «12 min» {display:flex; align-items:center; gap:2px; font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px; color:rgba(255, 255, 255, 0.64)}
+               <SPAN createIcon__Wrapper> [142,3484,16,16] {display:flex}
+                <svg > [142,3484,16,16] {overflow:hidden}
+            <P Post> [16,3508,330,22] {display:flow-root; margin:3.92px 0px 4px; font-family:PP Formula; font-weight:600; letter-spacing:-0.35px; color:rgb(255, 255, 255); opacity:0.8; transition:opacity 0.08s linear; overflow:hidden}
+             <A postMeta__PostLink> [16,3510,330,17] href=/blog/data-teams-in-ai-era/ «The life and times of data teams in the AI era» {display:inline; transition:background-color 0.1s linear}
+            <P Post__InlineSynopsis> [16,3534,346,18] «When everyone is a data person, what does it mean to be a data team?» {display:flow-root; max-width:462.96px; font-size:12px; line-height:18px; color:rgb(227, 178, 179); opacity:0.8; overflow:hidden}
+        <DIV Post__Detail> [4,3566,382,84] {position:relative; border-radius:1px; box-shadow:rgba(0, 0, 0, 0.24) 0px 14px 8px -10px; transform:matrix(1, 0, 0, 1, 0, 0); overflow:clip}
+         <DIV Post__DetailContent> [4,3566,382,84] {display:flex; position:relative; flex-direction:column; border-radius:1px; z-index:3}
+          <DIV Post__Summary> [4,3566,382,84] {display:flex; position:relative; align-items:center; padding:8px 12px; text-align:left; border-radius:1px}
+           <DIV Post__Info> [16,3574,358,68] {display:flex; flex-direction:column; align-items:flex-start; padding:0px 12px 0px 0px; max-width:800px; color:rgba(255, 255, 255, 0.36)}
+            <DIV Post__DateAndTime> [16,3574,173,16] {display:flex; gap:8px; margin:0px 0px 4px}
+             <DIV postMeta__PostDate Post__StyledDate> [16,3574,107,16] {display:flex; gap:4px; font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px; color:rgba(255, 255, 255, 0.64)}
+              <SPAN createIcon__Wrapper postMeta__FlippedMergeIcon> [16,3574,16,16] {display:flex; transform:matrix(1, 0, 0, -1, 0, 0)}
+               <svg > [16,3574,16,16] {overflow:hidden}
+              <P .annotation> [36,3574,87,16] «Jul 15, 2026» {}
+             <DIV Post__TagAndReadtime> [131,3574,58,16] {display:flex; align-items:center; gap:6px}
+              <SPAN postMeta__MiniTagGrid Post__StyledMiniTags> [131,3574,5,15] {display:flex; gap:2px}
+               <SPAN postMeta__MiniTag> [131,3574,5,15] {aspect-ratio:1 / 3; color:rgb(245, 192, 192); background-color:rgb(245, 192, 192); opacity:0.466667}
+              <DIV Post__ReadTime> [142,3574,47,16] «7 min» {display:flex; align-items:center; gap:2px; font-family:Cinetype Mono; font-size:10px; line-height:15.71px; letter-spacing:0.833px; color:rgba(255, 255, 255, 0.64)}
+               <SPAN createIcon__Wrapper> [142,3574,16,16] {display:flex}
+                <svg > [142,3574,16,16] {overflow:hidden}
+            <P Post> [16,3597,346,22] {display:flow-root; margin:3.92px 0px 4px; font-family:PP Formula; font-weight:600; letter-spacing:-0.35px; color:rgb(255, 255, 255); opacity:0.8; transition:opacity 0.08s linear; overflow:hidden}
+             <A postMeta__PostLink> [16,3599,329,39] href=/blog/semantic-models-in-hex/ «Building semantic models in Hex: A playbook for governed & trustworthy metrics» {display:inline; transition:background-color 0.1s linear}
+            <P Post__InlineSynopsis> [16,3623,303,18] «A practical build recipe for Hex admins and data leads» {display:flow-root; max-width:462.96px; font-size:12px; line-height:18px; color:rgb(227, 178, 179); opacity:0.8; overflow:hidden}
+        <BUTTON Feed__ShowMoreButton> [121,3663,148,38] {position:relative; padding:8px 20px 8px 24px; margin:8px 0px 0px; font-family:Arial; font-size:13.3333px; line-height:normal; text-align:center; color:rgb(153, 121, 125); border-radius:1px; box-shadow:rgba(0, 0, 0, 0.24) 0px 14px 8px -10px; transform:matrix(1, 0, 0, 1, 0, 0); transition:transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275)}
+         <SPAN .text-base> [145,3673,104,16] «View more (   )» {display:inline; position:relative; font-size:14px; line-height:21.994px; z-index:2}
+          <SPAN .annotation> [223,3674,17,15] «15» {display:inline; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; letter-spacing:0.9996px}
+   <DIV LayoutGrid__LayoutSubgrid> [0,3737,390,1114] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:1113.72px; grid-column:1 / -1}
+    <DIV GridLines__ContentMarginLine> [0,3737,8,1114] {grid-column:1; border-top:1px solid rgb(43, 37, 44); border-right:1px solid rgb(58, 49, 56); border-bottom:1px solid rgb(43, 37, 44)}
+    <FOOTER Footer__Wrapper> [8,3737,374,1114] {display:flex; flex-direction:column; grid-column:2 / -2}
+     <DIV Footer__Divider> [8,3737,374,1] {background-color:rgb(58, 49, 56)}
+     <DIV Footer> [8,3738,374,1112] {display:flex; flex-direction:column; gap:45px; grid-template-columns:minmax(0px, 1fr) auto minmax(0px, 1fr); padding:50px 30px; max-width:1240px}
+      <DIV Footer__Left> [38,3788,314,58] {display:flex; flex-direction:column; align-items:center; gap:15px}
+       <svg > [165,3788,60,20] {overflow:hidden}
+       <DIV Footer__MadeWith> [125,3823,141,23] {display:flex; align-items:center; color:rgb(153, 121, 125)}
+        <SPAN > [125,3824,69,22] «Made with» {margin:0px 4px 0px 0px}
+        <DIV Rotator__Wrapper> [197,3825,20,20] {display:flex; position:relative; overflow:hidden}
+         <DIV Rotator> [197,3825,20,20] {display:flex; flex-direction:column; transform:matrix(1, 0, 0, 1, 0, 0)}
+          <DIV Rotator__Option> [197,3825,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,3825,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,3825,20,20] «🍰» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,3845,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,3845,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,3845,20,20] «🔮» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,3865,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,3865,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,3865,20,20] «🔒» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,3885,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,3885,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,3885,20,20] «🥖» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,3905,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,3905,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,3905,20,20] «🍷» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,3925,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,3925,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,3925,20,20] «🛌» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,3945,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,3945,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,3945,20,20] «💜» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,3965,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,3965,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,3965,20,20] «🥨» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,3985,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,3985,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,3985,20,20] «🛹» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,4005,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,4005,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,4005,20,20] «🍤» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,4025,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,4025,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,4025,20,20] «🧄» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,4045,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,4045,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,4045,20,20] «🍞» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,4065,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,4065,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,4065,20,20] «🥥» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,4085,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,4085,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,4085,20,20] «⛳» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,4105,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,4105,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,4105,20,20] «🤞» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,4125,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,4125,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,4125,20,20] «✨» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,4145,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,4145,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,4145,20,20] «🔊» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,4165,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,4165,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,4165,20,20] «🎧» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,4185,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,4185,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,4185,20,20] «🌊» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,4205,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,4205,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,4205,20,20] «🍀» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,4225,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,4225,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,4225,20,20] «🤠» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,4245,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,4245,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,4245,20,20] «🎷» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,4265,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,4265,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,4265,20,20] «🍩» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,4285,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,4285,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,4285,20,20] «☕» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,4305,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,4305,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,4305,20,20] «🥟» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,4325,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,4325,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,4325,20,20] «🍺» {display:flex; align-items:center}
+        <SPAN > [221,3823,44,23] «on .» {margin:0px 0px 0px 4px}
+         <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [243,3827,18,17] «🌎» {display:inline; margin:0px 0.7px 0px 1.4px}
+      <DIV Footer__Center> [38,3892,314,821] {display:flex; flex-direction:column; align-items:center; gap:60px}
+       <DIV Footer> [38,3892,314,611] {display:grid; justify-content:center; gap:30px; grid-template-columns:158.375px 125.875px; grid-template-rows:370.672px 210.75px; max-width:800px}
+        <DIV Footer__Column> [38,3892,158,371] {display:flex; flex-direction:column; align-items:center; gap:10px}
+         <DIV Footer__ColTitle> [85,3892,63,19] «Platform» {font-family:IBM Plex Mono; font-size:12px; line-height:18.852px; font-weight:700; letter-spacing:0.7px; text-transform:uppercase; color:rgb(255, 255, 255)}
+         <A > [72,3921,90,22] href=/capability/ai/ «AI and agents» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [56,3953,121,22] href=/product/notebooks/ «Agentic notebooks» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [38,3985,158,22] href=/product/threads/ «Conversational analytics» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [68,4017,97,22] href=/product/context-studio/ «Context Studio» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [84,4049,66,22] href=/product/data-apps/ «Data apps» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [93,4081,49,22] href=/product/cli/ «Hex CLI» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [48,4113,137,22] href=/product/bi/ «Business intelligence» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [51,4145,132,22] href=/capability/exploratory-analysis/ «Exploratory analysis» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [51,4177,132,22] href=/product/embedded-analytics/ «Embedded analytics» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [77,4209,79,22] href=/product/integrations/ «Integrations» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [82,4240,69,22] href=https://learn.hex.tech/changelog «Changelog» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+        <DIV Footer__Column> [226,3892,126,371] {display:flex; flex-direction:column; align-items:center; gap:10px}
+         <DIV Footer__ColTitle> [254,3892,71,19] «Resources» {font-family:IBM Plex Mono; font-size:12px; line-height:18.852px; font-weight:700; letter-spacing:0.7px; text-transform:uppercase; color:rgb(255, 255, 255)}
+         <A > [267,3921,45,22] href=/pricing/ «Pricing» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [234,3953,110,22] href=/product/switching-to-hex/ «Switching to Hex» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [255,3985,68,22] href=/enterprise/ «Enterprise» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [274,4017,31,22] href=https://learn.hex.tech «Docs» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [275,4049,29,22] href=/blog/ «Blog» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [267,4081,44,22] href=/resources/events/ «Events» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [256,4113,67,22] href=/templates/ «Templates» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [260,4145,59,22] href=/compare/ «Compare» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [249,4177,81,22] href=https://trust.hex.tech «Trust Center» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [268,4209,42,22] href=https://status.hex.tech «Status» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+        <DIV Footer__Column> [38,4292,158,211] {display:flex; flex-direction:column; align-items:center; gap:10px}
+         <DIV Footer__ColTitle> [89,4292,55,19] «Company» {font-family:IBM Plex Mono; font-size:12px; line-height:18.852px; font-weight:700; letter-spacing:0.7px; text-transform:uppercase; color:rgb(255, 255, 255)}
+         <A > [98,4321,39,22] href=/about/ «About» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [92,4353,51,22] href=/careers/ «Careers» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [82,4385,70,22] href=/customers/ «Customers» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [87,4417,60,22] href=/solutions/ «Solutions» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [87,4449,61,22] href=https://hexhq.notion.site/a091e1bb7bb34019bc4ccf2e3da8645f?v=bb640f9e0ef4499198673561e42a93f0 «Media kit» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [83,4481,69,22] href=/newsroom/ «Newsroom» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+        <DIV Footer__Column> [226,4292,126,211] {display:flex; flex-direction:column; align-items:center; gap:10px}
+         <DIV Footer__ColTitle> [262,4292,55,19] «Connect» {font-family:IBM Plex Mono; font-size:12px; line-height:18.852px; font-weight:700; letter-spacing:0.7px; text-transform:uppercase; color:rgb(255, 255, 255)}
+         <A > [236,4321,106,22] href=/request-a-demo/ «Request a demo» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [231,4353,116,22] href=mailto:support@hex.tech «Technical support» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [254,4385,70,22] href=/contact-us/ «Contact us» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [262,4417,55,22] href=https://www.linkedin.com/company/hex-technologies «LinkedIn» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [255,4449,68,22] href=https://x.com/hexanalytics «X (Twitter)» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [263,4481,53,22] href=https://www.youtube.com/@_hex_tech «YouTube» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+       <DIV Footer__Bottom> [38,4563,314,150] {display:flex; flex-direction:column; flex-wrap:wrap; justify-content:center; align-items:center; gap:10px}
+        <DIV Footer__Copyright> [100,4563,191,22] «© 2026 Hex Technologies Inc.» {color:rgb(153, 121, 125)}
+        <A > [150,4595,89,22] href=https://learn.hex.tech/docs/trust/privacy-policy «Privacy policy» {color:rgb(153, 121, 125); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+        <A > [133,4627,124,22] href=https://learn.hex.tech/docs/legal/terms-and-conditions «Terms & conditions» {color:rgb(153, 121, 125); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+        <A > [108,4659,173,22] href=/files/Hex_UK_Modern_Slavery_Act_Statement.pdf «Modern slavery statement» {color:rgb(153, 121, 125); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+        <BUTTON OptOutOfTrackingLink-module__ax0AOW__button> [133,4691,125,22] «Opt out of tracking» {text-align:center; color:rgb(153, 121, 125); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+      <DIV Footer> [38,4758,314,42] {display:flex; flex-direction:column; align-items:center}
+       <DIV HitCounter__Wrapper> [132,4758,126,42] {padding:5px 0px}
+        <DIV HitCounter> [132,4763,126,32] {display:flex; position:relative; gap:5px; padding:5px; border-top:1px solid rgb(58, 49, 56); border-right:1px solid rgb(58, 49, 56); border-bottom:1px solid rgb(58, 49, 56); border-left:1px solid rgb(58, 49, 56); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+         <DIV HitCounter__DigitWrapper> [138,4769,12,20] {display:flex; position:relative; gap:1px}
+          <DIV HitCounter__Col> [138,4769,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [138,4769,1,10] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [138,4779,1,10] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+          <DIV HitCounter__Col> [140,4769,8,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [140,4769,8,1] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+           <DIV HitCounter__Line> [140,4779,8,1] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [140,4788,8,1] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+          <DIV HitCounter__Col> [149,4769,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [149,4769,1,10] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [149,4779,1,10] {background-color:rgb(245, 192, 192)}
+         <DIV HitCounter__DigitWrapper> [155,4769,12,20] {display:flex; position:relative; gap:1px}
+          <DIV HitCounter__Col> [155,4769,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [155,4769,1,10] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+           <DIV HitCounter__Line> [155,4779,1,10] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+          <DIV HitCounter__Col> [157,4769,8,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [157,4769,8,1] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [157,4779,8,1] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+           <DIV HitCounter__Line> [157,4788,8,1] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+          <DIV HitCounter__Col> [166,4769,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [166,4769,1,10] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [166,4779,1,10] {background-color:rgb(245, 192, 192)}
+         <DIV HitCounter__DigitWrapper> [172,4769,12,20] {display:flex; position:relative; gap:1px}
+          <DIV HitCounter__Col> [172,4769,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [172,4769,1,10] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+           <DIV HitCounter__Line> [172,4779,1,10] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+          <DIV HitCounter__Col> [174,4769,8,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [174,4769,8,1] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+           <DIV HitCounter__Line> [174,4779,8,1] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+           <DIV HitCounter__Line> [174,4788,8,1] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+          <DIV HitCounter__Col> [183,4769,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [183,4769,1,10] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [183,4779,1,10] {background-color:rgb(245, 192, 192)}
+         <DIV HitCounter__DigitWrapper> [189,4769,12,20] {display:flex; position:relative; gap:1px}
+          <DIV HitCounter__Col> [189,4769,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [189,4769,1,10] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+           <DIV HitCounter__Line> [189,4779,1,10] {background-color:rgb(245, 192, 192)}
+          <DIV HitCounter__Col> [191,4769,8,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [191,4769,8,1] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [191,4779,8,1] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [191,4788,8,1] {background-color:rgb(245, 192, 192)}
+          <DIV HitCounter__Col> [200,4769,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [200,4769,1,10] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [200,4779,1,10] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+         <DIV HitCounter__DigitWrapper> [206,4769,12,20] {display:flex; position:relative; gap:1px}
+          <DIV HitCounter__Col> [206,4769,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [206,4769,1,10] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [206,4779,1,10] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+          <DIV HitCounter__Col> [208,4769,8,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [208,4769,8,1] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [208,4779,8,1] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [208,4788,8,1] {background-color:rgb(245, 192, 192)}
+          <DIV HitCounter__Col> [217,4769,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [217,4769,1,10] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+           <DIV HitCounter__Line> [217,4779,1,10] {background-color:rgb(245, 192, 192)}
+         <DIV HitCounter__DigitWrapper> [223,4769,12,20] {display:flex; position:relative; gap:1px}
+          <DIV HitCounter__Col> [223,4769,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [223,4769,1,10] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [223,4779,1,10] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+          <DIV HitCounter__Col> [225,4769,8,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [225,4769,8,1] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [225,4779,8,1] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [225,4788,8,1] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+          <DIV HitCounter__Col> [234,4769,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [234,4769,1,10] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [234,4779,1,10] {background-color:rgb(245, 192, 192)}
+         <DIV HitCounter__DigitWrapper> [240,4769,12,20] {display:flex; position:relative; gap:1px}
+          <DIV HitCounter__Col> [240,4769,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [240,4769,1,10] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [240,4779,1,10] {background-color:rgb(245, 192, 192)}
+          <DIV HitCounter__Col> [242,4769,8,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [242,4769,8,1] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [242,4779,8,1] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [242,4788,8,1] {background-color:rgb(245, 192, 192)}
+          <DIV HitCounter__Col> [251,4769,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [251,4769,1,10] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [251,4779,1,10] {background-color:rgb(245, 192, 192)}
+     <DIV Footer__Divider> [8,4850,374,1] {background-color:rgb(58, 49, 56)}
+    <DIV GridLines__ContentMarginLine> [382,3737,8,1114] {grid-column:-2 / span 1; border-top:1px solid rgb(43, 37, 44); border-bottom:1px solid rgb(43, 37, 44); border-left:1px solid rgb(58, 49, 56)}
+   <DIV LayoutGrid__LayoutSubgrid> [0,4851,390,32] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:32px; grid-column:1 / -1}
+    <DIV GridLines__ContentMarginLine> [0,4851,8,32] {grid-column:1; border-right:1px solid rgb(43, 37, 44)}
+    <DIV GridLines__GridRule> [101,4851,1,32] {grid-column:4; background-color:rgb(43, 37, 44); transform:matrix(1, 0, 0, 1, 0.5, 0)}
+    <DIV GridLines__GridRule> [288,4851,1,32] {grid-column:10; background-color:rgb(43, 37, 44); transform:matrix(1, 0, 0, 1, 0.5, 0)}
+    <DIV GridLines__ContentMarginLine> [382,4851,8,32] {grid-column:-2 / span 1; border-left:1px solid rgb(43, 37, 44)}

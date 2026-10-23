@@ -1,0 +1,125 @@
+{
+  "id": "feature.command-list",
+  "category": "feature",
+  "purpose": "Mark + gradient H2 with italic lead word beside a 2-column list of command features with inline code pills, over rose Perlin.",
+  "variants": [],
+  "content": {
+    "italicWord": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 2,
+      "observedWords": [
+        1
+      ],
+      "measuredFrom": [
+        "specs/product.md:323"
+      ]
+    },
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 9,
+      "observedWords": [
+        7
+      ],
+      "measuredFrom": [
+        "specs/product.md:323"
+      ]
+    },
+    "items": {
+      "kind": "list",
+      "required": true,
+      "minItems": 4,
+      "maxItems": 4,
+      "measuredFrom": [
+        "specs/product.md:324"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "title": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 5,
+            "observedWords": [
+              4
+            ],
+            "measuredFrom": [
+              "specs/product.md:325"
+            ]
+          },
+          "description": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 33,
+            "observedWords": [
+              26
+            ],
+            "measuredFrom": [
+              "specs/product.md:325"
+            ]
+          },
+          "codeTokens": {
+            "kind": "list",
+            "required": false,
+            "minItems": 0,
+            "maxItems": 3,
+            "measuredFrom": [
+              "specs/product.md:144"
+            ],
+            "item": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 5,
+              "observedWords": [
+                4
+              ],
+              "measuredFrom": [
+                "specs/product.md:144"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in",
+      "perlin-drift"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.phone-sm}",
+      "change": "stack-columns",
+      "detail": "heading block then 1-column list",
+      "measuredFrom": [
+        "specs/product.md:326"
+      ]
+    }
+  ],
+  "constraints": {},
+  "measuredFrom": [
+    "specs/product.md:320"
+  ],
+  "wordBudgets": {
+    "headline": 9,
+    "italicWord": 2,
+    "items[].codeTokens[]": 5,
+    "items[].description": 33,
+    "items[].title": 5
+  },
+  "richTextBudgets": {},
+  "assetRoles": [],
+  "usedByTemplates": [
+    "template.product-feature"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__feature.command-list",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

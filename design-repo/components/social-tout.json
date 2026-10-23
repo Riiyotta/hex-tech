@@ -1,0 +1,30 @@
+{
+  "id": "component.social-tout",
+  "purpose": "Reveal row wrapper laying out G2 card and quote cards.",
+  "composes": [
+    "component.g2-card",
+    "component.quote-card",
+    "primitive.reveal"
+  ],
+  "props": {
+    "padding": {
+      "type": "enum",
+      "measuredFrom": [
+        "src/components/shared/SocialTout.jsx:11"
+      ],
+      "enum": [
+        "default",
+        "none"
+      ]
+    }
+  },
+  "tokens": [
+    "layout.section-max"
+  ],
+  "measuredFrom": [
+    "specs/SHARED_BUILT.md:77",
+    "src/components/shared/SocialTout.jsx:11"
+  ],
+  "layer": "component",
+  "provisional": true
+}

@@ -1,0 +1,104 @@
+{
+  "id": "primitive.button",
+  "purpose": "Primary (gradient border + rose fill) or secondary (outlined) action; lg 48 / md 40 / nav 36 tall, corner circles and hover corner lines.",
+  "props": {
+    "variant": {
+      "type": "enum",
+      "measuredFrom": [
+        "specs/SHARED_BUILT.md:30"
+      ],
+      "enum": [
+        "primary",
+        "secondary"
+      ],
+      "default": "primary"
+    },
+    "size": {
+      "type": "enum",
+      "measuredFrom": [
+        "specs/SHARED_BUILT.md:30"
+      ],
+      "enum": [
+        "lg",
+        "md",
+        "nav"
+      ],
+      "default": "lg"
+    },
+    "icon": {
+      "type": "asset",
+      "measuredFrom": [
+        "specs/SHARED_BUILT.md:31"
+      ]
+    },
+    "iconPosition": {
+      "type": "enum",
+      "measuredFrom": [
+        "specs/SHARED_BUILT.md:31"
+      ],
+      "enum": [
+        "start",
+        "end"
+      ]
+    },
+    "selected": {
+      "type": "boolean",
+      "measuredFrom": [
+        "specs/SHARED_BUILT.md:32"
+      ]
+    },
+    "corners": {
+      "type": "boolean",
+      "measuredFrom": [
+        "specs/SHARED_BUILT.md:33"
+      ]
+    },
+    "block": {
+      "type": "boolean",
+      "measuredFrom": [
+        "specs/SHARED_BUILT.md:34"
+      ]
+    },
+    "href": {
+      "type": "href",
+      "measuredFrom": [
+        "src/components/shared/Button.jsx:28"
+      ]
+    },
+    "external": {
+      "type": "boolean",
+      "measuredFrom": [
+        "src/components/shared/Button.jsx:28"
+      ]
+    }
+  },
+  "tokens": [
+    "component.button.height-lg",
+    "component.button.height-md",
+    "component.button.height-nav",
+    "component.button.padding-x",
+    "component.button.corner-circle-size",
+    "component.button.corner-line-size",
+    "gradient.button-border",
+    "gradient.button-fill",
+    "shadow.button-fill",
+    "opacity.button-fill",
+    "color.text.loud",
+    "color.border.default",
+    "color.border.strong",
+    "color.interactive.focus-outline",
+    "motion.duration.interaction",
+    "motion.easing.standard"
+  ],
+  "states": {
+    "hover": "bg --grid300, border --grid700, fill opacity .3",
+    "active": "bg --grid500, fill .6",
+    "focus-visible": "2px rose outline, offset 2"
+  },
+  "measuredFrom": [
+    "CLONE_SPEC.md:207",
+    "src/components/shared/Button.jsx:28"
+  ],
+  "layer": "primitive",
+  "provisional": true
+}

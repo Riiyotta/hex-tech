@@ -1,0 +1,104 @@
+/* CLONE_SPEC §4.2 customer banner: pseudo-element ticks, story indicator and the hover popover.
+   Values ported from CustomerBanner-module / CustomerBannerSectionLabel-module / CustomerLogo__*
+   in reference/dom/home-module-rules.css + styled-component-rules.css. */
+
+/* frame fill: color-mix(fg100 30%, transparent); paper texture on top (themed via vars) */
+.cb-frame { background-color: color-mix(in srgb, var(--fg100) 30%, transparent); }
+.cb-frame::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: var(--texture-paper-img);
+  background-size: var(--texture-paper-size);
+  mix-blend-mode: var(--texture-paper-mixBlendMode);
+  opacity: var(--texture-paper-opacity);
+}
+
+/* 6×6 corner ticks sitting above the frame's top corners */
+.cb-accents::before,
+.cb-accents::after {
+  content: '';
+  position: absolute;
+  top: -7px;
+  left: -1px;
+  width: 6px;
+  height: 6px;
+  border-bottom: 1px solid var(--fg1200);
+  border-left: 1px solid var(--fg1200);
+}
+.cb-accents::after {
+  left: auto;
+  right: -1px;
+  border-left: none;
+  border-right: 1px solid var(--fg1200);
+}
+
+/* "TRUSTED BY…" label: 1px side borders + 7px horizontal ticks outside them */
+.cb-label::before,
+.cb-label::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 7px;
+  height: 1px;
+  background-color: var(--fg1200);
+  transform: translate(-100%, -100%);
+}
+.cb-label::after {
+  left: auto;
+  right: 0;
+  transform: translate(100%, -100%);
+}
+
+/* customer-story indicator dot: 12px circle with a 4px "+" (CustomerLogo__CustomerStoryIndicator) */
+.cb-indicator {
+  background-color: rgb(var(--story-indicator-rgb) / 0.16);
+  border: 1px solid rgb(var(--story-indicator-rgb) / 0.16);
+  color: rgb(var(--story-indicator-rgb) / 0.8);
+}
+.cb-indicator::before,
+.cb-indicator::after {
+  content: '';
+  grid-area: 1 / -1;
+  width: 1px;
+  height: 4px;
+  background-color: currentColor;
+  transform-origin: center center;
+}
+.cb-indicator::after {
+  width: 4px;
+  height: 1px;
+}
+
+/* popover: rest → hover (hover-capable pointers only) */
+.cb-popover {
+  opacity: 0;
+  transform: translateY(-28px);
+  transition:
+    transform 500ms linear(0 0%, 0.1263 6.25%, 0.3704 12.5%, 0.6094 18.75%, 0.7936 25%, 0.9148 31.25%, 0.9834 37.5%, 1.0153 43.75%, 1.025 50%, 1.0235 56.25%, 1.0177 62.5%, 1.0115 68.75%, 1.0063 75%, 1.0028 81.25%, 1.0008 87.5%, 0.9998 93.75%, 1 100%) 0.012s,
+    opacity 0.14s ease-out 0.012s;
+}
+@media (hover: hover) {
+  .cb-story:hover .cb-popover {
+    opacity: 1;
+    transform: none;
+  }
+}
+@media (max-width: 800px) {
+  .cb-popover { display: none; }
+}
+
+.cb-divider::before,
+.cb-divider::after {
+  content: '';
+  display: block;
+  flex-grow: 1;
+  height: 1px;
+  background-color: rgba(20, 20, 28, 0.16);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cb-popover { transition: none; }
+}

@@ -1,0 +1,107 @@
+/* /product/bi/ section CSS (specs/product.md §4.1; reference/pages/product/dom/bi/*.css). Light theme. */
+
+/* ---- #0 BIHero (fGSpii / fExHNd / kubgno / bZCdCP / gkDpyZ) ---- */
+.pc-bi-hero { position: relative; display: flex; flex-direction: column; align-items: center; }
+.pc-bi-hero__art { position: absolute; top: 0; left: 50%; transform: translateX(-50%); flex: 0 0 auto; pointer-events: none; color: var(--fontColorDEFAULT); max-width: none; }
+.pc-bi-hero__text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin: 0 auto;
+  text-align: center;
+  padding: clamp(150px, 6.7383rem + 9.375vw, 225px) clamp(0px, -0.7031rem + 2.5vw, 20px) clamp(50px, 1.3672rem + 6.25vw, 100px);
+}
+.pc-bi-hero__title.pc-bi-hero__title { padding-top: 15px; line-height: 1.3; letter-spacing: -0.025em; }
+.pc-bi-hero__title.pc-bi-hero__title span[data-style='italic'] { display: block; margin-top: -0.22em; }
+/* 390 capture: the H1 drops to the heading-1 scale (38/49.4); breakpoint not recorded, ≤800 assumed. The italic
+   line stays block (the module rule outranks GradientHeader's ≤600 inline rule). */
+@media (max-width: 800px) {
+  .pc-bi-hero__title.pc-bi-hero__title { font-size: clamp(38px, 25.625px + 2.75vw, 60px); letter-spacing: -0.0308em; }
+}
+.pc-bi-hero__desc { margin: 0 auto; max-width: 700px; text-align: center; text-wrap: pretty; }
+@media (max-width: 800px) {
+  .pc-bi-hero__desc { padding: 0 20px; }
+}
+.pc-bi-hero__actions { display: flex; gap: 15px; padding-top: 20px; }
+.pc-bi-hero__actions > * { min-width: 140px; flex: 1 0 0; }
+@media (max-width: 800px) {
+  .pc-bi-hero__actions { flex-direction: column; }
+}
+
+/* ---- #2 heading (jaAPdz fsbdhu / bGLiMu) + Threads feature (kpNpOs / BvwVV / hhKRMM / kIoKeX / joMnLx) ---- */
+.pc-bi-heading {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: clamp(50px, 1.3672rem + 6.25vw, 100px) clamp(30px, 0.1172rem + 6.25vw, 80px) clamp(30px, 0.1172rem + 6.25vw, 80px);
+}
+.pc-bi-heading__art { position: absolute; bottom: 0; left: 50%; flex: 0 0 auto; pointer-events: none; transform: translateX(-50%) rotate(180deg); color: var(--fontColorDEFAULT); max-width: none; }
+.pc-bi-heading .section-heading { position: relative; }
+.pc-bi-threads { display: flex; align-items: center; width: 100%; padding: 0 clamp(20px, 0.5469rem + 2.5vw, 40px); }
+.pc-bi-threads__inner { display: flex; flex-direction: column; align-items: stretch; max-width: 1100px; margin: 0 auto; width: 100%; }
+.pc-bi-threads__section { position: relative; z-index: 2; display: flex; align-items: flex-start; gap: 40px; flex: 1 1 0; }
+.pc-bi-threads__info { display: flex; flex-direction: column; gap: 35px; padding: 30px 20px; min-width: 320px; max-width: 370px; }
+.pc-bi-threads__window { width: 100%; height: 70vh; min-height: 500px; max-height: 700px; }
+.pc-bi-threads__window.ta-root .HomeTrustedAnswers-module__G5svba__agentView.HomeTrustedAnswers-module__G5svba__agentView { width: 100%; max-width: 1000px; max-height: 1000px; min-width: 0; }
+@media (max-width: 800px) {
+  .pc-bi-threads__inner { gap: 50px; }
+  .pc-bi-threads__section { flex-direction: column; gap: 50px; }
+  .pc-bi-threads__info { max-width: 100%; padding: 0 20px; }
+  .pc-bi-threads__window { width: 140vw; }
+}
+
+/* ---- #3 three features (jaAPdz: gap/padding clamp(80..120) clamp(30..80)) ---- */
+.pc-bi-features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(80px, 3.5938rem + 5vw, 120px);
+  padding: clamp(80px, 3.5938rem + 5vw, 120px) clamp(30px, 0.1172rem + 6.25vw, 80px);
+  max-width: 100%;
+  min-width: 0;
+  width: 100%;
+}
+.pc-bi-features .feature-section__info-text-inner h3 { text-wrap: balance; }
+.pc-bi-apps { align-self: center; min-width: 0; width: 100%; max-width: 900px; z-index: 1; height: 100%; max-height: 605px; }
+.pc-bi-apps__grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; height: 100%; }
+.pc-bi-apps__grid img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+  background-color: var(--white);
+  box-shadow: rgba(49, 38, 59, 0.22) 0 0 0 1px, rgba(49, 38, 59, 0.09) 0 103px 103px 0, rgba(49, 38, 59, 0.1) 0 26px 57px 0;
+  overflow: hidden;
+  z-index: 2;
+}
+@media (max-width: 800px) {
+  .pc-bi-apps { min-width: 100%; }
+}
+/* BIContextStudio__IllustrationWrapper dTFoQM / ObservatoryWrapper kRTPTH */
+.pc-bi-cs { position: relative; display: flex; align-items: flex-start; max-width: 100%; min-width: 0; width: 100%; }
+.pc-bi-cs__dashboard { position: relative; z-index: 1; max-width: 100%; max-height: 440px; height: 440px; width: 100%; min-width: 800px; }
+.pc-bi-cs__dashboard .product-window { height: 100%; }
+@media (max-width: 800px) {
+  .pc-bi-cs { padding-bottom: 256px; }
+  .pc-bi-cs__dashboard { max-height: 375px; height: 375px; }
+}
+/* BIWherePeopleWork-module wrapper */
+.pc-bi-where.ta-root { --home-section-gutter: 0px; --home-section-max-width: 1100px; --home-section-padding-block: 0px; width: 100%; }
+
+/* ---- #4 / #5 (BIApproach-module / BIResources-module) ---- */
+.pc-bi-stack { display: flex; flex-direction: column; align-items: center; gap: 48px; width: 100%; padding: 0 16px; }
+.pc-bi-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; width: 100%; }
+@media (max-width: 1000px) {
+  .pc-bi-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 600px) {
+  .pc-bi-stack { gap: 32px; }
+}

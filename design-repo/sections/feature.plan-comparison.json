@@ -1,0 +1,154 @@
+{
+  "id": "feature.plan-comparison",
+  "category": "feature",
+  "purpose": "Feature comparison table with sticky plan header, grouped sections, tick/text cells, tooltips and a compute-profiles modal.",
+  "variants": [],
+  "content": {
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 4,
+      "observedWords": [
+        3
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:765"
+      ]
+    },
+    "plans": {
+      "kind": "list",
+      "required": true,
+      "minItems": 4,
+      "maxItems": 4,
+      "measuredFrom": [
+        "specs/solutions.md:767"
+      ],
+      "item": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 2,
+        "observedWords": [
+          1
+        ],
+        "measuredFrom": [
+          "specs/solutions.md:774"
+        ]
+      }
+    },
+    "sections": {
+      "kind": "list",
+      "required": true,
+      "minItems": 6,
+      "maxItems": 6,
+      "measuredFrom": [
+        "specs/solutions.md:126"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "title": {
+            "kind": "text",
+            "required": false,
+            "maxWords": 2,
+            "observedWords": [
+              1,
+              1
+            ],
+            "measuredFrom": [
+              "specs/solutions.md:792",
+              "specs/solutions.md:804"
+            ]
+          },
+          "rows": {
+            "kind": "list",
+            "required": true,
+            "minItems": 1,
+            "maxItems": 20,
+            "measuredFrom": [
+              "specs/solutions.md:770"
+            ],
+            "item": {
+              "kind": "object",
+              "required": true,
+              "fields": {
+                "label": {
+                  "kind": "text",
+                  "required": true,
+                  "maxWords": 3,
+                  "observedWords": [
+                    2
+                  ],
+                  "measuredFrom": [
+                    "specs/solutions.md:780"
+                  ]
+                },
+                "cells": {
+                  "kind": "list",
+                  "required": true,
+                  "minItems": 4,
+                  "maxItems": 4,
+                  "measuredFrom": [
+                    "specs/solutions.md:772"
+                  ],
+                  "item": {
+                    "kind": "text",
+                    "required": true,
+                    "maxWords": 4,
+                    "observedWords": [
+                      3
+                    ],
+                    "measuredFrom": [
+                      "specs/solutions.md:780"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "swap-to-mobile-variant",
+      "detail": "replaced by PlansMobileView",
+      "measuredFrom": [
+        "specs/solutions.md:879"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/solutions.md:764",
+    "src/pages/pricingForms/pricing/FeatureTooltip.jsx:2"
+  ],
+  "notes": "Feature tooltips render WITHOUT an arrow (live .toolTip override hides it); spec 4.4.4 prose describes an 8x8 arrow.",
+  "wordBudgets": {
+    "headline": 4,
+    "plans[]": 2,
+    "sections[].rows[].cells[]": 4,
+    "sections[].rows[].label": 3,
+    "sections[].title": 2
+  },
+  "richTextBudgets": {},
+  "assetRoles": [],
+  "usedByTemplates": [
+    "template.pricing"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__feature.plan-comparison",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

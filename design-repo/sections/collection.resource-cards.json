@@ -1,0 +1,252 @@
+{
+  "id": "collection.resource-cards",
+  "category": "collection",
+  "purpose": "Resource card grid: glass cards with tag-tinted illustration, 16:9 frame, type chip, H4 and solution/read-time meta; solution variant uses plain article cards with 'Read more'.",
+  "variants": [
+    "glass-grid",
+    "solution-articles",
+    "with-compare"
+  ],
+  "content": {
+    "headline": {
+      "kind": "text",
+      "required": false,
+      "maxWords": 12,
+      "observedWords": [
+        9,
+        5
+      ],
+      "measuredFrom": [
+        "specs/company.md:334",
+        "specs/product.md:286"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": false,
+      "maxWords": 25,
+      "observedWords": [
+        20
+      ],
+      "measuredFrom": [
+        "specs/company.md:342"
+      ]
+    },
+    "cards": {
+      "kind": "list",
+      "required": true,
+      "minItems": 3,
+      "maxItems": 62,
+      "measuredFrom": [
+        "specs/solutions.md:205",
+        "specs/company.md:342"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "type": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 3,
+            "observedWords": [
+              2
+            ],
+            "measuredFrom": [
+              "specs/solutions.md:199"
+            ]
+          },
+          "title": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 12,
+            "observedWords": [
+              9
+            ],
+            "measuredFrom": [
+              "specs/product.md:288"
+            ]
+          },
+          "tags": {
+            "kind": "list",
+            "required": false,
+            "minItems": 0,
+            "maxItems": 3,
+            "measuredFrom": [
+              "specs/solutions.md:201"
+            ],
+            "item": {
+              "kind": "enum",
+              "values": [
+                "data-leader",
+                "sales",
+                "marketing",
+                "product",
+                "core-data-team",
+                "customer-success"
+              ],
+              "required": true,
+              "measuredFrom": [
+                "specs/solutions.md:202"
+              ]
+            }
+          },
+          "readTime": {
+            "kind": "text",
+            "required": false,
+            "maxWords": 3,
+            "observedWords": [
+              2
+            ],
+            "measuredFrom": [
+              "specs/solutions.md:201"
+            ]
+          },
+          "description": {
+            "kind": "text",
+            "required": false,
+            "maxWords": 19,
+            "observedWords": [
+              15,
+              7
+            ],
+            "measuredFrom": [
+              "specs/solutions.md:365",
+              "specs/solutions.md:372"
+            ]
+          },
+          "href": {
+            "kind": "href",
+            "required": true
+          },
+          "image": {
+            "kind": "media",
+            "required": true,
+            "roles": [
+              "image.editorial-thumbnail"
+            ],
+            "alt": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 18,
+              "observedWords": [
+                14,
+                14
+              ],
+              "measuredFrom": [
+                "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+                "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "comparePanel": {
+      "kind": "object",
+      "required": false,
+      "fields": {
+        "items": {
+          "kind": "list",
+          "required": true,
+          "minItems": 4,
+          "maxItems": 4,
+          "measuredFrom": [
+            "specs/product.md:289"
+          ],
+          "item": {
+            "kind": "object",
+            "required": true,
+            "fields": {
+              "name": {
+                "kind": "text",
+                "required": true,
+                "maxWords": 2,
+                "observedWords": [
+                  1
+                ],
+                "measuredFrom": [
+                  "specs/solutions.md:898"
+                ]
+              },
+              "href": {
+                "kind": "href",
+                "required": true
+              },
+              "logo": {
+                "kind": "media",
+                "required": true,
+                "roles": [
+                  "logo.competitor"
+                ],
+                "alt": {
+                  "kind": "text",
+                  "required": true,
+                  "maxWords": 18,
+                  "observedWords": [
+                    14,
+                    14
+                  ],
+                  "measuredFrom": [
+                    "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+                    "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.tablet}",
+      "change": "reduce-columns",
+      "detail": "2 columns, 1 at 800",
+      "measuredFrom": [
+        "specs/solutions.md:192"
+      ]
+    }
+  ],
+  "constraints": {},
+  "measuredFrom": [
+    "specs/solutions.md:191",
+    "specs/solutions.md:314",
+    "specs/product.md:285"
+  ],
+  "wordBudgets": {
+    "cards[].description": 19,
+    "cards[].image.alt": 18,
+    "cards[].readTime": 3,
+    "cards[].title": 12,
+    "cards[].type": 3,
+    "comparePanel.items[].logo.alt": 18,
+    "comparePanel.items[].name": 2,
+    "description": 25,
+    "headline": 12
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "image.editorial-thumbnail",
+    "logo.competitor"
+  ],
+  "usedByTemplates": [
+    "template.guide-landing",
+    "template.product-feature",
+    "template.solution-detail",
+    "template.solutions-hub"
+  ],
+  "observedThemes": [
+    "dark",
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__collection.resource-cards",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

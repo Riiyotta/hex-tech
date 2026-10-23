@@ -1,0 +1,71 @@
+.CustomerQuote-module__ZeO8AW__quoteText { text-align: center; quotes: none; display: block; }
+.eWHoWL { position: absolute; inset: 0px; opacity: 0; pointer-events: all; margin: 0px !important; }
+.eWHoWL > span::before { content: ""; display: block; position: absolute; width: 15px; height: 15px; transition: transform 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1); }
+.eWHoWL:hover { opacity: 1; }
+.eWHoWL:hover .CornerLines__TopLeft-sc-8dce4083-1::before { transform: translate(-5px, -5px); }
+.eWHoWL:hover .CornerLines__BottomLeft-sc-8dce4083-3::before { transform: translate(-5px, 5px); }
+.eWHoWL:hover .CornerLines__TopRight-sc-8dce4083-2::before { transform: translate(5px, -5px); }
+.eWHoWL:hover .CornerLines__BottomRight-sc-8dce4083-4::before { transform: translate(5px, 5px); }
+[data-theme="pink"] .eWHoWL { --button-cornerline-color: var(--fg1200); }
+.fGmIOI::before { border-top: 1px solid var(--button-cornerline-color, var(--grid500, #dbd7da)); border-left: 1px solid var(--button-cornerline-color, var(--grid500, #dbd7da)); top: -1px; left: -1px; }
+.dsXEDw::before { border-top: 1px solid var(--button-cornerline-color, var(--grid500, #dbd7da)); border-right: 1px solid var(--button-cornerline-color, var(--grid500, #dbd7da)); top: -1px; right: -1px; }
+.danmWe::before { border-bottom: 1px solid var(--button-cornerline-color, var(--grid500, #dbd7da)); border-left: 1px solid var(--button-cornerline-color, var(--grid500, #dbd7da)); bottom: -1px; left: -1px; }
+.llmsAq::before { border-bottom: 1px solid var(--button-cornerline-color, var(--grid500, #dbd7da)); border-right: 1px solid var(--button-cornerline-color, var(--grid500, #dbd7da)); bottom: -1px; right: -1px; }
+.knpLay { box-sizing: content-box; position: relative; flex: 0 0 auto; display: flex; height: 40px; outline: none; padding: 0px 20px; user-select: none; cursor: pointer; font-size: 14px; min-width: 0px; transition: background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1); background-image: ; background-position-x: ; background-position-y: ; background-size: ; background-repeat: ; background-attachment: ; background-color: ; color: var(--fontColorLOUD, #01011b); border: 1px solid transparent; background-clip: padding-box, border-box; background-origin: padding-box, border-box; }
+.knpLay:hover { background-color: var(--grid300, #e9e5e8); border-color: var(--grid700, #afa9b1); text-decoration: none; }
+.knpLay:active { background-color: var(--grid500, #dbd7da); }
+.knpLay::after { box-shadow: rgba(71, 12, 12, 0.15) 0px 0px 0px 1px inset; background: linear-gradient(
+          135deg,
+          rgba(245, 192, 192, 0.23) 0%,
+          rgba(245, 192, 192, 0.12) 100%
+        ),var(--fg100, #ffffff); }
+.knpLay::after { content: ""; pointer-events: none; position: absolute; inset: 1px; z-index: 1; background-clip: padding-box, border-box; background-origin: padding-box, border-box; transition: opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1); }
+.knpLay:hover::after { opacity: 0.3; }
+.knpLay:active::after { opacity: 0.6; }
+[data-theme="pink"] .knpLay { background-image: linear-gradient(
+            to right,
+            var(--fg100),
+            var(--fg100)
+          ),linear-gradient(
+            45deg,
+            var(--grid700) 0%,
+            var(--grid700) 100%
+          ); }
+[data-theme="pink"] .knpLay:hover::after { opacity: 0.9; }
+[data-theme="pink"] .knpLay:active::after { opacity: 0.7; }
+[data-theme="pink"] .knpLay::after { background-color: var(--fg1200); opacity: 1; background-image: linear-gradient(45deg, rgb(55, 55, 73), rgb(20, 20, 28) 300%); }
+.knpLay:focus-visible { outline: var(
+      --app-focus-outline,
+      2px solid var(--highlightColor, #31263B)
+    ); outline-offset: var(--app-focus-outline-offset, 2px); }
+.ghWwXj { display: flex; width: 100%; flex-direction: row; align-items: center; height: inherit; white-space: nowrap; min-width: 0px; gap: 10px; justify-content: center; text-align: center; }
+.kRHsma { display: flex; align-items: center; justify-content: center; min-width: 0px; position: relative; z-index: 2; pointer-events: none; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.gLxMDc { color: var(--fg1200, var(--fg1200, #43394c)); display: flex; height: 15px; width: 15px; }
+.bAlOMl { display: flex; flex-direction: column; justify-content: center; align-items: center; }
+.bAlOMl p { text-align: center; }
+.bAlOMl img { filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(339deg) brightness(100%) contrast(101%); }
+.bgXSph { display: flex; align-items: center; font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: 32px; opacity: 1; margin: 25px 0px 15px; width: 100%; }
+.bgXSph::before, .bgXSph::after { content: ""; flex: 1 1 auto; display: flex; height: 1px; }
+.bgXSph::before { margin-right: 10px; background: linear-gradient(
+      90deg,
+      transparent 0%,
+      color-mix(in srgb, var(--highlightColor, #31263B) 50%, transparent) 95%
+    ); }
+.bgXSph::after { margin-left: 10px; background: linear-gradient(
+      -90deg,
+      transparent 0%,
+      color-mix(in srgb, var(--highlightColor, #31263B) 60%, transparent) 95%
+    ); }
+.gUWxDK { display: flex; position: relative; align-items: flex-start; flex-direction: column; margin: 0px; flex: 1 1 0px; min-height: 0px; height: auto; }
+.gUWxDK > a { display: flex; }
+.gUWxDK > a > div { width: 100%; min-width: 0px; }
+.gUWxDK > a > div > div { width: 100%; min-width: 0px; height: 100%; }
+.gUWxDK > div { height: auto; }
+.gUWxDK .customerInner { justify-content: flex-start; }
+.eMVJdz.eMVJdz.eMVJdz { width: 100%; height: 100%; border: 1px solid var(--grid500, #dbd7da); padding: 0px; }
+.cXtSgN { display: flex; flex-direction: column; align-items: center; width: 100%; height: 100%; padding: 30px; justify-content: center; }
+.cXtSgN img { filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(339deg) brightness(100%) contrast(101%); }
+.cXtSgN p, .cXtSgN .CustomerQuote-module__ZeO8AW__quoteText { font-family: Cinetype, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; white-space: normal; font-size: 16px; line-height: 1.5; margin: 0px; text-transform: none; }
+.ksppqJ { display: grid; gap: 20px; grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 1000px) { .ksppqJ { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 800px) { .ksppqJ { grid-template-columns: 1fr; } }

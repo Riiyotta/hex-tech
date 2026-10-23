@@ -1,0 +1,146 @@
+{
+  "id": "conversion.install-cta",
+  "category": "conversion",
+  "purpose": "Terminal-style closing CTA: ASCII art, heading with italic line, lead, tabbed copy-to-clipboard install command and doc links.",
+  "variants": [],
+  "content": {
+    "heading": {
+      "kind": "object",
+      "required": true,
+      "fields": {
+        "title": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 3,
+          "observedWords": [
+            2
+          ],
+          "measuredFrom": [
+            "specs/product.md:342"
+          ]
+        },
+        "italicLine": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 4,
+          "observedWords": [
+            3
+          ],
+          "measuredFrom": [
+            "specs/product.md:342"
+          ]
+        }
+      }
+    },
+    "description": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 9,
+      "observedWords": [
+        7
+      ],
+      "measuredFrom": [
+        "specs/product.md:342"
+      ]
+    },
+    "commands": {
+      "kind": "list",
+      "required": true,
+      "minItems": 2,
+      "maxItems": 2,
+      "measuredFrom": [
+        "specs/product.md:195"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "tab": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 2,
+            "observedWords": [
+              1
+            ],
+            "measuredFrom": [
+              "specs/product.md:195"
+            ]
+          },
+          "command": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 7,
+            "observedWords": [
+              5
+            ],
+            "measuredFrom": [
+              "specs/product.md:196"
+            ]
+          }
+        }
+      }
+    },
+    "links": {
+      "kind": "list",
+      "required": true,
+      "minItems": 2,
+      "maxItems": 2,
+      "measuredFrom": [
+        "specs/product.md:198"
+      ],
+      "item": {
+        "kind": "link",
+        "required": true,
+        "label": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 5,
+          "observedWords": [
+            4
+          ],
+          "measuredFrom": [
+            "specs/product.md:198"
+          ]
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/product.md:339",
+    "specs/product.md:193"
+  ],
+  "behavior": {
+    "copy": "copies the command to the clipboard locally; tooltip 'Copy script' -> 'Copied!'",
+    "measuredFrom": [
+      "specs/product.md:197"
+    ]
+  },
+  "wordBudgets": {
+    "commands[].command": 7,
+    "commands[].tab": 2,
+    "description": 9,
+    "heading.italicLine": 4,
+    "heading.title": 3,
+    "links[].label": 5
+  },
+  "richTextBudgets": {},
+  "assetRoles": [],
+  "usedByTemplates": [
+    "template.product-feature"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__conversion.install-cta",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

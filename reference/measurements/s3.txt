@@ -1,0 +1,477 @@
+===  usecases
+<SECTION HomeUseCases-module__7W7WPW__useCases> [29, 5533, 1382, 657] {position:relative; padding:100px 0px 75px; fontFamily:Cinetype; fontSize:14px; fontWeight:400; lineHeight:21.994px; letterSpacing:normal; color:rgb(49, 38, 59); textAlign:start}
+  <DIV HomeUseCases-module__7W7WPW__perlinNoiseWrapper> [29, 5533, 1382, 657] {position:absolute; gridColumn:1 / -1; opacity:0.8; maskImage:linear-gradient(rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0))}
+    <DIV PerlinNoise__Wrapper> [29, 5533, 1382, 657] {display:flex; position:relative; transition:0.05s linear(0 0%, 0.005892 1%, 0.022227 2%, 0.047151 3%, 0.079006 4%, 0.116321 5%, 0.157797 6%, 0.202293 7%, 0.248818 8%, 0.296516 9%, 0.344652 10%, 0.392606 11%, 0.439857 12%, 0.485977 13%, 0.530617 14%, 0.573504 15%, }
+      <DIV DotGridMask-sc-8c154ead-0 krxDdw> [29, 5533, 1382, 657] {position:absolute; maskImage:radial-gradient(rgb(255, 255, 255), rgb(255, 255, 255) 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0))}
+        <DIV PerlinNoise__NoiseTexture> [29, 5533, 1382, 657] {position:absolute; backgroundImage:url("https://hex.tech/images/home-2025/textures/noise-eggplant-128x128.png"); backgroundSize:1024px 1024px; opacity:0.24; transition:opacity 0.05s linear(0 0%, 0.005892 1%, 0.022227 2%, 0.047151 3%, 0.079006 4%, 0.116321 5%, 0.157797 6%, 0.202293 7%, 0.248818 8%, 0.296516 9%, 0.344652 10%, 0.392606 11%, 0.439857 12%, 0.485977 13%, 0.530617 14%, 0.5735}
+  <DIV HomeUseCases-module__7W7WPW__content> [100, 5633, 1240, 482] {display:flex; position:relative; maxWidth:1240px; margin:0px 71.1719px; padding:0px 40px; gap:80px; alignItems:center}
+    <DIV HomeUseCases-module__7W7WPW__copy> [140, 5741, 240, 267] {display:flex; maxWidth:240px; gap:20px; flexDirection:column; alignItems:flex-start}
+      <svg HomeUseCases-module__7W7WPW__mark> [140, 5741, 60, 60] {overflow:hidden; svg:True}
+      <H2 Heading__HeadingInternal Heading___StyledHeadingInternal> [134, 5821, 252, 193] «Use cases» {margin:0px -6px -6px; padding:0px 6px 6px; fontFamily:"PP Formula"; fontSize:40px; fontWeight:800; lineHeight:52px; letterSpacing:-1px; color:rgb(20, 20, 28); backgroundColor:rgb(20, 20, 28); backgroundImage:linear-gradient(90deg, rgb(49, 38, 59) 0%, rgb(1, 1, 27) 100%); backgroundSize:100% auto; textAlign:left; webkitTextFillColor:rgba(0, 0, 0, 0); backgroundClip:text}
+        <SPAN HomeUseCases-module__7W7WPW__subheading> [140, 5873, 240, 135] «Get the most out of Hex» {fontFamily:"PP Editorial New"; fontSize:52px; fontWeight:200; lineHeight:67.6px; fontStyle:italic; webkitTextFillColor:rgba(0, 0, 0, 0)}
+    <DIV HomeUseCases-module__7W7WPW__list> [460, 5633, 840, 482] {display:flex; flexDirection:column}
+      <A HomeUseCaseCard-module__98NiDW__card> [460, 5633, 840, 161] {display:flex; position:relative; padding:30px 0px; gap:normal 25px; alignItems:center; color:rgb(67, 57, 76); borderBottom:1px solid rgb(233, 229, 232); transition:border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+        <DIV Card__Wrapper HomeUseCaseCard-module__98NiDW__illustration> [460, 5663, 100, 100] {display:flex; position:relative; padding:10px; flexDirection:column; alignItems:center; justifyContent:center; backgroundColor:rgba(253, 253, 253, 0.4); backgroundImage:linear-gradient(105deg, rgba(245, 192, 192, 0) 10.56%, rgba(245, 192, 192, 0.02) 108.41%), none; backgroundSize:auto, auto; borderRadius:12px; boxShadow:rgba(0, 0, 0, 0.05) 0px 0px 11px 0px inset, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 16px 24px -8px, rgba(0, 0, 0, 0.05) 0px 8px 12px -4px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px, rgba(0, 0, 0, 0) 0px 0; backdropFilter:blur(7.5px); overflow:hidden; textAlign:left; backgroundClip:border-box, border-box}
+          <DIV AbstractMark__Wrapper> [480, 5683, 60, 60] {display:flex}
+            <svg > [480, 5683, 60, 60] {overflow:hidden; svg:True}
+        <DIV HomeUseCaseCard-module__98NiDW__copy> [585, 5672, 715, 82] {display:flex; gap:8px; flexDirection:column}
+          <DIV HomeUseCaseCard-module__98NiDW__title> [585, 5672, 715, 26] {display:flex; gap:5px; justifyContent:space-between}
+            <H3 Heading__HeadingInternal Heading___StyledHeadingInternal> [585, 5672, 663, 26] «Migrate from traditional BI to modern AI-powered self-serve» {fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; color:rgb(20, 20, 28)}
+            <SPAN HomeUseCaseCard-module__98NiDW__arrowIcon> [1285, 5672, 15, 26] {display:flex; opacity:0.5}
+              <SPAN createIcon__Wrapper> [1285, 5672, 15, 15] {display:flex}
+          <P Text__TextWrapper Text___StyledTextWrapper HomeUseCaseCard-module__98NiDW__descr> [585, 5706, 715, 48] «Move beyond static dashboards and give teams trusted, AI-powered access to the data they need while keeping your data team in control of the foundation.» {fontSize:16px; fontWeight:300; lineHeight:24px; color:rgb(49, 38, 59)}
+      <A HomeUseCaseCard-module__98NiDW__card> [460, 5794, 840, 161] {display:flex; position:relative; padding:30px 0px; gap:normal 25px; alignItems:center; color:rgb(67, 57, 76); borderBottom:1px solid rgb(233, 229, 232); transition:border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+        <DIV Card__Wrapper HomeUseCaseCard-module__98NiDW__illustration> [460, 5824, 100, 100] {display:flex; position:relative; padding:10px; flexDirection:column; alignItems:center; justifyContent:center; backgroundColor:rgba(253, 253, 253, 0.4); backgroundImage:linear-gradient(105deg, rgba(245, 192, 192, 0) 10.56%, rgba(245, 192, 192, 0.02) 108.41%), none; backgroundSize:auto, auto; borderRadius:12px; boxShadow:rgba(0, 0, 0, 0.05) 0px 0px 11px 0px inset, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 16px 24px -8px, rgba(0, 0, 0, 0.05) 0px 8px 12px -4px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px, rgba(0, 0, 0, 0) 0px 0; backdropFilter:blur(7.5px); overflow:hidden; textAlign:left; backgroundClip:border-box, border-box}
+          <DIV AbstractMark__Wrapper> [480, 5844, 60, 60] {display:flex}
+            <svg > [480, 5844, 60, 60] {overflow:hidden; svg:True}
+        <DIV HomeUseCaseCard-module__98NiDW__copy> [585, 5833, 715, 82] {display:flex; gap:8px; flexDirection:column}
+          <DIV HomeUseCaseCard-module__98NiDW__title> [585, 5833, 715, 26] {display:flex; gap:5px; justifyContent:space-between}
+            <H3 Heading__HeadingInternal Heading___StyledHeadingInternal> [585, 5833, 377, 26] «Build a Context Layer for AI on data» {fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; color:rgb(20, 20, 28)}
+            <SPAN HomeUseCaseCard-module__98NiDW__arrowIcon> [1285, 5833, 15, 26] {display:flex; opacity:0.5}
+              <SPAN createIcon__Wrapper> [1285, 5833, 15, 15] {display:flex}
+          <P Text__TextWrapper Text___StyledTextWrapper HomeUseCaseCard-module__98NiDW__descr> [585, 5867, 715, 48] «Bring business logic, definitions, models, and institutional knowledge together so agents can reason from shared, trusted context and improve as that context grows.» {fontSize:16px; fontWeight:300; lineHeight:24px; color:rgb(49, 38, 59)}
+      <A HomeUseCaseCard-module__98NiDW__card> [460, 5955, 840, 160] {display:flex; position:relative; padding:30px 0px; gap:normal 25px; alignItems:center; color:rgb(67, 57, 76); transition:border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+        <DIV Card__Wrapper HomeUseCaseCard-module__98NiDW__illustration> [460, 5985, 100, 100] {display:flex; position:relative; padding:10px; flexDirection:column; alignItems:center; justifyContent:center; backgroundColor:rgba(253, 253, 253, 0.4); backgroundImage:linear-gradient(105deg, rgba(245, 192, 192, 0) 10.56%, rgba(245, 192, 192, 0.02) 108.41%), none; backgroundSize:auto, auto; borderRadius:12px; boxShadow:rgba(0, 0, 0, 0.05) 0px 0px 11px 0px inset, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 16px 24px -8px, rgba(0, 0, 0, 0.05) 0px 8px 12px -4px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px, rgba(0, 0, 0, 0) 0px 0; backdropFilter:blur(7.5px); overflow:hidden; textAlign:left; backgroundClip:border-box, border-box}
+          <DIV AbstractMark__Wrapper> [480, 6005, 60, 60] {display:flex}
+            <svg > [480, 6005, 60, 60] {overflow:hidden; svg:True}
+        <DIV HomeUseCaseCard-module__98NiDW__copy> [585, 5994, 715, 82] {display:flex; gap:8px; flexDirection:column}
+          <DIV HomeUseCaseCard-module__98NiDW__title> [585, 5994, 715, 26] {display:flex; gap:5px; justifyContent:space-between}
+            <H3 Heading__HeadingInternal Heading___StyledHeadingInternal> [585, 5994, 330, 26] «Make chat apps work with data» {fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; color:rgb(20, 20, 28)}
+            <SPAN HomeUseCaseCard-module__98NiDW__arrowIcon> [1285, 5994, 15, 26] {display:flex; opacity:0.5}
+              <SPAN createIcon__Wrapper> [1285, 5994, 15, 15] {display:flex}
+          <P Text__TextWrapper Text___StyledTextWrapper HomeUseCaseCard-module__98NiDW__descr> [585, 6028, 715, 48] «Let teams work from Claude, Codex, Cursor, or wherever they’re most productive while Hex provides a consistent layer of trusted data and organizational context underneath.» {fontSize:16px; fontWeight:300; lineHeight:24px; color:rgb(49, 38, 59)}
+===  stories
+<DIV CustomerStoriesTout__Inner> [100, 6290, 1240, 1144] {display:flex; position:relative; maxWidth:1240px; margin:0px 71.1719px; padding:0px 32px; flexDirection:column; fontFamily:Cinetype; fontSize:14px; fontWeight:400; lineHeight:21.994px; letterSpacing:normal; color:rgb(49, 38, 59); zIndex:1; textAlign:start}
+  <DIV CustomerStoriesTout__Top> [132, 6290, 1176, 384] {display:flex; position:relative; borderTop:1px solid rgb(233, 229, 232); borderRight:1px solid rgb(233, 229, 232); borderLeft:1px solid rgb(233, 229, 232)}
+    <DIV AnchorLines__Wrapper> [133, 6291, 0, 383] {zIndex:1}
+    <DIV AnchorLines__Wrapper> [133, 6291, 0, 383] {zIndex:1}
+    <DIV AnchorLines__Wrapper> [133, 6291, 0, 383] {zIndex:1}
+    <DIV AnchorLines__Wrapper> [133, 6291, 0, 383] {zIndex:1}
+    <DIV CustomerStoriesTout__GridBkg CustomerStoriesTout__TallGrid CustomerStoriesTout__> [133, 6291, 128, 383] {position:relative; backgroundImage:linear-gradient(rgb(233, 229, 232) 1px, rgba(0, 0, 0, 0) 1px), linear-gradient(to right, rgb(233, 229, 232) 1px, rgba(0, 0, 0, 0) 1px); backgroundSize:64px 64px, 64px 64px; backgroundClip:border-box, border-box}
+    <DIV CustomerStoriesTout__Title> [261, 6291, 918, 383] {display:flex; flexDirection:column}
+      <DIV CustomerStoriesTout__GridBkg CustomerStoriesTout__WideGrid CustomerStoriesTout__> [261, 6291, 918, 64] {position:relative; margin:0px 0px 2.25px; backgroundImage:linear-gradient(rgb(233, 229, 232) 1px, rgba(0, 0, 0, 0) 1px), linear-gradient(to right, rgb(233, 229, 232) 1px, rgba(0, 0, 0, 0) 1px); backgroundSize:64px 64px, 64px 64px; backgroundClip:border-box, border-box}
+      <DIV CustomerStoriesTout__Heading> [261, 6358, 918, 251] {display:flex; padding:20px 30px; flexDirection:column; alignItems:center; justifyContent:center}
+        <H2 Heading__HeadingInternal Heading___StyledHeadingInternal CustomerStoriesTout__St> [442, 6378, 556, 181] {maxWidth:600px; margin:0px -6px; fontFamily:"PP Formula SemiExtended"; fontSize:60px; fontWeight:700; lineHeight:78px; letterSpacing:-1.848px; color:rgb(20, 20, 28); backgroundColor:rgb(20, 20, 28); backgroundImage:linear-gradient(90deg, rgb(49, 38, 59) 0%, rgb(1, 1, 27) 100%); backgroundSize:100% auto; textAlign:center; webkitTextFillColor:rgba(0, 0, 0, 0); backgroundClip:text}
+          <DIV > [442, 6378, 556, 103] «by the» {webkitTextFillColor:rgba(0, 0, 0, 0)}
+            <SPAN > [521, 6373, 168, 110] «Loved» {fontFamily:"PP Editorial New"; fontSize:78px; fontWeight:200; lineHeight:101.4px; fontStyle:italic; webkitTextFillColor:rgba(0, 0, 0, 0)}
+          <DIV > [442, 6480, 556, 78] «best data teams» {webkitTextFillColor:rgba(0, 0, 0, 0)}
+        <P Text__TextWrapper Text___StyledTextWrapper CustomerStoriesTout__StyledText> [451, 6558, 538, 30] «Hex helps companies of all sizes do more with their data.» {fontSize:20px; fontWeight:300; lineHeight:30px; textAlign:center}
+      <DIV CustomerStoriesTout__GridBkg CustomerStoriesTout__WideGrid CustomerStoriesTout__> [261, 6610, 918, 64] {position:relative; margin:2.25px 0px 0px; backgroundImage:linear-gradient(rgb(233, 229, 232) 1px, rgba(0, 0, 0, 0) 1px), linear-gradient(to right, rgb(233, 229, 232) 1px, rgba(0, 0, 0, 0) 1px); backgroundSize:64px 64px, 64px 64px; backgroundClip:border-box, border-box}
+    <DIV CustomerStoriesTout__GridBkg CustomerStoriesTout__TallGrid CustomerStoriesTout__> [1179, 6291, 128, 383] {position:relative; backgroundImage:linear-gradient(rgb(233, 229, 232) 1px, rgba(0, 0, 0, 0) 1px), linear-gradient(to right, rgb(233, 229, 232) 1px, rgba(0, 0, 0, 0) 1px); backgroundSize:64px 64px, 64px 64px; backgroundClip:border-box, border-box}
+  <DIV CustomerStoriesTout__Grid> [132, 6674, 1176, 316] {display:flex; position:relative; border:1px solid rgb(233, 229, 232)}
+    <DIV AnchorLines__Wrapper> [133, 6675, 0, 314] {zIndex:1}
+    <DIV AnchorLines__Wrapper> [133, 6675, 0, 314] {zIndex:1}
+    <DIV CustomerStoriesTout__GridInner> [133, 6675, 1174, 314] {display:flex}
+      <A CustomerStoryItem__Wrapper> [133, 6675, 294, 314] {display:flex; padding:30px; gap:15px; flexDirection:column; borderRight:1px solid rgb(233, 229, 232); transition:box-shadow 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+        <DIV CustomerStoryItem__Top> [163, 6705, 233, 222] {display:flex; gap:15px; flexDirection:column; transition:transform 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <svg > [163, 6705, 200, 60] {margin:0px 0px 10px; overflow:hidden; svg:True}
+          <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [163, 6790, 233, 26] «One place for insights» {fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; color:rgb(20, 20, 28)}
+          <P Text__TextWrapper Text___StyledTextWrapper> [163, 6831, 233, 96] «Notion made Hex the one place for everyone, from data science to CX and sales, to make decisions with data.» {fontSize:16px; fontWeight:300; lineHeight:24px}
+        <DIV CustomerStoryItem__Bottom> [163, 6944, 233, 15] {display:flex; margin:2px 0px 0px; gap:10px; alignItems:center; justifyContent:flex-end; opacity:0.4}
+          <SPAN > [306, 6946, 65, 11] «Read more» {fontFamily:"IBM Plex Mono"; fontSize:12px; fontWeight:700; lineHeight:11px; textTransform:uppercase; color:rgb(137, 130, 141); opacity:0; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <SPAN createIcon__Wrapper> [381, 6944, 15, 15] {display:flex; fontFamily:"IBM Plex Mono"; fontSize:12px; fontWeight:700; lineHeight:11px; textTransform:uppercase; color:rgb(137, 130, 141); opacity:0; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <svg > [381, 6944, 15, 15] {textTransform:uppercase; overflow:hidden; svg:True}
+      <A CustomerStoryItem__Wrapper> [427, 6675, 294, 314] {display:flex; padding:30px; gap:15px; flexDirection:column; borderRight:1px solid rgb(233, 229, 232); transition:box-shadow 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+        <DIV CustomerStoryItem__Top> [457, 6705, 233, 224] {display:flex; gap:15px; flexDirection:column; transition:transform 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <svg > [457, 6705, 200, 60] {margin:0px 0px 10px; overflow:hidden; svg:True}
+          <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [457, 6790, 233, 52] «Scaling self-serve AI analytics» {fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; color:rgb(20, 20, 28)}
+          <P Text__TextWrapper Text___StyledTextWrapper> [457, 6857, 233, 72] «Mercor democratizes analysis across their org with Notebook Agent.» {fontSize:16px; fontWeight:300; lineHeight:24px}
+        <DIV CustomerStoryItem__Bottom> [457, 6944, 233, 15] {display:flex; gap:10px; alignItems:center; justifyContent:flex-end; opacity:0.4}
+          <SPAN > [600, 6946, 65, 11] «Read more» {fontFamily:"IBM Plex Mono"; fontSize:12px; fontWeight:700; lineHeight:11px; textTransform:uppercase; color:rgb(137, 130, 141); opacity:0; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <SPAN createIcon__Wrapper> [675, 6944, 15, 15] {display:flex; fontFamily:"IBM Plex Mono"; fontSize:12px; fontWeight:700; lineHeight:11px; textTransform:uppercase; color:rgb(137, 130, 141); opacity:0; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <svg > [675, 6944, 15, 15] {textTransform:uppercase; overflow:hidden; svg:True}
+      <A CustomerStoryItem__Wrapper> [721, 6675, 294, 314] {display:flex; padding:30px; gap:15px; flexDirection:column; borderRight:1px solid rgb(233, 229, 232); transition:box-shadow 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+        <DIV CustomerStoryItem__Top> [751, 6705, 233, 224] {display:flex; gap:15px; flexDirection:column; transition:transform 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <svg > [751, 6705, 200, 60] {margin:0px 0px 10px; overflow:hidden; svg:True}
+          <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [751, 6790, 233, 52] «Lowering barriers to insight» {fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; color:rgb(20, 20, 28)}
+          <P Text__TextWrapper Text___StyledTextWrapper> [751, 6857, 233, 72] «Figma's team focuses on strategy over syntax using Hex's AI agents.» {fontSize:16px; fontWeight:300; lineHeight:24px}
+        <DIV CustomerStoryItem__Bottom> [751, 6944, 233, 15] {display:flex; gap:10px; alignItems:center; justifyContent:flex-end; opacity:0.4}
+          <SPAN > [893, 6946, 65, 11] «Read more» {fontFamily:"IBM Plex Mono"; fontSize:12px; fontWeight:700; lineHeight:11px; textTransform:uppercase; color:rgb(137, 130, 141); opacity:0; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <SPAN createIcon__Wrapper> [968, 6944, 15, 15] {display:flex; fontFamily:"IBM Plex Mono"; fontSize:12px; fontWeight:700; lineHeight:11px; textTransform:uppercase; color:rgb(137, 130, 141); opacity:0; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <svg > [968, 6944, 15, 15] {textTransform:uppercase; overflow:hidden; svg:True}
+      <A CustomerStoryItem__Wrapper> [1014, 6675, 293, 314] {display:flex; padding:30px; gap:15px; flexDirection:column; transition:box-shadow 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+        <DIV CustomerStoryItem__Top> [1044, 6705, 233, 198] {display:flex; gap:15px; flexDirection:column; transition:transform 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <svg > [1044, 6705, 200, 60] {margin:0px 0px 10px; overflow:hidden; svg:True}
+          <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [1044, 6790, 233, 26] «Breaking data silos» {fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; color:rgb(20, 20, 28)}
+          <P Text__TextWrapper Text___StyledTextWrapper> [1044, 6831, 233, 72] «Neo drives insights right where they work using Threads and Slack integration.» {fontSize:16px; fontWeight:300; lineHeight:24px}
+        <DIV CustomerStoryItem__Bottom> [1044, 6944, 233, 15] {display:flex; margin:26px 0px 0px; gap:10px; alignItems:center; justifyContent:flex-end; opacity:0.4}
+          <SPAN > [1187, 6946, 65, 11] «Read more» {fontFamily:"IBM Plex Mono"; fontSize:12px; fontWeight:700; lineHeight:11px; textTransform:uppercase; color:rgb(137, 130, 141); opacity:0; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <SPAN createIcon__Wrapper> [1262, 6944, 15, 15] {display:flex; fontFamily:"IBM Plex Mono"; fontSize:12px; fontWeight:700; lineHeight:11px; textTransform:uppercase; color:rgb(137, 130, 141); opacity:0; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <svg > [1262, 6944, 15, 15] {textTransform:uppercase; overflow:hidden; svg:True}
+  <DIV SocialTout__Wrapper CustomerStoriesTout__StyledSocialTout> [132, 6995, 1176, 444] {display:flex; position:relative; padding:40px 0px 0px; opacity:0; transform:matrix(1, 0, 0, 1, 0, 5)}
+    <DIV SocialTout__Inner> [132, 7035, 1176, 404] {display:flex; maxWidth:1240px; gap:30px; alignItems:center}
+      <DIV G2SocialProofCard__Wrapper> [132, 7035, 352, 404] {display:flex; maxWidth:450px; padding:38px 35px; gap:24px; flexDirection:column; justifyContent:center; border:1px solid rgb(219, 215, 218)}
+        <DIV G2SocialProofCard__Top> [168, 7074, 280, 217] {display:flex; alignItems:center; justifyContent:center}
+          <IMG > [168, 7074, 280, 217] {maxWidth:280px; padding:0px 0px 8px; color:rgba(0, 0, 0, 0); overflow:clip; aspectRatio:auto 838 / 627; src:https://hex.tech/images/g2-awards.svg}
+        <DIV G2SocialProofCard__Bottom> [168, 7316, 280, 84] {display:flex; flexDirection:column}
+          <H3 Heading__HeadingInternal Heading___StyledHeadingInternal> [168, 7316, 280, 36] «Users love Hex» {margin:0px 0px 4px; fontFamily:"PP Formula"; fontSize:28px; fontWeight:800; lineHeight:36.4px; letterSpacing:-0.7px; color:rgb(20, 20, 28)}
+          <DIV G2SocialProofCard__CardCopy> [168, 7356, 280, 44] {display:flex}
+            <P Text__TextWrapper Text___StyledTextWrapper> [168, 7356, 280, 44] «Rated on G2 as an industry leader based on customer reviews.» {fontWeight:300; textAlign:left}
+      <DIV Card__Wrapper CustomerQuoteCard__Wrapper> [514, 7035, 794, 404] {display:flex; position:relative; padding:38px 45px; flexDirection:column; alignItems:flex-start; backgroundColor:rgba(253, 253, 253, 0.4); backgroundImage:linear-gradient(105deg, rgba(245, 192, 192, 0) 10.56%, rgba(245, 192, 192, 0.02) 108.41%), none; backgroundSize:auto, auto; borderRadius:12px; boxShadow:rgba(0, 0, 0, 0.05) 0px 0px 11px 0px inset, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 16px 24px -8px, rgba(0, 0, 0, 0.05) 0px 8px 12px -4px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px, rgba(0, 0, 0, 0) 0px 0; backdropFilter:blur(7.5px); textAlign:left; backgroundClip:border-box, border-box}
+        <DIV CustomerQuoteCard__Quote> [559, 7073, 704, 328] {display:flex; gap:24px; flexDirection:column; lineHeight:18.9px}
+          <DIV CustomerQuoteCard__Logo> [559, 7073, 704, 45] {display:flex; alignItems:start}
+            <IMG > [559, 7073, 35, 45] {overflow:clip; filter:invert(1) sepia(0) saturate(0.01) hue-rotate(339deg) brightness(1) contrast(1.01); src:https://cdn.sanity.io/images/e92memrj/production/6f211c674b14be69b85497264b1d654b138dce01-39x50.svg}
+          <DIV CustomerQuoteCard__QuoteTextWrapper> [559, 7142, 704, 144] {display:flex; gap:20px}
+            <DIV CustomerQuoteCard__QuoteLine> [559, 7142, 15, 144] {display:flex; padding:8px 0px 0px; gap:10px; flexDirection:column; alignItems:center}
+            <BLOCKQUOTE > [594, 7142, 669, 144] «" Our vision for Notion's data team is that anyone, regardless of technical proficiency, is comfortable using data to answer their own questions — and Hex enables that. ”» {fontSize:24px; fontWeight:300; lineHeight:36px; color:rgb(20, 20, 28)}
+          <DIV CustomerQuoteCard__Author> [559, 7356, 704, 45] {display:flex; minHeight:45px; margin:45.8906px 0px 0px; alignItems:center}
+            <IMG > [559, 7361, 35, 35] {margin:0px 12px 0px 0px; overflow:clip; src:https://hex.tech/images/headshots/abhishek-modi-headshot.jpg}
+            <P Text__TextWrapper Text___StyledTextWrapper> [606, 7368, 291, 22] «Abhishek Modi» {lineHeight:21.994px}
+===  integ
+<DIV IntegrationsTout__Inner> [100, 7604, 1240, 1062] {display:flex; position:relative; maxWidth:1240px; margin:0px 71.1719px; padding:0px 40px; flexDirection:column; fontFamily:Cinetype; fontSize:14px; fontWeight:400; lineHeight:21.994px; letterSpacing:normal; color:rgb(49, 38, 59); zIndex:1; textAlign:start}
+  <DIV IntegrationsTout__Top> [140, 7604, 1160, 272] {display:flex; position:relative; margin:0px 0px 70px; gap:15px; flexDirection:column; alignItems:center; justifyContent:center}
+    <H2 Heading__HeadingInternal Heading___StyledHeadingInternal IntegrationsTout__Style> [364, 7604, 711, 185] «with the whole stack» {maxWidth:800px; margin:0px -6px; padding:0px 6px 6px; fontFamily:"PP Formula SemiExtended"; fontSize:60px; fontWeight:700; lineHeight:78px; letterSpacing:-1.848px; color:rgb(20, 20, 28); backgroundColor:rgb(20, 20, 28); backgroundImage:linear-gradient(90deg, rgb(49, 38, 59) 0%, rgb(1, 1, 27) 100%); backgroundSize:100% auto; textAlign:center; webkitTextFillColor:rgba(0, 0, 0, 0); backgroundClip:text}
+      <SPAN > [370, 7604, 699, 101] «Instant integration» {fontFamily:"PP Editorial New"; fontSize:78px; fontWeight:200; lineHeight:101.4px; fontStyle:italic; webkitTextFillColor:rgba(0, 0, 0, 0)}
+    <P Text__TextWrapper Text___StyledTextWrapper IntegrationsTout__Description> [470, 7805, 500, 72] «Out-of-the-box connections and flexible APIs make setup a breeze.» {maxWidth:500px; fontSize:24px; fontWeight:300; lineHeight:36px; textAlign:center}
+  <DIV IntegrationsTout__Grid> [140, 7947, 1160, 720] {display:grid; gap:20px; gridTemplateColumns:373.328px 373.336px 373.336px; gridTemplateRows:360.969px 338.977px}
+    <DIV GridItem__DivWrapper IntegrationsTout__StyledGridItem> [140, 7947, 373, 361] {display:flex; position:relative; padding:5px; boxShadow:rgba(0, 0, 0, 0) 0px 0px 0px 1px; transition:box-shadow 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+      <DIV GridItem__Inner> [145, 7952, 363, 351] {display:flex; position:relative; flexDirection:column; zIndex:1}
+        <DIV IntegrationsTout__Illustration> [145, 7952, 363, 160] {display:flex; justifyContent:center; transition:transform 0.25s cubic-bezier(0.25, 0.1, 0.25, 1); overflow:hidden}
+          <DIV IntegrationsTout__WarehouseLogos> [145, 7952, 363, 160] {display:flex; position:relative; flexDirection:column; alignItems:center; justifyContent:center}
+            <DIV IntegrationsTout__MainWarehouseLogos> [210, 7971, 233, 81] {display:flex; margin:0px 0px 2px; gap:5px; flexDirection:column}
+            <DIV IntegrationsTout__WarehouseLogoGrid> [204, 8054, 245, 38] {display:flex; gap:3px; alignItems:center; justifyContent:center}
+            <svg > [179, 8066, 296, 46] {position:absolute; top:114px; margin:0px 33.6641px; zIndex:0; overflow:hidden; svg:True}
+        <DIV IntegrationsTout__Info> [145, 8112, 363, 166] {padding:35px 20px 10px; transition:transform 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <H4 Heading__HeadingInternal Heading___StyledHeadingInternal IntegrationsTout___Styl> [165, 8147, 323, 26] «Built for the warehouse» {display:flex; margin:0px 0px 7px; fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; color:rgb(20, 20, 28)}
+          <P Text__TextWrapper Text___StyledTextWrapper> [165, 8180, 323, 88] «Hex has built-in connections to the most popular data warehouses, lakehouses, and databases. It’s easy to set up data connections, and securely share them with your team.» {fontWeight:300}
+        <DIV GridItem__LearnMore> [145, 8278, 363, 25] {display:flex; padding:0px 10px 10px; gap:10px; alignItems:center; justifyContent:flex-end; opacity:0.4; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <SPAN > [401, 8280, 72, 11] «Learn more» {fontFamily:"IBM Plex Mono"; fontSize:12px; fontWeight:700; lineHeight:11px; textTransform:uppercase; opacity:0; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <SPAN createIcon__Wrapper> [483, 8278, 15, 15] {display:flex; fontFamily:"IBM Plex Mono"; fontSize:12px; fontWeight:700; lineHeight:11px; textTransform:uppercase; color:rgb(67, 57, 76); opacity:0; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <svg > [483, 8278, 15, 15] {textTransform:uppercase; overflow:hidden; svg:True}
+    <DIV GridItem__DivWrapper IntegrationsTout__StyledGridItem> [533, 7947, 373, 361] {display:flex; position:relative; padding:5px; boxShadow:rgba(0, 0, 0, 0) 0px 0px 0px 1px; transition:box-shadow 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+      <DIV GridItem__Inner> [538, 7952, 363, 351] {display:flex; position:relative; flexDirection:column; zIndex:1}
+        <DIV IntegrationsTout__Illustration> [538, 7952, 363, 160] {display:flex; justifyContent:center; transition:transform 0.25s cubic-bezier(0.25, 0.1, 0.25, 1); overflow:hidden}
+          <DIV IntegrationsTout__LogoIllustrationCombo> [538, 7952, 363, 160] {display:flex; position:relative; padding:25px 0px 0px; alignItems:flex-start; justifyContent:center}
+            <DIV IntegrationsTout__LogoPairing> [575, 7977, 291, 38] {display:flex; position:relative; gap:2px; flexWrap:wrap; alignItems:center; justifyContent:center; zIndex:1}
+            <svg > [570, 7952, 300, 160] {position:absolute; margin:0px 31.6719px 0px 31.6641px; zIndex:0; overflow:hidden; svg:True}
+        <DIV IntegrationsTout__Info> [538, 8112, 363, 122] {padding:35px 20px 10px; transition:transform 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <H4 Heading__HeadingInternal Heading___StyledHeadingInternal IntegrationsTout___Styl> [558, 8147, 323, 26] «dbt metadata, docs, & metrics» {display:flex; margin:0px 0px 7px; fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; color:rgb(20, 20, 28)}
+          <P Text__TextWrapper Text___StyledTextWrapper> [558, 8180, 323, 44] «Hex has a deep integration with dbt, including automatically enriching schemas with dbt docs.» {fontWeight:300}
+        <DIV GridItem__LearnMore> [538, 8278, 363, 25] {display:flex; margin:43.9844px 0px 0px; padding:0px 10px 10px; gap:10px; alignItems:center; justifyContent:flex-end; opacity:0.4; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <SPAN > [795, 8280, 72, 11] «Learn more» {fontFamily:"IBM Plex Mono"; fontSize:12px; fontWeight:700; lineHeight:11px; textTransform:uppercase; opacity:0; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <SPAN createIcon__Wrapper> [877, 8278, 15, 15] {display:flex; fontFamily:"IBM Plex Mono"; fontSize:12px; fontWeight:700; lineHeight:11px; textTransform:uppercase; color:rgb(67, 57, 76); opacity:0; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <svg > [877, 8278, 15, 15] {textTransform:uppercase; overflow:hidden; svg:True}
+    <DIV GridItem__DivWrapper IntegrationsTout__StyledGridItem> [927, 7947, 373, 361] {display:flex; position:relative; padding:5px; boxShadow:rgba(0, 0, 0, 0) 0px 0px 0px 1px; transition:box-shadow 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+      <DIV GridItem__Inner> [932, 7952, 363, 351] {display:flex; position:relative; flexDirection:column; zIndex:1}
+        <DIV IntegrationsTout__Illustration> [932, 7952, 363, 160] {display:flex; justifyContent:center; transition:transform 0.25s cubic-bezier(0.25, 0.1, 0.25, 1); overflow:hidden}
+          <DIV IntegrationsTout__LogoIllustrationCombo> [932, 7952, 363, 160] {display:flex; position:relative; padding:25px 0px 0px; alignItems:flex-start; justifyContent:center}
+            <DIV IntegrationsTout__LogoPairing> [968, 7977, 291, 78] {display:flex; position:relative; gap:2px; flexWrap:wrap; alignItems:center; justifyContent:center; zIndex:1}
+            <svg > [963, 7952, 300, 160] {position:absolute; margin:0px 31.6719px 0px 31.6641px; zIndex:0; overflow:hidden; svg:True}
+        <DIV IntegrationsTout__Info> [932, 8112, 363, 148] {padding:35px 20px 10px; transition:transform 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <H4 Heading__HeadingInternal Heading___StyledHeadingInternal IntegrationsTout___Styl> [952, 8147, 323, 52] «Connect to your warehouse with oAuth» {display:flex; margin:0px 0px 7px; fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; color:rgb(20, 20, 28)}
+          <P Text__TextWrapper Text___StyledTextWrapper> [952, 8206, 323, 44] «Leverage the permissions set up in your data warehouse, by authenticating with oAuth» {fontWeight:300}
+        <DIV GridItem__LearnMore> [932, 8278, 363, 25] {display:flex; margin:17.9844px 0px 0px; padding:0px 10px 10px; gap:10px; alignItems:center; justifyContent:flex-end; opacity:0.4; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <SPAN > [1188, 8280, 72, 11] «Learn more» {fontFamily:"IBM Plex Mono"; fontSize:12px; fontWeight:700; lineHeight:11px; textTransform:uppercase; opacity:0; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <SPAN createIcon__Wrapper> [1270, 8278, 15, 15] {display:flex; fontFamily:"IBM Plex Mono"; fontSize:12px; fontWeight:700; lineHeight:11px; textTransform:uppercase; color:rgb(67, 57, 76); opacity:0; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <svg > [1270, 8278, 15, 15] {textTransform:uppercase; overflow:hidden; svg:True}
+    <DIV GridItem__DivWrapper IntegrationsTout__StyledGridItem> [140, 8328, 373, 339] {display:flex; position:relative; padding:5px; boxShadow:rgba(0, 0, 0, 0) 0px 0px 0px 1px; transition:box-shadow 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+      <DIV GridItem__Inner> [145, 8333, 363, 329] {display:flex; position:relative; flexDirection:column; zIndex:1}
+        <DIV IntegrationsTout__Illustration> [145, 8333, 363, 160] {display:flex; justifyContent:center; transition:transform 0.25s cubic-bezier(0.25, 0.1, 0.25, 1); overflow:hidden}
+          <DIV IntegrationsTout__LogoIllustrationCombo> [145, 8333, 363, 160] {display:flex; position:relative; padding:25px 0px 0px; alignItems:flex-start; justifyContent:center}
+            <DIV IntegrationsTout__LogoPairing> [181, 8358, 291, 38] {display:flex; position:relative; gap:2px; flexWrap:wrap; alignItems:center; justifyContent:center; zIndex:1}
+            <svg > [177, 8333, 300, 160] {position:absolute; margin:0px 31.6641px; zIndex:0; overflow:hidden; svg:True}
+        <DIV IntegrationsTout__Info> [145, 8493, 363, 122] {padding:35px 20px 10px; transition:transform 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <H4 Heading__HeadingInternal Heading___StyledHeadingInternal IntegrationsTout___Styl> [165, 8528, 323, 26] «Git it together» {display:flex; margin:0px 0px 7px; fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; color:rgb(20, 20, 28)}
+          <P Text__TextWrapper Text___StyledTextWrapper> [165, 8561, 323, 44] «Export your projects to GitHub or GitLab to create an audit trail.» {fontWeight:300}
+        <DIV GridItem__LearnMore> [145, 8637, 363, 25] {display:flex; margin:21.9922px 0px 0px; padding:0px 10px 10px; gap:10px; alignItems:center; justifyContent:flex-end; opacity:0.4; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <SPAN > [401, 8639, 72, 11] «Learn more» {fontFamily:"IBM Plex Mono"; fontSize:12px; fontWeight:700; lineHeight:11px; textTransform:uppercase; opacity:0; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <SPAN createIcon__Wrapper> [483, 8637, 15, 15] {display:flex; fontFamily:"IBM Plex Mono"; fontSize:12px; fontWeight:700; lineHeight:11px; textTransform:uppercase; color:rgb(67, 57, 76); opacity:0; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <svg > [483, 8637, 15, 15] {textTransform:uppercase; overflow:hidden; svg:True}
+    <DIV GridItem__DivWrapper IntegrationsTout__StyledGridItem> [533, 8328, 373, 339] {display:flex; position:relative; padding:5px; boxShadow:rgba(0, 0, 0, 0) 0px 0px 0px 1px; transition:box-shadow 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+      <DIV GridItem__Inner> [538, 8333, 363, 329] {display:flex; position:relative; flexDirection:column; zIndex:1}
+        <DIV IntegrationsTout__Illustration> [538, 8333, 363, 160] {display:flex; justifyContent:center; transition:transform 0.25s cubic-bezier(0.25, 0.1, 0.25, 1); overflow:hidden}
+          <DIV IntegrationsTout__LogoIllustrationCombo> [538, 8333, 363, 160] {display:flex; position:relative; padding:25px 0px 0px; alignItems:flex-start; justifyContent:center}
+            <DIV IntegrationsTout__LogoPairing> [575, 8358, 291, 78] {display:flex; position:relative; gap:2px; flexWrap:wrap; alignItems:center; justifyContent:center; zIndex:1}
+            <svg > [570, 8333, 300, 160] {position:absolute; margin:0px 31.6719px 0px 31.6641px; zIndex:0; overflow:hidden; svg:True}
+        <DIV IntegrationsTout__Info> [538, 8493, 363, 122] {padding:35px 20px 10px; transition:transform 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <H4 Heading__HeadingInternal Heading___StyledHeadingInternal IntegrationsTout___Styl> [558, 8528, 323, 26] «Orchestration» {display:flex; margin:0px 0px 7px; fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; color:rgb(20, 20, 28)}
+          <P Text__TextWrapper Text___StyledTextWrapper> [558, 8561, 323, 44] «You can include Hex projects in DAGs in Airflow, Dagster, or Prefect.» {fontWeight:300}
+        <DIV GridItem__LearnMore> [538, 8637, 363, 25] {display:flex; margin:21.9922px 0px 0px; padding:0px 10px 10px; gap:10px; alignItems:center; justifyContent:flex-end; opacity:0.4; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <SPAN > [795, 8639, 72, 11] «Learn more» {fontFamily:"IBM Plex Mono"; fontSize:12px; fontWeight:700; lineHeight:11px; textTransform:uppercase; opacity:0; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <SPAN createIcon__Wrapper> [877, 8637, 15, 15] {display:flex; fontFamily:"IBM Plex Mono"; fontSize:12px; fontWeight:700; lineHeight:11px; textTransform:uppercase; color:rgb(67, 57, 76); opacity:0; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <svg > [877, 8637, 15, 15] {textTransform:uppercase; overflow:hidden; svg:True}
+    <DIV GridItem__DivWrapper IntegrationsTout__StyledGridItem> [927, 8328, 373, 339] {display:flex; position:relative; padding:5px; boxShadow:rgba(0, 0, 0, 0) 0px 0px 0px 1px; transition:box-shadow 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+      <DIV GridItem__Inner> [932, 8333, 363, 329] {display:flex; position:relative; flexDirection:column; zIndex:1}
+        <DIV IntegrationsTout__Illustration> [932, 8333, 363, 160] {display:flex; justifyContent:center; transition:transform 0.25s cubic-bezier(0.25, 0.1, 0.25, 1); overflow:hidden}
+          <svg > [963, 8333, 300, 160] {overflow:hidden; svg:True}
+        <DIV IntegrationsTout__Info> [932, 8493, 363, 144] {padding:35px 20px 10px; transition:transform 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <H4 Heading__HeadingInternal Heading___StyledHeadingInternal IntegrationsTout___Styl> [952, 8528, 323, 26] «Hex API» {display:flex; margin:0px 0px 7px; fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; color:rgb(20, 20, 28)}
+          <P Text__TextWrapper Text___StyledTextWrapper> [952, 8561, 323, 66] «Want to connect to something we haven't thought of? Use our powerful public API to write your own integrations.» {fontWeight:300}
+        <DIV GridItem__LearnMore> [932, 8637, 363, 25] {display:flex; padding:0px 10px 10px; gap:10px; alignItems:center; justifyContent:flex-end; opacity:0.4; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <SPAN > [1188, 8639, 72, 11] «Learn more» {fontFamily:"IBM Plex Mono"; fontSize:12px; fontWeight:700; lineHeight:11px; textTransform:uppercase; opacity:0; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <SPAN createIcon__Wrapper> [1270, 8637, 15, 15] {display:flex; fontFamily:"IBM Plex Mono"; fontSize:12px; fontWeight:700; lineHeight:11px; textTransform:uppercase; color:rgb(67, 57, 76); opacity:0; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+            <svg > [1270, 8637, 15, 15] {textTransform:uppercase; overflow:hidden; svg:True}
+===  cta
+<DIV BottomCTATout__Inner> [29, 8827, 1382, 263] {display:flex; fontFamily:Cinetype; fontSize:14px; fontWeight:400; lineHeight:21.994px; letterSpacing:normal; color:rgb(49, 38, 59); borderTop:1px dashed rgb(233, 229, 232); borderBottom:1px dashed rgb(233, 229, 232); textAlign:start}
+  <DIV BottomCTATout__Content> [250, 8828, 940, 261] {display:flex; maxWidth:940px; margin:0px 221.172px}
+    <DIV BottomCTATout__Column BottomCTATout__Left> [250, 8828, 593, 261] {display:flex; padding:40px 60px 40px 40px; flexDirection:column; alignItems:flex-start; justifyContent:center}
+      <H3 Heading__HeadingInternal Heading___StyledHeadingInternal BottomCTATout__StyledHe> [284, 8868, 350, 36] «Getting started is easy.» {margin:0px -6px 10px; fontFamily:"PP Formula"; fontSize:28px; fontWeight:800; lineHeight:36.4px; letterSpacing:-0.7px; color:rgb(20, 20, 28); backgroundColor:rgb(20, 20, 28); backgroundImage:linear-gradient(90deg, rgb(49, 38, 59) 0%, rgb(1, 1, 27) 100%); backgroundSize:100% auto; textAlign:left; webkitTextFillColor:rgba(0, 0, 0, 0); backgroundClip:text}
+      <P Text__TextWrapper Text___StyledTextWrapper> [290, 8914, 493, 60] «Connect Hex to your data warehouse and do more with it immediately.» {margin:0px 0px 25px; fontSize:20px; fontWeight:300; lineHeight:30px}
+      <DIV BottomCTATout__Actions> [290, 8999, 294, 50] {display:flex; gap:20px}
+        <A Button__LinkWrapperBase> [290, 8999, 170, 50] {display:flex; position:relative; padding:0px 20px; color:rgb(20, 20, 28); backgroundImage:linear-gradient(to right, rgb(255, 252, 252), rgb(255, 252, 252)), linear-gradient(45deg, rgb(205, 160, 165), rgb(49, 38, 59)); backgroundSize:auto, auto; border:1px solid rgba(0, 0, 0, 0); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1); backgroundClip:padding-box, border-box}
+          <DIV Button__Inner> [311, 9000, 128, 48] {display:flex; gap:10px; alignItems:center; justifyContent:center; textAlign:center}
+            <DIV CornerLines__Wrapper> [291, 9000, 168, 48] {position:absolute; opacity:0}
+              <SPAN CornerLines__TopLeft> [375, 9000, 0, 0] {}
+              <SPAN CornerLines__TopRight> [375, 9000, 0, 0] {}
+              <SPAN CornerLines__BottomLeft> [375, 9000, 0, 0] {}
+              <SPAN CornerLines__BottomRight> [375, 9000, 0, 0] {}
+            <DIV Button__Children> [311, 9013, 128, 22] «Get started for free» {display:flex; position:relative; alignItems:center; justifyContent:center; zIndex:2; overflow:hidden}
+            <DIV CornerCircles__Wrapper> [291, 9000, 168, 48] {position:absolute; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+              <SPAN CornerCircles__Left> [375, 9000, 0, 0] {}
+              <SPAN CornerCircles__Right> [375, 9000, 0, 0] {}
+        <A Button__LinkWrapperBase> [480, 8999, 104, 50] {display:flex; position:relative; padding:0px 20px; border:1px solid rgb(219, 215, 218); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <DIV Button__Inner> [501, 9000, 62, 48] {display:flex; gap:10px; alignItems:center; justifyContent:center; textAlign:center}
+            <DIV CornerLines__Wrapper> [481, 9000, 102, 48] {position:absolute; opacity:0}
+              <SPAN CornerLines__TopLeft> [532, 9000, 0, 0] {}
+              <SPAN CornerLines__TopRight> [532, 9000, 0, 0] {}
+              <SPAN CornerLines__BottomLeft> [532, 9000, 0, 0] {}
+              <SPAN CornerLines__BottomRight> [532, 9000, 0, 0] {}
+            <DIV Button__Children> [501, 9013, 62, 22] «Talk to us» {display:flex; position:relative; alignItems:center; justifyContent:center; zIndex:2; overflow:hidden}
+    <DIV BottomCTATout__Column BottomCTATout__Right> [843, 8828, 347, 261] {display:flex; padding:40px 60px 40px 40px; flexDirection:column; alignItems:flex-start; justifyContent:center; borderLeft:1px dashed rgb(233, 229, 232)}
+      <P Text__TextWrapper Text___StyledTextWrapper> [884, 8903, 246, 48] «Check out all of our plans to fit your team or organization.» {margin:0px 0px 20px; fontSize:16px; fontWeight:300; lineHeight:24px}
+      <A Button__LinkWrapperBase> [884, 8971, 131, 42] {display:flex; position:relative; padding:0px 20px; border:1px solid rgb(219, 215, 218); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+        <DIV Button__Inner> [905, 8972, 89, 40] {display:flex; gap:10px; alignItems:center; justifyContent:center; textAlign:center}
+          <DIV CornerLines__Wrapper> [885, 8972, 129, 40] {position:absolute; opacity:0}
+            <SPAN CornerLines__TopLeft> [949, 8972, 0, 0] {}
+            <SPAN CornerLines__TopRight> [949, 8972, 0, 0] {}
+            <SPAN CornerLines__BottomLeft> [949, 8972, 0, 0] {}
+            <SPAN CornerLines__BottomRight> [949, 8972, 0, 0] {}
+          <DIV Button__Children> [905, 8981, 89, 22] «See our plans» {display:flex; position:relative; alignItems:center; justifyContent:center; zIndex:2; overflow:hidden}
+===  faqwrap
+<DIV HomeFAQ__FAQWrapper> [29, 9185, 1382, 892] {position:relative; fontFamily:Cinetype; fontSize:14px; fontWeight:400; lineHeight:21.994px; letterSpacing:normal; color:rgb(49, 38, 59); zIndex:1; textAlign:start}
+  <DIV TronDivider__Wrapper> [29, 9185, 1382, 61] {margin:0px 0px 30px}
+    <DIV TronDivider__Divider> [29, 9185, 1382, 1] {margin:0px 0px 3px; backgroundColor:rgb(255, 252, 252); backgroundImage:linear-gradient(90deg, rgb(175, 169, 177) 0%, rgb(219, 215, 218) 50%, rgb(175, 169, 177) 100%), none; backgroundSize:auto, auto; backgroundClip:border-box, border-box}
+    <DIV TronDivider__Divider> [29, 9189, 1382, 1] {margin:0px 0px 4px; backgroundColor:rgb(255, 252, 252); backgroundImage:linear-gradient(90deg, rgb(175, 169, 177) 0%, rgb(219, 215, 218) 50%, rgb(175, 169, 177) 100%), none; backgroundSize:auto, auto; opacity:0.9; backgroundClip:border-box, border-box}
+    <DIV TronDivider__Divider> [29, 9194, 1382, 1] {margin:0px 0px 5px; backgroundColor:rgb(255, 252, 252); backgroundImage:linear-gradient(90deg, rgb(175, 169, 177) 0%, rgb(219, 215, 218) 50%, rgb(175, 169, 177) 100%), none; backgroundSize:auto, auto; opacity:0.8; backgroundClip:border-box, border-box}
+    <DIV TronDivider__Divider> [29, 9200, 1382, 1] {margin:0px 0px 6px; backgroundColor:rgb(255, 252, 252); backgroundImage:linear-gradient(90deg, rgb(175, 169, 177) 0%, rgb(219, 215, 218) 50%, rgb(175, 169, 177) 100%), none; backgroundSize:auto, auto; opacity:0.7; backgroundClip:border-box, border-box}
+    <DIV TronDivider__Divider> [29, 9207, 1382, 1] {margin:0px 0px 7px; backgroundColor:rgb(255, 252, 252); backgroundImage:linear-gradient(90deg, rgb(175, 169, 177) 0%, rgb(219, 215, 218) 50%, rgb(175, 169, 177) 100%), none; backgroundSize:auto, auto; opacity:0.6; backgroundClip:border-box, border-box}
+    <DIV TronDivider__Divider> [29, 9215, 1382, 1] {margin:0px 0px 8px; backgroundColor:rgb(255, 252, 252); backgroundImage:linear-gradient(90deg, rgb(175, 169, 177) 0%, rgb(219, 215, 218) 50%, rgb(175, 169, 177) 100%), none; backgroundSize:auto, auto; opacity:0.5; backgroundClip:border-box, border-box}
+    <DIV TronDivider__Divider> [29, 9224, 1382, 1] {margin:0px 0px 9px; backgroundColor:rgb(255, 252, 252); backgroundImage:linear-gradient(90deg, rgb(175, 169, 177) 0%, rgb(219, 215, 218) 50%, rgb(175, 169, 177) 100%), none; backgroundSize:auto, auto; opacity:0.4; backgroundClip:border-box, border-box}
+    <DIV TronDivider__Divider> [29, 9234, 1382, 1] {margin:0px 0px 10px; backgroundColor:rgb(255, 252, 252); backgroundImage:linear-gradient(90deg, rgb(175, 169, 177) 0%, rgb(219, 215, 218) 50%, rgb(175, 169, 177) 100%), none; backgroundSize:auto, auto; opacity:0.3; backgroundClip:border-box, border-box}
+    <DIV TronDivider__Divider> [29, 9245, 1382, 1] {backgroundColor:rgb(255, 252, 252); backgroundImage:linear-gradient(90deg, rgb(175, 169, 177) 0%, rgb(219, 215, 218) 50%, rgb(175, 169, 177) 100%), none; backgroundSize:auto, auto; opacity:0.2; backgroundClip:border-box, border-box}
+  <DIV FAQ__Wrapper> [29, 9281, 1382, 801] {position:relative; padding:80px 0px; opacity:0; transform:matrix(1, 0, 0, 1, 0, 5); zIndex:1}
+    <NOSCRIPT > [0, 0, 0, 0] {}
+    <DIV FAQ__Inner> [418, 9361, 604, 641] {display:flex; maxWidth:604px; margin:0px 389.172px; flexDirection:column}
+      <DIV FAQ__Top> [418, 9361, 604, 103] {display:flex; padding:0px 0px 20px; flexDirection:column; alignItems:center; borderBottom:1px solid rgb(219, 215, 218)}
+        <H2 Heading__HeadingInternal Heading___StyledHeadingInternal FAQ___StyledHeading> [679, 9376, 82, 52] «FAQ» {margin:15px 0px; fontFamily:"PP Formula"; fontSize:40px; fontWeight:800; lineHeight:52px; letterSpacing:-1px; color:rgb(20, 20, 28)}
+      <DIV FAQ__List> [418, 9464, 604, 479] {display:flex; flexDirection:column}
+        <DIV FAQ__Item> [418, 9464, 604, 65] {display:flex; flexDirection:column; borderBottom:1px solid rgb(219, 215, 218); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <H3 FAQ-module__E5gmgG__questionHeading> [418, 9464, 604, 64] {}
+            <BUTTON FAQ__ItemTop> [418, 9464, 604, 64] {display:flex; padding:20px; alignItems:center; justifyContent:space-between; textAlign:left}
+          <DIV FAQ__Answer> [0, 0, 0, 0] «Hex is the AI Analytics Platform where trust meets insight: a single, connected workspace where data practitioners run deep analysis, business users ask questions in plain language, and everyone colla» {display:none; padding:10px 20px 20px; gap:12px; flexDirection:column}
+        <DIV FAQ__Item> [418, 9529, 604, 65] {display:flex; flexDirection:column; borderBottom:1px solid rgb(219, 215, 218); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <H3 FAQ-module__E5gmgG__questionHeading> [418, 9529, 604, 64] {}
+            <BUTTON FAQ__ItemTop> [418, 9529, 604, 64] {display:flex; padding:20px; alignItems:center; justifyContent:space-between; textAlign:left}
+          <DIV FAQ__Answer> [0, 0, 0, 0] «Hex allows anyone to get answers from data with AI. Whether you’re a member of the data team running code-based experiments or a business user looking to self-serve a one-off question, Hex provides ta» {display:none; padding:10px 20px 20px; gap:12px; flexDirection:column}
+        <DIV FAQ__Item> [418, 9594, 604, 65] {display:flex; flexDirection:column; borderBottom:1px solid rgb(219, 215, 218); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <H3 FAQ-module__E5gmgG__questionHeading> [418, 9594, 604, 64] {}
+            <BUTTON FAQ__ItemTop> [418, 9594, 604, 64] {display:flex; padding:20px; alignItems:center; justifyContent:space-between; textAlign:left}
+          <DIV FAQ__Answer> [0, 0, 0, 0] «Data teams switch to Hex because it gives them one connected, AI-native workspace for everything they do with data. Deep analysis, one-off questions, and critical business dashboards all happen on the» {display:none; padding:10px 20px 20px; gap:12px; flexDirection:column}
+        <DIV FAQ__Item> [418, 9659, 604, 65] {display:flex; flexDirection:column; borderBottom:1px solid rgb(219, 215, 218); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <H3 FAQ-module__E5gmgG__questionHeading> [418, 9659, 604, 64] {}
+            <BUTTON FAQ__ItemTop> [418, 9659, 604, 64] {display:flex; padding:20px; alignItems:center; justifyContent:space-between; textAlign:left}
+          <DIV FAQ__Answer> [0, 0, 0, 0] «Yes. Hex lets anyone ask questions in plain language in Hex, Slack, or via MCP and get AI-generated analysis backed by your actual data, metrics, and business rules. No SQL, no Python, no ticket to th» {display:none; padding:10px 20px 20px; gap:12px; flexDirection:column}
+        <DIV FAQ__Item> [418, 9724, 604, 65] {display:flex; flexDirection:column; borderBottom:1px solid rgb(219, 215, 218); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <H3 FAQ-module__E5gmgG__questionHeading> [418, 9724, 604, 64] {}
+            <BUTTON FAQ__ItemTop> [418, 9724, 604, 64] {display:flex; padding:20px; alignItems:center; justifyContent:space-between; textAlign:left}
+          <DIV FAQ__Answer> [0, 0, 0, 0] «Hex's context engine combines database descriptions, semantic models, business rules, and analytical logic into one curated layer that powers every AI answer. Data teams can observe what’s being asked» {display:none; padding:10px 20px 20px; gap:12px; flexDirection:column}
+        <DIV FAQ__Item> [418, 9789, 604, 89] {display:flex; flexDirection:column; borderBottom:1px solid rgb(219, 215, 218); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <H3 FAQ-module__E5gmgG__questionHeading> [418, 9789, 604, 88] {}
+            <BUTTON FAQ__ItemTop> [418, 9789, 604, 88] {display:flex; padding:20px; alignItems:center; justifyContent:space-between; textAlign:left}
+          <DIV FAQ__Answer> [0, 0, 0, 0] «ChatGPT, Claude, Codex, and other AI assistants can generate answers. Hex helps teams build more trustworthy, repeatable AI-powered analysis by grounding it in the organization's data, business contex» {display:none; padding:10px 20px 20px; gap:12px; flexDirection:column}
+        <DIV FAQ__Item> [418, 9878, 604, 65] {display:flex; flexDirection:column; borderBottom:1px solid rgb(219, 215, 218); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <H3 FAQ-module__E5gmgG__questionHeading> [418, 9878, 604, 64] {}
+            <BUTTON FAQ__ItemTop> [418, 9878, 604, 64] {display:flex; padding:20px; alignItems:center; justifyContent:space-between; textAlign:left}
+          <DIV FAQ__Answer> [0, 0, 0, 0] «Hex enables you to bring all your business’s critical data context into one workspace. Solution-specific analytics platforms exacerbate tool sprawl and siloed workflows between teams, while creating g» {display:none; padding:10px 20px 20px; gap:12px; flexDirection:column}
+      <P Text__TextWrapper Text___StyledTextWrapper FAQ__DescText> [418, 9978, 604, 24] «Can't find your answer here? .» {margin:35px 0px 0px; fontSize:16px; fontWeight:300; lineHeight:24px; textAlign:center}
+        <A > [781, 9981, 92, 20] «Get in touch» {color:rgb(67, 57, 76); borderBottom:1px solid rgb(67, 57, 76); transition:background-color 0.1s linear}
+===  footer
+<FOOTER Footer__Wrapper> [29, 10082, 1382, 555] {display:flex; gridColumn:2 / -2; flexDirection:column; fontFamily:Cinetype; fontSize:14px; fontWeight:400; lineHeight:21.994px; letterSpacing:normal; color:rgb(49, 38, 59); opacity:0; transform:matrix(1, 0, 0, 1, 0, 5); textAlign:start}
+  <DIV Footer__Divider> [29, 10082, 1382, 1] {backgroundColor:rgb(219, 215, 218)}
+  <DIV Footer__Inner> [100, 10083, 1240, 553] {display:grid; maxWidth:1240px; margin:0px 71.1719px; padding:50px 30px; gridTemplateColumns:190px 800px 190px; gridTemplateRows:452.758px}
+    <DIV Footer__Left> [130, 10133, 190, 453] {display:flex; gap:15px; flexDirection:column; alignItems:flex-start}
+      <svg > [130, 10133, 60, 20] {overflow:hidden; svg:True}
+      <DIV Footer__MadeWith> [130, 10168, 137, 23] {display:flex; alignItems:center; color:rgb(137, 130, 141)}
+        <SPAN > [130, 10169, 69, 22] «Made with» {margin:0px 4px 0px 0px}
+        <DIV Rotator__Wrapper> [203, 10170, 20, 20] {display:flex; position:relative; overflow:hidden}
+          <DIV Rotator__Inner> [203, 10170, 20, 20] {display:flex; flexDirection:column; transform:matrix(1, 0, 0, 1, 0, 0)}
+            <DIV Rotator__Option> [203, 10170, 20, 20] {display:flex; alignItems:center; overflow:hidden}
+              <LABEL > [203, 10170, 20, 20] {}
+            <DIV Rotator__Option> [203, 10190, 20, 20] {display:flex; alignItems:center; overflow:hidden}
+              <LABEL > [203, 10190, 20, 20] {}
+            <DIV Rotator__Option> [203, 10210, 20, 20] {display:flex; alignItems:center; overflow:hidden}
+              <LABEL > [203, 10210, 20, 20] {}
+            <DIV Rotator__Option> [203, 10230, 20, 20] {display:flex; alignItems:center; overflow:hidden}
+              <LABEL > [203, 10230, 20, 20] {}
+            <DIV Rotator__Option> [203, 10250, 20, 20] {display:flex; alignItems:center; overflow:hidden}
+              <LABEL > [203, 10250, 20, 20] {}
+            <DIV Rotator__Option> [203, 10270, 20, 20] {display:flex; alignItems:center; overflow:hidden}
+              <LABEL > [203, 10270, 20, 20] {}
+            <DIV Rotator__Option> [203, 10290, 20, 20] {display:flex; alignItems:center; overflow:hidden}
+              <LABEL > [203, 10290, 20, 20] {}
+            <DIV Rotator__Option> [203, 10310, 20, 20] {display:flex; alignItems:center; overflow:hidden}
+              <LABEL > [203, 10310, 20, 20] {}
+            <DIV Rotator__Option> [203, 10330, 20, 20] {display:flex; alignItems:center; overflow:hidden}
+              <LABEL > [203, 10330, 20, 20] {}
+            <DIV Rotator__Option> [203, 10350, 20, 20] {display:flex; alignItems:center; overflow:hidden}
+              <LABEL > [203, 10350, 20, 20] {}
+            <DIV Rotator__Option> [203, 10370, 20, 20] {display:flex; alignItems:center; overflow:hidden}
+              <LABEL > [203, 10370, 20, 20] {}
+            <DIV Rotator__Option> [203, 10390, 20, 20] {display:flex; alignItems:center; overflow:hidden}
+              <LABEL > [203, 10390, 20, 20] {}
+            <DIV Rotator__Option> [203, 10410, 20, 20] {display:flex; alignItems:center; overflow:hidden}
+              <LABEL > [203, 10410, 20, 20] {}
+            <DIV Rotator__Option> [203, 10430, 20, 20] {display:flex; alignItems:center; overflow:hidden}
+              <LABEL > [203, 10430, 20, 20] {}
+            <DIV Rotator__Option> [203, 10450, 20, 20] {display:flex; alignItems:center; overflow:hidden}
+              <LABEL > [203, 10450, 20, 20] {}
+            <DIV Rotator__Option> [203, 10470, 20, 20] {display:flex; alignItems:center; overflow:hidden}
+              <LABEL > [203, 10470, 20, 20] {}
+            <DIV Rotator__Option> [203, 10490, 20, 20] {display:flex; alignItems:center; overflow:hidden}
+              <LABEL > [203, 10490, 20, 20] {}
+            <DIV Rotator__Option> [203, 10510, 20, 20] {display:flex; alignItems:center; overflow:hidden}
+              <LABEL > [203, 10510, 20, 20] {}
+            <DIV Rotator__Option> [203, 10530, 20, 20] {display:flex; alignItems:center; overflow:hidden}
+              <LABEL > [203, 10530, 20, 20] {}
+            <DIV Rotator__Option> [203, 10550, 20, 20] {display:flex; alignItems:center; overflow:hidden}
+              <LABEL > [203, 10550, 20, 20] {}
+            <DIV Rotator__Option> [203, 10570, 20, 20] {display:flex; alignItems:center; overflow:hidden}
+              <LABEL > [203, 10570, 20, 20] {}
+            <DIV Rotator__Option> [203, 10590, 20, 20] {display:flex; alignItems:center; overflow:hidden}
+              <LABEL > [203, 10590, 20, 20] {}
+            <DIV Rotator__Option> [203, 10610, 20, 20] {display:flex; alignItems:center; overflow:hidden}
+              <LABEL > [203, 10610, 20, 20] {}
+            <DIV Rotator__Option> [203, 10630, 20, 20] {display:flex; alignItems:center; overflow:hidden}
+              <LABEL > [203, 10630, 20, 20] {}
+        <SPAN > [227, 10168, 40, 23] «on .» {margin:0px 0px 0px 4px}
+          <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [248, 10172, 14, 17] «🌎» {margin:0px 0.7px 0px 1.4px}
+    <DIV Footer__Center> [320, 10133, 800, 453] {display:flex; gap:60px; flexDirection:column; alignItems:center}
+      <DIV Footer__Links> [320, 10133, 800, 371] {display:grid; maxWidth:800px; gap:60px; gridTemplateColumns:155px 155px 155px 155px; gridTemplateRows:370.766px}
+        <DIV Footer__Column> [320, 10133, 155, 371] {display:flex; gap:10px; flexDirection:column; alignItems:flex-start}
+          <DIV Footer__ColTitle> [320, 10133, 63, 19] «Platform» {fontFamily:"IBM Plex Mono"; fontSize:12px; fontWeight:700; lineHeight:18.852px; letterSpacing:0.7px; textTransform:uppercase; color:rgb(20, 20, 28)}
+          <A > [320, 10162, 90, 22] «AI and agents» {color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+          <A > [320, 10194, 121, 22] «Agentic notebooks» {color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+          <A > [320, 10226, 158, 22] «Conversational analytics» {color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+          <A > [320, 10258, 97, 22] «Context Studio» {color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+          <A > [320, 10290, 66, 22] «Data apps» {color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+          <A > [320, 10322, 49, 22] «Hex CLI» {color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+          <A > [320, 10354, 137, 22] «Business intelligence» {color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+          <A > [320, 10386, 132, 22] «Exploratory analysis» {color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+          <A > [320, 10418, 132, 22] «Embedded analytics» {color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+          <A > [320, 10450, 79, 22] «Integrations» {color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+          <A > [320, 10482, 69, 22] «Changelog» {color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+        <DIV Footer__Column> [535, 10133, 155, 371] {display:flex; gap:10px; flexDirection:column; alignItems:flex-start}
+          <DIV Footer__ColTitle> [535, 10133, 71, 19] «Resources» {fontFamily:"IBM Plex Mono"; fontSize:12px; fontWeight:700; lineHeight:18.852px; letterSpacing:0.7px; textTransform:uppercase; color:rgb(20, 20, 28)}
+          <A > [535, 10162, 45, 22] «Pricing» {color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+          <A > [535, 10194, 110, 22] «Switching to Hex» {color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+          <A > [535, 10226, 68, 22] «Enterprise» {color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+          <A > [535, 10258, 31, 22] «Docs» {color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+          <A > [535, 10290, 29, 22] «Blog» {color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+          <A > [535, 10322, 44, 22] «Events» {color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+          <A > [535, 10354, 67, 22] «Templates» {color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+          <A > [535, 10386, 59, 22] «Compare» {color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+          <A > [535, 10418, 81, 22] «Trust Center» {color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+          <A > [535, 10450, 42, 22] «Status» {color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+        <DIV Footer__Column> [750, 10133, 155, 371] {display:flex; gap:10px; flexDirection:column; alignItems:flex-start}
+          <DIV Footer__ColTitle> [750, 10133, 55, 19] «Company» {fontFamily:"IBM Plex Mono"; fontSize:12px; fontWeight:700; lineHeight:18.852px; letterSpacing:0.7px; textTransform:uppercase; color:rgb(20, 20, 28)}
+          <A > [750, 10162, 39, 22] «About» {color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+          <A > [750, 10194, 51, 22] «Careers» {color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+          <A > [750, 10226, 70, 22] «Customers» {color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+          <A > [750, 10258, 60, 22] «Solutions» {color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+          <A > [750, 10290, 61, 22] «Media kit» {color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+          <A > [750, 10322, 69, 22] «Newsroom» {color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+        <DIV Footer__Column> [965, 10133, 155, 371] {display:flex; gap:10px; flexDirection:column; alignItems:flex-start}
+          <DIV Footer__ColTitle> [965, 10133, 55, 19] «Connect» {fontFamily:"IBM Plex Mono"; fontSize:12px; fontWeight:700; lineHeight:18.852px; letterSpacing:0.7px; textTransform:uppercase; color:rgb(20, 20, 28)}
+          <A > [965, 10162, 106, 22] «Request a demo» {color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+          <A > [965, 10194, 116, 22] «Technical support» {color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+          <A > [965, 10226, 70, 22] «Contact us» {color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+          <A > [965, 10258, 55, 22] «LinkedIn» {color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+          <A > [965, 10290, 68, 22] «X (Twitter)» {color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+          <A > [965, 10322, 53, 22] «YouTube» {color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+      <DIV Footer__Bottom> [320, 10564, 800, 22] {display:flex; gap:14px 20px; flexWrap:wrap; alignItems:center; justifyContent:center}
+        <DIV Footer__Copyright> [329, 10564, 191, 22] «© 2026 Hex Technologies Inc.» {color:rgb(137, 130, 141)}
+        <A > [540, 10564, 89, 22] «Privacy policy» {color:rgb(137, 130, 141); transition:background-color 0.1s linear}
+        <A > [649, 10564, 124, 22] «Terms & conditions» {color:rgb(137, 130, 141); transition:background-color 0.1s linear}
+        <A > [793, 10564, 173, 22] «Modern slavery statement» {color:rgb(137, 130, 141); transition:background-color 0.1s linear}
+        <BUTTON OptOutOfTrackingLink-module__ax0AOW__button> [986, 10564, 125, 22] «Opt out of tracking» {color:rgb(137, 130, 141); transition:background-color 0.1s linear; textAlign:center}
+    <DIV Footer__Right> [1120, 10133, 190, 453] {display:flex; flexDirection:column; alignItems:flex-end}
+      <DIV HitCounter__Wrapper> [1184, 10133, 126, 42] {padding:5px 0px}
+        <DIV HitCounter__Inner> [1184, 10138, 126, 32] {display:flex; position:relative; padding:5px; gap:5px; border:1px solid rgb(219, 215, 218); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <DIV HitCounter__DigitWrapper> [1190, 10144, 12, 20] {display:flex; position:relative; gap:1px}
+            <DIV HitCounter__Col> [1190, 10144, 1, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line> [1190, 10144, 1, 10] {backgroundColor:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+              <DIV HitCounter__Line> [1190, 10154, 1, 10] {backgroundColor:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+            <DIV HitCounter__Col> [1192, 10144, 8, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line> [1192, 10144, 8, 1] {backgroundColor:rgb(49, 38, 59)}
+              <DIV HitCounter__Line> [1192, 10154, 8, 1] {backgroundColor:rgb(49, 38, 59)}
+              <DIV HitCounter__Line> [1192, 10163, 8, 1] {backgroundColor:rgb(49, 38, 59)}
+            <DIV HitCounter__Col> [1201, 10144, 1, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line> [1201, 10144, 1, 10] {backgroundColor:rgb(49, 38, 59)}
+              <DIV HitCounter__Line> [1201, 10154, 1, 10] {backgroundColor:rgb(49, 38, 59)}
+          <DIV HitCounter__DigitWrapper> [1207, 10144, 12, 20] {display:flex; position:relative; gap:1px}
+            <DIV HitCounter__Col> [1207, 10144, 1, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line> [1207, 10144, 1, 10] {backgroundColor:rgb(49, 38, 59)}
+              <DIV HitCounter__Line> [1207, 10154, 1, 10] {backgroundColor:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+            <DIV HitCounter__Col> [1209, 10144, 8, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line> [1209, 10144, 8, 1] {backgroundColor:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+              <DIV HitCounter__Line> [1209, 10154, 8, 1] {backgroundColor:rgb(49, 38, 59)}
+              <DIV HitCounter__Line> [1209, 10163, 8, 1] {backgroundColor:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+            <DIV HitCounter__Col> [1218, 10144, 1, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line> [1218, 10144, 1, 10] {backgroundColor:rgb(49, 38, 59)}
+              <DIV HitCounter__Line> [1218, 10154, 1, 10] {backgroundColor:rgb(49, 38, 59)}
+          <DIV HitCounter__DigitWrapper> [1224, 10144, 12, 20] {display:flex; position:relative; gap:1px}
+            <DIV HitCounter__Col> [1224, 10144, 1, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line> [1224, 10144, 1, 10] {backgroundColor:rgb(49, 38, 59)}
+              <DIV HitCounter__Line> [1224, 10154, 1, 10] {backgroundColor:rgb(49, 38, 59)}
+            <DIV HitCounter__Col> [1226, 10144, 8, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line> [1226, 10144, 8, 1] {backgroundColor:rgb(49, 38, 59)}
+              <DIV HitCounter__Line> [1226, 10154, 8, 1] {backgroundColor:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+              <DIV HitCounter__Line> [1226, 10163, 8, 1] {backgroundColor:rgb(49, 38, 59)}
+            <DIV HitCounter__Col> [1235, 10144, 1, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line> [1235, 10144, 1, 10] {backgroundColor:rgb(49, 38, 59)}
+              <DIV HitCounter__Line> [1235, 10154, 1, 10] {backgroundColor:rgb(49, 38, 59)}
+          <DIV HitCounter__DigitWrapper> [1241, 10144, 12, 20] {display:flex; position:relative; gap:1px}
+            <DIV HitCounter__Col> [1241, 10144, 1, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line> [1241, 10144, 1, 10] {backgroundColor:rgb(49, 38, 59)}
+              <DIV HitCounter__Line> [1241, 10154, 1, 10] {backgroundColor:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+            <DIV HitCounter__Col> [1243, 10144, 8, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line> [1243, 10144, 8, 1] {backgroundColor:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+              <DIV HitCounter__Line> [1243, 10154, 8, 1] {backgroundColor:rgb(49, 38, 59)}
+              <DIV HitCounter__Line> [1243, 10163, 8, 1] {backgroundColor:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+            <DIV HitCounter__Col> [1252, 10144, 1, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line> [1252, 10144, 1, 10] {backgroundColor:rgb(49, 38, 59)}
+              <DIV HitCounter__Line> [1252, 10154, 1, 10] {backgroundColor:rgb(49, 38, 59)}
+          <DIV HitCounter__DigitWrapper> [1258, 10144, 12, 20] {display:flex; position:relative; gap:1px}
+            <DIV HitCounter__Col> [1258, 10144, 1, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line> [1258, 10144, 1, 10] {backgroundColor:rgb(49, 38, 59)}
+              <DIV HitCounter__Line> [1258, 10154, 1, 10] {backgroundColor:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+            <DIV HitCounter__Col> [1260, 10144, 8, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line> [1260, 10144, 8, 1] {backgroundColor:rgb(49, 38, 59)}
+              <DIV HitCounter__Line> [1260, 10154, 8, 1] {backgroundColor:rgb(49, 38, 59)}
+              <DIV HitCounter__Line> [1260, 10163, 8, 1] {backgroundColor:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+            <DIV HitCounter__Col> [1269, 10144, 1, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line> [1269, 10144, 1, 10] {backgroundColor:rgb(49, 38, 59)}
+              <DIV HitCounter__Line> [1269, 10154, 1, 10] {backgroundColor:rgb(49, 38, 59)}
+          <DIV HitCounter__DigitWrapper> [1275, 10144, 12, 20] {display:flex; position:relative; gap:1px}
+            <DIV HitCounter__Col> [1275, 10144, 1, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line> [1275, 10144, 1, 10] {backgroundColor:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+              <DIV HitCounter__Line> [1275, 10154, 1, 10] {backgroundColor:rgb(49, 38, 59)}
+            <DIV HitCounter__Col> [1277, 10144, 8, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line> [1277, 10144, 8, 1] {backgroundColor:rgb(49, 38, 59)}
+              <DIV HitCounter__Line> [1277, 10154, 8, 1] {backgroundColor:rgb(49, 38, 59)}
+              <DIV HitCounter__Line> [1277, 10163, 8, 1] {backgroundColor:rgb(49, 38, 59)}
+            <DIV HitCounter__Col> [1286, 10144, 1, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line> [1286, 10144, 1, 10] {backgroundColor:rgb(49, 38, 59)}
+              <DIV HitCounter__Line> [1286, 10154, 1, 10] {backgroundColor:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+          <DIV HitCounter__DigitWrapper> [1292, 10144, 12, 20] {display:flex; position:relative; gap:1px}
+            <DIV HitCounter__Col> [1292, 10144, 1, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line> [1292, 10144, 1, 10] {backgroundColor:rgb(49, 38, 59)}
+              <DIV HitCounter__Line> [1292, 10154, 1, 10] {backgroundColor:rgb(49, 38, 59)}
+            <DIV HitCounter__Col> [1294, 10144, 8, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line> [1294, 10144, 8, 1] {backgroundColor:rgb(49, 38, 59)}
+              <DIV HitCounter__Line> [1294, 10154, 8, 1] {backgroundColor:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+              <DIV HitCounter__Line> [1294, 10163, 8, 1] {backgroundColor:rgb(49, 38, 59)}
+            <DIV HitCounter__Col> [1303, 10144, 1, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line> [1303, 10144, 1, 10] {backgroundColor:rgb(49, 38, 59)}
+              <DIV HitCounter__Line> [1303, 10154, 1, 10] {backgroundColor:rgb(49, 38, 59)}
+  <DIV Footer__Divider> [29, 10636, 1382, 1] {backgroundColor:rgb(219, 215, 218)}

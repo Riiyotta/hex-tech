@@ -1,0 +1,71 @@
+{
+  "id": "hero.form",
+  "category": "hero",
+  "purpose": "Form page heading: centred solid H1 and lead above the visual-only form shell.",
+  "variants": [],
+  "content": {
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 4,
+      "observedWords": [
+        3,
+        3
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:926",
+        "specs/solutions.md:927"
+      ]
+    },
+    "lead": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 29,
+      "observedWords": [
+        18,
+        23
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:926",
+        "specs/solutions.md:927"
+      ]
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-on-mount"
+    ],
+    "default": "reveal-on-mount"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.phone-sm}",
+      "change": "resize-type",
+      "detail": "H1 38/49.4",
+      "measuredFrom": [
+        "specs/solutions.md:933"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/solutions.md:925"
+  ],
+  "wordBudgets": {
+    "headline": 4,
+    "lead": 29
+  },
+  "richTextBudgets": {},
+  "assetRoles": [],
+  "usedByTemplates": [
+    "template.form-page"
+  ],
+  "observedThemes": [
+    "dark",
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__hero.form",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

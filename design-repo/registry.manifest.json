@@ -1,0 +1,154 @@
+{
+  "repositoryId": "hex-tech-clone.design-repo",
+  "repositoryVersion": "1.0.1",
+  "pageSpecVersion": "1.0.0",
+  "allowlistVersion": "1.0.0",
+  "versionFieldNote": "allowlistVersion and pageSpecVersion are machine-checked by extraction/verify_all.py (must equal tokens/llm/component-allowlist.json 'version' and the schema's pageSpecVersion const). repositoryVersion is a documentation-only, hand-maintained marker that nothing checks.",
+  "status": "design-review-pending",
+  "productionApproved": false,
+  "defaultTheme": "light",
+  "schemaValidatedThemes": [
+    "light",
+    "dark"
+  ],
+  "themeModel": "One semantic token set (tokens/10-semantic) resolved per theme by tokens/themes/{light,dark}.json; routes pick a theme, the article body forces a light slab inside a dark page.",
+  "counts": {
+    "foundationAndScopedTokens": 343,
+    "semanticTokens": 48,
+    "themes": 2,
+    "primitives": 13,
+    "components": 18,
+    "sections": 106,
+    "templates": 25,
+    "routes": 60,
+    "concreteRoutes": 59,
+    "redirects": 2,
+    "nonRoutes": 2,
+    "assetRoles": 21,
+    "motionPatterns": 10,
+    "graphRules": 22
+  },
+  "countsNote": "Recomputed from the files on disk by verify_all.py; a mismatch fails the run.",
+  "entryPoints": {
+    "readme": "README.md",
+    "changelog": "CHANGELOG.md",
+    "schema": "schema/pagespec.schema.json",
+    "example": "schema/example.pagespec.json",
+    "validator": "schema/semantic_validate.py",
+    "adversarialTests": "schema/tests/adversarial_test.py",
+    "templates": "templates/templates.json",
+    "routes": "templates/routes.json",
+    "graph": "compatibility/graph.json",
+    "motionPatterns": "compatibility/motion-patterns.json",
+    "assetRoles": "assets/asset-roles.json",
+    "allowlist": "tokens/llm/component-allowlist.json",
+    "tokenCatalog": "tokens/llm/token-catalog.json",
+    "tokenPolicy": "tokens/llm/token-policy.json",
+    "semanticTokens": "tokens/10-semantic/semantic.json",
+    "themeLight": "tokens/themes/light.json",
+    "themeDark": "tokens/themes/dark.json",
+    "measuredValues": "extraction/measured-values.json",
+    "verifyAll": "extraction/verify_all.py"
+  },
+  "sourceStack": {
+    "note": "Documentation only. It must not shape token names, section ids, schema fields or validator logic.",
+    "framework": "React 18 + Vite 5 + Tailwind CSS v3 (tailwind.config.cjs) + framer-motion + react-router-dom 6",
+    "globalCss": "src/index.css (CSS-variable theme layer: light at :root, dark under [data-theme=\"dark\"])",
+    "measuredFrom": [
+      "package.json:13",
+      "package.json:22",
+      "package.json:21",
+      "package.json:12",
+      "package.json:15"
+    ],
+    "cleanInstall": "npm ci (lockfile package-lock.json); never ship node_modules"
+  },
+  "structuralNotes": [
+    {
+      "id": "real-company",
+      "note": "Clones a real company's live marketing site (Hex Technologies): real customer, investor and partner logos, real employee photos on /careers/ and /about/, commercial fonts. Asset roles for all of these are placeholder-only or local-only. Do not publish.",
+      "measuredFrom": [
+        "CLONE_SPEC.md:501",
+        "specs/company.md:190"
+      ]
+    },
+    {
+      "id": "placeholder-prose",
+      "note": "Long-form bodies (blog article, customer stories, Switching to Hex guide, State of Data Teams paragraphs, report FAQ answers) are neutral placeholders sized to live line counts. Only titles, metadata, headings and pull quotes are real. Budgets here describe length/structure only; the example uses invented content.",
+      "measuredFrom": [
+        "src/pages/companyCore/data/storyBodies.js:3",
+        "src/pages/companyResources/StateOfDataTeamsPage.jsx:5",
+        "src/pages/productV1/switchingData.js:3"
+      ]
+    },
+    {
+      "id": "visual-only-forms",
+      "note": "/request-a-demo/, /contact-us/, the partners register form and the gated 'Download the guide' make no network request and have no endpoint. Modelled as behaviour constraints (conversion.form-shell.submission = 'none', FORM_NO_SUBMISSION).",
+      "measuredFrom": [
+        "src/pages/pricingForms/forms/HubSpotFormShell.jsx:2",
+        "src/pages/solutions/Partners.jsx:2",
+        "src/pages/companyResources/AiAnalyticsGuidePage.jsx:6"
+      ]
+    },
+    {
+      "id": "external-domains",
+      "note": "External links (app.hex.tech, learn.hex.tech, trust.hex.tech, g2.com, ...) are plain hrefs out; embedded app/Loom/YouTube iframes are external and may render blank. Internal links are relative paths routed client-side.",
+      "measuredFrom": [
+        "src/layouts/SiteShell.jsx:2",
+        "specs/product.md:828"
+      ]
+    },
+    {
+      "id": "theming",
+      "note": "Most subpages are dark; the homepage, /product/bi/, /request-a-demo/, /resources/guides/ai-analytics/ and the company light pages are light; the blog article renders a light slab inside a dark page. One semantic token set, two theme resolutions.",
+      "measuredFrom": [
+        "src/theme/Theme.jsx:7",
+        "specs/product.md:37"
+      ]
+    },
+    {
+      "id": "standalone-layout",
+      "note": "/state-of-data-teams/ has no global header, ticker or footer (layout 'standalone').",
+      "measuredFrom": [
+        "src/routes/companyResources.jsx:16"
+      ]
+    },
+    {
+      "id": "runtime-canvases",
+      "note": "The nav 'AI & agents' callout canvas and the /capability/ai/ hero canvas are redrawn approximations, not the originals; the blog commit graph is a saved capture image.",
+      "measuredFrom": [
+        "src/components/header/AiLinesCanvas.jsx:2",
+        "src/pages/productMore/ai/AiCanvas.jsx:1"
+      ]
+    },
+    {
+      "id": "not-source",
+      "note": "The saved browser snapshot ('Hex_ The Analytics platform for humans and agents.html' + _files) and the stale dist/ folder in the project root are NOT source and were not used as evidence for structure (the snapshot is only referenced by CLONE_SPEC for RSC payload strings).",
+      "measuredFrom": [
+        "CLONE_SPEC.md:20"
+      ]
+    },
+    {
+      "id": "dev-routes",
+      "note": "/__theme-test and /__theme-test/light are dev-only (import.meta.env.DEV) and are documented as nonRoutes, not templates.",
+      "measuredFrom": [
+        "src/routes.jsx:18"
+      ]
+    },
+    {
+      "id": "redirects",
+      "note": "/product/integrations/athena/ and /redshift/ redirect to /product/integrations/aws/ (live 301; clone Navigate replace).",
+      "measuredFrom": [
+        "src/routes/productV1.jsx:2"
+      ]
+    },
+    {
+      "id": "fallback",
+      "note": "The '*' route renders a 'page still being built' placeholder (template.placeholder, generationEligible false).",
+      "measuredFrom": [
+        "src/routes.jsx:36"
+      ]
+    }
+  ],
+  "publication": "Do not publish. This repo describes a local reference clone of a real company's site; see assets/asset-roles.json realCompanyNotice."
+}

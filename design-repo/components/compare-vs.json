@@ -1,0 +1,29 @@
+{
+  "id": "component.compare-vs",
+  "purpose": "Dashed hatched 'HEX vs.' panel of interactive competitor wordmark cards (vertical or horizontal).",
+  "composes": [
+    "component.glass-card"
+  ],
+  "props": {
+    "layout": {
+      "type": "enum",
+      "measuredFrom": [
+        "src/components/shared/CompareVs.jsx:25"
+      ],
+      "enum": [
+        "vertical",
+        "horizontal"
+      ]
+    }
+  },
+  "tokens": [
+    "color.border.strong",
+    "color.surface.hatch"
+  ],
+  "measuredFrom": [
+    "specs/solutions.md:890",
+    "src/components/shared/CompareVs.jsx:25"
+  ],
+  "layer": "component",
+  "provisional": true
+}

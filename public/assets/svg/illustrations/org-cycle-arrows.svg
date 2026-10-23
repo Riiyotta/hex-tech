@@ -1,0 +1,25 @@
+<svg class="CycleArrows__Svg-sc-2c85273f-0 kJndnv HomeOrganizationContextCycle-module__mBC41G__arrows" height="560" viewBox="0 0 560 560" width="560" xmlns="http://www.w3.org/2000/svg"><defs><marker fill="none" id="arrow" markerHeight="6" markerWidth="6" orient="auto-start-reverse" refX="5" refY="5" viewBox="0 0 10 10" class="CycleArrows__Marker-sc-2c85273f-1 fNubMQ"><path d="M 0 0 L 10 5 L 0 10 z"></path></marker></defs><path d="
+    M 503.6 280
+    A 223.6,223.6 0 1 0 280 503.6
+  " fill="none" marker-start="url(#arrow)" stroke-width="1" class="CycleArrows__Path-sc-2c85273f-2 VGbEp" pathLength="1" stroke-dashoffset="0" stroke-dasharray="0.09070737871257158 1" style="transform: rotate(154.605deg); transform-origin: 50% 50%; transform-box: fill-box;"></path><path d="
+    M 508.8 280
+    A 228.8,228.8 0 1 0 280 508.8
+  " fill="none" marker-start="url(#arrow)" stroke-width="1" class="CycleArrows__Path-sc-2c85273f-2 VGbEp" pathLength="1" stroke-dashoffset="0" stroke-dasharray="0.09315155321857105 1" style="transform: rotate(232.443deg); transform-origin: 50% 50%; transform-box: fill-box;"></path><path d="
+    M 514 280
+    A 234,234 0 1 0 280 514
+  " fill="none" marker-start="url(#arrow)" stroke-width="1" class="CycleArrows__Path-sc-2c85273f-2 VGbEp" pathLength="1" stroke-dashoffset="0" stroke-dasharray="0.08943902902831148 1" style="transform: rotate(244.674deg); transform-origin: 50% 50%; transform-box: fill-box;"></path><path d="
+    M 519.2 280
+    A 239.20000000000002,239.20000000000002 0 1 0 280 519.2
+  " fill="none" marker-start="url(#arrow)" stroke-width="1" class="CycleArrows__Path-sc-2c85273f-2 VGbEp" pathLength="1" stroke-dashoffset="0" stroke-dasharray="0.09157749609202992 1" style="transform: rotate(318.015deg); transform-origin: 50% 50%; transform-box: fill-box;"></path><path d="
+    M 524.4 280
+    A 244.39999999999998,244.39999999999998 0 1 0 280 524.4
+  " fill="none" marker-start="url(#arrow)" stroke-width="1" class="CycleArrows__Path-sc-2c85273f-2 VGbEp" pathLength="1" stroke-dashoffset="0" stroke-dasharray="0.09424462128742842 1" style="transform: rotate(39.3636deg); transform-origin: 50% 50%; transform-box: fill-box;"></path><path d="
+    M 529.6 280
+    A 249.6,249.6 0 1 0 280 529.6
+  " fill="none" marker-start="url(#arrow)" stroke-width="1" class="CycleArrows__Path-sc-2c85273f-2 VGbEp" pathLength="1" stroke-dashoffset="0" stroke-dasharray="0.09020385107285701 1" style="transform: rotate(46.5998deg); transform-origin: 50% 50%; transform-box: fill-box;"></path><path d="
+    M 534.8 280
+    A 254.79999999999998,254.79999999999998 0 1 0 280 534.8
+  " fill="none" marker-start="url(#arrow)" stroke-width="1" class="CycleArrows__Path-sc-2c85273f-2 VGbEp" pathLength="1" stroke-dashoffset="0" stroke-dasharray="0.09252394500146327 1" style="transform: rotate(122.569deg); transform-origin: 50% 50%; transform-box: fill-box;"></path><path d="
+    M 540 280
+    A 260,260 0 1 0 280 540
+  " fill="none" marker-start="url(#arrow)" stroke-width="1" class="CycleArrows__Path-sc-2c85273f-2 VGbEp" pathLength="1" stroke-dashoffset="0" stroke-dasharray="0.0889946336635843 1" style="transform: rotate(137.474deg); transform-origin: 50% 50%; transform-box: fill-box;"></path></svg>

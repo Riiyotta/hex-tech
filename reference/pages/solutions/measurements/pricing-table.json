@@ -1,0 +1,91 @@
+{
+  "n": 6,
+  "struct": [
+    "DIV PlansBrowserView__GridSection [68,1805,1304,240] «»",
+    "  H4 Heading__HeadingInternal Heading___StyledHeadingInternal PlansBrowserView___StyledHeading [68,1805,1304,0] «»",
+    "  DIV  [68,1815,1304,230] «»",
+    "    DIV PlansBrowserView__FeatureComparisonGrid [68,1815,1304,46] «»",
+    "      DIV  [68,1815,261,46] «»",
+    "        SPAN  [68,1830,103,17] «Unlimited users»",
+    "      DIV PlanCell__ComparisonCell [329,1815,261,46] «»",
+    "        DIV PlanItem__CellItem [339,1827,241,20] «»",
+    "          DIV PlanItem__ItemTick [452,1827,15,20] «»",
+    "            svg  [452,1832,15,11] «»",
+    "      DIV PlanCell__ComparisonCell [590,1815,261,46] «»",
+    "        DIV PlanItem__CellItem [600,1827,241,20] «»",
+    "          DIV PlanItem__ItemTick [712,1827,15,20] «»",
+    "            svg  [712,1832,15,11] «»",
+    "      DIV PlanCell__ComparisonCell [850,1815,261,46] «»",
+    "        DIV PlanItem__CellItem [860,1827,241,20] «»",
+    "          DIV PlanItem__ItemTick [973,1827,15,20] «»",
+    "            svg  [973,1832,15,11] «»",
+    "      DIV PlanCell__ComparisonCell [1111,1815,261,46] «»",
+    "        DIV PlanItem__CellItem [1121,1827,241,20] «»",
+    "          DIV PlanItem__ItemTick [1234,1827,15,20] «»",
+    "            svg  [1234,1832,15,11] «»",
+    "    DIV PlansBrowserView__FeatureComparisonGrid [68,1861,1304,46] «»",
+    "      DIV  [68,1861,261,46] «»",
+    "        SPAN  [68,1876,67,17] «Hex agent»",
+    "      DIV PlanCell__ComparisonCell [329,1861,261,46] «»",
+    "        DIV PlanItem__CellItem [339,1873,241,20] «»",
+    "          DIV PlanItem__ItemTick [452,1873,15,20] «»",
+    "            svg  [452,1878,15,11] «»",
+    "      DIV PlanCell__ComparisonCell [590,1861,261,46] «»",
+    "        DIV PlanItem__CellItem [600,1873,241,20] «»",
+    "          DIV PlanItem__ItemTick [712,1873,15,20] «»",
+    "            svg  [712,1878,15,11] «»",
+    "      DIV PlanCell__ComparisonCell [850,1861,261,46] «»",
+    "        DIV PlanItem__CellItem [860,1873,241,20] «»",
+    "          DIV PlanItem__ItemTick [973,1873,15,20] «»",
+    "            svg  [973,1878,15,11] «»",
+    "      DIV PlanCell__ComparisonCell [1111,1861,261,46] «»",
+    "        DIV PlanItem__CellItem [1121,1873,241,20] «»",
+    "          DIV PlanItem__ItemTick [1234,1873,15,20] «»",
+    "            svg  [1234,1878,15,11] «»",
+    "    DIV PlansBrowserView__FeatureComparisonGrid [68,1907,1304,46] «»",
+    "      DIV  [68,1907,261,46] «»",
+    "        SPAN  [68,1922,47,19] «Credits»",
+    "      DIV PlanCell__ComparisonCell [329,1907,261,46] «»",
+    "        DIV PlanItem__CellItem [339,1919,241,18] «»",
+    "          DIV PlanItem__ItemText [339,1919,241,18] «Limited»",
+    "      DIV PlanCell__ComparisonCell [590,1907,261,46] «»",
+    "        DIV PlanItem__CellItem [600,1919,241,18] «»",
+    "          DIV PlanItem__ItemText [600,1919,241,18] «Standard»",
+    "      DIV PlanCell__ComparisonCell [850,1907,261,46] «»",
+    "        DIV PlanItem__CellItem [860,1919,241,18] «»",
+    "          DIV PlanItem__ItemText [860,1919,241,18] «Extended»",
+    "      DIV PlanCell__ComparisonCell [1111,1907,261,46] «»",
+    "        DIV PlanItem__CellItem [1121,1919,241,18] «»",
+    "          DIV PlanItem__ItemText [1121,1919,241,18] «Premium»",
+    "    DIV PlansBrowserView__FeatureComparisonGrid [68,1953,1304,46] «»",
+    "      DIV  [68,1953,261,46] «»",
+    "        SPAN  [68,1968,99,19] «Published apps»",
+    "      DIV PlanCell__ComparisonCell [329,1953,261,46] «»"
+  ],
+  "data": [
+    {
+      "title": "",
+      "rows": []
+    },
+    {
+      "title": "Data",
+      "rows": []
+    },
+    {
+      "title": "Collaboration",
+      "rows": []
+    },
+    {
+      "title": "Administration",
+      "rows": []
+    },
+    {
+      "title": "Security",
+      "rows": []
+    },
+    {
+      "title": "Support",
+      "rows": []
+    }
+  ]
+}

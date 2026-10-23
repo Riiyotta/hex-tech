@@ -1,0 +1,124 @@
+{
+  "id": "feature.perlin-callout",
+  "category": "feature",
+  "purpose": "Wide dark callout card on a hatched band: eyebrow, H2, optional text and secondary CTA, decorative art right.",
+  "variants": [],
+  "content": {
+    "eyebrow": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 2,
+      "observedWords": [
+        1
+      ],
+      "measuredFrom": [
+        "specs/product.md:446"
+      ]
+    },
+    "title": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 9,
+      "observedWords": [
+        7
+      ],
+      "measuredFrom": [
+        "specs/product.md:487"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": false,
+      "maxWords": 42,
+      "observedWords": [
+        33
+      ],
+      "measuredFrom": [
+        "specs/product.md:487"
+      ]
+    },
+    "action": {
+      "kind": "action",
+      "required": true,
+      "label": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 3,
+        "observedWords": [
+          2
+        ],
+        "measuredFrom": [
+          "specs/product.md:210"
+        ]
+      },
+      "variants": [
+        "secondary"
+      ],
+      "sizes": [
+        "md"
+      ]
+    },
+    "art": {
+      "kind": "media",
+      "required": true,
+      "roles": [
+        "illustration.decorative",
+        "image.product-screenshot"
+      ],
+      "alt": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 18,
+        "observedWords": [
+          14,
+          14
+        ],
+        "measuredFrom": [
+          "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+          "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+        ]
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in",
+      "perlin-drift"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "stack-columns",
+      "detail": "art below copy",
+      "measuredFrom": [
+        "specs/product.md:211"
+      ]
+    }
+  ],
+  "constraints": {},
+  "measuredFrom": [
+    "specs/product.md:206"
+  ],
+  "wordBudgets": {
+    "action.label": 3,
+    "art.alt": 18,
+    "description": 42,
+    "eyebrow": 2,
+    "title": 9
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "illustration.decorative",
+    "image.product-screenshot"
+  ],
+  "usedByTemplates": [
+    "template.product-feature"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__feature.perlin-callout",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

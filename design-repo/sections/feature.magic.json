@@ -1,0 +1,90 @@
+{
+  "id": "feature.magic",
+  "category": "feature",
+  "purpose": "Animated AI glyph + H2 + lead beside a product image, over a slowly rotating line-art background.",
+  "variants": [],
+  "content": {
+    "title": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 7,
+      "observedWords": [
+        5
+      ],
+      "measuredFrom": [
+        "specs/product.md:508"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 14,
+      "observedWords": [
+        11
+      ],
+      "measuredFrom": [
+        "specs/product.md:508"
+      ]
+    },
+    "image": {
+      "kind": "media",
+      "required": true,
+      "roles": [
+        "image.product-screenshot"
+      ],
+      "alt": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 18,
+        "observedWords": [
+          14,
+          14
+        ],
+        "measuredFrom": [
+          "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+          "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+        ]
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in",
+      "perlin-drift"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "stack-columns",
+      "detail": "image below copy",
+      "measuredFrom": [
+        "specs/product.md:518"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/product.md:505"
+  ],
+  "wordBudgets": {
+    "description": 14,
+    "image.alt": 18,
+    "title": 7
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "image.product-screenshot"
+  ],
+  "usedByTemplates": [
+    "template.product-feature"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__feature.magic",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

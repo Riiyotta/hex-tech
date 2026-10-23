@@ -1,0 +1,98 @@
+{
+  "theme": [
+    "rgb(20, 20, 28)",
+    "rgb(245, 192, 192)"
+  ],
+  "docH": 1757,
+  "title": "Get in touch | Hex",
+  "metaDesc": "Thanks for your interest in Hex. Fill out this form and our team will reach out to you as soon as we can.",
+  "top": [
+    "H1: Get in touch",
+    "P: Thanks for your interest in Hex. Fill out this form and our team will reach out to you as soon as we can."
+  ],
+  "topBox": [
+    430,
+    200,
+    580,
+    143
+  ],
+  "formBox": [
+    380,
+    383,
+    680,
+    517
+  ],
+  "fields": [
+    {
+      "cls": "hsfc-TextField",
+      "label": "FIRST NAME*",
+      "input": "INPUT name=0-1/firstname type=text ph=\"\" req=true",
+      "box": [
+        421,
+        424,
+        284,
+        71
+      ]
+    },
+    {
+      "cls": "hsfc-TextField",
+      "label": "LAST NAME*",
+      "input": "INPUT name=0-1/lastname type=text ph=\"\" req=true",
+      "box": [
+        735,
+        424,
+        284,
+        71
+      ]
+    },
+    {
+      "cls": "hsfc-EmailField",
+      "label": "WORK EMAIL*",
+      "input": "INPUT name=0-1/email type=email ph=\"\" req=false",
+      "box": [
+        421,
+        515,
+        284,
+        71
+      ]
+    },
+    {
+      "cls": "hsfc-TextField",
+      "label": "COMPANY NAME*",
+      "input": "INPUT name=0-1/form_fill_company__c type=text ph=\"\" req=true",
+      "box": [
+        735,
+        515,
+        284,
+        71
+      ]
+    },
+    {
+      "cls": "hsfc-TextareaField",
+      "label": "WHAT DO YOU WANT TO TALK ABOUT?",
+      "input": "TEXTAREA name=0-1/person_notes__c type=textarea ph=\"Business Intelligence, Conversational Analytics, Context for Agents, etc.\" req=false",
+      "box": [
+        421,
+        605,
+        598,
+        138
+      ]
+    }
+  ],
+  "radios": [],
+  "rich": [],
+  "banner": true,
+  "bannerTitle": "Trusted by leading data teams",
+  "sections": [
+    "HubSpotForm__Wrapper [29,200,1382,970]"
+  ],
+  "links": [
+    "Terms -> https://learn.hex.tech/docs/legal/terms-and-conditions",
+    "Privacy policy -> https://learn.hex.tech/docs/trust/privacy-policy",
+    " -> /customers/notion/",
+    " -> /customers/clickup/",
+    " -> /customers/alltrails/"
+  ],
+  "formId": "15ebbca7-62a3-43c0-8e7a-3ff0c6154af6",
+  "portal": "243040889"
+}

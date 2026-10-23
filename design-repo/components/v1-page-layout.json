@@ -1,0 +1,21 @@
+{
+  "id": "component.v1-page-layout",
+  "purpose": "V1 page frame: grid rules at outer cols 4/7/10 (4 and 10 hidden <=450), margin ticks every 160px, content padding-top 200.",
+  "composes": [
+    "primitive.layout-grid"
+  ],
+  "props": {},
+  "tokens": [
+    "layout.v1-padding-top",
+    "layout.v1-grid-rule-columns",
+    "layout.v1-grid-rule-hide-below",
+    "color.border.muted"
+  ],
+  "measuredFrom": [
+    "specs/product.md:96",
+    "specs/SHARED_BUILT.md:146",
+    "src/components/shared/V1PageLayout.jsx:22"
+  ],
+  "layer": "component",
+  "provisional": true
+}

@@ -1,0 +1,36 @@
+/* integrations-snowflake section 3: every CSS rule from document.styleSheets whose selector matches a class used in this section (incl. @media/@supports wrappers), plus referenced @keyframes */
+.bsXbIt { box-sizing: content-box; position: relative; flex: 0 0 auto; display: flex; height: 40px; background: transparent; outline: none; padding: 0px 20px; user-select: none; cursor: pointer; font-size: 14px; color: var(--fontColorDEFAULT, #F5C0C0); border: 1px solid transparent; min-width: 0px; transition: background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1); }
+.bsXbIt:hover { background-color: var(--grid300, #2b252c); border-color: var(--grid700, #6a565b); text-decoration: none; }
+.bsXbIt:active { background-color: var(--grid500, #3a3138); }
+.bsXbIt:focus-visible { outline: var(
+      --app-focus-outline,
+      2px solid var(--highlightColor, #F5C0C0)
+    ); outline-offset: var(--app-focus-outline-offset, 2px); }
+.ghWwXj { display: flex; width: 100%; flex-direction: row; align-items: center; height: inherit; white-space: nowrap; min-width: 0px; gap: 10px; justify-content: center; text-align: center; }
+.kRHsma { display: flex; align-items: center; justify-content: center; min-width: 0px; position: relative; z-index: 2; pointer-events: none; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.iPEWrc { margin: 0px; color: var(--fontColorMUTED, #99797d); font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-weight: 700; line-height: 1.571; letter-spacing: 0.214em; font-size: clamp(12px, 15.125px - 0.25vw, 14px); text-transform: uppercase; }
+.dQmPud { display: flex; flex: 1 1 auto; position: relative; width: 100%; }
+.iVNGwB { --cutout-width: 16ch; --cutout-left-x: calc(50% - var(--cutout-width) * 0.5 - 1px); --cutout-right-x: calc(50% + var(--cutout-width) * 0.5 + 1px); position: relative; display: flex; flex: 1 1 auto; width: 100%; justify-content: center; }
+.iVNGwB::before { content: ""; position: absolute; inset: 0px; border: 1px solid rgba(248, 250, 251, 0.15); clip-path: polygon(
+      0% 0%,
+      var(--cutout-left-x) 0%,
+      var(--cutout-left-x) 5px,
+      var(--cutout-right-x) 5px,
+      var(--cutout-right-x) 0%,
+      100% 0%,
+      100% 100%,
+      0% 100%
+    ); }
+.TcISP { display: flex; flex: 1 1 auto; width: 100%; align-items: center; position: absolute; top: -12px; }
+.TcISP::before, .TcISP::after { content: ""; display: flex; height: 1px; flex: 1 1 auto; }
+.mwmTG { display: flex; padding: 0px 10px; }
+.fiGzEw { display: flex; flex-wrap: wrap; width: 100%; padding: 30px 25px 20px; }
+.hVCRGg.hVCRGg { border-width: medium; border-style: none; border-color: currentcolor; border-image: none; flex: 0 1 calc(25%); width: calc(25%); display: flex; height: auto; padding: 10px; }
+@media (max-width: 1000px) { .hVCRGg.hVCRGg { flex: 0 1 calc(33.3333%); width: calc(33.3333%); } }
+@media (max-width: 800px) { .hVCRGg.hVCRGg { flex: 0 1 calc(50%); width: calc(50%); } }
+@media (max-width: 600px) { .hVCRGg.hVCRGg { flex: 0 1 100%; width: 100%; } }
+.hVCRGg.hVCRGg > div { align-items: flex-start; justify-content: flex-start; }
+.lblisK { display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start; font-weight: 400; min-width: 0px; white-space: normal; text-align: left; height: 100%; }
+.cbGUwN { min-width: 0px; font-family: Cinetype, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; color: rgb(255, 255, 255); font-size: 14px; margin-bottom: 5px; line-height: 20px; text-transform: none; }
+.cUffwJ { font-family: Cinetype, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; color: var(--fontColorDEFAULT, #F5C0C0); line-height: 20px; text-transform: none; }
+.YEmUP { max-width: 1240px; width: 100%; padding: 0px 40px; margin: 0px auto; }

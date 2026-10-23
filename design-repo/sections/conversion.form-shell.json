@@ -1,0 +1,151 @@
+{
+  "id": "conversion.form-shell",
+  "category": "conversion",
+  "purpose": "Visual-only lead form: tinted bordered box of labelled fields (2-column rows), local validation states, gradient submit and disclaimer. Never submits.",
+  "variants": [
+    "demo-request",
+    "contact",
+    "partner-register"
+  ],
+  "content": {
+    "heading": {
+      "kind": "text",
+      "required": false,
+      "maxWords": 4,
+      "observedWords": [
+        3
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:917"
+      ]
+    },
+    "fields": {
+      "kind": "list",
+      "required": true,
+      "minItems": 5,
+      "maxItems": 7,
+      "measuredFrom": [
+        "specs/solutions.md:928",
+        "specs/solutions.md:917"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "label": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 9,
+            "observedWords": [
+              7
+            ],
+            "measuredFrom": [
+              "specs/solutions.md:928"
+            ]
+          },
+          "type": {
+            "kind": "enum",
+            "values": [
+              "text",
+              "email",
+              "textarea",
+              "select"
+            ],
+            "required": true,
+            "measuredFrom": [
+              "specs/solutions.md:917"
+            ]
+          },
+          "required": {
+            "kind": "boolean",
+            "required": false,
+            "measuredFrom": [
+              "specs/solutions.md:936"
+            ]
+          },
+          "placeholder": {
+            "kind": "text",
+            "required": false,
+            "maxWords": 4,
+            "observedWords": [
+              3
+            ],
+            "measuredFrom": [
+              "specs/solutions.md:928"
+            ]
+          }
+        }
+      }
+    },
+    "submitLabel": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 2,
+      "observedWords": [
+        1
+      ],
+      "measuredFrom": [
+        "src/pages/pricingForms/forms/HubSpotFormShell.jsx:6"
+      ]
+    },
+    "submission": {
+      "kind": "enum",
+      "values": [
+        "none"
+      ],
+      "required": true,
+      "measuredFrom": [
+        "src/pages/pricingForms/forms/HubSpotFormShell.jsx:3"
+      ]
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.phone-sm}",
+      "change": "stack-columns",
+      "detail": "every field on its own line",
+      "measuredFrom": [
+        "specs/solutions.md:935"
+      ]
+    }
+  ],
+  "constraints": {
+    "maxPerPage": 1
+  },
+  "measuredFrom": [
+    "specs/solutions.md:930"
+  ],
+  "behavior": {
+    "submission": "none",
+    "networkRequests": "none",
+    "validation": "local: first invalid required field marked + focused",
+    "measuredFrom": [
+      "src/pages/pricingForms/forms/HubSpotFormShell.jsx:2",
+      "src/pages/solutions/Partners.jsx:2"
+    ]
+  },
+  "wordBudgets": {
+    "fields[].label": 9,
+    "fields[].placeholder": 4,
+    "heading": 4,
+    "submitLabel": 2
+  },
+  "richTextBudgets": {},
+  "assetRoles": [],
+  "usedByTemplates": [
+    "template.form-page",
+    "template.partners"
+  ],
+  "observedThemes": [
+    "dark",
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__conversion.form-shell",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

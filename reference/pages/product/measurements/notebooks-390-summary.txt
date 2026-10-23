@@ -1,0 +1,52 @@
+# notebooks @390 — doc height 11930 (1440: 8870)
+
+## Sections (matched by component class from the 1440 section list)
+- 0 NotebooksHero__ @1440 [0,0,1440,919] → @390 [0, 0, 390, 1025] (+6 more)  | H1:The agentic notebook for the next era of data work
+- 1 SectionMagic__ @1440 [0,919,1440,594] → @390 [20, 1066, 350, 759] (+3 more)  | H2:Agentic capabilities built right in
+- 2 FullWidthQuote__ @1440 [0,1513,1440,229] → @390 [0, 1865, 390, 359] (+11 more)  | 
+- 3 SectionSQLPython__ @1440 [0,1742,1440,834] → @390 [20, 2265, 350, 874] (+10 more)  | H2:SQL and Python, together in harmony / H4:SQL superpowers
+- 4 SectionNoCode__ @1440 [0,2576,1440,952] → @390 [20, 3219, 350, 893] (+2 more)  | H2:No-code tools for everyone
+- 5 SectionBeautifulViz__ @1440 [0,3528,1440,1012] → @390 [20, 4192, 350, 621] (+5 more)  | H2:Beautiful, built-in viz
+- 6 ReactiveExecutionTout__ @1440 [0,4540,1440,1164] → @390 [20, 4893, 350, 1299] (+15 more)  | H2:Intelligent execution / H4:Infinite data scale
+- 7 ForTeamsTout__ @1440 [0,5704,1440,451] → @390 [20, 6272, 350, 292] (+3 more)  | H2:Built for teams
+- 8 SocialTout__ @1440 [0,6155,1440,764] → @390 [20, 6644, 350, 993] (+1 more)  | H3:Users love Hex
+- 9 UseCasesTout__ @1440 [0,6919,1440,1365] → @390 [8, 7677, 374, 3108] (+5 more)  | H2:Build anything with data / H4:Ad-hoc exploration
+
+## Text roles @390 (H1–H4, lead/body P, buttons): tag [x,y,w,h] «text» font/size/lh
+- H1 [14, 237, 362, 204] «The agentic notebook for the next era of data work» fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px; padding:0px 6px 6px; margin:0px -6px -6px
+- P [20, 455, 350, 72] «Hex lets the data team focus on data work. Combine» fontSize:16px; fontWeight:300; lineHeight:24px
+- H2 [20, 1116, 350, 78] «Agentic capabilities built right in» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px
+- P [20, 1214, 350, 210] «The most intelligent AI agent ever made for data a» fontSize:20px; fontWeight:300; lineHeight:30px
+- BLOCKQUOTE [8, 1943, 374, 180] «“Hex's notebook agent just works. I describe what » fontSize:20px; fontWeight:300; lineHeight:30px; padding:0px 12px; textAlign:center
+- H2 [20, 2300, 350, 78] «SQL and Python, together in harmony» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px
+- P [20, 2398, 350, 120] «With Hex, you don't have to choose. Use SQL for wh» fontSize:20px; fontWeight:300; lineHeight:30px
+- H4 [20, 2660, 210, 26] «SQL superpowers» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 10px
+- P [20, 2696, 210, 144] «A first-class query editor, right in your notebook» fontSize:16px; fontWeight:300; lineHeight:24px
+- H4 [20, 2938, 210, 52] «IDE-class Python and R» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 10px
+- P [20, 3000, 210, 120] «Integrated package management, formatting, and AI » fontSize:16px; fontWeight:300; lineHeight:24px
+- H2 [20, 3254, 350, 78] «No-code tools for everyone» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px
+- P [20, 3352, 350, 150] «Browse for data, explore it, and visualize it. Hex» fontSize:20px; fontWeight:300; lineHeight:30px
+- H2 [20, 4227, 325, 39] «Beautiful, built-in viz» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px
+- P [20, 4286, 350, 90] «Powerful cells to create interactive charts, maps,» fontSize:20px; fontWeight:300; lineHeight:30px
+- H2 [20, 4928, 328, 39] «Intelligent execution» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px
+- P [20, 4987, 350, 120] «Hex's graph-based execution model makes projects m» fontSize:20px; fontWeight:300; lineHeight:30px
+- H4 [45, 5386, 300, 26] «Infinite data scale» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 6px
+- H4 [45, 5731, 300, 26] «Zero hassle» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 6px
+- H4 [45, 6076, 300, 26] «Custom Docker images» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 6px
+- H2 [30, 6317, 331, 55] «Built for teams» fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px; padding:0px 6px 6px; margin:0px -6px 5px; textAlign:center
+- P [20, 6377, 350, 120] «Hex is collaborative by default, and makes it easy» fontSize:20px; fontWeight:300; lineHeight:30px; margin:0px 0px 25px; textAlign:center
+- H3 [81, 6921, 228, 26] «Users love Hex» fontFamily:"PP Formula"; fontSize:20px; fontWeight:800; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 4px
+- H2 [32, 7738, 326, 153] «Build anything with data» fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px; padding:0px 20px 5px; margin:0px -6px; textAlign:center
+- P [38, 7891, 314, 60] «Get started with examples of our most powerful not» fontSize:20px; fontWeight:300; lineHeight:30px; textAlign:center
+- H4 [64, 8302, 262, 26] «Ad-hoc exploration» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 6px
+- P [64, 8369, 262, 72] «Ad-hoc or deep-dive, Hex is the fastest path from » fontSize:16px; fontWeight:300; lineHeight:24px
+- H4 [64, 8743, 262, 52] «Exploratory Data Analysis» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 6px
+- P [64, 8836, 262, 120] «Understand your data before you model it. This Hex» fontSize:16px; fontWeight:300; lineHeight:24px
+- H4 [64, 9258, 262, 26] «Interactive Data stories» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 6px
+- P [64, 9325, 262, 120] «Build narrative data stories that combine charts, » fontSize:16px; fontWeight:300; lineHeight:24px
+- H4 [64, 9747, 262, 26] «No-code Notebooks» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 6px
+- P [64, 9779, 262, 48] «Powerful data exploration without writing a line o» fontSize:16px; fontWeight:300; lineHeight:24px
+- H4 [64, 10129, 262, 26] «Polyglot Notebooks» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 6px
+- P [64, 10161, 262, 48] «Polyglot notebooks for data science» fontSize:16px; fontWeight:300; lineHeight:24px
+- H4 [64, 10511, 262, 26] «SQL Notebooks» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 6px
+- P [64, 10578, 262, 120] «Write SQL alongside Python, charts, and narrative » fontSize:16px; fontWeight:300; lineHeight:24px

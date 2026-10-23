@@ -1,0 +1,130 @@
+{
+  "data": [
+    {
+      "title": "(top, no title)",
+      "rows": [
+        "Unlimited users | ✓ | ✓ | ✓ | ✓",
+        "Hex agent | ✓ | ✓ | ✓ | ✓",
+        "Credits {tip} | Limited | Standard | Extended | Premium",
+        "Published apps {tip} | Up to 5 | Up to 5 | Unlimited | Unlimited",
+        "Explorer role {tip} | — | — | — | Per seat add-on"
+      ]
+    },
+    {
+      "title": "Data",
+      "rows": [
+        "Project connections | ✓ | ✓ | ✓ | ✓",
+        "Workspace connections | ✓ | ✓ | ✓ | ✓",
+        "Data permissions {tip} | — | Restrict editing | Restrict editing | Restrict editing & viewing",
+        "Custom SQL formatting | — | ✓ | ✓ | ✓",
+        "Explore & View data {tip} | — | — | ✓ | ✓",
+        "SSH | — | ✓ | ✓ | ✓",
+        "Compute profiles | Small | Medium | Advanced compute add-ons | Advanced compute add-ons",
+        "Environment {tip} | Standard Python libraries | Standard Python libraries | Standard Python libraries | Custom Docker image add-ons",
+        "Semantic models {tip} | — | — | ✓ | ✓"
+      ]
+    },
+    {
+      "title": "Collaboration",
+      "rows": [
+        "Collections {tip} | — | Up to 3 shared collections | Unlimited | Unlimited",
+        "Components {tip} | — | Up to 3 shared components | Unlimited | Unlimited",
+        "Auto-archive {tip} | — | — | ✓ | ✓",
+        "Scheduled runs & alerts {tip} | — | — | ✓ | ✓",
+        "Version history | 7-day | 30-day | Unlimited | Unlimited",
+        "Reviews {tip} | — | — | ✓ | ✓",
+        "Custom labels {tip} | — | — | ✓ | ✓",
+        "Custom branding {tip} | — | — | Up to 1 custom app theme | Up to 5 custom app themes",
+        "Snapshots {tip} | — | ✓ | ✓ | ✓",
+        "Presentation mode | — | ✓ | ✓ | ✓",
+        "Git project export and package import | — | — | ✓ | ✓"
+      ]
+    },
+    {
+      "title": "Administration",
+      "rows": [
+        "User groups {tip} | — | — | ✓ | ✓",
+        "Usage reports {tip} | — | — | ✓ | ✓",
+        "Integrations {tip} | — | — | Airflow, Dagster, dbt | Airflow, Dagster, dbt",
+        "REST APIs {tip} | — | — | ✓ | ✓",
+        "Observability API {tip} | — | — | — | ✓",
+        "Marketplace offerings | — | — | — | AWS Marketplace / Snowflake Marketplace"
+      ]
+    },
+    {
+      "title": "Security",
+      "rows": [
+        "OIDC SSO | — | — | — | ✓",
+        "OAuth {tip} | — | — | — | ✓",
+        "Audit logging {tip} | — | — | — | ✓",
+        "Bring Your Own Key (BYOK) {tip} | — | — | — | OpenAI and Anthropic",
+        "Deployment | Multi-tenant | Multi-tenant | EU Multi-tenant (contract only) or multi-tenant | Single, EU Multi-tenant or multi-tenant"
+      ]
+    },
+    {
+      "title": "Support",
+      "rows": [
+        "Support (9am-5pm PT M-F) | Email | Email | Email, in-product messenger* with priority SLA / *Available but not offered in all cases | Email, in-product messenger, Slack*, Microsoft Teams* with Enterprise SLA / *Available but not offered in all cases",
+        "Learning & training | Technical documentation, group learning sessions | Technical documentation, group learning sessions | Technical documentationgroup learning sessionslive training* / *Available but not offered in all cases | Technical documentationlive onboardingby-request product education sessionsdedicated Customer Engineer*dedicated Product Expert* / *Available but not offered in all cases"
+      ]
+    }
+  ],
+  "labStyle": [
+    "14px",
+    "21.994px",
+    "rgb(245, 192, 192)",
+    "2px dotted color(srgb 0.960784 0.752941 0.752941 / 0.5)",
+    "default",
+    "Credits"
+  ],
+  "tipEls": [],
+  "cellStyles": {
+    "cell": [
+      "12px 10px",
+      "0px none rgb(255, 255, 255)",
+      "0px none rgb(255, 255, 255)",
+      "start",
+      "flex",
+      "normal"
+    ],
+    "label": [
+      "14px",
+      "21.994px",
+      "rgb(245, 192, 192)",
+      "12px 10px 12px 0px"
+    ],
+    "textCell": [
+      "14px",
+      "21.994px",
+      "rgb(255, 255, 255)",
+      "Limited"
+    ],
+    "h4": [
+      "\"PP Formula\"",
+      "20px",
+      "26px",
+      "600",
+      "rgb(255, 255, 255)",
+      "0px 0px 10px",
+      "0px"
+    ],
+    "footnote": [
+      "10px",
+      "18px",
+      "rgb(227, 178, 179)",
+      "1"
+    ]
+  },
+  "stickyState": {
+    "pos": "relative",
+    "top": "0px",
+    "rectTopAfterScroll": -203,
+    "h": 122,
+    "bg": "rgba(0, 0, 0, 0)",
+    "innerBg": "rgba(0, 0, 0, 0)",
+    "innerShadow": "none",
+    "transform": "none",
+    "styleAttr": null,
+    "innerStyle": "min-height: 0px;"
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "id": "hero.careers",
+  "category": "hero",
+  "purpose": "Careers hero: centred two-line H1, lead + emphasis and CTAs framed by a wall of team photos that blur in.",
+  "variants": [],
+  "content": {
+    "italicLine": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 3,
+      "observedWords": [
+        2
+      ],
+      "measuredFrom": [
+        "specs/company.md:187"
+      ]
+    },
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 4,
+      "observedWords": [
+        3
+      ],
+      "measuredFrom": [
+        "specs/company.md:187"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 22,
+      "observedWords": [
+        17
+      ],
+      "measuredFrom": [
+        "specs/company.md:187"
+      ]
+    },
+    "emphasis": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 24,
+      "observedWords": [
+        19
+      ],
+      "measuredFrom": [
+        "specs/company.md:187"
+      ]
+    },
+    "actions": {
+      "kind": "list",
+      "required": true,
+      "minItems": 1,
+      "maxItems": 2,
+      "measuredFrom": [
+        "specs/company.md:187"
+      ],
+      "item": {
+        "kind": "action",
+        "required": true,
+        "label": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 10,
+          "observedWords": [
+            4,
+            3,
+            4,
+            8
+          ],
+          "measuredFrom": [
+            "CLONE_SPEC.md:208",
+            "specs/product.md:258",
+            "specs/solutions.md:291"
+          ]
+        },
+        "variants": [
+          "primary",
+          "secondary"
+        ],
+        "sizes": [
+          "lg"
+        ]
+      }
+    },
+    "photos": {
+      "kind": "list",
+      "required": true,
+      "minItems": 38,
+      "maxItems": 38,
+      "measuredFrom": [
+        "specs/company.md:184"
+      ],
+      "item": {
+        "kind": "media",
+        "required": true,
+        "roles": [
+          "photo.person"
+        ],
+        "alt": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 18,
+          "observedWords": [
+            14,
+            14
+          ],
+          "measuredFrom": [
+            "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+            "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+          ]
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "photo-wall-blur-in"
+    ],
+    "default": "photo-wall-blur-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.phone-sm}",
+      "change": "horizontal-scroll",
+      "detail": "photo rows remain, horizontally clipped; CTAs stack",
+      "measuredFrom": [
+        "specs/company.md:191"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/company.md:184",
+    "reference/pages/company/careers-hero-viewport-1440.png"
+  ],
+  "wordBudgets": {
+    "actions[].label": 10,
+    "description": 22,
+    "emphasis": 24,
+    "headline": 4,
+    "italicLine": 3,
+    "photos[].alt": 18
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "photo.person"
+  ],
+  "usedByTemplates": [
+    "template.careers"
+  ],
+  "observedThemes": [
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__hero.careers",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

@@ -1,0 +1,166 @@
+{
+  "id": "feature.ethos-cards",
+  "category": "feature",
+  "purpose": "Two glass cards with eyebrow pill, gradient H2, body + bullets and a CTA over a framed illustration.",
+  "variants": [],
+  "content": {
+    "cards": {
+      "kind": "list",
+      "required": true,
+      "minItems": 2,
+      "maxItems": 2,
+      "measuredFrom": [
+        "CLONE_SPEC.md:340"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "eyebrow": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 4,
+            "observedWords": [
+              3
+            ],
+            "measuredFrom": [
+              "CLONE_SPEC.md:344"
+            ]
+          },
+          "title": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 19,
+            "observedWords": [
+              15
+            ],
+            "measuredFrom": [
+              "CLONE_SPEC.md:344"
+            ]
+          },
+          "body": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 17,
+            "observedWords": [
+              13
+            ],
+            "measuredFrom": [
+              "CLONE_SPEC.md:345"
+            ]
+          },
+          "bullets": {
+            "kind": "list",
+            "required": false,
+            "minItems": 0,
+            "maxItems": 3,
+            "measuredFrom": [
+              "CLONE_SPEC.md:344"
+            ],
+            "item": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 20,
+              "observedWords": [
+                16
+              ],
+              "measuredFrom": [
+                "CLONE_SPEC.md:344"
+              ]
+            }
+          },
+          "action": {
+            "kind": "action",
+            "required": true,
+            "label": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 10,
+              "observedWords": [
+                4,
+                3,
+                4,
+                8
+              ],
+              "measuredFrom": [
+                "CLONE_SPEC.md:208",
+                "specs/product.md:258",
+                "specs/solutions.md:291"
+              ]
+            },
+            "variants": [
+              "primary"
+            ],
+            "sizes": [
+              "lg",
+              "md"
+            ]
+          },
+          "illustration": {
+            "kind": "media",
+            "required": true,
+            "roles": [
+              "illustration.decorative"
+            ],
+            "alt": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 18,
+              "observedWords": [
+                14,
+                14
+              ],
+              "measuredFrom": [
+                "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+                "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "stack-columns",
+      "detail": "single column",
+      "measuredFrom": [
+        "CLONE_SPEC.md:346"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "homeRouteOnly": true
+  },
+  "measuredFrom": [
+    "CLONE_SPEC.md:339"
+  ],
+  "wordBudgets": {
+    "cards[].action.label": 10,
+    "cards[].body": 17,
+    "cards[].bullets[]": 20,
+    "cards[].eyebrow": 4,
+    "cards[].illustration.alt": 18,
+    "cards[].title": 19
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "illustration.decorative"
+  ],
+  "usedByTemplates": [
+    "template.home"
+  ],
+  "observedThemes": [
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__feature.ethos-cards",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

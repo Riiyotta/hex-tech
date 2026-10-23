@@ -1,0 +1,2735 @@
+{
+  "$description": "Every real route of the clone mapped to exactly one template, with the node sequence observed on that route.",
+  "routes": [
+    {
+      "path": "/",
+      "routePattern": "(index)",
+      "template": "template.home",
+      "family": "home",
+      "theme": "light",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.home",
+          null
+        ],
+        [
+          "proof.customer-banner",
+          "framed"
+        ],
+        [
+          "feature.built-different",
+          null
+        ],
+        [
+          "feature.split",
+          "chat-tools"
+        ],
+        [
+          "feature.split",
+          "org-cycle"
+        ],
+        [
+          "feature.split",
+          "project-windows"
+        ],
+        [
+          "feature.split",
+          "dashboard-evals"
+        ],
+        [
+          "feature.ethos-cards",
+          null
+        ],
+        [
+          "proof.stories-two-up",
+          "two-up"
+        ],
+        [
+          "feature.use-cases",
+          null
+        ],
+        [
+          "proof.story-tout",
+          null
+        ],
+        [
+          "feature.integrations-grid",
+          null
+        ],
+        [
+          "conversion.bottom-cta",
+          null
+        ],
+        [
+          "divider.tron",
+          "default"
+        ],
+        [
+          "faq.accordion",
+          "home"
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes.jsx:22",
+        "reference/hex-1440-full.png"
+      ]
+    },
+    {
+      "path": "/product/bi/",
+      "routePattern": "product/bi",
+      "template": "template.product-feature",
+      "family": "productCore",
+      "theme": "light",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.product",
+          "illustration"
+        ],
+        [
+          "proof.customer-banner",
+          "framed"
+        ],
+        [
+          "feature.section-heading",
+          "display"
+        ],
+        [
+          "feature.split",
+          "chat-tools"
+        ],
+        [
+          "feature.split",
+          "image"
+        ],
+        [
+          "feature.split",
+          "dashboard-evals"
+        ],
+        [
+          "feature.split",
+          "chat-tools"
+        ],
+        [
+          "feature.approach-cards",
+          null
+        ],
+        [
+          "collection.resource-cards",
+          "with-compare"
+        ],
+        [
+          "faq.accordion",
+          "page"
+        ],
+        [
+          "conversion.outro-tout",
+          "default"
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/productCore.jsx:10",
+        "reference/pages/product/bi-1440-full.png"
+      ]
+    },
+    {
+      "path": "/product/cli/",
+      "routePattern": "product/cli",
+      "template": "template.product-feature",
+      "family": "productCore",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.product",
+          "terminal"
+        ],
+        [
+          "proof.full-width-quote",
+          null
+        ],
+        [
+          "feature.section-heading",
+          "display"
+        ],
+        [
+          "feature.info-card-grid",
+          "default"
+        ],
+        [
+          "feature.command-list",
+          null
+        ],
+        [
+          "feature.workflow-table",
+          null
+        ],
+        [
+          "conversion.install-cta",
+          null
+        ],
+        [
+          "conversion.outro-tout",
+          "default"
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/productCore.jsx:11",
+        "reference/pages/product/cli-1440-full.png"
+      ]
+    },
+    {
+      "path": "/product/context-studio/",
+      "routePattern": "product/context-studio",
+      "template": "template.product-feature",
+      "family": "productCore",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.product",
+          "video"
+        ],
+        [
+          "feature.platform-overview",
+          null
+        ],
+        [
+          "feature.info-card-grid",
+          "default"
+        ],
+        [
+          "feature.observability-callouts",
+          null
+        ],
+        [
+          "feature.info-card-grid",
+          "default"
+        ],
+        [
+          "proof.full-width-quote",
+          null
+        ],
+        [
+          "feature.bento-cells",
+          null
+        ],
+        [
+          "proof.stories-two-up",
+          "two-up"
+        ],
+        [
+          "conversion.outro-tout",
+          "default"
+        ],
+        [
+          "faq.accordion",
+          "page"
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/productCore.jsx:12",
+        "reference/pages/product/context-studio-1440-full.png"
+      ]
+    },
+    {
+      "path": "/product/threads/",
+      "routePattern": "product/threads",
+      "template": "template.product-feature",
+      "family": "productMore",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.product",
+          "video"
+        ],
+        [
+          "proof.full-width-quote",
+          null
+        ],
+        [
+          "feature.split",
+          "image"
+        ],
+        [
+          "feature.split",
+          "image"
+        ],
+        [
+          "feature.split",
+          "image"
+        ],
+        [
+          "feature.bento-cells",
+          null
+        ],
+        [
+          "proof.quotes-marquee",
+          "single-row"
+        ],
+        [
+          "feature.perlin-callout",
+          null
+        ],
+        [
+          "conversion.outro-tout",
+          "default"
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/productMore.jsx:9",
+        "reference/pages/product/threads-1440-full.png"
+      ]
+    },
+    {
+      "path": "/product/notebooks/",
+      "routePattern": "product/notebooks",
+      "template": "template.product-feature",
+      "family": "productMore",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.product",
+          "voronoi"
+        ],
+        [
+          "proof.customer-banner",
+          "minimal"
+        ],
+        [
+          "feature.magic",
+          null
+        ],
+        [
+          "proof.full-width-quote",
+          null
+        ],
+        [
+          "feature.cell-collage",
+          null
+        ],
+        [
+          "feature.cell-collage",
+          null
+        ],
+        [
+          "feature.cell-collage",
+          null
+        ],
+        [
+          "feature.execution-dag",
+          null
+        ],
+        [
+          "conversion.wallpaper-cta",
+          null
+        ],
+        [
+          "proof.social-tout",
+          "g2-and-quote"
+        ],
+        [
+          "collection.template-cards",
+          null
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/productMore.jsx:10",
+        "reference/pages/product/notebooks-1440-full.png"
+      ]
+    },
+    {
+      "path": "/capability/ai/",
+      "routePattern": "capability/ai",
+      "template": "template.product-feature",
+      "family": "productMore",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.product",
+          "prompt"
+        ],
+        [
+          "feature.workflow-split",
+          null
+        ],
+        [
+          "proof.quotes-marquee",
+          "single-row"
+        ],
+        [
+          "feature.demo-accordion",
+          null
+        ],
+        [
+          "feature.perlin-callout",
+          null
+        ],
+        [
+          "feature.demo-accordion",
+          null
+        ],
+        [
+          "feature.info-card-grid",
+          "eyebrowed"
+        ],
+        [
+          "conversion.outro-tout",
+          "default"
+        ],
+        [
+          "faq.accordion",
+          "page"
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/productMore.jsx:11",
+        "reference/pages/product/capability-ai-1440-full.png"
+      ]
+    },
+    {
+      "path": "/product/data-apps/",
+      "routePattern": "product/data-apps",
+      "template": "template.product-v1",
+      "family": "productV1",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.v1",
+          "app-builder"
+        ],
+        [
+          "proof.customer-banner",
+          "minimal"
+        ],
+        [
+          "feature.codegen-gallery",
+          null
+        ],
+        [
+          "feature.snaked-rows",
+          null
+        ],
+        [
+          "proof.social-tout",
+          "quote-pair"
+        ],
+        [
+          "conversion.collage-cta",
+          null
+        ],
+        [
+          "conversion.outro-tout",
+          "default"
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/productV1.jsx:14",
+        "reference/pages/product/data-apps-1440-full.png"
+      ]
+    },
+    {
+      "path": "/product/embedded-analytics/",
+      "routePattern": "product/embedded-analytics",
+      "template": "template.product-v1",
+      "family": "productV1",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.v1",
+          "centered"
+        ],
+        [
+          "proof.customer-banner",
+          "minimal"
+        ],
+        [
+          "feature.section-heading",
+          "v1-panel"
+        ],
+        [
+          "feature.v1-two-up",
+          null
+        ],
+        [
+          "feature.v1-two-up",
+          null
+        ],
+        [
+          "feature.v1-two-up",
+          null
+        ],
+        [
+          "feature.v1-two-up",
+          null
+        ],
+        [
+          "proof.social-tout",
+          "quote-pair"
+        ],
+        [
+          "feature.section-heading",
+          "v1-panel"
+        ],
+        [
+          "feature.icon-row",
+          null
+        ],
+        [
+          "conversion.outro-tout",
+          "default"
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/productV1.jsx:15",
+        "reference/pages/product/embedded-analytics-1440-full.png"
+      ]
+    },
+    {
+      "path": "/capability/exploratory-analysis/",
+      "routePattern": "capability/exploratory-analysis",
+      "template": "template.product-v1",
+      "family": "productV1",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.v1",
+          "centered"
+        ],
+        [
+          "proof.social-tout",
+          "single-quote"
+        ],
+        [
+          "feature.section-heading",
+          "v1-panel"
+        ],
+        [
+          "feature.v1-two-up",
+          null
+        ],
+        [
+          "feature.v1-two-up",
+          null
+        ],
+        [
+          "feature.v1-two-up",
+          null
+        ],
+        [
+          "feature.v1-two-up",
+          null
+        ],
+        [
+          "feature.v1-two-up",
+          null
+        ],
+        [
+          "feature.section-heading",
+          "v1-panel"
+        ],
+        [
+          "collection.template-cards",
+          null
+        ],
+        [
+          "conversion.outro-tout",
+          "default"
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/productV1.jsx:16",
+        "reference/pages/product/capability-exploratory-analysis-1440-full.png"
+      ]
+    },
+    {
+      "path": "/product/switching-to-hex/",
+      "routePattern": "product/switching-to-hex",
+      "template": "template.long-form-guide",
+      "family": "productV1",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.guide-document",
+          null
+        ],
+        [
+          "content.guide-chapter",
+          null
+        ],
+        [
+          "content.guide-chapter",
+          null
+        ],
+        [
+          "content.guide-chapter",
+          null
+        ],
+        [
+          "proof.quotes-marquee",
+          "single-row"
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/productV1.jsx:18",
+        "reference/pages/product/switching-to-hex-1440-full.png"
+      ]
+    },
+    {
+      "path": "/product/integrations/",
+      "routePattern": "product/integrations",
+      "template": "template.integrations-index",
+      "family": "productV1",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.heading-with-callout",
+          null
+        ],
+        [
+          "collection.integration-category",
+          null
+        ],
+        [
+          "collection.integration-category",
+          null
+        ],
+        [
+          "collection.integration-category",
+          null
+        ],
+        [
+          "collection.integration-category",
+          null
+        ],
+        [
+          "collection.integration-category",
+          null
+        ],
+        [
+          "collection.integration-category",
+          null
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/productV1.jsx:17",
+        "reference/pages/product/integrations-1440-full.png"
+      ]
+    },
+    {
+      "path": "/product/integrations/airflow/",
+      "routePattern": "product/integrations/:slug",
+      "template": "template.integration-detail",
+      "family": "productV1",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.integration",
+          null
+        ],
+        [
+          "divider.tron",
+          "default"
+        ],
+        [
+          "feature.how-it-works",
+          null
+        ],
+        [
+          "feature.video-embed",
+          null
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/productV1.jsx:22",
+        "reference/pages/product/integrations-airflow-1440-full.png",
+        "specs/product-integrations.json:453"
+      ]
+    },
+    {
+      "path": "/product/integrations/aws/",
+      "routePattern": "product/integrations/:slug",
+      "template": "template.integration-detail",
+      "family": "productV1",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.integration",
+          null
+        ],
+        [
+          "divider.tron",
+          "default"
+        ],
+        [
+          "feature.how-it-works",
+          null
+        ],
+        [
+          "feature.integration-custom-blocks",
+          null
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/productV1.jsx:22",
+        "reference/pages/product/integrations-athena-1440-full.png",
+        "specs/product-integrations.json:388"
+      ]
+    },
+    {
+      "path": "/product/integrations/bigquery/",
+      "routePattern": "product/integrations/:slug",
+      "template": "template.integration-detail",
+      "family": "productV1",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.integration",
+          null
+        ],
+        [
+          "proof.stories-two-up",
+          "quotes-multiple"
+        ],
+        [
+          "divider.tron",
+          "default"
+        ],
+        [
+          "feature.how-it-works",
+          null
+        ],
+        [
+          "collection.external-links",
+          null
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/productV1.jsx:22",
+        "reference/pages/product/integrations-bigquery-1440-full.png",
+        "specs/product-integrations.json:315"
+      ]
+    },
+    {
+      "path": "/product/integrations/clickhouse/",
+      "routePattern": "product/integrations/:slug",
+      "template": "template.integration-detail",
+      "family": "productV1",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.integration",
+          null
+        ],
+        [
+          "divider.tron",
+          "default"
+        ],
+        [
+          "feature.how-it-works",
+          null
+        ],
+        [
+          "feature.video-embed",
+          null
+        ],
+        [
+          "collection.external-links",
+          null
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/productV1.jsx:22",
+        "reference/pages/product/integrations-clickhouse-1440-full.png",
+        "specs/product-integrations.json:225"
+      ]
+    },
+    {
+      "path": "/product/integrations/dagster/",
+      "routePattern": "product/integrations/:slug",
+      "template": "template.integration-detail",
+      "family": "productV1",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.integration",
+          null
+        ],
+        [
+          "divider.tron",
+          "default"
+        ],
+        [
+          "feature.how-it-works",
+          null
+        ],
+        [
+          "feature.video-embed",
+          null
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/productV1.jsx:22",
+        "reference/pages/product/integrations-dagster-1440-full.png",
+        "specs/product-integrations.json:718"
+      ]
+    },
+    {
+      "path": "/product/integrations/databricks/",
+      "routePattern": "product/integrations/:slug",
+      "template": "template.integration-detail",
+      "family": "productV1",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.integration",
+          null
+        ],
+        [
+          "divider.tron",
+          "default"
+        ],
+        [
+          "feature.how-it-works",
+          null
+        ],
+        [
+          "feature.integration-custom-blocks",
+          null
+        ],
+        [
+          "faq.accordion",
+          "page"
+        ],
+        [
+          "collection.external-links",
+          null
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/productV1.jsx:22",
+        "reference/pages/product/integrations-databricks-1440-full.png",
+        "specs/product-integrations.json:508"
+      ]
+    },
+    {
+      "path": "/product/integrations/dbt/",
+      "routePattern": "product/integrations/:slug",
+      "template": "template.integration-detail",
+      "family": "productV1",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.integration",
+          null
+        ],
+        [
+          "proof.stories-two-up",
+          "quotes-multiple"
+        ],
+        [
+          "divider.tron",
+          "default"
+        ],
+        [
+          "feature.how-it-works",
+          null
+        ],
+        [
+          "collection.external-links",
+          null
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/productV1.jsx:22",
+        "reference/pages/product/integrations-dbt-1440-full.png",
+        "specs/product-integrations.json:630"
+      ]
+    },
+    {
+      "path": "/product/integrations/dremio/",
+      "routePattern": "product/integrations/:slug",
+      "template": "template.integration-detail",
+      "family": "productV1",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.integration",
+          null
+        ],
+        [
+          "divider.tron",
+          "default"
+        ],
+        [
+          "feature.how-it-works",
+          null
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/productV1.jsx:22",
+        "reference/pages/product/integrations-dremio-1440-full.png",
+        "specs/product-integrations.json:576"
+      ]
+    },
+    {
+      "path": "/product/integrations/github/",
+      "routePattern": "product/integrations/:slug",
+      "template": "template.integration-detail",
+      "family": "productV1",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.integration",
+          null
+        ],
+        [
+          "divider.tron",
+          "default"
+        ],
+        [
+          "feature.how-it-works",
+          null
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/productV1.jsx:22",
+        "reference/pages/product/integrations-github-1440-full.png",
+        "specs/product-integrations.json:881"
+      ]
+    },
+    {
+      "path": "/product/integrations/mariadb/",
+      "routePattern": "product/integrations/:slug",
+      "template": "template.integration-detail",
+      "family": "productV1",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.integration",
+          null
+        ],
+        [
+          "divider.tron",
+          "default"
+        ],
+        [
+          "feature.how-it-works",
+          null
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/productV1.jsx:22",
+        "reference/pages/product/integrations-mariadb-1440-full.png",
+        "specs/product-integrations.json:773"
+      ]
+    },
+    {
+      "path": "/product/integrations/ms-sql-server/",
+      "routePattern": "product/integrations/:slug",
+      "template": "template.integration-detail",
+      "family": "productV1",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.integration",
+          null
+        ],
+        [
+          "divider.tron",
+          "default"
+        ],
+        [
+          "feature.how-it-works",
+          null
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/productV1.jsx:22",
+        "reference/pages/product/integrations-ms-sql-server-1440-full.png",
+        "specs/product-integrations.json:827"
+      ]
+    },
+    {
+      "path": "/product/integrations/mysql/",
+      "routePattern": "product/integrations/:slug",
+      "template": "template.integration-detail",
+      "family": "productV1",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.integration",
+          null
+        ],
+        [
+          "divider.tron",
+          "default"
+        ],
+        [
+          "feature.how-it-works",
+          null
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/productV1.jsx:22",
+        "reference/pages/product/integrations-mysql-1440-full.png",
+        "specs/product-integrations.json:929"
+      ]
+    },
+    {
+      "path": "/product/integrations/postgres/",
+      "routePattern": "product/integrations/:slug",
+      "template": "template.integration-detail",
+      "family": "productV1",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.integration",
+          null
+        ],
+        [
+          "divider.tron",
+          "default"
+        ],
+        [
+          "feature.how-it-works",
+          null
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/productV1.jsx:22",
+        "reference/pages/product/integrations-postgres-1440-full.png",
+        "specs/product-integrations.json:983"
+      ]
+    },
+    {
+      "path": "/product/integrations/prefect/",
+      "routePattern": "product/integrations/:slug",
+      "template": "template.integration-detail",
+      "family": "productV1",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.integration",
+          null
+        ],
+        [
+          "divider.tron",
+          "default"
+        ],
+        [
+          "feature.how-it-works",
+          null
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/productV1.jsx:22",
+        "reference/pages/product/integrations-prefect-1440-full.png",
+        "specs/product-integrations.json:1038"
+      ]
+    },
+    {
+      "path": "/product/integrations/snowflake/",
+      "routePattern": "product/integrations/:slug",
+      "template": "template.integration-detail",
+      "family": "productV1",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.integration",
+          null
+        ],
+        [
+          "proof.stories-two-up",
+          "quotes-multiple"
+        ],
+        [
+          "divider.tron",
+          "default"
+        ],
+        [
+          "feature.how-it-works",
+          null
+        ],
+        [
+          "feature.integration-custom-blocks",
+          null
+        ],
+        [
+          "faq.accordion",
+          "page"
+        ],
+        [
+          "feature.video-embed",
+          null
+        ],
+        [
+          "collection.external-links",
+          null
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/productV1.jsx:22",
+        "reference/pages/product/integrations-snowflake-1440-full.png",
+        "specs/product-integrations.json:1205"
+      ]
+    },
+    {
+      "path": "/product/integrations/trino/",
+      "routePattern": "product/integrations/:slug",
+      "template": "template.integration-detail",
+      "family": "productV1",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.integration",
+          null
+        ],
+        [
+          "divider.tron",
+          "default"
+        ],
+        [
+          "feature.how-it-works",
+          null
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/productV1.jsx:22",
+        "reference/pages/product/integrations-trino-1440-full.png",
+        "specs/product-integrations.json:1086"
+      ]
+    },
+    {
+      "path": "/solutions/",
+      "routePattern": "solutions",
+      "template": "template.solutions-hub",
+      "family": "solutions",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.solutions-hub",
+          null
+        ],
+        [
+          "proof.customer-banner",
+          "framed"
+        ],
+        [
+          "navigation.filter-chips",
+          "solutions-hub"
+        ],
+        [
+          "collection.resource-cards",
+          "glass-grid"
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/solutions.jsx:13"
+      ]
+    },
+    {
+      "path": "/solutions/data-leaders/",
+      "routePattern": "solutions/data-leaders",
+      "template": "template.solution-detail",
+      "family": "solutions",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.solution",
+          null
+        ],
+        [
+          "proof.customer-banner",
+          "minimal"
+        ],
+        [
+          "feature.solution-row",
+          null
+        ],
+        [
+          "feature.solution-row",
+          null
+        ],
+        [
+          "feature.solution-row",
+          null
+        ],
+        [
+          "feature.section-heading",
+          "solution"
+        ],
+        [
+          "feature.solution-row",
+          null
+        ],
+        [
+          "collection.resource-cards",
+          "solution-articles"
+        ],
+        [
+          "conversion.outro-tout",
+          "band"
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/solutions.jsx:10",
+        "reference/pages/solutions/solution-data-leaders-1440-full.jpg",
+        "specs/solutions.md:74"
+      ]
+    },
+    {
+      "path": "/solutions/customer-success/",
+      "routePattern": "solutions/customer-success",
+      "template": "template.solution-detail",
+      "family": "solutions",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.solution",
+          null
+        ],
+        [
+          "proof.customer-banner",
+          "minimal"
+        ],
+        [
+          "feature.solution-row",
+          null
+        ],
+        [
+          "feature.solution-row",
+          null
+        ],
+        [
+          "feature.solution-row",
+          null
+        ],
+        [
+          "proof.social-tout",
+          "single-quote"
+        ],
+        [
+          "feature.live-app-embed",
+          null
+        ],
+        [
+          "feature.section-heading",
+          "solution"
+        ],
+        [
+          "collection.resource-cards",
+          "solution-articles"
+        ],
+        [
+          "conversion.outro-tout",
+          "band"
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/solutions.jsx:10",
+        "reference/pages/solutions/solution-customer-success-1440-full.jpg",
+        "specs/solutions.md:386"
+      ]
+    },
+    {
+      "path": "/solutions/marketing/",
+      "routePattern": "solutions/marketing",
+      "template": "template.solution-detail",
+      "family": "solutions",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.solution",
+          null
+        ],
+        [
+          "proof.customer-banner",
+          "minimal"
+        ],
+        [
+          "feature.solution-row",
+          null
+        ],
+        [
+          "proof.social-tout",
+          "single-quote"
+        ],
+        [
+          "feature.solution-row",
+          null
+        ],
+        [
+          "proof.social-tout",
+          "single-quote"
+        ],
+        [
+          "feature.solution-row",
+          null
+        ],
+        [
+          "proof.social-tout",
+          "single-quote"
+        ],
+        [
+          "feature.live-app-embed",
+          null
+        ],
+        [
+          "feature.section-heading",
+          "solution"
+        ],
+        [
+          "feature.solution-row",
+          null
+        ],
+        [
+          "collection.resource-cards",
+          "solution-articles"
+        ],
+        [
+          "conversion.outro-tout",
+          "band"
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/solutions.jsx:10",
+        "reference/pages/solutions/solution-marketing-1440-full.jpg",
+        "specs/solutions.md:443"
+      ]
+    },
+    {
+      "path": "/solutions/product-analytics/",
+      "routePattern": "solutions/product-analytics",
+      "template": "template.solution-detail",
+      "family": "solutions",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.solution",
+          null
+        ],
+        [
+          "proof.customer-banner",
+          "minimal"
+        ],
+        [
+          "feature.solution-row",
+          null
+        ],
+        [
+          "proof.social-tout",
+          "single-quote"
+        ],
+        [
+          "feature.solution-row",
+          null
+        ],
+        [
+          "feature.solution-row",
+          null
+        ],
+        [
+          "feature.solution-row",
+          null
+        ],
+        [
+          "feature.live-app-embed",
+          null
+        ],
+        [
+          "feature.section-heading",
+          "solution"
+        ],
+        [
+          "collection.resource-cards",
+          "solution-articles"
+        ],
+        [
+          "conversion.outro-tout",
+          "band"
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/solutions.jsx:10",
+        "reference/pages/solutions/solution-product-analytics-1440-full.jpg",
+        "specs/solutions.md:515"
+      ]
+    },
+    {
+      "path": "/solutions/sales-analytics/",
+      "routePattern": "solutions/sales-analytics",
+      "template": "template.solution-detail",
+      "family": "solutions",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.solution",
+          null
+        ],
+        [
+          "feature.solution-row",
+          null
+        ],
+        [
+          "feature.solution-row",
+          null
+        ],
+        [
+          "feature.solution-row",
+          null
+        ],
+        [
+          "feature.live-app-embed",
+          null
+        ],
+        [
+          "feature.section-heading",
+          "solution"
+        ],
+        [
+          "collection.resource-cards",
+          "solution-articles"
+        ],
+        [
+          "conversion.outro-tout",
+          "band"
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/solutions.jsx:10",
+        "reference/pages/solutions/solution-sales-analytics-1440-full.jpg",
+        "specs/solutions.md:578"
+      ]
+    },
+    {
+      "path": "/enterprise/",
+      "routePattern": "enterprise",
+      "template": "template.enterprise",
+      "family": "solutions",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.enterprise",
+          null
+        ],
+        [
+          "proof.customer-banner",
+          "minimal"
+        ],
+        [
+          "feature.numbered-grid",
+          null
+        ],
+        [
+          "feature.illustrated-checklist",
+          null
+        ],
+        [
+          "feature.support-grid",
+          null
+        ],
+        [
+          "feature.integrations-grid",
+          null
+        ],
+        [
+          "conversion.cta-split",
+          null
+        ],
+        [
+          "divider.tron",
+          "default"
+        ],
+        [
+          "faq.accordion",
+          "page"
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/solutions.jsx:15",
+        "reference/pages/solutions/enterprise-1440-full.jpg"
+      ]
+    },
+    {
+      "path": "/compare/",
+      "routePattern": "compare",
+      "template": "template.compare",
+      "family": "solutions",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.compare",
+          null
+        ],
+        [
+          "proof.customer-banner",
+          "framed"
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/solutions.jsx:16",
+        "reference/pages/solutions/compare-1440-full.jpg"
+      ]
+    },
+    {
+      "path": "/partners/",
+      "routePattern": "partners",
+      "template": "template.partners",
+      "family": "solutions",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.partners",
+          null
+        ],
+        [
+          "feature.partners-why",
+          null
+        ],
+        [
+          "divider.tron",
+          "default"
+        ],
+        [
+          "feature.partner-tiers",
+          null
+        ],
+        [
+          "collection.partners-grid",
+          null
+        ],
+        [
+          "conversion.form-shell",
+          "partner-register"
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/solutions.jsx:17"
+      ]
+    },
+    {
+      "path": "/pricing/",
+      "routePattern": "pricing",
+      "template": "template.pricing",
+      "family": "pricingForms",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.pricing",
+          null
+        ],
+        [
+          "feature.plan-summary",
+          null
+        ],
+        [
+          "proof.customer-banner",
+          "minimal"
+        ],
+        [
+          "divider.tron",
+          "default"
+        ],
+        [
+          "feature.plan-comparison",
+          null
+        ],
+        [
+          "divider.tron",
+          "flipped"
+        ],
+        [
+          "faq.accordion",
+          "page"
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/pricingForms.jsx:9"
+      ]
+    },
+    {
+      "path": "/request-a-demo/",
+      "routePattern": "request-a-demo",
+      "template": "template.form-page",
+      "family": "pricingForms",
+      "theme": "light",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.form",
+          null
+        ],
+        [
+          "conversion.form-shell",
+          "demo-request"
+        ],
+        [
+          "proof.customer-banner",
+          "minimal"
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/pricingForms.jsx:11"
+      ]
+    },
+    {
+      "path": "/contact-us/",
+      "routePattern": "contact-us",
+      "template": "template.form-page",
+      "family": "pricingForms",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.form",
+          null
+        ],
+        [
+          "conversion.form-shell",
+          "contact"
+        ],
+        [
+          "proof.customer-banner",
+          "minimal"
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/pricingForms.jsx:23",
+        "reference/pages/solutions/contact-us-1440-full.jpg"
+      ]
+    },
+    {
+      "path": "/blog/",
+      "routePattern": "blog",
+      "template": "template.blog-index",
+      "family": "companyCore",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.blog-masthead",
+          null
+        ],
+        [
+          "collection.blog-featured",
+          null
+        ],
+        [
+          "collection.blog-recent",
+          null
+        ],
+        [
+          "collection.blog-feed",
+          null
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/companyCore.jsx:14",
+        "reference/pages/company/blog-1440-full.png"
+      ]
+    },
+    {
+      "path": "/blog/introducing-generative-data-apps/",
+      "routePattern": "blog/introducing-generative-data-apps",
+      "template": "template.article",
+      "family": "companyCore",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.article",
+          null
+        ],
+        [
+          "content.article-body",
+          null
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/companyCore.jsx:15",
+        "reference/pages/company/blog_introducing-generative-data-apps-1440-full.png"
+      ]
+    },
+    {
+      "path": "/customers/",
+      "routePattern": "customers",
+      "template": "template.customers-index",
+      "family": "companyCore",
+      "theme": "light",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.customers",
+          null
+        ],
+        [
+          "proof.featured-stories-fan",
+          null
+        ],
+        [
+          "proof.quotes-marquee",
+          "dual-row"
+        ],
+        [
+          "navigation.filter-chips",
+          "customers"
+        ],
+        [
+          "collection.customer-stories",
+          "index-grid"
+        ],
+        [
+          "proof.logo-wall",
+          "customers"
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/companyCore.jsx:16",
+        "reference/pages/company/customers-1440-full.png"
+      ]
+    },
+    {
+      "path": "/customers/chime/",
+      "routePattern": "customers/:slug",
+      "template": "template.customer-story",
+      "family": "companyCore",
+      "theme": "light",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.story",
+          null
+        ],
+        [
+          "feature.story-details",
+          null
+        ],
+        [
+          "content.story-body",
+          null
+        ],
+        [
+          "collection.customer-stories",
+          "related"
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/companyCore.jsx:18",
+        "reference/pages/company/customers_chime-1440-full.png"
+      ]
+    },
+    {
+      "path": "/customers/figma/",
+      "routePattern": "customers/:slug",
+      "template": "template.customer-story",
+      "family": "companyCore",
+      "theme": "light",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.story",
+          null
+        ],
+        [
+          "feature.story-details",
+          null
+        ],
+        [
+          "content.story-body",
+          null
+        ],
+        [
+          "collection.customer-stories",
+          "related"
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/companyCore.jsx:18",
+        "reference/pages/company/customers_figma-1440-full.png"
+      ]
+    },
+    {
+      "path": "/customers/langchain/",
+      "routePattern": "customers/:slug",
+      "template": "template.customer-story",
+      "family": "companyCore",
+      "theme": "light",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.story",
+          null
+        ],
+        [
+          "feature.story-details",
+          null
+        ],
+        [
+          "content.story-body",
+          null
+        ],
+        [
+          "collection.customer-stories",
+          "related"
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/companyCore.jsx:18",
+        "reference/pages/company/customers_langchain-1440-full.png"
+      ]
+    },
+    {
+      "path": "/customers/mercor/",
+      "routePattern": "customers/:slug",
+      "template": "template.customer-story",
+      "family": "companyCore",
+      "theme": "light",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.story",
+          null
+        ],
+        [
+          "feature.story-details",
+          null
+        ],
+        [
+          "content.story-body",
+          null
+        ],
+        [
+          "collection.customer-stories",
+          "related"
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/companyCore.jsx:18",
+        "reference/pages/company/customers_mercor-1440-full.png"
+      ]
+    },
+    {
+      "path": "/customers/neo-financial/",
+      "routePattern": "customers/:slug",
+      "template": "template.customer-story",
+      "family": "companyCore",
+      "theme": "light",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.story",
+          null
+        ],
+        [
+          "feature.story-details",
+          null
+        ],
+        [
+          "content.story-body",
+          null
+        ],
+        [
+          "collection.customer-stories",
+          "related"
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/companyCore.jsx:18",
+        "reference/pages/company/customers_neo-financial-1440-full.png"
+      ]
+    },
+    {
+      "path": "/customers/notion/",
+      "routePattern": "customers/:slug",
+      "template": "template.customer-story",
+      "family": "companyCore",
+      "theme": "light",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.story",
+          null
+        ],
+        [
+          "feature.story-details",
+          null
+        ],
+        [
+          "content.story-body",
+          null
+        ],
+        [
+          "collection.customer-stories",
+          "related"
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/companyCore.jsx:18",
+        "reference/pages/company/customers_notion-1440-full.png"
+      ]
+    },
+    {
+      "path": "/customers/ramp/",
+      "routePattern": "customers/:slug",
+      "template": "template.customer-story",
+      "family": "companyCore",
+      "theme": "light",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.story",
+          null
+        ],
+        [
+          "feature.story-details",
+          null
+        ],
+        [
+          "content.story-body",
+          null
+        ],
+        [
+          "collection.customer-stories",
+          "related"
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/companyCore.jsx:18",
+        "reference/pages/company/customers_ramp-1440-full.png"
+      ]
+    },
+    {
+      "path": "/customers/stubhub/",
+      "routePattern": "customers/:slug",
+      "template": "template.customer-story",
+      "family": "companyCore",
+      "theme": "light",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.story",
+          null
+        ],
+        [
+          "feature.story-details",
+          null
+        ],
+        [
+          "content.story-body",
+          null
+        ],
+        [
+          "collection.customer-stories",
+          "related"
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/companyCore.jsx:18",
+        "reference/pages/company/customers_stubhub-1440-full.png"
+      ]
+    },
+    {
+      "path": "/about/",
+      "routePattern": "about",
+      "template": "template.about",
+      "family": "companyCore",
+      "theme": "light",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.about",
+          null
+        ],
+        [
+          "proof.customer-banner",
+          "framed"
+        ],
+        [
+          "proof.logo-wall",
+          "investors"
+        ],
+        [
+          "collection.newsroom-cards",
+          "teaser"
+        ],
+        [
+          "feature.photo-collage",
+          null
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/companyCore.jsx:19",
+        "reference/pages/company/about-1440-full.png"
+      ]
+    },
+    {
+      "path": "/careers/",
+      "routePattern": "careers",
+      "template": "template.careers",
+      "family": "companyCore",
+      "theme": "light",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.careers",
+          null
+        ],
+        [
+          "feature.highlights",
+          null
+        ],
+        [
+          "collection.open-roles",
+          null
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/companyCore.jsx:20",
+        "reference/pages/company/careers-1440-full.png"
+      ]
+    },
+    {
+      "path": "/newsroom/",
+      "routePattern": "newsroom",
+      "template": "template.newsroom",
+      "family": "companyCore",
+      "theme": "light",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.newsroom",
+          null
+        ],
+        [
+          "collection.newsroom-featured",
+          null
+        ],
+        [
+          "collection.newsroom-cards",
+          "index-grid"
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/companyCore.jsx:21",
+        "reference/pages/company/newsroom-1440-full.png"
+      ]
+    },
+    {
+      "path": "/resources/events/",
+      "routePattern": "resources/events",
+      "template": "template.v1-resource-index",
+      "family": "companyResources",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.v1-intro",
+          "split-illustration"
+        ],
+        [
+          "collection.events",
+          null
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/companyResources.jsx:12",
+        "reference/pages/company/resources_events-1440-full.png"
+      ]
+    },
+    {
+      "path": "/resources/guides/",
+      "routePattern": "resources/guides",
+      "template": "template.v1-resource-index",
+      "family": "companyResources",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.v1-intro",
+          "split-illustration"
+        ],
+        [
+          "collection.guides",
+          null
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/companyResources.jsx:13",
+        "reference/pages/company/resources_guides-1440-full.png"
+      ]
+    },
+    {
+      "path": "/resources/guides/ai-analytics/",
+      "routePattern": "resources/guides/ai-analytics",
+      "template": "template.guide-landing",
+      "family": "companyResources",
+      "theme": "light",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.guide-landing",
+          null
+        ],
+        [
+          "feature.podcast-episodes",
+          null
+        ],
+        [
+          "collection.resource-cards",
+          "glass-grid"
+        ],
+        [
+          "proof.quote-tiles",
+          null
+        ],
+        [
+          "conversion.outro-tout",
+          "default"
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/companyResources.jsx:14",
+        "reference/pages/company/resources_guides_ai-analytics-1440-full.png"
+      ]
+    },
+    {
+      "path": "/templates/",
+      "routePattern": "templates",
+      "template": "template.templates-index",
+      "family": "companyResources",
+      "theme": "dark",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.v1-intro",
+          "centered"
+        ],
+        [
+          "collection.templates-catalog",
+          null
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/companyResources.jsx:15",
+        "reference/pages/company/templates-1440-full.png"
+      ]
+    },
+    {
+      "path": "/state-of-data-teams/",
+      "routePattern": "state-of-data-teams",
+      "template": "template.report",
+      "family": "companyResources",
+      "theme": "light",
+      "layout": "standalone",
+      "observedSequence": [
+        [
+          "hero.report",
+          null
+        ],
+        [
+          "content.report-intro",
+          null
+        ],
+        [
+          "content.report-toc",
+          null
+        ],
+        [
+          "content.report-section",
+          null
+        ],
+        [
+          "content.report-section",
+          null
+        ],
+        [
+          "content.report-section",
+          null
+        ],
+        [
+          "content.report-section",
+          null
+        ],
+        [
+          "content.report-outro",
+          null
+        ],
+        [
+          "faq.accordion",
+          "report"
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes/companyResources.jsx:16",
+        "reference/pages/company/state-of-data-teams-1440-full.png"
+      ]
+    },
+    {
+      "path": "*",
+      "routePattern": "*",
+      "template": "template.placeholder",
+      "family": "fallback",
+      "theme": "light",
+      "layout": "site",
+      "observedSequence": [
+        [
+          "shell.header",
+          null
+        ],
+        [
+          "hero.placeholder",
+          null
+        ],
+        [
+          "shell.footer",
+          null
+        ]
+      ],
+      "measuredFrom": [
+        "src/routes.jsx:36"
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "path": "/product/integrations/athena/",
+      "routePattern": "product/integrations/athena",
+      "redirectTo": "/product/integrations/aws/",
+      "measuredFrom": [
+        "src/routes/productV1.jsx:19",
+        "specs/product.md:933"
+      ]
+    },
+    {
+      "path": "/product/integrations/redshift/",
+      "routePattern": "product/integrations/redshift",
+      "redirectTo": "/product/integrations/aws/",
+      "measuredFrom": [
+        "src/routes/productV1.jsx:20",
+        "specs/product.md:933"
+      ]
+    }
+  ],
+  "nonRoutes": [
+    {
+      "path": "/__theme-test/",
+      "routePattern": "__theme-test",
+      "reason": "dev-only theme bench; excluded from production builds (import.meta.env.DEV)",
+      "measuredFrom": [
+        "src/routes.jsx:25"
+      ]
+    },
+    {
+      "path": "/__theme-test/light/",
+      "routePattern": "__theme-test/light",
+      "reason": "dev-only theme bench; excluded from production builds",
+      "measuredFrom": [
+        "src/routes.jsx:26"
+      ]
+    }
+  ],
+  "routeTableSource": [
+    "src/routes.jsx:21",
+    "src/layouts/SiteShell.jsx:55"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "content.story-body",
+  "category": "content",
+  "purpose": "Customer story body: rich text column between hatched gutters; section headings and pull quotes are real, other prose is placeholder.",
+  "variants": [],
+  "content": {
+    "body": {
+      "kind": "richText",
+      "required": true,
+      "maxBlocks": 20,
+      "blockTypes": [
+        "paragraph",
+        "heading",
+        "list",
+        "quote",
+        "image",
+        "video"
+      ],
+      "maxWordsPerBlock": 122,
+      "measuredFrom": [
+        "reference/pages/company/dom/customers_mercor--CustomerStoryContent.html:1"
+      ],
+      "placeholderInClone": true
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "hide-element",
+      "detail": "hatched gutters hidden; body padding 40",
+      "measuredFrom": [
+        "specs/company.md:311"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/company.md:309",
+    "src/pages/companyCore/data/storyBodies.js:3"
+  ],
+  "wordBudgets": {},
+  "richTextBudgets": {
+    "body": {
+      "maxBlocks": 20,
+      "maxWordsPerBlock": 122,
+      "blockTypes": [
+        "paragraph",
+        "heading",
+        "list",
+        "quote",
+        "image",
+        "video"
+      ]
+    }
+  },
+  "assetRoles": [],
+  "usedByTemplates": [
+    "template.customer-story"
+  ],
+  "observedThemes": [
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__content.story-body",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

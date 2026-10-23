@@ -1,0 +1,204 @@
+176 110
+.iymHTx .Rotator__Inner-sc-3122a6b2-0 { transition: transform 0.8s cubic-bezier(0.25, 0.1, 0.25, 1); }
+.iymHTx .Rotator__Inner-sc-3122a6b2-0 .Rotator__Option-sc-3122a6b2-1:first-child { transition: opacity calc(0.363636s) cubic-bezier(0.25, 0.1, 0.25, 1); opacity: 0; }
+.iymHTx .Rotator__Inner-sc-3122a6b2-0 .Rotator__Option-sc-3122a6b2-1:nth-child(2) { transition: opacity calc(1.76s) cubic-bezier(0.25, 0.1, 0.25, 1); opacity: 1; }
+.iXkhPK .Rotator__Inner-sc-3122a6b2-0 { transition: transform 0.8s cubic-bezier(0.25, 0.1, 0.25, 1); }
+.hkFJbA { grid-column: 2 / -2; position: relative; margin: 0px auto; width: 100%; overflow: clip; display: flex; max-width: calc(1840px); border-radius: 12px; padding: clamp(12px, -0.2344rem + 3.5vw, 40px) clamp(8px, -0.9063rem + 5vw, 48px); background-image: radial-gradient(circle at 50% 130%, rgb(29, 29, 41) 0%, rgb(15, 15, 21) 80%); box-shadow: rgb(17, 17, 24) 0px 0px 24px 0px inset, rgb(47, 47, 65) 0px 0.5px 0px 0.75px, rgba(0, 0, 0, 0.01) 6px 37px 10px 0px, rgba(0, 0, 0, 0.04) 4px 24px 10px 0px, rgba(0, 0, 0, 0.14) 2px 13px 8px 0px, rgba(0, 0, 0, 0.24) 1px 6px 6px 0px, rgba(0, 0, 0, 0.27) 0px 1px 3px 0px; transform-origin: 50% 300%; animation: 673.93ms linear(0 0%, 0.003805 1%, 0.014538
+@keyframes glass-enter { 
+  0% { opacity: 0.4; transform: translateZ(-120px) translateY(60px) rotateX(-3deg); }
+}
+/* Rotator__Inner-sc-3122a6b2-0 */ .kQGMRS { display: flex; flex-direction: column; width: auto; height: auto; min-height: 0px; min-width: 0px; }
+/* Rotator__Option-sc-3122a6b2-1 */ .cCRcwZ { flex: 0 0 auto; display: flex; align-items: center; overflow: hidden; opacity: 0; min-height: 0px; min-width: 0px; }
+/* Rotator__Option-sc-3122a6b2-1 */ .cCRcwZ:first-child { opacity: 1; }
+/* Rotator__Option-sc-3122a6b2-1 */ .cCRcwZ label { width: 100%; height: 100%; }
+/* Rotator__Option-sc-3122a6b2-1 */ .cCRcwZ span { display: flex; align-items: center; flex: 1 1 auto; min-width: 0px; min-height: 0px; width: 100% !important; height: 100% !important; margin: 0px !important; vertical-align: unset !important; }
+/* Rotator__Option-sc-3122a6b2-1 */ .cbwJdw { flex: 0 0 auto; display: flex; align-items: center; overflow: hidden; min-height: 0px; min-width: 0px; opacity: 1; }
+/* Rotator__Option-sc-3122a6b2-1 */ .cbwJdw:first-child { opacity: 1; }
+/* Rotator__Option-sc-3122a6b2-1 */ .cbwJdw label { width: 100%; height: 100%; }
+/* Rotator__Option-sc-3122a6b2-1 */ .cbwJdw span { display: flex; align-items: center; flex: 1 1 auto; min-width: 0px; min-height: 0px; width: 100% !important; height: 100% !important; margin: 0px !important; vertical-align: unset !important; }
+/* Rotator__Wrapper-sc-3122a6b2-2 */ .iymHTx { display: flex; overflow: hidden; position: relative; flex: 0 0 auto; min-height: 0px; min-width: 0px; }
+/* Rotator__Wrapper-sc-3122a6b2-2 */ .iymHTx .Rotator__Inner-sc-3122a6b2-0 { transition: transform 0.8s cubic-bezier(0.25, 0.1, 0.25, 1); }
+/* Rotator__Wrapper-sc-3122a6b2-2 */ .iymHTx .Rotator__Inner-sc-3122a6b2-0 .Rotator__Option-sc-3122a6b2-1:first-child { transition: opacity calc(0.363636s) cubic-bezier(0.25, 0.1, 0.25, 1); opacity: 0; }
+/* Rotator__Wrapper-sc-3122a6b2-2 */ .iymHTx .Rotator__Inner-sc-3122a6b2-0 .Rotator__Option-sc-3122a6b2-1:nth-child(2) { transition: opacity calc(1.76s) cubic-bezier(0.25, 0.1, 0.25, 1); opacity: 1; }
+/* Rotator__Wrapper-sc-3122a6b2-2 */ .iXkhPK { display: flex; overflow: hidden; position: relative; flex: 0 0 auto; min-height: 0px; min-width: 0px; }
+/* Rotator__Wrapper-sc-3122a6b2-2 */ .iXkhPK .Rotator__Inner-sc-3122a6b2-0 { transition: transform 0.8s cubic-bezier(0.25, 0.1, 0.25, 1); }
+/* BasicPageRow__StyledLayoutGridCondensed-sc-811624ad-3 */ .bWeZIK { --content-width: min(
+    calc(100% - 2 * var(--layout-grid-condensed-padding-inline, 12px)),
+    1536px
+  ); grid-column: 2 / -2; }
+/* Button__ButtonWrapper-sc-3759e784-0 */ .bswWZk { box-sizing: content-box; position: relative; flex: 0 0 auto; display: flex; height: 40px; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; outline: none; padding: 0px 20px; user-select: none; cursor: pointer; font-size: 14px; min-width: 0px; transition: background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1); border: 1px solid var(--grid500, #3a3138); background-color: var(--fg1200); color: var(--bg300); appearance: none; margin: 0px; font-fam
+/* Button__ButtonWrapper-sc-3759e784-0 */ .bswWZk:hover { background-color: var(--grid300, #2b252c); border-color: var(--grid700, #6a565b); text-decoration: none; }
+/* Button__ButtonWrapper-sc-3759e784-0 */ .bswWZk:active { background-color: var(--grid500, #3a3138); }
+/* Button__ButtonWrapper-sc-3759e784-0 */ .bswWZk [data-icon] { color: var(--bg300); }
+/* Button__ButtonWrapper-sc-3759e784-0 */ .bswWZk:hover { background-color: var(--fg1200); }
+/* Button__ButtonWrapper-sc-3759e784-0 */ .bswWZk:focus-visible { outline: var(
+      --app-focus-outline,
+      2px solid var(--highlightColor, #F5C0C0)
+    ); outline-offset: var(--app-focus-outline-offset, 2px); }
+/* Button__ButtonWrapper-sc-3759e784-0 */ .hOiYqM { box-sizing: content-box; position: relative; flex: 0 0 auto; display: flex; height: 40px; background: transparent; outline: none; padding: 0px 20px; user-select: none; cursor: pointer; font-size: 14px; color: var(--fontColorDEFAULT, #F5C0C0); min-width: 0px; transition: background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1); border: 1px solid var(--grid500, #3a3138); appearance: none; margin: 0px; font-family: inherit; font-weight: inherit; line-height: inherit; text-align: inherit; }
+/* Button__ButtonWrapper-sc-3759e784-0 */ .hOiYqM:hover { background-color: var(--grid300, #2b252c); border-color: var(--grid700, #6a565b); text-decoration: none; }
+/* Button__ButtonWrapper-sc-3759e784-0 */ .hOiYqM:active { background-color: var(--grid500, #3a3138); }
+/* Button__ButtonWrapper-sc-3759e784-0 */ .hOiYqM:focus-visible { outline: var(
+      --app-focus-outline,
+      2px solid var(--highlightColor, #F5C0C0)
+    ); outline-offset: var(--app-focus-outline-offset, 2px); }
+/* Button__Icon-sc-3759e784-3 */ .cGJMJi { display: flex; align-items: center; justify-content: center; z-index: 2; }
+/* SolutionsHero__TopHeading-sc-5dde2743-6 */ .dWyZLl { margin: 0px; font-family: "PP Formula SemiExtended", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; color: var(--fontColorLOUD, #ffffff); font-weight: 700; line-height: 1.3; letter-spacing: -0.0308em; font-size: clamp(38px, 25.625px + 2.75vw, 60px); }
+/* SolutionsHero__LoopingHeading-sc-5dde2743-7 */ .dyMds { margin: 0px; font-family: "PP Formula SemiExtended", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; color: var(--fontColorLOUD, #ffffff); font-weight: 700; line-height: 1.3; letter-spacing: -0.025em; font-size: clamp(42px, 24px + 4vw, 74px); }
+/* BasicPageRow__Wrapper-sc-811624ad-0 */ .dcnVgA { overflow-x: clip; border-top: 1px solid var(--grid500, #3a3138); }
+/* BasicPageRow__Inner-sc-811624ad-1 */ .gNGsjY { display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%; min-width: 0px; position: relative; justify-self: center; max-width: none; padding: 0px; grid-column: 1 / -1; }
+/* BasicPageRow__StyledLayoutGridCondensed-sc-811624ad-3 */ .klRcjl { position: relative; }
+/* SolutionsHero__Description-sc-5dde2743-3 */ .hRjDqJ { margin: 0px 0px 25px; font-size: 24px; line-height: 1.5; font-weight: 300; color: var(--fontColorDEFAULT, #F5C0C0); }
+/* SolutionsHero__Description-sc-5dde2743-3 */ .hRjDqJ:last-child { margin-bottom: 0px; }
+/* SolutionsHero__Description-sc-5dde2743-3 */ @media (max-width: 450px) { .hRjDqJ { font-size: 20px; line-height: 1.5; } }
+/* SolutionResourceCard__Wrapper-sc-4bdd6a2f-1 */ .Vbukm { align-items: flex-start; cursor: pointer; display: flex; flex-direction: column; padding: 10px; position: relative; text-align: left; --gradient-x: 66.66%; --gradient-y: 50%; border-radius: 12px; background-image: radial-gradient(
+    circle at var(--gradient-x) var(--gradient-y),
+    rgba(26,26,37,0.5) 0%,
+    rgba(15,15,21,0.5) 80%
+  ); box-shadow: rgb(17, 17, 24) 0px 0px 24px 0px inset, rgb(47, 47, 65) 0px 0.5px 0px 0.75px, rgba(0, 0, 0, 0.01) 6px 37px 10px 0px, rgba(0, 0, 0, 0.04) 4px 24px 10px 0px, rgba(0, 0, 0, 0.14) 2px 13px 8px 0px, rgba(0, 0, 0, 0.24) 1px 6px 6px 0px, rgba(0, 0, 0, 0.27) 0px 1px 3px 0px; --hover-transition-d
+/* SolutionResourceCard__Wrapper-sc-4bdd6a2f-1 */ @media (hover: hover) { .Vbukm:hover { transform: translateY(-4px); box-shadow: rgba(255, 255, 255, 0.08) 0px 0px 24px 0px inset, rgba(255, 255, 255, 0.15) 0px 0.5px 0px 0.75px, rgba(0, 0, 0, 0.01) 6px 37px 10px 0px, rgba(0, 0, 0, 0.04) 4px 24px 10px 0px, rgba(0, 0, 0, 0.14) 2px 13px 8px 0px, rgba(0, 0, 0, 0.24) 1px 6px 6px 0px, rgba(0, 0, 0, 0.27) 0px 1px 3px 0px; } }
+/* SolutionsHero__LoopingHeading-sc-5dde2743-7 */ .gyIWoE { margin-inline: -6px; padding-inline: 6px; padding-bottom: 6px; margin-bottom: -6px; }
+/* SolutionsHero__LoopingHeading-sc-5dde2743-7 */ .gyIWoE.gyIWoE { text-align: center; background-color: var(--fontColorLOUD, #ffffff); background-size: 100% auto; background-repeat: repeat; background-clip: text; -webkit-text-fill-color: transparent; background-image: linear-gradient(55deg, rgb(255, 255, 255) 20%, rgba(245, 192, 192, 0.8) 100%); }
+/* SolutionsHero__LoopingHeading-sc-5dde2743-7 */ .gyIWoE.gyIWoE span { display: block; }
+/* SolutionsHero__LoopingHeading-sc-5dde2743-7 */ .gyIWoE.gyIWoE span[data-style="italic"] { font-family: "PP Editorial New", sans-serif; font-weight: 200; font-style: italic; line-height: inherit; font-size: 1.3em; }
+/* SolutionsHero__LoopingHeading-sc-5dde2743-7 */ @media (max-width: 600px) { .gyIWoE.gyIWoE span { display: inline; } }
+/* SolutionResourceCard__CardLink-sc-4bdd6a2f-0 */ .kWCIts { display: flex; }
+/* SolutionResourceCard__CardLink-sc-4bdd6a2f-0 */ .kWCIts > a { flex: 1 1 auto; display: block; color: inherit; text-decoration: none; border-bottom-width: medium; border-bottom-style: none; border-bottom-color: currentcolor; }
+/* SolutionResourceCard__CardLink-sc-4bdd6a2f-0 */ .kWCIts > a:hover { text-decoration: none; background-color: transparent; }
+/* SolutionResourceCard__Wrapper-sc-4bdd6a2f-1 */ .bqLdfO { height: 100%; padding: 0px; }
+/* SolutionResourceCard__MediaWrapper-sc-4bdd6a2f-2 */ .eprHYa { display: flex; width: 100%; position: relative; padding: 20px; }
+/* SolutionResourceCard__Illustration-sc-4bdd6a2f-3 */ .gYckAq { width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; position: absolute; inset: 0px; overflow: hidden; opacity: 0.35; border-top-right-radius: 12px; border-top-left-radius: 12px; }
+/* SolutionResourceCard__Illustration-sc-4bdd6a2f-3 */ .gYckAq svg { width: 100%; height: 100%; object-fit: contain; }
+/* SolutionResourceCard__Image-sc-4bdd6a2f-4 */ .ccWuaN { width: 100%; aspect-ratio: 16 / 9; background-color: rgb(15, 15, 21); border-radius: 4px; z-index: 1; display: flex; justify-content: center; align-items: center; border: 1px solid rgba(92, 177, 152, 0.42); overflow: hidden; box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 12px 0px; }
+/* SolutionResourceCard__Image-sc-4bdd6a2f-4 */ .ccWuaN img { max-width: 100%; }
+/* SolutionResourceCard__Image-sc-4bdd6a2f-4 */ .eJEgpF { width: 100%; aspect-ratio: 16 / 9; background-color: rgb(15, 15, 21); border-radius: 4px; z-index: 1; display: flex; justify-content: center; align-items: center; border: 1px solid rgba(205, 168, 73, 0.39); overflow: hidden; box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 12px 0px; }
+/* SolutionResourceCard__Image-sc-4bdd6a2f-4 */ .eJEgpF img { max-width: 100%; }
+/* SolutionResourceCard__Image-sc-4bdd6a2f-4 */ .fbKcla { width: 100%; aspect-ratio: 16 / 9; background-color: rgb(15, 15, 21); border-radius: 4px; z-index: 1; display: flex; justify-content: center; align-items: center; border: 1px solid rgba(95, 80, 157, 0.53); overflow: hidden; box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 12px 0px; }
+/* SolutionResourceCard__Image-sc-4bdd6a2f-4 */ .fbKcla img { max-width: 100%; }
+/* SolutionResourceCard__Image-sc-4bdd6a2f-4 */ .htwPGL { width: 100%; aspect-ratio: 16 / 9; background-color: rgb(15, 15, 21); border-radius: 4px; z-index: 1; display: flex; justify-content: center; align-items: center; border: 1px solid rgba(113, 122, 148, 0.52); overflow: hidden; box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 12px 0px; }
+/* SolutionResourceCard__Image-sc-4bdd6a2f-4 */ .htwPGL img { max-width: 100%; }
+/* SolutionResourceCard__Image-sc-4bdd6a2f-4 */ .tKAJW { width: 100%; aspect-ratio: 16 / 9; background-color: rgb(15, 15, 21); border-radius: 4px; z-index: 1; display: flex; justify-content: center; align-items: center; border: 1px solid rgba(164, 119, 178, 0.5); overflow: hidden; box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 12px 0px; }
+/* SolutionResourceCard__Image-sc-4bdd6a2f-4 */ .tKAJW img { max-width: 100%; }
+/* SolutionResourceCard__Image-sc-4bdd6a2f-4 */ .irCwaZ { width: 100%; aspect-ratio: 16 / 9; background-color: rgb(15, 15, 21); border-radius: 4px; z-index: 1; display: flex; justify-content: center; align-items: center; border: 1px solid rgba(251, 249, 249, 0.19); overflow: hidden; box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 12px 0px; }
+/* SolutionResourceCard__Image-sc-4bdd6a2f-4 */ .irCwaZ img { max-width: 100%; }
+/* SolutionResourceCard__PlaceholderLabel-sc-4bdd6a2f-5 */ .cEuyXt { font-size: 10px; color: rgb(76, 62, 68); }
+/* SolutionResourceCard__Content-sc-4bdd6a2f-6 */ .hfDrYx { padding: 24px; display: flex; flex-direction: column; gap: 10px; }
+/* SolutionResourceCard__ContentType-sc-4bdd6a2f-7 */ .cEvOIy { font-size: 10px; color: rgb(227, 178, 179); background-color: rgb(15, 15, 21); border: 1px solid rgb(76, 62, 68); padding: 1px 4px; border-radius: 1px; align-self: flex-start; }
+/* SolutionResourceCard__Metadata-sc-4bdd6a2f-8 */ .dNTrFO { display: flex; flex-direction: column; gap: 4px; }
+/* SolutionResourceCard__MetadataRow-sc-4bdd6a2f-9 */ .ftgVqA { display: flex; gap: 2px 8px; flex-wrap: wrap; font-size: 10px; color: rgba(255, 255, 255, 0.447); }
+/* SolutionResourceCard__SolutionTag-sc-4bdd6a2f-10 */ .iGduus { color: rgb(92, 177, 152); }
+/* SolutionResourceCard__SolutionTag-sc-4bdd6a2f-10 */ .kGFfTH { color: rgb(205, 168, 73); }
+/* SolutionResourceCard__SolutionTag-sc-4bdd6a2f-10 */ .jsPyQf { color: rgb(95, 80, 157); }
+/* SolutionResourceCard__SolutionTag-sc-4bdd6a2f-10 */ .dngRdV { color: rgb(113, 122, 148); }
+/* SolutionResourceCard__SolutionTag-sc-4bdd6a2f-10 */ .feOPxN { color: rgb(164, 119, 178); }
+/* SolutionResourceCard__SolutionTag-sc-4bdd6a2f-10 */ .kNqpUA { color: rgb(251, 249, 249); }
+/* SolutionsGrid__Wrapper-sc-892bd847-0 */ .fFHBje { display: grid; gap: 20px; grid-template-columns: repeat(3, 1fr); }
+/* SolutionsGrid__Wrapper-sc-892bd847-0 */ @media (max-width: 1000px) { .fFHBje { grid-template-columns: repeat(2, 1fr); } }
+/* SolutionsGrid__Wrapper-sc-892bd847-0 */ @media (max-width: 800px) { .fFHBje { grid-template-columns: 1fr; } }
+/* HeroAnimated__TopGridLines-sc-af841905-0 */ .eZNayg { height: 156px; border-bottom: 1px solid var(--grid300, #2b252c); }
+/* HeroAnimated__TopGridLines-sc-af841905-0 */ @media (max-width: 450px) { .eZNayg { height: 124px; } }
+/* HeroAnimated__AccentL-sc-af841905-1 */ .hECeZj { position: absolute; bottom: -1px; border-bottom: 1px solid rgb(227, 178, 179); height: 6px; width: 6px; z-index: 1; }
+/* HeroAnimated__AccentL-sc-af841905-1 */ .hECeZj[data-position="br"] { right: -1px; border-right: 1px solid rgb(227, 178, 179); }
+/* HeroAnimated__AccentL-sc-af841905-1 */ .hECeZj[data-position="bl"] { left: -1px; border-left: 1px solid rgb(227, 178, 179); }
+/* HeroAnimated__Bg-sc-af841905-2 */ .eHEcZt { position: relative; background-color: rgb(12, 12, 17); background-image: url("data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"4\" height=\"4\"><rect width=\"2\" height=\"2\" fill=\"rgba(245%2C192%2C192%2C0.056)\" /><rect x=\"2\" y=\"2\" width=\"2\" height=\"2\" fill=\"rgba(245%2C192%2C192%2C0.056)\"/></svg>"); padding: clamp(12px, 0.3281rem + 1.5vw, 24px) clamp(0px, -0.4219rem + 1.5vw, 12px) clamp(16px, 0.4375rem + 2vw, 32px); perspective: 1000px; }
+/* HeroAnimated__Bg-sc-af841905-2 */ .eHEcZt::before { content: ""; position: absolute; inset: 0px; pointer-events: none; background-image: var(--texture-paper-img); background-size: var(--texture-paper-size); opacity: var(--texture-paper-opacity); mix-blend-mode: var(--texture-paper-mixBlendMode); }
+/* SolutionsHero__Wrapper-sc-5dde2743-0 */ .hkFJbA { grid-column: 2 / -2; position: relative; margin: 0px auto; width: 100%; overflow: clip; display: flex; max-width: calc(1840px); border-radius: 12px; padding: clamp(12px, -0.2344rem + 3.5vw, 40px) clamp(8px, -0.9063rem + 5vw, 48px); background-image: radial-gradient(circle at 50% 130%, rgb(29, 29, 41) 0%, rgb(15, 15, 21) 80%); box-shadow: rgb(17, 17, 24) 0px 0px 24px 0px inset, rgb(47, 47, 65) 0px 0.5px 0px 0.75px, rgba(0, 0, 0, 0.01) 6px 37px 10px 0px, rgba(0, 0, 0, 0.04) 4px 24px 10px 0px, rgba(0, 0, 0, 0.14) 2px 13px 8px 0px, rgba(0, 0, 0, 0.24) 1px 6px 6px 0px, rgba(0, 0, 0, 0.27) 0px 1px 3px 0px; transform-origin: 50% 300%; animation: 
+/* SolutionsHero__Wrapper-sc-5dde2743-0 */ @media (max-width: 450px) { .hkFJbA { min-height: 620px; } }
+/* SolutionsHero__Wrapper-sc-5dde2743-0 */ .ctnDqy { padding: 0px; }
+/* SolutionsHero__Wrapper-sc-5dde2743-0 */ @media (max-width: 600px) { .ctnDqy { min-height: 0px; } }
+/* SolutionsHero__Inner-sc-5dde2743-1 */ .ecskoo { display: flex; align-items: center; justify-content: center; padding: 80px 40px 79px; width: 100%; height: 100%; position: relative; }
+/* SolutionsHero__Inner-sc-5dde2743-1 */ .ecskoo::before { z-index: 1; content: ""; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; background-image: url("/images/solutions/illustration-solutions-hero-bkg.svg"); background-repeat: repeat; background-size: 246px auto; background-position: center 24px; mask-image: radial-gradient(circle, rgba(0, 0, 0, 0.62) 40%, rgba(0, 0, 0, 0.05) 100%); }
+/* SolutionsHero__Content-sc-5dde2743-2 */ .chljJJ { display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%; text-align: center; position: relative; z-index: 2; }
+/* SolutionsHero__Description-sc-5dde2743-3 */ .gdkyjG { width: 100%; max-width: 600px; margin-bottom: 30px; }
+/* SolutionsHero__Actions-sc-5dde2743-4 */ .gxjfcR { display: flex; gap: 16px; }
+/* SolutionsHero__RotatorWrapper-sc-5dde2743-5 */ .jtyKOb { display: flex; align-items: center; justify-content: center; margin-bottom: 20px; position: relative; }
+/* SolutionsHero__RotatorWrapper-sc-5dde2743-5 */ .jtyKOb::before { content: ""; display: block; position: absolute; inset: 0px; pointer-events: none; z-index: 1; border-top: 1px dashed var(--grid500, #3a3138); border-bottom: 1px dashed var(--grid500, #3a3138); mask-image: linear-gradient(to left, transparent 0%, white 15%, white 85%, transparent 100%); }
+/* SolutionsHero__TopHeading-sc-5dde2743-6 */ .bXVnsf { font-family: "PP Editorial New", sans-serif; font-weight: 200; font-style: italic; font-size: 60px; letter-spacing: 0px; color: var(--fontColorDEFAULT, #F5C0C0); }
+/* SolutionsHero__LoopingHeading-sc-5dde2743-7 */ .bOfyfO { padding-top: 10px; line-height: 121px; height: 121px; }
+/* SolutionsHero__LoopingHeading-sc-5dde2743-7 */ @media (max-width: 600px) { .bOfyfO { padding-top: 5px; line-height: 81px; height: 81px; } }
+/* SolutionsHero__LoopingHeading-sc-5dde2743-7 */ @media (max-width: 600px) { .bOfyfO[data-name="customer-success"] { font-size: min(42px, 8vw) !important; } }
+/* SolutionsNav__Wrapper-sc-a761ec1f-0 */ .kOJIXp { display: flex; gap: 10px; width: 100%; min-width: 0px; }
+/* SolutionsNav__Wrapper-sc-a761ec1f-0 */ .kOJIXp > div { flex: 1 0 auto; }
+/* SolutionsNav__Wrapper-sc-a761ec1f-0 */ @media (max-width: 1250px) { .kOJIXp { flex-wrap: wrap; justify-content: center; } }
+/* SolutionsNav__Wrapper-sc-a761ec1f-0 */ @media (max-width: 1250px) { .kOJIXp > div { flex: 0 0 auto; } }
+/* SolutionsNav__ButtonText-sc-a761ec1f-1 */ .bgdlBO { display: flex; gap: 6px; align-items: center; }
+/* SolutionsNav__ButtonText-sc-a761ec1f-1 */ .bgdlBO span { opacity: 0.4; }
+/* SolutionsContent__SolutionsWrapper-sc-f4210c55-0 */ .gnwZiQ { position: relative; z-index: 2; display: flex; flex-direction: column; align-items: center; gap: 30px; min-width: 0px; max-width: 1240px; width: 100%; padding: 80px 40px; }
+---filters
+All rgb(15, 15, 21) rgb(227, 178, 179) rgb(58, 49, 56) rgb(15, 15, 21)
+    All
+Core data team 9 rgb(245, 192, 192) rgba(0, 0, 0, 0) rgb(58, 49, 56) rgb(245, 192, 192)
+    <div class="SolutionsNav__ButtonText-sc-a761ec1f-1 bgdlBO">Core data team<span>9</span></div>
+Data leader 28 rgb(245, 192, 192) rgba(0, 0, 0, 0) rgb(58, 49, 56) rgb(245, 192, 192)
+    <div class="SolutionsNav__ButtonText-sc-a761ec1f-1 bgdlBO">Data leader<span>28</span></div>
+Product 10 rgb(245, 192, 192) rgba(0, 0, 0, 0) rgb(58, 49, 56) rgb(245, 192, 192)
+    <div class="SolutionsNav__ButtonText-sc-a761ec1f-1 bgdlBO">Product<span>10</span></div>
+Marketing 13 rgb(245, 192, 192) rgba(0, 0, 0, 0) rgb(58, 49, 56) rgb(245, 192, 192)
+    <div class="SolutionsNav__ButtonText-sc-a761ec1f-1 bgdlBO">Marketing<span>13</span></div>
+Sales 9 rgb(245, 192, 192) rgba(0, 0, 0, 0) rgb(58, 49, 56) rgb(245, 192, 192)
+    <div class="SolutionsNav__ButtonText-sc-a761ec1f-1 bgdlBO">Sales<span>9</span></div>
+Customer success 9 rgb(245, 192, 192) rgba(0, 0, 0, 0) rgb(58, 49, 56) rgb(245, 192, 192)
+    <div class="SolutionsNav__ButtonText-sc-a761ec1f-1 bgdlBO">Customer success<span>9</span></div>
+---cards 62
+Blog post | You don't need to migrate those 300 dashboards | ['Data leader:rgb(92, 177, 152)'] | ['Solution/ Data leader', '5 min'] | /blog/dont-migrate-300-dashboards/ | c58b81b4a104a9f4a167c91e91b0718aed68b9df-840x520.png?w=800&auto=format | rgba(92, 177, 152, 0.42)
+Customer story | Customer story: Notion | ['Sales:rgb(205, 168, 73)'] | ['Solution/ Sales', '3 min'] | /customers/notion/ | duction/6f211c674b14be69b85497264b1d654b138dce01-39x50.svg?auto=format | rgba(205, 168, 73, 0.39)
+Customer story | Customer story: OM1 | ['Marketing:rgb(95, 80, 157)', 'Sales:rgb(205, 168, 73)'] | ['Solution/ Marketing Sales'] | /customers/om1/ | duction/ea3c3c81a65eb288ea6390f3290531197721ca6c-94x50.svg?auto=format | rgba(95, 80, 157, 0.53)
+Customer story | Customer story: Figma | ['Product:rgb(113, 122, 148)', 'Data leader:rgb(92, 177, 152)'] | ['Solution/ Product Data leader', '3 min'] | /customers/figma/ | duction/f7df402cfb3dac549c3f877c09425534abc7650b-97x50.svg?auto=format | rgba(113, 122, 148, 0.52)
+Customer story | Customer story: Mercor | ['Core data team:rgb(164, 119, 178)', 'Customer success:rgb(251, 249, 249)'] | ['Solution/ Core data team Customer success'] | /customers/mercor/ | uction/92b9cd2232a417db021ffe38f96d45a896e85cba-131x50.svg?auto=format | rgba(164, 119, 178, 0.5)
+Customer story | Customer story: Valon | ['Customer success:rgb(251, 249, 249)'] | ['Solution/ Customer success'] | /customers/valon/ | uction/2c4ef1e2b471b9d7322ef89af16a386864435653-116x50.svg?auto=format | rgba(251, 249, 249, 0.19)
+Customer story | Customer story: Algolia | ['Sales:rgb(205, 168, 73)', 'Marketing:rgb(95, 80, 157)'] | ['Solution/ Sales Marketing', '3 min'] | /customers/algolia/ | duction/baea542d81adfefae4a1a6409a8260e0bac56f00-97x50.svg?auto=format | rgba(205, 168, 73, 0.39)
+Blog post | Your next BI tool shouldn't be a BI tool | ['Data leader:rgb(92, 177, 152)'] | ['Solution/ Data leader', '4 min'] | /blog/next-bi-tool/ | aeaf65189942ceca5ccc6edf2d0c2db3b1338f-1680x1040.png?w=800&auto=format | rgba(92, 177, 152, 0.42)
+Blog post | The market is noisy. Here’s how pipeline intelligence can help. | ['Marketing:rgb(95, 80, 157)', 'Sales:rgb(205, 168, 73)'] | ['Solution/ Marketing Sales'] | /blog/how-we-solved-the-pipeline-crisis/ | 80b4c593faa0a2ddc3f73e6c785d67d89028b9-1680x1040.png?w=800&auto=format | rgba(95, 80, 157, 0.53)
+Blog post | Dashboards were never the destination | ['Data leader:rgb(92, 177, 152)'] | ['Solution/ Data leader', '4 min'] | /blog/dashboards-were-never-the-destination/ | aa3c8343e43c4d71cef2201cb15bf7c00d5fd1-1680x1040.png?w=800&auto=format | rgba(92, 177, 152, 0.42)
+Video | How to Measure Pipeline Quality from Demo Requests with AI | ['Marketing:rgb(95, 80, 157)'] | ['Solution/ Marketing', '1 min'] | /resources/video/how-to-measure-pipeline-quality-from-demo-requests-with-ai-or-hex/ | c78ce03c99a846fbc29f65010d496e21b6eb75-2554x1440.png?w=800&auto=format | rgba(95, 80, 157, 0.53)
+Blog post | 3 ways Hex makes leading a support team less stressful | ['Customer success:rgb(251, 249, 249)'] | ['Solution/ Customer success', '4 min'] | /blog/how-ai-analytics-helps-with-support-decisions/ | 2b6472b9d7bcdcbe1f1f0987645c3ec8de3654-1680x1040.png?w=800&auto=format | rgba(251, 249, 249, 0.19)
+Blog post | The unwritten rules of being a head of data | ['Data leader:rgb(92, 177, 152)'] | ['Solution/ Data leader', '5 min'] | /blog/unspoken-rules-of-data-leadership/ | 11040e03a2931b662091412162c0a63dc931f9-1680x1040.png?w=800&auto=format | rgba(92, 177, 152, 0.42)
+Blog post | You're probably evaluating AI analytics tools wrong | ['Data leader:rgb(92, 177, 152)'] | ['Solution/ Data leader', '6 min'] | /blog/evaluating-ai-wrong/ | 22bc6369aee70286feb8634d6ce74d1a71906d-1680x1040.png?w=800&auto=format | rgba(92, 177, 152, 0.42)
+Blog post | Your data team is too slow (and accuracy won't save you) | ['Data leader:rgb(92, 177, 152)'] | ['Solution/ Data leader', '7 min'] | /blog/your-data-team-is-too-slow/ | 633dec3d5b5221ab18f42529d06a9e3c6fd9ea0e-840x520.png?w=800&auto=format | rgba(92, 177, 152, 0.42)
+Video | Using AI to choose billboard locations | ['Marketing:rgb(95, 80, 157)'] | ['Solution/ Marketing', '1 min'] | /resources/video/using-ai-to-choose-billboard-locations/ | 6bf5ba437e12cf1c98aa95a1c8b349669b4f3a-2554x1440.png?w=800&auto=format | rgba(95, 80, 157, 0.53)
+Blog post | Why data apps confused the hell out of me (and probably confuse you too) | ['Core data team:rgb(164, 119, 178)'] | ['Solution/ Core data team', '3 min'] | /blog/difference-between-apps-and-dashboards/ | 3ab926d9bf26a6d29e6914144bb0c6962225ce6c-840x520.png?w=800&auto=format | rgba(164, 119, 178, 0.5)
+Blog post | How I used Hex’s AI to get fully up to speed on our sales data | ['Data leader:rgb(92, 177, 152)', 'Product:rgb(113, 122, 148)', 'Sales:rgb(205, 168, 73)'] | ['Solution/ Data leader Product Sales', '6 min'] | /blog/using-threads-to-get-sales-team-data/ | e0412205706fadc4fbadd33115d027e70cff07-1680x1040.png?w=800&auto=format | rgba(92, 177, 152, 0.42)
+Blog post | Self-serve analytics is finally real (and that's terrifying) | ['Data leader:rgb(92, 177, 152)'] | ['Solution/ Data leader', '5 min'] | /blog/self-serve-is-finally-real/ | 964af7362a347383d49813f7fcd3748efdf3d3-1680x1040.png?w=800&auto=format | rgba(92, 177, 152, 0.42)
+Blog post | How we built a forecasting data app that gets more accurate every quarter | ['Marketing:rgb(95, 80, 157)'] | ['Solution/ Marketing', '3 min'] | /blog/pipeline-forecast-data-app/ | 9be2ab1a7e661db7392ef005935adbf2fcaf1a-1680x1040.png?w=800&auto=format | rgba(95, 80, 157, 0.53)
+Blog post | Hex in the Wild: October 2025 spotlights | ['Core data team:rgb(164, 119, 178)'] | ['Solution/ Core data team', '3 min'] | /blog/hex-in-the-wild-oct-2025-highlights/ | b21643d43df8afd3336906664cf8445352cf68-1680x1040.png?w=800&auto=format | rgba(164, 119, 178, 0.5)
+Blog post | Lessons from Ramp: Running AI-powered data teams | ['Data leader:rgb(92, 177, 152)', 'Core data team:rgb(164, 119, 178)', 'Product:rgb(113, 122, 148)'] | ['Solution/ Data leader Core data team Product'] | /blog/how-data-teams-are-using-ai-ramp/ | 134db6af30660f26058d22f5f58874dc7b0a5e-2400x1260.png?w=800&auto=format | rgba(92, 177, 152, 0.42)
+Blog post | Using AI thoughtfully: How our data team builds speed without losing depth | ['Data leader:rgb(92, 177, 152)'] | ['Solution/ Data leader', '5 min'] | /blog/ai-for-data-teams-boosting-speed-and-impact/ | 074be682d2231bf3e9900142d30bc55d482b86-1680x1040.png?w=800&auto=format | rgba(92, 177, 152, 0.42)
+Video | Helping your data team become faster with AI, not busier | ['Data leader:rgb(92, 177, 152)', 'Core data team:rgb(164, 119, 178)'] | ['Solution/ Data leader Core data team', '5 min'] | https://www.youtube.com/shorts/FrMgS7i3lZ4 | ea9d4abd4463a6f1ee01549873bbe36482e0c4-1680x1020.png?w=800&auto=format | rgba(92, 177, 152, 0.42)
+Blog post | The complete guide to prompting Hex's Notebook Agent | ['Core data team:rgb(164, 119, 178)'] | ['Solution/ Core data team', '7 min'] | /blog/notebook-agent-prompting-guide-agentic-analytics/ | acd093f9cb3648fcde5ad79d85cf60504c6d47-1680x1040.png?w=800&auto=format | rgba(164, 119, 178, 0.5)
+Blog post | Building metrics stakeholders need, not what they want | ['Core data team:rgb(164, 119, 178)', 'Customer success:rgb(251, 249, 249)'] | ['Solution/ Core data team Customer success'] | /blog/building-actionable-metrics-framework/ | 32a7e6ade12c5bba7dc94ff3c1a927b766cf26-1680x1040.png?w=800&auto=format | rgba(164, 119, 178, 0.5)
+Blog post | From “we think” to “we know”: Attribution that ties to revenue | ['Marketing:rgb(95, 80, 157)'] | ['Solution/ Marketing'] | /blog/marketing-attribution-data-app-revenue-tracking/ | 6e142d9b231c14cc1e154b6e1cb155f4d6dfec-1680x1040.png?w=800&auto=format | rgba(95, 80, 157, 0.53)
+Blog post | Customer retention analytics: Linking metrics to LTV and CAC | ['Customer success:rgb(251, 249, 249)'] | ['Solution/ Customer success'] | /blog/customer-retention-analytics/ |  | rgba(251, 249, 249, 0.19)
+Blog post | AI is changing how our data team works, and that’s great | ['Data leader:rgb(92, 177, 152)'] | ['Solution/ Data leader'] | /blog/lessons-running-a-data-team-with-ai/ | 281fd8f285b19d9a57d29815d9180bc565f492-1680x1040.png?w=800&auto=format | rgba(92, 177, 152, 0.42)
+Blog post | 5 product metrics that change our decisions (and drive revenue) | ['Product:rgb(113, 122, 148)'] | ['Solution/ Product'] | /blog/product-metrics-that-drive-growth/ | 6c2d0d4db331421cc5d69fae7e4925744970d9-1680x1040.png?w=800&auto=format | rgba(113, 122, 148, 0.52)
+Blog post | 6 Pipeline questions that RevOps teams can answer in minutes in Hex | ['Sales:rgb(205, 168, 73)'] | ['Solution/ Sales'] | /blog/pipeline-questions-answered-in-minutes/ | f031d8f9beee3fdbad2c0f775ebeb3e0a894a1-1680x1040.png?w=800&auto=format | rgba(205, 168, 73, 0.39)
+Video | Measuring Hex's performance in Hex | ['Product:rgb(113, 122, 148)'] | ['Solution/ Product'] | /resources/video/measuring-hexs-performance-in-hex/ | a93ad1af63a68c8838f0bef698649b231372d9-1680x1020.png?w=800&auto=format | rgba(113, 122, 148, 0.52)
+Video | How product teams make faster decisions | ['Product:rgb(113, 122, 148)'] | ['Solution/ Product'] | https://www.youtube.com/shorts/R52NB-F9B5c | 08580406ab95c2249a8228bd773a99c4d370a4-1680x1020.png?w=800&auto=format | rgba(113, 122, 148, 0.52)
+Video | Building proactive product KPI updates | ['Product:rgb(113, 122, 148)'] | ['Solution/ Product'] | /resources/video/building-proactive-product-kpi-updates/ | 53f985af379d17dc001fb1cc325e24b365172c-1680x1020.png?w=800&auto=format | rgba(113, 122, 148, 0.52)
+Video | Turning traffic mysteries into marketing insights — with Hex | ['Marketing:rgb(95, 80, 157)'] | ['Solution/ Marketing', '2 min'] | https://www.linkedin.com/posts/cpschaefer_marketinganalytics-ai-analytics-activity-7348743298733228032-vQoR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAYjyFYBfFMHD9yl1SoorLZd6KmlrHsH9Aw | 694b34a1b1e549d2a1e7d9d99527fddedab670-1680x1020.png?w=800&auto=format | rgba(95, 80, 157, 0.53)
+Blog post | Account 360 in Hex: Your one-stop customer health command center | ['Customer success:rgb(251, 249, 249)'] | ['Solution/ Customer success'] | /blog/customer-health-data-app-account-360/ | 315add2d3bf620f65634744ba893cfb3c46ff2-1680x1040.png?w=800&auto=format | rgba(251, 249, 249, 0.19)
+Blog post | Why data teams (almost) never have to answer the same customer question twice | ['Customer success:rgb(251, 249, 249)'] | ['Solution/ Customer success', '4 min'] | /blog/data-app-for-customer-success-analytics/ | 7b95be37968ede60a678c0bcbf504a5b89d772-1680x1040.png?w=800&auto=format | rgba(251, 249, 249, 0.19)
+Blog post | How to figure out what actually impacts lead conversion | ['Marketing:rgb(95, 80, 157)'] | ['Solution/ Marketing'] | /blog/lead-conversion-in-hex/ | a22ae6cae840b4527af1af6033c0f4b6a55e6e7-1680x990.png?w=800&auto=format | rgba(95, 80, 157, 0.53)
+Blog post | The State of Data Teams 2025: AI, self-serve, and the reality check | ['Data leader:rgb(92, 177, 152)'] | ['Solution/ Data leader'] | /blog/state-of-data-teams-2025/ | 562f13ae760f14b5352a49b112c9be9c0cd32b-1680x1040.jpg?w=800&auto=format | rgba(92, 177, 152, 0.42)
+Blog post | How Candidly uses Hex Embedded Analytics to tackle the student loan debt crisis | ['Data leader:rgb(92, 177, 152)'] | ['Solution/ Data leader', '7 min'] | /blog/how-candidly-uses-hex-embedded-analytics/ | 287a66e9ffcb53940dfa188ecaa7c4694d7cd4-1680x1040.png?w=800&auto=format | rgba(92, 177, 152, 0.42)
+Blog post | The data app behind Huckberry’s $1M inventory savings | ['Marketing:rgb(95, 80, 157)', 'Sales:rgb(205, 168, 73)'] | ['Solution/ Marketing Sales'] | /blog/how-huckberry-forecasts-demand/ | 8f3420ff187cf6cf40c810a0fa1b177cda418f-1680x1040.jpg?w=800&auto=format | rgba(95, 80, 157, 0.53)
+Blog post | Nick Hardy, Ro: The power of embedded data teams | ['Data leader:rgb(92, 177, 152)'] | ['Solution/ Data leader', '4 min'] | /blog/nick-hardy-ro/ | a35008617a9529bbe6bbf1f6e188131c993975-2560x1440.png?w=800&auto=format | rgba(92, 177, 152, 0.42)
+Video | Three powerful workflows in one platform | ['Core data team:rgb(164, 119, 178)', 'Data leader:rgb(92, 177, 152)'] | ['Solution/ Core data team Data leader', '5 min'] | /resources/video/three-powerful-workflows-in-one-platform/ | 8e4abe9e204c6d2b66b2e5d0dbfdb725f99a67-1680x1020.png?w=800&auto=format | rgba(164, 119, 178, 0.5)
+Blog post | How Notion, HubSpot, and Ramp data teams think about ROI | ['Data leader:rgb(92, 177, 152)'] | ['Solution/ Data leader'] | /blog/notion-hubspot-ramp-data-team-roi/ | de7164970b2a05f0171fcb2895653ef9a2d0e0-2400x1260.jpg?w=800&auto=format | rgba(92, 177, 152, 0.42)
+Blog post | The Accuracy / Agency matrix | ['Data leader:rgb(92, 177, 152)'] | ['Solution/ Data leader'] | /blog/accuracy-agency-matrix/ | cf62453558e4b4d1aaae078bab2e936d74f54f-1680x1020.png?w=800&auto=format | rgba(92, 177, 152, 0.42)
+Blog post | 4 Ways Kong is scaling analytics with Hex | ['Product:rgb(113, 122, 148)'] | ['Solution/ Product'] | /blog/how-kong-is-scaling-analytics-with-hex/ | 0f5624b2d0df481cd5ecfa9f1a9dcee3bf909d-1680x1040.jpg?w=800&auto=format | rgba(113, 122, 148, 0.52)
+Blog post | Pedram Navid, Dagster: Why it's not enough to be right | ['Data leader:rgb(92, 177, 152)'] | ['Solution/ Data leader', '5 min'] | /blog/friends-of-data-pedram-navid-dagster/ | f56f63a32410360ce25ba3809510a3162850e7-2400x1260.png?w=800&auto=format | rgba(92, 177, 152, 0.42)
+Blog post | Ian Macomber, Ramp: How a data team drives influence | ['Data leader:rgb(92, 177, 152)'] | ['Solution/ Data leader', '5 min'] | /blog/friends-of-data-ian-macomber-ramp/ | c4cb730e7a2f209fb39b713ff88708424f2248-2400x1260.png?w=800&auto=format | rgba(92, 177, 152, 0.42)
+Blog post | Tony Avino, HubSpot: Keeping data updated and trusted | ['Data leader:rgb(92, 177, 152)'] | ['Solution/ Data leader', '5 min'] | /blog/friends-of-data-tony-avino-hubspot/ |  | rgba(92, 177, 152, 0.42)
+Blog post | How GameChanger used LTV modeling to predict and prevent churn | ['Customer success:rgb(251, 249, 249)'] | ['Solution/ Customer success'] | /blog/how-gamechanger-determined-lifetime-value/ | 884d146bf1008b1c1958294a76edea9db630af-1680x1020.png?w=800&auto=format | rgba(251, 249, 249, 0.19)
+Blog post | Daniel Sternberg: How data drives craft at Notion | ['Data leader:rgb(92, 177, 152)'] | ['Solution/ Data leader', '4 min'] | /blog/friends-of-data-daniel-sternberg/ | bacb6a71772572a795c614d504d346d0f0c4d9-2400x1260.png?w=800&auto=format | rgba(92, 177, 152, 0.42)
+Blog post | How to boost collaboration between product and data teams | ['Product:rgb(113, 122, 148)'] | ['Solution/ Product'] | /blog/boost-collaboration-between-product-and-data/ | f928ed7812524d5699658ac0ef6d0c64bbcd8e-1680x1020.png?w=800&auto=format | rgba(113, 122, 148, 0.52)
+Blog post | Faster and Better Insights: Building a Big-Picture Data Team at StubHub | ['Marketing:rgb(95, 80, 157)', 'Sales:rgb(205, 168, 73)'] | ['Solution/ Marketing Sales'] | /blog/stubhub-building-a-big-picture-data-team/ | 57d9512ededd797bf34a390bcb2a692200b7c6-1680x1020.png?w=800&auto=format | rgba(95, 80, 157, 0.53)
+Blog post | Make data-driven decisions with KPI dashboards | ['Data leader:rgb(92, 177, 152)', 'Core data team:rgb(164, 119, 178)'] | ['Solution/ Data leader Core data team', '5 min'] | /blog/data-driven-decisions-with-kpi-dashboards/ | b097b79b266cc44a77be0427b0a88ae0367310-1680x1020.jpg?w=800&auto=format | rgba(92, 177, 152, 0.42)
+Blog post | How to build a sentiment analysis model in Python | ['Customer success:rgb(251, 249, 249)'] | ['Solution/ Customer success'] | /blog/sentiment-analysis/ | 9da57ed735f58249e979ec258f5f81f30280f-1680x1020.webp?w=800&auto=format | rgba(251, 249, 249, 0.19)
+eBook | Should you replace your BI tool with an agent? | ['Data leader:rgb(92, 177, 152)'] | ['Solution/ Data leader', '6 min'] | /resources/bi-buying-guide/ | 34e3222c70971bf9e2a66fab9201d647690275-3446x2352.jpg?w=800&auto=format | rgba(92, 177, 152, 0.42)
+eBook | A guide to data governance | ['Data leader:rgb(92, 177, 152)'] | ['Solution/ Data leader'] | /resources/data-team-governance-template/ | 71aec177b893bebae9b21ff3eadf27d4100424-3446x2352.jpg?w=800&auto=format | rgba(92, 177, 152, 0.42)
+one-pager | Calendly: 2x faster with Hex | ['Marketing:rgb(95, 80, 157)'] | ['Solution/ Marketing'] | /resources/calendly-hex-one-pager/ | b4fc0b585daac8f8062c26114644984fce81e2-1723x1176.png?w=800&auto=format | rgba(95, 80, 157, 0.53)
+Use case | Python Data Visualization | ['Product:rgb(113, 122, 148)'] | ['Solution/ Product'] | /templates/data-visualization/python-visualization/ | c8a12ea94d0e89a5450f3c50d52643fa9e542f-1680x1020.png?w=800&auto=format | rgba(113, 122, 148, 0.52)
+eBook | The Snowflake + Hex guide to AI-ready data | ['Data leader:rgb(92, 177, 152)'] | ['Solution/ Data leader'] | /resources/llms-snowflake-cortex/ | ae8ae972cf251419d1c6c461c881d0a2a4245c-3446x2352.jpg?w=800&auto=format | rgba(92, 177, 152, 0.42)
+eBook | How OM1 is transforming self-serve with a data app | ['Marketing:rgb(95, 80, 157)', 'Sales:rgb(205, 168, 73)'] | ['Solution/ Marketing Sales'] | /resources/data-app-om1/ | 94a1e5846e2766d2514b6815f4afae1d4e5629-3446x2352.png?w=800&auto=format | rgba(95, 80, 157, 0.53)
+eBook | The Snowflake + Hex guide to AI-ready data | ['Data leader:rgb(92, 177, 152)'] | ['Solution/ Data leader'] | /resources/llms-snowflake-cortex/ | ae8ae972cf251419d1c6c461c881d0a2a4245c-3446x2352.jpg?w=800&auto=format | rgba(92, 177, 152, 0.42)

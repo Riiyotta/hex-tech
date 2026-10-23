@@ -1,0 +1,132 @@
+{
+  "id": "hero.report",
+  "category": "hero",
+  "purpose": "Report microsite hero: wordmark, hatched report artwork as H1 (screen-reader title), issue eyebrow and about copy.",
+  "variants": [],
+  "content": {
+    "srTitle": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 7,
+      "observedWords": [
+        5
+      ],
+      "measuredFrom": [
+        "specs/company.md:3520"
+      ]
+    },
+    "eyebrow": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 3,
+      "observedWords": [
+        2
+      ],
+      "measuredFrom": [
+        "specs/company.md:3519"
+      ]
+    },
+    "about": {
+      "kind": "richText",
+      "required": true,
+      "maxBlocks": 2,
+      "blockTypes": [
+        "paragraph"
+      ],
+      "maxWordsPerBlock": 37,
+      "measuredFrom": [
+        "reference/pages/company/dom/state-of-data-teams--SectionHero__Wrapper.html:1"
+      ],
+      "placeholderInClone": true
+    },
+    "artwork": {
+      "kind": "media",
+      "required": true,
+      "roles": [
+        "illustration.decorative"
+      ],
+      "alt": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 18,
+        "observedWords": [
+          14,
+          14
+        ],
+        "measuredFrom": [
+          "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+          "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+        ]
+      }
+    },
+    "wordmark": {
+      "kind": "media",
+      "required": true,
+      "roles": [
+        "brand.wordmark"
+      ],
+      "alt": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 18,
+        "observedWords": [
+          14,
+          14
+        ],
+        "measuredFrom": [
+          "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+          "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+        ]
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-on-mount"
+    ],
+    "default": "reveal-on-mount"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "stack-columns",
+      "detail": "single column 330 wide",
+      "measuredFrom": [
+        "specs/company.md:366"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/company.md:361"
+  ],
+  "wordBudgets": {
+    "artwork.alt": 18,
+    "eyebrow": 3,
+    "srTitle": 7,
+    "wordmark.alt": 18
+  },
+  "richTextBudgets": {
+    "about": {
+      "maxBlocks": 2,
+      "maxWordsPerBlock": 37,
+      "blockTypes": [
+        "paragraph"
+      ]
+    }
+  },
+  "assetRoles": [
+    "brand.wordmark",
+    "illustration.decorative"
+  ],
+  "usedByTemplates": [
+    "template.report"
+  ],
+  "observedThemes": [
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__hero.report",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

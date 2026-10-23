@@ -1,0 +1,191 @@
+{
+  "id": "feature.codegen-gallery",
+  "category": "feature",
+  "purpose": "Gradient H2 + lead + links, a large app-builder screenshot, then a 3-column gallery of copy-a-prompt cards.",
+  "variants": [],
+  "content": {
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 4,
+      "observedWords": [
+        3
+      ],
+      "measuredFrom": [
+        "specs/product.md:547"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 27,
+      "observedWords": [
+        21
+      ],
+      "measuredFrom": [
+        "specs/product.md:547"
+      ]
+    },
+    "heroImage": {
+      "kind": "media",
+      "required": true,
+      "roles": [
+        "image.product-screenshot"
+      ],
+      "alt": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 18,
+        "observedWords": [
+          14,
+          14
+        ],
+        "measuredFrom": [
+          "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+          "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+        ]
+      }
+    },
+    "galleryTitle": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 7,
+      "observedWords": [
+        5
+      ],
+      "measuredFrom": [
+        "specs/product.md:549"
+      ]
+    },
+    "galleryDescription": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 17,
+      "observedWords": [
+        13
+      ],
+      "measuredFrom": [
+        "specs/product.md:549"
+      ]
+    },
+    "cards": {
+      "kind": "list",
+      "required": true,
+      "minItems": 6,
+      "maxItems": 6,
+      "measuredFrom": [
+        "specs/product.md:551"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "tag": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 3,
+            "observedWords": [
+              2
+            ],
+            "measuredFrom": [
+              "specs/product.md:552"
+            ]
+          },
+          "title": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 8,
+            "observedWords": [
+              6
+            ],
+            "measuredFrom": [
+              "specs/product.md:552"
+            ]
+          },
+          "useCase": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 15,
+            "observedWords": [
+              12
+            ],
+            "measuredFrom": [
+              "specs/product.md:552"
+            ]
+          },
+          "image": {
+            "kind": "media",
+            "required": true,
+            "roles": [
+              "image.product-screenshot"
+            ],
+            "alt": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 18,
+              "observedWords": [
+                14,
+                14
+              ],
+              "measuredFrom": [
+                "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+                "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.tablet}",
+      "change": "reduce-columns",
+      "detail": "2 columns, 1 at 600",
+      "measuredFrom": [
+        "specs/product.md:553"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/product.md:545"
+  ],
+  "behavior": {
+    "cardClick": "copies a prompt to the clipboard locally; no network request",
+    "measuredFrom": [
+      "specs/product.md:551"
+    ]
+  },
+  "wordBudgets": {
+    "cards[].image.alt": 18,
+    "cards[].tag": 3,
+    "cards[].title": 8,
+    "cards[].useCase": 15,
+    "description": 27,
+    "galleryDescription": 17,
+    "galleryTitle": 7,
+    "headline": 4,
+    "heroImage.alt": 18
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "image.product-screenshot"
+  ],
+  "usedByTemplates": [
+    "template.product-v1"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__feature.codegen-gallery",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

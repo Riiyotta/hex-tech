@@ -1,0 +1,82 @@
+{
+  "id": "hero.pricing",
+  "category": "hero",
+  "purpose": "Pricing header: solid H1 and a 14px subline with an inline contact link.",
+  "variants": [],
+  "content": {
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 2,
+      "observedWords": [
+        1
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:716"
+      ]
+    },
+    "subline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 18,
+      "observedWords": [
+        14
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:716"
+      ]
+    },
+    "link": {
+      "kind": "link",
+      "required": true,
+      "label": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 4,
+        "observedWords": [
+          3
+        ],
+        "measuredFrom": [
+          "specs/solutions.md:716"
+        ]
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-on-mount"
+    ],
+    "default": "reveal-on-mount"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "resize-type",
+      "detail": "H1 38/49.4",
+      "measuredFrom": [
+        "specs/solutions.md:716"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/solutions.md:715"
+  ],
+  "wordBudgets": {
+    "headline": 2,
+    "link.label": 4,
+    "subline": 18
+  },
+  "richTextBudgets": {},
+  "assetRoles": [],
+  "usedByTemplates": [
+    "template.pricing"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__hero.pricing",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

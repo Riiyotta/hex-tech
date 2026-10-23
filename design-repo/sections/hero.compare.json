@@ -1,0 +1,157 @@
+{
+  "id": "hero.compare",
+  "category": "hero",
+  "purpose": "Compare hero: 74px gradient H1, lead, two CTAs and a dashed hatched 'vs.' panel of competitor cards.",
+  "variants": [],
+  "content": {
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 8,
+      "observedWords": [
+        6
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:893"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 24,
+      "observedWords": [
+        19
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:894"
+      ]
+    },
+    "actions": {
+      "kind": "list",
+      "required": true,
+      "minItems": 2,
+      "maxItems": 2,
+      "measuredFrom": [
+        "specs/solutions.md:895"
+      ],
+      "item": {
+        "kind": "action",
+        "required": true,
+        "label": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 10,
+          "observedWords": [
+            4,
+            3,
+            4,
+            8
+          ],
+          "measuredFrom": [
+            "CLONE_SPEC.md:208",
+            "specs/product.md:258",
+            "specs/solutions.md:291"
+          ]
+        },
+        "variants": [
+          "primary",
+          "secondary"
+        ],
+        "sizes": [
+          "lg"
+        ]
+      }
+    },
+    "comparisons": {
+      "kind": "list",
+      "required": true,
+      "minItems": 4,
+      "maxItems": 4,
+      "measuredFrom": [
+        "specs/solutions.md:898"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "name": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 2,
+            "observedWords": [
+              1
+            ],
+            "measuredFrom": [
+              "specs/solutions.md:898"
+            ]
+          },
+          "href": {
+            "kind": "href",
+            "required": true
+          },
+          "logo": {
+            "kind": "media",
+            "required": true,
+            "roles": [
+              "logo.competitor"
+            ],
+            "alt": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 18,
+              "observedWords": [
+                14,
+                14
+              ],
+              "measuredFrom": [
+                "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+                "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-on-mount"
+    ],
+    "default": "reveal-on-mount"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.laptop}",
+      "change": "stack-columns",
+      "detail": "text above the panel",
+      "measuredFrom": [
+        "specs/solutions.md:891"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/solutions.md:890"
+  ],
+  "wordBudgets": {
+    "actions[].label": 10,
+    "comparisons[].logo.alt": 18,
+    "comparisons[].name": 2,
+    "description": 24,
+    "headline": 8
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "logo.competitor"
+  ],
+  "usedByTemplates": [
+    "template.compare"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__hero.compare",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

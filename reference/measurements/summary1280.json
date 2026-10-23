@@ -1,0 +1,309 @@
+{
+  "vw": 1280,
+  "docH": 10585,
+  "secs": [
+    [
+      "header",
+      {
+        "x": 0,
+        "y": 24,
+        "w": 1280,
+        "h": 62,
+        "pad": "0px",
+        "gtc": "subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []"
+      }
+    ],
+    [
+      "__stage",
+      {
+        "x": 26,
+        "y": 0,
+        "w": 1229,
+        "h": 697,
+        "pad": "102px 0px 0px"
+      }
+    ],
+    [
+      "CustomerBanner-module__QGw5Ra__frame",
+      {
+        "x": 26,
+        "y": 697,
+        "w": 1229,
+        "h": 253,
+        "pad": "0px"
+      }
+    ],
+    [
+      "HomeBuiltDifferent-module__X_TMTG__builtDifferent",
+      {
+        "x": 26,
+        "y": 950,
+        "w": 1229,
+        "h": 362,
+        "pad": "0px"
+      }
+    ],
+    [
+      "HomeTrustedAnswers-module__G5svba__content",
+      {
+        "x": 66,
+        "y": 1312,
+        "w": 1149,
+        "h": 928,
+        "pad": "60px 0px"
+      }
+    ],
+    [
+      "HomeOrganizationContext-module__wQwOha__content",
+      {
+        "x": 190,
+        "y": 2245,
+        "w": 900,
+        "h": 575,
+        "pad": "0px"
+      }
+    ],
+    [
+      "HomeConversationalAnalytics-module__EjFBoa__content",
+      {
+        "x": 66,
+        "y": 2820,
+        "w": 1149,
+        "h": 668,
+        "pad": "60px 0px"
+      }
+    ],
+    [
+      "HomeContextStudio-module__npjq9a__content",
+      {
+        "x": 66,
+        "y": 3488,
+        "w": 1149,
+        "h": 806,
+        "pad": "60px 0px"
+      }
+    ],
+    [
+      "HomeProductEthos-module__bpl4nW__productEthos",
+      {
+        "x": 66,
+        "y": 4295,
+        "w": 1149,
+        "h": 859,
+        "pad": "0px 0px 60px",
+        "gtc": "564.391px 564.391px"
+      }
+    ],
+    [
+      "CustomerStoriesTwoUp__Section",
+      {
+        "x": 0,
+        "y": 5149,
+        "w": 1280,
+        "h": 300,
+        "pad": "0px",
+        "gtc": "subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []"
+      }
+    ],
+    [
+      "HomeUseCases-module__7W7WPW__useCases",
+      {
+        "x": 26,
+        "y": 5455,
+        "w": 1229,
+        "h": 657,
+        "pad": "100px 0px 75px"
+      }
+    ],
+    [
+      "CustomerStoriesTout__Inner",
+      {
+        "x": 26,
+        "y": 6212,
+        "w": 1229,
+        "h": 1144,
+        "pad": "0px 32px"
+      }
+    ],
+    [
+      "SocialTout__Wrapper",
+      {
+        "x": 58,
+        "y": 6917,
+        "w": 1165,
+        "h": 444,
+        "pad": "40px 0px 0px"
+      }
+    ],
+    [
+      "IntegrationsTout__Inner",
+      {
+        "x": 26,
+        "y": 7526,
+        "w": 1229,
+        "h": 1062,
+        "pad": "0px 40px"
+      }
+    ],
+    [
+      "BottomCTATout__Inner",
+      {
+        "x": 26,
+        "y": 8748,
+        "w": 1229,
+        "h": 263,
+        "pad": "0px"
+      }
+    ],
+    [
+      "FAQ__Wrapper",
+      {
+        "x": 26,
+        "y": 9202,
+        "w": 1229,
+        "h": 801,
+        "pad": "80px 0px"
+      }
+    ],
+    [
+      "footer",
+      {
+        "x": 26,
+        "y": 10003,
+        "w": 1229,
+        "h": 555,
+        "pad": "0px"
+      }
+    ]
+  ],
+  "heads": [
+    "DIV | Get started | 14px | 14px | normal | 973 | 86 | 75 | 14",
+    "H1 | The Analytics platform for humans and ag | 74px | 88.8px | -1.85px | 126 | 208 | 1028 | 190",
+    "P | Rethinking | 24px | 36px | normal | 366 | 415 | 122 | 36",
+    "A | BI | 14px | 21.994px | normal | 497 | 412 | 78 | 43",
+    "P | BI | 24px | normal | normal | 540 | 419 | 22 | 29",
+    "A | Conversational analytics | 14px | 21.994px | normal | 584 | 412 | 330 | 43",
+    "P | Conversational analytics | 24px | normal | normal | 627 | 419 | 274 | 29",
+    "P | and | 24px | 36px | normal | 350 | 467 | 42 | 36",
+    "A | Context management | 14px | 21.994px | normal | 401 | 464 | 301 | 43",
+    "P | Context management | 24px | normal | normal | 444 | 471 | 245 | 29",
+    "P | for the agentic era. | 24px | 36px | normal | 711 | 467 | 218 | 36",
+    "DIV | Get started for free | 14px | 21.994px | normal | 492 | 561 | 128 | 22",
+    "DIV | Request a demo | 14px | 21.994px | normal | 682 | 561 | 106 | 22",
+    "H2 | TRUSTED BY LEADING DATA COMPANIES | 10px | 12px | 0.833px | 508 | 691 | 265 | 12",
+    "H2 | A different approach to Analytics and BI | 60px | 78px | -1.848px | 176 | 1050 | 928 | 162",
+    "P | BI tools, chat apps, and vibe-coding onl | 20px | 30px | normal | 260 | 1222 | 760 | 90",
+    "H3 | Ask a question, get a trusted answer | 28px | 36.4px | -0.7px | 66 | 1616 | 330 | 73",
+    "DIV | Explore self-serve insights | 14px | 21.994px | normal | 87 | 1719 | 176 | 22",
+    "P | \"The ability to use Hex in any way we ch | 16px | 24px | normal | 93 | 1822 | 303 | 96",
+    "P | Nithin Bose. VP of Customer Engineering | 12px | 18.852px | 0.9996px | 172 | 1938 | 224 | 38",
+    "H3 | Ground every answer in your organization | 28px | 36.4px | -0.7px | 760 | 2355 | 330 | 109",
+    "DIV | Explore the Context Engine | 14px | 21.994px | normal | 781 | 2494 | 179 | 22",
+    "P | \"It's something I check every day — seei | 16px | 24px | normal | 787 | 2597 | 303 | 120",
+    "P | Craig W. Staff Data Engineer | 12px | 18.852px | 0.9996px | 830 | 2739 | 243 | 19",
+    "H3 | Share insights with generative dashboard | 28px | 36.4px | -0.7px | 66 | 2975 | 330 | 146",
+    "DIV | Explore AI app building | 14px | 21.994px | normal | 87 | 3150 | 151 | 22",
+    "P | \"With Hex's Notebook Agent, I never have | 16px | 24px | normal | 93 | 3253 | 303 | 72",
+    "P | Molly Jane Nicholas. Senior Researcher | 12px | 18.852px | 0.9996px | 153 | 3345 | 243 | 38",
+    "H3 | See what people are asking, and whether  | 28px | 36.4px | -0.7px | 884 | 3682 | 330 | 109",
+    "DIV | Explore the Context Studio | 14px | 21.994px | normal | 905 | 3822 | 176 | 22",
+    "P | \"We have so many people and products tha | 16px | 24px | normal | 911 | 3925 | 303 | 168",
+    "P | Jordan Farrer. Director of Data Science  | 12px | 18.852px | 0.9996px | 960 | 4113 | 254 | 38",
+    "H2 | Work with any data, any AI model, and an | 28px | 36.4px | -0.7px | 100 | 4607 | 496 | 115",
+    "P | Your AI bill is getting big – but you do | 16px | 24px | normal | 106 | 4731 | 484 | 72",
+    "P | Hex helps you get control of this: | 16px | 24px | normal | 106 | 4823 | 484 | 24",
+    "P | Model choice, including open source mode | 16px | 24px | normal | 130 | 4867 | 460 | 24",
+    "P | Thread-level observability into token sp | 16px | 24px | normal | 130 | 4891 | 460 | 48",
+    "P | Eval sweeps that let you dial in the pri | 16px | 24px | normal | 130 | 4939 | 460 | 48",
+    "DIV | Explore how Hex keeps you flexible | 14px | 21.994px | normal | 127 | 5022 | 231 | 22",
+    "H2 | Secure your data, with enterprise-grade  | 28px | 36.4px | -0.7px | 684 | 4607 | 496 | 115",
+    "P | Hex is built so organizations can open u | 16px | 24px | normal | 690 | 4731 | 484 | 48",
+    "P | Bring AI and data work onto a platform b | 16px | 24px | normal | 690 | 4799 | 484 | 72",
+    "P | The infrastructure stays rigorous so the | 16px | 24px | normal | 690 | 4891 | 484 | 48",
+    "DIV | Explore Trust Center | 14px | 21.994px | normal | 711 | 4974 | 134 | 22",
+    "P | Dhaval P. | 14px | 21.994px | normal | 303 | 5341 | 59 | 22",
+    "P | Account Lead | 12px | 18.852px | 0.9996px | 281 | 5363 | 104 | 19",
+    "P | Tom C. | 14px | 21.994px | normal | 925 | 5356 | 43 | 22",
+    "P | Principal Engineer | 12px | 18.852px | 0.9996px | 869 | 5378 | 156 | 19",
+    "H2 | Use cases Get the most out of Hex | 40px | 52px | -1px | 60 | 5742 | 252 | 193",
+    "SPAN | Get the most out of Hex | 52px | 67.6px | -1px | 66 | 5794 | 240 | 135",
+    "H3 | Migrate from traditional BI to modern AI | 20px | 26px | -0.5px | 511 | 5594 | 663 | 26",
+    "P | Move beyond static dashboards and give t | 16px | 24px | normal | 511 | 5628 | 704 | 48",
+    "H3 | Build a Context Layer for AI on data | 20px | 26px | -0.5px | 511 | 5755 | 377 | 26",
+    "P | Bring business logic, definitions, model | 16px | 24px | normal | 511 | 5789 | 704 | 48",
+    "H3 | Make chat apps work with data | 20px | 26px | -0.5px | 511 | 5916 | 330 | 26",
+    "P | Let teams work from Claude, Codex, Curso | 16px | 24px | normal | 511 | 5950 | 704 | 48",
+    "H2 | Loved by the best data teams | 60px | 78px | -1.848px | 362 | 6299 | 556 | 181",
+    "P | Hex helps companies of all sizes do more | 20px | 30px | normal | 371 | 6479 | 538 | 30",
+    "H4 | One place for insights | 20px | 26px | -0.5px | 89 | 6712 | 230 | 26",
+    "P | Notion made Hex the one place for everyo | 16px | 24px | normal | 89 | 6753 | 230 | 96",
+    "H4 | Scaling self-serve AI analytics | 20px | 26px | -0.5px | 380 | 6712 | 230 | 52",
+    "P | Mercor democratizes analysis across thei | 16px | 24px | normal | 380 | 6779 | 230 | 72",
+    "H4 | Lowering barriers to insight | 20px | 26px | -0.5px | 671 | 6712 | 230 | 52",
+    "P | Figma's team focuses on strategy over sy | 16px | 24px | normal | 671 | 6779 | 230 | 72",
+    "H4 | Breaking data silos | 20px | 26px | -0.5px | 961 | 6712 | 230 | 26",
+    "P | Neo drives insights right where they wor | 16px | 24px | normal | 961 | 6753 | 230 | 72",
+    "H3 | Users love Hex | 28px | 36.4px | -0.7px | 94 | 7237 | 280 | 36",
+    "P | Rated on G2 as an industry leader based  | 14px | 21.994px | normal | 94 | 7278 | 280 | 44",
+    "P | Abhishek Modi  Software Engineer at Noti | 14px | 21.994px | normal | 532 | 7289 | 291 | 22",
+    "H2 | Instant integration with the whole stack | 60px | 78px | -1.848px | 284 | 7526 | 711 | 185",
+    "P | Out-of-the-box connections and flexible  | 24px | 36px | normal | 390 | 7726 | 500 | 72",
+    "DIV |  | 12px | 18.852px | normal | 137 | 7894 | 117 | 36",
+    "DIV |  | 12px | 18.852px | normal | 266 | 7894 | 97 | 36",
+    "DIV |  | 12px | 18.852px | normal | 135 | 7937 | 95 | 36",
+    "DIV |  | 12px | 18.852px | normal | 242 | 7937 | 124 | 36",
+    "DIV |  | 12px | 18.852px | normal | 132 | 7977 | 20 | 36",
+    "DIV |  | 12px | 18.852px | normal | 163 | 7977 | 20 | 36",
+    "DIV |  | 12px | 18.852px | normal | 194 | 7977 | 20 | 36",
+    "DIV |  | 12px | 18.852px | normal | 225 | 7977 | 20 | 36",
+    "DIV |  | 12px | 18.852px | normal | 256 | 7977 | 20 | 36",
+    "DIV |  | 12px | 18.852px | normal | 287 | 7977 | 20 | 36",
+    "DIV |  | 12px | 18.852px | normal | 318 | 7977 | 20 | 36",
+    "DIV |  | 12px | 18.852px | normal | 349 | 7977 | 20 | 36",
+    "H4 | Built for the warehouse | 20px | 26px | -0.5px | 91 | 8068 | 320 | 26",
+    "P | Hex has built-in connections to the most | 14px | 21.994px | normal | 91 | 8101 | 320 | 88",
+    "DIV | dbt | 12px | 18.852px | normal | 606 | 7899 | 69 | 36",
+    "P | dbt | 16px | 24px | normal | 641 | 7905 | 26 | 24",
+    "H4 | dbt metadata, docs, & metrics | 20px | 26px | -0.5px | 480 | 8068 | 320 | 26",
+    "P | Hex has a deep integration with dbt, inc | 14px | 21.994px | normal | 480 | 8101 | 320 | 44",
+    "DIV | Snowflake | 12px | 18.852px | normal | 911 | 7899 | 120 | 36",
+    "P | Snowflake | 16px | 24px | normal | 946 | 7905 | 77 | 24",
+    "DIV | BigQuery | 12px | 18.852px | normal | 1035 | 7899 | 113 | 36",
+    "P | BigQuery | 16px | 24px | normal | 1070 | 7905 | 70 | 24",
+    "DIV | Databricks | 12px | 18.852px | normal | 968 | 7939 | 123 | 36",
+    "P | Databricks | 16px | 24px | normal | 1003 | 7945 | 80 | 24",
+    "H4 | Connect to your warehouse with oAuth | 20px | 26px | -0.5px | 870 | 8068 | 320 | 52",
+    "P | Leverage the permissions set up in your  | 14px | 21.994px | normal | 870 | 8127 | 320 | 44",
+    "DIV | GitHub | 12px | 18.852px | normal | 155 | 8280 | 95 | 36",
+    "P | GitHub | 16px | 24px | normal | 190 | 8286 | 52 | 24",
+    "DIV | GitLab | 12px | 18.852px | normal | 254 | 8280 | 92 | 36",
+    "P | GitLab | 16px | 24px | normal | 289 | 8286 | 49 | 24",
+    "H4 | Git it together | 20px | 26px | -0.5px | 91 | 8449 | 320 | 26",
+    "P | Export your projects to GitHub or GitLab | 14px | 21.994px | normal | 91 | 8482 | 320 | 44",
+    "DIV | Airflow | 12px | 18.852px | normal | 539 | 8280 | 96 | 36",
+    "P | Airflow | 16px | 24px | normal | 574 | 8286 | 53 | 24",
+    "DIV | Dagster | 12px | 18.852px | normal | 639 | 8280 | 102 | 36",
+    "P | Dagster | 16px | 24px | normal | 674 | 8286 | 59 | 24",
+    "DIV | Prefect | 12px | 18.852px | normal | 591 | 8320 | 97 | 36",
+    "P | Prefect | 16px | 24px | normal | 626 | 8326 | 54 | 24",
+    "H4 | Orchestration | 20px | 26px | -0.5px | 480 | 8449 | 320 | 26",
+    "P | You can include Hex projects in DAGs in  | 14px | 21.994px | normal | 480 | 8482 | 320 | 44",
+    "H4 | Hex API | 20px | 26px | -0.5px | 870 | 8449 | 320 | 26",
+    "P | Want to connect to something we haven't  | 14px | 21.994px | normal | 870 | 8482 | 320 | 66",
+    "H3 | Getting started is easy. | 28px | 36.4px | -0.7px | 204 | 8789 | 350 | 36",
+    "P | Connect Hex to your data warehouse and d | 20px | 30px | normal | 210 | 8835 | 493 | 60",
+    "DIV | Get started for free | 14px | 21.994px | normal | 231 | 8934 | 128 | 22",
+    "DIV | Talk to us | 14px | 21.994px | normal | 421 | 8934 | 62 | 22",
+    "P | Check out all of our plans to fit your t | 16px | 24px | normal | 804 | 8825 | 246 | 48",
+    "DIV | See our plans | 14px | 21.994px | normal | 825 | 8903 | 89 | 22",
+    "H2 | FAQ | 40px | 52px | -1px | 599 | 9297 | 82 | 52",
+    "H3 | What is Hex? | 14px | 21.994px | normal | 338 | 9385 | 604 | 64",
+    "H3 | Who uses Hex? | 14px | 21.994px | normal | 338 | 9450 | 604 | 64",
+    "H3 | Why do data teams switch to Hex? | 14px | 21.994px | normal | 338 | 9515 | 604 | 64",
+    "H3 | Can business users access data without k | 14px | 21.994px | normal | 338 | 9580 | 604 | 64",
+    "H3 | How does Hex ensure AI answers are accur | 14px | 21.994px | normal | 338 | 9645 | 604 | 64",
+    "H3 | How is Hex different from just using Cha | 14px | 21.994px | normal | 338 | 9710 | 604 | 88",
+    "H3 | How is Hex different than point solution | 14px | 21.994px | normal | 338 | 9799 | 604 | 64",
+    "P | Can't find your answer here? Get in touc | 16px | 24px | normal | 338 | 9899 | 604 | 24"
+  ]
+}

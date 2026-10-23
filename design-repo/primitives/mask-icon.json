@@ -1,0 +1,28 @@
+{
+  "id": "primitive.mask-icon",
+  "purpose": "Single-colour icon drawn through a CSS mask so it takes currentColor.",
+  "props": {
+    "src": {
+      "type": "asset",
+      "measuredFrom": [
+        "src/components/shared/MaskIcon.jsx:5"
+      ]
+    },
+    "size": {
+      "type": "number",
+      "measuredFrom": [
+        "src/components/shared/MaskIcon.jsx:5"
+      ],
+      "default": 15
+    }
+  },
+  "tokens": [
+    "iconSize.sm",
+    "iconSize.md"
+  ],
+  "measuredFrom": [
+    "src/components/shared/MaskIcon.jsx:5"
+  ],
+  "layer": "primitive",
+  "provisional": true
+}

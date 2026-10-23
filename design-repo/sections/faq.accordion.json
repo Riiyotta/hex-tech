@@ -1,0 +1,128 @@
+{
+  "id": "faq.accordion",
+  "category": "faq",
+  "purpose": "FAQ accordion: optional heading, independent toggle rows (question + answer), optional 'Can't find your answer' footer link.",
+  "variants": [
+    "home",
+    "page",
+    "report"
+  ],
+  "content": {
+    "title": {
+      "kind": "text",
+      "required": false,
+      "maxWords": 2,
+      "observedWords": [
+        1,
+        1
+      ],
+      "measuredFrom": [
+        "CLONE_SPEC.md:406",
+        "specs/product.md:495"
+      ]
+    },
+    "items": {
+      "kind": "list",
+      "required": true,
+      "minItems": 1,
+      "maxItems": 10,
+      "measuredFrom": [
+        "specs/product.md:292",
+        "specs/product.md:698"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "question": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 19,
+            "observedWords": [
+              15,
+              7
+            ],
+            "measuredFrom": [
+              "CLONE_SPEC.md:414",
+              "specs/solutions.md:686"
+            ]
+          },
+          "answer": {
+            "kind": "richText",
+            "required": true,
+            "maxBlocks": 4,
+            "blockTypes": [
+              "paragraph",
+              "list"
+            ],
+            "maxWordsPerBlock": 57,
+            "measuredFrom": [
+              "CLONE_SPEC.md:413"
+            ],
+            "placeholderInClone": false
+          }
+        }
+      }
+    },
+    "showFooter": {
+      "kind": "boolean",
+      "required": false,
+      "measuredFrom": [
+        "specs/SHARED_BUILT.md:60"
+      ]
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.phone-sm}",
+      "change": "resize-type",
+      "detail": "full width; questions wrap",
+      "measuredFrom": [
+        "CLONE_SPEC.md:435"
+      ]
+    }
+  ],
+  "constraints": {
+    "maxPerPage": 1
+  },
+  "measuredFrom": [
+    "CLONE_SPEC.md:403",
+    "specs/SHARED_BUILT.md:54"
+  ],
+  "notes": "Report (SOTD) FAQ answers are placeholder prose in the clone; budgets are lengths only.",
+  "wordBudgets": {
+    "items[].question": 19,
+    "title": 2
+  },
+  "richTextBudgets": {
+    "items[].answer": {
+      "maxBlocks": 4,
+      "maxWordsPerBlock": 57,
+      "blockTypes": [
+        "paragraph",
+        "list"
+      ]
+    }
+  },
+  "assetRoles": [],
+  "usedByTemplates": [
+    "template.enterprise",
+    "template.home",
+    "template.integration-detail",
+    "template.pricing",
+    "template.product-feature",
+    "template.report"
+  ],
+  "observedThemes": [
+    "dark",
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__faq.accordion",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

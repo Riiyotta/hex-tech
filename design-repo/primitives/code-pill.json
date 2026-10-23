@@ -1,0 +1,24 @@
+{
+  "id": "primitive.code-pill",
+  "purpose": "Inline monospace token chip inside running copy.",
+  "props": {
+    "text": {
+      "type": "text",
+      "measuredFrom": [
+        "specs/product.md:143"
+      ]
+    }
+  },
+  "tokens": [
+    "color.border.default",
+    "color.highlight",
+    "color.text.default",
+    "radius.eyebrow"
+  ],
+  "measuredFrom": [
+    "specs/product.md:143",
+    "src/pages/productCore/shared/CodePill.jsx:4"
+  ],
+  "layer": "primitive",
+  "provisional": true
+}

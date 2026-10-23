@@ -1,0 +1,139 @@
+{
+  "id": "hero.guide-document",
+  "category": "hero",
+  "purpose": "Long-form guide cover card: fading feature-tag list, oversized H1, lead and a three-group table of contents.",
+  "variants": [],
+  "content": {
+    "featureTags": {
+      "kind": "list",
+      "required": true,
+      "minItems": 5,
+      "maxItems": 5,
+      "measuredFrom": [
+        "specs/product.md:625"
+      ],
+      "item": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 3,
+        "observedWords": [
+          2
+        ],
+        "measuredFrom": [
+          "specs/product.md:625"
+        ]
+      }
+    },
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 4,
+      "observedWords": [
+        3
+      ],
+      "measuredFrom": [
+        "specs/product.md:626"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 32,
+      "observedWords": [
+        25
+      ],
+      "measuredFrom": [
+        "specs/product.md:626"
+      ]
+    },
+    "tocGroups": {
+      "kind": "list",
+      "required": true,
+      "minItems": 3,
+      "maxItems": 3,
+      "measuredFrom": [
+        "specs/product.md:627"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "title": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 8,
+            "observedWords": [
+              6
+            ],
+            "measuredFrom": [
+              "specs/product.md:628"
+            ]
+          },
+          "anchor": {
+            "kind": "href",
+            "required": true
+          },
+          "items": {
+            "kind": "list",
+            "required": true,
+            "minItems": 3,
+            "maxItems": 5,
+            "measuredFrom": [
+              "specs/product.md:629"
+            ],
+            "item": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 9,
+              "observedWords": [
+                7
+              ],
+              "measuredFrom": [
+                "specs/product.md:628"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-on-mount"
+    ],
+    "default": "reveal-on-mount"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "stack-columns",
+      "detail": "document grid collapses to one column",
+      "measuredFrom": [
+        "specs/product.md:634"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/product.md:624"
+  ],
+  "wordBudgets": {
+    "description": 32,
+    "featureTags[]": 3,
+    "headline": 4,
+    "tocGroups[].items[]": 9,
+    "tocGroups[].title": 8
+  },
+  "richTextBudgets": {},
+  "assetRoles": [],
+  "usedByTemplates": [
+    "template.long-form-guide"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__hero.guide-document",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

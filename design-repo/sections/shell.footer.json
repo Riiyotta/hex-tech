@@ -1,0 +1,71 @@
+{
+  "id": "shell.footer",
+  "category": "shell",
+  "purpose": "Global footer: wordmark + emoji rotator, four link columns, legal row, static hit counter.",
+  "variants": [],
+  "content": {},
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.laptop}",
+      "change": "stack-columns",
+      "detail": "inner becomes a flex column gap 45",
+      "measuredFrom": [
+        "CLONE_SPEC.md:428"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustBeLast": true,
+    "globalContent": true
+  },
+  "measuredFrom": [
+    "CLONE_SPEC.md:418",
+    "specs/product.md:85"
+  ],
+  "sourceEvidence": [
+    "src/components/sections/Footer.jsx:3"
+  ],
+  "notes": "Hit counter renders a static value (live value is dynamic). Footer copy is global data.",
+  "wordBudgets": {},
+  "richTextBudgets": {},
+  "assetRoles": [],
+  "usedByTemplates": [
+    "template.about",
+    "template.article",
+    "template.blog-index",
+    "template.careers",
+    "template.compare",
+    "template.customer-story",
+    "template.customers-index",
+    "template.enterprise",
+    "template.form-page",
+    "template.guide-landing",
+    "template.home",
+    "template.integration-detail",
+    "template.integrations-index",
+    "template.long-form-guide",
+    "template.newsroom",
+    "template.partners",
+    "template.placeholder",
+    "template.pricing",
+    "template.product-feature",
+    "template.product-v1",
+    "template.solution-detail",
+    "template.solutions-hub",
+    "template.templates-index",
+    "template.v1-resource-index"
+  ],
+  "observedThemes": [
+    "dark",
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__shell.footer",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

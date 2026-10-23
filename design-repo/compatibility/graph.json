@@ -1,0 +1,1217 @@
+{
+  "$description": "Rhythm/position rules. Each id is implemented in schema/semantic_validate.py; verify_all.py fails if the two sets drift.",
+  "rules": [
+    {
+      "id": "SCHEMA_VALID",
+      "severity": "error",
+      "description": "The PageSpec validates against schema/pagespec.schema.json (Draft-07).",
+      "measuredFrom": []
+    },
+    {
+      "id": "TEMPLATE_KNOWN",
+      "severity": "error",
+      "description": "template must be one of templates/templates.json.",
+      "measuredFrom": []
+    },
+    {
+      "id": "TEMPLATE_SEQUENCE",
+      "severity": "error",
+      "description": "nodes[] must match the declared template's own node list (order, required, repeatable, variants, slot bounds).",
+      "measuredFrom": [
+        "CLONE_SPEC.md:43"
+      ]
+    },
+    {
+      "id": "ROUTE_FORMAT",
+      "severity": "error",
+      "description": "route is a lowercase path with leading and trailing slash (live URL form).",
+      "measuredFrom": [
+        "CLONE_SPEC.md:256"
+      ]
+    },
+    {
+      "id": "ROUTE_TEMPLATE_CONSISTENCY",
+      "severity": "error",
+      "description": "An existing route must use the template routes.json maps it to.",
+      "measuredFrom": []
+    },
+    {
+      "id": "HOME_ROUTE_ONLY",
+      "severity": "error",
+      "description": "template.home and homeRouteOnly sections only on '/'.",
+      "measuredFrom": [
+        "CLONE_SPEC.md:1"
+      ]
+    },
+    {
+      "id": "THEME_ALLOWED",
+      "severity": "error",
+      "description": "theme must be one the template is observed in (light/dark per route).",
+      "measuredFrom": [
+        "src/routes.jsx:3"
+      ]
+    },
+    {
+      "id": "LAYOUT_MATCH",
+      "severity": "error",
+      "description": "layout ('site'|'standalone') must equal the template's layout.",
+      "measuredFrom": [
+        "src/routes.jsx:4"
+      ]
+    },
+    {
+      "id": "PLACEHOLDER_TEMPLATE",
+      "severity": "warn",
+      "description": "template.placeholder is the 'page still being built' fallback; it validates but is not a generation target.",
+      "measuredFrom": [
+        "src/pages/PagePending.jsx:1"
+      ]
+    },
+    {
+      "id": "CHROME_POSITION",
+      "severity": "error",
+      "description": "site layout: shell.header first and shell.footer last, once each; standalone: no shell nodes.",
+      "measuredFrom": [
+        "specs/company.md:38"
+      ]
+    },
+    {
+      "id": "ONE_HERO",
+      "severity": "error",
+      "description": "Exactly one hero.* node per page.",
+      "measuredFrom": [],
+      "exceptions": [],
+      "exceptionNote": "No template is hero-less: every template in templates.json has exactly one hero.* entry (checked by verify_all against templates.json, and by the per-template controls)."
+    },
+    {
+      "id": "HERO_FIRST",
+      "severity": "error",
+      "description": "The hero is the first content node (right after shell.header, or first in standalone).",
+      "measuredFrom": []
+    },
+    {
+      "id": "ONE_PER_PAGE",
+      "severity": "error",
+      "description": "Sections declaring onePerPage / maxPerPage respect the limit.",
+      "measuredFrom": []
+    },
+    {
+      "id": "NO_ADJACENT_SAME_SECTION",
+      "severity": "warn",
+      "description": "The same (section, variant) should not repeat back-to-back, except sections that are observed repeating consecutively.",
+      "measuredFrom": [],
+      "exceptions": [
+        "collection.integration-category",
+        "content.guide-chapter",
+        "content.report-section",
+        "feature.cell-collage",
+        "feature.solution-row",
+        "feature.split",
+        "feature.v1-two-up"
+      ],
+      "exceptionNote": "Sections with constraints.consecutiveAllowed (observed repeating back-to-back on real routes)."
+    },
+    {
+      "id": "MOTION_PATTERN_ALLOWED",
+      "severity": "error",
+      "description": "node.motion.pattern is one of the section's allowedPatterns.",
+      "measuredFrom": []
+    },
+    {
+      "id": "REDUCED_MOTION_FALLBACK",
+      "severity": "error",
+      "description": "Every node declares reducedMotionFallback, locked to its pattern.",
+      "measuredFrom": [
+        "CLONE_SPEC.md:442"
+      ]
+    },
+    {
+      "id": "MOTION_BUDGET",
+      "severity": "warn",
+      "description": "Sections that carry continuous motion (marquee, perlin drift, rotators, typing) stay within the observed per-page maximum.",
+      "measuredFrom": [],
+      "max": 6,
+      "maxDerivedFrom": "max over routes.json of nodes whose section allows a continuous motion pattern"
+    },
+    {
+      "id": "MAX_WORDS",
+      "severity": "error",
+      "description": "Every text field respects its maxWords budget; rich-text blocks respect maxBlocks and maxWordsPerBlock.",
+      "measuredFrom": []
+    },
+    {
+      "id": "ASSET_ROLE_POLICY",
+      "severity": "error",
+      "description": "media.src obeys the asset role's generationPolicy (placeholder-only, must-reuse-exact, external-reference-only).",
+      "measuredFrom": [
+        "CLONE_SPEC.md:501"
+      ]
+    },
+    {
+      "id": "LINK_FORMAT",
+      "severity": "error",
+      "description": "Internal links are relative /paths ending in '/', #anchors or mailto:; external links are https:// plain hrefs; the external flag agrees.",
+      "measuredFrom": [
+        "src/layouts/SiteShell.jsx:2"
+      ]
+    },
+    {
+      "id": "INTERNAL_LINK_ROUTED",
+      "severity": "warn",
+      "description": "Internal hrefs should resolve to a known route; unknown paths render the placeholder.",
+      "measuredFrom": [
+        "src/routes.jsx:1"
+      ]
+    },
+    {
+      "id": "FORM_NO_SUBMISSION",
+      "severity": "error",
+      "description": "Forms are visual-only: conversion.form-shell.submission must be 'none'; no endpoint fields exist in the schema.",
+      "measuredFrom": [
+        "src/pages/pricingForms/forms/HubSpotFormShell.jsx:3"
+      ]
+    }
+  ],
+  "adjacency": {
+    "shell.header": {
+      "recommendedAfter": [],
+      "recommendedBefore": [
+        "hero.about",
+        "hero.article",
+        "hero.blog-masthead",
+        "hero.careers",
+        "hero.compare",
+        "hero.customers",
+        "hero.enterprise",
+        "hero.form",
+        "hero.guide-document",
+        "hero.guide-landing",
+        "hero.heading-with-callout",
+        "hero.home",
+        "hero.integration",
+        "hero.newsroom",
+        "hero.partners",
+        "hero.placeholder",
+        "hero.pricing",
+        "hero.product",
+        "hero.solution",
+        "hero.solutions-hub",
+        "hero.story",
+        "hero.v1",
+        "hero.v1-intro"
+      ]
+    },
+    "shell.footer": {
+      "recommendedAfter": [
+        "collection.blog-feed",
+        "collection.customer-stories",
+        "collection.events",
+        "collection.external-links",
+        "collection.guides",
+        "collection.integration-category",
+        "collection.newsroom-cards",
+        "collection.open-roles",
+        "collection.resource-cards",
+        "collection.template-cards",
+        "collection.templates-catalog",
+        "content.article-body",
+        "conversion.form-shell",
+        "conversion.outro-tout",
+        "faq.accordion",
+        "feature.how-it-works",
+        "feature.integration-custom-blocks",
+        "feature.photo-collage",
+        "feature.video-embed",
+        "hero.placeholder",
+        "proof.customer-banner",
+        "proof.logo-wall",
+        "proof.quotes-marquee"
+      ],
+      "recommendedBefore": []
+    },
+    "hero.home": {
+      "recommendedAfter": [
+        "shell.header"
+      ],
+      "recommendedBefore": [
+        "proof.customer-banner"
+      ]
+    },
+    "hero.product": {
+      "recommendedAfter": [
+        "shell.header"
+      ],
+      "recommendedBefore": [
+        "feature.platform-overview",
+        "feature.workflow-split",
+        "proof.customer-banner",
+        "proof.full-width-quote"
+      ]
+    },
+    "hero.v1": {
+      "recommendedAfter": [
+        "shell.header"
+      ],
+      "recommendedBefore": [
+        "proof.customer-banner",
+        "proof.social-tout"
+      ]
+    },
+    "hero.guide-document": {
+      "recommendedAfter": [
+        "shell.header"
+      ],
+      "recommendedBefore": [
+        "content.guide-chapter"
+      ]
+    },
+    "hero.heading-with-callout": {
+      "recommendedAfter": [
+        "shell.header"
+      ],
+      "recommendedBefore": [
+        "collection.integration-category"
+      ]
+    },
+    "hero.integration": {
+      "recommendedAfter": [
+        "shell.header"
+      ],
+      "recommendedBefore": [
+        "divider.tron",
+        "proof.stories-two-up"
+      ]
+    },
+    "hero.solutions-hub": {
+      "recommendedAfter": [
+        "shell.header"
+      ],
+      "recommendedBefore": [
+        "proof.customer-banner"
+      ]
+    },
+    "hero.solution": {
+      "recommendedAfter": [
+        "shell.header"
+      ],
+      "recommendedBefore": [
+        "feature.solution-row",
+        "proof.customer-banner"
+      ]
+    },
+    "hero.enterprise": {
+      "recommendedAfter": [
+        "shell.header"
+      ],
+      "recommendedBefore": [
+        "proof.customer-banner"
+      ]
+    },
+    "hero.compare": {
+      "recommendedAfter": [
+        "shell.header"
+      ],
+      "recommendedBefore": [
+        "proof.customer-banner"
+      ]
+    },
+    "hero.partners": {
+      "recommendedAfter": [
+        "shell.header"
+      ],
+      "recommendedBefore": [
+        "feature.partners-why"
+      ]
+    },
+    "hero.pricing": {
+      "recommendedAfter": [
+        "shell.header"
+      ],
+      "recommendedBefore": [
+        "feature.plan-summary"
+      ]
+    },
+    "hero.form": {
+      "recommendedAfter": [
+        "shell.header"
+      ],
+      "recommendedBefore": [
+        "conversion.form-shell"
+      ]
+    },
+    "hero.about": {
+      "recommendedAfter": [
+        "shell.header"
+      ],
+      "recommendedBefore": [
+        "proof.customer-banner"
+      ]
+    },
+    "hero.careers": {
+      "recommendedAfter": [
+        "shell.header"
+      ],
+      "recommendedBefore": [
+        "feature.highlights"
+      ]
+    },
+    "hero.newsroom": {
+      "recommendedAfter": [
+        "shell.header"
+      ],
+      "recommendedBefore": [
+        "collection.newsroom-featured"
+      ]
+    },
+    "hero.blog-masthead": {
+      "recommendedAfter": [
+        "shell.header"
+      ],
+      "recommendedBefore": [
+        "collection.blog-featured"
+      ]
+    },
+    "hero.article": {
+      "recommendedAfter": [
+        "shell.header"
+      ],
+      "recommendedBefore": [
+        "content.article-body"
+      ]
+    },
+    "hero.customers": {
+      "recommendedAfter": [
+        "shell.header"
+      ],
+      "recommendedBefore": [
+        "proof.featured-stories-fan"
+      ]
+    },
+    "hero.story": {
+      "recommendedAfter": [
+        "shell.header"
+      ],
+      "recommendedBefore": [
+        "feature.story-details"
+      ]
+    },
+    "hero.v1-intro": {
+      "recommendedAfter": [
+        "shell.header"
+      ],
+      "recommendedBefore": [
+        "collection.events",
+        "collection.guides",
+        "collection.templates-catalog"
+      ]
+    },
+    "hero.guide-landing": {
+      "recommendedAfter": [
+        "shell.header"
+      ],
+      "recommendedBefore": [
+        "feature.podcast-episodes"
+      ]
+    },
+    "hero.report": {
+      "recommendedAfter": [],
+      "recommendedBefore": [
+        "content.report-intro"
+      ]
+    },
+    "hero.placeholder": {
+      "recommendedAfter": [
+        "shell.header"
+      ],
+      "recommendedBefore": [
+        "shell.footer"
+      ]
+    },
+    "proof.customer-banner": {
+      "recommendedAfter": [
+        "conversion.form-shell",
+        "feature.plan-summary",
+        "hero.about",
+        "hero.compare",
+        "hero.enterprise",
+        "hero.home",
+        "hero.product",
+        "hero.solution",
+        "hero.solutions-hub",
+        "hero.v1"
+      ],
+      "recommendedBefore": [
+        "divider.tron",
+        "feature.built-different",
+        "feature.codegen-gallery",
+        "feature.magic",
+        "feature.numbered-grid",
+        "feature.section-heading",
+        "feature.solution-row",
+        "navigation.filter-chips",
+        "proof.logo-wall",
+        "shell.footer"
+      ]
+    },
+    "proof.full-width-quote": {
+      "recommendedAfter": [
+        "feature.info-card-grid",
+        "feature.magic",
+        "hero.product"
+      ],
+      "recommendedBefore": [
+        "feature.bento-cells",
+        "feature.cell-collage",
+        "feature.section-heading",
+        "feature.split"
+      ]
+    },
+    "proof.stories-two-up": {
+      "recommendedAfter": [
+        "feature.bento-cells",
+        "feature.ethos-cards",
+        "hero.integration"
+      ],
+      "recommendedBefore": [
+        "conversion.outro-tout",
+        "divider.tron",
+        "feature.use-cases"
+      ]
+    },
+    "proof.quotes-marquee": {
+      "recommendedAfter": [
+        "content.guide-chapter",
+        "feature.bento-cells",
+        "feature.workflow-split",
+        "proof.featured-stories-fan"
+      ],
+      "recommendedBefore": [
+        "feature.demo-accordion",
+        "feature.perlin-callout",
+        "navigation.filter-chips",
+        "shell.footer"
+      ]
+    },
+    "proof.social-tout": {
+      "recommendedAfter": [
+        "conversion.wallpaper-cta",
+        "feature.snaked-rows",
+        "feature.solution-row",
+        "feature.v1-two-up",
+        "hero.v1"
+      ],
+      "recommendedBefore": [
+        "collection.template-cards",
+        "conversion.collage-cta",
+        "feature.live-app-embed",
+        "feature.section-heading",
+        "feature.solution-row"
+      ]
+    },
+    "proof.story-tout": {
+      "recommendedAfter": [
+        "feature.use-cases"
+      ],
+      "recommendedBefore": [
+        "feature.integrations-grid"
+      ]
+    },
+    "proof.logo-wall": {
+      "recommendedAfter": [
+        "collection.customer-stories",
+        "proof.customer-banner"
+      ],
+      "recommendedBefore": [
+        "collection.newsroom-cards",
+        "shell.footer"
+      ]
+    },
+    "proof.quote-tiles": {
+      "recommendedAfter": [
+        "collection.resource-cards"
+      ],
+      "recommendedBefore": [
+        "conversion.outro-tout"
+      ]
+    },
+    "proof.featured-stories-fan": {
+      "recommendedAfter": [
+        "hero.customers"
+      ],
+      "recommendedBefore": [
+        "proof.quotes-marquee"
+      ]
+    },
+    "feature.built-different": {
+      "recommendedAfter": [
+        "proof.customer-banner"
+      ],
+      "recommendedBefore": [
+        "feature.split"
+      ]
+    },
+    "feature.split": {
+      "recommendedAfter": [
+        "feature.built-different",
+        "feature.section-heading",
+        "feature.split",
+        "proof.full-width-quote"
+      ],
+      "recommendedBefore": [
+        "feature.approach-cards",
+        "feature.bento-cells",
+        "feature.ethos-cards",
+        "feature.split"
+      ]
+    },
+    "feature.ethos-cards": {
+      "recommendedAfter": [
+        "feature.split"
+      ],
+      "recommendedBefore": [
+        "proof.stories-two-up"
+      ]
+    },
+    "feature.use-cases": {
+      "recommendedAfter": [
+        "proof.stories-two-up"
+      ],
+      "recommendedBefore": [
+        "proof.story-tout"
+      ]
+    },
+    "feature.integrations-grid": {
+      "recommendedAfter": [
+        "feature.support-grid",
+        "proof.story-tout"
+      ],
+      "recommendedBefore": [
+        "conversion.bottom-cta",
+        "conversion.cta-split"
+      ]
+    },
+    "feature.section-heading": {
+      "recommendedAfter": [
+        "feature.live-app-embed",
+        "feature.solution-row",
+        "feature.v1-two-up",
+        "proof.customer-banner",
+        "proof.full-width-quote",
+        "proof.social-tout"
+      ],
+      "recommendedBefore": [
+        "collection.resource-cards",
+        "collection.template-cards",
+        "feature.icon-row",
+        "feature.info-card-grid",
+        "feature.solution-row",
+        "feature.split",
+        "feature.v1-two-up"
+      ]
+    },
+    "feature.info-card-grid": {
+      "recommendedAfter": [
+        "feature.demo-accordion",
+        "feature.observability-callouts",
+        "feature.platform-overview",
+        "feature.section-heading"
+      ],
+      "recommendedBefore": [
+        "conversion.outro-tout",
+        "feature.command-list",
+        "feature.observability-callouts",
+        "proof.full-width-quote"
+      ]
+    },
+    "feature.bento-cells": {
+      "recommendedAfter": [
+        "feature.split",
+        "proof.full-width-quote"
+      ],
+      "recommendedBefore": [
+        "proof.quotes-marquee",
+        "proof.stories-two-up"
+      ]
+    },
+    "feature.perlin-callout": {
+      "recommendedAfter": [
+        "feature.demo-accordion",
+        "proof.quotes-marquee"
+      ],
+      "recommendedBefore": [
+        "conversion.outro-tout",
+        "feature.demo-accordion"
+      ]
+    },
+    "feature.v1-two-up": {
+      "recommendedAfter": [
+        "feature.section-heading",
+        "feature.v1-two-up"
+      ],
+      "recommendedBefore": [
+        "feature.section-heading",
+        "feature.v1-two-up",
+        "proof.social-tout"
+      ]
+    },
+    "feature.solution-row": {
+      "recommendedAfter": [
+        "feature.section-heading",
+        "feature.solution-row",
+        "hero.solution",
+        "proof.customer-banner",
+        "proof.social-tout"
+      ],
+      "recommendedBefore": [
+        "collection.resource-cards",
+        "feature.live-app-embed",
+        "feature.section-heading",
+        "feature.solution-row",
+        "proof.social-tout"
+      ]
+    },
+    "feature.approach-cards": {
+      "recommendedAfter": [
+        "feature.split"
+      ],
+      "recommendedBefore": [
+        "collection.resource-cards"
+      ]
+    },
+    "feature.command-list": {
+      "recommendedAfter": [
+        "feature.info-card-grid"
+      ],
+      "recommendedBefore": [
+        "feature.workflow-table"
+      ]
+    },
+    "feature.workflow-table": {
+      "recommendedAfter": [
+        "feature.command-list"
+      ],
+      "recommendedBefore": [
+        "conversion.install-cta"
+      ]
+    },
+    "feature.platform-overview": {
+      "recommendedAfter": [
+        "hero.product"
+      ],
+      "recommendedBefore": [
+        "feature.info-card-grid"
+      ]
+    },
+    "feature.observability-callouts": {
+      "recommendedAfter": [
+        "feature.info-card-grid"
+      ],
+      "recommendedBefore": [
+        "feature.info-card-grid"
+      ]
+    },
+    "feature.workflow-split": {
+      "recommendedAfter": [
+        "hero.product"
+      ],
+      "recommendedBefore": [
+        "proof.quotes-marquee"
+      ]
+    },
+    "feature.demo-accordion": {
+      "recommendedAfter": [
+        "feature.perlin-callout",
+        "proof.quotes-marquee"
+      ],
+      "recommendedBefore": [
+        "feature.info-card-grid",
+        "feature.perlin-callout"
+      ]
+    },
+    "feature.magic": {
+      "recommendedAfter": [
+        "proof.customer-banner"
+      ],
+      "recommendedBefore": [
+        "proof.full-width-quote"
+      ]
+    },
+    "feature.cell-collage": {
+      "recommendedAfter": [
+        "feature.cell-collage",
+        "proof.full-width-quote"
+      ],
+      "recommendedBefore": [
+        "feature.cell-collage",
+        "feature.execution-dag"
+      ]
+    },
+    "feature.execution-dag": {
+      "recommendedAfter": [
+        "feature.cell-collage"
+      ],
+      "recommendedBefore": [
+        "conversion.wallpaper-cta"
+      ]
+    },
+    "feature.codegen-gallery": {
+      "recommendedAfter": [
+        "proof.customer-banner"
+      ],
+      "recommendedBefore": [
+        "feature.snaked-rows"
+      ]
+    },
+    "feature.snaked-rows": {
+      "recommendedAfter": [
+        "feature.codegen-gallery"
+      ],
+      "recommendedBefore": [
+        "proof.social-tout"
+      ]
+    },
+    "feature.icon-row": {
+      "recommendedAfter": [
+        "feature.section-heading"
+      ],
+      "recommendedBefore": [
+        "conversion.outro-tout"
+      ]
+    },
+    "feature.numbered-grid": {
+      "recommendedAfter": [
+        "proof.customer-banner"
+      ],
+      "recommendedBefore": [
+        "feature.illustrated-checklist"
+      ]
+    },
+    "feature.illustrated-checklist": {
+      "recommendedAfter": [
+        "feature.numbered-grid"
+      ],
+      "recommendedBefore": [
+        "feature.support-grid"
+      ]
+    },
+    "feature.support-grid": {
+      "recommendedAfter": [
+        "feature.illustrated-checklist"
+      ],
+      "recommendedBefore": [
+        "feature.integrations-grid"
+      ]
+    },
+    "feature.live-app-embed": {
+      "recommendedAfter": [
+        "feature.solution-row",
+        "proof.social-tout"
+      ],
+      "recommendedBefore": [
+        "feature.section-heading"
+      ]
+    },
+    "feature.partners-why": {
+      "recommendedAfter": [
+        "hero.partners"
+      ],
+      "recommendedBefore": [
+        "divider.tron"
+      ]
+    },
+    "feature.partner-tiers": {
+      "recommendedAfter": [
+        "divider.tron"
+      ],
+      "recommendedBefore": [
+        "collection.partners-grid"
+      ]
+    },
+    "feature.highlights": {
+      "recommendedAfter": [
+        "hero.careers"
+      ],
+      "recommendedBefore": [
+        "collection.open-roles"
+      ]
+    },
+    "feature.photo-collage": {
+      "recommendedAfter": [
+        "collection.newsroom-cards"
+      ],
+      "recommendedBefore": [
+        "shell.footer"
+      ]
+    },
+    "feature.how-it-works": {
+      "recommendedAfter": [
+        "divider.tron"
+      ],
+      "recommendedBefore": [
+        "collection.external-links",
+        "feature.integration-custom-blocks",
+        "feature.video-embed",
+        "shell.footer"
+      ]
+    },
+    "feature.video-embed": {
+      "recommendedAfter": [
+        "faq.accordion",
+        "feature.how-it-works"
+      ],
+      "recommendedBefore": [
+        "collection.external-links",
+        "shell.footer"
+      ]
+    },
+    "feature.integration-custom-blocks": {
+      "recommendedAfter": [
+        "feature.how-it-works"
+      ],
+      "recommendedBefore": [
+        "faq.accordion",
+        "shell.footer"
+      ]
+    },
+    "feature.plan-summary": {
+      "recommendedAfter": [
+        "hero.pricing"
+      ],
+      "recommendedBefore": [
+        "proof.customer-banner"
+      ]
+    },
+    "feature.plan-comparison": {
+      "recommendedAfter": [
+        "divider.tron"
+      ],
+      "recommendedBefore": [
+        "divider.tron"
+      ]
+    },
+    "feature.story-details": {
+      "recommendedAfter": [
+        "hero.story"
+      ],
+      "recommendedBefore": [
+        "content.story-body"
+      ]
+    },
+    "feature.podcast-episodes": {
+      "recommendedAfter": [
+        "hero.guide-landing"
+      ],
+      "recommendedBefore": [
+        "collection.resource-cards"
+      ]
+    },
+    "content.guide-chapter": {
+      "recommendedAfter": [
+        "content.guide-chapter",
+        "hero.guide-document"
+      ],
+      "recommendedBefore": [
+        "content.guide-chapter",
+        "proof.quotes-marquee"
+      ]
+    },
+    "content.article-body": {
+      "recommendedAfter": [
+        "hero.article"
+      ],
+      "recommendedBefore": [
+        "shell.footer"
+      ]
+    },
+    "content.story-body": {
+      "recommendedAfter": [
+        "feature.story-details"
+      ],
+      "recommendedBefore": [
+        "collection.customer-stories"
+      ]
+    },
+    "content.report-intro": {
+      "recommendedAfter": [
+        "hero.report"
+      ],
+      "recommendedBefore": [
+        "content.report-toc"
+      ]
+    },
+    "content.report-toc": {
+      "recommendedAfter": [
+        "content.report-intro"
+      ],
+      "recommendedBefore": [
+        "content.report-section"
+      ]
+    },
+    "content.report-section": {
+      "recommendedAfter": [
+        "content.report-section",
+        "content.report-toc"
+      ],
+      "recommendedBefore": [
+        "content.report-outro",
+        "content.report-section"
+      ]
+    },
+    "content.report-outro": {
+      "recommendedAfter": [
+        "content.report-section"
+      ],
+      "recommendedBefore": [
+        "faq.accordion"
+      ]
+    },
+    "collection.newsroom-cards": {
+      "recommendedAfter": [
+        "collection.newsroom-featured",
+        "proof.logo-wall"
+      ],
+      "recommendedBefore": [
+        "feature.photo-collage",
+        "shell.footer"
+      ]
+    },
+    "collection.newsroom-featured": {
+      "recommendedAfter": [
+        "hero.newsroom"
+      ],
+      "recommendedBefore": [
+        "collection.newsroom-cards"
+      ]
+    },
+    "collection.blog-featured": {
+      "recommendedAfter": [
+        "hero.blog-masthead"
+      ],
+      "recommendedBefore": [
+        "collection.blog-recent"
+      ]
+    },
+    "collection.blog-recent": {
+      "recommendedAfter": [
+        "collection.blog-featured"
+      ],
+      "recommendedBefore": [
+        "collection.blog-feed"
+      ]
+    },
+    "collection.blog-feed": {
+      "recommendedAfter": [
+        "collection.blog-recent"
+      ],
+      "recommendedBefore": [
+        "shell.footer"
+      ]
+    },
+    "collection.customer-stories": {
+      "recommendedAfter": [
+        "content.story-body",
+        "navigation.filter-chips"
+      ],
+      "recommendedBefore": [
+        "proof.logo-wall",
+        "shell.footer"
+      ]
+    },
+    "collection.events": {
+      "recommendedAfter": [
+        "hero.v1-intro"
+      ],
+      "recommendedBefore": [
+        "shell.footer"
+      ]
+    },
+    "collection.guides": {
+      "recommendedAfter": [
+        "hero.v1-intro"
+      ],
+      "recommendedBefore": [
+        "shell.footer"
+      ]
+    },
+    "collection.templates-catalog": {
+      "recommendedAfter": [
+        "hero.v1-intro"
+      ],
+      "recommendedBefore": [
+        "shell.footer"
+      ]
+    },
+    "collection.resource-cards": {
+      "recommendedAfter": [
+        "feature.approach-cards",
+        "feature.podcast-episodes",
+        "feature.section-heading",
+        "feature.solution-row",
+        "navigation.filter-chips"
+      ],
+      "recommendedBefore": [
+        "conversion.outro-tout",
+        "faq.accordion",
+        "proof.quote-tiles",
+        "shell.footer"
+      ]
+    },
+    "collection.template-cards": {
+      "recommendedAfter": [
+        "feature.section-heading",
+        "proof.social-tout"
+      ],
+      "recommendedBefore": [
+        "conversion.outro-tout",
+        "shell.footer"
+      ]
+    },
+    "collection.integration-category": {
+      "recommendedAfter": [
+        "collection.integration-category",
+        "hero.heading-with-callout"
+      ],
+      "recommendedBefore": [
+        "collection.integration-category",
+        "shell.footer"
+      ]
+    },
+    "collection.external-links": {
+      "recommendedAfter": [
+        "faq.accordion",
+        "feature.how-it-works",
+        "feature.video-embed"
+      ],
+      "recommendedBefore": [
+        "shell.footer"
+      ]
+    },
+    "collection.open-roles": {
+      "recommendedAfter": [
+        "feature.highlights"
+      ],
+      "recommendedBefore": [
+        "shell.footer"
+      ]
+    },
+    "collection.partners-grid": {
+      "recommendedAfter": [
+        "feature.partner-tiers"
+      ],
+      "recommendedBefore": [
+        "conversion.form-shell"
+      ]
+    },
+    "navigation.filter-chips": {
+      "recommendedAfter": [
+        "proof.customer-banner",
+        "proof.quotes-marquee"
+      ],
+      "recommendedBefore": [
+        "collection.customer-stories",
+        "collection.resource-cards"
+      ]
+    },
+    "conversion.outro-tout": {
+      "recommendedAfter": [
+        "collection.resource-cards",
+        "collection.template-cards",
+        "conversion.collage-cta",
+        "conversion.install-cta",
+        "faq.accordion",
+        "feature.icon-row",
+        "feature.info-card-grid",
+        "feature.perlin-callout",
+        "proof.quote-tiles",
+        "proof.stories-two-up"
+      ],
+      "recommendedBefore": [
+        "faq.accordion",
+        "shell.footer"
+      ]
+    },
+    "conversion.bottom-cta": {
+      "recommendedAfter": [
+        "feature.integrations-grid"
+      ],
+      "recommendedBefore": [
+        "divider.tron"
+      ]
+    },
+    "conversion.install-cta": {
+      "recommendedAfter": [
+        "feature.workflow-table"
+      ],
+      "recommendedBefore": [
+        "conversion.outro-tout"
+      ]
+    },
+    "conversion.wallpaper-cta": {
+      "recommendedAfter": [
+        "feature.execution-dag"
+      ],
+      "recommendedBefore": [
+        "proof.social-tout"
+      ]
+    },
+    "conversion.collage-cta": {
+      "recommendedAfter": [
+        "proof.social-tout"
+      ],
+      "recommendedBefore": [
+        "conversion.outro-tout"
+      ]
+    },
+    "conversion.cta-split": {
+      "recommendedAfter": [
+        "feature.integrations-grid"
+      ],
+      "recommendedBefore": [
+        "divider.tron"
+      ]
+    },
+    "conversion.form-shell": {
+      "recommendedAfter": [
+        "collection.partners-grid",
+        "hero.form"
+      ],
+      "recommendedBefore": [
+        "proof.customer-banner",
+        "shell.footer"
+      ]
+    },
+    "faq.accordion": {
+      "recommendedAfter": [
+        "collection.resource-cards",
+        "content.report-outro",
+        "conversion.outro-tout",
+        "divider.tron",
+        "feature.integration-custom-blocks"
+      ],
+      "recommendedBefore": [
+        "collection.external-links",
+        "conversion.outro-tout",
+        "feature.video-embed",
+        "shell.footer"
+      ]
+    },
+    "divider.tron": {
+      "recommendedAfter": [
+        "conversion.bottom-cta",
+        "conversion.cta-split",
+        "feature.partners-why",
+        "feature.plan-comparison",
+        "hero.integration",
+        "proof.customer-banner",
+        "proof.stories-two-up"
+      ],
+      "recommendedBefore": [
+        "faq.accordion",
+        "feature.how-it-works",
+        "feature.partner-tiers",
+        "feature.plan-comparison"
+      ]
+    }
+  },
+  "adjacencyNote": "recommendedAfter/Before are the neighbours actually observed in routes.json (informational, not enforced)."
+}

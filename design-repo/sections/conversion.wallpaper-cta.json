@@ -1,0 +1,86 @@
+{
+  "id": "conversion.wallpaper-cta",
+  "category": "conversion",
+  "purpose": "Centred CTA over a faded glyph wallpaper: small icon, gradient H2, text and a button.",
+  "variants": [],
+  "content": {
+    "title": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 4,
+      "observedWords": [
+        3
+      ],
+      "measuredFrom": [
+        "specs/product.md:527"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 22,
+      "observedWords": [
+        17
+      ],
+      "measuredFrom": [
+        "specs/product.md:527"
+      ]
+    },
+    "action": {
+      "kind": "action",
+      "required": true,
+      "label": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 10,
+        "observedWords": [
+          4,
+          3,
+          4,
+          8
+        ],
+        "measuredFrom": [
+          "CLONE_SPEC.md:208",
+          "specs/product.md:258",
+          "specs/solutions.md:291"
+        ]
+      },
+      "variants": [
+        "primary",
+        "secondary"
+      ],
+      "sizes": [
+        "md",
+        "lg"
+      ]
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/product.md:525"
+  ],
+  "wordBudgets": {
+    "action.label": 10,
+    "description": 22,
+    "title": 4
+  },
+  "richTextBudgets": {},
+  "assetRoles": [],
+  "usedByTemplates": [
+    "template.product-feature"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__conversion.wallpaper-cta",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

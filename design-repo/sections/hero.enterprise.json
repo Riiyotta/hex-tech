@@ -1,0 +1,144 @@
+{
+  "id": "hero.enterprise",
+  "category": "hero",
+  "purpose": "Enterprise hero: vertical eyebrow, 68px solid H1, lead, two-column tick checklist and CTA beside an illustration.",
+  "variants": [],
+  "content": {
+    "eyebrow": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 2,
+      "observedWords": [
+        1
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:650"
+      ]
+    },
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 8,
+      "observedWords": [
+        6
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:651"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 13,
+      "observedWords": [
+        10
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:631"
+      ]
+    },
+    "checklist": {
+      "kind": "list",
+      "required": true,
+      "minItems": 4,
+      "maxItems": 4,
+      "measuredFrom": [
+        "specs/solutions.md:653"
+      ],
+      "item": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 7,
+        "observedWords": [
+          5
+        ],
+        "measuredFrom": [
+          "specs/solutions.md:653"
+        ]
+      }
+    },
+    "action": {
+      "kind": "action",
+      "required": true,
+      "label": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 4,
+        "observedWords": [
+          3
+        ],
+        "measuredFrom": [
+          "specs/solutions.md:654"
+        ]
+      },
+      "variants": [
+        "primary"
+      ],
+      "sizes": [
+        "lg"
+      ]
+    },
+    "illustration": {
+      "kind": "media",
+      "required": true,
+      "roles": [
+        "illustration.decorative"
+      ],
+      "alt": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 18,
+        "observedWords": [
+          14,
+          14
+        ],
+        "measuredFrom": [
+          "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+          "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+        ]
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-on-mount"
+    ],
+    "default": "reveal-on-mount"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "stack-columns",
+      "detail": "single column; eyebrow hidden",
+      "measuredFrom": [
+        "specs/solutions.md:650"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/solutions.md:647"
+  ],
+  "wordBudgets": {
+    "action.label": 4,
+    "checklist[]": 7,
+    "description": 13,
+    "eyebrow": 2,
+    "headline": 8,
+    "illustration.alt": 18
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "illustration.decorative"
+  ],
+  "usedByTemplates": [
+    "template.enterprise"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__hero.enterprise",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "primitive.animated-cta",
+  "purpose": "Large CTA with 36px icon circle; corner circles scale out and corner lines sweep on hover.",
+  "props": {
+    "variant": {
+      "type": "enum",
+      "measuredFrom": [
+        "specs/SHARED_BUILT.md:127"
+      ],
+      "enum": [
+        "primary",
+        "secondary"
+      ]
+    },
+    "color": {
+      "type": "enum",
+      "measuredFrom": [
+        "specs/SHARED_BUILT.md:127"
+      ],
+      "enum": [
+        "loud",
+        "default"
+      ]
+    },
+    "icon": {
+      "type": "asset",
+      "measuredFrom": [
+        "specs/SHARED_BUILT.md:127"
+      ]
+    },
+    "href": {
+      "type": "href",
+      "measuredFrom": [
+        "src/components/shared/AnimatedCta.jsx:42"
+      ]
+    }
+  },
+  "tokens": [
+    "shadow.glass-popover",
+    "color.text.loud",
+    "color.text.default",
+    "motion.duration.interaction"
+  ],
+  "measuredFrom": [
+    "specs/company.md:115",
+    "src/components/shared/AnimatedCta.jsx:42"
+  ],
+  "layer": "primitive",
+  "provisional": true
+}

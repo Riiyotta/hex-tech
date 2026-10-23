@@ -1,0 +1,14 @@
+# integrations-prefect @390 — doc height 3172 (1440: 2387)
+
+## Sections (matched by component class from the 1440 section list)
+- 0 Banner__ @1440 [245,200,950,596] → @390 [150, 144, 90, 20]  | H1:Add Hex apps to your Prefect pipelines and dataflows
+- 1 RunningText__ @1440 [29,876,1382,825] → @390 [48, 1153, 294, 712]  | H2:How it works
+
+## Text roles @390 (H1–H4, lead/body P, buttons): tag [x,y,w,h] «text» font/size/lh
+- H1 [48, 309, 294, 247] «Add Hex apps to your Prefect pipelines and dataflo» fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px; margin:0px 0px 20px; textAlign:center
+- P [48, 576, 294, 180] «Programmatically trigger data transformations, app» fontSize:20px; fontWeight:300; lineHeight:30px; margin:0px 0px 25px; textAlign:center
+- H2 [48, 1094, 294, 39] «How it works» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px; margin:0px 0px 20px
+- P [48, 1153, 294, 128] «The prefect-hex package lets Prefect users easily » fontSize:18px; lineHeight:32px; margin:0px 0px 24px
+- P [48, 1305, 294, 96] «Including Hex in your data pipelines and orchestra» fontSize:18px; lineHeight:32px; margin:0px 0px 24px
+- P [48, 1425, 294, 288] «- Trigger a Hex app to update cached values after » fontSize:18px; lineHeight:32px; margin:0px 0px 24px
+- P [48, 1737, 294, 128] «_The prefect-hex package is created and supported » fontSize:18px; lineHeight:32px

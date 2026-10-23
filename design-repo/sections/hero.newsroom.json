@@ -1,0 +1,100 @@
+{
+  "id": "hero.newsroom",
+  "category": "hero",
+  "purpose": "Newsroom header: left gradient H1 + press-contact line, media-kit callout on the right.",
+  "variants": [],
+  "content": {
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 2,
+      "observedWords": [
+        1
+      ],
+      "measuredFrom": [
+        "specs/company.md:221"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 10,
+      "observedWords": [
+        8
+      ],
+      "measuredFrom": [
+        "specs/company.md:221"
+      ]
+    },
+    "callout": {
+      "kind": "object",
+      "required": true,
+      "fields": {
+        "text": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 7,
+          "observedWords": [
+            5
+          ],
+          "measuredFrom": [
+            "specs/company.md:221"
+          ]
+        },
+        "link": {
+          "kind": "link",
+          "required": true,
+          "label": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 4,
+            "observedWords": [
+              3
+            ],
+            "measuredFrom": [
+              "specs/company.md:221"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-on-mount"
+    ],
+    "default": "reveal-on-mount"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.phone-sm}",
+      "change": "stack-columns",
+      "detail": "callout below heading",
+      "measuredFrom": [
+        "specs/company.md:224"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/company.md:221"
+  ],
+  "wordBudgets": {
+    "callout.link.label": 4,
+    "callout.text": 7,
+    "description": 10,
+    "headline": 2
+  },
+  "richTextBudgets": {},
+  "assetRoles": [],
+  "usedByTemplates": [
+    "template.newsroom"
+  ],
+  "observedThemes": [
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__hero.newsroom",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

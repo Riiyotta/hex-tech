@@ -1,0 +1,139 @@
+{
+  "id": "conversion.bottom-cta",
+  "category": "conversion",
+  "purpose": "Homepage dashed two-column CTA: gradient H3 + text + two buttons | plans text + secondary button.",
+  "variants": [],
+  "content": {
+    "title": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 5,
+      "observedWords": [
+        4
+      ],
+      "measuredFrom": [
+        "CLONE_SPEC.md:59"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 15,
+      "observedWords": [
+        12
+      ],
+      "measuredFrom": [
+        "CLONE_SPEC.md:399"
+      ]
+    },
+    "actions": {
+      "kind": "list",
+      "required": true,
+      "minItems": 2,
+      "maxItems": 2,
+      "measuredFrom": [
+        "CLONE_SPEC.md:399"
+      ],
+      "item": {
+        "kind": "action",
+        "required": true,
+        "label": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 4,
+          "observedWords": [
+            3
+          ],
+          "measuredFrom": [
+            "CLONE_SPEC.md:212"
+          ]
+        },
+        "variants": [
+          "primary",
+          "secondary"
+        ],
+        "sizes": [
+          "lg"
+        ]
+      }
+    },
+    "aside": {
+      "kind": "object",
+      "required": true,
+      "fields": {
+        "text": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 15,
+          "observedWords": [
+            12
+          ],
+          "measuredFrom": [
+            "CLONE_SPEC.md:400"
+          ]
+        },
+        "action": {
+          "kind": "action",
+          "required": true,
+          "label": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 4,
+            "observedWords": [
+              3
+            ],
+            "measuredFrom": [
+              "CLONE_SPEC.md:400"
+            ]
+          },
+          "variants": [
+            "secondary"
+          ],
+          "sizes": [
+            "md"
+          ]
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "stack-columns",
+      "detail": "columns stack",
+      "measuredFrom": [
+        "CLONE_SPEC.md:401"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "homeRouteOnly": true
+  },
+  "measuredFrom": [
+    "CLONE_SPEC.md:397"
+  ],
+  "wordBudgets": {
+    "actions[].label": 4,
+    "aside.action.label": 4,
+    "aside.text": 15,
+    "description": 15,
+    "title": 5
+  },
+  "richTextBudgets": {},
+  "assetRoles": [],
+  "usedByTemplates": [
+    "template.home"
+  ],
+  "observedThemes": [
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__conversion.bottom-cta",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

@@ -1,0 +1,29 @@
+/* integrations section 6: every CSS rule from document.styleSheets whose selector matches a class used in this section (incl. @media/@supports wrappers), plus referenced @keyframes */
+.bsXbIt { box-sizing: content-box; position: relative; flex: 0 0 auto; display: flex; height: 40px; background: transparent; outline: none; padding: 0px 20px; user-select: none; cursor: pointer; font-size: 14px; color: var(--fontColorDEFAULT, #F5C0C0); border: 1px solid transparent; min-width: 0px; transition: background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1); }
+.bsXbIt:hover { background-color: var(--grid300, #2b252c); border-color: var(--grid700, #6a565b); text-decoration: none; }
+.bsXbIt:active { background-color: var(--grid500, #3a3138); }
+.bsXbIt:focus-visible { outline: var(
+      --app-focus-outline,
+      2px solid var(--highlightColor, #F5C0C0)
+    ); outline-offset: var(--app-focus-outline-offset, 2px); }
+.ghWwXj { display: flex; width: 100%; flex-direction: row; align-items: center; height: inherit; white-space: nowrap; min-width: 0px; gap: 10px; justify-content: center; text-align: center; }
+.kRHsma { display: flex; align-items: center; justify-content: center; min-width: 0px; position: relative; z-index: 2; pointer-events: none; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.gqCqsi { margin: 0px; font-family: "PP Formula", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; color: var(--fontColorLOUD, #ffffff); font-weight: 800; line-height: 1.3; letter-spacing: -0.025em; font-size: clamp(20px, 15.5px + 1vw, 28px); }
+.hRhtIT { margin: 0px 0px 20px; font-size: 16px; line-height: 1.5; font-weight: 300; color: var(--fontColorDEFAULT, #F5C0C0); }
+.hRhtIT:last-child { margin-bottom: 0px; }
+.kbTTGJ { display: flex; position: relative; flex: 1 1 0px; align-items: flex-start; flex-direction: column; margin: 0px; height: 200px; background-color: color-mix(in srgb, var(--fg100, #14141C) 75%, transparent); }
+@media (max-width: 1000px) { .kbTTGJ { height: 180px; } }
+@media (max-width: 800px) { .kbTTGJ { height: 150px; } }
+@media (max-width: 600px) { .kbTTGJ { height: 120px; } }
+.kbTTGJ > a { display: flex; }
+.kbTTGJ > a > div { width: 100%; min-width: 0px; }
+.kbTTGJ > a > div > div { width: 100%; min-width: 0px; height: 100%; }
+.kBXwex.kBXwex.kBXwex { width: 100%; height: 100%; border: 1px solid color-mix(in srgb, rgb(173, 142, 182) 30%, transparent 70%); padding: 0px; }
+.eJBDAG { display: flex; flex-direction: column; align-items: center; width: 100%; height: 100%; justify-content: center; }
+.edksKt { display: flex; flex-direction: column; gap: 10px; }
+.jVyCvJ { max-width: 90ch; text-wrap: balance; }
+.kIuCNU { display: flex; flex-direction: column; margin-bottom: 50px; gap: 30px; }
+.jQIIfV { display: grid; gap: 20px; width: 100%; grid-template-columns: repeat(4, 1fr); flex: 1 1 auto; max-width: none; padding-top: 0px; }
+@media (max-width: 1000px) { .jQIIfV { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 800px) { .jQIIfV { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) { .jQIIfV { grid-template-columns: repeat(1, 1fr); } }

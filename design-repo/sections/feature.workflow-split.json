@@ -1,0 +1,112 @@
+{
+  "id": "feature.workflow-split",
+  "category": "feature",
+  "purpose": "Gradient H2 masthead over two divided halves (eyebrow, bold-lead description, three-item icon list).",
+  "variants": [],
+  "content": {
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 4,
+      "observedWords": [
+        3
+      ],
+      "measuredFrom": [
+        "specs/product.md:467"
+      ]
+    },
+    "halves": {
+      "kind": "list",
+      "required": true,
+      "minItems": 2,
+      "maxItems": 2,
+      "measuredFrom": [
+        "specs/product.md:468"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "eyebrow": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 3,
+            "observedWords": [
+              2
+            ],
+            "measuredFrom": [
+              "specs/product.md:471"
+            ]
+          },
+          "description": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 25,
+            "observedWords": [
+              20
+            ],
+            "measuredFrom": [
+              "specs/product.md:471"
+            ]
+          },
+          "items": {
+            "kind": "list",
+            "required": true,
+            "minItems": 3,
+            "maxItems": 3,
+            "measuredFrom": [
+              "specs/product.md:469"
+            ],
+            "item": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 4,
+              "observedWords": [
+                3
+              ],
+              "measuredFrom": [
+                "specs/product.md:471"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "stack-columns",
+      "detail": "halves stack",
+      "measuredFrom": [
+        "specs/product.md:472"
+      ]
+    }
+  ],
+  "constraints": {},
+  "measuredFrom": [
+    "specs/product.md:466"
+  ],
+  "wordBudgets": {
+    "halves[].description": 25,
+    "halves[].eyebrow": 3,
+    "halves[].items[]": 4,
+    "headline": 4
+  },
+  "richTextBudgets": {},
+  "assetRoles": [],
+  "usedByTemplates": [
+    "template.product-feature"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__feature.workflow-split",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

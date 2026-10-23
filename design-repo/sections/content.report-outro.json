@@ -1,0 +1,120 @@
+{
+  "id": "content.report-outro",
+  "category": "content",
+  "purpose": "Report outro: running text beside a glass 'Questions? Talk to us.' card with a primary CTA.",
+  "variants": [],
+  "content": {
+    "body": {
+      "kind": "richText",
+      "required": true,
+      "maxBlocks": 6,
+      "blockTypes": [
+        "paragraph"
+      ],
+      "maxWordsPerBlock": 67,
+      "measuredFrom": [
+        "reference/pages/company/dom/state-of-data-teams--sharedStyles__SectionWrapper.html:1"
+      ],
+      "placeholderInClone": true
+    },
+    "card": {
+      "kind": "object",
+      "required": true,
+      "fields": {
+        "title": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 5,
+          "observedWords": [
+            4
+          ],
+          "measuredFrom": [
+            "specs/company.md:365"
+          ]
+        },
+        "description": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 23,
+          "observedWords": [
+            18
+          ],
+          "measuredFrom": [
+            "specs/company.md:344"
+          ]
+        },
+        "action": {
+          "kind": "action",
+          "required": true,
+          "label": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 10,
+            "observedWords": [
+              4,
+              3,
+              4,
+              8
+            ],
+            "measuredFrom": [
+              "CLONE_SPEC.md:208",
+              "specs/product.md:258",
+              "specs/solutions.md:291"
+            ]
+          },
+          "variants": [
+            "primary"
+          ],
+          "sizes": [
+            "lg"
+          ]
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "stack-columns",
+      "detail": "single column",
+      "measuredFrom": [
+        "specs/company.md:366"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/company.md:365"
+  ],
+  "wordBudgets": {
+    "card.action.label": 10,
+    "card.description": 23,
+    "card.title": 5
+  },
+  "richTextBudgets": {
+    "body": {
+      "maxBlocks": 6,
+      "maxWordsPerBlock": 67,
+      "blockTypes": [
+        "paragraph"
+      ]
+    }
+  },
+  "assetRoles": [],
+  "usedByTemplates": [
+    "template.report"
+  ],
+  "observedThemes": [
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__content.report-outro",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

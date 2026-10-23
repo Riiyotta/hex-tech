@@ -1,0 +1,28 @@
+{
+  "id": "component.section-heading",
+  "purpose": "Centred gradient H2 with optional checker-flanked italic line and description; solution variant.",
+  "composes": [],
+  "props": {
+    "variant": {
+      "type": "enum",
+      "measuredFrom": [
+        "specs/SHARED_BUILT.md:122"
+      ],
+      "enum": [
+        "display",
+        "solution"
+      ]
+    }
+  },
+  "tokens": [
+    "gradient.heading",
+    "texture.checker",
+    "typography.scale.heading-1"
+  ],
+  "measuredFrom": [
+    "specs/product.md:137",
+    "src/components/shared/SectionHeading.jsx:16"
+  ],
+  "layer": "component",
+  "provisional": true
+}

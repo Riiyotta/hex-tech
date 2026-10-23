@@ -1,0 +1,55 @@
+# switching-to-hex @390 — doc height 18185 (1440: 10622)
+
+## Sections (matched by component class from the 1440 section list)
+- 0 SwitchingToHexPageContent__ @1440 [0,0,1440,9365] → @390 [0, 0, 390, 15840] (+9 more)  | H1:Switching to Hex / H2:Why data teams switch to Hex
+- 1 CustomerQuotesScrollingTout__ @1440 [0,9365,1440,625] → @390 [8, 15841, 374, 1199]  | 
+
+## Text roles @390 (H1–H4, lead/body P, buttons): tag [x,y,w,h] «text» font/size/lh
+- H1 [32, 278, 326, 140] «Switching to Hex» fontFamily:"PP Formula SemiExtended"; fontSize:54px; fontWeight:700; lineHeight:70.2px; letterSpacing:-1.6632px
+- P [32, 418, 326, 150] «From fragmented tools to a unified, AI analytics p» fontSize:20px; fontWeight:300; lineHeight:30px
+- H2 [26, 1657, 338, 204] «Why data teams switch to Hex» fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px; padding:0px 70px 6px 6px; margin:0px -6px -6px; textAlign:left
+- H3 [32, 1931, 326, 36] «What is Hex?» fontFamily:"PP Formula"; fontSize:28px; fontWeight:800; lineHeight:36.4px; letterSpacing:-0.7px
+- P [32, 2028, 326, 192] «Hex is the AI Analytics Platform where trust meets» fontSize:16px; lineHeight:24px
+- P [32, 2240, 326, 96] «Companies like Lovable, Cursor, Notion, and Ramp u» fontSize:16px; lineHeight:24px
+- H3 [32, 2452, 326, 73] «Why data teams are looking for a change» fontFamily:"PP Formula"; fontSize:28px; fontWeight:800; lineHeight:36.4px; letterSpacing:-0.7px
+- P [32, 2586, 326, 216] «Data teams switch to Hex because it gives them one» fontSize:16px; lineHeight:24px
+- P [32, 3468, 326, 48] «It all leads to an erosion of trust and impact of » fontSize:16px; lineHeight:24px
+- P [32, 3536, 326, 120] «Instead of leading the data strategy, they’re stuc» fontSize:16px; lineHeight:24px
+- P [32, 3906, 326, 96] «With Hex, data teams aren't just more efficient—th» fontSize:16px; lineHeight:24px
+- P [32, 4022, 326, 120] «The impact compounds quickly: more questions get a» fontSize:16px; lineHeight:24px
+- H4 [32, 4162, 326, 35] «Deeper insights, 10x faster» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:30px; letterSpacing:-0.5px; padding:5px 0px 0px
+- P [32, 4217, 326, 144] «AI notebooks in Hex are purpose-built to accelerat» fontSize:16px; lineHeight:24px
+- H4 [32, 4840, 326, 65] «Self-serve in plain, natural language» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:30px; letterSpacing:-0.5px; padding:5px 0px 0px
+- P [32, 4925, 326, 216] «With Threads, data teams aren’t just keeping up wi» fontSize:16px; lineHeight:24px
+- H4 [32, 5648, 326, 65] «Observe agent responses and improve context over t» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:30px; letterSpacing:-0.5px; padding:5px 0px 0px
+- P [32, 5733, 326, 144] «Getting accurate, consistent answers from agents s» fontSize:16px; lineHeight:24px
+- H4 [32, 6422, 326, 65] «The power of an integrated platform» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:30px; letterSpacing:-0.5px; padding:5px 0px 0px
+- P [32, 6507, 326, 264] «In Hex, questions, analysis, and insights all live» fontSize:16px; lineHeight:24px
+- H3 [32, 7379, 326, 109] «Common objections (and why teams switch anyway)» fontFamily:"PP Formula"; fontSize:28px; fontWeight:800; lineHeight:36.4px; letterSpacing:-0.7px
+- H2 [26, 8279, 338, 105] «How to POC Hex» fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px; padding:0px 70px 6px 6px; margin:0px -6px -6px; textAlign:left
+- H3 [32, 8454, 326, 73] «What is a POC with Hex?» fontFamily:"PP Formula"; fontSize:28px; fontWeight:800; lineHeight:36.4px; letterSpacing:-0.7px
+- P [32, 8588, 326, 96] «Doing a proof of concept (POC) with Hex is a guide» fontSize:16px; lineHeight:24px
+- P [32, 8704, 326, 72] «For most companies, a POC will last two weeks and » fontSize:16px; lineHeight:24px
+- P [32, 8796, 326, 96] «You’ll use your own data and build a handful of yo» fontSize:16px; lineHeight:24px
+- H3 [32, 9298, 326, 36] «How it works» fontFamily:"PP Formula"; fontSize:28px; fontWeight:800; lineHeight:36.4px; letterSpacing:-0.7px
+- P [32, 9395, 326, 144] «Most Hex POCs include a dedicated Hex team—an acco» fontSize:16px; lineHeight:24px
+- P [32, 9559, 326, 48] «For POCs with dedicated support, the process typic» fontSize:16px; lineHeight:24px
+- H3 [32, 10211, 326, 73] «What success looks like» fontFamily:"PP Formula"; fontSize:28px; fontWeight:800; lineHeight:36.4px; letterSpacing:-0.7px
+- P [32, 10345, 326, 168] «A successful POC gives both data teams and busines» fontSize:16px; lineHeight:24px
+- P [32, 10533, 326, 120] «By the end, you'll have a clear understanding of h» fontSize:16px; lineHeight:24px
+- H3 [32, 11266, 326, 109] «Why teams love running pilots with Hex» fontFamily:"PP Formula"; fontSize:28px; fontWeight:800; lineHeight:36.4px; letterSpacing:-0.7px
+- H4 [32, 11436, 326, 95] «Fast to start. Structured for success. An immersiv» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:30px; letterSpacing:-0.5px; padding:5px 0px 0px
+- P [32, 11551, 326, 216] «Every Hex POC is a first-hand experience. Your tea» fontSize:16px; lineHeight:24px
+- P [32, 11787, 326, 72] «It’s the simplest way to understand the power of a» fontSize:16px; lineHeight:24px
+- H3 [32, 11975, 326, 73] «Getting started today» fontFamily:"PP Formula"; fontSize:28px; fontWeight:800; lineHeight:36.4px; letterSpacing:-0.7px
+- P [32, 12109, 326, 48] «Picking the right starting point depends on how yo» fontSize:16px; lineHeight:24px
+- H4 [32, 12185, 326, 35] «Start a trial» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:30px; letterSpacing:-0.5px; padding:5px 0px 0px
+- H4 [32, 12342, 326, 35] «Contact Sales» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:30px; letterSpacing:-0.5px; padding:5px 0px 0px
+- H2 [26, 12659, 338, 105] «Migrate to Hex» fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px; padding:0px 70px 6px 6px; margin:0px -6px -6px; textAlign:left
+- H3 [32, 12833, 326, 73] «Set up for AI analytics» fontFamily:"PP Formula"; fontSize:28px; fontWeight:800; lineHeight:36.4px; letterSpacing:-0.7px
+- H4 [32, 12967, 326, 155] «Migrating to Hex isn’t about rebuilding dashboards» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:30px; letterSpacing:-0.5px; padding:5px 0px 0px
+- P [32, 13142, 326, 48] «To get there, two things are important to consider» fontSize:16px; lineHeight:24px
+- H3 [32, 13893, 326, 73] «What migration looks like» fontFamily:"PP Formula"; fontSize:28px; fontWeight:800; lineHeight:36.4px; letterSpacing:-0.7px
+- H3 [32, 14860, 326, 73] «Think through your migration» fontFamily:"PP Formula"; fontSize:28px; fontWeight:800; lineHeight:36.4px; letterSpacing:-0.7px
+- H4 [32, 14994, 326, 65] «Want to get an early sense of what migration looks» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:30px; letterSpacing:-0.5px; padding:5px 0px 0px
+- P [32, 15079, 326, 48] «Use these short, opinionated guides to envision th» fontSize:16px; lineHeight:24px

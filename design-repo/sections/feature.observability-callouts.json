@@ -1,0 +1,132 @@
+{
+  "id": "feature.observability-callouts",
+  "category": "feature",
+  "purpose": "Section header + a large product dashboard window with two text callouts floating left and right.",
+  "variants": [],
+  "content": {
+    "heading": {
+      "kind": "object",
+      "required": true,
+      "fields": {
+        "title": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 3,
+          "observedWords": [
+            2
+          ],
+          "measuredFrom": [
+            "specs/product.md:384"
+          ]
+        },
+        "description": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 25,
+          "observedWords": [
+            20
+          ],
+          "measuredFrom": [
+            "specs/product.md:384"
+          ]
+        }
+      }
+    },
+    "callouts": {
+      "kind": "list",
+      "required": true,
+      "minItems": 2,
+      "maxItems": 2,
+      "measuredFrom": [
+        "specs/product.md:386"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "title": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 4,
+            "observedWords": [
+              3
+            ],
+            "measuredFrom": [
+              "specs/product.md:387"
+            ]
+          },
+          "description": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 25,
+            "observedWords": [
+              20
+            ],
+            "measuredFrom": [
+              "specs/product.md:387"
+            ]
+          }
+        }
+      }
+    },
+    "window": {
+      "kind": "media",
+      "required": true,
+      "roles": [
+        "image.product-ui"
+      ],
+      "alt": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 18,
+        "observedWords": [
+          14,
+          14
+        ],
+        "measuredFrom": [
+          "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+          "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+        ]
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "reposition",
+      "detail": "callouts flow under the window",
+      "measuredFrom": [
+        "specs/product.md:389"
+      ]
+    }
+  ],
+  "constraints": {},
+  "measuredFrom": [
+    "specs/product.md:383"
+  ],
+  "wordBudgets": {
+    "callouts[].description": 25,
+    "callouts[].title": 4,
+    "heading.description": 25,
+    "heading.title": 3,
+    "window.alt": 18
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "image.product-ui"
+  ],
+  "usedByTemplates": [
+    "template.product-feature"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__feature.observability-callouts",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

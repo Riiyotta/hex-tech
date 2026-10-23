@@ -1,0 +1,249 @@
+{
+  "url": "/partners/",
+  "theme": [
+    "rgb(20, 20, 28)",
+    "rgb(245, 192, 192)"
+  ],
+  "docH": 4750,
+  "title": "Consulting Partners Program | Hex",
+  "metaDesc": "Hex's partnership program is designed for consulting firms and data strategy leaders who want to take their analytics game to the next level.",
+  "secs": [
+    {
+      "c": "LayoutGrid__LayoutSubgrid",
+      "b": [
+        0,
+        0,
+        1440,
+        4163
+      ],
+      "dir": "",
+      "h": [],
+      "p": [],
+      "a": [],
+      "img": [],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": [],
+      "forms": 0
+    },
+    {
+      "c": "Hero__Section",
+      "b": [
+        84,
+        200,
+        1272,
+        448
+      ],
+      "dir": "",
+      "h": [
+        "H1:Become a Partner"
+      ],
+      "p": [
+        "Hex is a complete workspace for data science and analytics, bringing exploration, analysis, and visualization together in one place. By partnering with us, you’ll help transform data workflows and leave outdated tools behind. Join us to redefine analytics!"
+      ],
+      "a": [
+        "Become a partner -> #become-a-partner",
+        "Register a deal -> https://docs.google.com/forms/d/e/1FAIpQLSegPXa-9eP3rgCIg34v7wSWcyMq778LJnvMSASwCQ4Q3aEMbg/viewform"
+      ],
+      "img": [],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": [],
+      "forms": 0
+    },
+    {
+      "c": "Why__Section",
+      "b": [
+        84,
+        648,
+        1272,
+        550
+      ],
+      "dir": "",
+      "h": [
+        "H2:Why become a partner"
+      ],
+      "p": [
+        "Partnering with Hex means joining a mission to transform how data teams work. Our program offers the tools, support, and collaboration to support customers on their data science and analytics journey."
+      ],
+      "a": [
+        "Integration partners -> /product/integrations/",
+        "Consulting partners -> #partners"
+      ],
+      "img": [
+        "https://hex.tech/images/illustrations/support-section.svg 440x406 alt=Partner Illustration"
+      ],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": [],
+      "forms": 0
+    },
+    {
+      "c": "TronDivider__Wrapper",
+      "b": [
+        29,
+        1198,
+        1382,
+        61
+      ],
+      "dir": "",
+      "h": [],
+      "p": [],
+      "a": [],
+      "img": [],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": [],
+      "forms": 0
+    },
+    {
+      "c": "PartnerTiers__Wrapper",
+      "b": [
+        84,
+        1289,
+        1272,
+        1025
+      ],
+      "dir": "",
+      "h": [
+        "H2:Partner tiers",
+        "H3:Gigabyte",
+        "H4:Why join",
+        "H3:Terabyte",
+        "H4:Everything in Gigabyte, plus:",
+        "H3:Petabyte",
+        "H4:Everything in Terabyte, plus:"
+      ],
+      "p": [
+        "Hex’s program supports partners as they grow, offering tailored benefits at every stage of their journey.",
+        "For partners who are just getting started working with Hex.",
+        "Referral commission",
+        "Crossbeam data share",
+        "Free Hex account",
+        "Access to training resources",
+        "For partners who have a track record of deep Hex knowledge and closing Hex business.",
+        "Technical support",
+        "Marketing resources",
+        "Dedicated Slack channel",
+        "Access to Hex Partner Engineer",
+        "For partners who have demonstrated exceptional expertise and success in delivering Hex solutions.",
+        "Dedicated Partner Manager",
+        "Co-branded marketing materials",
+        "Spotlight on our website",
+        "Dedicated Office Hours"
+      ],
+      "a": [],
+      "img": [
+        "/images/partners/gigabyte-flag.png&w=640&q=75 160x205 alt=Gigabyte Partner Image",
+        "/images/partners/terabyte-flag.png&w=640&q=75 160x205 alt=Terabyte Partner Image",
+        "/images/partners/petabyte-flag.png&w=640&q=75 160x205 alt=Petabyte Partner Image"
+      ],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": [],
+      "forms": 0
+    },
+    {
+      "c": "Partners__Wrapper",
+      "b": [
+        84,
+        2314,
+        1272,
+        988
+      ],
+      "dir": "",
+      "h": [
+        "H2:Partners"
+      ],
+      "p": [
+        "Our trusted consulting partners guide customers from Hex implementation to the deployment of production data applications.",
+        "PETABYTE",
+        "TERABYTE",
+        "GIGABYTE",
+        "GIGABYTE",
+        "GIGABYTE",
+        "GIGABYTE",
+        "GIGABYTE",
+        "GIGABYTE",
+        "GIGABYTE",
+        "GIGABYTE",
+        "GIGABYTE",
+        "GIGABYTE"
+      ],
+      "a": [],
+      "img": [
+        "/images/partners/phdata-logo.png&w=256&q=75 140x56 alt=phData Logo",
+        "/images/partners/brooklyn-data.png&w=256&q=75 153x32 alt=Brooklyn Data Logo",
+        "/images/partners/in516ht.png&w=128&q=75 114x32 alt=In516ht Logo",
+        "/images/partners/eoncollective-logo.png&w=256&q=75 202x32 alt=Eon Collective",
+        "/images/partners/impactful-insights.png&w=128&q=75 128x128 alt=Impactful Insights",
+        "https://hex.tech/images/partners/cvector-alt.svg 136x40 alt=cvector",
+        "https://hex.tech/images/partners/snowpack-data-logo.svg 183x40 alt=Snowpack Data Logo",
+        "https://hex.tech/images/partners/clarity.svg 100x104 alt=clarity",
+        "https://hex.tech/images/partners/analytics8.svg 93x80 alt=analytics8",
+        "/images/partners/exvolve-logo.png&w=256&q=75 188x40 alt=exvolve",
+        "https://hex.tech/images/partners/das42-logo.svg 158x32 alt=DAS42",
+        "https://hex.tech/images/partners/datum-labs-logo.svg 99x32 alt=Datum Labs"
+      ],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": [],
+      "forms": 0
+    },
+    {
+      "c": "Register__Wrapper",
+      "b": [
+        84,
+        3442,
+        1272,
+        582
+      ],
+      "dir": "",
+      "h": [
+        "H2:Become a partner"
+      ],
+      "p": [
+        "By submitting this form you agree to the processing of your personal data as described in our Terms and our Privacy policy."
+      ],
+      "a": [
+        "Submit -> null",
+        "Submit -> null",
+        "Terms -> https://learn.hex.tech/docs/legal/terms-and-conditions",
+        "Privacy policy -> https://learn.hex.tech/docs/trust/privacy-policy"
+      ],
+      "img": [],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": [
+        ""
+      ],
+      "forms": 1
+    },
+    {
+      "c": "SCRIPT",
+      "b": [
+        0,
+        3151,
+        0,
+        0
+      ],
+      "dir": "",
+      "h": [],
+      "p": [],
+      "a": [],
+      "img": [],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": [],
+      "forms": 0
+    }
+  ]
+}

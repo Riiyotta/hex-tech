@@ -1,0 +1,49 @@
+{
+  "id": "primitive.announcement-pill",
+  "purpose": "Hero eyebrow link: inner label pill (icon + 12px bold label) + text + chevron, hover shine.",
+  "props": {
+    "href": {
+      "type": "href",
+      "measuredFrom": [
+        "src/components/shared/AnnouncementPill.jsx:14"
+      ]
+    },
+    "icon": {
+      "type": "asset",
+      "measuredFrom": [
+        "src/components/shared/AnnouncementPill.jsx:14"
+      ]
+    },
+    "label": {
+      "type": "text",
+      "measuredFrom": [
+        "src/components/shared/AnnouncementPill.jsx:14"
+      ]
+    },
+    "text": {
+      "type": "text",
+      "measuredFrom": [
+        "src/components/shared/AnnouncementPill.jsx:14"
+      ]
+    },
+    "external": {
+      "type": "boolean",
+      "measuredFrom": [
+        "src/components/shared/AnnouncementPill.jsx:14"
+      ]
+    }
+  },
+  "tokens": [
+    "component.announcement-pill.height",
+    "color.border.default",
+    "color.surface.page",
+    "color.text.link",
+    "color.highlight"
+  ],
+  "measuredFrom": [
+    "specs/product.md:129",
+    "src/components/shared/AnnouncementPill.jsx:14"
+  ],
+  "layer": "primitive",
+  "provisional": true
+}

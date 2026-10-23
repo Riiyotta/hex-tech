@@ -1,0 +1,142 @@
+{
+  "id": "feature.solution-row",
+  "category": "feature",
+  "purpose": "Solution feature row: 671px media box beside a 375px info column (solid 40px H2, optional bold subline, body, full-width secondary CTA).",
+  "variants": [],
+  "content": {
+    "direction": {
+      "kind": "enum",
+      "values": [
+        "media-left",
+        "media-right",
+        "media-bottom"
+      ],
+      "required": true,
+      "measuredFrom": [
+        "specs/solutions.md:285"
+      ]
+    },
+    "title": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 7,
+      "observedWords": [
+        5
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:306"
+      ]
+    },
+    "subline": {
+      "kind": "text",
+      "required": false,
+      "maxWords": 12,
+      "observedWords": [
+        9
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:289"
+      ]
+    },
+    "body": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 30,
+      "observedWords": [
+        24,
+        24
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:349",
+        "specs/solutions.md:359"
+      ]
+    },
+    "action": {
+      "kind": "action",
+      "required": false,
+      "label": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 10,
+        "observedWords": [
+          4,
+          3,
+          4,
+          8
+        ],
+        "measuredFrom": [
+          "CLONE_SPEC.md:208",
+          "specs/product.md:258",
+          "specs/solutions.md:291"
+        ]
+      },
+      "variants": [
+        "secondary"
+      ],
+      "sizes": [
+        "md"
+      ]
+    },
+    "media": {
+      "kind": "media",
+      "required": true,
+      "roles": [
+        "image.product-screenshot"
+      ],
+      "alt": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 18,
+        "observedWords": [
+          14,
+          14
+        ],
+        "measuredFrom": [
+          "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+          "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+        ]
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.phone}",
+      "change": "stack-columns",
+      "detail": "column-reverse: text on top, image below",
+      "measuredFrom": [
+        "specs/solutions.md:285"
+      ]
+    }
+  ],
+  "constraints": {
+    "consecutiveAllowed": true
+  },
+  "measuredFrom": [
+    "specs/solutions.md:283"
+  ],
+  "wordBudgets": {
+    "action.label": 10,
+    "body": 30,
+    "media.alt": 18,
+    "subline": 12,
+    "title": 7
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "image.product-screenshot"
+  ],
+  "usedByTemplates": [
+    "template.solution-detail"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__feature.solution-row",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

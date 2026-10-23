@@ -1,0 +1,134 @@
+{
+  "id": "proof.quotes-marquee",
+  "category": "proof",
+  "purpose": "Continuously scrolling row(s) of glass quote cards (logo, quote, optional headshot and author).",
+  "variants": [
+    "single-row",
+    "dual-row"
+  ],
+  "content": {
+    "cards": {
+      "kind": "list",
+      "required": true,
+      "minItems": 5,
+      "maxItems": 6,
+      "measuredFrom": [
+        "specs/product.md:171",
+        "specs/product.md:641"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "logo": {
+            "kind": "media",
+            "required": true,
+            "roles": [
+              "logo.customer"
+            ],
+            "alt": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 18,
+              "observedWords": [
+                14,
+                14
+              ],
+              "measuredFrom": [
+                "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+                "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+              ]
+            }
+          },
+          "quote": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 44,
+            "observedWords": [
+              35
+            ],
+            "measuredFrom": [
+              "specs/product.md:440"
+            ]
+          },
+          "name": {
+            "kind": "text",
+            "required": false,
+            "maxWords": 10,
+            "observedWords": [
+              8
+            ],
+            "measuredFrom": [
+              "specs/product.md:440"
+            ]
+          },
+          "avatar": {
+            "kind": "media",
+            "required": false,
+            "roles": [
+              "photo.person"
+            ],
+            "alt": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 18,
+              "observedWords": [
+                14,
+                14
+              ],
+              "measuredFrom": [
+                "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+                "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "marquee-scroll"
+    ],
+    "default": "marquee-scroll"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "resize-type",
+      "detail": "quote 22px; wrapper padding 60/40",
+      "measuredFrom": [
+        "specs/product.md:170"
+      ]
+    }
+  ],
+  "constraints": {
+    "maxPerPage": 1
+  },
+  "measuredFrom": [
+    "specs/product.md:169",
+    "specs/company.md:286"
+  ],
+  "wordBudgets": {
+    "cards[].avatar.alt": 18,
+    "cards[].logo.alt": 18,
+    "cards[].name": 10,
+    "cards[].quote": 44
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "logo.customer",
+    "photo.person"
+  ],
+  "usedByTemplates": [
+    "template.customers-index",
+    "template.long-form-guide",
+    "template.product-feature"
+  ],
+  "observedThemes": [
+    "dark",
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__proof.quotes-marquee",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

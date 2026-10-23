@@ -1,0 +1,34 @@
+{
+  "id": "component.resource-card",
+  "purpose": "Interactive glass resource card: tag illustration, 16:9 tag-tinted frame, type chip, H4, solution/read-time meta.",
+  "composes": [
+    "component.glass-card",
+    "primitive.meta-rows"
+  ],
+  "props": {
+    "type": {
+      "type": "text",
+      "measuredFrom": [
+        "src/components/shared/ResourceCard.jsx:31"
+      ]
+    },
+    "tags": {
+      "type": "list",
+      "measuredFrom": [
+        "src/components/shared/ResourceCard.jsx:22"
+      ]
+    }
+  },
+  "tokens": [
+    "surface.glass-card",
+    "shadow.glass-card-hover",
+    "elevation.resource-frame",
+    "color.text.meta"
+  ],
+  "measuredFrom": [
+    "specs/solutions.md:191",
+    "src/components/shared/ResourceCard.jsx:31"
+  ],
+  "layer": "component",
+  "provisional": true
+}

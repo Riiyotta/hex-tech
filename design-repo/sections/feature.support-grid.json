@@ -1,0 +1,110 @@
+{
+  "id": "feature.support-grid",
+  "category": "feature",
+  "purpose": "Centred gradient title + lead over a 2x2 icon-text grid beside a stair illustration.",
+  "variants": [],
+  "content": {
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 8,
+      "observedWords": [
+        6
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:639"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 17,
+      "observedWords": [
+        13
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:676"
+      ]
+    },
+    "items": {
+      "kind": "list",
+      "required": true,
+      "minItems": 4,
+      "maxItems": 4,
+      "measuredFrom": [
+        "specs/solutions.md:677"
+      ],
+      "item": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 5,
+        "observedWords": [
+          4
+        ],
+        "measuredFrom": [
+          "specs/solutions.md:677"
+        ]
+      }
+    },
+    "illustration": {
+      "kind": "media",
+      "required": true,
+      "roles": [
+        "illustration.decorative"
+      ],
+      "alt": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 18,
+        "observedWords": [
+          14,
+          14
+        ],
+        "measuredFrom": [
+          "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+          "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+        ]
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "stack-columns",
+      "detail": "grid 1 column; illustration hidden",
+      "measuredFrom": [
+        "specs/solutions.md:696"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/solutions.md:675"
+  ],
+  "wordBudgets": {
+    "description": 17,
+    "headline": 8,
+    "illustration.alt": 18,
+    "items[]": 5
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "illustration.decorative"
+  ],
+  "usedByTemplates": [
+    "template.enterprise"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__feature.support-grid",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

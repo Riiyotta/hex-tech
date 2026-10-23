@@ -1,0 +1,1846 @@
+{
+ "compare.html": [
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/7bb676f30dbd80023b0c7af23e60ff630b4cdc4d-115x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/7bb676f30dbd80023b0c7af23e60ff630b4cdc4d-115x50.svg?auto=format",
+   "alt": "Hex customer: Reddit",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "115x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/6f211c674b14be69b85497264b1d654b138dce01-39x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/6f211c674b14be69b85497264b1d654b138dce01-39x50.svg?auto=format",
+   "alt": "Hex customer: Notion",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "39x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/41a6cd8e000ffa2cf99de391f0104b2cbdd9072e-132x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/41a6cd8e000ffa2cf99de391f0104b2cbdd9072e-132x50.svg?auto=format",
+   "alt": "Hex customer: Anthropic",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "132x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/b2ffbeeff0804c87f45b94444476c7025fce5719-51x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/b2ffbeeff0804c87f45b94444476c7025fce5719-51x50.svg?auto=format",
+   "alt": "Hex customer: SeatGeek",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "51x50",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/8ec37f2330ffd132be12ea66bad243453af0d047-119x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/8ec37f2330ffd132be12ea66bad243453af0d047-119x50.svg?auto=format",
+   "alt": "Hex customer: ClickUp",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "119x50",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/22fd2415f0d3f16dc2c3d9d7853147757c60e708-151x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/22fd2415f0d3f16dc2c3d9d7853147757c60e708-151x50.svg?auto=format",
+   "alt": "Hex customer: AllTrails",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "151x50",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/e4498f6b6ef7705065fa22278dbd4cf1c2118d19-181x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/e4498f6b6ef7705065fa22278dbd4cf1c2118d19-181x50.svg?auto=format",
+   "alt": "Hex customer: Modern Treasury",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "181x50",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/892932e7f3dc3c66d3ae4a16e8bc51e37b7f59f4-120x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/892932e7f3dc3c66d3ae4a16e8bc51e37b7f59f4-120x50.svg?auto=format",
+   "alt": "Hex customer: Ramp",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "120x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/097bf80beeaf8d877aedf4ecade8b0d1dd087459-150x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/097bf80beeaf8d877aedf4ecade8b0d1dd087459-150x50.svg?auto=format",
+   "alt": "Hex customer: Sedgwick",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "150x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/693c33d9f78d3b5a96db64d08107ca30cf36658d-148x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/693c33d9f78d3b5a96db64d08107ca30cf36658d-148x50.svg?auto=format",
+   "alt": "Hex customer: Calendly",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "148x50",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/84cee8330df6df867d752ef0336d987b73845add-81x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/84cee8330df6df867d752ef0336d987b73845add-81x50.svg?auto=format",
+   "alt": "Hex customer: StubHub",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "81x50",
+   "already": true
+  }
+ ],
+ "contact-us.html": [
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/7bb676f30dbd80023b0c7af23e60ff630b4cdc4d-115x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/7bb676f30dbd80023b0c7af23e60ff630b4cdc4d-115x50.svg?auto=format",
+   "alt": "Hex customer: Reddit",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "115x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/6f211c674b14be69b85497264b1d654b138dce01-39x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/6f211c674b14be69b85497264b1d654b138dce01-39x50.svg?auto=format",
+   "alt": "Hex customer: Notion",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "39x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/41a6cd8e000ffa2cf99de391f0104b2cbdd9072e-132x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/41a6cd8e000ffa2cf99de391f0104b2cbdd9072e-132x50.svg?auto=format",
+   "alt": "Hex customer: Anthropic",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "132x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/b2ffbeeff0804c87f45b94444476c7025fce5719-51x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/b2ffbeeff0804c87f45b94444476c7025fce5719-51x50.svg?auto=format",
+   "alt": "Hex customer: SeatGeek",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "51x50",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/8ec37f2330ffd132be12ea66bad243453af0d047-119x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/8ec37f2330ffd132be12ea66bad243453af0d047-119x50.svg?auto=format",
+   "alt": "Hex customer: ClickUp",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "119x50",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/22fd2415f0d3f16dc2c3d9d7853147757c60e708-151x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/22fd2415f0d3f16dc2c3d9d7853147757c60e708-151x50.svg?auto=format",
+   "alt": "Hex customer: AllTrails",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "151x50",
+   "already": false
+  }
+ ],
+ "enterprise.html": [
+  {
+   "orig": "https://hex.tech/images/enterprise/illustration-enterprise-hero.svg",
+   "served": "https://hex.tech/images/enterprise/illustration-enterprise-hero.svg",
+   "alt": "Enterprise Digital Illustration",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/7bb676f30dbd80023b0c7af23e60ff630b4cdc4d-115x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/7bb676f30dbd80023b0c7af23e60ff630b4cdc4d-115x50.svg?auto=format",
+   "alt": "Hex customer: Reddit",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "115x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/6f211c674b14be69b85497264b1d654b138dce01-39x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/6f211c674b14be69b85497264b1d654b138dce01-39x50.svg?auto=format",
+   "alt": "Hex customer: Notion",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "39x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/41a6cd8e000ffa2cf99de391f0104b2cbdd9072e-132x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/41a6cd8e000ffa2cf99de391f0104b2cbdd9072e-132x50.svg?auto=format",
+   "alt": "Hex customer: Anthropic",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "132x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/b2ffbeeff0804c87f45b94444476c7025fce5719-51x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/b2ffbeeff0804c87f45b94444476c7025fce5719-51x50.svg?auto=format",
+   "alt": "Hex customer: SeatGeek",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "51x50",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/8ec37f2330ffd132be12ea66bad243453af0d047-119x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/8ec37f2330ffd132be12ea66bad243453af0d047-119x50.svg?auto=format",
+   "alt": "Hex customer: ClickUp",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "119x50",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/22fd2415f0d3f16dc2c3d9d7853147757c60e708-151x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/22fd2415f0d3f16dc2c3d9d7853147757c60e708-151x50.svg?auto=format",
+   "alt": "Hex customer: AllTrails",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "151x50",
+   "already": false
+  },
+  {
+   "orig": "https://hex.tech/images/illustrations/logo-gdpr.svg",
+   "served": "https://hex.tech/images/illustrations/logo-gdpr.svg",
+   "alt": "GDPR Logo",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "",
+   "already": false
+  },
+  {
+   "orig": "https://hex.tech/images/illustrations/logo-AICPA-SOC.svg",
+   "served": "https://hex.tech/images/illustrations/logo-AICPA-SOC.svg",
+   "alt": "AICPA SOC Logo",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "",
+   "already": false
+  },
+  {
+   "orig": "https://hex.tech/images/illustrations/logo-hipaa.svg",
+   "served": "https://hex.tech/images/illustrations/logo-hipaa.svg",
+   "alt": "HIPAA Logo",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "",
+   "already": false
+  },
+  {
+   "orig": "https://hex.tech/images/enterprise/illustration-governance-and-control.svg",
+   "served": "https://hex.tech/images/enterprise/illustration-governance-and-control.svg",
+   "alt": "Governance and Control Digital Illustration",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "",
+   "already": false
+  },
+  {
+   "orig": "https://hex.tech/images/illustrations/support-section.svg",
+   "served": "https://hex.tech/images/illustrations/support-section.svg",
+   "alt": "Customer Support Digital Illustration",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "",
+   "already": false
+  }
+ ],
+ "partners.html": [
+  {
+   "orig": "https://hex.tech/images/illustrations/support-section.svg",
+   "served": "https://hex.tech/images/illustrations/support-section.svg",
+   "alt": "Partner Illustration",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "",
+   "already": false
+  },
+  {
+   "orig": "https://hex.tech/images/partners/gigabyte-flag.png",
+   "served": "https://hex.tech/images/partners/gigabyte-flag.png",
+   "alt": "Gigabyte Partner Image",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "",
+   "already": false
+  },
+  {
+   "orig": "https://hex.tech/images/partners/terabyte-flag.png",
+   "served": "https://hex.tech/images/partners/terabyte-flag.png",
+   "alt": "Terabyte Partner Image",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "",
+   "already": false
+  },
+  {
+   "orig": "https://hex.tech/images/partners/petabyte-flag.png",
+   "served": "https://hex.tech/images/partners/petabyte-flag.png",
+   "alt": "Petabyte Partner Image",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "",
+   "already": false
+  },
+  {
+   "orig": "https://hex.tech/images/partners/phdata-logo.png",
+   "served": "https://hex.tech/images/partners/phdata-logo.png",
+   "alt": "phData Logo",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "",
+   "already": false
+  },
+  {
+   "orig": "https://hex.tech/images/partners/brooklyn-data.png",
+   "served": "https://hex.tech/images/partners/brooklyn-data.png",
+   "alt": "Brooklyn Data Logo",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "",
+   "already": false
+  },
+  {
+   "orig": "https://hex.tech/images/partners/in516ht.png",
+   "served": "https://hex.tech/images/partners/in516ht.png",
+   "alt": "In516ht Logo",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "",
+   "already": false
+  },
+  {
+   "orig": "https://hex.tech/images/partners/eoncollective-logo.png",
+   "served": "https://hex.tech/images/partners/eoncollective-logo.png",
+   "alt": "Eon Collective",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "",
+   "already": false
+  },
+  {
+   "orig": "https://hex.tech/images/partners/impactful-insights.png",
+   "served": "https://hex.tech/images/partners/impactful-insights.png",
+   "alt": "Impactful Insights",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "",
+   "already": false
+  },
+  {
+   "orig": "https://hex.tech/images/partners/cvector-alt.svg",
+   "served": "https://hex.tech/images/partners/cvector-alt.svg",
+   "alt": "cvector",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "",
+   "already": false
+  },
+  {
+   "orig": "https://hex.tech/images/partners/snowpack-data-logo.svg",
+   "served": "https://hex.tech/images/partners/snowpack-data-logo.svg",
+   "alt": "Snowpack Data Logo",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "",
+   "already": false
+  },
+  {
+   "orig": "https://hex.tech/images/partners/clarity.svg",
+   "served": "https://hex.tech/images/partners/clarity.svg",
+   "alt": "clarity",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "",
+   "already": false
+  },
+  {
+   "orig": "https://hex.tech/images/partners/analytics8.svg",
+   "served": "https://hex.tech/images/partners/analytics8.svg",
+   "alt": "analytics8",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "",
+   "already": false
+  },
+  {
+   "orig": "https://hex.tech/images/partners/exvolve-logo.png",
+   "served": "https://hex.tech/images/partners/exvolve-logo.png",
+   "alt": "exvolve",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "",
+   "already": false
+  },
+  {
+   "orig": "https://hex.tech/images/partners/das42-logo.svg",
+   "served": "https://hex.tech/images/partners/das42-logo.svg",
+   "alt": "DAS42",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "",
+   "already": false
+  },
+  {
+   "orig": "https://hex.tech/images/partners/datum-labs-logo.svg",
+   "served": "https://hex.tech/images/partners/datum-labs-logo.svg",
+   "alt": "Datum Labs",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "",
+   "already": false
+  }
+ ],
+ "pricing.html": [
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/7bb676f30dbd80023b0c7af23e60ff630b4cdc4d-115x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/7bb676f30dbd80023b0c7af23e60ff630b4cdc4d-115x50.svg?auto=format",
+   "alt": "Hex customer: Reddit",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "115x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/6f211c674b14be69b85497264b1d654b138dce01-39x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/6f211c674b14be69b85497264b1d654b138dce01-39x50.svg?auto=format",
+   "alt": "Hex customer: Notion",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "39x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/41a6cd8e000ffa2cf99de391f0104b2cbdd9072e-132x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/41a6cd8e000ffa2cf99de391f0104b2cbdd9072e-132x50.svg?auto=format",
+   "alt": "Hex customer: Anthropic",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "132x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/b2ffbeeff0804c87f45b94444476c7025fce5719-51x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/b2ffbeeff0804c87f45b94444476c7025fce5719-51x50.svg?auto=format",
+   "alt": "Hex customer: SeatGeek",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "51x50",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/8ec37f2330ffd132be12ea66bad243453af0d047-119x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/8ec37f2330ffd132be12ea66bad243453af0d047-119x50.svg?auto=format",
+   "alt": "Hex customer: ClickUp",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "119x50",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/22fd2415f0d3f16dc2c3d9d7853147757c60e708-151x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/22fd2415f0d3f16dc2c3d9d7853147757c60e708-151x50.svg?auto=format",
+   "alt": "Hex customer: AllTrails",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "151x50",
+   "already": false
+  }
+ ],
+ "request-a-demo.html": [
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/7bb676f30dbd80023b0c7af23e60ff630b4cdc4d-115x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/7bb676f30dbd80023b0c7af23e60ff630b4cdc4d-115x50.svg?auto=format",
+   "alt": "Hex customer: Reddit",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "115x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/6f211c674b14be69b85497264b1d654b138dce01-39x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/6f211c674b14be69b85497264b1d654b138dce01-39x50.svg?auto=format",
+   "alt": "Hex customer: Notion",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "39x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/41a6cd8e000ffa2cf99de391f0104b2cbdd9072e-132x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/41a6cd8e000ffa2cf99de391f0104b2cbdd9072e-132x50.svg?auto=format",
+   "alt": "Hex customer: Anthropic",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "132x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/b2ffbeeff0804c87f45b94444476c7025fce5719-51x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/b2ffbeeff0804c87f45b94444476c7025fce5719-51x50.svg?auto=format",
+   "alt": "Hex customer: SeatGeek",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "51x50",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/8ec37f2330ffd132be12ea66bad243453af0d047-119x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/8ec37f2330ffd132be12ea66bad243453af0d047-119x50.svg?auto=format",
+   "alt": "Hex customer: ClickUp",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "119x50",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/22fd2415f0d3f16dc2c3d9d7853147757c60e708-151x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/22fd2415f0d3f16dc2c3d9d7853147757c60e708-151x50.svg?auto=format",
+   "alt": "Hex customer: AllTrails",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "151x50",
+   "already": false
+  }
+ ],
+ "solutions.html": [
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/41a6cd8e000ffa2cf99de391f0104b2cbdd9072e-132x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/41a6cd8e000ffa2cf99de391f0104b2cbdd9072e-132x50.svg?auto=format",
+   "alt": "Hex customer: Anthropic",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "132x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/6f211c674b14be69b85497264b1d654b138dce01-39x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/6f211c674b14be69b85497264b1d654b138dce01-39x50.svg?auto=format",
+   "alt": "Hex customer: Notion",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "39x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/892932e7f3dc3c66d3ae4a16e8bc51e37b7f59f4-120x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/892932e7f3dc3c66d3ae4a16e8bc51e37b7f59f4-120x50.svg?auto=format",
+   "alt": "Hex customer: Ramp",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "120x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/7bb676f30dbd80023b0c7af23e60ff630b4cdc4d-115x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/7bb676f30dbd80023b0c7af23e60ff630b4cdc4d-115x50.svg?auto=format",
+   "alt": "Hex customer: Reddit",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "115x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/693c33d9f78d3b5a96db64d08107ca30cf36658d-148x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/693c33d9f78d3b5a96db64d08107ca30cf36658d-148x50.svg?auto=format",
+   "alt": "Hex customer: Calendly",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "148x50",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/84cee8330df6df867d752ef0336d987b73845add-81x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/84cee8330df6df867d752ef0336d987b73845add-81x50.svg?auto=format",
+   "alt": "Hex customer: StubHub",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "81x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/c58b81b4a104a9f4a167c91e91b0718aed68b9df-840x520.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/c58b81b4a104a9f4a167c91e91b0718aed68b9df-840x520.png?w=800&auto=format",
+   "alt": "You don't need to migrate those 300 dashboards",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "840x520",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/ea3c3c81a65eb288ea6390f3290531197721ca6c-94x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/ea3c3c81a65eb288ea6390f3290531197721ca6c-94x50.svg?auto=format",
+   "alt": "Customer story: OM1",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "94x50",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/f7df402cfb3dac549c3f877c09425534abc7650b-97x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/f7df402cfb3dac549c3f877c09425534abc7650b-97x50.svg?auto=format",
+   "alt": "Customer story: Figma",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "97x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/92b9cd2232a417db021ffe38f96d45a896e85cba-131x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/92b9cd2232a417db021ffe38f96d45a896e85cba-131x50.svg?auto=format",
+   "alt": "Customer story: Mercor",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "131x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/2c4ef1e2b471b9d7322ef89af16a386864435653-116x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/2c4ef1e2b471b9d7322ef89af16a386864435653-116x50.svg?auto=format",
+   "alt": "Customer story: Valon",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "116x50",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/baea542d81adfefae4a1a6409a8260e0bac56f00-97x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/baea542d81adfefae4a1a6409a8260e0bac56f00-97x50.svg?auto=format",
+   "alt": "Customer story: Algolia",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "97x50",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/76aeaf65189942ceca5ccc6edf2d0c2db3b1338f-1680x1040.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/76aeaf65189942ceca5ccc6edf2d0c2db3b1338f-1680x1040.png?w=800&auto=format",
+   "alt": "Your next BI tool shouldn't be a BI tool",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1040",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/8980b4c593faa0a2ddc3f73e6c785d67d89028b9-1680x1040.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/8980b4c593faa0a2ddc3f73e6c785d67d89028b9-1680x1040.png?w=800&auto=format",
+   "alt": "The market is noisy. Here\u2019s how pipeline intelligence can help.",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1040",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/fbaa3c8343e43c4d71cef2201cb15bf7c00d5fd1-1680x1040.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/fbaa3c8343e43c4d71cef2201cb15bf7c00d5fd1-1680x1040.png?w=800&auto=format",
+   "alt": "Dashboards were never the destination",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1040",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/51c78ce03c99a846fbc29f65010d496e21b6eb75-2554x1440.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/51c78ce03c99a846fbc29f65010d496e21b6eb75-2554x1440.png?w=800&auto=format",
+   "alt": "How to Measure Pipeline Quality from Demo Requests with AI",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "2554x1440",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/8e2b6472b9d7bcdcbe1f1f0987645c3ec8de3654-1680x1040.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/8e2b6472b9d7bcdcbe1f1f0987645c3ec8de3654-1680x1040.png?w=800&auto=format",
+   "alt": "3 ways Hex makes leading a support team less stressful",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1040",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/4c11040e03a2931b662091412162c0a63dc931f9-1680x1040.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/4c11040e03a2931b662091412162c0a63dc931f9-1680x1040.png?w=800&auto=format",
+   "alt": "The unwritten rules of being a head of data",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1040",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/0722bc6369aee70286feb8634d6ce74d1a71906d-1680x1040.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/0722bc6369aee70286feb8634d6ce74d1a71906d-1680x1040.png?w=800&auto=format",
+   "alt": "You're probably evaluating AI analytics tools wrong",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1040",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/633dec3d5b5221ab18f42529d06a9e3c6fd9ea0e-840x520.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/633dec3d5b5221ab18f42529d06a9e3c6fd9ea0e-840x520.png?w=800&auto=format",
+   "alt": "Your data team is too slow (and accuracy won't save you)",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "840x520",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/a36bf5ba437e12cf1c98aa95a1c8b349669b4f3a-2554x1440.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/a36bf5ba437e12cf1c98aa95a1c8b349669b4f3a-2554x1440.png?w=800&auto=format",
+   "alt": "Using AI to choose billboard locations",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "2554x1440",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/3ab926d9bf26a6d29e6914144bb0c6962225ce6c-840x520.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/3ab926d9bf26a6d29e6914144bb0c6962225ce6c-840x520.png?w=800&auto=format",
+   "alt": "Why data apps confused the hell out of me (and probably confuse you too)",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "840x520",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/d8e0412205706fadc4fbadd33115d027e70cff07-1680x1040.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/d8e0412205706fadc4fbadd33115d027e70cff07-1680x1040.png?w=800&auto=format",
+   "alt": "How I used Hex\u2019s AI to get fully up to speed on our sales data",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1040",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/1e964af7362a347383d49813f7fcd3748efdf3d3-1680x1040.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/1e964af7362a347383d49813f7fcd3748efdf3d3-1680x1040.png?w=800&auto=format",
+   "alt": "Self-serve analytics is finally real (and that's terrifying)",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1040",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/de9be2ab1a7e661db7392ef005935adbf2fcaf1a-1680x1040.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/de9be2ab1a7e661db7392ef005935adbf2fcaf1a-1680x1040.png?w=800&auto=format",
+   "alt": "How we built a forecasting data app that gets more accurate every quarter",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1040",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/18b21643d43df8afd3336906664cf8445352cf68-1680x1040.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/18b21643d43df8afd3336906664cf8445352cf68-1680x1040.png?w=800&auto=format",
+   "alt": "Hex in the Wild: October 2025 spotlights",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1040",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/0a134db6af30660f26058d22f5f58874dc7b0a5e-2400x1260.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/0a134db6af30660f26058d22f5f58874dc7b0a5e-2400x1260.png?w=800&auto=format",
+   "alt": "Lessons from Ramp: Running AI-powered data teams",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "2400x1260",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/93074be682d2231bf3e9900142d30bc55d482b86-1680x1040.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/93074be682d2231bf3e9900142d30bc55d482b86-1680x1040.png?w=800&auto=format",
+   "alt": "Using AI thoughtfully: How our data team builds speed without losing depth",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1040",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/00ea9d4abd4463a6f1ee01549873bbe36482e0c4-1680x1020.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/00ea9d4abd4463a6f1ee01549873bbe36482e0c4-1680x1020.png?w=800&auto=format",
+   "alt": "Helping your data team become faster with AI, not busier",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1020",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/2aacd093f9cb3648fcde5ad79d85cf60504c6d47-1680x1040.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/2aacd093f9cb3648fcde5ad79d85cf60504c6d47-1680x1040.png?w=800&auto=format",
+   "alt": "The complete guide to prompting Hex's Notebook Agent",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1040",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/3732a7e6ade12c5bba7dc94ff3c1a927b766cf26-1680x1040.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/3732a7e6ade12c5bba7dc94ff3c1a927b766cf26-1680x1040.png?w=800&auto=format",
+   "alt": "Building metrics stakeholders need, not what they want",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1040",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/816e142d9b231c14cc1e154b6e1cb155f4d6dfec-1680x1040.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/816e142d9b231c14cc1e154b6e1cb155f4d6dfec-1680x1040.png?w=800&auto=format",
+   "alt": "From \u201cwe think\u201d to \u201cwe know\u201d: Attribution that ties to revenue",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1040",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/de281fd8f285b19d9a57d29815d9180bc565f492-1680x1040.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/de281fd8f285b19d9a57d29815d9180bc565f492-1680x1040.png?w=800&auto=format",
+   "alt": "AI is changing how our data team works, and that\u2019s great",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1040",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/576c2d0d4db331421cc5d69fae7e4925744970d9-1680x1040.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/576c2d0d4db331421cc5d69fae7e4925744970d9-1680x1040.png?w=800&auto=format",
+   "alt": "5 product metrics that change our decisions (and drive revenue)",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1040",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/f5f031d8f9beee3fdbad2c0f775ebeb3e0a894a1-1680x1040.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/f5f031d8f9beee3fdbad2c0f775ebeb3e0a894a1-1680x1040.png?w=800&auto=format",
+   "alt": "6 Pipeline questions that RevOps teams can answer in minutes in Hex",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1040",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/b9a93ad1af63a68c8838f0bef698649b231372d9-1680x1020.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/b9a93ad1af63a68c8838f0bef698649b231372d9-1680x1020.png?w=800&auto=format",
+   "alt": "Measuring Hex's performance in Hex",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1020",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/a208580406ab95c2249a8228bd773a99c4d370a4-1680x1020.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/a208580406ab95c2249a8228bd773a99c4d370a4-1680x1020.png?w=800&auto=format",
+   "alt": "How product teams make faster decisions",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1020",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/5253f985af379d17dc001fb1cc325e24b365172c-1680x1020.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/5253f985af379d17dc001fb1cc325e24b365172c-1680x1020.png?w=800&auto=format",
+   "alt": "Building proactive product KPI updates",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1020",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/a8694b34a1b1e549d2a1e7d9d99527fddedab670-1680x1020.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/a8694b34a1b1e549d2a1e7d9d99527fddedab670-1680x1020.png?w=800&auto=format",
+   "alt": "Turning traffic mysteries into marketing insights \u2014 with Hex",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1020",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/4a315add2d3bf620f65634744ba893cfb3c46ff2-1680x1040.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/4a315add2d3bf620f65634744ba893cfb3c46ff2-1680x1040.png?w=800&auto=format",
+   "alt": "Account 360 in Hex: Your one-stop customer health command center",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1040",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/cf7b95be37968ede60a678c0bcbf504a5b89d772-1680x1040.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/cf7b95be37968ede60a678c0bcbf504a5b89d772-1680x1040.png?w=800&auto=format",
+   "alt": "Why data teams (almost) never have to answer the same customer question twice",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1040",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/0a22ae6cae840b4527af1af6033c0f4b6a55e6e7-1680x990.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/0a22ae6cae840b4527af1af6033c0f4b6a55e6e7-1680x990.png?w=800&auto=format",
+   "alt": "How to figure out what actually impacts lead conversion ",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x990",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/7a562f13ae760f14b5352a49b112c9be9c0cd32b-1680x1040.jpg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/7a562f13ae760f14b5352a49b112c9be9c0cd32b-1680x1040.jpg?w=800&auto=format",
+   "alt": "The State of Data Teams 2025: AI, self-serve, and the reality check ",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1040",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/10287a66e9ffcb53940dfa188ecaa7c4694d7cd4-1680x1040.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/10287a66e9ffcb53940dfa188ecaa7c4694d7cd4-1680x1040.png?w=800&auto=format",
+   "alt": "How Candidly uses Hex Embedded Analytics to tackle the student loan debt crisis",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1040",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/978f3420ff187cf6cf40c810a0fa1b177cda418f-1680x1040.jpg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/978f3420ff187cf6cf40c810a0fa1b177cda418f-1680x1040.jpg?w=800&auto=format",
+   "alt": "The data app behind Huckberry\u2019s $1M inventory savings",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1040",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/5aa35008617a9529bbe6bbf1f6e188131c993975-2560x1440.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/5aa35008617a9529bbe6bbf1f6e188131c993975-2560x1440.png?w=800&auto=format",
+   "alt": "Nick Hardy, Ro: The power of embedded data teams",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "2560x1440",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/1b8e4abe9e204c6d2b66b2e5d0dbfdb725f99a67-1680x1020.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/1b8e4abe9e204c6d2b66b2e5d0dbfdb725f99a67-1680x1020.png?w=800&auto=format",
+   "alt": "Three powerful workflows in one platform",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1020",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/8cde7164970b2a05f0171fcb2895653ef9a2d0e0-2400x1260.jpg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/8cde7164970b2a05f0171fcb2895653ef9a2d0e0-2400x1260.jpg?w=800&auto=format",
+   "alt": "How Notion, HubSpot, and Ramp data teams think about ROI",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "2400x1260",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/31cf62453558e4b4d1aaae078bab2e936d74f54f-1680x1020.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/31cf62453558e4b4d1aaae078bab2e936d74f54f-1680x1020.png?w=800&auto=format",
+   "alt": "The Accuracy / Agency matrix",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1020",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/440f5624b2d0df481cd5ecfa9f1a9dcee3bf909d-1680x1040.jpg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/440f5624b2d0df481cd5ecfa9f1a9dcee3bf909d-1680x1040.jpg?w=800&auto=format",
+   "alt": "4 Ways Kong is scaling analytics with Hex",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1040",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/43f56f63a32410360ce25ba3809510a3162850e7-2400x1260.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/43f56f63a32410360ce25ba3809510a3162850e7-2400x1260.png?w=800&auto=format",
+   "alt": "Pedram Navid, Dagster: Why it's not enough to be right",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "2400x1260",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/cec4cb730e7a2f209fb39b713ff88708424f2248-2400x1260.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/cec4cb730e7a2f209fb39b713ff88708424f2248-2400x1260.png?w=800&auto=format",
+   "alt": "Ian Macomber, Ramp: How a data team drives influence",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "2400x1260",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/dd884d146bf1008b1c1958294a76edea9db630af-1680x1020.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/dd884d146bf1008b1c1958294a76edea9db630af-1680x1020.png?w=800&auto=format",
+   "alt": "How GameChanger used LTV modeling to predict and prevent churn",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1020",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/c1bacb6a71772572a795c614d504d346d0f0c4d9-2400x1260.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/c1bacb6a71772572a795c614d504d346d0f0c4d9-2400x1260.png?w=800&auto=format",
+   "alt": "Daniel Sternberg: How data drives craft at Notion",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "2400x1260",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/e7f928ed7812524d5699658ac0ef6d0c64bbcd8e-1680x1020.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/e7f928ed7812524d5699658ac0ef6d0c64bbcd8e-1680x1020.png?w=800&auto=format",
+   "alt": "How to boost collaboration between product and data teams",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1020",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/d557d9512ededd797bf34a390bcb2a692200b7c6-1680x1020.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/d557d9512ededd797bf34a390bcb2a692200b7c6-1680x1020.png?w=800&auto=format",
+   "alt": "Faster and Better Insights: Building a Big-Picture Data Team at StubHub",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1020",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/89b097b79b266cc44a77be0427b0a88ae0367310-1680x1020.jpg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/89b097b79b266cc44a77be0427b0a88ae0367310-1680x1020.jpg?w=800&auto=format",
+   "alt": "Make data-driven decisions with KPI dashboards",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1020",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/aba9da57ed735f58249e979ec258f5f81f30280f-1680x1020.webp",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/aba9da57ed735f58249e979ec258f5f81f30280f-1680x1020.webp?w=800&auto=format",
+   "alt": "How to build a sentiment analysis model in Python",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1020",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/d834e3222c70971bf9e2a66fab9201d647690275-3446x2352.jpg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/d834e3222c70971bf9e2a66fab9201d647690275-3446x2352.jpg?w=800&auto=format",
+   "alt": "Should you replace your BI tool with an agent?",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "3446x2352",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/7571aec177b893bebae9b21ff3eadf27d4100424-3446x2352.jpg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/7571aec177b893bebae9b21ff3eadf27d4100424-3446x2352.jpg?w=800&auto=format",
+   "alt": "A guide to data governance",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "3446x2352",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/eab4fc0b585daac8f8062c26114644984fce81e2-1723x1176.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/eab4fc0b585daac8f8062c26114644984fce81e2-1723x1176.png?w=800&auto=format",
+   "alt": "Calendly: 2x faster with Hex",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1723x1176",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/18c8a12ea94d0e89a5450f3c50d52643fa9e542f-1680x1020.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/18c8a12ea94d0e89a5450f3c50d52643fa9e542f-1680x1020.png?w=800&auto=format",
+   "alt": "Python Data Visualization",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1020",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/ecae8ae972cf251419d1c6c461c881d0a2a4245c-3446x2352.jpg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/ecae8ae972cf251419d1c6c461c881d0a2a4245c-3446x2352.jpg?w=800&auto=format",
+   "alt": "The Snowflake + Hex guide to AI-ready data",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "3446x2352",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/c294a1e5846e2766d2514b6815f4afae1d4e5629-3446x2352.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/c294a1e5846e2766d2514b6815f4afae1d4e5629-3446x2352.png?w=800&auto=format",
+   "alt": "How OM1 is transforming self-serve with a data app",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "3446x2352",
+   "already": false
+  }
+ ],
+ "solutions_customer-success.html": [
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/7bb676f30dbd80023b0c7af23e60ff630b4cdc4d-115x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/7bb676f30dbd80023b0c7af23e60ff630b4cdc4d-115x50.svg?auto=format",
+   "alt": "Hex customer: Reddit",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "115x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/6f211c674b14be69b85497264b1d654b138dce01-39x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/6f211c674b14be69b85497264b1d654b138dce01-39x50.svg?auto=format",
+   "alt": "Hex customer: Notion",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "39x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/41a6cd8e000ffa2cf99de391f0104b2cbdd9072e-132x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/41a6cd8e000ffa2cf99de391f0104b2cbdd9072e-132x50.svg?auto=format",
+   "alt": "Hex customer: Anthropic",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "132x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/b2ffbeeff0804c87f45b94444476c7025fce5719-51x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/b2ffbeeff0804c87f45b94444476c7025fce5719-51x50.svg?auto=format",
+   "alt": "Hex customer: SeatGeek",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "51x50",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/8ec37f2330ffd132be12ea66bad243453af0d047-119x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/8ec37f2330ffd132be12ea66bad243453af0d047-119x50.svg?auto=format",
+   "alt": "Hex customer: ClickUp",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "119x50",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/22fd2415f0d3f16dc2c3d9d7853147757c60e708-151x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/22fd2415f0d3f16dc2c3d9d7853147757c60e708-151x50.svg?auto=format",
+   "alt": "Hex customer: AllTrails",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "151x50",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/88471f87269c271bd391159227b1c86e33059f70-2088x1720.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/88471f87269c271bd391159227b1c86e33059f70-2088x1720.png?w=1200",
+   "alt": "Customer health, built from your relevant data sources",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "2088x1720",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/d477dd086a0b7b21c00d0b9c71fe59abd383f2f0-2496x1952.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/d477dd086a0b7b21c00d0b9c71fe59abd383f2f0-2496x1952.png?w=1200",
+   "alt": "Proactive customer support",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "2496x1952",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/082c362c9ac5ebdc0e2e6ba8c5228f435e78b2d1-2588x2116.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/082c362c9ac5ebdc0e2e6ba8c5228f435e78b2d1-2588x2116.png?w=1200",
+   "alt": "One hub for all customer questions",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "2588x2116",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/5546f440de56feb488908113b4ac43e20d2c566f-1845x1148.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/5546f440de56feb488908113b4ac43e20d2c566f-1845x1148.png?w=827",
+   "alt": "figure - ClickUp: How a data app saved $1M+ in churn",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1845x1148",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/cf7b95be37968ede60a678c0bcbf504a5b89d772-1680x1040.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/cf7b95be37968ede60a678c0bcbf504a5b89d772-1680x1040.png?w=827",
+   "alt": "figure - Why data teams (almost) never have to answer the same customer question twice",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1040",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/4a315add2d3bf620f65634744ba893cfb3c46ff2-1680x1040.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/4a315add2d3bf620f65634744ba893cfb3c46ff2-1680x1040.png?w=827",
+   "alt": "figure - How we built a customer health command center in Hex",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1040",
+   "already": false
+  }
+ ],
+ "solutions_data-leaders.html": [
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/7bb676f30dbd80023b0c7af23e60ff630b4cdc4d-115x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/7bb676f30dbd80023b0c7af23e60ff630b4cdc4d-115x50.svg?auto=format",
+   "alt": "Hex customer: Reddit",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "115x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/6f211c674b14be69b85497264b1d654b138dce01-39x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/6f211c674b14be69b85497264b1d654b138dce01-39x50.svg?auto=format",
+   "alt": "Hex customer: Notion",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "39x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/41a6cd8e000ffa2cf99de391f0104b2cbdd9072e-132x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/41a6cd8e000ffa2cf99de391f0104b2cbdd9072e-132x50.svg?auto=format",
+   "alt": "Hex customer: Anthropic",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "132x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/b2ffbeeff0804c87f45b94444476c7025fce5719-51x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/b2ffbeeff0804c87f45b94444476c7025fce5719-51x50.svg?auto=format",
+   "alt": "Hex customer: SeatGeek",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "51x50",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/8ec37f2330ffd132be12ea66bad243453af0d047-119x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/8ec37f2330ffd132be12ea66bad243453af0d047-119x50.svg?auto=format",
+   "alt": "Hex customer: ClickUp",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "119x50",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/22fd2415f0d3f16dc2c3d9d7853147757c60e708-151x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/22fd2415f0d3f16dc2c3d9d7853147757c60e708-151x50.svg?auto=format",
+   "alt": "Hex customer: AllTrails",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "151x50",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/8e147d73f9f6df010b65f006b56278c29ee0f829-1316x677.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/8e147d73f9f6df010b65f006b56278c29ee0f829-1316x677.png?w=1200",
+   "alt": "Inform strategy with actual root cause",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1316x677",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/591eb3c30893e59b5b45793c63f8cdac263bb1d4-1311x910.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/591eb3c30893e59b5b45793c63f8cdac263bb1d4-1311x910.png?w=1200",
+   "alt": "Governed self-serve, with AI enhancement",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1311x910",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/155eeaeec5a7fd90b903edb5571720a38091716c-1340x1000.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/155eeaeec5a7fd90b903edb5571720a38091716c-1340x1000.png?w=1200",
+   "alt": "Unify your data team's workflow",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1340x1000",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/de281fd8f285b19d9a57d29815d9180bc565f492-1680x1040.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/de281fd8f285b19d9a57d29815d9180bc565f492-1680x1040.png?w=1200",
+   "alt": "AI is changing how our data team works, and that\u2019s great",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1040",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/ecae8ae972cf251419d1c6c461c881d0a2a4245c-3446x2352.jpg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/ecae8ae972cf251419d1c6c461c881d0a2a4245c-3446x2352.jpg?w=827",
+   "alt": "figure - How to prepare your data strategy for LLMs",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "3446x2352",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/37318ae8e6314529ab631df734bd3c0707b8bfc6-3446x2352.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/37318ae8e6314529ab631df734bd3c0707b8bfc6-3446x2352.png?w=827",
+   "alt": "figure - A playbook for scaling data trust",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "3446x2352",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/2b32bb422d888a94f1f5161ab21d4b0bbe75f009-1240x846.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/2b32bb422d888a94f1f5161ab21d4b0bbe75f009-1240x846.png?w=827",
+   "alt": "figure - The myth of measuring \u201cdata team ROI\u201d",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1240x846",
+   "already": false
+  }
+ ],
+ "solutions_marketing.html": [
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/7bb676f30dbd80023b0c7af23e60ff630b4cdc4d-115x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/7bb676f30dbd80023b0c7af23e60ff630b4cdc4d-115x50.svg?auto=format",
+   "alt": "Hex customer: Reddit",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "115x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/6f211c674b14be69b85497264b1d654b138dce01-39x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/6f211c674b14be69b85497264b1d654b138dce01-39x50.svg?auto=format",
+   "alt": "Hex customer: Notion",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "39x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/41a6cd8e000ffa2cf99de391f0104b2cbdd9072e-132x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/41a6cd8e000ffa2cf99de391f0104b2cbdd9072e-132x50.svg?auto=format",
+   "alt": "Hex customer: Anthropic",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "132x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/b2ffbeeff0804c87f45b94444476c7025fce5719-51x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/b2ffbeeff0804c87f45b94444476c7025fce5719-51x50.svg?auto=format",
+   "alt": "Hex customer: SeatGeek",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "51x50",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/8ec37f2330ffd132be12ea66bad243453af0d047-119x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/8ec37f2330ffd132be12ea66bad243453af0d047-119x50.svg?auto=format",
+   "alt": "Hex customer: ClickUp",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "119x50",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/22fd2415f0d3f16dc2c3d9d7853147757c60e708-151x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/22fd2415f0d3f16dc2c3d9d7853147757c60e708-151x50.svg?auto=format",
+   "alt": "Hex customer: AllTrails",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "151x50",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/4f32b2ab55d90ee060e86af37ebbdbbc5154ada2-1569x1200.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/4f32b2ab55d90ee060e86af37ebbdbbc5154ada2-1569x1200.png?w=1200",
+   "alt": "When\u2019s the last time you asked which attribution model is right?",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1569x1200",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/ea3c3c81a65eb288ea6390f3290531197721ca6c-94x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/ea3c3c81a65eb288ea6390f3290531197721ca6c-94x50.svg?auto=format",
+   "alt": "OM1",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "94x50",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/ae0c122e0a546ab3ed4fd0cc34df9a5ffad73fde-1581x1215.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/ae0c122e0a546ab3ed4fd0cc34df9a5ffad73fde-1581x1215.png?w=1200",
+   "alt": "Trying to answer on the spot questions about marketing-sourced pipeline?",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1581x1215",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/baea542d81adfefae4a1a6409a8260e0bac56f00-97x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/baea542d81adfefae4a1a6409a8260e0bac56f00-97x50.svg?auto=format",
+   "alt": "Algolia",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "97x50",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/86fb1e8f7f5ec19b815f42c439471c38f2a9a97b-779x792.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/86fb1e8f7f5ec19b815f42c439471c38f2a9a97b-779x792.png?w=1200",
+   "alt": "Catching a conversion drop after it's already cost you the quarter?",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "779x792",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/459c3f67dadbbc87073d77ee31c985cb829e4eef-2400x1260.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/459c3f67dadbbc87073d77ee31c985cb829e4eef-2400x1260.png?w=1200",
+   "alt": "Tired of pipeline forecast panic? Here\u2019s how we beat it",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "2400x1260",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/1b910ed63aebd4801ed43978ecf82b7c7cbf10f5-1680x1020.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/1b910ed63aebd4801ed43978ecf82b7c7cbf10f5-1680x1020.png?w=827",
+   "alt": "figure - How we cracked lead conversion by segment",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1020",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/80042e489c3f220677d279f8c248a2a990528abf-1680x1020.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/80042e489c3f220677d279f8c248a2a990528abf-1680x1020.png?w=827",
+   "alt": "figure - Why, when and how to use a first-touch attribution model",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1020",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/553213895cffd9474f7a9be8091bef4910085e8d-1680x1020.jpg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/553213895cffd9474f7a9be8091bef4910085e8d-1680x1020.jpg?w=827",
+   "alt": "figure - ClickUp: How a data app saved $1M in churn",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1020",
+   "already": false
+  }
+ ],
+ "solutions_product-analytics.html": [
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/7bb676f30dbd80023b0c7af23e60ff630b4cdc4d-115x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/7bb676f30dbd80023b0c7af23e60ff630b4cdc4d-115x50.svg?auto=format",
+   "alt": "Hex customer: Reddit",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "115x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/6f211c674b14be69b85497264b1d654b138dce01-39x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/6f211c674b14be69b85497264b1d654b138dce01-39x50.svg?auto=format",
+   "alt": "Hex customer: Notion",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "39x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/41a6cd8e000ffa2cf99de391f0104b2cbdd9072e-132x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/41a6cd8e000ffa2cf99de391f0104b2cbdd9072e-132x50.svg?auto=format",
+   "alt": "Hex customer: Anthropic",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "132x50",
+   "already": true
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/b2ffbeeff0804c87f45b94444476c7025fce5719-51x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/b2ffbeeff0804c87f45b94444476c7025fce5719-51x50.svg?auto=format",
+   "alt": "Hex customer: SeatGeek",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "51x50",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/8ec37f2330ffd132be12ea66bad243453af0d047-119x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/8ec37f2330ffd132be12ea66bad243453af0d047-119x50.svg?auto=format",
+   "alt": "Hex customer: ClickUp",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "119x50",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/22fd2415f0d3f16dc2c3d9d7853147757c60e708-151x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/22fd2415f0d3f16dc2c3d9d7853147757c60e708-151x50.svg?auto=format",
+   "alt": "Hex customer: AllTrails",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "151x50",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/2cab0d5eb3b73515443d107be897b5975261e4b6-1340x940.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/2cab0d5eb3b73515443d107be897b5975261e4b6-1340x940.png?w=1200",
+   "alt": "Learn the reasons behind churn and expansion",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1340x940",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/5676894e64163a7ad1fe54e935d262c06c8d4c53-110x50.svg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/5676894e64163a7ad1fe54e935d262c06c8d4c53-110x50.svg?auto=format",
+   "alt": "Kong",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "110x50",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/761f1d60dfff26830a74bc42be8d460553ffc580-1216x896.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/761f1d60dfff26830a74bc42be8d460553ffc580-1216x896.png?w=1200",
+   "alt": "Know where to invest in your product next",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1216x896",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/d04db4ff087e43668ab62b75e17cb94893e83778-1233x948.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/d04db4ff087e43668ab62b75e17cb94893e83778-1233x948.png?w=1200",
+   "alt": "Show your work as you go",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1233x948",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/e94af611459c1d5f0e0faa1e94bd34d9f2b6dc09-1788x1236.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/e94af611459c1d5f0e0faa1e94bd34d9f2b6dc09-1788x1236.png?w=1200",
+   "alt": "Close product feedback loops faster",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1788x1236",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/440f5624b2d0df481cd5ecfa9f1a9dcee3bf909d-1680x1040.jpg",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/440f5624b2d0df481cd5ecfa9f1a9dcee3bf909d-1680x1040.jpg?w=620",
+   "alt": "figure - How Kong's product analyst uses Hex to make product improvements",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1040",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/16d94d9461239e179518e738e0ffe8d265f52f62-1680x1020.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/16d94d9461239e179518e738e0ffe8d265f52f62-1680x1020.png?w=620",
+   "alt": "figure - Why warehouse-based product analytics tells you more",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1020",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/dc87784b60c4ded232ba96433276ebb73f60d400-1680x1020.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/dc87784b60c4ded232ba96433276ebb73f60d400-1680x1020.png?w=620",
+   "alt": "figure - How PMs can find their own business-impacting insights in Hex",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1020",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/576c2d0d4db331421cc5d69fae7e4925744970d9-1680x1040.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/576c2d0d4db331421cc5d69fae7e4925744970d9-1680x1040.png?w=620",
+   "alt": "figure - 5 Product metrics that actually drive growth (not vanity metrics)",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1040",
+   "already": false
+  }
+ ],
+ "solutions_sales-analytics.html": [
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/3b7011634a4e42d6b81baf7f503e1aa8688319e4-1412x1198.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/3b7011634a4e42d6b81baf7f503e1aa8688319e4-1412x1198.png?w=1200",
+   "alt": "Map the fastest plan to your revenue target",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1412x1198",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/39e4ac8477242f8c5e4f9631d4b7bf524181f4bd-1204x816.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/39e4ac8477242f8c5e4f9631d4b7bf524181f4bd-1204x816.png?w=1200",
+   "alt": "Data views that keep your sales team two steps ahead",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1204x816",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/591eb3c30893e59b5b45793c63f8cdac263bb1d4-1311x910.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/591eb3c30893e59b5b45793c63f8cdac263bb1d4-1311x910.png?w=1200",
+   "alt": "Flexible for sales; reliable data for everyone",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1311x910",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/a10a76903905c835ecf0ca93615d5ac80a1f8472-3446x2032.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/a10a76903905c835ecf0ca93615d5ac80a1f8472-3446x2032.png?w=827",
+   "alt": "figure - How StubHub pinpointed ticket sales trends",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "3446x2032",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/d726e793719ccb7294676930a6226b772191bac9-1680x990.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/d726e793719ccb7294676930a6226b772191bac9-1680x990.png?w=827",
+   "alt": "figure - Unlock funnel analysis with SQL and Python",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x990",
+   "already": false
+  },
+  {
+   "orig": "https://cdn.sanity.io/images/e92memrj/production/1b910ed63aebd4801ed43978ecf82b7c7cbf10f5-1680x1020.png",
+   "served": "https://cdn.sanity.io/images/e92memrj/production/1b910ed63aebd4801ed43978ecf82b7c7cbf10f5-1680x1020.png?w=827",
+   "alt": "figure - Predictive Lead Scoring with Python",
+   "srcset_widths": [
+    "src"
+   ],
+   "native": "1680x1020",
+   "already": false
+  }
+ ]
+}

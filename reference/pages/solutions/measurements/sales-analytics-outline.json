@@ -1,0 +1,253 @@
+{
+  "url": "/solutions/sales-analytics/",
+  "docH": 5924,
+  "title": "Sales Analytics for Revenue and GTM Teams | Hex",
+  "metaDesc": "Analyze pipeline health, model revenue forecasts, and track quota attainment in Hex. Give sales and GTM teams the answers they need — no ticket required.",
+  "hidden": 0,
+  "quotes": [],
+  "secs": [
+    {
+      "c": "LayoutGrid__LayoutSubgrid",
+      "b": [
+        0,
+        0,
+        1440,
+        5338
+      ],
+      "dir": "",
+      "h": [],
+      "p": [],
+      "a": [],
+      "img": [],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": []
+    },
+    {
+      "c": "sharedStyles__Info",
+      "b": [
+        220,
+        200,
+        1000,
+        454
+      ],
+      "dir": "",
+      "h": [
+        "H1:Insights for sales. Sanity for your data team."
+      ],
+      "p": [
+        "Help your team close more deals and hit their targets."
+      ],
+      "a": [
+        "Request a demo -> https://hex.tech/request-a-demo/?utm_id=h_7015f000000VLkDAAW&utm_campaign=sales&utm_medium=landpg%20link&utm_source=cta?utm_content=sales",
+        "Get started now -> https://app.hex.tech/signup?source=nav&_gl=1*1gb4jmm*_gcl_au*MTE3NTA3ODUwNS4xNzQwNTk1ODUz"
+      ],
+      "img": [],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": []
+    },
+    {
+      "c": "sharedStyles__FeatureWrapper",
+      "b": [
+        157,
+        694,
+        1126,
+        513
+      ],
+      "dir": "row",
+      "h": [
+        "H2:Map the fastest plan to your revenue target"
+      ],
+      "p": [
+        "One platform for sales clarity.",
+        "Get total clarity on what drives your pipeline—and where deals slow down. Apply past and predictive insights to hit your targets with confidence."
+      ],
+      "a": [],
+      "img": [
+        "SANITY/3b7011634a4e42d6b81baf7f503e1aa8688319e4-1412x1198.png?w=1200&w=640&q=75 600x508 alt=Map the fastest plan to your revenue target"
+      ],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": []
+    },
+    {
+      "c": "sharedStyles__FeatureWrapper",
+      "b": [
+        157,
+        1287,
+        1126,
+        513
+      ],
+      "dir": "row-reverse",
+      "h": [
+        "H2:Data views that keep your sales team two steps ahead"
+      ],
+      "p": [
+        "Explore, experiment, and forecast ahead.",
+        "Stop using tools that only look in the rear view mirror. Empower your sales team get ahead of opportunities with highly accurate, automated forecasts and insightful, forward-looking analysis."
+      ],
+      "a": [],
+      "img": [
+        "SANITY/39e4ac8477242f8c5e4f9631d4b7bf524181f4bd-1204x816.png?w=1200&w=640&q=75 600x406 alt=Data views that keep your sales team two steps ahead"
+      ],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": []
+    },
+    {
+      "c": "sharedStyles__FeatureWrapper",
+      "b": [
+        157,
+        1880,
+        1126,
+        513
+      ],
+      "dir": "row",
+      "h": [
+        "H2:Flexible for sales; reliable data for everyone"
+      ],
+      "p": [
+        "Provide trusted data exploration.",
+        "Say goodbye to non-trustworthy analyses in floating spreadsheets. Let everyone explore trusted sales data from AI-driven natural language and user-friendly apps."
+      ],
+      "a": [],
+      "img": [
+        "SANITY/591eb3c30893e59b5b45793c63f8cdac263bb1d4-1311x910.png?w=1200&w=640&q=75 600x416 alt=Flexible for sales; reliable data for everyone"
+      ],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": []
+    },
+    {
+      "c": "sharedStyles__Wrapper sharedStyles__StyledWrapper",
+      "b": [
+        360,
+        2473,
+        720,
+        1201
+      ],
+      "dir": "column-reverse",
+      "h": [
+        "H2:Explore a live data app"
+      ],
+      "p": [
+        "Build your own Sales Stage Conversion dashboard to understand and optimize pipeline health."
+      ],
+      "a": [
+        "What you can build (app) -> null",
+        "How it's built (logic) -> null",
+        "Explore this app -> https://app.hex.tech/hex-public/app/Sales-Stage-Conversion-0313skUABWhY9e3i1fmFsZ/latest"
+      ],
+      "img": [],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": [
+        "https://app.hex.tech/hex-public/app/Sales-Stage-Conversion-0313skUABWhY9e3i1fmFsZ/latest?embedded=true",
+        "https://app.hex.tech/hex-public/hex/Sales-Stage-Conversion-0313skUABWhY9e3i1fmFsZ/draft/logic?embedded=true"
+      ]
+    },
+    {
+      "c": "Heading__HeadingInternal Heading___StyledHeadingInternal Heading__H2",
+      "b": [
+        420,
+        3826,
+        600,
+        110
+      ],
+      "dir": "",
+      "h": [
+        "H2:How Hex frees data teams and fuels sales"
+      ],
+      "p": [],
+      "a": [],
+      "img": [],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": []
+    },
+    {
+      "c": "Cards__Wrapper",
+      "b": [
+        100,
+        4000,
+        1240,
+        556
+      ],
+      "dir": "",
+      "h": [
+        "H3:How StubHub pinpointed ticket sales trends",
+        "H3:Unlock funnel analysis with SQL and Python",
+        "H3:Predictive Lead Scoring with Python"
+      ],
+      "p": [
+        "Data apps let teams see the causes behind spikes or drops in ticket sales.",
+        "Identify exactly where your sales funnel is leaking with SQL and Python.",
+        "Learn how to prioritize prospects effectively with a predictive scoring model."
+      ],
+      "a": [
+        "Read more -> https://hex.tech/resources/data-app-stubhub/",
+        "Read more -> https://hex.tech/blog/funnel-analysis/",
+        "Read more -> https://hex.tech/blog/predictive-lead-scoring-python/"
+      ],
+      "img": [
+        "SANITY/a10a76903905c835ecf0ca93615d5ac80a1f8472-3446x2032.png?w=827&w=640&q=75 360x212 alt=figure - How StubHub pinpointed ticket sales trends",
+        "SANITY/d726e793719ccb7294676930a6226b772191bac9-1680x990.png?w=827&w=640&q=75 360x212 alt=figure - Unlock funnel analysis with SQL and Python",
+        "SANITY/1b910ed63aebd4801ed43978ecf82b7c7cbf10f5-1680x1020.png?w=827&w=640&q=75 360x218 alt=figure - Predictive Lead Scoring with Python"
+      ],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": []
+    },
+    {
+      "c": "SelfServeOutroTout__Inner",
+      "b": [
+        29,
+        4688,
+        1382,
+        650
+      ],
+      "dir": "",
+      "h": [
+        "H2:Learn why data teams choose Hex for sales analytics"
+      ],
+      "p": [
+        "Contact sales"
+      ],
+      "a": [
+        "Request a demo -> https://hex.tech/request-a-demo/"
+      ],
+      "img": [],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": []
+    },
+    {
+      "c": "SCRIPT",
+      "b": [
+        0,
+        4176,
+        0,
+        0
+      ],
+      "dir": "",
+      "h": [],
+      "p": [],
+      "a": [],
+      "img": [],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": []
+    }
+  ]
+}

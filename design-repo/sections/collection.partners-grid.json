@@ -1,0 +1,116 @@
+{
+  "id": "collection.partners-grid",
+  "category": "collection",
+  "purpose": "Partners: centred H2 + lead over wrapped logo cards with tier badges.",
+  "variants": [],
+  "content": {
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 2,
+      "observedWords": [
+        1
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:914"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 20,
+      "observedWords": [
+        16
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:914"
+      ]
+    },
+    "cards": {
+      "kind": "list",
+      "required": true,
+      "minItems": 12,
+      "maxItems": 12,
+      "measuredFrom": [
+        "specs/solutions.md:132"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "logo": {
+            "kind": "media",
+            "required": true,
+            "roles": [
+              "logo.partner"
+            ],
+            "alt": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 18,
+              "observedWords": [
+                14,
+                14
+              ],
+              "measuredFrom": [
+                "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+                "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+              ]
+            }
+          },
+          "tier": {
+            "kind": "enum",
+            "values": [
+              "GIGABYTE",
+              "TERABYTE",
+              "PETABYTE"
+            ],
+            "required": true,
+            "measuredFrom": [
+              "specs/solutions.md:916"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "stack-columns",
+      "detail": "cards 100% wide stacked",
+      "measuredFrom": [
+        "specs/solutions.md:915"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/solutions.md:914"
+  ],
+  "wordBudgets": {
+    "cards[].logo.alt": 18,
+    "description": 20,
+    "headline": 2
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "logo.partner"
+  ],
+  "usedByTemplates": [
+    "template.partners"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__collection.partners-grid",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

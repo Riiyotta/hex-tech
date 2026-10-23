@@ -1,0 +1,150 @@
+{
+  "id": "feature.integrations-grid",
+  "category": "feature",
+  "purpose": "'Instant integration' tout: italic+display H2, lead and a 3x2 grid of illustrated integration cards.",
+  "variants": [],
+  "content": {
+    "italicLine": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 3,
+      "observedWords": [
+        2
+      ],
+      "measuredFrom": [
+        "CLONE_SPEC.md:384"
+      ]
+    },
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 5,
+      "observedWords": [
+        4
+      ],
+      "measuredFrom": [
+        "CLONE_SPEC.md:384"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 12,
+      "observedWords": [
+        9
+      ],
+      "measuredFrom": [
+        "CLONE_SPEC.md:384"
+      ]
+    },
+    "cards": {
+      "kind": "list",
+      "required": true,
+      "minItems": 3,
+      "maxItems": 6,
+      "measuredFrom": [
+        "CLONE_SPEC.md:385",
+        "specs/product.md:523"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "title": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 7,
+            "observedWords": [
+              5
+            ],
+            "measuredFrom": [
+              "CLONE_SPEC.md:389"
+            ]
+          },
+          "description": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 34,
+            "observedWords": [
+              27
+            ],
+            "measuredFrom": [
+              "CLONE_SPEC.md:388"
+            ]
+          },
+          "href": {
+            "kind": "href",
+            "required": true
+          },
+          "illustration": {
+            "kind": "media",
+            "required": true,
+            "roles": [
+              "illustration.decorative",
+              "logo.integration"
+            ],
+            "alt": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 18,
+              "observedWords": [
+                14,
+                14
+              ],
+              "measuredFrom": [
+                "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+                "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.tablet}",
+      "change": "reduce-columns",
+      "detail": "2 columns at 768, 1 at 390",
+      "measuredFrom": [
+        "CLONE_SPEC.md:395"
+      ]
+    }
+  ],
+  "constraints": {
+    "maxPerPage": 1
+  },
+  "measuredFrom": [
+    "CLONE_SPEC.md:382",
+    "specs/solutions.md:640"
+  ],
+  "wordBudgets": {
+    "cards[].description": 34,
+    "cards[].illustration.alt": 18,
+    "cards[].title": 7,
+    "description": 12,
+    "headline": 5,
+    "italicLine": 3
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "illustration.decorative",
+    "logo.integration"
+  ],
+  "usedByTemplates": [
+    "template.enterprise",
+    "template.home"
+  ],
+  "observedThemes": [
+    "dark",
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__feature.integrations-grid",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

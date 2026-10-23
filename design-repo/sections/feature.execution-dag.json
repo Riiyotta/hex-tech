@@ -1,0 +1,187 @@
+{
+  "id": "feature.execution-dag",
+  "category": "feature",
+  "purpose": "InfoText over a bleeding DAG illustration with a logo chip group, then three integration cards.",
+  "variants": [],
+  "content": {
+    "title": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 3,
+      "observedWords": [
+        2
+      ],
+      "measuredFrom": [
+        "specs/product.md:521"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 20,
+      "observedWords": [
+        16
+      ],
+      "measuredFrom": [
+        "specs/product.md:521"
+      ]
+    },
+    "action": {
+      "kind": "action",
+      "required": true,
+      "label": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 3,
+        "observedWords": [
+          2
+        ],
+        "measuredFrom": [
+          "specs/product.md:521"
+        ]
+      },
+      "variants": [
+        "secondary"
+      ],
+      "sizes": [
+        "md"
+      ]
+    },
+    "dag": {
+      "kind": "media",
+      "required": true,
+      "roles": [
+        "illustration.decorative"
+      ],
+      "alt": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 18,
+        "observedWords": [
+          14,
+          14
+        ],
+        "measuredFrom": [
+          "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+          "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+        ]
+      }
+    },
+    "chipLabel": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 4,
+      "observedWords": [
+        3
+      ],
+      "measuredFrom": [
+        "specs/product.md:522"
+      ]
+    },
+    "cards": {
+      "kind": "list",
+      "required": true,
+      "minItems": 3,
+      "maxItems": 3,
+      "measuredFrom": [
+        "specs/product.md:523"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "title": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 4,
+            "observedWords": [
+              3
+            ],
+            "measuredFrom": [
+              "specs/product.md:523"
+            ]
+          },
+          "description": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 23,
+            "observedWords": [
+              18
+            ],
+            "measuredFrom": [
+              "specs/product.md:523"
+            ]
+          },
+          "href": {
+            "kind": "href",
+            "required": true
+          },
+          "illustration": {
+            "kind": "media",
+            "required": true,
+            "roles": [
+              "illustration.decorative"
+            ],
+            "alt": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 18,
+              "observedWords": [
+                14,
+                14
+              ],
+              "measuredFrom": [
+                "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+                "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "stack-columns",
+      "detail": "cards stack",
+      "measuredFrom": [
+        "specs/product.md:562"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/product.md:520"
+  ],
+  "wordBudgets": {
+    "action.label": 3,
+    "cards[].description": 23,
+    "cards[].illustration.alt": 18,
+    "cards[].title": 4,
+    "chipLabel": 4,
+    "dag.alt": 18,
+    "description": 20,
+    "title": 3
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "illustration.decorative"
+  ],
+  "usedByTemplates": [
+    "template.product-feature"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__feature.execution-dag",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

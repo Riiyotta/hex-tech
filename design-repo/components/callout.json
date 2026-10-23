@@ -1,0 +1,36 @@
+{
+  "id": "component.callout",
+  "purpose": "Left-ruled tinted note with a 35px round icon badge straddling the rule.",
+  "composes": [
+    "primitive.mask-icon"
+  ],
+  "props": {
+    "size": {
+      "type": "enum",
+      "measuredFrom": [
+        "src/components/shared/Callout.jsx:13"
+      ],
+      "enum": [
+        "body",
+        "small"
+      ]
+    },
+    "icon": {
+      "type": "asset",
+      "measuredFrom": [
+        "src/components/shared/Callout.jsx:13"
+      ]
+    }
+  },
+  "tokens": [
+    "color.border.default",
+    "color.highlight",
+    "color.text.default"
+  ],
+  "measuredFrom": [
+    "specs/company.md:113",
+    "src/components/shared/Callout.jsx:13"
+  ],
+  "layer": "component",
+  "provisional": true
+}

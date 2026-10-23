@@ -1,0 +1,28 @@
+{
+  "id": "component.glass-card",
+  "purpose": "Radius-12 glass surface (light glass / dark glass by theme); interactive variant lifts -4px with a 529ms spring.",
+  "composes": [],
+  "props": {
+    "interactive": {
+      "type": "boolean",
+      "measuredFrom": [
+        "src/components/shared/GlassCard.jsx:13"
+      ]
+    }
+  },
+  "tokens": [
+    "surface.glass-card",
+    "shadow.glass-card",
+    "shadow.glass-card-hover",
+    "radius.card",
+    "component.glass-card.hover-lift",
+    "motion.duration.card-hover-spring",
+    "motion.easing.hover-spring"
+  ],
+  "measuredFrom": [
+    "specs/company.md:111",
+    "src/components/shared/GlassCard.jsx:13"
+  ],
+  "layer": "component",
+  "provisional": true
+}

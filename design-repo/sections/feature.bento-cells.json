@@ -1,0 +1,148 @@
+{
+  "id": "feature.bento-cells",
+  "category": "feature",
+  "purpose": "Two-column bento of linked dark cells: title + text over a framed screenshot; hover lift with Perlin.",
+  "variants": [],
+  "content": {
+    "heading": {
+      "kind": "object",
+      "required": false,
+      "fields": {
+        "title": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 9,
+          "observedWords": [
+            7
+          ],
+          "measuredFrom": [
+            "specs/product.md:398"
+          ]
+        },
+        "description": {
+          "kind": "text",
+          "required": false,
+          "maxWords": 23,
+          "observedWords": [
+            18
+          ],
+          "measuredFrom": [
+            "specs/product.md:398"
+          ]
+        }
+      }
+    },
+    "cells": {
+      "kind": "list",
+      "required": true,
+      "minItems": 4,
+      "maxItems": 4,
+      "measuredFrom": [
+        "specs/product.md:437"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "title": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 7,
+            "observedWords": [
+              5
+            ],
+            "measuredFrom": [
+              "specs/product.md:405"
+            ]
+          },
+          "description": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 28,
+            "observedWords": [
+              22
+            ],
+            "measuredFrom": [
+              "specs/product.md:405"
+            ]
+          },
+          "href": {
+            "kind": "href",
+            "required": true
+          },
+          "indicator": {
+            "kind": "text",
+            "required": false,
+            "maxWords": 4,
+            "observedWords": [
+              3
+            ],
+            "measuredFrom": [
+              "specs/product.md:405"
+            ]
+          },
+          "image": {
+            "kind": "media",
+            "required": true,
+            "roles": [
+              "image.product-screenshot"
+            ],
+            "alt": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 18,
+              "observedWords": [
+                14,
+                14
+              ],
+              "measuredFrom": [
+                "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+                "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "stack-columns",
+      "detail": "1 column",
+      "measuredFrom": [
+        "specs/product.md:214"
+      ]
+    }
+  ],
+  "constraints": {},
+  "measuredFrom": [
+    "specs/product.md:213"
+  ],
+  "wordBudgets": {
+    "cells[].description": 28,
+    "cells[].image.alt": 18,
+    "cells[].indicator": 4,
+    "cells[].title": 7,
+    "heading.description": 23,
+    "heading.title": 9
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "image.product-screenshot"
+  ],
+  "usedByTemplates": [
+    "template.product-feature"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__feature.bento-cells",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

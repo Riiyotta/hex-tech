@@ -1,0 +1,41 @@
+# threads @390 — doc height 8709 (1440: 6884)
+
+## Sections (matched by component class from the 1440 section list)
+- 0 Hero__ @1440 [0,0,1440,899] → @390 [0, 0, 390, 865] (+14 more)  | H1:Conversational analytics for everyone
+- 1 FullWidthQuote__ @1440 [0,899,1440,234] → @390 [0, 865, 390, 397] (+11 more)  | 
+- 2 ThreadsPageContent__ @1440 [0,1133,1440,1] → @390 [0, 1262, 390, 1] (+13 more)  | 
+- 3 ThreadsPageContent__ @1440 [0,1134,1440,884] → @390 [0, 1262, 390, 1] (+13 more)  | H2:Ask anything / H2:Deep reasoning, not one-shot answers
+- 4 ThreadsPageContent__ @1440 [0,2018,1440,1206] → @390 [0, 1262, 390, 1] (+13 more)  | H2:Fully integrated into Hex / H2:Get underthe hood
+- 5 ThreadsPageContent__ @1440 [0,3224,1440,1274] → @390 [0, 1262, 390, 1] (+13 more)  | H2:A modern approach to self-serve / H3:Threads, everywhere
+- 6 CustomerQuotesScrollingTout__ @1440 [0,4499,1440,774] → @390 [8, 5091, 374, 1535]  | 
+- 7 ThreadsPageContent__ @1440 [0,5273,1440,454] → @390 [0, 1262, 390, 1] (+13 more)  | H2:Enable natural language questions and trusted, AI-powered answers from your data.
+- 8 OutroTout__ @1440 [29,5727,1382,571] → @390 [8, 7083, 374, 481] (+5 more)  | H2:Questions? Talk to us
+
+## Text roles @390 (H1–H4, lead/body P, buttons): tag [x,y,w,h] «text» font/size/lh
+- H1 [20, 233, 362, 164] «Conversational analytics for everyone» fontFamily:"PP Formula SemiExtended"; fontSize:42px; fontWeight:700; lineHeight:54.6px; letterSpacing:-1.05px; margin:0px 0px 10px; textAlign:center
+- P [20, 407, 362, 72] «Threads is a new way to do self-serve analytics. A» fontSize:16px; fontWeight:300; lineHeight:24px; textAlign:center
+- A [52, 519, 160, 42] «Request a demo» fontSize:16px; lineHeight:24px; padding:8px 18px
+- A [224, 519, 126, 42] «Learn more» fontSize:16px; lineHeight:24px; letterSpacing:0.25px; padding:8px 18px
+- BLOCKQUOTE [8, 951, 374, 210] «“We're really excited by how stakeholders have bee» fontSize:20px; fontWeight:300; lineHeight:30px; padding:0px 12px; textAlign:center
+- H2 [57, 1303, 277, 49] «Ask anything» fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px; margin:0px 36.6875px; textAlign:center
+- P [20, 1364, 350, 60] «Type a question, get answers you can trust.» fontSize:20px; fontWeight:300; lineHeight:30px; textAlign:center
+- H2 [36, 1763, 318, 78] «Deep reasoning, not one-shot answers» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px
+- P [36, 1861, 318, 120] «Threads can explore multiple lines of inquiry, fix» fontSize:20px; fontWeight:300; lineHeight:30px
+- H2 [20, 2172, 350, 99] «Fully integrated into Hex» fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px; textAlign:center
+- P [20, 2283, 350, 90] «Threads uses your existing data connections, proje» fontSize:20px; fontWeight:300; lineHeight:30px; textAlign:center
+- H2 [20, 2657, 161, 78] «Get under the hood» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px
+- P [20, 2755, 350, 90] «Every Thread is backed by a Hex project that the d» fontSize:20px; fontWeight:300; lineHeight:30px
+- H2 [20, 3223, 350, 78] «Keep the data team in control» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px
+- P [20, 3321, 350, 90] «Focus Threads just on endorsed, modeled data for t» fontSize:20px; fontWeight:300; lineHeight:30px
+- H2 [20, 3554, 350, 148] «A modern approach to self-serve» fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px; textAlign:center
+- H3 [45, 3759, 300, 26] «Threads, everywhere» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 8px
+- P [45, 3793, 300, 72] «Start a thread from Slack by mentioning @Hex, or u» fontSize:16px; lineHeight:24px
+- H3 [45, 4099, 300, 26] «Surface existing answers» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 8px
+- P [45, 4133, 300, 72] «When a question has been answered before, Threads » fontSize:16px; lineHeight:24px
+- H3 [45, 4438, 300, 26] «Visual exploration built in» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 8px
+- P [45, 4472, 300, 72] «Tables and charts created in Threads can be instan» fontSize:16px; lineHeight:24px
+- H3 [45, 4777, 300, 26] «Collaboration-first» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 8px
+- P [45, 4811, 300, 48] «Threads users can share threads with the data team» fontSize:16px; lineHeight:24px
+- H2 [60, 6791, 270, 104] «Enable natural language questions and trusted, ans» fontFamily:"PP Formula"; fontSize:20px; fontWeight:800; lineHeight:26px; letterSpacing:-0.5px
+- H2 [67, 7215, 256, 78] «Questions? Talk to us» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px
+- P [67, 7303, 256, 60] «See a demo, or learn more about how we can help.» fontSize:20px; fontWeight:300; lineHeight:30px

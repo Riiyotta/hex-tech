@@ -1,0 +1,32 @@
+/* data-apps section 3: every CSS rule from document.styleSheets whose selector matches a class used in this section (incl. @media/@supports wrappers), plus referenced @keyframes */
+.jqCTrE { color: var(--fg1200, var(--fg1100, #99797d)); display: flex; height: 15px; width: 15px; }
+.duvQsy { align-items: flex-start; cursor: default; display: flex; flex-direction: column; padding: 10px; position: relative; text-align: left; --gradient-x: 66.66%; --gradient-y: 50%; border-radius: 12px; background-image: radial-gradient(
+    circle at var(--gradient-x) var(--gradient-y),
+    rgba(26,26,37,0.5) 0%,
+    rgba(15,15,21,0.5) 80%
+  ); box-shadow: rgb(17, 17, 24) 0px 0px 24px 0px inset, rgb(47, 47, 65) 0px 0.5px 0px 0.75px, rgba(0, 0, 0, 0.01) 6px 37px 10px 0px, rgba(0, 0, 0, 0.04) 4px 24px 10px 0px, rgba(0, 0, 0, 0.14) 2px 13px 8px 0px, rgba(0, 0, 0, 0.24) 1px 6px 6px 0px, rgba(0, 0, 0, 0.27) 0px 1px 3px 0px; }
+.dpKkZL { margin: 0px 0px 20px; font-size: 14px; line-height: 1.571; font-weight: 300; color: var(--fontColorDEFAULT, #F5C0C0); }
+.dpKkZL:last-child { margin-bottom: 0px; }
+.eGdWNr.eGdWNr { display: flex; flex: 1 1 auto; flex-direction: column; padding: 38px 45px; height: 100%; }
+.gCYNqk { display: flex; flex-grow: 1; flex-direction: column; gap: 24px; line-height: 1.35; opacity: 1; width: 100%; }
+.kPjTGu { display: flex; gap: 20px; }
+.kPjTGu blockquote { display: block; font-size: 24px; line-height: 1.5; font-weight: 300; margin-bottom: 0px; color: var(--fontColorLOUD, #ffffff); }
+.kPjTGu blockquote:last-child { margin-bottom: 0px; }
+@media (max-width: 450px) { .kPjTGu blockquote { font-size: 20px; line-height: 1.5; } }
+@media (max-width: 800px) { .kPjTGu blockquote { font-size: 22px; } }
+@media (max-width: 600px) { .kPjTGu blockquote::before { margin-left: -0.8rem; } }
+.lbfnAJ { display: flex; flex-direction: column; align-items: center; flex: 0 0 auto; gap: 10px; padding-top: 8px; }
+.lbfnAJ svg { flex: 0 0 auto; color: var(--highlightColor, #F5C0C0); }
+.lbfnAJ::after { content: ""; display: flex; flex: 1 1 auto; width: 1px; background-color: color-mix(in srgb, var(--highlightColor, #F5C0C0) 35%, transparent); }
+.cvRa-df { display: flex; align-items: start; }
+.cvRa-df img { max-height: 45px; object-fit: contain; filter: brightness(0) invert(1); }
+.BDmvW { display: flex; align-items: center; flex-direction: row; min-height: 45px; margin-top: auto; }
+.BDmvW img { clip-path: circle(); filter: none; object-fit: cover; margin-right: 12px; height: 35px; width: 35px; }
+.BDmvW p { font-weight: 400; margin-bottom: 0px; }
+.BDmvW span { font-weight: 300; }
+@media (max-width: 800px) { .BDmvW p:first-child { font-size: 14px; } }
+.hLHVKN { position: relative; display: flex; flex-grow: 1; width: 100%; margin: 0px auto; padding: 100px 40px; }
+@media (max-width: 800px) { .hLHVKN { padding: 60px 40px; } }
+@media (max-width: 600px) { .hLHVKN { flex-direction: column; padding: 60px 30px; } }
+.RMZUs { display: flex; flex-direction: row; align-items: center; gap: 30px; margin: 0px auto; max-width: 1240px; }
+@media (max-width: 800px) { .RMZUs { flex-direction: column; } }

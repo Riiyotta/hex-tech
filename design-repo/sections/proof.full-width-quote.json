@@ -1,0 +1,116 @@
+{
+  "id": "proof.full-width-quote",
+  "category": "proof",
+  "purpose": "Full-bleed quote band: logo + name/title attribution, vertical divider and a 24px quote with bold emphasis.",
+  "variants": [],
+  "content": {
+    "logo": {
+      "kind": "media",
+      "required": true,
+      "roles": [
+        "logo.customer"
+      ],
+      "alt": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 18,
+        "observedWords": [
+          14,
+          14
+        ],
+        "measuredFrom": [
+          "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+          "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+        ]
+      }
+    },
+    "name": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 3,
+      "observedWords": [
+        2,
+        2
+      ],
+      "measuredFrom": [
+        "specs/product.md:154"
+      ]
+    },
+    "title": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 7,
+      "observedWords": [
+        5,
+        4
+      ],
+      "measuredFrom": [
+        "specs/product.md:154"
+      ]
+    },
+    "quote": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 44,
+      "observedWords": [
+        35
+      ],
+      "measuredFrom": [
+        "specs/product.md:309"
+      ]
+    },
+    "emphasis": {
+      "kind": "text",
+      "required": false,
+      "maxWords": 23,
+      "observedWords": [
+        18
+      ],
+      "measuredFrom": [
+        "specs/product.md:309"
+      ]
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "swap-to-mobile-variant",
+      "detail": "desktop wrapper hidden, centred mobile stack",
+      "measuredFrom": [
+        "specs/product.md:153"
+      ]
+    }
+  ],
+  "constraints": {},
+  "measuredFrom": [
+    "specs/product.md:146"
+  ],
+  "sourceEvidence": [
+    "src/components/shared/FullWidthQuote.jsx:34"
+  ],
+  "wordBudgets": {
+    "emphasis": 23,
+    "logo.alt": 18,
+    "name": 3,
+    "quote": 44,
+    "title": 7
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "logo.customer"
+  ],
+  "usedByTemplates": [
+    "template.product-feature"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__proof.full-width-quote",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

@@ -1,0 +1,429 @@
+/* /pricing/ (specs/solutions.md §4.4; live rules: reference/pages/solutions/dom/pricing.css).
+   Section-scoped values the shared tokens don't carry are CSS variables here. */
+.pf-pricing,
+.pf-tooltip,
+.pf-modal {
+  --pf-tick: #43d59d; /* green tick (§1.1 fixed accent) */
+  --pf-plan-art: #f5c0c0; /* plan line-art fill (inline SVG literal) */
+  --pf-price-color: rgb(248, 250, 251); /* PlanHeader__Price */
+  --pf-modal-bg: rgb(1, 1, 27); /* Modal__ModalInner */
+  --pf-ease: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+/* ---------- shared bits ---------- */
+.pf-link {
+  color: var(--fg1200);
+  border-bottom: 1px solid var(--fg1200);
+}
+.pf-tip {
+  cursor: default;
+  border-bottom: 2px dotted color-mix(in srgb, var(--highlightColor) 50%, transparent);
+}
+.pf-tip:focus-visible { outline: var(--app-focus-outline); outline-offset: 2px; }
+
+/* ---------- PricingHeader (§4.4.1) ---------- */
+.pf-pricing-header {
+  box-sizing: content-box;
+  max-width: 1240px;
+  margin: 0 auto 40px;
+  padding: 0 16px;
+}
+.pf-pricing-header__h1 {
+  margin: 0 0 10px;
+  font-family: 'PP Formula SemiExtended', ui-sans-serif, system-ui, sans-serif;
+  font-weight: 700;
+  font-size: clamp(38px, 25.625px + 2.75vw, 60px);
+  line-height: 1.3;
+  letter-spacing: -0.0308em;
+  color: var(--fontColorLOUD);
+}
+.pf-pricing-header p { margin: 0; font-size: 14px; line-height: 21.994px; color: var(--fontColorDEFAULT); }
+
+/* ---------- PlanSummaryGroups (§4.4.2) ---------- */
+.pf-summary-row {
+  box-sizing: content-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 1304px;
+  margin: 0 auto;
+  padding: 20px 16px 60px;
+}
+.pf-summary-row__inner {
+  z-index: 2;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: clamp(16px, -0.6875rem + 6vw, 64px);
+}
+
+.pf-group { position: relative; display: flex; border: 1px solid transparent; }
+.pf-group[data-team='true'] { border-color: var(--grid500); }
+.pf-group__rail {
+  position: absolute;
+  width: 1px;
+  inset: -56px auto 0 -1px;
+  border-right: 1px dashed var(--grid500);
+  -webkit-mask-image: linear-gradient(transparent, red 56px);
+  mask-image: linear-gradient(transparent, red 56px);
+}
+.pf-group__rail[data-right] { inset: -56px -1px 0 auto; }
+.pf-group__label {
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--fg100);
+  color: var(--fg1200);
+  border-radius: 1px;
+  border: 1px solid var(--grid500);
+  padding: 4px 32px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  line-height: 18.852px;
+}
+.pf-group__label::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: var(--texture-paper-img);
+  background-size: var(--texture-paper-size);
+  mix-blend-mode: var(--texture-paper-mixBlendMode);
+  opacity: var(--texture-paper-opacity);
+  pointer-events: none;
+}
+.pf-group__accent { position: absolute; z-index: 3; width: 12px; height: 12px; border: 0 solid var(--fg1000); }
+.pf-group[data-team='true'] .pf-group__accent { border-color: var(--fg1200); }
+.pf-group__accent[data-position='tl'] { top: -1px; left: -1px; border-left-width: 1px; border-top-width: 1px; }
+.pf-group__accent[data-position='tr'] { top: -1px; right: -1px; border-right-width: 1px; border-top-width: 1px; }
+.pf-group__accent[data-position='bl'] { bottom: -1px; left: -1px; border-left-width: 1px; border-bottom-width: 1px; }
+.pf-group__accent[data-position='br'] { bottom: -1px; right: -1px; border-right-width: 1px; border-bottom-width: 1px; }
+@media (max-width: 1000px) {
+  .pf-summary-row__inner { grid-template-columns: 1fr; gap: 96px; }
+  .pf-summary-row__inner > .pf-group[data-team='true'] { order: -1; }
+}
+
+.pf-noise-mask {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.28) 60%, transparent 105%);
+  mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.28) 60%, transparent 105%);
+}
+
+.pf-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 48px 32px 32px;
+  font-size: 14px;
+  line-height: 21.994px;
+  color: var(--fontColorDEFAULT);
+}
+.pf-card__illustration { margin-bottom: 40px; }
+.pf-card__illustration svg,
+.pf-mobile-plan__illustration svg { display: inline; vertical-align: baseline; }
+.pf-card__header-wrap { display: flex; flex-grow: 0; }
+
+.pf-plan-header { position: relative; display: flex; flex-direction: column; margin-bottom: 52px; }
+.pf-plan-header__title {
+  margin: 0;
+  font-family: 'PP Formula', ui-sans-serif, system-ui, sans-serif;
+  font-weight: 800;
+  font-size: clamp(20px, 15.5px + 1vw, 28px);
+  line-height: 1.3;
+  letter-spacing: -0.025em;
+  color: var(--fontColorLOUD);
+}
+.pf-plan-header__desc { margin: 0; padding-top: 16px; min-height: 128px; }
+.pf-plan-header__price-row { margin-bottom: 20px; }
+.pf-plan-header__price { font-size: 28px; line-height: 43.988px; font-weight: 800; color: var(--pf-price-color); }
+.pf-plan-header__price-detail { font-size: 16px; line-height: 25.136px; color: var(--white, #fff); opacity: 0.75; }
+
+/* PlanHeader__PlanButton wrapper (the Button itself: block, labelColor="body", see PlanParts.jsx) */
+.pf-plan-btn { position: relative; display: flex; width: 100%; }
+
+.pf-card__features { display: flex; flex-direction: column; }
+.pf-card__intro { margin-bottom: 12px; }
+.pf-card__intro strong { font-weight: 600; }
+.pf-card__item { position: relative; display: flex; margin-bottom: 10px; }
+.pf-card__tick { height: 20px; margin-right: 10px; }
+.pf-card__tick svg { display: inline; }
+.pf-card__text { width: 100%; line-height: 18px; color: var(--white, #fff); }
+
+/* ---------- PlanComparisonTable + StickyPlanHeader (§4.4.3) ---------- */
+.pf-comparison { padding-top: 40px; }
+.pf-inner {
+  box-sizing: content-box;
+  display: flex;
+  max-width: 1304px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.pf-comparison__h2 {
+  position: relative;
+  margin: 0;
+  font-family: 'PP Formula', ui-sans-serif, system-ui, sans-serif;
+  font-weight: 800;
+  font-size: clamp(30px, 24.375px + 1.25vw, 40px);
+  line-height: 1.3;
+  letter-spacing: -0.025em;
+  color: var(--fontColorLOUD);
+}
+.pf-comparison__h2::after {
+  content: '';
+  position: absolute;
+  left: 3px;
+  bottom: -10px;
+  width: 240px;
+  height: 1px;
+  background-color: var(--grid500);
+}
+.pf-browser-grid { position: relative; display: flex; flex-direction: column; padding: 60px 0 100px; }
+
+.pf-grid-header { position: relative; z-index: 3; display: flex; }
+.pf-sticky { display: flex; width: 100%; height: 122px; }
+.pf-sticky > div { display: flex; width: 100%; }
+.pf-sticky__wrapper { display: flex; flex-direction: row; width: 100%; }
+.pf-sticky .isSticky .pf-sticky__wrapper {
+  position: absolute;
+  top: var(--top, 80px);
+  left: -1px;
+  width: calc(100% + 2px);
+  background: var(--fg100);
+  border-bottom: 1px solid var(--grid500);
+  border-left: 1px solid var(--grid500);
+  border-right: 1px solid var(--grid500);
+  overflow-x: clip;
+  box-shadow: rgba(0, 0, 0, 0.32) 0 0 0 1px, rgba(0, 0, 0, 0.12) 0 4px 6px -2px, rgba(0, 0, 0, 0.12) 0 8px 12px -4px;
+}
+.pf-sticky .isSticky .pf-sticky__wrapper::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: var(--texture-paper-img);
+  background-size: var(--texture-paper-size);
+  mix-blend-mode: var(--texture-paper-mixBlendMode);
+  opacity: var(--texture-paper-opacity);
+  pointer-events: none;
+}
+@media (max-width: 1000px) {
+  .pf-sticky .isSticky .pf-sticky__wrapper { top: 76px; }
+}
+.pf-sticky__inner { position: relative; display: flex; flex: 1 1 0%; max-width: 1304px; margin: 0 auto; }
+.pf-sticky__inner > * { width: 20%; }
+.pf-sticky__spacer { display: flex; align-items: center; }
+.pf-sticky__label {
+  margin: 0;
+  font-family: 'PP Formula', ui-sans-serif, system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: -0.5px;
+  color: var(--fontColorLOUD);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s var(--pf-ease);
+}
+.pf-sticky .isSticky .pf-sticky__label { opacity: 1; }
+.pf-sticky__plan { position: relative; z-index: 1; display: flex; flex-direction: column; padding: 20px 10px; }
+.pf-sticky__plan-name {
+  margin: 0 0 10px;
+  text-align: center;
+  font-family: 'PP Formula', ui-sans-serif, system-ui, sans-serif;
+  font-weight: 800;
+  font-size: clamp(20px, 15.5px + 1vw, 28px);
+  line-height: 1.3;
+  letter-spacing: -0.025em;
+  color: var(--fontColorLOUD);
+}
+
+.pf-grid-content { position: relative; z-index: 2; display: flex; flex-direction: column; gap: 30px; width: 100%; }
+.pf-grid-section { display: flex; flex-direction: column; }
+.pf-grid-section__title,
+.pf-unique-section__title {
+  margin: 0 0 10px;
+  font-family: 'PP Formula', ui-sans-serif, system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: -0.5px;
+  color: var(--fontColorLOUD);
+}
+
+.pf-row { position: relative; display: flex; padding: 0; font-size: 14px; line-height: 21.994px; }
+.pf-row::after {
+  content: '';
+  position: absolute;
+  display: block;
+  inset: 0 -100vw;
+  background: var(--highlightColor);
+  opacity: 0;
+  transition: opacity 0.25s var(--pf-ease);
+  pointer-events: none;
+}
+.pf-row:hover::after { opacity: 0.1; }
+.pf-row > * { width: 20%; padding: 12px 10px; }
+.pf-row > :first-child { padding-left: 0; }
+.pf-row__label { color: var(--fontColorDEFAULT); text-align: left; }
+
+.pf-cell { position: relative; display: flex; flex-direction: column; flex: 1 1 0px; color: var(--white, #fff); }
+.pf-row .pf-cell { padding-left: 10px; }
+@media (min-width: 800px) {
+  .pf-row .pf-cell::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 1px;
+    background-color: var(--grid700);
+  }
+}
+.pf-cell-item { position: relative; display: flex; justify-content: center; margin-bottom: 1px; }
+.pf-cell-item__tick { height: 20px; }
+.pf-cell-item__tick svg { display: inline; }
+.pf-cell-item__text { width: 100%; line-height: 18px; text-align: center; }
+.pf-cell-item__line { display: block; }
+.pf-cell-item__footnote { margin: 1px 0; font-size: 10px; line-height: 18px; color: var(--fg1200); text-align: center; }
+.pf-compute-toggle {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  font: inherit;
+  line-height: inherit;
+  color: var(--white, #fff);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* ---------- FeatureTooltip bubble (§4.4.4; react-tooltip + .toolTip overrides; arrow is display:none) ---------- */
+.pf-tooltip {
+  position: fixed;
+  z-index: 2147483647;
+  width: max-content;
+  max-width: 215px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  border: 1px solid var(--grid500);
+  background: var(--fg100);
+  color: var(--white, #fff);
+  font-family: Cinetype, ui-sans-serif, system-ui, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  box-shadow: 0 4px 4px color-mix(in srgb, #01011b 25%, transparent), 0 0 54px #01011b,
+    0 0 50px color-mix(in srgb, var(--grid500) 25%, transparent);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s ease-in;
+}
+.pf-tooltip[data-open] { opacity: 0.9; pointer-events: auto; transition: opacity 0.15s ease-out; }
+.pf-tooltip a { color: var(--fg1200); border-bottom: 1px solid var(--fg1200); }
+
+/* ---------- ComputeProfilesModal (§4.4.5) ---------- */
+.pf-modal { position: fixed; inset: 0; z-index: 2147483647; font-size: 14px; line-height: 21.994px; color: var(--fontColorDEFAULT); }
+.pf-modal__backdrop { position: absolute; inset: 0; background: rgba(0, 0, 0, 0.6); }
+.pf-modal__inner {
+  position: fixed;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 640px;
+  min-height: 250px;
+  padding: 60px;
+  background: var(--pf-modal-bg);
+  border: 1px solid var(--grid500);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 0 54px #01011b, 0 0 50px var(--grid500);
+}
+@media (max-width: 600px) {
+  .pf-modal__inner { padding: 40px 30px; }
+}
+.pf-modal__close { position: absolute; top: 10px; right: 10px; }
+.pf-modal__close-btn {
+  display: flex;
+  align-items: center;
+  height: 36px;
+  padding: 0 15px;
+  border: 1px solid transparent;
+  background: transparent;
+  cursor: pointer;
+  transition: background-color 0.25s var(--pf-ease), border-color 0.25s var(--pf-ease);
+}
+.pf-modal__close-btn:hover { background-color: var(--grid300); border-color: var(--grid700); }
+.pf-modal__close-btn:focus-visible { outline: var(--app-focus-outline); outline-offset: var(--app-focus-outline-offset); }
+.pf-modal__close-icon { display: flex; width: 15px; height: 15px; color: var(--fg1200); }
+.pf-modal__close-icon svg { display: block; }
+.pf-modal__header { margin-bottom: 20px; }
+.pf-modal__h2 {
+  margin: 0 0 10px;
+  font-family: 'PP Formula', ui-sans-serif, system-ui, sans-serif;
+  font-weight: 800;
+  font-size: clamp(30px, 24.375px + 1.25vw, 40px);
+  line-height: 1.3;
+  letter-spacing: -0.025em;
+  color: var(--fontColorLOUD);
+}
+.pf-modal__header p { margin: 0; }
+.pf-modal__header a { color: var(--fg1200); border-bottom: 1px solid var(--fg1200); transition: background-color 0.1s linear; }
+.pf-compute-table { width: 100%; margin-bottom: 10px; border-collapse: separate; border-spacing: 0; font-size: 16px; line-height: 25.136px; color: var(--white, #fff); }
+.pf-compute-table thead { box-shadow: 0 1px 0 0 var(--grid500); }
+.pf-compute-table tbody::before { content: ' '; display: block; height: 4px; }
+.pf-compute-table th,
+.pf-compute-table td { padding: 4px 0; text-align: right; font-weight: 400; }
+.pf-compute-table th:first-child,
+.pf-compute-table td:first-child { text-align: left; }
+.pf-compute-table td { min-width: 100px; }
+@media (max-width: 600px) {
+  .pf-compute-table td { min-width: 50px; }
+}
+.pf-modal__small { margin: 0; font-size: 12px; line-height: 18px; }
+
+
+/* ---------- PlansMobileView (§4.4.7, ≤800) ---------- */
+@media (max-width: 800px) {
+  .pf-pricing { padding: 0 20px; }
+  .pf-pricing-header { width: 100%; padding: 0; margin: 32px 0 80px; box-sizing: border-box; }
+  .pf-plan-header { margin-bottom: 32px; }
+  .pf-plan-header__desc { margin: 8px 0 32px; padding-top: 0; min-height: auto; }
+  .pf-plan-header__title { font-weight: 600; font-size: 20px; line-height: 26px; letter-spacing: -0.5px; }
+}
+.pf-mobile { display: flex; flex-direction: column; gap: 96px; }
+.pf-mobile .pf-group { flex-direction: column; width: 100%; max-width: 420px; margin: 0 auto; }
+.pf-mobile-plan { position: relative; display: block; padding: 32px 24px 16px; font-size: 14px; line-height: 21.994px; color: var(--fontColorDEFAULT); }
+.pf-mobile-plan__divider { position: absolute; top: -1px; left: 0; right: 0; height: 1px; background: var(--grid500); }
+.pf-mobile-plan__accent { position: absolute; top: -8px; left: -1px; width: 1px; height: 16px; background: var(--fg1200); }
+.pf-mobile-plan__accent[data-right] { left: auto; right: -1px; }
+.pf-mobile-plan__illustration { margin-bottom: 16px; }
+.pf-mobile-plan__toggle {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border: 0;
+  background: transparent;
+  font: inherit;
+  font-size: 14px;
+  line-height: 21.994px;
+  color: var(--fontColorDEFAULT);
+  cursor: pointer;
+}
+.pf-mobile-plan__toggle-label { text-decoration: underline; }
+.pf-mobile-plan__toggle svg { display: block; margin-left: 6px; flex: none; }
+.pf-mobile-plan__toggle[data-open] { background: color-mix(in srgb, var(--highlightColor) 20%, transparent); }
+.pf-mobile-plan__toggle[data-open] svg { transform: rotate(90deg); }
+.pf-mobile-plan__details { padding-top: 20px; }
+.pf-mobile-plan__details > p { margin: 0 0 15px; color: var(--white, #fff); }
+.pf-mobile-plan__details > p strong { font-weight: 400; }
+.pf-unique-section { display: flex; flex-direction: column; }
+.pf-unique-section + .pf-unique-section { margin-top: 20px; }
+.pf-unique-section__rows { display: flex; flex-direction: column; }
+.pf-unique-row { display: flex; padding: 5px 0; }
+.pf-unique-row__title { flex: 0 0 auto; width: 137px; font-size: 14px; line-height: 18px; color: var(--fontColorDEFAULT); }
+.pf-unique-row .pf-cell { padding-left: 10px; }

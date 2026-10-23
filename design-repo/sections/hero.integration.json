@@ -1,0 +1,216 @@
+{
+  "id": "hero.integration",
+  "category": "hero",
+  "purpose": "Integration detail hero: label tab cut into a logo box, solid H1, lead and 1-2 md CTAs.",
+  "variants": [],
+  "content": {
+    "label": {
+      "kind": "enum",
+      "values": [
+        "Integration"
+      ],
+      "required": true,
+      "measuredFrom": [
+        "specs/product-integrations.json:230"
+      ]
+    },
+    "logo": {
+      "kind": "media",
+      "required": true,
+      "roles": [
+        "logo.integration"
+      ],
+      "alt": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 18,
+        "observedWords": [
+          14,
+          14
+        ],
+        "measuredFrom": [
+          "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+          "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+        ]
+      }
+    },
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 17,
+      "observedWords": [
+        9,
+        8,
+        4,
+        7,
+        7,
+        10,
+        9,
+        9,
+        8,
+        13,
+        8,
+        8,
+        7,
+        9,
+        7,
+        4,
+        8
+      ],
+      "measuredFrom": [
+        "specs/product-integrations.json:1003",
+        "specs/product-integrations.json:1058",
+        "specs/product-integrations.json:1106",
+        "specs/product-integrations.json:1225",
+        "specs/product-integrations.json:245",
+        "specs/product-integrations.json:335",
+        "specs/product-integrations.json:408",
+        "specs/product-integrations.json:473",
+        "specs/product-integrations.json:528",
+        "specs/product-integrations.json:596",
+        "specs/product-integrations.json:650",
+        "specs/product-integrations.json:738",
+        "specs/product-integrations.json:793",
+        "specs/product-integrations.json:847",
+        "specs/product-integrations.json:901",
+        "specs/product-integrations.json:949"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 35,
+      "observedWords": [
+        8,
+        25,
+        28,
+        19,
+        28,
+        17,
+        21,
+        18,
+        17,
+        20,
+        15,
+        18,
+        18,
+        18,
+        22,
+        28,
+        18
+      ],
+      "measuredFrom": [
+        "specs/product-integrations.json:1004",
+        "specs/product-integrations.json:1059",
+        "specs/product-integrations.json:1107",
+        "specs/product-integrations.json:1226",
+        "specs/product-integrations.json:229",
+        "specs/product-integrations.json:336",
+        "specs/product-integrations.json:392",
+        "specs/product-integrations.json:474",
+        "specs/product-integrations.json:529",
+        "specs/product-integrations.json:597",
+        "specs/product-integrations.json:651",
+        "specs/product-integrations.json:739",
+        "specs/product-integrations.json:794",
+        "specs/product-integrations.json:848",
+        "specs/product-integrations.json:902",
+        "specs/product-integrations.json:950"
+      ]
+    },
+    "actions": {
+      "kind": "list",
+      "required": true,
+      "minItems": 1,
+      "maxItems": 2,
+      "measuredFrom": [
+        "specs/product.md:680"
+      ],
+      "item": {
+        "kind": "action",
+        "required": true,
+        "label": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 8,
+          "observedWords": [
+            6,
+            6,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            3,
+            2
+          ],
+          "measuredFrom": [
+            "specs/product-integrations.json:1229",
+            "specs/product-integrations.json:249",
+            "specs/product-integrations.json:253",
+            "specs/product-integrations.json:290",
+            "specs/product-integrations.json:339"
+          ]
+        },
+        "variants": [
+          "primary",
+          "secondary"
+        ],
+        "sizes": [
+          "md"
+        ]
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-on-mount"
+    ],
+    "default": "reveal-on-mount"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "resize-type",
+      "detail": "hero stacks; logo box scales",
+      "measuredFrom": [
+        "specs/product.md:730"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/product.md:675",
+    "specs/product-integrations.json"
+  ],
+  "wordBudgets": {
+    "actions[].label": 8,
+    "description": 35,
+    "headline": 17,
+    "logo.alt": 18
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "logo.integration"
+  ],
+  "usedByTemplates": [
+    "template.integration-detail"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__hero.integration",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

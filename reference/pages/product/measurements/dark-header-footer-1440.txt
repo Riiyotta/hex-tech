@@ -1,0 +1,437 @@
+=== dark header+footer at scrollY=0
+<DIV LayoutGrid gfIDZt> [0, 0, 1440, 82] {display:grid; position:fixed; gridTemplateColumns:28.875px 115.188px 115.188px 115.188px 115.188px 115.188px 115.188px 115.188px 115.188px 115.188px 115.188px 115.188px 115.188px 28.875px; flexDirection:row; fontFamily:Cinetype; fontSize:14px; fontWeight:400; lineHeight:21.994px; color:rgb(245, 192, 192); zIndex:3}
+  <DIV LayoutGrid__LayoutSubgrid Header__TopGridLines gFrqQS gRYXpG> [0, 0, 1440, 20] {display:grid; position:relative; gridTemplateColumns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; flexDirection:row; backgroundColor:rgb(20, 20, 28)}
+    <DIV GridLines__ContentMarginLine dXzdcL> [0, 0, 29, 20] {display:block; flexDirection:row; borderRight:1px solid rgb(43, 37, 44)}
+    <DIV GridLines__GridRule gzrZjJ> [374, 0, 1, 20] {display:block; flexDirection:row; backgroundColor:rgb(43, 37, 44); transform:matrix(1, 0, 0, 1, 0.5, 0)}
+    <DIV GridLines__GridRule kMVkyY> [1065, 0, 1, 20] {display:block; flexDirection:row; backgroundColor:rgb(43, 37, 44); transform:matrix(1, 0, 0, 1, 0.5, 0)}
+    <DIV GridLines__ContentMarginLine dXzdcL> [1411, 0, 29, 20] {display:block; flexDirection:row; borderLeft:1px solid rgb(43, 37, 44)}
+  <HEADER LayoutGrid__LayoutSubgrid gFrqQS> [0, 20, 1440, 62] {display:grid; gridTemplateColumns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; flexDirection:row}
+    <DIV LayoutGrid__LayoutSubgrid Header__TickerWrapper gFrqQS dagziB> [0, 20, 1440, 27] {display:grid; position:relative; gridTemplateColumns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; flexDirection:row; backgroundColor:rgb(20, 20, 28)}
+      <DIV GridLines__ContentMarginLine dXzdcL> [0, 20, 29, 27] {display:block; flexDirection:row; borderRight:1px solid rgb(43, 37, 44)}
+      <DIV LayoutGrid__LayoutSubgrid Ticker__Bg gFrqQS ukJXD> [29, 20, 1382, 27] {display:grid; gridTemplateColumns:115.188px 115.188px 115.188px 115.188px 115.188px 115.188px 115.188px 115.188px 115.188px 115.188px 115.188px 115.188px; flexDirection:row; backgroundColor:rgb(37, 33, 40); backgroundImage:linear-gradient(to left, rgb(37, 33, 40), rgb(32, 29, 37), rgb(37, 33, 40)); boxShadow:rgba(245, 192, 192, 0.173) 0px 1px 1px 0px inset}
+        <DIV Ticker__Marquee kYwFZY> [29, 20, 1382, 27] {display:flex; position:relative; flexDirection:row; zIndex:1}
+          <DIV sr-only> [-9971, 20, 1, 1] {display:block; position:absolute; flexDirection:row}
+            <A Ticker__MarqueeItem fvwpHT> [-9971, 20, 16, 19] «how LangChain migrated from legacy BI and enabled 100% of th» {display:flex; padding:0px 8px; flexDirection:row; alignItems:center; fontFamily:"Cinetype Mono"; fontSize:12px; lineHeight:18.852px; borderRadius:2px}
+              <SPAN > [-9963, 20, 15, 19] «📊» {display:block; flexDirection:row}
+              <SPAN Ticker__MarqueeItemTitle iQAcsi> [-9940, 20, 169, 19] «AI analytics use case:» {display:block; flexDirection:row; color:rgb(255, 255, 255)}
+              <SPAN Ticker__Circle eNMlHq> [-9092, 24, 10, 10] {display:grid; margin:0px 0px 0px 4px; gridTemplateColumns:10px; flexDirection:row; alignItems:center; color:rgba(245, 192, 192, 0.592); borderRadius:9999px}
+                <svg Ticker__StyledArrowRight ciPVBd> [-9092, 26, 10, 7] {display:block; flexDirection:row}
+            <A Ticker__MarqueeItem fvwpHT> [-9971, 39, 16, 19] «Gorgeous, interactive dashboards and apps you can build with» {display:flex; padding:0px 8px; flexDirection:row; alignItems:center; fontFamily:"Cinetype Mono"; fontSize:12px; lineHeight:18.852px; borderRadius:2px}
+              <SPAN > [-9963, 39, 15, 19] «🤯» {display:block; flexDirection:row}
+              <SPAN Ticker__MarqueeItemTitle iQAcsi> [-9940, 39, 161, 19] «Generative data apps:» {display:block; flexDirection:row; color:rgb(255, 255, 255)}
+              <SPAN Ticker__Circle eNMlHq> [-9199, 43, 10, 10] {display:grid; margin:0px 0px 0px 4px; gridTemplateColumns:10px; flexDirection:row; alignItems:center; color:rgba(245, 192, 192, 0.592); borderRadius:9999px}
+                <svg Ticker__StyledArrowRight ciPVBd> [-9199, 45, 10, 7] {display:block; flexDirection:row}
+            <A Ticker__MarqueeItem fvwpHT> [-9971, 58, 16, 19] «discover key insights from data leaders» {display:flex; padding:0px 8px; flexDirection:row; alignItems:center; fontFamily:"Cinetype Mono"; fontSize:12px; lineHeight:18.852px; borderRadius:2px}
+              <SPAN > [-9963, 58, 15, 19] «📖» {display:block; flexDirection:row}
+              <SPAN Ticker__MarqueeItemTitle iQAcsi> [-9940, 58, 184, 19] «State of Data Teams 2026» {display:block; flexDirection:row; color:rgb(255, 255, 255)}
+              <SPAN Ticker__Circle eNMlHq> [-9445, 62, 10, 10] {display:grid; margin:0px 0px 0px 4px; gridTemplateColumns:10px; flexDirection:row; alignItems:center; color:rgba(245, 192, 192, 0.592); borderRadius:9999px}
+                <svg Ticker__StyledArrowRight ciPVBd> [-9445, 64, 10, 7] {display:block; flexDirection:row}
+            <A Ticker__MarqueeItem fvwpHT> [-9971, 77, 16, 19] «Not "HEX" or "Hex dot tech"» {display:flex; padding:0px 8px; flexDirection:row; alignItems:center; fontFamily:"Cinetype Mono"; fontSize:12px; lineHeight:18.852px; borderRadius:2px}
+              <SPAN > [-9963, 77, 15, 19] «🙏» {display:block; flexDirection:row}
+              <SPAN Ticker__MarqueeItemTitle iQAcsi> [-9940, 77, 123, 19] «It's just "Hex"!» {display:block; flexDirection:row; color:rgb(255, 255, 255)}
+              <SPAN Ticker__Circle eNMlHq> [-9598, 81, 10, 10] {display:grid; margin:0px 0px 0px 4px; gridTemplateColumns:10px; flexDirection:row; alignItems:center; color:rgba(245, 192, 192, 0.592); borderRadius:9999px}
+                <svg Ticker__StyledArrowRight ciPVBd> [-9598, 82, 10, 7] {display:block; flexDirection:row}
+          <DIV Ticker__InstanceAnim jbCLgs> [-108, 20, 13568, 27] {display:flex; flexDirection:row; transform:matrix(1, 0, 0, 1, -137.286, 0)}
+            <SPAN > [-108, 20, 2714, 27] {display:flex; flexDirection:row}
+              <SPAN Ticker__MarqueeItems eLHLpb> [-108, 20, 2714, 27] {display:flex; padding:4px 16px 4px 0px; gap:16px; flexDirection:row}
+                <A Ticker__MarqueeItem fvwpHT> [-108, 24, 904, 19] «how LangChain migrated from legacy BI and enabled 100% of th» {display:flex; padding:0px 8px; flexDirection:row; alignItems:center; fontFamily:"Cinetype Mono"; fontSize:12px; lineHeight:18.852px; borderRadius:2px}
+                  <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [-99, 24, 15, 19] «📊» {display:block; margin:0px 0.6px 0px 1.2px; flexDirection:row}
+                  <SPAN Ticker__MarqueeItemTitle iQAcsi> [-76, 24, 169, 19] «AI analytics use case:» {display:block; flexDirection:row; color:rgb(255, 255, 255)}
+                  <SPAN Ticker__Circle eNMlHq> [773, 26, 15, 15] {display:grid; margin:0px 0px 0px 4px; gridTemplateColumns:15px; flexDirection:row; alignItems:center; color:rgba(245, 192, 192, 0.592); borderRadius:9999px}
+                    <svg Ticker__StyledArrowRight ciPVBd> [775, 30, 10, 7] {display:block; flexDirection:row}
+                <A Ticker__MarqueeItem fvwpHT> [812, 24, 797, 19] «Gorgeous, interactive dashboards and apps you can build with» {display:flex; padding:0px 8px; flexDirection:row; alignItems:center; fontFamily:"Cinetype Mono"; fontSize:12px; lineHeight:18.852px; borderRadius:2px}
+                  <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [821, 24, 15, 19] «🤯» {display:block; margin:0px 0.6px 0px 1.2px; flexDirection:row}
+                  <SPAN Ticker__MarqueeItemTitle iQAcsi> [844, 24, 161, 19] «Generative data apps:» {display:block; flexDirection:row; color:rgb(255, 255, 255)}
+                  <SPAN Ticker__Circle eNMlHq> [1586, 26, 15, 15] {display:grid; margin:0px 0px 0px 4px; gridTemplateColumns:15px; flexDirection:row; alignItems:center; color:rgba(245, 192, 192, 0.592); borderRadius:9999px}
+                    <svg Ticker__StyledArrowRight ciPVBd> [1588, 30, 10, 7] {display:block; flexDirection:row}
+                <A Ticker__MarqueeItem fvwpHT> [1625, 24, 551, 19] «discover key insights from data leaders» {display:flex; padding:0px 8px; flexDirection:row; alignItems:center; fontFamily:"Cinetype Mono"; fontSize:12px; lineHeight:18.852px; borderRadius:2px}
+                  <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [1634, 24, 15, 19] «📖» {display:block; margin:0px 0.6px 0px 1.2px; flexDirection:row}
+                  <SPAN Ticker__MarqueeItemTitle iQAcsi> [1657, 24, 184, 19] «State of Data Teams 2026» {display:block; flexDirection:row; color:rgb(255, 255, 255)}
+                  <SPAN Ticker__Circle eNMlHq> [2153, 26, 15, 15] {display:grid; margin:0px 0px 0px 4px; gridTemplateColumns:15px; flexDirection:row; alignItems:center; color:rgba(245, 192, 192, 0.592); borderRadius:9999px}
+                    <svg Ticker__StyledArrowRight ciPVBd> [2155, 30, 10, 7] {display:block; flexDirection:row}
+                <A Ticker__MarqueeItem fvwpHT> [2192, 24, 397, 19] «Not "HEX" or "Hex dot tech"» {display:flex; padding:0px 8px; flexDirection:row; alignItems:center; fontFamily:"Cinetype Mono"; fontSize:12px; lineHeight:18.852px; borderRadius:2px}
+                  <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [2201, 24, 15, 19] «🙏» {display:block; margin:0px 0.6px 0px 1.2px; flexDirection:row}
+                  <SPAN Ticker__MarqueeItemTitle iQAcsi> [2224, 24, 123, 19] «It's just "Hex"!» {display:block; flexDirection:row; color:rgb(255, 255, 255)}
+                  <SPAN Ticker__Circle eNMlHq> [2566, 26, 15, 15] {display:grid; margin:0px 0px 0px 4px; gridTemplateColumns:15px; flexDirection:row; alignItems:center; color:rgba(245, 192, 192, 0.592); borderRadius:9999px}
+                    <svg Ticker__StyledArrowRight ciPVBd> [2569, 30, 10, 7] {display:block; flexDirection:row}
+            <SPAN > [2605, 20, 2713, 27] {display:flex; flexDirection:row}
+              <SPAN Ticker__MarqueeItems eLHLpb> [2605, 20, 2713, 27] {display:flex; padding:4px 16px 4px 0px; gap:16px; flexDirection:row}
+                <A Ticker__MarqueeItem fvwpHT> [2605, 24, 904, 19] «how LangChain migrated from legacy BI and enabled 100% of th» {display:flex; padding:0px 8px; flexDirection:row; alignItems:center; fontFamily:"Cinetype Mono"; fontSize:12px; lineHeight:18.852px; borderRadius:2px}
+                  <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [2614, 24, 15, 19] «📊» {display:block; margin:0px 0.6px 0px 1.2px; flexDirection:row}
+                  <SPAN Ticker__MarqueeItemTitle iQAcsi> [2638, 24, 169, 19] «AI analytics use case:» {display:block; flexDirection:row; color:rgb(255, 255, 255)}
+                  <SPAN Ticker__Circle eNMlHq> [3486, 26, 15, 15] {display:grid; margin:0px 0px 0px 4px; gridTemplateColumns:15px; flexDirection:row; alignItems:center; color:rgba(245, 192, 192, 0.592); borderRadius:9999px}
+                    <svg Ticker__StyledArrowRight ciPVBd> [3489, 30, 10, 7] {display:block; flexDirection:row}
+                <A Ticker__MarqueeItem fvwpHT> [3525, 24, 797, 19] «Gorgeous, interactive dashboards and apps you can build with» {display:flex; padding:0px 8px; flexDirection:row; alignItems:center; fontFamily:"Cinetype Mono"; fontSize:12px; lineHeight:18.852px; borderRadius:2px}
+                  <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [3535, 24, 15, 19] «🤯» {display:block; margin:0px 0.6px 0px 1.2px; flexDirection:row}
+                  <SPAN Ticker__MarqueeItemTitle iQAcsi> [3558, 24, 161, 19] «Generative data apps:» {display:block; flexDirection:row; color:rgb(255, 255, 255)}
+                  <SPAN Ticker__Circle eNMlHq> [4299, 26, 15, 15] {display:grid; margin:0px 0px 0px 4px; gridTemplateColumns:15px; flexDirection:row; alignItems:center; color:rgba(245, 192, 192, 0.592); borderRadius:9999px}
+                    <svg Ticker__StyledArrowRight ciPVBd> [4302, 30, 10, 7] {display:block; flexDirection:row}
+                <A Ticker__MarqueeItem fvwpHT> [4338, 24, 551, 19] «discover key insights from data leaders» {display:flex; padding:0px 8px; flexDirection:row; alignItems:center; fontFamily:"Cinetype Mono"; fontSize:12px; lineHeight:18.852px; borderRadius:2px}
+                  <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [4347, 24, 15, 19] «📖» {display:block; margin:0px 0.6px 0px 1.2px; flexDirection:row}
+                  <SPAN Ticker__MarqueeItemTitle iQAcsi> [4371, 24, 184, 19] «State of Data Teams 2026» {display:block; flexDirection:row; color:rgb(255, 255, 255)}
+                  <SPAN Ticker__Circle eNMlHq> [4866, 26, 15, 15] {display:grid; margin:0px 0px 0px 4px; gridTemplateColumns:15px; flexDirection:row; alignItems:center; color:rgba(245, 192, 192, 0.592); borderRadius:9999px}
+                    <svg Ticker__StyledArrowRight ciPVBd> [4869, 30, 10, 7] {display:block; flexDirection:row}
+                <A Ticker__MarqueeItem fvwpHT> [4905, 24, 397, 19] «Not "HEX" or "Hex dot tech"» {display:flex; padding:0px 8px; flexDirection:row; alignItems:center; fontFamily:"Cinetype Mono"; fontSize:12px; lineHeight:18.852px; borderRadius:2px}
+                  <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [4914, 24, 15, 19] «🙏» {display:block; margin:0px 0.6px 0px 1.2px; flexDirection:row}
+                  <SPAN Ticker__MarqueeItemTitle iQAcsi> [4938, 24, 123, 19] «It's just "Hex"!» {display:block; flexDirection:row; color:rgb(255, 255, 255)}
+                  <SPAN Ticker__Circle eNMlHq> [5280, 26, 15, 15] {display:grid; margin:0px 0px 0px 4px; gridTemplateColumns:15px; flexDirection:row; alignItems:center; color:rgba(245, 192, 192, 0.592); borderRadius:9999px}
+                    <svg Ticker__StyledArrowRight ciPVBd> [5282, 30, 10, 7] {display:block; flexDirection:row}
+            <SPAN > [5319, 20, 2714, 27] {display:flex; flexDirection:row}
+              <SPAN Ticker__MarqueeItems eLHLpb> [5319, 20, 2714, 27] {display:flex; padding:4px 16px 4px 0px; gap:16px; flexDirection:row}
+                <A Ticker__MarqueeItem fvwpHT> [5319, 24, 904, 19] «how LangChain migrated from legacy BI and enabled 100% of th» {display:flex; padding:0px 8px; flexDirection:row; alignItems:center; fontFamily:"Cinetype Mono"; fontSize:12px; lineHeight:18.852px; borderRadius:2px}
+                  <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [5328, 24, 15, 19] «📊» {display:block; margin:0px 0.6px 0px 1.2px; flexDirection:row}
+                  <SPAN Ticker__MarqueeItemTitle iQAcsi> [5351, 24, 169, 19] «AI analytics use case:» {display:block; flexDirection:row; color:rgb(255, 255, 255)}
+                  <SPAN Ticker__Circle eNMlHq> [6200, 26, 15, 15] {display:grid; margin:0px 0px 0px 4px; gridTemplateColumns:15px; flexDirection:row; alignItems:center; color:rgba(245, 192, 192, 0.592); borderRadius:9999px}
+                    <svg Ticker__StyledArrowRight ciPVBd> [6202, 30, 10, 7] {display:block; flexDirection:row}
+                <A Ticker__MarqueeItem fvwpHT> [6239, 24, 797, 19] «Gorgeous, interactive dashboards and apps you can build with» {display:flex; padding:0px 8px; flexDirection:row; alignItems:center; fontFamily:"Cinetype Mono"; fontSize:12px; lineHeight:18.852px; borderRadius:2px}
+                  <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [6248, 24, 15, 19] «🤯» {display:block; margin:0px 0.6px 0px 1.2px; flexDirection:row}
+                  <SPAN Ticker__MarqueeItemTitle iQAcsi> [6271, 24, 161, 19] «Generative data apps:» {display:block; flexDirection:row; color:rgb(255, 255, 255)}
+                  <SPAN Ticker__Circle eNMlHq> [7013, 26, 15, 15] {display:grid; margin:0px 0px 0px 4px; gridTemplateColumns:15px; flexDirection:row; alignItems:center; color:rgba(245, 192, 192, 0.592); borderRadius:9999px}
+                    <svg Ticker__StyledArrowRight ciPVBd> [7015, 30, 10, 7] {display:block; flexDirection:row}
+                <A Ticker__MarqueeItem fvwpHT> [7052, 24, 551, 19] «discover key insights from data leaders» {display:flex; padding:0px 8px; flexDirection:row; alignItems:center; fontFamily:"Cinetype Mono"; fontSize:12px; lineHeight:18.852px; borderRadius:2px}
+                  <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [7061, 24, 15, 19] «📖» {display:block; margin:0px 0.6px 0px 1.2px; flexDirection:row}
+                  <SPAN Ticker__MarqueeItemTitle iQAcsi> [7084, 24, 184, 19] «State of Data Teams 2026» {display:block; flexDirection:row; color:rgb(255, 255, 255)}
+                  <SPAN Ticker__Circle eNMlHq> [7580, 26, 15, 15] {display:grid; margin:0px 0px 0px 4px; gridTemplateColumns:15px; flexDirection:row; alignItems:center; color:rgba(245, 192, 192, 0.592); borderRadius:9999px}
+                    <svg Ticker__StyledArrowRight ciPVBd> [7582, 30, 10, 7] {display:block; flexDirection:row}
+                <A Ticker__MarqueeItem fvwpHT> [7619, 24, 397, 19] «Not "HEX" or "Hex dot tech"» {display:flex; padding:0px 8px; flexDirection:row; alignItems:center; fontFamily:"Cinetype Mono"; fontSize:12px; lineHeight:18.852px; borderRadius:2px}
+                  <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [7628, 24, 15, 19] «🙏» {display:block; margin:0px 0.6px 0px 1.2px; flexDirection:row}
+                  <SPAN Ticker__MarqueeItemTitle iQAcsi> [7651, 24, 123, 19] «It's just "Hex"!» {display:block; flexDirection:row; color:rgb(255, 255, 255)}
+                  <SPAN Ticker__Circle eNMlHq> [7993, 26, 15, 15] {display:grid; margin:0px 0px 0px 4px; gridTemplateColumns:15px; flexDirection:row; alignItems:center; color:rgba(245, 192, 192, 0.592); borderRadius:9999px}
+                    <svg Ticker__StyledArrowRight ciPVBd> [7996, 30, 10, 7] {display:block; flexDirection:row}
+            <SPAN > [8032, 20, 2714, 27] {display:flex; flexDirection:row}
+              <SPAN Ticker__MarqueeItems eLHLpb> [8032, 20, 2714, 27] {display:flex; padding:4px 16px 4px 0px; gap:16px; flexDirection:row}
+                <A Ticker__MarqueeItem fvwpHT> [8032, 24, 904, 19] «how LangChain migrated from legacy BI and enabled 100% of th» {display:flex; padding:0px 8px; flexDirection:row; alignItems:center; fontFamily:"Cinetype Mono"; fontSize:12px; lineHeight:18.852px; borderRadius:2px}
+                  <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [8041, 24, 15, 19] «📊» {display:block; margin:0px 0.6px 0px 1.2px; flexDirection:row}
+                  <SPAN Ticker__MarqueeItemTitle iQAcsi> [8065, 24, 169, 19] «AI analytics use case:» {display:block; flexDirection:row; color:rgb(255, 255, 255)}
+                  <SPAN Ticker__Circle eNMlHq> [8913, 26, 15, 15] {display:grid; margin:0px 0px 0px 4px; gridTemplateColumns:15px; flexDirection:row; alignItems:center; color:rgba(245, 192, 192, 0.592); borderRadius:9999px}
+                    <svg Ticker__StyledArrowRight ciPVBd> [8916, 30, 10, 7] {display:block; flexDirection:row}
+                <A Ticker__MarqueeItem fvwpHT> [8952, 24, 797, 19] «Gorgeous, interactive dashboards and apps you can build with» {display:flex; padding:0px 8px; flexDirection:row; alignItems:center; fontFamily:"Cinetype Mono"; fontSize:12px; lineHeight:18.852px; borderRadius:2px}
+                  <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [8962, 24, 15, 19] «🤯» {display:block; margin:0px 0.6px 0px 1.2px; flexDirection:row}
+                  <SPAN Ticker__MarqueeItemTitle iQAcsi> [8985, 24, 161, 19] «Generative data apps:» {display:block; flexDirection:row; color:rgb(255, 255, 255)}
+                  <SPAN Ticker__Circle eNMlHq> [9726, 26, 15, 15] {display:grid; margin:0px 0px 0px 4px; gridTemplateColumns:15px; flexDirection:row; alignItems:center; color:rgba(245, 192, 192, 0.592); borderRadius:9999px}
+                    <svg Ticker__StyledArrowRight ciPVBd> [9729, 30, 10, 7] {display:block; flexDirection:row}
+                <A Ticker__MarqueeItem fvwpHT> [9765, 24, 551, 19] «discover key insights from data leaders» {display:flex; padding:0px 8px; flexDirection:row; alignItems:center; fontFamily:"Cinetype Mono"; fontSize:12px; lineHeight:18.852px; borderRadius:2px}
+                  <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [9774, 24, 15, 19] «📖» {display:block; margin:0px 0.6px 0px 1.2px; flexDirection:row}
+                  <SPAN Ticker__MarqueeItemTitle iQAcsi> [9798, 24, 184, 19] «State of Data Teams 2026» {display:block; flexDirection:row; color:rgb(255, 255, 255)}
+                  <SPAN Ticker__Circle eNMlHq> [10293, 26, 15, 15] {display:grid; margin:0px 0px 0px 4px; gridTemplateColumns:15px; flexDirection:row; alignItems:center; color:rgba(245, 192, 192, 0.592); borderRadius:9999px}
+                    <svg Ticker__StyledArrowRight ciPVBd> [10296, 30, 10, 7] {display:block; flexDirection:row}
+                <A Ticker__MarqueeItem fvwpHT> [10332, 24, 397, 19] «Not "HEX" or "Hex dot tech"» {display:flex; padding:0px 8px; flexDirection:row; alignItems:center; fontFamily:"Cinetype Mono"; fontSize:12px; lineHeight:18.852px; borderRadius:2px}
+                  <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [10341, 24, 15, 19] «🙏» {display:block; margin:0px 0.6px 0px 1.2px; flexDirection:row}
+                  <SPAN Ticker__MarqueeItemTitle iQAcsi> [10365, 24, 123, 19] «It's just "Hex"!» {display:block; flexDirection:row; color:rgb(255, 255, 255)}
+                  <SPAN Ticker__Circle eNMlHq> [10707, 26, 15, 15] {display:grid; margin:0px 0px 0px 4px; gridTemplateColumns:15px; flexDirection:row; alignItems:center; color:rgba(245, 192, 192, 0.592); borderRadius:9999px}
+                    <svg Ticker__StyledArrowRight ciPVBd> [10709, 30, 10, 7] {display:block; flexDirection:row}
+            <SPAN > [10746, 20, 2714, 27] {display:flex; flexDirection:row}
+              <SPAN Ticker__MarqueeItems eLHLpb> [10746, 20, 2714, 27] {display:flex; padding:4px 16px 4px 0px; gap:16px; flexDirection:row}
+                <A Ticker__MarqueeItem fvwpHT> [10746, 24, 904, 19] «how LangChain migrated from legacy BI and enabled 100% of th» {display:flex; padding:0px 8px; flexDirection:row; alignItems:center; fontFamily:"Cinetype Mono"; fontSize:12px; lineHeight:18.852px; borderRadius:2px}
+                  <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [10755, 24, 15, 19] «📊» {display:block; margin:0px 0.6px 0px 1.2px; flexDirection:row}
+                  <SPAN Ticker__MarqueeItemTitle iQAcsi> [10778, 24, 169, 19] «AI analytics use case:» {display:block; flexDirection:row; color:rgb(255, 255, 255)}
+                  <SPAN Ticker__Circle eNMlHq> [11627, 26, 15, 15] {display:grid; margin:0px 0px 0px 4px; gridTemplateColumns:15px; flexDirection:row; alignItems:center; color:rgba(245, 192, 192, 0.592); borderRadius:9999px}
+                    <svg Ticker__StyledArrowRight ciPVBd> [11629, 30, 10, 7] {display:block; flexDirection:row}
+                <A Ticker__MarqueeItem fvwpHT> [11666, 24, 797, 19] «Gorgeous, interactive dashboards and apps you can build with» {display:flex; padding:0px 8px; flexDirection:row; alignItems:center; fontFamily:"Cinetype Mono"; fontSize:12px; lineHeight:18.852px; borderRadius:2px}
+                  <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [11675, 24, 15, 19] «🤯» {display:block; margin:0px 0.6px 0px 1.2px; flexDirection:row}
+                  <SPAN Ticker__MarqueeItemTitle iQAcsi> [11698, 24, 161, 19] «Generative data apps:» {display:block; flexDirection:row; color:rgb(255, 255, 255)}
+                  <SPAN Ticker__Circle eNMlHq> [12440, 26, 15, 15] {display:grid; margin:0px 0px 0px 4px; gridTemplateColumns:15px; flexDirection:row; alignItems:center; color:rgba(245, 192, 192, 0.592); borderRadius:9999px}
+                    <svg Ticker__StyledArrowRight ciPVBd> [12442, 30, 10, 7] {display:block; flexDirection:row}
+                <A Ticker__MarqueeItem fvwpHT> [12479, 24, 551, 19] «discover key insights from data leaders» {display:flex; padding:0px 8px; flexDirection:row; alignItems:center; fontFamily:"Cinetype Mono"; fontSize:12px; lineHeight:18.852px; borderRadius:2px}
+                  <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [12488, 24, 15, 19] «📖» {display:block; margin:0px 0.6px 0px 1.2px; flexDirection:row}
+                  <SPAN Ticker__MarqueeItemTitle iQAcsi> [12511, 24, 184, 19] «State of Data Teams 2026» {display:block; flexDirection:row; color:rgb(255, 255, 255)}
+                  <SPAN Ticker__Circle eNMlHq> [13007, 26, 15, 15] {display:grid; margin:0px 0px 0px 4px; gridTemplateColumns:15px; flexDirection:row; alignItems:center; color:rgba(245, 192, 192, 0.592); borderRadius:9999px}
+                    <svg Ticker__StyledArrowRight ciPVBd> [13009, 30, 10, 7] {display:block; flexDirection:row}
+                <A Ticker__MarqueeItem fvwpHT> [13046, 24, 397, 19] «Not "HEX" or "Hex dot tech"» {display:flex; padding:0px 8px; flexDirection:row; alignItems:center; fontFamily:"Cinetype Mono"; fontSize:12px; lineHeight:18.852px; borderRadius:2px}
+                  <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [13055, 24, 15, 19] «🙏» {display:block; margin:0px 0.6px 0px 1.2px; flexDirection:row}
+                  <SPAN Ticker__MarqueeItemTitle iQAcsi> [13078, 24, 123, 19] «It's just "Hex"!» {display:block; flexDirection:row; color:rgb(255, 255, 255)}
+                  <SPAN Ticker__Circle eNMlHq> [13420, 26, 15, 15] {display:grid; margin:0px 0px 0px 4px; gridTemplateColumns:15px; flexDirection:row; alignItems:center; color:rgba(245, 192, 192, 0.592); borderRadius:9999px}
+                    <svg Ticker__StyledArrowRight ciPVBd> [13423, 30, 10, 7] {display:block; flexDirection:row}
+      <DIV GridLines__ContentMarginLine dXzdcL> [1411, 20, 29, 27] {display:block; flexDirection:row; borderLeft:1px solid rgb(43, 37, 44)}
+    <DIV LayoutGrid__LayoutSubgrid gFrqQS> [0, 20, 1440, 62] {display:grid; gridTemplateColumns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; flexDirection:row}
+      <NAV LayoutGrid__LayoutSubgrid gFrqQS> [0, 20, 1440, 62] {display:grid; gridTemplateColumns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; flexDirection:row}
+        <DIV LayoutGrid__LayoutSubgrid Nav__NavWrapper gFrqQS fptPJQ> [0, 47, 1440, 62] {display:grid; position:relative; gridTemplateColumns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; flexDirection:row; transform:matrix(1, 0, 0, 1, 0, 26.8438)}
+          <DIV LayoutGrid__LayoutSubgrid Nav__Background gFrqQS jHTAOH> [0, 47, 1440, 62] {display:grid; position:relative; gridTemplateColumns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; flexDirection:row; zIndex:-1}
+            <DIV Nav__BackgroundInner jluiek> [0, 47, 1440, 62] {display:block; position:absolute; flexDirection:row; maskImage:linear-gradient(rgba(0, 0, 0, 0.48) 30%, rgba(0, 0, 0, 0))}
+          <DIV LayoutGrid__LayoutSubgrid gFrqQS> [0, 67, 1440, 62] {display:grid; gridTemplateColumns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; flexDirection:row; transform:matrix(1, 0, 0, 1, 0, 20)}
+            <DIV Nav__NavShadow kVGjTP> [0, 67, 1440, 62] {display:block; position:relative; flexDirection:row; opacity:0; zIndex:3}
+            <DIV LayoutGrid__LayoutSubgrid gFrqQS> [0, 67, 1440, 62] {display:grid; gridTemplateColumns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; flexDirection:row}
+              <DIV Nav__NavBorderBottom cclpfE> [0, 128, 29, 1] {display:block; flexDirection:row; backgroundColor:rgb(43, 37, 44); opacity:0}
+              <DIV Nav__NavigationRootEl cuoSkI> [29, 67, 1382, 62] {display:grid; position:relative; padding:12px 0px; gridTemplateColumns:659.125px 64px 659.125px; flexDirection:row; alignItems:center}
+                <DIV > [29, 81, 659, 34] {display:block; position:relative; flexDirection:row}
+                  <UL Nav__NavigationList Nav__LeftNav kpsPSd lcpfSo> [29, 81, 659, 34] {display:flex; padding:0px 36px 0px 0px; flexDirection:row; justifyContent:flex-end}
+                    <LI NavMenuItem__StyledNavItem dqoDcq> [353, 81, 100, 34] {display:list-item; position:relative; flexDirection:row; lineHeight:14px; color:rgb(255, 255, 255)}
+                      <BUTTON NavMenuItem__NavItemLink fohAMM> [353, 81, 100, 34] «Platform» {display:flex; position:relative; padding:9.6px 9.6px 9.6px 13.6px; flexDirection:row; alignItems:center; fontFamily:Cinetype; borderRadius:1px}
+                        <DIV NavMenuItem__ChevronContainer gbFozi> [428, 90, 15, 15] {display:block; margin:0px 0px 0px 5.6px; flexDirection:row; color:rgb(227, 178, 179)}
+                          <SPAN createIcon__Wrapper jqCTrE> [428, 90, 15, 15] {display:flex; flexDirection:row}
+                            <svg > [428, 90, 15, 15] {display:block; flexDirection:row}
+                    <LI NavMenuItem__StyledNavItem dqoDcq> [453, 81, 104, 34] {display:list-item; position:relative; flexDirection:row; lineHeight:14px; color:rgb(255, 255, 255)}
+                      <BUTTON NavMenuItem__NavItemLink fohAMM> [453, 81, 104, 34] «Solutions» {display:flex; position:relative; padding:9.6px 9.6px 9.6px 13.6px; flexDirection:row; alignItems:center; fontFamily:Cinetype; borderRadius:1px}
+                        <DIV NavMenuItem__ChevronContainer gbFozi> [532, 90, 15, 15] {display:block; margin:0px 0px 0px 5.6px; flexDirection:row; color:rgb(227, 178, 179)}
+                          <SPAN createIcon__Wrapper jqCTrE> [532, 90, 15, 15] {display:flex; flexDirection:row}
+                            <svg > [532, 90, 15, 15] {display:block; flexDirection:row}
+                    <LI NavMenuItem__StyledNavItem dqoDcq> [557, 81, 95, 34] {display:list-item; position:relative; flexDirection:row; lineHeight:14px; color:rgb(255, 255, 255)}
+                      <A NavMenuItem__NavItemLink fohAMM> [557, 81, 95, 33] «Enterprise» {display:flex; position:relative; padding:9.6px 13.6px; flexDirection:row; alignItems:center; fontFamily:Cinetype; borderRadius:1px}
+                <A Nav__HomeNavLinkWrapper cLZIui> [688, 86, 64, 25] {display:block; flexDirection:row; color:rgb(227, 178, 179)}
+                  <svg Nav__Hex kvSgiJ> [688, 86, 64, 25] {display:block; flexDirection:row}
+                <DIV > [752, 79, 659, 38] {display:block; position:relative; flexDirection:row}
+                  <UL Nav__NavigationList Nav__RightNav kpsPSd kXecEA> [752, 79, 659, 38] {display:flex; padding:0px 0px 0px 28px; flexDirection:row; alignItems:center; justifyContent:flex-start}
+                    <LI NavMenuItem__StyledNavItem dqoDcq> [780, 81, 110, 34] {display:list-item; position:relative; flexDirection:row; lineHeight:14px; color:rgb(255, 255, 255)}
+                      <BUTTON NavMenuItem__NavItemLink fohAMM> [780, 81, 110, 34] «Resources» {display:flex; position:relative; padding:9.6px 9.6px 9.6px 13.6px; flexDirection:row; alignItems:center; fontFamily:Cinetype; borderRadius:1px}
+                        <DIV NavMenuItem__ChevronContainer gbFozi> [865, 90, 15, 15] {display:block; margin:0px 0px 0px 5.6px; flexDirection:row; color:rgb(227, 178, 179)}
+                          <SPAN createIcon__Wrapper jqCTrE> [865, 90, 15, 15] {display:flex; flexDirection:row}
+                            <svg > [865, 90, 15, 15] {display:block; flexDirection:row}
+                    <LI NavMenuItem__StyledNavItem dqoDcq> [890, 81, 72, 33] {display:list-item; position:relative; flexDirection:row; lineHeight:14px; color:rgb(255, 255, 255)}
+                      <A NavMenuItem__NavItemLink fohAMM> [890, 81, 72, 33] «Pricing» {display:flex; position:relative; padding:9.6px 13.6px; flexDirection:row; alignItems:center; fontFamily:Cinetype; borderRadius:1px}
+                    <LI > [962, 87, 63, 22] {display:list-item; flexDirection:row}
+                      <A Nav__LogInLink fdOlMo> [962, 79, 63, 36] «Log In» {display:inline; position:relative; padding:9.6px 12px; flexDirection:row; lineHeight:14px; color:rgb(227, 178, 179); borderRadius:1px}
+                    <LI > [1025, 79, 119, 38] {display:list-item; flexDirection:row}
+                      <A Button__LinkWrapperBase hqCerh Nav__SignUpButton jElbLN> [1037, 79, 107, 38] {display:flex; position:relative; padding:0px 15px; margin:0px 0px 0px 12px; flexDirection:row; lineHeight:14px; backgroundImage:linear-gradient(to right, rgb(20, 20, 28), rgb(20, 20, 28)), linear-gradient(45deg, rgb(245, 192, 192), rgb(173, 142, 182)); borderTop:1px solid rgba(0, 0, 0, 0); borderRight:1px solid rgba(0, 0, 0, 0); borderBottom:1px solid rgba(0, 0, 0, 0); borderLeft:1px solid rgba(0, 0, 0, 0)}
+                        <DIV Button__Inner ghWwXj> [1053, 80, 75, 36] {display:flex; gap:10px; flexDirection:row; alignItems:center; justifyContent:center}
+                          <DIV CornerLines__Wrapper eWHoWL> [1038, 80, 105, 36] {display:block; position:absolute; flexDirection:row; opacity:0}
+                            <SPAN CornerLines__TopLeft iYlIk> [1091, 80, 0, 0] {display:inline; flexDirection:row}
+                            <SPAN CornerLines__TopRight fRKioc> [1091, 80, 0, 0] {display:inline; flexDirection:row}
+                            <SPAN CornerLines__BottomLeft bPLxMC> [1091, 80, 0, 0] {display:inline; flexDirection:row}
+                            <SPAN CornerLines__BottomRight iYdsCO> [1091, 80, 0, 0] {display:inline; flexDirection:row}
+                          <DIV Button__Children kRHsma> [1053, 91, 75, 14] «Get started» {display:flex; position:relative; flexDirection:row; alignItems:center; justifyContent:center; zIndex:2}
+                          <DIV CornerCircles__Wrapper tjmwx> [1038, 80, 105, 36] {display:block; position:absolute; flexDirection:row}
+                            <SPAN CornerCircles__Left jNcsWL> [1091, 80, 0, 0] {display:inline; flexDirection:row}
+                            <SPAN CornerCircles__Right dUUBNb> [1091, 80, 0, 0] {display:inline; flexDirection:row}
+                <BUTTON MobileNav__HamburgerButton gkRClQ> [0, 0, 0, 0] {position:relative; margin:auto 8px auto auto; flexDirection:row; alignItems:center; fontFamily:Arial; fontSize:13.3333px; color:rgb(0, 0, 0); borderRadius:999px}
+                  <DIV MobileNav__HamburgerButtonShadow gQXbel> [0, 0, 0, 0] {display:block; position:absolute; flexDirection:row; backgroundImage:radial-gradient(circle at 66.66% 50%, rgb(29, 29, 41) 0%, rgb(15, 15, 21) 80%); borderRadius:999px; boxShadow:rgb(17, 17, 24) 0px 0px 24px 0px inset, rgb(47, 47, 65) 0px 0.5px 0px 0.75px, rgba(0, 0, 0, 0.01) 6px 37px 10px 0px, rgba(0, 0, 0, 0.04) 4px 24px 10px 0px, rgba(0, 0, 0, 0.14) 2px 13px 8px 0px, rgba(0; zIndex:-1}
+                  <DIV MobileNav__HamburgerButtonBg cHSLmo> [0, 0, 0, 0] {display:block; position:absolute; flexDirection:row; backgroundColor:rgb(20, 20, 28); borderRadius:999px; zIndex:-1}
+                <DIV Nav__NavRootBorder fwQGkq> [720, 128, 0, 1] {display:block; position:absolute; flexDirection:row; backgroundColor:rgb(58, 49, 56); opacity:0; transform:matrix(0, 0, 0, 1, 0, 0)}
+              <DIV Nav__NavBorderBottom cclpfE> [1411, 128, 29, 1] {display:block; flexDirection:row; backgroundColor:rgb(43, 37, 44); opacity:0}
+          <DIV Accent__LContainer bZzqqS> [20, 39, 16, 16] {display:grid; position:absolute; gridTemplateColumns:16px; flexDirection:row; alignItems:center; transform:matrix(1, 0, 0, 1, -8, -8); zIndex:2}
+            <DIV Accent__VerticalBar bxoFZy> [28, 39, 1, 16] {display:block; position:relative; flexDirection:row; opacity:0}
+            <DIV Accent__HorizontalBar bGKQcb> [20, 47, 16, 1] {display:block; position:relative; flexDirection:row; opacity:0}
+          <DIV Accent__LContainer bZzqqS> [1404, 39, 16, 16] {display:grid; position:absolute; gridTemplateColumns:16px; flexDirection:row; alignItems:center; transform:matrix(1, 0, 0, 1, 8, -8); zIndex:2}
+            <DIV Accent__VerticalBar bxoFZy> [1411, 39, 1, 16] {display:block; position:relative; flexDirection:row; opacity:0}
+            <DIV Accent__HorizontalBar bGKQcb> [1404, 47, 16, 1] {display:block; position:relative; flexDirection:row; opacity:0}
+          <DIV Accent__LContainer bZzqqS> [1404, 100, 16, 16] {display:grid; position:absolute; gridTemplateColumns:16px; flexDirection:row; alignItems:center; transform:matrix(1, 0, 0, 1, 8, 8); zIndex:2}
+            <DIV Accent__VerticalBar bxoFZy> [1411, 100, 1, 16] {display:block; position:relative; flexDirection:row; opacity:0}
+            <DIV Accent__HorizontalBar bGKQcb> [1404, 108, 16, 1] {display:block; position:relative; flexDirection:row; opacity:0}
+          <DIV Accent__LContainer bZzqqS> [20, 100, 16, 16] {display:grid; position:absolute; gridTemplateColumns:16px; flexDirection:row; alignItems:center; transform:matrix(1, 0, 0, 1, -8, 8); zIndex:2}
+            <DIV Accent__VerticalBar bxoFZy> [28, 100, 1, 16] {display:block; position:relative; flexDirection:row; opacity:0}
+            <DIV Accent__HorizontalBar bGKQcb> [20, 108, 16, 1] {display:block; position:relative; flexDirection:row; opacity:0}
+        <DIV > [0, 129, 1440, 0] {display:block; flexDirection:row; transform:matrix(1, 0, 0, 1, 0, 46.8438)}
+<FOOTER Footer__Wrapper dmfXoA> [29, 5038, 1382, 555] {display:flex; flexDirection:column; fontFamily:Cinetype; fontSize:14px; fontWeight:400; lineHeight:21.994px; color:rgb(245, 192, 192); opacity:0; transform:matrix(1, 0, 0, 1, 0, 5)}
+  <DIV Footer__Divider dVeORT> [29, 5038, 1382, 1] {display:block; flexDirection:row; backgroundColor:rgb(58, 49, 56)}
+  <DIV Footer__Inner bAfPPw> [100, 5039, 1240, 553] {display:grid; padding:50px 30px; margin:0px 71.125px; gridTemplateColumns:190px 800px 190px; flexDirection:row}
+    <DIV Footer__Left hbtcXZ> [130, 5089, 190, 453] {display:flex; gap:15px; flexDirection:column; alignItems:flex-start}
+      <svg > [130, 5089, 60, 20] {display:block; flexDirection:row}
+      <DIV Footer__MadeWith gaMWNF> [130, 5124, 141, 23] {display:flex; flexDirection:row; alignItems:center; color:rgb(153, 121, 125)}
+        <SPAN > [130, 5124, 69, 22] «Made with» {display:block; margin:0px 4px 0px 0px; flexDirection:row}
+        <DIV Rotator__Wrapper fkQxwb> [203, 5125, 20, 20] {display:flex; position:relative; flexDirection:row}
+          <DIV Rotator__Inner kQGMRS> [203, 5125, 20, 20] {display:flex; flexDirection:column; transform:matrix(1, 0, 0, 1, 0, 0)}
+            <DIV Rotator__Option cbwJdw> [203, 5125, 20, 20] {display:flex; flexDirection:row; alignItems:center}
+              <LABEL > [203, 5125, 20, 20] {display:block; flexDirection:row}
+                <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203, 5125, 20, 20] «☕» {display:flex; flexDirection:row; alignItems:center}
+            <DIV Rotator__Option cbwJdw> [203, 5145, 20, 20] {display:flex; flexDirection:row; alignItems:center}
+              <LABEL > [203, 5145, 20, 20] {display:block; flexDirection:row}
+                <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203, 5145, 20, 20] «🥟» {display:flex; flexDirection:row; alignItems:center}
+            <DIV Rotator__Option cbwJdw> [203, 5165, 20, 20] {display:flex; flexDirection:row; alignItems:center}
+              <LABEL > [203, 5165, 20, 20] {display:block; flexDirection:row}
+                <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203, 5165, 20, 20] «🍺» {display:flex; flexDirection:row; alignItems:center}
+            <DIV Rotator__Option cbwJdw> [203, 5185, 20, 20] {display:flex; flexDirection:row; alignItems:center}
+              <LABEL > [203, 5185, 20, 20] {display:block; flexDirection:row}
+                <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203, 5185, 20, 20] «🍰» {display:flex; flexDirection:row; alignItems:center}
+            <DIV Rotator__Option cbwJdw> [203, 5205, 20, 20] {display:flex; flexDirection:row; alignItems:center}
+              <LABEL > [203, 5205, 20, 20] {display:block; flexDirection:row}
+                <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203, 5205, 20, 20] «🔮» {display:flex; flexDirection:row; alignItems:center}
+            <DIV Rotator__Option cbwJdw> [203, 5225, 20, 20] {display:flex; flexDirection:row; alignItems:center}
+              <LABEL > [203, 5225, 20, 20] {display:block; flexDirection:row}
+                <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203, 5225, 20, 20] «🔒» {display:flex; flexDirection:row; alignItems:center}
+            <DIV Rotator__Option cbwJdw> [203, 5245, 20, 20] {display:flex; flexDirection:row; alignItems:center}
+              <LABEL > [203, 5245, 20, 20] {display:block; flexDirection:row}
+                <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203, 5245, 20, 20] «🥖» {display:flex; flexDirection:row; alignItems:center}
+            <DIV Rotator__Option cbwJdw> [203, 5265, 20, 20] {display:flex; flexDirection:row; alignItems:center}
+              <LABEL > [203, 5265, 20, 20] {display:block; flexDirection:row}
+                <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203, 5265, 20, 20] «🍷» {display:flex; flexDirection:row; alignItems:center}
+            <DIV Rotator__Option cbwJdw> [203, 5285, 20, 20] {display:flex; flexDirection:row; alignItems:center}
+              <LABEL > [203, 5285, 20, 20] {display:block; flexDirection:row}
+                <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203, 5285, 20, 20] «🛌» {display:flex; flexDirection:row; alignItems:center}
+            <DIV Rotator__Option cbwJdw> [203, 5305, 20, 20] {display:flex; flexDirection:row; alignItems:center}
+              <LABEL > [203, 5305, 20, 20] {display:block; flexDirection:row}
+                <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203, 5305, 20, 20] «💜» {display:flex; flexDirection:row; alignItems:center}
+            <DIV Rotator__Option cbwJdw> [203, 5325, 20, 20] {display:flex; flexDirection:row; alignItems:center}
+              <LABEL > [203, 5325, 20, 20] {display:block; flexDirection:row}
+                <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203, 5325, 20, 20] «🥨» {display:flex; flexDirection:row; alignItems:center}
+            <DIV Rotator__Option cbwJdw> [203, 5345, 20, 20] {display:flex; flexDirection:row; alignItems:center}
+              <LABEL > [203, 5345, 20, 20] {display:block; flexDirection:row}
+                <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203, 5345, 20, 20] «🛹» {display:flex; flexDirection:row; alignItems:center}
+            <DIV Rotator__Option cbwJdw> [203, 5365, 20, 20] {display:flex; flexDirection:row; alignItems:center}
+              <LABEL > [203, 5365, 20, 20] {display:block; flexDirection:row}
+                <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203, 5365, 20, 20] «🍤» {display:flex; flexDirection:row; alignItems:center}
+            <DIV Rotator__Option cbwJdw> [203, 5385, 20, 20] {display:flex; flexDirection:row; alignItems:center}
+              <LABEL > [203, 5385, 20, 20] {display:block; flexDirection:row}
+                <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203, 5385, 20, 20] «🧄» {display:flex; flexDirection:row; alignItems:center}
+            <DIV Rotator__Option cbwJdw> [203, 5405, 20, 20] {display:flex; flexDirection:row; alignItems:center}
+              <LABEL > [203, 5405, 20, 20] {display:block; flexDirection:row}
+                <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203, 5405, 20, 20] «🍞» {display:flex; flexDirection:row; alignItems:center}
+            <DIV Rotator__Option cbwJdw> [203, 5425, 20, 20] {display:flex; flexDirection:row; alignItems:center}
+              <LABEL > [203, 5425, 20, 20] {display:block; flexDirection:row}
+                <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203, 5425, 20, 20] «🥥» {display:flex; flexDirection:row; alignItems:center}
+            <DIV Rotator__Option cbwJdw> [203, 5445, 20, 20] {display:flex; flexDirection:row; alignItems:center}
+              <LABEL > [203, 5445, 20, 20] {display:block; flexDirection:row}
+                <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203, 5445, 20, 20] «⛳» {display:flex; flexDirection:row; alignItems:center}
+            <DIV Rotator__Option cbwJdw> [203, 5465, 20, 20] {display:flex; flexDirection:row; alignItems:center}
+              <LABEL > [203, 5465, 20, 20] {display:block; flexDirection:row}
+                <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203, 5465, 20, 20] «🤞» {display:flex; flexDirection:row; alignItems:center}
+            <DIV Rotator__Option cbwJdw> [203, 5485, 20, 20] {display:flex; flexDirection:row; alignItems:center}
+              <LABEL > [203, 5485, 20, 20] {display:block; flexDirection:row}
+                <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203, 5485, 20, 20] «✨» {display:flex; flexDirection:row; alignItems:center}
+            <DIV Rotator__Option cbwJdw> [203, 5505, 20, 20] {display:flex; flexDirection:row; alignItems:center}
+              <LABEL > [203, 5505, 20, 20] {display:block; flexDirection:row}
+                <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203, 5505, 20, 20] «🔊» {display:flex; flexDirection:row; alignItems:center}
+            <DIV Rotator__Option cbwJdw> [203, 5525, 20, 20] {display:flex; flexDirection:row; alignItems:center}
+              <LABEL > [203, 5525, 20, 20] {display:block; flexDirection:row}
+                <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203, 5525, 20, 20] «🎧» {display:flex; flexDirection:row; alignItems:center}
+            <DIV Rotator__Option cbwJdw> [203, 5545, 20, 20] {display:flex; flexDirection:row; alignItems:center}
+              <LABEL > [203, 5545, 20, 20] {display:block; flexDirection:row}
+                <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203, 5545, 20, 20] «🌊» {display:flex; flexDirection:row; alignItems:center}
+            <DIV Rotator__Option cbwJdw> [203, 5565, 20, 20] {display:flex; flexDirection:row; alignItems:center}
+              <LABEL > [203, 5565, 20, 20] {display:block; flexDirection:row}
+                <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203, 5565, 20, 20] «🍀» {display:flex; flexDirection:row; alignItems:center}
+            <DIV Rotator__Option cbwJdw> [203, 5585, 20, 20] {display:flex; flexDirection:row; alignItems:center}
+              <LABEL > [203, 5585, 20, 20] {display:block; flexDirection:row}
+                <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203, 5585, 20, 20] «🤠» {display:flex; flexDirection:row; alignItems:center}
+            <DIV Rotator__Option cbwJdw> [203, 5605, 20, 20] {display:flex; flexDirection:row; alignItems:center}
+              <LABEL > [203, 5605, 20, 20] {display:block; flexDirection:row}
+                <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203, 5605, 20, 20] «🎷» {display:flex; flexDirection:row; alignItems:center}
+            <DIV Rotator__Option cbwJdw> [203, 5625, 20, 20] {display:flex; flexDirection:row; alignItems:center}
+              <LABEL > [203, 5625, 20, 20] {display:block; flexDirection:row}
+                <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203, 5625, 20, 20] «🍩» {display:flex; flexDirection:row; alignItems:center}
+        <SPAN > [227, 5124, 44, 23] «on .» {display:block; margin:0px 0px 0px 4px; flexDirection:row}
+          <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [248, 5127, 18, 17] «🌎» {display:inline; margin:0px 0.7px 0px 1.4px; flexDirection:row}
+    <DIV Footer__Center jluUTU> [320, 5089, 800, 453] {display:flex; gap:60px; flexDirection:column; alignItems:center}
+      <DIV Footer__Links hBzsHF> [320, 5089, 800, 371] {display:grid; gap:60px; gridTemplateColumns:155px 155px 155px 155px; flexDirection:row}
+        <DIV Footer__Column gTheui> [320, 5089, 155, 371] {display:flex; gap:10px; flexDirection:column; alignItems:flex-start}
+          <DIV Footer__ColTitle bxALoJ> [320, 5089, 63, 19] «Platform» {display:block; flexDirection:row; fontFamily:"IBM Plex Mono"; fontSize:12px; fontWeight:700; lineHeight:18.852px; letterSpacing:0.7px; textTransform:uppercase; color:rgb(255, 255, 255)}
+          <A > [320, 5118, 90, 22] «AI and agents» {display:block; flexDirection:row; color:rgb(227, 178, 179)}
+          <A > [320, 5150, 121, 22] «Agentic notebooks» {display:block; flexDirection:row; color:rgb(227, 178, 179)}
+          <A > [320, 5182, 158, 22] «Conversational analytics» {display:block; flexDirection:row; color:rgb(227, 178, 179)}
+          <A > [320, 5214, 97, 22] «Context Studio» {display:block; flexDirection:row; color:rgb(227, 178, 179)}
+          <A > [320, 5246, 66, 22] «Data apps» {display:block; flexDirection:row; color:rgb(227, 178, 179)}
+          <A > [320, 5278, 49, 22] «Hex CLI» {display:block; flexDirection:row; color:rgb(227, 178, 179)}
+          <A > [320, 5310, 137, 22] «Business intelligence» {display:block; flexDirection:row; color:rgb(227, 178, 179)}
+          <A > [320, 5342, 132, 22] «Exploratory analysis» {display:block; flexDirection:row; color:rgb(227, 178, 179)}
+          <A > [320, 5374, 132, 22] «Embedded analytics» {display:block; flexDirection:row; color:rgb(227, 178, 179)}
+          <A > [320, 5406, 79, 22] «Integrations» {display:block; flexDirection:row; color:rgb(227, 178, 179)}
+          <A > [320, 5437, 69, 22] «Changelog» {display:block; flexDirection:row; color:rgb(227, 178, 179)}
+        <DIV Footer__Column gTheui> [535, 5089, 155, 371] {display:flex; gap:10px; flexDirection:column; alignItems:flex-start}
+          <DIV Footer__ColTitle bxALoJ> [535, 5089, 71, 19] «Resources» {display:block; flexDirection:row; fontFamily:"IBM Plex Mono"; fontSize:12px; fontWeight:700; lineHeight:18.852px; letterSpacing:0.7px; textTransform:uppercase; color:rgb(255, 255, 255)}
+          <A > [535, 5118, 45, 22] «Pricing» {display:block; flexDirection:row; color:rgb(227, 178, 179)}
+          <A > [535, 5150, 110, 22] «Switching to Hex» {display:block; flexDirection:row; color:rgb(227, 178, 179)}
+          <A > [535, 5182, 68, 22] «Enterprise» {display:block; flexDirection:row; color:rgb(227, 178, 179)}
+          <A > [535, 5214, 31, 22] «Docs» {display:block; flexDirection:row; color:rgb(227, 178, 179)}
+          <A > [535, 5246, 29, 22] «Blog» {display:block; flexDirection:row; color:rgb(227, 178, 179)}
+          <A > [535, 5278, 44, 22] «Events» {display:block; flexDirection:row; color:rgb(227, 178, 179)}
+          <A > [535, 5310, 67, 22] «Templates» {display:block; flexDirection:row; color:rgb(227, 178, 179)}
+          <A > [535, 5342, 59, 22] «Compare» {display:block; flexDirection:row; color:rgb(227, 178, 179)}
+          <A > [535, 5374, 81, 22] «Trust Center» {display:block; flexDirection:row; color:rgb(227, 178, 179)}
+          <A > [535, 5406, 42, 22] «Status» {display:block; flexDirection:row; color:rgb(227, 178, 179)}
+        <DIV Footer__Column gTheui> [750, 5089, 155, 371] {display:flex; gap:10px; flexDirection:column; alignItems:flex-start}
+          <DIV Footer__ColTitle bxALoJ> [750, 5089, 55, 19] «Company» {display:block; flexDirection:row; fontFamily:"IBM Plex Mono"; fontSize:12px; fontWeight:700; lineHeight:18.852px; letterSpacing:0.7px; textTransform:uppercase; color:rgb(255, 255, 255)}
+          <A > [750, 5118, 39, 22] «About» {display:block; flexDirection:row; color:rgb(227, 178, 179)}
+          <A > [750, 5150, 51, 22] «Careers» {display:block; flexDirection:row; color:rgb(227, 178, 179)}
+          <A > [750, 5182, 70, 22] «Customers» {display:block; flexDirection:row; color:rgb(227, 178, 179)}
+          <A > [750, 5214, 60, 22] «Solutions» {display:block; flexDirection:row; color:rgb(227, 178, 179)}
+          <A > [750, 5246, 61, 22] «Media kit» {display:block; flexDirection:row; color:rgb(227, 178, 179)}
+          <A > [750, 5278, 69, 22] «Newsroom» {display:block; flexDirection:row; color:rgb(227, 178, 179)}
+        <DIV Footer__Column gTheui> [965, 5089, 155, 371] {display:flex; gap:10px; flexDirection:column; alignItems:flex-start}
+          <DIV Footer__ColTitle bxALoJ> [965, 5089, 55, 19] «Connect» {display:block; flexDirection:row; fontFamily:"IBM Plex Mono"; fontSize:12px; fontWeight:700; lineHeight:18.852px; letterSpacing:0.7px; textTransform:uppercase; color:rgb(255, 255, 255)}
+          <A > [965, 5118, 106, 22] «Request a demo» {display:block; flexDirection:row; color:rgb(227, 178, 179)}
+          <A > [965, 5150, 116, 22] «Technical support» {display:block; flexDirection:row; color:rgb(227, 178, 179)}
+          <A > [965, 5182, 70, 22] «Contact us» {display:block; flexDirection:row; color:rgb(227, 178, 179)}
+          <A > [965, 5214, 55, 22] «LinkedIn» {display:block; flexDirection:row; color:rgb(227, 178, 179)}
+          <A > [965, 5246, 68, 22] «X (Twitter)» {display:block; flexDirection:row; color:rgb(227, 178, 179)}
+          <A > [965, 5278, 53, 22] «YouTube» {display:block; flexDirection:row; color:rgb(227, 178, 179)}
+      <DIV Footer__Bottom cSNWQE> [320, 5519, 800, 22] {display:flex; gap:14px 20px; flexDirection:row; alignItems:center; justifyContent:center}
+        <DIV Footer__Copyright ivKtgV> [329, 5519, 191, 22] «© 2026 Hex Technologies Inc.» {display:block; flexDirection:row; color:rgb(153, 121, 125)}
+        <A > [540, 5519, 89, 22] «Privacy policy» {display:block; flexDirection:row; color:rgb(153, 121, 125)}
+        <A > [649, 5519, 124, 22] «Terms & conditions» {display:block; flexDirection:row; color:rgb(153, 121, 125)}
+        <A > [793, 5519, 173, 22] «Modern slavery statement» {display:block; flexDirection:row; color:rgb(153, 121, 125)}
+        <BUTTON OptOutOfTrackingLink-module__ax0AOW__button> [986, 5519, 125, 22] «Opt out of tracking» {display:block; flexDirection:row; color:rgb(153, 121, 125)}
+    <DIV Footer__Right kqTyoK> [1120, 5089, 190, 453] {display:flex; flexDirection:column; alignItems:flex-end}
+      <DIV HitCounter__Wrapper hStcfY> [1184, 5089, 126, 42] {display:block; padding:5px 0px; flexDirection:row}
+        <DIV HitCounter__Inner fKhwRR> [1184, 5094, 126, 32] {display:flex; position:relative; padding:5px; gap:5px; flexDirection:row; borderTop:1px solid rgb(58, 49, 56); borderRight:1px solid rgb(58, 49, 56); borderBottom:1px solid rgb(58, 49, 56); borderLeft:1px solid rgb(58, 49, 56)}
+          <DIV HitCounter__DigitWrapper gbsCIf> [1190, 5100, 12, 20] {display:flex; position:relative; gap:1px; flexDirection:row}
+            <DIV HitCounter__Col jSCmeh> [1190, 5100, 1, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line bYlHYD> [1190, 5100, 1, 10] {display:block; flexDirection:row; backgroundColor:rgb(245, 192, 192)}
+              <DIV HitCounter__Line bYlHYD> [1190, 5110, 1, 10] {display:block; flexDirection:row; backgroundColor:rgb(245, 192, 192)}
+            <DIV HitCounter__Col iaCYvk> [1192, 5100, 8, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line iPundp> [1192, 5100, 8, 1] {display:block; flexDirection:row; backgroundColor:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+              <DIV HitCounter__Line kzEcLr> [1192, 5109, 8, 1] {display:block; flexDirection:row; backgroundColor:rgb(245, 192, 192)}
+              <DIV HitCounter__Line kzEcLr> [1192, 5119, 8, 1] {display:block; flexDirection:row; backgroundColor:rgb(245, 192, 192)}
+            <DIV HitCounter__Col jSCmeh> [1201, 5100, 1, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line cUnPSB> [1201, 5100, 1, 10] {display:block; flexDirection:row; backgroundColor:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+              <DIV HitCounter__Line bYlHYD> [1201, 5110, 1, 10] {display:block; flexDirection:row; backgroundColor:rgb(245, 192, 192)}
+          <DIV HitCounter__DigitWrapper gbsCIf> [1207, 5100, 12, 20] {display:flex; position:relative; gap:1px; flexDirection:row}
+            <DIV HitCounter__Col jSCmeh> [1207, 5100, 1, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line bYlHYD> [1207, 5100, 1, 10] {display:block; flexDirection:row; backgroundColor:rgb(245, 192, 192)}
+              <DIV HitCounter__Line cUnPSB> [1207, 5110, 1, 10] {display:block; flexDirection:row; backgroundColor:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+            <DIV HitCounter__Col iaCYvk> [1209, 5100, 8, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line iPundp> [1209, 5100, 8, 1] {display:block; flexDirection:row; backgroundColor:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+              <DIV HitCounter__Line kzEcLr> [1209, 5109, 8, 1] {display:block; flexDirection:row; backgroundColor:rgb(245, 192, 192)}
+              <DIV HitCounter__Line iPundp> [1209, 5119, 8, 1] {display:block; flexDirection:row; backgroundColor:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+            <DIV HitCounter__Col jSCmeh> [1218, 5100, 1, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line bYlHYD> [1218, 5100, 1, 10] {display:block; flexDirection:row; backgroundColor:rgb(245, 192, 192)}
+              <DIV HitCounter__Line bYlHYD> [1218, 5110, 1, 10] {display:block; flexDirection:row; backgroundColor:rgb(245, 192, 192)}
+          <DIV HitCounter__DigitWrapper gbsCIf> [1224, 5100, 12, 20] {display:flex; position:relative; gap:1px; flexDirection:row}
+            <DIV HitCounter__Col jSCmeh> [1224, 5100, 1, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line cUnPSB> [1224, 5100, 1, 10] {display:block; flexDirection:row; backgroundColor:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+              <DIV HitCounter__Line bYlHYD> [1224, 5110, 1, 10] {display:block; flexDirection:row; backgroundColor:rgb(245, 192, 192)}
+            <DIV HitCounter__Col iaCYvk> [1226, 5100, 8, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line kzEcLr> [1226, 5100, 8, 1] {display:block; flexDirection:row; backgroundColor:rgb(245, 192, 192)}
+              <DIV HitCounter__Line kzEcLr> [1226, 5109, 8, 1] {display:block; flexDirection:row; backgroundColor:rgb(245, 192, 192)}
+              <DIV HitCounter__Line kzEcLr> [1226, 5119, 8, 1] {display:block; flexDirection:row; backgroundColor:rgb(245, 192, 192)}
+            <DIV HitCounter__Col jSCmeh> [1235, 5100, 1, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line bYlHYD> [1235, 5100, 1, 10] {display:block; flexDirection:row; backgroundColor:rgb(245, 192, 192)}
+              <DIV HitCounter__Line cUnPSB> [1235, 5110, 1, 10] {display:block; flexDirection:row; backgroundColor:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+          <DIV HitCounter__DigitWrapper gbsCIf> [1241, 5100, 12, 20] {display:flex; position:relative; gap:1px; flexDirection:row}
+            <DIV HitCounter__Col jSCmeh> [1241, 5100, 1, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line bYlHYD> [1241, 5100, 1, 10] {display:block; flexDirection:row; backgroundColor:rgb(245, 192, 192)}
+              <DIV HitCounter__Line bYlHYD> [1241, 5110, 1, 10] {display:block; flexDirection:row; backgroundColor:rgb(245, 192, 192)}
+            <DIV HitCounter__Col iaCYvk> [1243, 5100, 8, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line iPundp> [1243, 5100, 8, 1] {display:block; flexDirection:row; backgroundColor:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+              <DIV HitCounter__Line kzEcLr> [1243, 5109, 8, 1] {display:block; flexDirection:row; backgroundColor:rgb(245, 192, 192)}
+              <DIV HitCounter__Line kzEcLr> [1243, 5119, 8, 1] {display:block; flexDirection:row; backgroundColor:rgb(245, 192, 192)}
+            <DIV HitCounter__Col jSCmeh> [1252, 5100, 1, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line cUnPSB> [1252, 5100, 1, 10] {display:block; flexDirection:row; backgroundColor:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+              <DIV HitCounter__Line bYlHYD> [1252, 5110, 1, 10] {display:block; flexDirection:row; backgroundColor:rgb(245, 192, 192)}
+          <DIV HitCounter__DigitWrapper gbsCIf> [1258, 5100, 12, 20] {display:flex; position:relative; gap:1px; flexDirection:row}
+            <DIV HitCounter__Col jSCmeh> [1258, 5100, 1, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line bYlHYD> [1258, 5100, 1, 10] {display:block; flexDirection:row; backgroundColor:rgb(245, 192, 192)}
+              <DIV HitCounter__Line cUnPSB> [1258, 5110, 1, 10] {display:block; flexDirection:row; backgroundColor:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+            <DIV HitCounter__Col iaCYvk> [1260, 5100, 8, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line iPundp> [1260, 5100, 8, 1] {display:block; flexDirection:row; backgroundColor:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+              <DIV HitCounter__Line kzEcLr> [1260, 5109, 8, 1] {display:block; flexDirection:row; backgroundColor:rgb(245, 192, 192)}
+              <DIV HitCounter__Line iPundp> [1260, 5119, 8, 1] {display:block; flexDirection:row; backgroundColor:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+            <DIV HitCounter__Col jSCmeh> [1269, 5100, 1, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line bYlHYD> [1269, 5100, 1, 10] {display:block; flexDirection:row; backgroundColor:rgb(245, 192, 192)}
+              <DIV HitCounter__Line bYlHYD> [1269, 5110, 1, 10] {display:block; flexDirection:row; backgroundColor:rgb(245, 192, 192)}
+          <DIV HitCounter__DigitWrapper gbsCIf> [1275, 5100, 12, 20] {display:flex; position:relative; gap:1px; flexDirection:row}
+            <DIV HitCounter__Col jSCmeh> [1275, 5100, 1, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line bYlHYD> [1275, 5100, 1, 10] {display:block; flexDirection:row; backgroundColor:rgb(245, 192, 192)}
+              <DIV HitCounter__Line cUnPSB> [1275, 5110, 1, 10] {display:block; flexDirection:row; backgroundColor:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+            <DIV HitCounter__Col iaCYvk> [1277, 5100, 8, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line kzEcLr> [1277, 5100, 8, 1] {display:block; flexDirection:row; backgroundColor:rgb(245, 192, 192)}
+              <DIV HitCounter__Line kzEcLr> [1277, 5109, 8, 1] {display:block; flexDirection:row; backgroundColor:rgb(245, 192, 192)}
+              <DIV HitCounter__Line iPundp> [1277, 5119, 8, 1] {display:block; flexDirection:row; backgroundColor:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+            <DIV HitCounter__Col jSCmeh> [1286, 5100, 1, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line bYlHYD> [1286, 5100, 1, 10] {display:block; flexDirection:row; backgroundColor:rgb(245, 192, 192)}
+              <DIV HitCounter__Line bYlHYD> [1286, 5110, 1, 10] {display:block; flexDirection:row; backgroundColor:rgb(245, 192, 192)}
+          <DIV HitCounter__DigitWrapper gbsCIf> [1292, 5100, 12, 20] {display:flex; position:relative; gap:1px; flexDirection:row}
+            <DIV HitCounter__Col jSCmeh> [1292, 5100, 1, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line bYlHYD> [1292, 5100, 1, 10] {display:block; flexDirection:row; backgroundColor:rgb(245, 192, 192)}
+              <DIV HitCounter__Line cUnPSB> [1292, 5110, 1, 10] {display:block; flexDirection:row; backgroundColor:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+            <DIV HitCounter__Col iaCYvk> [1294, 5100, 8, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line iPundp> [1294, 5100, 8, 1] {display:block; flexDirection:row; backgroundColor:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+              <DIV HitCounter__Line kzEcLr> [1294, 5109, 8, 1] {display:block; flexDirection:row; backgroundColor:rgb(245, 192, 192)}
+              <DIV HitCounter__Line iPundp> [1294, 5119, 8, 1] {display:block; flexDirection:row; backgroundColor:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+            <DIV HitCounter__Col jSCmeh> [1303, 5100, 1, 20] {display:flex; flexDirection:column; alignItems:center; justifyContent:space-between}
+              <DIV HitCounter__Line bYlHYD> [1303, 5100, 1, 10] {display:block; flexDirection:row; backgroundColor:rgb(245, 192, 192)}
+              <DIV HitCounter__Line bYlHYD> [1303, 5110, 1, 10] {display:block; flexDirection:row; backgroundColor:rgb(245, 192, 192)}
+  <DIV Footer__Divider dVeORT> [29, 5591, 1382, 1] {display:block; flexDirection:row; backgroundColor:rgb(58, 49, 56)}
+
+=== nav ancestors when squished (scrollY=600)
+LayoutGrid__LayoutSubgrid-sc-51ec3774-1 gFrqQS bg=rgba(0, 0, 0, 0)
+LayoutGrid__LayoutSubgrid-sc-51ec3774-1 gFrqQS bg=rgba(0, 0, 0, 0)
+LayoutGrid__LayoutSubgrid-sc-51ec3774-1 gFrqQS bg=rgba(0, 0, 0, 0)
+LayoutGrid-sc-51ec3774-0 gfIDZt bg=rgba(0, 0, 0, 0)

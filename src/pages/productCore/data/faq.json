@@ -1,0 +1,78 @@
+{
+ "bi": [
+  {
+   "heading": "FAQ",
+   "items": [
+    {
+     "q": "Is Hex a BI tool?",
+     "answerHtml": "<p>Yes. Most companies today use Hex as a BI platform for building dashboards and enabling self-serve answers with AI. Unlike legacy BI tools, people can ask questions and explore data in plain language, with answers grounded in trusted business context. What makes Hex different is that people can explore and build right away, without first learning a complicated BI tool.</p>"
+    },
+    {
+     "q": "Is Hex a BI platform for AI teams?",
+     "answerHtml": "<p>Yes. Hex is built for teams that want people to work with data through AI without giving up trust and governance. Teams can ask questions in tools like Claude or Cursor, build dashboards with AI, and keep every answer anchored in the same business context.</p>"
+    },
+    {
+     "q": "Can non-technical users get answers in Hex without SQL?",
+     "answerHtml": "<p>Yes. Threads lets anyone ask questions in plain language, explore follow-ups, and get trusted answers without writing SQL or learning a complicated drag-and-drop interface.</p>"
+    },
+    {
+     "q": "How does Hex handle governance and trust for AI answers?",
+     "answerHtml": "<p>Context Studio is Hex’s governance layer for AI agents. Data teams can ground answers in trusted context from semantic models, endorsements, and guides, audit how each answer was produced, and automate context improvements as gaps emerge.</p>"
+    },
+    {
+     "q": "Does Hex work with dbt, Snowflake, or Cube semantic models?",
+     "answerHtml": "<p>Yes. Hex can build semantic models natively or sync existing models from dbt MetricFlow, Snowflake Semantic Views, and Cube. That lets teams reuse the metrics and business logic they already trust instead of rebuilding context from scratch.</p>"
+    },
+    {
+     "q": "What makes Hex different from traditional BI tools like Tableau, Looker, and Power BI?",
+     "answerHtml": "<p>Traditional BI tools still rely on dashboards, point-and-click interfaces, and predefined workflows for self-serve. Even with AI features, many still force users to learn and navigate complicated workflows just to explore and build with data. Hex takes a different approach. People can ask questions, explore data, and build dashboards in plain language. AI is native to every workflow, so anyone can get answers from data, all grounded in the same trusted context and governance.</p>"
+    },
+    {
+     "q": "Is Hex the best BI tool for small businesses?",
+     "answerHtml": "<p>Hex can be a strong fit for small teams that want self-serve analytics, dashboards, and AI in one platform without locking themselves into a rigid stack. Hex works with the tools and context you already use, so teams can start small, stay flexible, and expand without rebuilding everything later.</p>"
+    },
+    {
+     "q": "How is Hex priced?",
+     "answerHtml": "<div>Hex offers Free, Professional, Team, and Enterprise plans designed to support broad analytics deployments across technical and business users. Pricing scales with your team’s mix of users and usage, rather than forcing every user into the same seat type. For current details, <a href=\"/pricing/\">visit Hex’s pricing page</a>.</div>"
+    },
+    {
+     "q": "How do you stop AI analytics from giving wrong or hallucinated answers?",
+     "answerHtml": "<p>By grounding the agent in trusted data, business logic, and definitions, and making every answer transparent and easy to verify. In Hex, users can inspect the analysis behind a response, while data teams can automate context improvements to improve answer quality over time.</p>"
+    },
+    {
+     "q": "How do I switch to Hex from Tableau, Looker, or Power BI?",
+     "answerHtml": "<div>Hex publishes a switching guide with data migration patterns, dashboard porting recipes, and case studies from teams who've moved off legacy BI. <a href=\"/product/switching-to-hex/\">Learn more about “Switching to Hex”</a> and get the full playbook with customer examples.</div>"
+    }
+   ],
+   "footer": "Can't find your answer here? Get in touch."
+  }
+ ],
+ "context-studio": [
+  {
+   "heading": "FAQ",
+   "items": [
+    {
+     "q": "What can I actually use as context? Can I connect existing sources?",
+     "answerHtml": "<div>Almost anything you already have, and you don't have to set it all up first. Context in Hex layers in over time instead of arriving as one big modeling project. Start with what exists, add more as you go:</div><ul><li>Table metadata: column names, types, and descriptions the agent reads to understand your schema without you modeling every dimension first.</li><li>Endorsed tables: mark certain tables as the canonical, trusted source, and the agent prefers them when several tables could answer a question.</li><li>Reference repositories: connect a Git repo so the agent can read your code to clarify things like metric logic and table structures.</li><li>Connected apps via MCP: pull context from Notion, Linear, and any MCP server, so answers reflect what's in your tickets, docs, and planning notes, not just your data.</li><li>Guides: markdown files about your data and business. A workspace context file is read in every conversation, while a guide library holds topic-specific files the agent pulls in only when relevant.</li><li>Semantic models: shared definitions of your metrics and dimensions, like what \"win rate\" officially means, so answers stay consistent.</li><li>Your published work: every app and dashboard published in Hex feeds the agent, so the logic, definitions, and queries your team already wrote compound for the next question.</li></ul><div>Each of these is an independent form of context that Hex builds a shared understanding of your business. Most teams start simple with table metadata and endorsements, see where answers fall short, and then layer in more prescriptive forms of context like guides or semantic models where it makes sense.</div>"
+    },
+    {
+     "q": "Do I have to build my context in Hex? Or can it be synced in?",
+     "answerHtml": "<div>No, you can build and manage context inside or outside of Hex. Where you centralize your source of truth is up to you. Context is intentionally set up to let you move it between Hex and wherever else you manage it:</div><ul><li>Guides can live as .md files in a repo and sync to Hex automatically with a GitHub Action, so the repo stays the source of truth.</li><li>Sync in semantic models from dbt MetricFlow, Cube, or Snowflake Semantic Views, and the definitions stay versioned in your stack.</li></ul><div>You can author guides and semantic models directly in Hex too. Either way, your context stays portable, so you're never locked in and never rebuilding logic if your stack changes.</div>"
+    },
+    {
+     "q": "How does Hex decide which context to use? Can I see what Hex used as context?",
+     "answerHtml": "<div>The Hex agent is built to pull the right context when it's relevant, whether that's markdown, code, yaml, metadata, or anything else. It uses indicators like the descriptions of guides and repos to judge relevance.</div><div>For every interaction, you can audit the agent's reasoning and the context it used from Context Studio. If the agent is unsure or missing something, it raises a warning. Admins and Managers can review individual conversations, common topics, warnings, and see which context sources shaped a response.</div>"
+    },
+    {
+     "q": "Do I need to build semantic models for accurate and consistent answers?",
+     "answerHtml": "<div>Not necessarily. Semantic models are one way to give the agent context around specific metrics or definitions, but they are inherently rigid and time intensive to maintain. In Hex, build them where a shared, locked definition matters, and skip them where a guide or an endorsed table is sufficient guidance for the agent to answer a question.</div><ul><li>Where models earn their keep: a metric like ARR that has to be calculated the same way every time, everywhere it's asked.</li><li>Where they don't: nuances about your business, like when your fiscal year starts or what a specific product term means inside your company. No need to build that into a model when it can be captured quickly in a markdown doc.</li></ul><div>If you do choose to build semantic models, you can sync them from dbt MetricFlow, Cube, or Snowflake, or build them directly in Hex.</div>"
+    },
+    {
+     "q": "How much work is it to maintain context as our business changes?",
+     "answerHtml": "<div>Context drifts as your business evolves, definitions change, and new domains emerge. Hex's Context Engine is intentionally built to catch and fix these gaps for you instead of manually sifting through every conversation to maintain yourself.</div><ul><li>The Review Agent watches real interactions and flags where context is missing or thin, so you're not auditing every answer yourself.</li><li>Repeated warnings roll into concrete suggestions, so high-impact improvements come to you already scoped.</li><li>Your published work compounds: every app and dashboard published feeds the agent, so a lot of context accrues as a byproduct of normal work, not as separate upkeep.</li></ul><div>The system gets sharper the more your team uses it. Every question asked and answer published makes the next answer better, so accuracy compounds over time instead of decaying. You stay in control of what changes; the agent just makes sure the work keeps building on itself instead of eroding.</div>"
+    }
+   ],
+   "footer": "Can't find your answer here? Get in touch."
+  }
+ ]
+}

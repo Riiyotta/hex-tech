@@ -1,0 +1,79 @@
+{
+  "id": "shell.header",
+  "category": "shell",
+  "purpose": "Global fixed chrome: announcement ticker + main nav with mega-menus; identical on every site-layout page, themed only.",
+  "variants": [],
+  "content": {},
+  "motion": {
+    "allowedPatterns": [
+      "nav-squish"
+    ],
+    "default": "nav-squish"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.tablet}",
+      "change": "swap-to-mobile-variant",
+      "detail": "nav lists hidden; hamburger + full-height mobile panel",
+      "measuredFrom": [
+        "CLONE_SPEC.md:261"
+      ]
+    },
+    {
+      "atOrBelow": "{breakpoint.tablet}",
+      "change": "resize-type",
+      "detail": "nav row 62px -> 56px",
+      "measuredFrom": [
+        "CLONE_SPEC.md:433"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustBeFirst": true,
+    "globalContent": true
+  },
+  "measuredFrom": [
+    "CLONE_SPEC.md:234",
+    "specs/product.md:78"
+  ],
+  "sourceEvidence": [
+    "src/components/Header.jsx:5"
+  ],
+  "notes": "Ticker items, nav, mega-menu and mobile-menu copy are global data, not per-page content; a PageSpec may not override them (empty content contract).",
+  "wordBudgets": {},
+  "richTextBudgets": {},
+  "assetRoles": [],
+  "usedByTemplates": [
+    "template.about",
+    "template.article",
+    "template.blog-index",
+    "template.careers",
+    "template.compare",
+    "template.customer-story",
+    "template.customers-index",
+    "template.enterprise",
+    "template.form-page",
+    "template.guide-landing",
+    "template.home",
+    "template.integration-detail",
+    "template.integrations-index",
+    "template.long-form-guide",
+    "template.newsroom",
+    "template.partners",
+    "template.placeholder",
+    "template.pricing",
+    "template.product-feature",
+    "template.product-v1",
+    "template.solution-detail",
+    "template.solutions-hub",
+    "template.templates-index",
+    "template.v1-resource-index"
+  ],
+  "observedThemes": [
+    "dark",
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__shell.header",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

@@ -1,0 +1,15 @@
+<svg width="246" height="240" viewBox="0 0 246 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g>
+<path d="M126 14.5L27 14.5" stroke="#F5C0C0" stroke-opacity="0.15"/>
+<path d="M251.919 14.5L152 14.5" stroke="#F5C0C0" stroke-opacity="0.15"/>
+<path d="M303.919 134.5L150 134.5" stroke="#F5C0C0" stroke-opacity="0.15"/>
+<path d="M135 134.5H27" stroke="#F5C0C0" stroke-opacity="0.15"/>
+<path d="M14.5 26V122" stroke="#F5C0C0" stroke-opacity="0.15"/>
+<path d="M14.5 147.001V270.92" stroke="#F5C0C0" stroke-opacity="0.15"/>
+<path d="M139.5 27L139.5 248" stroke="#F5C0C0" stroke-opacity="0.15"/>
+<rect width="20.7877" height="20.7877" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 14.6991 29.3982)" fill="#14141C"/>
+<rect x="5.96046e-08" y="-0.707107" width="19.7877" height="19.7877" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 14.1991 28.1911)" stroke="#F5C0C0" stroke-opacity="0.15"/>
+<rect width="20.7877" height="20.7877" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 139.699 149)" fill="#14141C"/>
+<rect x="5.96046e-08" y="-0.707107" width="19.7877" height="19.7877" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 139.199 147.793)" stroke="#F5C0C0" stroke-opacity="0.15"/>
+</g>
+</svg>

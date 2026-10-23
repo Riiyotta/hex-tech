@@ -1,0 +1,29 @@
+{
+  "id": "component.g2-card",
+  "purpose": "Bordered G2 awards card: badge image, H3, short copy with inline link.",
+  "composes": [],
+  "props": {
+    "title": {
+      "type": "text",
+      "measuredFrom": [
+        "src/components/shared/G2Card.jsx:14"
+      ]
+    },
+    "link": {
+      "type": "object",
+      "measuredFrom": [
+        "specs/SHARED_BUILT.md:68"
+      ]
+    }
+  },
+  "tokens": [
+    "color.border.default",
+    "typography.scale.heading-3"
+  ],
+  "measuredFrom": [
+    "CLONE_SPEC.md:378",
+    "src/components/shared/G2Card.jsx:14"
+  ],
+  "layer": "component",
+  "provisional": true
+}

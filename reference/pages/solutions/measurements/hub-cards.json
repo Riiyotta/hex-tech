@@ -1,0 +1,1041 @@
+[
+ {
+  "href": "/blog/dont-migrate-300-dashboards/",
+  "type": "Blog post",
+  "title": "You don't need to migrate those 300 dashboards",
+  "sol": [
+   "Data leader:rgb(92, 177, 152)"
+  ],
+  "meta": [
+   "Solution/ Data leader",
+   "5 min"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/c58b81b4a104a9f4a167c91e91b0718aed68b9df-840x520.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(92, 177, 152, 0.42)",
+  "illus": " 73",
+  "illustrationVariant": "v9ba31efe"
+ },
+ {
+  "href": "/customers/notion/",
+  "type": "Customer story",
+  "title": "Customer story: Notion",
+  "sol": [
+   "Sales:rgb(205, 168, 73)"
+  ],
+  "meta": [
+   "Solution/ Sales",
+   "3 min"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/6f211c674b14be69b85497264b1d654b138dce01-39x50.svg?auto=format",
+  "srcset": null,
+  "border": "rgba(205, 168, 73, 0.39)",
+  "illus": " 2",
+  "illustrationVariant": "vbfa80f8b"
+ },
+ {
+  "href": "/customers/om1/",
+  "type": "Customer story",
+  "title": "Customer story: OM1",
+  "sol": [
+   "Marketing:rgb(95, 80, 157)",
+   "Sales:rgb(205, 168, 73)"
+  ],
+  "meta": [
+   "Solution/ Marketing Sales"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/ea3c3c81a65eb288ea6390f3290531197721ca6c-94x50.svg?auto=format",
+  "srcset": null,
+  "border": "rgba(95, 80, 157, 0.53)",
+  "illus": " 139",
+  "illustrationVariant": "vb2b92e58"
+ },
+ {
+  "href": "/customers/figma/",
+  "type": "Customer story",
+  "title": "Customer story: Figma",
+  "sol": [
+   "Product:rgb(113, 122, 148)",
+   "Data leader:rgb(92, 177, 152)"
+  ],
+  "meta": [
+   "Solution/ Product Data leader",
+   "3 min"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/f7df402cfb3dac549c3f877c09425534abc7650b-97x50.svg?auto=format",
+  "srcset": null,
+  "border": "rgba(113, 122, 148, 0.52)",
+  "illus": " 46",
+  "illustrationVariant": "va791c4fd"
+ },
+ {
+  "href": "/customers/mercor/",
+  "type": "Customer story",
+  "title": "Customer story: Mercor",
+  "sol": [
+   "Core data team:rgb(164, 119, 178)",
+   "Customer success:rgb(251, 249, 249)"
+  ],
+  "meta": [
+   "Solution/ Core data team Customer success"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/92b9cd2232a417db021ffe38f96d45a896e85cba-131x50.svg?auto=format",
+  "srcset": null,
+  "border": "rgba(164, 119, 178, 0.5)",
+  "illus": " 18",
+  "illustrationVariant": "vbd0689f"
+ },
+ {
+  "href": "/customers/valon/",
+  "type": "Customer story",
+  "title": "Customer story: Valon",
+  "sol": [
+   "Customer success:rgb(251, 249, 249)"
+  ],
+  "meta": [
+   "Solution/ Customer success"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/2c4ef1e2b471b9d7322ef89af16a386864435653-116x50.svg?auto=format",
+  "srcset": null,
+  "border": "rgba(251, 249, 249, 0.19)",
+  "illus": " 9",
+  "illustrationVariant": "v471a961"
+ },
+ {
+  "href": "/customers/algolia/",
+  "type": "Customer story",
+  "title": "Customer story: Algolia",
+  "sol": [
+   "Sales:rgb(205, 168, 73)",
+   "Marketing:rgb(95, 80, 157)"
+  ],
+  "meta": [
+   "Solution/ Sales Marketing",
+   "3 min"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/baea542d81adfefae4a1a6409a8260e0bac56f00-97x50.svg?auto=format",
+  "srcset": null,
+  "border": "rgba(205, 168, 73, 0.39)",
+  "illus": " 2",
+  "illustrationVariant": "vbfa80f8b"
+ },
+ {
+  "href": "/blog/next-bi-tool/",
+  "type": "Blog post",
+  "title": "Your next BI tool shouldn't be a BI tool",
+  "sol": [
+   "Data leader:rgb(92, 177, 152)"
+  ],
+  "meta": [
+   "Solution/ Data leader",
+   "4 min"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/76aeaf65189942ceca5ccc6edf2d0c2db3b1338f-1680x1040.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(92, 177, 152, 0.42)",
+  "illus": " 73",
+  "illustrationVariant": "v9ba31efe"
+ },
+ {
+  "href": "/blog/how-we-solved-the-pipeline-crisis/",
+  "type": "Blog post",
+  "title": "The market is noisy. Here\u2019s how pipeline intelligence can help.",
+  "sol": [
+   "Marketing:rgb(95, 80, 157)",
+   "Sales:rgb(205, 168, 73)"
+  ],
+  "meta": [
+   "Solution/ Marketing Sales"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/8980b4c593faa0a2ddc3f73e6c785d67d89028b9-1680x1040.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(95, 80, 157, 0.53)",
+  "illus": " 139",
+  "illustrationVariant": "vb2b92e58"
+ },
+ {
+  "href": "/blog/dashboards-were-never-the-destination/",
+  "type": "Blog post",
+  "title": "Dashboards were never the destination",
+  "sol": [
+   "Data leader:rgb(92, 177, 152)"
+  ],
+  "meta": [
+   "Solution/ Data leader",
+   "4 min"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/fbaa3c8343e43c4d71cef2201cb15bf7c00d5fd1-1680x1040.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(92, 177, 152, 0.42)",
+  "illus": " 73",
+  "illustrationVariant": "v9ba31efe"
+ },
+ {
+  "href": "/resources/video/how-to-measure-pipeline-quality-from-demo-requests-with-ai-or-hex/",
+  "type": "Video",
+  "title": "How to Measure Pipeline Quality from Demo Requests with AI",
+  "sol": [
+   "Marketing:rgb(95, 80, 157)"
+  ],
+  "meta": [
+   "Solution/ Marketing",
+   "1 min"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/51c78ce03c99a846fbc29f65010d496e21b6eb75-2554x1440.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(95, 80, 157, 0.53)",
+  "illus": " 139",
+  "illustrationVariant": "vb2b92e58"
+ },
+ {
+  "href": "/blog/how-ai-analytics-helps-with-support-decisions/",
+  "type": "Blog post",
+  "title": "3 ways Hex makes leading a support team less stressful",
+  "sol": [
+   "Customer success:rgb(251, 249, 249)"
+  ],
+  "meta": [
+   "Solution/ Customer success",
+   "4 min"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/8e2b6472b9d7bcdcbe1f1f0987645c3ec8de3654-1680x1040.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(251, 249, 249, 0.19)",
+  "illus": " 9",
+  "illustrationVariant": "v471a961"
+ },
+ {
+  "href": "/blog/unspoken-rules-of-data-leadership/",
+  "type": "Blog post",
+  "title": "The unwritten rules of being a head of data",
+  "sol": [
+   "Data leader:rgb(92, 177, 152)"
+  ],
+  "meta": [
+   "Solution/ Data leader",
+   "5 min"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/4c11040e03a2931b662091412162c0a63dc931f9-1680x1040.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(92, 177, 152, 0.42)",
+  "illus": " 73",
+  "illustrationVariant": "v9ba31efe"
+ },
+ {
+  "href": "/blog/evaluating-ai-wrong/",
+  "type": "Blog post",
+  "title": "You're probably evaluating AI analytics tools wrong",
+  "sol": [
+   "Data leader:rgb(92, 177, 152)"
+  ],
+  "meta": [
+   "Solution/ Data leader",
+   "6 min"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/0722bc6369aee70286feb8634d6ce74d1a71906d-1680x1040.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(92, 177, 152, 0.42)",
+  "illus": " 73",
+  "illustrationVariant": "v9ba31efe"
+ },
+ {
+  "href": "/blog/your-data-team-is-too-slow/",
+  "type": "Blog post",
+  "title": "Your data team is too slow (and accuracy won't save you)",
+  "sol": [
+   "Data leader:rgb(92, 177, 152)"
+  ],
+  "meta": [
+   "Solution/ Data leader",
+   "7 min"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/633dec3d5b5221ab18f42529d06a9e3c6fd9ea0e-840x520.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(92, 177, 152, 0.42)",
+  "illus": " 73",
+  "illustrationVariant": "v9ba31efe"
+ },
+ {
+  "href": "/resources/video/using-ai-to-choose-billboard-locations/",
+  "type": "Video",
+  "title": "Using AI to choose billboard locations",
+  "sol": [
+   "Marketing:rgb(95, 80, 157)"
+  ],
+  "meta": [
+   "Solution/ Marketing",
+   "1 min"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/a36bf5ba437e12cf1c98aa95a1c8b349669b4f3a-2554x1440.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(95, 80, 157, 0.53)",
+  "illus": " 139",
+  "illustrationVariant": "vb2b92e58"
+ },
+ {
+  "href": "/blog/difference-between-apps-and-dashboards/",
+  "type": "Blog post",
+  "title": "Why data apps confused the hell out of me (and probably confuse you too)",
+  "sol": [
+   "Core data team:rgb(164, 119, 178)"
+  ],
+  "meta": [
+   "Solution/ Core data team",
+   "3 min"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/3ab926d9bf26a6d29e6914144bb0c6962225ce6c-840x520.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(164, 119, 178, 0.5)",
+  "illus": " 18",
+  "illustrationVariant": "vbd0689f"
+ },
+ {
+  "href": "/blog/using-threads-to-get-sales-team-data/",
+  "type": "Blog post",
+  "title": "How I used Hex\u2019s AI to get fully up to speed on our sales data",
+  "sol": [
+   "Data leader:rgb(92, 177, 152)",
+   "Product:rgb(113, 122, 148)",
+   "Sales:rgb(205, 168, 73)"
+  ],
+  "meta": [
+   "Solution/ Data leader Product Sales",
+   "6 min"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/d8e0412205706fadc4fbadd33115d027e70cff07-1680x1040.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(92, 177, 152, 0.42)",
+  "illus": " 73",
+  "illustrationVariant": "v9ba31efe"
+ },
+ {
+  "href": "/blog/self-serve-is-finally-real/",
+  "type": "Blog post",
+  "title": "Self-serve analytics is finally real (and that's terrifying)",
+  "sol": [
+   "Data leader:rgb(92, 177, 152)"
+  ],
+  "meta": [
+   "Solution/ Data leader",
+   "5 min"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/1e964af7362a347383d49813f7fcd3748efdf3d3-1680x1040.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(92, 177, 152, 0.42)",
+  "illus": " 73",
+  "illustrationVariant": "v9ba31efe"
+ },
+ {
+  "href": "/blog/pipeline-forecast-data-app/",
+  "type": "Blog post",
+  "title": "How we built a forecasting data app that gets more accurate every quarter",
+  "sol": [
+   "Marketing:rgb(95, 80, 157)"
+  ],
+  "meta": [
+   "Solution/ Marketing",
+   "3 min"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/de9be2ab1a7e661db7392ef005935adbf2fcaf1a-1680x1040.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(95, 80, 157, 0.53)",
+  "illus": " 139",
+  "illustrationVariant": "vb2b92e58"
+ },
+ {
+  "href": "/blog/hex-in-the-wild-oct-2025-highlights/",
+  "type": "Blog post",
+  "title": "Hex in the Wild: October 2025 spotlights",
+  "sol": [
+   "Core data team:rgb(164, 119, 178)"
+  ],
+  "meta": [
+   "Solution/ Core data team",
+   "3 min"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/18b21643d43df8afd3336906664cf8445352cf68-1680x1040.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(164, 119, 178, 0.5)",
+  "illus": " 18",
+  "illustrationVariant": "vbd0689f"
+ },
+ {
+  "href": "/blog/how-data-teams-are-using-ai-ramp/",
+  "type": "Blog post",
+  "title": "Lessons from Ramp: Running AI-powered data teams",
+  "sol": [
+   "Data leader:rgb(92, 177, 152)",
+   "Core data team:rgb(164, 119, 178)",
+   "Product:rgb(113, 122, 148)"
+  ],
+  "meta": [
+   "Solution/ Data leader Core data team Product"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/0a134db6af30660f26058d22f5f58874dc7b0a5e-2400x1260.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(92, 177, 152, 0.42)",
+  "illus": " 73",
+  "illustrationVariant": "v9ba31efe"
+ },
+ {
+  "href": "/blog/ai-for-data-teams-boosting-speed-and-impact/",
+  "type": "Blog post",
+  "title": "Using AI thoughtfully: How our data team builds speed without losing depth",
+  "sol": [
+   "Data leader:rgb(92, 177, 152)"
+  ],
+  "meta": [
+   "Solution/ Data leader",
+   "5 min"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/93074be682d2231bf3e9900142d30bc55d482b86-1680x1040.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(92, 177, 152, 0.42)",
+  "illus": " 73",
+  "illustrationVariant": "v9ba31efe"
+ },
+ {
+  "href": "https://www.youtube.com/shorts/FrMgS7i3lZ4",
+  "type": "Video",
+  "title": "Helping your data team become faster with AI, not busier",
+  "sol": [
+   "Data leader:rgb(92, 177, 152)",
+   "Core data team:rgb(164, 119, 178)"
+  ],
+  "meta": [
+   "Solution/ Data leader Core data team",
+   "5 min"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/00ea9d4abd4463a6f1ee01549873bbe36482e0c4-1680x1020.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(92, 177, 152, 0.42)",
+  "illus": " 73",
+  "illustrationVariant": "v9ba31efe"
+ },
+ {
+  "href": "/blog/notebook-agent-prompting-guide-agentic-analytics/",
+  "type": "Blog post",
+  "title": "The complete guide to prompting Hex's Notebook Agent",
+  "sol": [
+   "Core data team:rgb(164, 119, 178)"
+  ],
+  "meta": [
+   "Solution/ Core data team",
+   "7 min"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/2aacd093f9cb3648fcde5ad79d85cf60504c6d47-1680x1040.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(164, 119, 178, 0.5)",
+  "illus": " 18",
+  "illustrationVariant": "vbd0689f"
+ },
+ {
+  "href": "/blog/building-actionable-metrics-framework/",
+  "type": "Blog post",
+  "title": "Building metrics stakeholders need, not what they want",
+  "sol": [
+   "Core data team:rgb(164, 119, 178)",
+   "Customer success:rgb(251, 249, 249)"
+  ],
+  "meta": [
+   "Solution/ Core data team Customer success"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/3732a7e6ade12c5bba7dc94ff3c1a927b766cf26-1680x1040.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(164, 119, 178, 0.5)",
+  "illus": " 18",
+  "illustrationVariant": "vbd0689f"
+ },
+ {
+  "href": "/blog/marketing-attribution-data-app-revenue-tracking/",
+  "type": "Blog post",
+  "title": "From \u201cwe think\u201d to \u201cwe know\u201d: Attribution that ties to revenue",
+  "sol": [
+   "Marketing:rgb(95, 80, 157)"
+  ],
+  "meta": [
+   "Solution/ Marketing"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/816e142d9b231c14cc1e154b6e1cb155f4d6dfec-1680x1040.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(95, 80, 157, 0.53)",
+  "illus": " 139",
+  "illustrationVariant": "vb2b92e58"
+ },
+ {
+  "href": "/blog/customer-retention-analytics/",
+  "type": "Blog post",
+  "title": "Customer retention analytics: Linking metrics to LTV and CAC",
+  "sol": [
+   "Customer success:rgb(251, 249, 249)"
+  ],
+  "meta": [
+   "Solution/ Customer success"
+  ],
+  "img": null,
+  "srcset": null,
+  "border": "rgba(251, 249, 249, 0.19)",
+  "illus": " 9",
+  "illustrationVariant": "v471a961"
+ },
+ {
+  "href": "/blog/lessons-running-a-data-team-with-ai/",
+  "type": "Blog post",
+  "title": "AI is changing how our data team works, and that\u2019s great",
+  "sol": [
+   "Data leader:rgb(92, 177, 152)"
+  ],
+  "meta": [
+   "Solution/ Data leader"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/de281fd8f285b19d9a57d29815d9180bc565f492-1680x1040.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(92, 177, 152, 0.42)",
+  "illus": " 73",
+  "illustrationVariant": "v9ba31efe"
+ },
+ {
+  "href": "/blog/product-metrics-that-drive-growth/",
+  "type": "Blog post",
+  "title": "5 product metrics that change our decisions (and drive revenue)",
+  "sol": [
+   "Product:rgb(113, 122, 148)"
+  ],
+  "meta": [
+   "Solution/ Product"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/576c2d0d4db331421cc5d69fae7e4925744970d9-1680x1040.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(113, 122, 148, 0.52)",
+  "illus": " 46",
+  "illustrationVariant": "va791c4fd"
+ },
+ {
+  "href": "/blog/pipeline-questions-answered-in-minutes/",
+  "type": "Blog post",
+  "title": "6 Pipeline questions that RevOps teams can answer in minutes in Hex",
+  "sol": [
+   "Sales:rgb(205, 168, 73)"
+  ],
+  "meta": [
+   "Solution/ Sales"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/f5f031d8f9beee3fdbad2c0f775ebeb3e0a894a1-1680x1040.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(205, 168, 73, 0.39)",
+  "illus": " 2",
+  "illustrationVariant": "vbfa80f8b"
+ },
+ {
+  "href": "/resources/video/measuring-hexs-performance-in-hex/",
+  "type": "Video",
+  "title": "Measuring Hex's performance in Hex",
+  "sol": [
+   "Product:rgb(113, 122, 148)"
+  ],
+  "meta": [
+   "Solution/ Product"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/b9a93ad1af63a68c8838f0bef698649b231372d9-1680x1020.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(113, 122, 148, 0.52)",
+  "illus": " 46",
+  "illustrationVariant": "va791c4fd"
+ },
+ {
+  "href": "https://www.youtube.com/shorts/R52NB-F9B5c",
+  "type": "Video",
+  "title": "How product teams make faster decisions",
+  "sol": [
+   "Product:rgb(113, 122, 148)"
+  ],
+  "meta": [
+   "Solution/ Product"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/a208580406ab95c2249a8228bd773a99c4d370a4-1680x1020.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(113, 122, 148, 0.52)",
+  "illus": " 46",
+  "illustrationVariant": "va791c4fd"
+ },
+ {
+  "href": "/resources/video/building-proactive-product-kpi-updates/",
+  "type": "Video",
+  "title": "Building proactive product KPI updates",
+  "sol": [
+   "Product:rgb(113, 122, 148)"
+  ],
+  "meta": [
+   "Solution/ Product"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/5253f985af379d17dc001fb1cc325e24b365172c-1680x1020.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(113, 122, 148, 0.52)",
+  "illus": " 46",
+  "illustrationVariant": "va791c4fd"
+ },
+ {
+  "href": "https://www.linkedin.com/posts/cpschaefer_marketinganalytics-ai-analytics-activity-7348743298733228032-vQoR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAYjyFYBfFMHD9yl1SoorLZd6KmlrHsH9Aw",
+  "type": "Video",
+  "title": "Turning traffic mysteries into marketing insights \u2014 with Hex",
+  "sol": [
+   "Marketing:rgb(95, 80, 157)"
+  ],
+  "meta": [
+   "Solution/ Marketing",
+   "2 min"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/a8694b34a1b1e549d2a1e7d9d99527fddedab670-1680x1020.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(95, 80, 157, 0.53)",
+  "illus": " 139",
+  "illustrationVariant": "vb2b92e58"
+ },
+ {
+  "href": "/blog/customer-health-data-app-account-360/",
+  "type": "Blog post",
+  "title": "Account 360 in Hex: Your one-stop customer health command center",
+  "sol": [
+   "Customer success:rgb(251, 249, 249)"
+  ],
+  "meta": [
+   "Solution/ Customer success"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/4a315add2d3bf620f65634744ba893cfb3c46ff2-1680x1040.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(251, 249, 249, 0.19)",
+  "illus": " 9",
+  "illustrationVariant": "v471a961"
+ },
+ {
+  "href": "/blog/data-app-for-customer-success-analytics/",
+  "type": "Blog post",
+  "title": "Why data teams (almost) never have to answer the same customer question twice",
+  "sol": [
+   "Customer success:rgb(251, 249, 249)"
+  ],
+  "meta": [
+   "Solution/ Customer success",
+   "4 min"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/cf7b95be37968ede60a678c0bcbf504a5b89d772-1680x1040.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(251, 249, 249, 0.19)",
+  "illus": " 9",
+  "illustrationVariant": "v471a961"
+ },
+ {
+  "href": "/blog/lead-conversion-in-hex/",
+  "type": "Blog post",
+  "title": "How to figure out what actually impacts lead conversion",
+  "sol": [
+   "Marketing:rgb(95, 80, 157)"
+  ],
+  "meta": [
+   "Solution/ Marketing"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/0a22ae6cae840b4527af1af6033c0f4b6a55e6e7-1680x990.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(95, 80, 157, 0.53)",
+  "illus": " 139",
+  "illustrationVariant": "vb2b92e58"
+ },
+ {
+  "href": "/blog/state-of-data-teams-2025/",
+  "type": "Blog post",
+  "title": "The State of Data Teams 2025: AI, self-serve, and the reality check",
+  "sol": [
+   "Data leader:rgb(92, 177, 152)"
+  ],
+  "meta": [
+   "Solution/ Data leader"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/7a562f13ae760f14b5352a49b112c9be9c0cd32b-1680x1040.jpg?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(92, 177, 152, 0.42)",
+  "illus": " 73",
+  "illustrationVariant": "v9ba31efe"
+ },
+ {
+  "href": "/blog/how-candidly-uses-hex-embedded-analytics/",
+  "type": "Blog post",
+  "title": "How Candidly uses Hex Embedded Analytics to tackle the student loan debt crisis",
+  "sol": [
+   "Data leader:rgb(92, 177, 152)"
+  ],
+  "meta": [
+   "Solution/ Data leader",
+   "7 min"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/10287a66e9ffcb53940dfa188ecaa7c4694d7cd4-1680x1040.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(92, 177, 152, 0.42)",
+  "illus": " 73",
+  "illustrationVariant": "v9ba31efe"
+ },
+ {
+  "href": "/blog/how-huckberry-forecasts-demand/",
+  "type": "Blog post",
+  "title": "The data app behind Huckberry\u2019s $1M inventory savings",
+  "sol": [
+   "Marketing:rgb(95, 80, 157)",
+   "Sales:rgb(205, 168, 73)"
+  ],
+  "meta": [
+   "Solution/ Marketing Sales"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/978f3420ff187cf6cf40c810a0fa1b177cda418f-1680x1040.jpg?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(95, 80, 157, 0.53)",
+  "illus": " 139",
+  "illustrationVariant": "vb2b92e58"
+ },
+ {
+  "href": "/blog/nick-hardy-ro/",
+  "type": "Blog post",
+  "title": "Nick Hardy, Ro: The power of embedded data teams",
+  "sol": [
+   "Data leader:rgb(92, 177, 152)"
+  ],
+  "meta": [
+   "Solution/ Data leader",
+   "4 min"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/5aa35008617a9529bbe6bbf1f6e188131c993975-2560x1440.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(92, 177, 152, 0.42)",
+  "illus": " 73",
+  "illustrationVariant": "v9ba31efe"
+ },
+ {
+  "href": "/resources/video/three-powerful-workflows-in-one-platform/",
+  "type": "Video",
+  "title": "Three powerful workflows in one platform",
+  "sol": [
+   "Core data team:rgb(164, 119, 178)",
+   "Data leader:rgb(92, 177, 152)"
+  ],
+  "meta": [
+   "Solution/ Core data team Data leader",
+   "5 min"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/1b8e4abe9e204c6d2b66b2e5d0dbfdb725f99a67-1680x1020.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(164, 119, 178, 0.5)",
+  "illus": " 18",
+  "illustrationVariant": "vbd0689f"
+ },
+ {
+  "href": "/blog/notion-hubspot-ramp-data-team-roi/",
+  "type": "Blog post",
+  "title": "How Notion, HubSpot, and Ramp data teams think about ROI",
+  "sol": [
+   "Data leader:rgb(92, 177, 152)"
+  ],
+  "meta": [
+   "Solution/ Data leader"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/8cde7164970b2a05f0171fcb2895653ef9a2d0e0-2400x1260.jpg?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(92, 177, 152, 0.42)",
+  "illus": " 73",
+  "illustrationVariant": "v9ba31efe"
+ },
+ {
+  "href": "/blog/accuracy-agency-matrix/",
+  "type": "Blog post",
+  "title": "The Accuracy / Agency matrix",
+  "sol": [
+   "Data leader:rgb(92, 177, 152)"
+  ],
+  "meta": [
+   "Solution/ Data leader"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/31cf62453558e4b4d1aaae078bab2e936d74f54f-1680x1020.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(92, 177, 152, 0.42)",
+  "illus": " 73",
+  "illustrationVariant": "v9ba31efe"
+ },
+ {
+  "href": "/blog/how-kong-is-scaling-analytics-with-hex/",
+  "type": "Blog post",
+  "title": "4 Ways Kong is scaling analytics with Hex",
+  "sol": [
+   "Product:rgb(113, 122, 148)"
+  ],
+  "meta": [
+   "Solution/ Product"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/440f5624b2d0df481cd5ecfa9f1a9dcee3bf909d-1680x1040.jpg?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(113, 122, 148, 0.52)",
+  "illus": " 46",
+  "illustrationVariant": "va791c4fd"
+ },
+ {
+  "href": "/blog/friends-of-data-pedram-navid-dagster/",
+  "type": "Blog post",
+  "title": "Pedram Navid, Dagster: Why it's not enough to be right",
+  "sol": [
+   "Data leader:rgb(92, 177, 152)"
+  ],
+  "meta": [
+   "Solution/ Data leader",
+   "5 min"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/43f56f63a32410360ce25ba3809510a3162850e7-2400x1260.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(92, 177, 152, 0.42)",
+  "illus": " 73",
+  "illustrationVariant": "v9ba31efe"
+ },
+ {
+  "href": "/blog/friends-of-data-ian-macomber-ramp/",
+  "type": "Blog post",
+  "title": "Ian Macomber, Ramp: How a data team drives influence",
+  "sol": [
+   "Data leader:rgb(92, 177, 152)"
+  ],
+  "meta": [
+   "Solution/ Data leader",
+   "5 min"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/cec4cb730e7a2f209fb39b713ff88708424f2248-2400x1260.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(92, 177, 152, 0.42)",
+  "illus": " 73",
+  "illustrationVariant": "v9ba31efe"
+ },
+ {
+  "href": "/blog/friends-of-data-tony-avino-hubspot/",
+  "type": "Blog post",
+  "title": "Tony Avino, HubSpot: Keeping data updated and trusted",
+  "sol": [
+   "Data leader:rgb(92, 177, 152)"
+  ],
+  "meta": [
+   "Solution/ Data leader",
+   "5 min"
+  ],
+  "img": null,
+  "srcset": null,
+  "border": "rgba(92, 177, 152, 0.42)",
+  "illus": " 73",
+  "illustrationVariant": "v9ba31efe"
+ },
+ {
+  "href": "/blog/how-gamechanger-determined-lifetime-value/",
+  "type": "Blog post",
+  "title": "How GameChanger used LTV modeling to predict and prevent churn",
+  "sol": [
+   "Customer success:rgb(251, 249, 249)"
+  ],
+  "meta": [
+   "Solution/ Customer success"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/dd884d146bf1008b1c1958294a76edea9db630af-1680x1020.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(251, 249, 249, 0.19)",
+  "illus": " 9",
+  "illustrationVariant": "v471a961"
+ },
+ {
+  "href": "/blog/friends-of-data-daniel-sternberg/",
+  "type": "Blog post",
+  "title": "Daniel Sternberg: How data drives craft at Notion",
+  "sol": [
+   "Data leader:rgb(92, 177, 152)"
+  ],
+  "meta": [
+   "Solution/ Data leader",
+   "4 min"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/c1bacb6a71772572a795c614d504d346d0f0c4d9-2400x1260.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(92, 177, 152, 0.42)",
+  "illus": " 73",
+  "illustrationVariant": "v9ba31efe"
+ },
+ {
+  "href": "/blog/boost-collaboration-between-product-and-data/",
+  "type": "Blog post",
+  "title": "How to boost collaboration between product and data teams",
+  "sol": [
+   "Product:rgb(113, 122, 148)"
+  ],
+  "meta": [
+   "Solution/ Product"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/e7f928ed7812524d5699658ac0ef6d0c64bbcd8e-1680x1020.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(113, 122, 148, 0.52)",
+  "illus": " 46",
+  "illustrationVariant": "va791c4fd"
+ },
+ {
+  "href": "/blog/stubhub-building-a-big-picture-data-team/",
+  "type": "Blog post",
+  "title": "Faster and Better Insights: Building a Big-Picture Data Team at StubHub",
+  "sol": [
+   "Marketing:rgb(95, 80, 157)",
+   "Sales:rgb(205, 168, 73)"
+  ],
+  "meta": [
+   "Solution/ Marketing Sales"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/d557d9512ededd797bf34a390bcb2a692200b7c6-1680x1020.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(95, 80, 157, 0.53)",
+  "illus": " 139",
+  "illustrationVariant": "vb2b92e58"
+ },
+ {
+  "href": "/blog/data-driven-decisions-with-kpi-dashboards/",
+  "type": "Blog post",
+  "title": "Make data-driven decisions with KPI dashboards",
+  "sol": [
+   "Data leader:rgb(92, 177, 152)",
+   "Core data team:rgb(164, 119, 178)"
+  ],
+  "meta": [
+   "Solution/ Data leader Core data team",
+   "5 min"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/89b097b79b266cc44a77be0427b0a88ae0367310-1680x1020.jpg?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(92, 177, 152, 0.42)",
+  "illus": " 73",
+  "illustrationVariant": "v9ba31efe"
+ },
+ {
+  "href": "/blog/sentiment-analysis/",
+  "type": "Blog post",
+  "title": "How to build a sentiment analysis model in Python",
+  "sol": [
+   "Customer success:rgb(251, 249, 249)"
+  ],
+  "meta": [
+   "Solution/ Customer success"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/aba9da57ed735f58249e979ec258f5f81f30280f-1680x1020.webp?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(251, 249, 249, 0.19)",
+  "illus": " 9",
+  "illustrationVariant": "v471a961"
+ },
+ {
+  "href": "/resources/bi-buying-guide/",
+  "type": "eBook",
+  "title": "Should you replace your BI tool with an agent?",
+  "sol": [
+   "Data leader:rgb(92, 177, 152)"
+  ],
+  "meta": [
+   "Solution/ Data leader",
+   "6 min"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/d834e3222c70971bf9e2a66fab9201d647690275-3446x2352.jpg?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(92, 177, 152, 0.42)",
+  "illus": " 73",
+  "illustrationVariant": "v9ba31efe"
+ },
+ {
+  "href": "/resources/data-team-governance-template/",
+  "type": "eBook",
+  "title": "A guide to data governance",
+  "sol": [
+   "Data leader:rgb(92, 177, 152)"
+  ],
+  "meta": [
+   "Solution/ Data leader"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/7571aec177b893bebae9b21ff3eadf27d4100424-3446x2352.jpg?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(92, 177, 152, 0.42)",
+  "illus": " 73",
+  "illustrationVariant": "v9ba31efe"
+ },
+ {
+  "href": "/resources/calendly-hex-one-pager/",
+  "type": "one-pager",
+  "title": "Calendly: 2x faster with Hex",
+  "sol": [
+   "Marketing:rgb(95, 80, 157)"
+  ],
+  "meta": [
+   "Solution/ Marketing"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/eab4fc0b585daac8f8062c26114644984fce81e2-1723x1176.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(95, 80, 157, 0.53)",
+  "illus": " 139",
+  "illustrationVariant": "vb2b92e58"
+ },
+ {
+  "href": "/templates/data-visualization/python-visualization/",
+  "type": "Use case",
+  "title": "Python Data Visualization",
+  "sol": [
+   "Product:rgb(113, 122, 148)"
+  ],
+  "meta": [
+   "Solution/ Product"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/18c8a12ea94d0e89a5450f3c50d52643fa9e542f-1680x1020.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(113, 122, 148, 0.52)",
+  "illus": " 46",
+  "illustrationVariant": "va791c4fd"
+ },
+ {
+  "href": "/resources/llms-snowflake-cortex/",
+  "type": "eBook",
+  "title": "The Snowflake + Hex guide to AI-ready data",
+  "sol": [
+   "Data leader:rgb(92, 177, 152)"
+  ],
+  "meta": [
+   "Solution/ Data leader"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/ecae8ae972cf251419d1c6c461c881d0a2a4245c-3446x2352.jpg?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(92, 177, 152, 0.42)",
+  "illus": " 73",
+  "illustrationVariant": "v9ba31efe"
+ },
+ {
+  "href": "/resources/data-app-om1/",
+  "type": "eBook",
+  "title": "How OM1 is transforming self-serve with a data app",
+  "sol": [
+   "Marketing:rgb(95, 80, 157)",
+   "Sales:rgb(205, 168, 73)"
+  ],
+  "meta": [
+   "Solution/ Marketing Sales"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/c294a1e5846e2766d2514b6815f4afae1d4e5629-3446x2352.png?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(95, 80, 157, 0.53)",
+  "illus": " 139",
+  "illustrationVariant": "vb2b92e58"
+ },
+ {
+  "href": "/resources/llms-snowflake-cortex/",
+  "type": "eBook",
+  "title": "The Snowflake + Hex guide to AI-ready data",
+  "sol": [
+   "Data leader:rgb(92, 177, 152)"
+  ],
+  "meta": [
+   "Solution/ Data leader"
+  ],
+  "img": "https://cdn.sanity.io/images/e92memrj/production/ecae8ae972cf251419d1c6c461c881d0a2a4245c-3446x2352.jpg?w=800&auto=format",
+  "srcset": null,
+  "border": "rgba(92, 177, 152, 0.42)",
+  "illus": " 73",
+  "illustrationVariant": "v9ba31efe"
+ }
+]

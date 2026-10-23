@@ -1,0 +1,45 @@
+# capability-exploratory-analysis @390 — doc height 10349 (1440: 8072)
+
+## Sections (matched by component class from the 1440 section list)
+- 0 Hero__ @1440 [98,200,1244,427] → @390 [27, 144, 337, 500] (+3 more)  | H1:The fastest way to why
+- 1 Quote__ @1440 [29,627,1382,489] → @390 [8, 644, 374, 661]  | 
+- 2 H2__FadeIn @1440 [98,1116,1244,314] → @390 [27, 1305, 337, 528] (+1 more)  | H2:Goodbye fragmentation, hello insights
+- 3 TwoUp__ @1440 [98,1430,1244,732] → @390 [27, 1833, 337, 677] (+9 more)  | H2:Explore on your terms
+- 4 TwoUp__ @1440 [98,2162,1244,836] → @390 [27, 1833, 337, 677] (+9 more)  | H2:Data on-demand
+- 5 TwoUp__ @1440 [98,2998,1244,772] → @390 [27, 1833, 337, 677] (+9 more)  | H2:Fast feedback loops
+- 6 TwoUp__ @1440 [98,3775,1244,833] → @390 [27, 1833, 337, 677] (+9 more)  | H2:Get an AI assist
+- 7 TwoUp__ @1440 [98,4608,1244,827] → @390 [27, 1833, 337, 677] (+9 more)  | H2:Go from analysis to data app in minutes
+- 8 H2__FadeIn @1440 [98,5435,1244,394] → @390 [27, 1305, 337, 528] (+1 more)  | H2:Get started fast with components and templates
+- 9 Recommendations__ @1440 [98,5824,1244,1090] → @390 [27, 6130, 337, 2563]  | H4:Ad-hoc exploration / H4:Interactive Data stories
+- 10 OutroTout__ @1440 [29,6919,1382,571] → @390 [8, 8693, 374, 511] (+5 more)  | H2:Questions? Talk to us
+
+## Text roles @390 (H1–H4, lead/body P, buttons): tag [x,y,w,h] «text» font/size/lh
+- H1 [21, 228, 349, 115] «The fastest way to why» fontFamily:"PP Formula SemiExtended"; fontSize:42px; fontWeight:700; lineHeight:54.6px; letterSpacing:-1.05px; padding:0px 6px 6px; margin:0px -6px 20px; textAlign:center
+- P [27, 363, 337, 120] «Go from quick question to deep dive to data app al» fontSize:20px; fontWeight:300; lineHeight:30px; margin:0px 0px 25px; textAlign:center
+- H2 [27, 1353, 337, 318] «Goodbye fragmentation, hello insights» fontFamily:"PP Formula"; fontSize:60px; fontWeight:800; lineHeight:78px; letterSpacing:-1.5px; padding:0px 6px 6px; margin:0px 0px 12px; textAlign:center
+- P [27, 1683, 337, 150] «Hex has everything you need to keep pace with your» fontSize:20px; fontWeight:300; lineHeight:30px; textAlign:center
+- H2 [27, 2182, 337, 78] «Explore on your terms» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px
+- P [27, 2280, 337, 120] «Hex combines SQL, Python, pivots, spreadsheet form» fontSize:20px; fontWeight:300; lineHeight:30px
+- H2 [27, 2929, 271, 39] «Data on-demand» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px
+- P [27, 2988, 337, 120] «The data you need is never out of reach. Easily fi» fontSize:20px; fontWeight:300; lineHeight:30px
+- H2 [27, 3604, 319, 39] «Fast feedback loops» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px
+- P [27, 3663, 337, 150] «Rapid iteration has a new standard. Comments, aler» fontSize:20px; fontWeight:300; lineHeight:30px
+- H2 [27, 4333, 252, 39] «Get an AI assist» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px
+- P [27, 4392, 337, 120] «Not a pythonista? Need to fix a bug? Want to short» fontSize:20px; fontWeight:300; lineHeight:30px
+- H2 [27, 5056, 337, 78] «Go from analysis to data app in minutes» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px
+- P [27, 5154, 337, 180] «Toggle the drag-and-drop builder to unleash your a» fontSize:20px; fontWeight:300; lineHeight:30px
+- H2 [27, 5524, 337, 474] «Get started fast with components and templates» fontFamily:"PP Formula"; fontSize:60px; fontWeight:800; lineHeight:78px; letterSpacing:-1.5px; padding:0px 6px 6px; margin:0px 0px 12px; textAlign:center
+- P [27, 6010, 337, 120] «Start from commonly used query logic unique to you» fontSize:20px; fontWeight:300; lineHeight:30px; textAlign:center
+- H4 [53, 6434, 285, 26] «Ad-hoc exploration» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 6px
+- P [53, 6501, 285, 48] «Ad-hoc or deep-dive, Hex is the fastest path from » fontSize:16px; fontWeight:300; lineHeight:24px
+- H4 [53, 6831, 285, 26] «Interactive Data stories» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 6px
+- P [53, 6899, 285, 120] «Build narrative data stories that combine charts, » fontSize:16px; fontWeight:300; lineHeight:24px
+- H4 [53, 7301, 285, 26] «No-code Notebooks» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 6px
+- P [53, 7333, 285, 48] «Powerful data exploration without writing a line o» fontSize:16px; fontWeight:300; lineHeight:24px
+- H4 [53, 7663, 285, 26] «Polyglot Notebooks» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 6px
+- P [53, 7695, 285, 24] «Polyglot notebooks for data science» fontSize:16px; fontWeight:300; lineHeight:24px
+- H4 [53, 8001, 285, 26] «SQL Notebooks» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 6px
+- P [53, 8068, 285, 120] «Write SQL alongside Python, charts, and narrative » fontSize:16px; fontWeight:300; lineHeight:24px
+- P [53, 8563, 285, 24] «SQL finally gets literate programming» fontSize:16px; fontWeight:300; lineHeight:24px
+- H2 [67, 8825, 256, 78] «Questions? Talk to us» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px
+- P [67, 8913, 256, 90] «Get in touch with us to see a demo or find out whi» fontSize:20px; fontWeight:300; lineHeight:30px

@@ -1,0 +1,221 @@
+{
+  "id": "content.report-section",
+  "category": "content",
+  "purpose": "Numbered report section: number card + H2, lead, alternating two-ups (text vs. chart with survey-question chip) and a full-width pull quote.",
+  "variants": [],
+  "content": {
+    "number": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 2,
+      "observedWords": [
+        1
+      ],
+      "measuredFrom": [
+        "specs/company.md:364"
+      ]
+    },
+    "title": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 13,
+      "observedWords": [
+        10
+      ],
+      "measuredFrom": [
+        "specs/company.md:3535"
+      ]
+    },
+    "lead": {
+      "kind": "richText",
+      "required": true,
+      "maxBlocks": 1,
+      "blockTypes": [
+        "paragraph"
+      ],
+      "maxWordsPerBlock": 67,
+      "measuredFrom": [
+        "reference/pages/company/dom/state-of-data-teams--sharedStyles__SectionWrapper.html:1"
+      ],
+      "placeholderInClone": true
+    },
+    "twoUps": {
+      "kind": "list",
+      "required": true,
+      "minItems": 1,
+      "maxItems": 4,
+      "measuredFrom": [
+        "specs/company.md:364"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "heading": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 10,
+            "observedWords": [
+              8
+            ],
+            "measuredFrom": [
+              "specs/company.md:3534"
+            ]
+          },
+          "body": {
+            "kind": "richText",
+            "required": true,
+            "maxBlocks": 3,
+            "blockTypes": [
+              "paragraph"
+            ],
+            "maxWordsPerBlock": 67,
+            "measuredFrom": [
+              "reference/pages/company/dom/state-of-data-teams--sharedStyles__SectionWrapper.html:1"
+            ],
+            "placeholderInClone": true
+          },
+          "question": {
+            "kind": "text",
+            "required": false,
+            "maxWords": 24,
+            "observedWords": [
+              19,
+              14,
+              14,
+              13,
+              14,
+              8,
+              14
+            ],
+            "measuredFrom": [
+              "specs/company.md:3629",
+              "specs/company.md:3630",
+              "specs/company.md:3632",
+              "specs/company.md:3634"
+            ]
+          },
+          "chart": {
+            "kind": "media",
+            "required": true,
+            "roles": [
+              "image.data-chart"
+            ],
+            "alt": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 18,
+              "observedWords": [
+                14,
+                14
+              ],
+              "measuredFrom": [
+                "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+                "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "pullQuote": {
+      "kind": "object",
+      "required": false,
+      "fields": {
+        "quote": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 15,
+          "observedWords": [
+            6,
+            12,
+            9,
+            7
+          ],
+          "measuredFrom": [
+            "specs/company.md:3639",
+            "specs/company.md:3643",
+            "specs/company.md:3647",
+            "specs/company.md:3651"
+          ]
+        },
+        "author": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 8,
+          "observedWords": [
+            4,
+            4,
+            6,
+            5
+          ],
+          "measuredFrom": [
+            "specs/company.md:3640",
+            "specs/company.md:3644",
+            "specs/company.md:3648",
+            "specs/company.md:3652"
+          ]
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "stack-columns",
+      "detail": "two-ups stack",
+      "measuredFrom": [
+        "specs/company.md:366"
+      ]
+    }
+  ],
+  "constraints": {
+    "consecutiveAllowed": true
+  },
+  "measuredFrom": [
+    "specs/company.md:364",
+    "src/pages/companyResources/StateOfDataTeamsPage.jsx:5"
+  ],
+  "wordBudgets": {
+    "number": 2,
+    "pullQuote.author": 8,
+    "pullQuote.quote": 15,
+    "title": 13,
+    "twoUps[].chart.alt": 18,
+    "twoUps[].heading": 10,
+    "twoUps[].question": 24
+  },
+  "richTextBudgets": {
+    "lead": {
+      "maxBlocks": 1,
+      "maxWordsPerBlock": 67,
+      "blockTypes": [
+        "paragraph"
+      ]
+    },
+    "twoUps[].body": {
+      "maxBlocks": 3,
+      "maxWordsPerBlock": 67,
+      "blockTypes": [
+        "paragraph"
+      ]
+    }
+  },
+  "assetRoles": [
+    "image.data-chart"
+  ],
+  "usedByTemplates": [
+    "template.report"
+  ],
+  "observedThemes": [
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__content.report-section",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

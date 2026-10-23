@@ -1,0 +1,143 @@
+{
+  "id": "proof.stories-two-up",
+  "category": "proof",
+  "purpose": "Sunken band of one or two centred customer quotes (logo, quote with bold emphasis, name + title).",
+  "variants": [
+    "two-up",
+    "quotes-multiple"
+  ],
+  "content": {
+    "stories": {
+      "kind": "list",
+      "required": true,
+      "minItems": 1,
+      "maxItems": 2,
+      "measuredFrom": [
+        "CLONE_SPEC.md:350",
+        "specs/product.md:682"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "logo": {
+            "kind": "media",
+            "required": true,
+            "roles": [
+              "logo.customer"
+            ],
+            "alt": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 18,
+              "observedWords": [
+                14,
+                14
+              ],
+              "measuredFrom": [
+                "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+                "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+              ]
+            }
+          },
+          "quote": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 34,
+            "observedWords": [
+              27
+            ],
+            "measuredFrom": [
+              "CLONE_SPEC.md:352"
+            ]
+          },
+          "emphasis": {
+            "kind": "text",
+            "required": false,
+            "maxWords": 12,
+            "observedWords": [
+              9
+            ],
+            "measuredFrom": [
+              "CLONE_SPEC.md:351"
+            ]
+          },
+          "name": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 5,
+            "observedWords": [
+              4,
+              4
+            ],
+            "measuredFrom": [
+              "CLONE_SPEC.md:351",
+              "CLONE_SPEC.md:352"
+            ]
+          },
+          "title": {
+            "kind": "text",
+            "required": false,
+            "maxWords": 8,
+            "observedWords": [
+              6,
+              6,
+              5
+            ],
+            "measuredFrom": [
+              "CLONE_SPEC.md:281",
+              "CLONE_SPEC.md:286",
+              "specs/product.md:154"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "stack-columns",
+      "detail": "quotes stack",
+      "measuredFrom": [
+        "CLONE_SPEC.md:353"
+      ]
+    }
+  ],
+  "constraints": {},
+  "measuredFrom": [
+    "CLONE_SPEC.md:348",
+    "specs/product.md:682"
+  ],
+  "sourceEvidence": [
+    "src/components/sections/CustomerStoriesTwoUp.jsx:76"
+  ],
+  "wordBudgets": {
+    "stories[].emphasis": 12,
+    "stories[].logo.alt": 18,
+    "stories[].name": 5,
+    "stories[].quote": 34,
+    "stories[].title": 8
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "logo.customer"
+  ],
+  "usedByTemplates": [
+    "template.home",
+    "template.integration-detail",
+    "template.product-feature"
+  ],
+  "observedThemes": [
+    "dark",
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__proof.stories-two-up",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

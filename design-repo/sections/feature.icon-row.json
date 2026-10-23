@@ -1,0 +1,81 @@
+{
+  "id": "feature.icon-row",
+  "category": "feature",
+  "purpose": "Three centred icon + H3 + text columns.",
+  "variants": [],
+  "content": {
+    "items": {
+      "kind": "list",
+      "required": true,
+      "minItems": 3,
+      "maxItems": 3,
+      "measuredFrom": [
+        "specs/product.md:591"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "title": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 3,
+            "observedWords": [
+              2,
+              2
+            ],
+            "measuredFrom": [
+              "specs/product.md:591"
+            ]
+          },
+          "description": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 34,
+            "observedWords": [
+              27,
+              25
+            ],
+            "measuredFrom": [
+              "specs/product.md:591"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "stack-columns",
+      "detail": "columns stack",
+      "measuredFrom": [
+        "specs/product.md:591"
+      ]
+    }
+  ],
+  "constraints": {},
+  "measuredFrom": [
+    "specs/product.md:591"
+  ],
+  "wordBudgets": {
+    "items[].description": 34,
+    "items[].title": 3
+  },
+  "richTextBudgets": {},
+  "assetRoles": [],
+  "usedByTemplates": [
+    "template.product-v1"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__feature.icon-row",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

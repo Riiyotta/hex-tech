@@ -1,0 +1,118 @@
+{
+  "id": "proof.quote-tiles",
+  "category": "proof",
+  "purpose": "Grid of primary-button-styled quote tiles: grayscale logo, quote divider and a short quote.",
+  "variants": [],
+  "content": {
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 5,
+      "observedWords": [
+        4
+      ],
+      "measuredFrom": [
+        "specs/company.md:343"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 25,
+      "observedWords": [
+        20
+      ],
+      "measuredFrom": [
+        "specs/company.md:343"
+      ]
+    },
+    "tiles": {
+      "kind": "list",
+      "required": true,
+      "minItems": 3,
+      "maxItems": 3,
+      "measuredFrom": [
+        "specs/company.md:343"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "logo": {
+            "kind": "media",
+            "required": true,
+            "roles": [
+              "logo.customer"
+            ],
+            "alt": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 18,
+              "observedWords": [
+                14,
+                14
+              ],
+              "measuredFrom": [
+                "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+                "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+              ]
+            }
+          },
+          "quote": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 29,
+            "observedWords": [
+              23
+            ],
+            "measuredFrom": [
+              "specs/company.md:343"
+            ]
+          },
+          "href": {
+            "kind": "href",
+            "required": false
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.phone-sm}",
+      "change": "stack-columns",
+      "detail": "tiles 1 column",
+      "measuredFrom": [
+        "specs/company.md:345"
+      ]
+    }
+  ],
+  "constraints": {},
+  "measuredFrom": [
+    "specs/company.md:343"
+  ],
+  "wordBudgets": {
+    "description": 25,
+    "headline": 5,
+    "tiles[].logo.alt": 18,
+    "tiles[].quote": 29
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "logo.customer"
+  ],
+  "usedByTemplates": [
+    "template.guide-landing"
+  ],
+  "observedThemes": [
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__proof.quote-tiles",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

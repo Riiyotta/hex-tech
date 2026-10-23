@@ -1,0 +1,12 @@
+# integrations-dremio @390 — doc height 3196 (1440: 2149)
+
+## Sections (matched by component class from the 1440 section list)
+- 0 DataConnectionIlly__ @1440 [827,1017,280,88] → @390 [48, 1640, 357, 310] (+4 more)  | 
+- 1 DataConnectionIlly__ @1440 [717,1165,500,162] → @390 [48, 1640, 357, 310] (+4 more)  | 
+
+## Text roles @390 (H1–H4, lead/body P, buttons): tag [x,y,w,h] «text» font/size/lh
+- H1 [48, 309, 294, 296] «Run fast & interactive queries directly on your da» fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px; margin:0px 0px 20px; textAlign:center
+- P [48, 625, 294, 120] «Hex easily connects with Dremio to power data work» fontSize:20px; fontWeight:300; lineHeight:30px; margin:0px 0px 25px; textAlign:center
+- H2 [48, 1083, 357, 39] «How it works» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px; margin:0px 0px 20px
+- P [48, 1142, 357, 192] «It only takes a couple clicks to set up a connecti» fontSize:18px; lineHeight:32px; margin:0px 0px 24px
+- P [48, 1358, 357, 160] «Hex has first class SQL support, so you can build » fontSize:18px; lineHeight:32px

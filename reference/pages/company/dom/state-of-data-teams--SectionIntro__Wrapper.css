@@ -1,0 +1,18 @@
+.KbzOF { align-items: flex-start; cursor: default; display: flex; flex-direction: column; padding: 10px; position: relative; text-align: left; border-radius: 12px; background: linear-gradient(105deg, rgba(245, 192, 192, 0) 10.56%, rgba(245, 192, 192, 0.02) 108.41%), rgba(253, 253, 253, 0.4); box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 11px 0px inset, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 16px 24px -8px, rgba(0, 0, 0, 0.05) 0px 8px 12px -4px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px, transparent 0px 0px 0px 0px, transparent 0px 0px 0px 0px; backdrop-filter: blur(7.5px); }
+.kwRtLn { margin: 0px 0px 25px; font-size: 20px; line-height: 1.5; font-weight: 300; color: var(--fontColorDEFAULT, #31263B); }
+.kwRtLn:last-child { margin-bottom: 0px; }
+.kirBIP { margin: 0px 0px 20px; font-size: 16px; line-height: 1.5; font-weight: 300; color: var(--fontColorDEFAULT, #31263B); }
+.kirBIP:last-child { margin-bottom: 0px; }
+.hBmPOb { font-family: "PP Editorial New", sans-serif; font-weight: 200; font-style: italic; font-size: clamp(3rem, 2.4375rem + 2vw, 4rem); line-height: 1; }
+.ssvqn { font-family: "PP Editorial New", sans-serif; font-weight: 200; font-style: italic; font-size: clamp(2rem, 1.4375rem + 2vw, 3rem); line-height: 1.15; }
+.gBvGdn { font-size: clamp(1rem, 0.8594rem + 0.5vw, 1.25rem); margin-bottom: 0px; }
+.gBvGdn span { font-weight: 600; }
+.gBvGdn i { font-style: italic; }
+.Fmlnu { display: flex; flex-direction: column; gap: clamp(10px, 0.2734rem + 1.25vw, 20px); }
+.Fmlnu h2, .Fmlnu h3 { padding-bottom: clamp(5px, 0.1367rem + 0.625vw, 10px); }
+.bIMDKo.bIMDKo { padding: 40px; flex: 1 1 0px; min-width: 485px; gap: 40px; }
+@media (max-width: 1000px) { .bIMDKo.bIMDKo { min-width: 100%; } }
+.cwlkRc { display: flex; flex-direction: column; gap: 30px; }
+.jWLkII { display: flex; flex-direction: column; gap: 10px; }
+.dhWGrh { display: flex; align-items: flex-start; gap: clamp(30px, 0.1172rem + 6.25vw, 80px); width: 100%; }
+@media (max-width: 1000px) { .dhWGrh { flex-direction: column-reverse; align-items: stretch; } }

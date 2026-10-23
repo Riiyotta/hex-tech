@@ -1,0 +1,24 @@
+# integrations @390 — doc height 6587 (1440: 4001)
+
+## Sections (matched by component class from the 1440 section list)
+- 0 HeadingWithCallout__ @1440 [140,200,1160,236] → @390 [48, 144, 294, 480] (+4 more)  | H1:Integrate withyour whole stack
+- 1 IntegrationsPageContent__ @1440 [140,496,1160,960] → @390 [8, 144, 374, 5098] (+30 more)  | H3:Storage & compute
+- 2 IntegrationsPageContent__ @1440 [140,1506,1160,324] → @390 [8, 144, 374, 5098] (+30 more)  | H3:Metadata & metrics
+- 3 IntegrationsPageContent__ @1440 [140,1881,1160,300] → @390 [8, 144, 374, 5098] (+30 more)  | H3:Data catalogs & observability
+- 4 IntegrationsPageContent__ @1440 [140,2231,1160,266] → @390 [8, 144, 374, 5098] (+30 more)  | H3:Code sync & versioning
+- 5 IntegrationsPageContent__ @1440 [140,2548,1160,266] → @390 [8, 144, 374, 5098] (+30 more)  | H3:Machine Learning
+- 6 IntegrationsPageContent__ @1440 [140,2864,1160,300] → @390 [8, 144, 374, 5098] (+30 more)  | H3:Orchestration & workflows
+
+## Text roles @390 (H1–H4, lead/body P, buttons): tag [x,y,w,h] «text» font/size/lh
+- H1 [48, 144, 294, 198] «Integrate with» fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px; margin:0px 0px 20px
+- P [48, 362, 294, 120] «Hex brings of all your favorite tools, languages, » fontSize:20px; fontWeight:300; lineHeight:30px
+- H3 [48, 684, 294, 26] «Storage & compute» fontFamily:"PP Formula"; fontSize:20px; fontWeight:800; lineHeight:26px; letterSpacing:-0.5px
+- P [48, 720, 294, 96] «Hex sits right on top of your data warehouse. Data» fontSize:16px; fontWeight:300; lineHeight:24px
+- H3 [48, 2836, 294, 26] «Metadata & metrics» fontFamily:"PP Formula"; fontSize:20px; fontWeight:800; lineHeight:26px; letterSpacing:-0.5px
+- P [48, 2872, 294, 96] «Hex syncs with metadata and semantic layer tools. » fontSize:16px; fontWeight:300; lineHeight:24px
+- H3 [48, 3448, 294, 52] «Data catalogs & observability» fontFamily:"PP Formula"; fontSize:20px; fontWeight:800; lineHeight:26px; letterSpacing:-0.5px
+- P [48, 3510, 294, 72] «Enterprise observability and cataloging tools can » fontSize:16px; fontWeight:300; lineHeight:24px
+- H3 [48, 4062, 294, 26] «Code sync & versioning» fontFamily:"PP Formula"; fontSize:20px; fontWeight:800; lineHeight:26px; letterSpacing:-0.5px
+- H3 [48, 4428, 294, 26] «Machine Learning» fontFamily:"PP Formula"; fontSize:20px; fontWeight:800; lineHeight:26px; letterSpacing:-0.5px
+- H3 [48, 4654, 294, 26] «Orchestration & workflows» fontFamily:"PP Formula"; fontSize:20px; fontWeight:800; lineHeight:26px; letterSpacing:-0.5px
+- P [48, 4690, 294, 72] «Trigger Hex analytical flows and app runs as an ou» fontSize:16px; fontWeight:300; lineHeight:24px

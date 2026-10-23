@@ -1,0 +1,140 @@
+{
+  "id": "feature.demo-accordion",
+  "category": "feature",
+  "purpose": "Demo section: eyebrow, gradient H2, lead, 'Watch demo' pill, radio option list driving a media panel.",
+  "variants": [],
+  "content": {
+    "eyebrow": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 4,
+      "observedWords": [
+        3
+      ],
+      "measuredFrom": [
+        "specs/product.md:483"
+      ]
+    },
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 8,
+      "observedWords": [
+        6
+      ],
+      "measuredFrom": [
+        "specs/product.md:483"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 28,
+      "observedWords": [
+        22
+      ],
+      "measuredFrom": [
+        "specs/product.md:484"
+      ]
+    },
+    "options": {
+      "kind": "list",
+      "required": true,
+      "minItems": 2,
+      "maxItems": 4,
+      "measuredFrom": [
+        "specs/product.md:480"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "title": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 7,
+            "observedWords": [
+              5
+            ],
+            "measuredFrom": [
+              "specs/product.md:483"
+            ]
+          },
+          "description": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 39,
+            "observedWords": [
+              31
+            ],
+            "measuredFrom": [
+              "specs/product.md:484"
+            ]
+          },
+          "media": {
+            "kind": "media",
+            "required": true,
+            "roles": [
+              "video.loop",
+              "image.product-screenshot"
+            ],
+            "alt": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 18,
+              "observedWords": [
+                14,
+                14
+              ],
+              "measuredFrom": [
+                "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+                "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "stack-columns",
+      "detail": "selector above media",
+      "measuredFrom": [
+        "specs/product.md:485"
+      ]
+    }
+  ],
+  "constraints": {},
+  "measuredFrom": [
+    "specs/product.md:476"
+  ],
+  "wordBudgets": {
+    "description": 28,
+    "eyebrow": 4,
+    "headline": 8,
+    "options[].description": 39,
+    "options[].media.alt": 18,
+    "options[].title": 7
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "image.product-screenshot",
+    "video.loop"
+  ],
+  "usedByTemplates": [
+    "template.product-feature"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__feature.demo-accordion",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

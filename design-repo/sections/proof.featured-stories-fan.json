@@ -1,0 +1,118 @@
+{
+  "id": "proof.featured-stories-fan",
+  "category": "proof",
+  "purpose": "Static arc of five square story cards lifted on a -80/-35/0/-35/-80px curve.",
+  "variants": [],
+  "content": {
+    "cards": {
+      "kind": "list",
+      "required": true,
+      "minItems": 5,
+      "maxItems": 5,
+      "measuredFrom": [
+        "specs/company.md:285"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "logo": {
+            "kind": "media",
+            "required": true,
+            "roles": [
+              "logo.customer"
+            ],
+            "alt": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 18,
+              "observedWords": [
+                14,
+                14
+              ],
+              "measuredFrom": [
+                "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+                "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+              ]
+            }
+          },
+          "title": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 3,
+            "observedWords": [
+              2
+            ],
+            "measuredFrom": [
+              "specs/company.md:381"
+            ]
+          },
+          "href": {
+            "kind": "href",
+            "required": true
+          },
+          "media": {
+            "kind": "media",
+            "required": false,
+            "roles": [
+              "image.editorial-thumbnail"
+            ],
+            "alt": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 18,
+              "observedWords": [
+                14,
+                14
+              ],
+              "measuredFrom": [
+                "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+                "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "default": "none"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.phone-sm}",
+      "change": "resize-type",
+      "detail": "fan 454 wide, cards ~145 tall, still offset",
+      "measuredFrom": [
+        "specs/company.md:290"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/company.md:285"
+  ],
+  "wordBudgets": {
+    "cards[].logo.alt": 18,
+    "cards[].media.alt": 18,
+    "cards[].title": 3
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "image.editorial-thumbnail",
+    "logo.customer"
+  ],
+  "usedByTemplates": [
+    "template.customers-index"
+  ],
+  "observedThemes": [
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__proof.featured-stories-fan",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

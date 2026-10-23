@@ -1,0 +1,124 @@
+{
+  "id": "hero.solutions-hub",
+  "category": "hero",
+  "purpose": "Hub hero: opaque glass panel with italic lead and a rotating 74px word, lead and two CTAs.",
+  "variants": [],
+  "content": {
+    "italicLead": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 3,
+      "observedWords": [
+        2
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:172"
+      ]
+    },
+    "rotatingWords": {
+      "kind": "list",
+      "required": true,
+      "minItems": 6,
+      "maxItems": 6,
+      "measuredFrom": [
+        "specs/solutions.md:175"
+      ],
+      "item": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 3,
+        "observedWords": [
+          2
+        ],
+        "measuredFrom": [
+          "specs/solutions.md:175"
+        ]
+      }
+    },
+    "description": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 9,
+      "observedWords": [
+        7
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:176"
+      ]
+    },
+    "actions": {
+      "kind": "list",
+      "required": true,
+      "minItems": 2,
+      "maxItems": 2,
+      "measuredFrom": [
+        "specs/solutions.md:177"
+      ],
+      "item": {
+        "kind": "action",
+        "required": true,
+        "label": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 10,
+          "observedWords": [
+            4,
+            3,
+            4,
+            8
+          ],
+          "measuredFrom": [
+            "CLONE_SPEC.md:208",
+            "specs/product.md:258",
+            "specs/solutions.md:291"
+          ]
+        },
+        "variants": [
+          "primary",
+          "secondary"
+        ],
+        "sizes": [
+          "lg"
+        ]
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "rotator-cycle"
+    ],
+    "default": "rotator-cycle"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.phone}",
+      "change": "resize-type",
+      "detail": "rotating word 42/81",
+      "measuredFrom": [
+        "specs/solutions.md:174"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/solutions.md:166"
+  ],
+  "wordBudgets": {
+    "actions[].label": 10,
+    "description": 9,
+    "italicLead": 3,
+    "rotatingWords[]": 3
+  },
+  "richTextBudgets": {},
+  "assetRoles": [],
+  "usedByTemplates": [
+    "template.solutions-hub"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__hero.solutions-hub",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

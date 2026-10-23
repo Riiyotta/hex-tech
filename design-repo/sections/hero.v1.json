@@ -1,0 +1,185 @@
+{
+  "id": "hero.v1",
+  "category": "hero",
+  "purpose": "V1 marketing hero: centred 74px gradient H1, lead and two md CTAs; app-builder variant adds pill + app strip.",
+  "variants": [
+    "centered",
+    "app-builder"
+  ],
+  "content": {
+    "announcement": {
+      "kind": "object",
+      "required": false,
+      "fields": {
+        "label": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 3,
+          "observedWords": [
+            2
+          ],
+          "measuredFrom": [
+            "specs/product.md:541"
+          ]
+        },
+        "text": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 4,
+          "observedWords": [
+            3
+          ],
+          "measuredFrom": [
+            "specs/product.md:134"
+          ]
+        },
+        "href": {
+          "kind": "href",
+          "required": true
+        },
+        "external": {
+          "kind": "boolean",
+          "required": false,
+          "measuredFrom": []
+        }
+      }
+    },
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 10,
+      "observedWords": [
+        5,
+        8
+      ],
+      "measuredFrom": [
+        "specs/product.md:541",
+        "specs/product.md:598"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 29,
+      "observedWords": [
+        23,
+        8
+      ],
+      "measuredFrom": [
+        "specs/product.md:575",
+        "specs/product.md:598"
+      ]
+    },
+    "actions": {
+      "kind": "list",
+      "required": true,
+      "minItems": 2,
+      "maxItems": 2,
+      "measuredFrom": [
+        "specs/product.md:201"
+      ],
+      "item": {
+        "kind": "action",
+        "required": true,
+        "label": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 10,
+          "observedWords": [
+            4,
+            3,
+            4,
+            8
+          ],
+          "measuredFrom": [
+            "CLONE_SPEC.md:208",
+            "specs/product.md:258",
+            "specs/solutions.md:291"
+          ]
+        },
+        "variants": [
+          "primary",
+          "secondary"
+        ],
+        "sizes": [
+          "lg",
+          "md"
+        ]
+      }
+    },
+    "media": {
+      "kind": "list",
+      "required": false,
+      "minItems": 1,
+      "maxItems": 5,
+      "measuredFrom": [
+        "specs/product.md:543"
+      ],
+      "item": {
+        "kind": "media",
+        "required": true,
+        "roles": [
+          "image.product-screenshot",
+          "video.loop"
+        ],
+        "alt": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 18,
+          "observedWords": [
+            14,
+            14
+          ],
+          "measuredFrom": [
+            "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+            "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+          ]
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "resize-type",
+      "detail": "V1 H1 scales down; actions wrap",
+      "measuredFrom": [
+        "specs/product.md:202"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/product.md:201",
+    "specs/product.md:539"
+  ],
+  "wordBudgets": {
+    "actions[].label": 10,
+    "announcement.label": 3,
+    "announcement.text": 4,
+    "description": 29,
+    "headline": 10,
+    "media[].alt": 18
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "image.product-screenshot",
+    "video.loop"
+  ],
+  "usedByTemplates": [
+    "template.product-v1"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__hero.v1",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

@@ -1,0 +1,24 @@
+/* integrations-bigquery section 1: every CSS rule from document.styleSheets whose selector matches a class used in this section (incl. @media/@supports wrappers), plus referenced @keyframes */
+.gFrqQS { display: grid; grid-column: 1 / -1; grid-template-columns: subgrid; }
+.gFrqQS[data-pile] { grid-row: 1 / -1; }
+.gFrqQS[data-content-grid] { grid-column: 2 / -2; grid-template-columns: repeat(var(--columns), 1fr); }
+.gFrqQS[data-content-grid] > * { grid-column: 1 / -1; }
+[data-content-grid]:where(.gFrqQS > *) { grid-column: 1 / -1; }
+:where(.gFrqQS > *) { grid-column: 2 / -2; }
+.gpEKlv { position: relative; background-color: rgb(15, 15, 21); border-top: 1px solid var(--grid500, #3a3138); border-bottom: 1px solid var(--grid500, #3a3138); }
+.fYeoSB { display: grid; grid-template-columns: 1fr !important; }
+@media (max-width: 1000px) { .fYeoSB { grid-template-columns: 1fr !important; } }
+.exEfzi { display: flex; flex-direction: column; grid-column: auto !important; }
+@media (max-width: 1000px) { .exEfzi:not(:last-child) { border-bottom: 1px solid var(--grid500, #3a3138); } }
+.gzvMnA { padding: 24px clamp(12px, 0.0469rem + 2.5vw, 32px) 40px; display: flex; flex-direction: column; place-items: center; place-content: center; flex-grow: 1; }
+.lfZNZi { text-align: center; max-width: 36rem; text-wrap: balance; }
+.fyyusK { display: flex; justify-content: center; padding: 0px 32px; }
+.lixOHC { display: flex; align-items: center; gap: 12px; }
+.daYlfC { display: flex; flex-direction: column; align-items: center; margin-top: 16px; }
+.daYlfC p { margin: 0px; text-align: center; }
+.daYlfC p:first-child { color: rgb(255, 255, 255); }
+.daYlfC p:nth-child(2) { font-size: 10px; }
+.hRdBmX { margin: 0px auto 16px; height: 52px; max-width: 200px; object-fit: contain; }
+@layer utility { .text-base { font-size: calc(0.875rem); line-height: 1.571; font-weight: 400; } }
+@layer utility { .text-l { line-height: 1.5; font-size: calc(1.25rem); font-weight: 300; } }
+@layer utility { .annotation { font-family: "Cinetype Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-weight: 400; font-size: calc(0.75rem); letter-spacing: 0.0833em; line-height: 1.571; } }

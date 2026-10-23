@@ -1,0 +1,118 @@
+{
+  "id": "conversion.outro-tout",
+  "category": "conversion",
+  "purpose": "Closing CTA: tron divider then a centred outline card with corner accent (H2, text, 1-2 lg buttons); band variant on a tinted band.",
+  "variants": [
+    "default",
+    "band"
+  ],
+  "content": {
+    "title": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 13,
+      "observedWords": [
+        6,
+        10,
+        4
+      ],
+      "measuredFrom": [
+        "specs/company.md:344",
+        "specs/product.md:162",
+        "specs/product.md:163"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 37,
+      "observedWords": [
+        29,
+        22
+      ],
+      "measuredFrom": [
+        "specs/product.md:162",
+        "specs/product.md:163"
+      ]
+    },
+    "actions": {
+      "kind": "list",
+      "required": true,
+      "minItems": 1,
+      "maxItems": 2,
+      "measuredFrom": [
+        "specs/product.md:160"
+      ],
+      "item": {
+        "kind": "action",
+        "required": true,
+        "label": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 5,
+          "observedWords": [
+            3,
+            4
+          ],
+          "measuredFrom": [
+            "CLONE_SPEC.md:208",
+            "specs/product.md:163"
+          ]
+        },
+        "variants": [
+          "primary",
+          "secondary"
+        ],
+        "sizes": [
+          "lg"
+        ]
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "resize-type",
+      "detail": "card padding 40/28; H2 30/39",
+      "measuredFrom": [
+        "specs/product.md:158"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/product.md:156",
+    "specs/solutions.md:322",
+    "specs/company.md:344"
+  ],
+  "sourceEvidence": [
+    "src/components/shared/OutroTout.jsx:19"
+  ],
+  "wordBudgets": {
+    "actions[].label": 5,
+    "description": 37,
+    "title": 13
+  },
+  "richTextBudgets": {},
+  "assetRoles": [],
+  "usedByTemplates": [
+    "template.guide-landing",
+    "template.product-feature",
+    "template.product-v1",
+    "template.solution-detail"
+  ],
+  "observedThemes": [
+    "dark",
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__conversion.outro-tout",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

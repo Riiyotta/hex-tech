@@ -1,0 +1,378 @@
+{
+  "id": "collection.templates-catalog",
+  "category": "collection",
+  "purpose": "Category sidebar (position: relative, not sticky) beside per-category sections: dark header with 'View all' button and a 2-column template-card grid.",
+  "variants": [],
+  "content": {
+    "categories": {
+      "kind": "list",
+      "required": true,
+      "minItems": 13,
+      "maxItems": 13,
+      "measuredFrom": [
+        "specs/company.md:323"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "title": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 4,
+            "observedWords": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              3,
+              2,
+              1,
+              2,
+              1,
+              2
+            ],
+            "measuredFrom": [
+              "specs/company.md:3053",
+              "specs/company.md:3057",
+              "specs/company.md:3061",
+              "specs/company.md:3065",
+              "specs/company.md:3069",
+              "specs/company.md:3073",
+              "specs/company.md:3077",
+              "specs/company.md:3081",
+              "specs/company.md:3085",
+              "specs/company.md:3089",
+              "specs/company.md:3093",
+              "specs/company.md:3097",
+              "specs/company.md:3101"
+            ]
+          },
+          "viewAllLabel": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 3,
+            "observedWords": [
+              2
+            ],
+            "measuredFrom": [
+              "specs/company.md:323"
+            ]
+          },
+          "href": {
+            "kind": "href",
+            "required": true
+          },
+          "cards": {
+            "kind": "list",
+            "required": true,
+            "minItems": 2,
+            "maxItems": 4,
+            "measuredFrom": [
+              "specs/company.md:323"
+            ],
+            "item": {
+              "kind": "object",
+              "required": true,
+              "fields": {
+                "title": {
+                  "kind": "text",
+                  "required": true,
+                  "maxWords": 10,
+                  "observedWords": [
+                    2,
+                    4,
+                    2,
+                    2,
+                    2,
+                    3,
+                    3,
+                    2,
+                    3,
+                    2,
+                    7,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    2,
+                    4,
+                    3,
+                    2,
+                    3,
+                    3,
+                    2,
+                    3,
+                    4,
+                    4,
+                    3,
+                    4,
+                    4,
+                    2,
+                    7,
+                    3,
+                    3,
+                    4,
+                    3,
+                    2,
+                    8,
+                    5,
+                    4,
+                    5,
+                    5,
+                    5,
+                    3
+                  ],
+                  "measuredFrom": [
+                    "specs/company.md:1726",
+                    "specs/company.md:3073",
+                    "specs/company.md:3081",
+                    "specs/company.md:3093",
+                    "specs/company.md:3113",
+                    "specs/company.md:3120",
+                    "specs/company.md:3127",
+                    "specs/company.md:3134",
+                    "specs/company.md:3149",
+                    "specs/company.md:3156",
+                    "specs/company.md:3163",
+                    "specs/company.md:3178",
+                    "specs/company.md:3185",
+                    "specs/company.md:3199",
+                    "specs/company.md:3214",
+                    "specs/company.md:3221",
+                    "specs/company.md:3228",
+                    "specs/company.md:3243",
+                    "specs/company.md:3250",
+                    "specs/company.md:3257",
+                    "specs/company.md:3264",
+                    "specs/company.md:3279",
+                    "specs/company.md:3293",
+                    "specs/company.md:3308",
+                    "specs/company.md:3315",
+                    "specs/company.md:3322",
+                    "specs/company.md:3329",
+                    "specs/company.md:3344",
+                    "specs/company.md:3366",
+                    "specs/company.md:3381",
+                    "specs/company.md:3388",
+                    "specs/company.md:3395",
+                    "specs/company.md:3402",
+                    "specs/company.md:3417",
+                    "specs/company.md:3424",
+                    "specs/company.md:3431",
+                    "specs/company.md:3453",
+                    "specs/company.md:3460",
+                    "specs/company.md:3467",
+                    "specs/company.md:3474",
+                    "specs/company.md:3489",
+                    "specs/company.md:3496"
+                  ]
+                },
+                "author": {
+                  "kind": "text",
+                  "required": false,
+                  "maxWords": 8,
+                  "observedWords": [
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    6,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    6
+                  ],
+                  "measuredFrom": [
+                    "specs/company.md:3258",
+                    "specs/company.md:3265",
+                    "specs/company.md:3316",
+                    "specs/company.md:958"
+                  ]
+                },
+                "description": {
+                  "kind": "text",
+                  "required": true,
+                  "maxWords": 24,
+                  "observedWords": [
+                    17,
+                    14,
+                    14,
+                    16,
+                    15,
+                    13,
+                    14,
+                    18,
+                    10,
+                    17,
+                    19,
+                    19,
+                    10,
+                    19,
+                    18,
+                    16,
+                    12,
+                    16,
+                    8,
+                    18,
+                    8,
+                    17,
+                    11,
+                    8,
+                    17,
+                    14,
+                    15,
+                    15,
+                    17,
+                    7,
+                    8,
+                    18,
+                    17,
+                    17,
+                    18,
+                    18,
+                    15,
+                    8,
+                    5,
+                    17,
+                    17,
+                    8,
+                    12
+                  ],
+                  "measuredFrom": [
+                    "specs/company.md:3115",
+                    "specs/company.md:3122",
+                    "specs/company.md:3129",
+                    "specs/company.md:3136",
+                    "specs/company.md:3151",
+                    "specs/company.md:3158",
+                    "specs/company.md:3165",
+                    "specs/company.md:3180",
+                    "specs/company.md:3187",
+                    "specs/company.md:3194",
+                    "specs/company.md:3201",
+                    "specs/company.md:3216",
+                    "specs/company.md:3223",
+                    "specs/company.md:3230",
+                    "specs/company.md:3245",
+                    "specs/company.md:3252",
+                    "specs/company.md:3259",
+                    "specs/company.md:3266",
+                    "specs/company.md:3281",
+                    "specs/company.md:3288",
+                    "specs/company.md:3295",
+                    "specs/company.md:3310",
+                    "specs/company.md:3317",
+                    "specs/company.md:3324",
+                    "specs/company.md:3331",
+                    "specs/company.md:3346",
+                    "specs/company.md:3353",
+                    "specs/company.md:3368",
+                    "specs/company.md:3383",
+                    "specs/company.md:3390",
+                    "specs/company.md:3397",
+                    "specs/company.md:3404",
+                    "specs/company.md:3419",
+                    "specs/company.md:3426",
+                    "specs/company.md:3433",
+                    "specs/company.md:3440",
+                    "specs/company.md:3455",
+                    "specs/company.md:3462",
+                    "specs/company.md:3469",
+                    "specs/company.md:3476",
+                    "specs/company.md:3491",
+                    "specs/company.md:3505"
+                  ]
+                },
+                "href": {
+                  "kind": "href",
+                  "required": true
+                },
+                "image": {
+                  "kind": "media",
+                  "required": true,
+                  "roles": [
+                    "image.product-screenshot"
+                  ],
+                  "alt": {
+                    "kind": "text",
+                    "required": true,
+                    "maxWords": 18,
+                    "observedWords": [
+                      14,
+                      14
+                    ],
+                    "measuredFrom": [
+                      "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+                      "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.tablet}",
+      "change": "stack-columns",
+      "detail": "sidebar becomes a list on top; grid 1 column",
+      "measuredFrom": [
+        "specs/company.md:324"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/company.md:321"
+  ],
+  "sourceEvidence": [
+    "src/pages/companyResources/TemplatesPage.jsx:8"
+  ],
+  "notes": "The templates sidebar is NOT sticky on the live site (spec P10 prose says sticky; live CSS wins).",
+  "wordBudgets": {
+    "categories[].cards[].author": 8,
+    "categories[].cards[].description": 24,
+    "categories[].cards[].image.alt": 18,
+    "categories[].cards[].title": 10,
+    "categories[].title": 4,
+    "categories[].viewAllLabel": 3
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "image.product-screenshot"
+  ],
+  "usedByTemplates": [
+    "template.templates-index"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__collection.templates-catalog",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

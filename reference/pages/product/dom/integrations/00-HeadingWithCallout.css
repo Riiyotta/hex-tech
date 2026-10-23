@@ -1,0 +1,28 @@
+/* integrations section 0: every CSS rule from document.styleSheets whose selector matches a class used in this section (incl. @media/@supports wrappers), plus referenced @keyframes */
+.jqCTrE { color: var(--fg1200, var(--fg1100, #99797d)); display: flex; height: 15px; width: 15px; }
+.dWyZLl { margin: 0px; font-family: "PP Formula SemiExtended", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; color: var(--fontColorLOUD, #ffffff); font-weight: 700; line-height: 1.3; letter-spacing: -0.0308em; font-size: clamp(38px, 25.625px + 2.75vw, 60px); }
+.loVsqo { background-color: color-mix(in srgb, var(--highlightColor, #F5C0C0) 5%, transparent); padding: 25px 35px; border-left: 1px solid var(--grid500, #3a3138); color: var(--fontColorDEFAULT, #F5C0C0); font-size: 16px; line-height: 1.5; }
+.loVsqo :last-child { margin-bottom: 0px !important; }
+.loVsqo p, .loVsqo ul, .loVsqo li { margin-bottom: 20px; font-size: 16px !important; line-height: 1.5 !important; }
+.loVsqo code { background-color: color-mix(in srgb, var(--highlightColor, #F5C0C0) 15%, transparent) !important; color: rgb(71, 57, 130) !important; font-size: 12px !important; }
+.loVsqo a { color: rgb(71, 57, 130) !important; }
+.jnPzLK { position: absolute; top: 21px; left: -18px; display: flex; align-items: center; justify-content: center; width: 35px; height: 35px; background-color: rgb(255, 255, 255); border-radius: 50%; border: 1px solid var(--grid500, #3a3138); }
+.jnPzLK svg { color: rgb(71, 57, 130); }
+.bvIAlZ { display: flex; position: relative; margin: 0px 0px 40px; }
+.bvIAlZ.bvIAlZ .Callout__Inner-sc-207f69f3-0 { color: var(--fontColorDEFAULT, #F5C0C0); background-color: color-mix(in srgb, var(--highlightColor, #F5C0C0) 5%, transparent); border-left: 1px solid var(--highlightColor, #F5C0C0); }
+.bvIAlZ.bvIAlZ .Callout__Icon-sc-207f69f3-1 { background-color: rgb(1, 1, 27); border: 1px solid var(--highlightColor, #F5C0C0); }
+.bvIAlZ.bvIAlZ .Callout__Icon-sc-207f69f3-1 svg { color: var(--highlightColor, #F5C0C0); }
+.bvIAlZ.bvIAlZ a { color: var(--highlightColor, #F5C0C0) !important; }
+.ifHlLr { margin: 0px 0px 25px; font-size: 20px; line-height: 1.5; font-weight: 300; color: var(--fontColorDEFAULT, #F5C0C0); }
+.ifHlLr:last-child { margin-bottom: 0px; }
+.iOrVfe { margin: 0px; }
+@media (max-width: 800px) { .iOrVfe { width: 100%; } }
+@media (min-width: 800px) { .iOrVfe { max-width: 370px; } }
+.MlpYr { display: flex; align-items: center; margin-bottom: 60px; }
+@media (max-width: 800px) { .MlpYr { flex-direction: column; align-items: flex-start; } }
+.kaGtik { max-width: 600px; }
+@media (max-width: 800px) { .kaGtik { margin-bottom: 20px; } }
+.cCwaGG { margin-left: auto; }
+@media (max-width: 800px) { .cCwaGG { margin-left: 0px; width: 100%; } }
+.dTzQNg { margin-bottom: 20px; }
+.dTzQNg span { display: block; }

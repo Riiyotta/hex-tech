@@ -1,0 +1,28 @@
+{
+  "id": "component.customer-story-card",
+  "purpose": "Interactive glass story card: 150px logo plate, H4, mono meta rows.",
+  "composes": [
+    "component.glass-card",
+    "primitive.meta-rows"
+  ],
+  "props": {
+    "href": {
+      "type": "href",
+      "measuredFrom": [
+        "src/components/shared/CustomerStoryCard.jsx:11"
+      ]
+    }
+  },
+  "tokens": [
+    "surface.glass-card",
+    "color.surface.page",
+    "color.border.default",
+    "radius.window"
+  ],
+  "measuredFrom": [
+    "specs/company.md:119",
+    "src/components/shared/CustomerStoryCard.jsx:11"
+  ],
+  "layer": "component",
+  "provisional": true
+}

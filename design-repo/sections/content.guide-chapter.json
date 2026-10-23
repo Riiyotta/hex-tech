@@ -1,0 +1,115 @@
+{
+  "id": "content.guide-chapter",
+  "category": "content",
+  "purpose": "Long-form guide chapter card: chapter H2 then sub-sections with sticky H3s and a prose column (paragraphs, lists, quote cards, objection accordion).",
+  "variants": [],
+  "content": {
+    "title": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 17,
+      "observedWords": [
+        13
+      ],
+      "measuredFrom": [
+        "specs/product.md:633"
+      ]
+    },
+    "subsections": {
+      "kind": "list",
+      "required": true,
+      "minItems": 3,
+      "maxItems": 5,
+      "measuredFrom": [
+        "specs/product.md:637"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "heading": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 9,
+            "observedWords": [
+              7
+            ],
+            "measuredFrom": [
+              "specs/product.md:629"
+            ]
+          },
+          "anchor": {
+            "kind": "href",
+            "required": true
+          },
+          "body": {
+            "kind": "richText",
+            "required": true,
+            "maxBlocks": 8,
+            "blockTypes": [
+              "paragraph",
+              "list",
+              "heading",
+              "quote"
+            ],
+            "maxWordsPerBlock": 120,
+            "measuredFrom": [
+              "specs/product.md:636",
+              "specs/product.md:636"
+            ],
+            "placeholderInClone": true
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "stack-columns",
+      "detail": "sticky H3 column stacks above prose",
+      "measuredFrom": [
+        "specs/product.md:634"
+      ]
+    }
+  ],
+  "constraints": {
+    "consecutiveAllowed": true
+  },
+  "measuredFrom": [
+    "specs/product.md:632",
+    "src/pages/productV1/switchingData.js:3"
+  ],
+  "notes": "Body prose in the clone is neutral placeholder text sized to the live line counts; only headings are real. Budgets describe length, not wording.",
+  "wordBudgets": {
+    "subsections[].heading": 9,
+    "title": 17
+  },
+  "richTextBudgets": {
+    "subsections[].body": {
+      "maxBlocks": 8,
+      "maxWordsPerBlock": 120,
+      "blockTypes": [
+        "paragraph",
+        "list",
+        "heading",
+        "quote"
+      ]
+    }
+  },
+  "assetRoles": [],
+  "usedByTemplates": [
+    "template.long-form-guide"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__content.guide-chapter",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

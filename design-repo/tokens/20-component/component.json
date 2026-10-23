@@ -1,0 +1,214 @@
+{
+  "$description": "Approved component-scoped values. Section/component contracts reference these.",
+  "component": {
+    "button": {
+      "height-lg": {
+        "$type": "dimension",
+        "$value": "48px",
+        "measuredFrom": [
+          "CLONE_SPEC.md:208"
+        ]
+      },
+      "height-md": {
+        "$type": "dimension",
+        "$value": "40px",
+        "measuredFrom": [
+          "specs/product.md:71"
+        ]
+      },
+      "height-nav": {
+        "$type": "dimension",
+        "$value": "36px",
+        "measuredFrom": [
+          "CLONE_SPEC.md:213"
+        ]
+      },
+      "padding-x": {
+        "$type": "dimension",
+        "$value": "20px",
+        "measuredFrom": [
+          "CLONE_SPEC.md:208"
+        ]
+      },
+      "corner-circle-size": {
+        "$type": "dimension",
+        "$value": "13px",
+        "measuredFrom": [
+          "CLONE_SPEC.md:209"
+        ]
+      },
+      "corner-line-size": {
+        "$type": "dimension",
+        "$value": "15px",
+        "measuredFrom": [
+          "CLONE_SPEC.md:210"
+        ]
+      },
+      "icon-gap": {
+        "$type": "dimension",
+        "$value": "10px",
+        "measuredFrom": [
+          "CLONE_SPEC.md:208"
+        ]
+      }
+    },
+    "nav": {
+      "row-height": {
+        "$type": "dimension",
+        "$value": "62px",
+        "measuredFrom": [
+          "tailwind.config.cjs:236"
+        ]
+      },
+      "row-height-mobile": {
+        "$type": "dimension",
+        "$value": "56px",
+        "measuredFrom": [
+          "tailwind.config.cjs:237"
+        ]
+      },
+      "ticker-height": {
+        "$type": "dimension",
+        "$value": "26.85px",
+        "measuredFrom": [
+          "tailwind.config.cjs:235"
+        ]
+      },
+      "top-row": {
+        "$type": "dimension",
+        "$value": "1.25rem",
+        "measuredFrom": [
+          "tailwind.config.cjs:233"
+        ]
+      },
+      "squish-threshold": {
+        "$type": "dimension",
+        "$value": "40px",
+        "measuredFrom": [
+          "CLONE_SPEC.md:445"
+        ]
+      }
+    },
+    "announcement-pill": {
+      "height": {
+        "$type": "dimension",
+        "$value": "37px",
+        "measuredFrom": [
+          "specs/product.md:130"
+        ]
+      }
+    },
+    "glass-card": {
+      "radius": {
+        "$type": "dimension",
+        "$value": "{radius.card}",
+        "measuredFrom": [
+          "specs/company.md:55"
+        ]
+      },
+      "hover-lift": {
+        "$type": "dimension",
+        "$value": "-4px",
+        "measuredFrom": [
+          "specs/company.md:111"
+        ]
+      }
+    },
+    "outline-card": {
+      "accent-size": {
+        "$type": "dimension",
+        "$value": "20px",
+        "measuredFrom": [
+          "specs/product.md:158"
+        ]
+      },
+      "max-width": {
+        "$type": "dimension",
+        "$value": "565px",
+        "measuredFrom": [
+          "specs/product.md:158"
+        ]
+      }
+    },
+    "faq": {
+      "max-width": {
+        "$type": "dimension",
+        "$value": "604px",
+        "measuredFrom": [
+          "CLONE_SPEC.md:405"
+        ]
+      },
+      "item-padding": {
+        "$type": "dimension",
+        "$value": "20px",
+        "measuredFrom": [
+          "CLONE_SPEC.md:407"
+        ]
+      }
+    },
+    "product-window": {
+      "radius": {
+        "$type": "dimension",
+        "$value": "{radius.window}",
+        "measuredFrom": [
+          "CLONE_SPEC.md:222"
+        ]
+      },
+      "title-tab-height": {
+        "$type": "dimension",
+        "$value": "29px",
+        "measuredFrom": [
+          "CLONE_SPEC.md:222"
+        ]
+      }
+    },
+    "info-text": {
+      "column-width": {
+        "$type": "dimension",
+        "$value": "330px",
+        "measuredFrom": [
+          "CLONE_SPEC.md:216"
+        ]
+      },
+      "gap": {
+        "$type": "dimension",
+        "$value": "20px",
+        "measuredFrom": [
+          "CLONE_SPEC.md:216"
+        ]
+      }
+    },
+    "tron-divider": {
+      "lines": {
+        "$type": "number",
+        "$value": "9",
+        "measuredFrom": [
+          "CLONE_SPEC.md:404"
+        ]
+      },
+      "margin-bottom": {
+        "$type": "dimension",
+        "$value": "30px",
+        "measuredFrom": [
+          "CLONE_SPEC.md:404"
+        ]
+      }
+    },
+    "customer-logo": {
+      "height-framed": {
+        "$type": "dimension",
+        "$value": "40px",
+        "measuredFrom": [
+          "CLONE_SPEC.md:278"
+        ]
+      },
+      "height-minimal": {
+        "$type": "dimension",
+        "$value": "50px",
+        "measuredFrom": [
+          "specs/solutions.md:146"
+        ]
+      }
+    }
+  }
+}

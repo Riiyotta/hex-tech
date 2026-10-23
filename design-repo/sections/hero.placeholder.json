@@ -1,0 +1,80 @@
+{
+  "id": "hero.placeholder",
+  "category": "hero",
+  "purpose": "Fallback 'page still being built' placeholder for unrouted internal paths: path label, H1 and a back-home button.",
+  "variants": [],
+  "content": {
+    "pathLabel": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 2,
+      "observedWords": [
+        1
+      ],
+      "measuredFrom": [
+        "src/pages/PagePending.jsx:12"
+      ]
+    },
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 8,
+      "observedWords": [
+        6
+      ],
+      "measuredFrom": [
+        "src/pages/PagePending.jsx:13"
+      ]
+    },
+    "action": {
+      "kind": "action",
+      "required": true,
+      "label": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 4,
+        "observedWords": [
+          3
+        ],
+        "measuredFrom": [
+          "src/pages/PagePending.jsx:14"
+        ]
+      },
+      "variants": [
+        "secondary"
+      ],
+      "sizes": [
+        "md"
+      ]
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "default": "none"
+  },
+  "responsive": [],
+  "constraints": {
+    "onePerPage": true,
+    "generationEligible": false
+  },
+  "measuredFrom": [
+    "src/pages/PagePending.jsx:1"
+  ],
+  "wordBudgets": {
+    "action.label": 4,
+    "headline": 8,
+    "pathLabel": 2
+  },
+  "richTextBudgets": {},
+  "assetRoles": [],
+  "usedByTemplates": [
+    "template.placeholder"
+  ],
+  "observedThemes": [
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__hero.placeholder",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

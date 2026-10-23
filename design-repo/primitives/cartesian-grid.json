@@ -1,0 +1,14 @@
+{
+  "id": "primitive.cartesian-grid",
+  "purpose": "32px unit grid with fade mask and highlight-based radial tint, used as an absolutely positioned backdrop.",
+  "props": {},
+  "tokens": [
+    "color.highlight"
+  ],
+  "measuredFrom": [
+    "CLONE_SPEC.md:265",
+    "src/components/shared/CartesianGrid.jsx:7"
+  ],
+  "layer": "primitive",
+  "provisional": true
+}

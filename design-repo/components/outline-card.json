@@ -1,0 +1,24 @@
+{
+  "id": "component.outline-card",
+  "purpose": "1px highlight-15% bordered card with optional 20px top-right corner accent; hover 30% border + 10% fill.",
+  "composes": [],
+  "props": {
+    "accent": {
+      "type": "boolean",
+      "measuredFrom": [
+        "src/components/shared/OutlineCard.jsx:10"
+      ]
+    }
+  },
+  "tokens": [
+    "color.highlight",
+    "component.outline-card.accent-size",
+    "motion.duration.interaction"
+  ],
+  "measuredFrom": [
+    "specs/product.md:158",
+    "src/components/shared/OutlineCard.jsx:10"
+  ],
+  "layer": "component",
+  "provisional": true
+}

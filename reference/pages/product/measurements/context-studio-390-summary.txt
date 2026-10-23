@@ -1,0 +1,58 @@
+# context-studio @390 — doc height 12735 (1440: 8675)
+
+## Sections (matched by component class from the 1440 section list)
+- 0 ContextStudioHero__ @1440 [0,0,1440,850] → @390 [0, 0, 390, 843] (+12 more)  | H1:Accuracy that improves with every answer
+- 1 SectionPurposeBuilt__ @1440 [0,850,1440,797] → @390 [0, 843, 390, 1562] (+33 more)  | H2:The fastest way to sharpen agents on your data / H3:Unified context
+- 2 SectionHeader__ @1440 [0,1647,1440,1095] → @390 [20, 2447, 350, 243] (+11 more)  | H2:Unified context / H3:Activate existing logic
+- 3 SectionHeader__ @1440 [0,2742,1440,877] → @390 [20, 2447, 350, 243] (+11 more)  | H2:Observable everywhere / H4:Trends surfaced automatically
+- 4 SectionHeader__ @1440 [0,3619,1440,1086] → @390 [20, 2447, 350, 243] (+11 more)  | H2:Improves with use / H3:Fixes find you
+- 5 FullWidthQuote__ @1440 [0,4704,1440,265] → @390 [0, 7133, 390, 437] (+11 more)  | 
+- 6 SectionHeader__ @1440 [0,4969,1440,1340] → @390 [20, 2447, 350, 243] (+11 more)  | H2:Build and manage context on your terms / H4:Pull knowledge from your tools
+- 7 CustomerStoriesTwoUp__ @1440 [0,6310,1440,300] → @390 [0, 9468, 390, 709] (+17 more)  | 
+- 8 OutroTout__ @1440 [0,6610,1440,623] → @390 [0, 10176, 390, 550] (+5 more)  | H2:Bring speed & trust together in Hex
+- 9 FAQ__ @1440 [0,7233,1440,856] → @390 [20, 10767, 350, 782] (+30 more)  | H2:FAQ / H3:What can I actually use as context? Can I connect existing sources?chevron-dow
+
+## Text roles @390 (H1–H4, lead/body P, buttons): tag [x,y,w,h] «text» font/size/lh
+- H1 [14, 246, 362, 154] «Accuracy that improves with every answer» fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px; padding:0px 6px 6px; margin:0px -6px -6px; textAlign:left
+- P [20, 404, 350, 72] «Skip the months-long modeling project. Hex’s Conte» fontSize:16px; fontWeight:300; lineHeight:24px
+- A [20, 496, 160, 42] «Request a demo» fontSize:16px; lineHeight:24px; padding:8px 18px
+- A [195, 496, 126, 42] «Learn more» fontSize:16px; lineHeight:24px; letterSpacing:0.25px; padding:8px 18px
+- H2 [18, 924, 354, 204] «The fastest way to sharpen agents on your data» fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px; padding:0px 6px 6px; margin:0px -6px -6px; textAlign:center
+- H3 [49, 1368, 292, 26] «Unified context» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px
+- H3 [49, 1719, 292, 26] «Observable everywhere» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px
+- H3 [49, 2070, 292, 26] «Improves with use» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px
+- H2 [26, 2479, 339, 55] «Unified context» fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px; padding:0px 6px 6px; margin:0px -6px -6px
+- P [20, 2538, 350, 120] «Hex turns definitions and logic into trusted busin» fontSize:20px; fontWeight:300; lineHeight:30px
+- H3 [60, 2746, 230, 26] «Activate existing logic» fontFamily:"PP Formula"; fontSize:20px; fontWeight:800; lineHeight:26px; letterSpacing:-0.5px
+- P [60, 2788, 270, 96] «Markdown, code, table metadata. Hex ingests and un» fontSize:16px; fontWeight:300; lineHeight:24px; margin:0px 0px 8px
+- H3 [60, 3326, 222, 26] «Build from anywhere» fontFamily:"PP Formula"; fontSize:20px; fontWeight:800; lineHeight:26px; letterSpacing:-0.5px
+- P [60, 3368, 270, 96] «Layer in new logic in Hex, dbt, or your warehouse.» fontSize:16px; fontWeight:300; lineHeight:24px; margin:0px 0px 8px
+- H2 [14, 4023, 362, 105] «Observable everywhere» fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px; padding:0px 6px 6px; margin:0px -6px -6px
+- P [20, 4132, 350, 120] «Questions get asked everywhere: Slack, Claude, Cur» fontSize:20px; fontWeight:300; lineHeight:30px
+- H4 [20, 4365, 200, 52] «Trends surfaced automatically» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px
+- H4 [20, 4606, 200, 78] «The agent suggests improvements» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px
+- H2 [14, 4900, 362, 105] «Improves with use» fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px; padding:0px 6px 6px; margin:0px -6px -6px
+- P [20, 5009, 350, 150] «Hex learns from every question asked and every ans» fontSize:20px; fontWeight:300; lineHeight:30px
+- H3 [60, 5247, 144, 26] «Fixes find you» fontFamily:"PP Formula"; fontSize:20px; fontWeight:800; lineHeight:26px; letterSpacing:-0.5px
+- P [60, 5289, 270, 72] «The Review Agent analyzes interactions for you to » fontSize:16px; fontWeight:300; lineHeight:24px; margin:0px 0px 8px
+- H3 [60, 5853, 257, 26] «Every change, evaluated» fontFamily:"PP Formula"; fontSize:20px; fontWeight:800; lineHeight:26px; letterSpacing:-0.5px
+- P [60, 5895, 270, 96] «Improve context with evidence, not instinct. Test » fontSize:16px; fontWeight:300; lineHeight:24px; margin:0px 0px 8px
+- H3 [60, 6483, 218, 26] «Your work is context» fontFamily:"PP Formula"; fontSize:20px; fontWeight:800; lineHeight:26px; letterSpacing:-0.5px
+- P [60, 6525, 270, 72] «The logic and queries behind every published app a» fontSize:16px; fontWeight:300; lineHeight:24px; margin:0px 0px 8px
+- BLOCKQUOTE [8, 7229, 374, 240] «“ It's something I check every day — seeing contex» fontSize:20px; fontWeight:300; lineHeight:30px; padding:0px 12px; textAlign:center
+- H2 [14, 7643, 362, 154] «Build and manage context on your terms» fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px; padding:0px 6px 6px; margin:0px -6px -6px
+- P [20, 7801, 350, 90] «Context curation in Hex is intentionally flexible,» fontSize:20px; fontWeight:300; lineHeight:30px
+- H4 [45, 7980, 300, 52] «Pull knowledge from your tools» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 10px
+- P [45, 8042, 300, 96] «Connect Notion, Linear, or any MCP server to bring» fontSize:16px; fontWeight:300; lineHeight:24px
+- H4 [45, 8371, 300, 52] «Manage context from the terminal» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 10px
+- P [45, 8433, 300, 72] «Use the Hex CLI to version context from Git, pull » fontSize:16px; fontWeight:300; lineHeight:24px
+- H4 [45, 8738, 300, 26] «Bring your semantic models» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 10px
+- P [45, 8774, 300, 96] «Sync semantic models from dbt MetricFlow, Cube, or» fontSize:16px; fontWeight:300; lineHeight:24px
+- H4 [45, 9103, 300, 26] «Model only what you need» fontFamily:"PP Formula"; fontSize:20px; fontWeight:600; lineHeight:26px; letterSpacing:-0.5px; margin:0px 0px 10px
+- P [45, 9139, 300, 96] «Go off-road in the Hex notebook for flexible explo» fontSize:16px; fontWeight:300; lineHeight:24px
+- P [95, 9727, 200, 19] «Data Engineer at Notion» fontFamily:"Cinetype Mono"; fontSize:12px; lineHeight:18.852px; letterSpacing:0.9996px; textAlign:center
+- P [52, 10086, 286, 38] «Data Scientist at Weights & Biases» fontFamily:"Cinetype Mono"; fontSize:12px; lineHeight:18.852px; letterSpacing:0.9996px; textAlign:center
+- H2 [59, 10308, 272, 117] «Bring speed & trust together in Hex» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px
+- P [59, 10435, 272, 90] «Get in touch with us to see a demo or find out whi» fontSize:20px; fontWeight:300; lineHeight:30px
+- H2 [164, 10842, 62, 39] «FAQ» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px; margin:15px 0px
+- P [20, 11445, 350, 24] «Can't find your answer here? .» fontSize:16px; fontWeight:300; lineHeight:24px; margin:35px 0px 0px; textAlign:center

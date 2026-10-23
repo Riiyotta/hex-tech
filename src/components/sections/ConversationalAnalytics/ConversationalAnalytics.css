@@ -1,0 +1,163 @@
+/* §4.6 Share insights with generative dashboards and data apps.
+   Values from home-module-rules.css: HomeConversationalAnalytics-module__*, HomeConversationalAnalyticsProjectWindows-module__*,
+   FloatingPrompt-module__*, TypingText-module__*, HomeLoadingIndicator-module__*. */
+
+/* HomeConversationalAnalytics-module__content */
+.conv-analytics {
+  width: calc(100% - var(--home-section-gutter) - var(--home-section-gutter));
+  max-width: theme('maxWidth.section');
+  margin: 0 auto;
+  padding: var(--home-section-padding-block) 0;
+}
+
+/* HomeConversationalAnalytics-module__projectWindows */
+.conv-analytics__windows {
+  z-index: 1;
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-self: center;
+  width: 100%;
+  min-width: 0;
+  max-width: 900px;
+}
+
+/* HomeConversationalAnalyticsProjectWindows-module__projectWindows */
+.project-windows {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-content: start;
+  align-items: start;
+  gap: 20px;
+  width: 100%;
+  min-width: 0;
+  height: fit-content;
+}
+@media (max-width: 600px) {
+  .project-windows { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+}
+
+.project-window {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  aspect-ratio: 1200 / 870;
+}
+.project-window__frame { position: relative; height: 100%; }
+.project-window__frame-revealed { position: absolute; inset: 0; }
+.project-window__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.project-window__loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  translate: -50% -50%;
+}
+.project-window__prompt {
+  position: absolute;
+  bottom: -7px;
+  left: -7px;
+  z-index: 1;
+}
+@media (prefers-reduced-motion: reduce) {
+  .project-window__frame { filter: none !important; opacity: 1 !important; }
+}
+
+/* FloatingPrompt-module__* (highlightColor = eggplant in the light theme) */
+.floating-prompt {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  box-sizing: border-box;
+  width: max-content;
+  max-width: 100%;
+  min-height: 42px;
+  padding: 0 15px;
+  border: 2px solid theme('colors.white');
+  border-radius: 22px;
+  background:
+    linear-gradient(
+      79deg,
+      color-mix(in srgb, theme('colors.rose-quartz') 13%, transparent),
+      color-mix(in srgb, theme('colors.eggplant') 5%, transparent)
+    ),
+    theme('colors.white');
+  box-shadow:
+    0 0 0 1px color-mix(in srgb, theme('colors.rose-quartz') 80%, theme('colors.eggplant')),
+    0 0 0 5px color-mix(in srgb, theme('colors.eggplant') 3%, transparent),
+    0 4px 7px color-mix(in srgb, theme('colors.eggplant') 5%, transparent);
+  color: theme('colors.eggplant');
+  font-size: 14px;
+  white-space: nowrap;
+}
+.floating-prompt__label {
+  display: grid;
+  flex: 1 1 auto;
+  justify-items: start;
+  min-width: 0;
+  line-height: 1;
+  overflow: hidden;
+}
+.floating-prompt__placeholder,
+.floating-prompt__typed { grid-area: 1 / 1; }
+.floating-prompt__placeholder { visibility: hidden; }
+.floating-prompt__sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+}
+.floating-prompt__icon {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  color: color-mix(in srgb, theme('colors.rose-quartz') 70%, theme('colors.eggplant'));
+}
+
+/* TypingText-module__* */
+.typing-text {
+  display: inline-flex;
+  vertical-align: bottom;
+  min-width: 0;
+  max-width: 100%;
+}
+.typing-text__visible {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.typing-text__cursor {
+  flex: 0 0 auto;
+  align-self: center;
+  width: 1px;
+  height: 1em;
+  margin-left: 1px;
+  color: inherit;
+  background-color: currentColor;
+}
+.typing-text__cursor.is-blinking { animation: typing-cursor-blink 0.8s step-end infinite; }
+@media (prefers-reduced-motion: reduce) {
+  .typing-text__cursor.is-blinking { animation: none; }
+}
+
+/* HomeLoadingIndicator-module__* */
+.home-loading-indicator { display: inline-flex; color: theme('colors.eggplant'); }
+.home-loading-indicator__glyph { display: block; width: 24px; height: 24px; }
+@media (prefers-reduced-motion: no-preference) {
+  .home-loading-indicator__glyph { animation: loading-spin 2s linear infinite; }
+}

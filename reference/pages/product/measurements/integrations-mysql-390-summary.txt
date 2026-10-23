@@ -1,0 +1,12 @@
+# integrations-mysql @390 — doc height 3114 (1440: 2179)
+
+## Sections (matched by component class from the 1440 section list)
+- 0 RunningText__ @1440 [140,1047,444,446] → @390 [48, 1093, 357, 344]  | H2:How it works
+- 1 DataConnectionIlly__ @1440 [634,1047,666,446] → @390 [48, 1559, 357, 310] (+4 more)  | 
+
+## Text roles @390 (H1–H4, lead/body P, buttons): tag [x,y,w,h] «text» font/size/lh
+- H1 [48, 309, 294, 247] «Connect MySQL directly to a flexible data notebook» fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px; margin:0px 0px 20px; textAlign:center
+- P [48, 576, 294, 120] «Hex makes it easy to securely and efficiently quer» fontSize:20px; fontWeight:300; lineHeight:30px; margin:0px 0px 25px; textAlign:center
+- H2 [48, 1034, 357, 39] «How it works» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px; margin:0px 0px 20px
+- P [48, 1093, 357, 128] «Once a Hex admin has connected to a MySQL database» fontSize:18px; lineHeight:32px; margin:0px 0px 24px
+- P [48, 1245, 357, 192] «Hex is a powerful data platform with first class S» fontSize:18px; lineHeight:32px

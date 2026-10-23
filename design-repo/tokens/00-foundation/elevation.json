@@ -1,0 +1,47 @@
+{
+  "$description": "Theme-independent shadows. Theme-variant shadows live in effect.json.",
+  "elevation": {
+    "dropdown": {
+      "$type": "shadow",
+      "$value": "0 4px 24px -4px rgba(0, 0, 0, 0.15)",
+      "measuredFrom": [
+        "tailwind.config.cjs:200"
+      ]
+    },
+    "glass-ring": {
+      "$type": "shadow",
+      "$value": "0 0 0 1px rgba(0, 0, 0, 0.06)",
+      "measuredFrom": [
+        "tailwind.config.cjs:206"
+      ]
+    },
+    "org-disc": {
+      "$type": "shadow",
+      "$value": "0 26px 57px 0 rgba(0, 0, 0, 0.1)",
+      "measuredFrom": [
+        "tailwind.config.cjs:207"
+      ]
+    },
+    "org-step": {
+      "$type": "shadow",
+      "$value": "0 16px 24px -8px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+      "measuredFrom": [
+        "tailwind.config.cjs:208"
+      ]
+    },
+    "pill": {
+      "$type": "shadow",
+      "$value": "0 2px 4px color-mix(in srgb, #01011B 6%, transparent)",
+      "measuredFrom": [
+        "tailwind.config.cjs:209"
+      ]
+    },
+    "resource-frame": {
+      "$type": "shadow",
+      "$value": "0 2px 12px 0 rgba(0, 0, 0, 0.5)",
+      "measuredFrom": [
+        "tailwind.config.cjs:215"
+      ]
+    }
+  }
+}

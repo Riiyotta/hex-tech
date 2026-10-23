@@ -1,0 +1,13 @@
+# integrations-dbt @390 — doc height 4463 (1440: 2881)
+
+## Sections (matched by component class from the 1440 section list)
+- 0 RunningText__ @1440 [100,1384,1240,510] → @390 [48, 1630, 357, 472]  | H2:How it works
+- 1 ExternalLinks__ @1440 [100,1994,1240,200] → @390 [48, 2782, 294, 435] (+24 more)  | 
+
+## Text roles @390 (H1–H4, lead/body P, buttons): tag [x,y,w,h] «text» font/size/lh
+- H1 [48, 309, 294, 296] «Bringing trust, governance, and speed to the data » fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px; margin:0px 0px 20px; textAlign:center
+- P [48, 625, 294, 150] «Hex integrates with dbt to pull metadata on freshn» fontSize:20px; fontWeight:300; lineHeight:30px; margin:0px 0px 25px; textAlign:center
+- P [170, 1343, 51, 16] «Whatnot» fontFamily:"Cinetype Mono"; fontSize:10px; lineHeight:15.71px; letterSpacing:0.833px; textAlign:center
+- H2 [48, 1571, 357, 39] «How it works» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px; margin:0px 0px 20px
+- P [48, 1630, 357, 224] «When Hex has been connected to a dbt Cloud project» fontSize:18px; lineHeight:32px; margin:0px 0px 24px
+- P [48, 1878, 357, 224] «Bringing this metadata right into the data noteboo» fontSize:18px; lineHeight:32px

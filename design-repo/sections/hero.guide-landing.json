@@ -1,0 +1,174 @@
+{
+  "id": "hero.guide-landing",
+  "category": "hero",
+  "purpose": "Guide landing hero: two-line H1 with flanked italic line, lead, and a dark gated-download card.",
+  "variants": [],
+  "content": {
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 4,
+      "observedWords": [
+        3
+      ],
+      "measuredFrom": [
+        "specs/company.md:339"
+      ]
+    },
+    "italicLine": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 4,
+      "observedWords": [
+        3
+      ],
+      "measuredFrom": [
+        "specs/company.md:339"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 33,
+      "observedWords": [
+        26
+      ],
+      "measuredFrom": [
+        "specs/company.md:339"
+      ]
+    },
+    "downloadCard": {
+      "kind": "object",
+      "required": true,
+      "fields": {
+        "title": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 9,
+          "observedWords": [
+            7
+          ],
+          "measuredFrom": [
+            "specs/company.md:340"
+          ]
+        },
+        "description": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 22,
+          "observedWords": [
+            17
+          ],
+          "measuredFrom": [
+            "specs/company.md:340"
+          ]
+        },
+        "downloadLabel": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 4,
+          "observedWords": [
+            3
+          ],
+          "measuredFrom": [
+            "specs/company.md:340"
+          ]
+        },
+        "secondaryAction": {
+          "kind": "action",
+          "required": true,
+          "label": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 4,
+            "observedWords": [
+              3
+            ],
+            "measuredFrom": [
+              "specs/company.md:340"
+            ]
+          },
+          "variants": [
+            "secondary"
+          ],
+          "sizes": [
+            "lg"
+          ]
+        },
+        "art": {
+          "kind": "media",
+          "required": true,
+          "roles": [
+            "illustration.decorative"
+          ],
+          "alt": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 18,
+            "observedWords": [
+              14,
+              14
+            ],
+            "measuredFrom": [
+              "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+              "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-on-mount"
+    ],
+    "default": "reveal-on-mount"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.phone-sm}",
+      "change": "stack-columns",
+      "detail": "download card grid columns become rows",
+      "measuredFrom": [
+        "specs/company.md:345"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/company.md:339",
+    "specs/company.md:340"
+  ],
+  "behavior": {
+    "download": "visual-only",
+    "submission": "none",
+    "networkRequests": "none",
+    "measuredFrom": [
+      "src/pages/companyResources/AiAnalyticsGuidePage.jsx:6"
+    ]
+  },
+  "wordBudgets": {
+    "description": 33,
+    "downloadCard.art.alt": 18,
+    "downloadCard.description": 22,
+    "downloadCard.downloadLabel": 4,
+    "downloadCard.secondaryAction.label": 4,
+    "downloadCard.title": 9,
+    "headline": 4,
+    "italicLine": 4
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "illustration.decorative"
+  ],
+  "usedByTemplates": [
+    "template.guide-landing"
+  ],
+  "observedThemes": [
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__hero.guide-landing",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

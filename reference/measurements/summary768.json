@@ -1,0 +1,386 @@
+{
+  "vw": 768,
+  "docH": 14835,
+  "secs": [
+    [
+      "__stage",
+      {
+        "x": 15,
+        "y": 0,
+        "w": 737,
+        "h": 710,
+        "disp": "block",
+        "dir": "row",
+        "pad": "102px 0px 0px",
+        "gap": "normal"
+      }
+    ],
+    [
+      "HomeSimplifiedHero-module__-rifNW__hero",
+      {
+        "x": 15,
+        "y": 102,
+        "w": 737,
+        "h": 608,
+        "disp": "flex",
+        "dir": "column",
+        "pad": "100px 32px 95.36px",
+        "gap": "40px"
+      }
+    ],
+    [
+      "CustomerBanner-module__QGw5Ra__frame",
+      {
+        "x": 15,
+        "y": 710,
+        "w": 737,
+        "h": 287,
+        "disp": "block",
+        "dir": "row",
+        "pad": "0px",
+        "gap": "normal"
+      }
+    ],
+    [
+      "HomeBuiltDifferent-module__X_TMTG__builtDifferent",
+      {
+        "x": 15,
+        "y": 997,
+        "w": 737,
+        "h": 268,
+        "disp": "flex",
+        "dir": "row",
+        "pad": "0px",
+        "gap": "normal"
+      }
+    ],
+    [
+      "HomeTrustedAnswers-module__G5svba__content",
+      {
+        "x": 45,
+        "y": 1265,
+        "w": 677,
+        "h": 1291,
+        "disp": "block",
+        "dir": "row",
+        "pad": "40px 0px",
+        "gap": "normal"
+      }
+    ],
+    [
+      "HomeOrganizationContext-module__wQwOha__content",
+      {
+        "x": 45,
+        "y": 2556,
+        "w": 677,
+        "h": 1040,
+        "disp": "block",
+        "dir": "row",
+        "pad": "0px",
+        "gap": "normal"
+      }
+    ],
+    [
+      "HomeConversationalAnalytics-module__EjFBoa__content",
+      {
+        "x": 45,
+        "y": 3596,
+        "w": 677,
+        "h": 992,
+        "disp": "block",
+        "dir": "row",
+        "pad": "40px 0px",
+        "gap": "normal"
+      }
+    ],
+    [
+      "HomeContextStudio-module__npjq9a__content",
+      {
+        "x": 45,
+        "y": 4588,
+        "w": 677,
+        "h": 1308,
+        "disp": "block",
+        "dir": "row",
+        "pad": "40px 0px",
+        "gap": "normal"
+      }
+    ],
+    [
+      "HomeProductEthos-module__bpl4nW__productEthos",
+      {
+        "x": 45,
+        "y": 5896,
+        "w": 677,
+        "h": 1539,
+        "disp": "grid",
+        "dir": "row",
+        "pad": "0px 0px 40px",
+        "gap": "20px",
+        "gtc": "677.25px"
+      }
+    ],
+    [
+      "CustomerStoriesTwoUp__Section",
+      {
+        "x": 0,
+        "y": 7435,
+        "w": 768,
+        "h": 570,
+        "disp": "grid",
+        "dir": "row",
+        "pad": "0px",
+        "gap": "normal",
+        "gtc": "subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []"
+      }
+    ],
+    [
+      "HomeUseCases-module__7W7WPW__useCases",
+      {
+        "x": 15,
+        "y": 8011,
+        "w": 737,
+        "h": 834,
+        "disp": "block",
+        "dir": "row",
+        "pad": "81.8px 0px 75px",
+        "gap": "normal"
+      }
+    ],
+    [
+      "CustomerStoriesTout__Inner",
+      {
+        "x": 15,
+        "y": 8927,
+        "w": 737,
+        "h": 1721,
+        "disp": "flex",
+        "dir": "column",
+        "pad": "0px 32px",
+        "gap": "normal"
+      }
+    ],
+    [
+      "CustomerStoriesTout__GridInner",
+      {
+        "x": 48,
+        "y": 9269,
+        "w": 671,
+        "h": 603,
+        "disp": "grid",
+        "dir": "row",
+        "pad": "0px",
+        "gap": "normal",
+        "gtc": "335.625px 335.625px"
+      }
+    ],
+    [
+      "SocialTout__Inner",
+      {
+        "x": 47,
+        "y": 9918,
+        "w": 673,
+        "h": 736,
+        "disp": "flex",
+        "dir": "column",
+        "pad": "0px",
+        "gap": "30px"
+      }
+    ],
+    [
+      "IntegrationsTout__Inner",
+      {
+        "x": 15,
+        "y": 10782,
+        "w": 737,
+        "h": 1412,
+        "disp": "flex",
+        "dir": "column",
+        "pad": "0px 40px",
+        "gap": "normal"
+      }
+    ],
+    [
+      "IntegrationsTout__Grid",
+      {
+        "x": 55,
+        "y": 11045,
+        "w": 657,
+        "h": 1149,
+        "disp": "grid",
+        "dir": "row",
+        "pad": "0px",
+        "gap": "20px",
+        "gtc": "318.625px 318.625px"
+      }
+    ],
+    [
+      "BottomCTATout__Content",
+      {
+        "x": 15,
+        "y": 12325,
+        "w": 737,
+        "h": 422,
+        "disp": "flex",
+        "dir": "column",
+        "pad": "0px",
+        "gap": "normal"
+      }
+    ],
+    [
+      "FAQ__Inner",
+      {
+        "x": 82,
+        "y": 12981,
+        "w": 604,
+        "h": 633,
+        "disp": "flex",
+        "dir": "column",
+        "pad": "0px",
+        "gap": "normal"
+      }
+    ],
+    [
+      "footer",
+      {
+        "x": 15,
+        "y": 13694,
+        "w": 737,
+        "h": 1114,
+        "disp": "flex",
+        "dir": "column",
+        "pad": "0px",
+        "gap": "normal"
+      }
+    ],
+    [
+      "Footer__Inner",
+      {
+        "x": 15,
+        "y": 13695,
+        "w": 737,
+        "h": 1112,
+        "disp": "flex",
+        "dir": "column",
+        "pad": "50px 30px",
+        "gap": "45px"
+      }
+    ],
+    [
+      "sharedStyles__SectionWrapper",
+      {
+        "x": 45,
+        "y": 1305,
+        "w": 677,
+        "h": 1211,
+        "disp": "flex",
+        "dir": "column",
+        "pad": "0px",
+        "gap": "0px"
+      }
+    ],
+    [
+      "HomeConversationalAnalyticsProjectWindows-module__gM9WiG__projectWindows",
+      {
+        "x": 45,
+        "y": 3888,
+        "w": 677,
+        "h": 497,
+        "disp": "grid",
+        "dir": "row",
+        "pad": "0px",
+        "gap": "20px",
+        "gtc": "328.625px 328.625px"
+      }
+    ],
+    [
+      "CustomerBanner-module__QGw5Ra__logos",
+      {
+        "x": 15,
+        "y": 710,
+        "w": 737,
+        "h": 286,
+        "disp": "flex",
+        "dir": "row",
+        "pad": "44px 32px 40px",
+        "gap": "14px 39px"
+      }
+    ],
+    [
+      "Nav__NavigationRootEl",
+      {
+        "x": 15,
+        "y": 132,
+        "w": 737,
+        "h": 56,
+        "disp": "grid",
+        "dir": "row",
+        "pad": "8px 0px",
+        "gap": "normal",
+        "gtc": "368.625px 0px 368.625px"
+      }
+    ],
+    [
+      "MobileNav__HamburgerButton",
+      {
+        "x": 705,
+        "y": 140,
+        "w": 40,
+        "h": 40,
+        "disp": "grid",
+        "dir": "row",
+        "pad": "0px",
+        "gap": "normal",
+        "gtc": "40px"
+      }
+    ]
+  ],
+  "heads": [
+    "H1 | The Analytics platform for hum | 54.72px | 65.664px | -1.368px | 41 | 202 | 685 | 214",
+    "P | Rethinking | 24px | 36px | normal | 110 | 433 | 122 | 36",
+    "A | BI | 14px | 21.994px | normal | 241 | 430 | 78 | 43",
+    "P | BI | 24px | normal | normal | 284 | 437 | 22 | 29",
+    "A | Conversational analytics | 14px | 21.994px | normal | 328 | 430 | 330 | 43",
+    "P | Conversational analytics | 24px | normal | normal | 371 | 437 | 274 | 29",
+    "P | and | 24px | 36px | normal | 94 | 485 | 42 | 36",
+    "A | Context management | 14px | 21.994px | normal | 145 | 482 | 301 | 43",
+    "P | Context management | 24px | normal | normal | 188 | 489 | 245 | 29",
+    "P | for the agentic era. | 24px | 36px | normal | 455 | 485 | 218 | 36",
+    "H2 | TRUSTED BY LEADING DATA COMPAN | 10px | 12px | 0.833px | 252 | 704 | 265 | 12",
+    "H2 | A different approach to Analyt | 46.745px | 60.7685px | -1.43975px | 39 | 1037 | 689 | 128",
+    "P | BI tools, chat apps, and vibe- | 20px | 30px | normal | 45 | 1175 | 677 | 90",
+    "H3 | Ask a question, get a trusted  | 23.18px | 30.134px | -0.5795px | 45 | 1375 | 451 | 30",
+    "H3 | Ground every answer in your or | 23.18px | 30.134px | -0.5795px | 45 | 2636 | 636 | 30",
+    "H3 | Share insights with generative | 23.18px | 30.134px | -0.5795px | 45 | 3716 | 677 | 60",
+    "H3 | See what people are asking, an | 23.18px | 30.134px | -0.5795px | 45 | 4708 | 677 | 60",
+    "H2 | Work with any data, any AI mod | 23.18px | 30.134px | -0.5795px | 79 | 6257 | 609 | 66",
+    "H2 | Secure your data, with enterpr | 23.18px | 30.134px | -0.5795px | 79 | 7029 | 609 | 66",
+    "H2 | Use cases Get the most out of  | 33.975px | 44.1675px | -0.849375px | 39 | 8173 | 376 | 108",
+    "SPAN | Get the most out of Hex | 44.1675px | 57.4177px | -0.849375px | 45 | 8217 | 364 | 57",
+    "H3 | Migrate from traditional BI to | 20px | 26px | -0.5px | 170 | 8324 | 532 | 52",
+    "H3 | Build a Context Layer for AI o | 20px | 26px | -0.5px | 170 | 8497 | 377 | 26",
+    "H3 | Make chat apps work with data | 20px | 26px | -0.5px | 170 | 8644 | 330 | 26",
+    "H2 | Loved by the best data teams | 46.745px | 60.7685px | -1.43975px | 167 | 9012 | 433 | 142",
+    "H4 | One place for insights | 20px | 26px | -0.5px | 78 | 9384 | 275 | 26",
+    "H4 | Scaling self-serve AI analytic | 20px | 26px | -0.5px | 414 | 9384 | 276 | 52",
+    "H4 | Lowering barriers to insight | 20px | 26px | -0.5px | 78 | 9697 | 275 | 52",
+    "H4 | Breaking data silos | 20px | 26px | -0.5px | 414 | 9697 | 276 | 26",
+    "H3 | Users love Hex | 23.18px | 30.134px | -0.5795px | 78 | 10190 | 611 | 30",
+    "H2 | Instant integration with the w | 46.745px | 60.7685px | -1.43975px | 106 | 10782 | 557 | 146",
+    "H4 | Built for the warehouse | 20px | 26px | -0.5px | 80 | 11245 | 269 | 26",
+    "H4 | dbt metadata, docs, & metrics | 20px | 26px | -0.5px | 419 | 11245 | 269 | 52",
+    "H4 | Connect to your warehouse with | 20px | 26px | -0.5px | 80 | 11648 | 269 | 52",
+    "H4 | Git it together | 20px | 26px | -0.5px | 419 | 11648 | 269 | 26",
+    "H4 | Orchestration | 20px | 26px | -0.5px | 80 | 12033 | 269 | 26",
+    "H4 | Hex API | 20px | 26px | -0.5px | 419 | 12033 | 269 | 26",
+    "H3 | Getting started is easy. | 23.18px | 30.134px | -0.5795px | 49 | 12365 | 290 | 30",
+    "H2 | FAQ | 33.975px | 44.1675px | -0.849375px | 349 | 12996 | 70 | 44",
+    "H3 | What is Hex? | 14px | 21.994px | normal | 82 | 13076 | 604 | 64",
+    "H3 | Who uses Hex? | 14px | 21.994px | normal | 82 | 13141 | 604 | 64",
+    "H3 | Why do data teams switch to He | 14px | 21.994px | normal | 82 | 13206 | 604 | 64",
+    "H3 | Can business users access data | 14px | 21.994px | normal | 82 | 13271 | 604 | 64",
+    "H3 | How does Hex ensure AI answers | 14px | 21.994px | normal | 82 | 13336 | 604 | 64",
+    "H3 | How is Hex different from just | 14px | 21.994px | normal | 82 | 13401 | 604 | 88",
+    "H3 | How is Hex different than poin | 14px | 21.994px | normal | 82 | 13490 | 604 | 64"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "primitive.reveal",
+  "purpose": "SimpleFadeIn wrapper: opacity 0 -> 1, y 5 -> 0, spring delay .2 / .45 / bounce 0, once (or on mount).",
+  "props": {
+    "animateOnMount": {
+      "type": "boolean",
+      "measuredFrom": [
+        "src/components/shared/Reveal.jsx:12"
+      ]
+    }
+  },
+  "tokens": [
+    "motion.preset.simple-fade-in",
+    "motion.duration.reveal",
+    "motion.duration.reveal-delay"
+  ],
+  "measuredFrom": [
+    "CLONE_SPEC.md:453",
+    "src/components/shared/Reveal.jsx:12"
+  ],
+  "layer": "primitive",
+  "provisional": true
+}

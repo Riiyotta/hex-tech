@@ -1,0 +1,88 @@
+/* CLONE_SPEC §4.12 — section-scoped CSS for the integrations tout.
+   GridItem pseudo-element states plus the styled-components rules used by the ported illustration markup
+   (reference/dom/illustrations-integrations-card-*.html, rules from styled-component-rules.css). The hashed
+   class names are kept as-is so the injected markup works unchanged; all of them are scoped to .integrations-tout. */
+
+/* GridItem__DivWrapper: 5% eggplant panel at rest, 10% on hover, 40% while pressed */
+.integrations-tout .integration-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: var(--highlightColor);
+  opacity: 0.05;
+  transition: opacity var(--animation-duration) var(--animation-easing);
+}
+.integrations-tout .integration-card:hover::after { opacity: 0.1; }
+.integrations-tout .integration-card:active { box-shadow: 0 0 0 1px color-mix(in srgb, var(--highlightColor) 40%, transparent); }
+.integrations-tout .integration-card:active::after { opacity: 0.4; }
+
+/* ---- Illustration layouts ---- */
+.integrations-tout .bElItS { display: flex; flex-direction: column; align-items: center; justify-content: center; position: relative; width: 100%; }
+.integrations-tout .bElItS > svg { position: absolute; bottom: 0; left: 0; right: 0; z-index: 0; margin: 0 auto; }
+.integrations-tout .cfvNCX { display: flex; flex-direction: column; flex: 0 0 auto; gap: 5px; margin-bottom: 2px; }
+.integrations-tout .UeqNp { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 10px; }
+.integrations-tout .UeqNp > a { display: flex; position: relative; z-index: 1; }
+.integrations-tout .UeqNp > a svg { width: auto; }
+.integrations-tout .iFhvCW { display: flex; flex: 0 0 auto; gap: 3px; align-items: center; justify-content: center; }
+.integrations-tout .iFhvCW > a { position: relative; z-index: 1; }
+.integrations-tout .chBoUq { position: relative; width: 100%; height: 100%; display: flex; align-items: flex-start; justify-content: center; padding-top: 25px; }
+.integrations-tout .chBoUq > svg { position: absolute; bottom: 0; left: 0; right: 0; z-index: 0; margin: 0 auto; }
+.integrations-tout .chBoUq > svg [data-color='background'] { fill: var(--fg100); }
+.integrations-tout .gqzwXI { display: flex; align-items: center; gap: 2px; position: relative; z-index: 1; width: 80%; flex-wrap: wrap; justify-content: center; }
+@media (max-width: 800px) {
+  .integrations-tout .gqzwXI { width: 100%; }
+}
+
+/* ---- Logo chips (Button__LinkWrapperBase variants) ---- */
+.integrations-tout .fTlccX,
+.integrations-tout .evhYiU {
+  box-sizing: content-box;
+  position: relative;
+  flex: 0 0 auto;
+  display: flex;
+  height: 36px;
+  background: transparent;
+  outline: none;
+  padding: 0 15px;
+  user-select: none;
+  font-size: 12px;
+  color: var(--fontColorDEFAULT);
+  border: 1px solid transparent;
+  min-width: 0;
+  transition: background-color var(--animation-duration) var(--animation-easing),
+    border-color var(--animation-duration) var(--animation-easing);
+}
+.integrations-tout .fTlccX { cursor: pointer; }
+.integrations-tout .fTlccX:hover { background-color: var(--grid300); border-color: var(--grid700); text-decoration: none; }
+.integrations-tout .fTlccX:active { background-color: var(--grid500); }
+.integrations-tout .fTlccX:focus-visible,
+.integrations-tout .evhYiU:focus-visible { outline: var(--app-focus-outline); outline-offset: var(--app-focus-outline-offset); }
+/* chips without a destination (oAuth card, GitLab) are inert */
+.integrations-tout .evhYiU { pointer-events: none; cursor: default; }
+.integrations-tout .evhYiU:hover,
+.integrations-tout .evhYiU:active { background-color: transparent; }
+
+.integrations-tout .cAxARf.cAxARf.cAxARf { padding: 0; }
+.integrations-tout .cAxARf.cAxARf.cAxARf > div,
+.integrations-tout .cAxARf.cAxARf.cAxARf > div > div { height: 100%; }
+.integrations-tout .dlmjKC.dlmjKC.dlmjKC { padding: 0; width: 26px; flex: 0 0 auto; }
+.integrations-tout .dlmjKC.dlmjKC.dlmjKC > div,
+.integrations-tout .dlmjKC.dlmjKC.dlmjKC > div > div { height: 100%; }
+
+/* Button__Inner / Button__Children */
+.integrations-tout .ghWwXj { display: flex; width: 100%; flex-direction: row; align-items: center; height: inherit; white-space: nowrap; min-width: 0; gap: 10px; justify-content: center; text-align: center; }
+.integrations-tout .kRHsma { display: flex; align-items: center; justify-content: center; min-width: 0; position: relative; z-index: 2; pointer-events: none; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* IntegWrapper / IntegLogo / icon wrapper / chip text */
+.integrations-tout .brgICB { display: flex; align-items: center; gap: 7px; padding: 0 8px; height: 100%; }
+.integrations-tout .brgICB .IntegrationsTout__IntegLogo-sc-3b2f6083-16 > div { width: 30px; height: 30px; }
+.integrations-tout .ivUyGZ { display: flex; align-items: center; gap: 7px; height: 100%; padding: 0; }
+.integrations-tout .ivUyGZ .IntegrationsTout__IntegLogo-sc-3b2f6083-16 > div { width: 30px; height: 30px; }
+.integrations-tout .ivUyGZ .IntegrationsTout__IntegLogo-sc-3b2f6083-16 > div,
+.integrations-tout .ivUyGZ .IntegrationsTout__IntegLogo-sc-3b2f6083-16 > div > svg { width: 20px; height: 20px; }
+.integrations-tout .jNhFJp { display: flex; height: 100%; }
+.integrations-tout .jNhFJp [data-icon='true'] { align-self: center; }
+.integrations-tout .jNhFJp [data-color='foreground'] { fill: var(--fontColorLOUD); }
+.integrations-tout .OkXFQ { color: var(--fg1200); display: flex; height: 20px; width: 20px; }
+.integrations-tout .kirBIP { margin: 0; font-size: 16px; line-height: 1.5; font-weight: 300; color: var(--fontColorDEFAULT); }

@@ -1,0 +1,22 @@
+/* embedded-analytics section 5: every CSS rule from document.styleSheets whose selector matches a class used in this section (incl. @media/@supports wrappers), plus referenced @keyframes */
+.kbBAhL { margin: 0px; font-family: "PP Formula", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; color: var(--fontColorLOUD, #ffffff); font-weight: 800; line-height: 1.3; letter-spacing: -0.025em; font-size: clamp(30px, 24.375px + 1.25vw, 40px); }
+.iPEWrc { margin: 0px; color: var(--fontColorMUTED, #99797d); font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-weight: 700; line-height: 1.571; letter-spacing: 0.214em; font-size: clamp(12px, 15.125px - 0.25vw, 14px); text-transform: uppercase; }
+.ifHlLr { margin: 0px 0px 25px; font-size: 20px; line-height: 1.5; font-weight: 300; color: var(--fontColorDEFAULT, #F5C0C0); }
+.ifHlLr:last-child { margin-bottom: 0px; }
+.glQzWj { display: flex; flex-direction: column; align-items: flex-start; word-break: break-word; gap: 20px; }
+.ddYQJn span { display: block; }
+@media (max-width: 600px) { .ddYQJn span { display: inline; } }
+.fKLncC p:not(:last-child) { margin-bottom: 15px; }
+.ggaOUc { width: 680px; flex: 0 0 auto; position: relative; }
+@media (max-width: 800px) { .ggaOUc { width: 100%; height: auto; } }
+.jSXYhQ { padding: 96px 0px; display: flex; align-items: center; gap: 72px; justify-content: space-between; }
+@media screen and (min-width: 1000px) { .jSXYhQ.alternate-even:nth-child(2n) { flex-direction: row-reverse; } }
+@media screen and (min-width: 1000px) { .jSXYhQ.alternate-odd:nth-child(2n+1) { flex-direction: row-reverse; } }
+@media screen and (min-width: 1000px) { .jSXYhQ.row-reverse { flex-direction: row-reverse; } }
+@media (max-width: 1000px) { .jSXYhQ { flex-direction: column; gap: 48px; padding: 48px 0px; } }
+.jSXYhQ.pb-last--large:last-child { padding-bottom: 180px; }
+@media (max-width: 1000px) { .jSXYhQ.pb-last--large:last-child { padding-bottom: 90px; } }
+.KeTjS { position: relative; height: 400px; }
+@media (max-width: 800px) { .KeTjS { height: 200px; } }
+.WqLOz { position: absolute; top: 0px; width: 110%; transform: translateY(-3%) translateX(-8%); }
+@media (max-width: 800px) { .WqLOz { width: 115%; transform: translateY(-16%) translateX(-6.5%); } }

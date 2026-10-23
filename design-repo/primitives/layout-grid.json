@@ -1,0 +1,24 @@
+{
+  "id": "primitive.layout-grid",
+  "purpose": "14-column page grid (1fr + 12 x min(96%,1840px)/12 + 1fr) and the content-section row with checkered margins.",
+  "props": {
+    "bordered": {
+      "type": "boolean",
+      "measuredFrom": [
+        "src/components/shared/LayoutGrid.jsx:14"
+      ]
+    }
+  },
+  "tokens": [
+    "layout.grid-template",
+    "layout.content-max",
+    "texture.checker",
+    "color.border.default"
+  ],
+  "measuredFrom": [
+    "CLONE_SPEC.md:32",
+    "src/components/shared/LayoutGrid.jsx:6"
+  ],
+  "layer": "primitive",
+  "provisional": true
+}

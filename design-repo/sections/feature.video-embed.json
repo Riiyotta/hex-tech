@@ -1,0 +1,83 @@
+{
+  "id": "feature.video-embed",
+  "category": "feature",
+  "purpose": "'See it in action' H2 over a fixed-height frame with dashed corner guides holding an external video embed.",
+  "variants": [],
+  "content": {
+    "title": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 5,
+      "observedWords": [
+        4
+      ],
+      "measuredFrom": [
+        "specs/product.md:700"
+      ]
+    },
+    "embed": {
+      "kind": "media",
+      "required": true,
+      "roles": [
+        "embed.external"
+      ],
+      "alt": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 18,
+        "observedWords": [
+          14,
+          14
+        ],
+        "measuredFrom": [
+          "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+          "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+        ]
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "default": "none"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.phone}",
+      "change": "resize-type",
+      "detail": "frame height 550 -> 250",
+      "measuredFrom": [
+        "specs/product.md:700"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/product.md:700"
+  ],
+  "behavior": {
+    "embeds": "external iframe (Loom / YouTube); may render blank; no clone of the player",
+    "measuredFrom": [
+      "specs/product.md:928"
+    ]
+  },
+  "wordBudgets": {
+    "embed.alt": 18,
+    "title": 5
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "embed.external"
+  ],
+  "usedByTemplates": [
+    "template.integration-detail"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__feature.video-embed",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

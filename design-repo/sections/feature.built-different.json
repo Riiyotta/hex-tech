@@ -1,0 +1,58 @@
+{
+  "id": "feature.built-different",
+  "category": "feature",
+  "purpose": "Centred statement: gradient two-line H2 + lead over an orbit illustration whose bubbles pop in.",
+  "variants": [],
+  "content": {
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 9,
+      "observedWords": [
+        7
+      ],
+      "measuredFrom": [
+        "CLONE_SPEC.md:49"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 43,
+      "observedWords": [
+        34
+      ],
+      "measuredFrom": [
+        "CLONE_SPEC.md:294"
+      ]
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "staggered-pop-in"
+    ],
+    "default": "staggered-pop-in"
+  },
+  "responsive": [],
+  "constraints": {
+    "onePerPage": true,
+    "homeRouteOnly": true
+  },
+  "measuredFrom": [
+    "CLONE_SPEC.md:289"
+  ],
+  "wordBudgets": {
+    "description": 43,
+    "headline": 9
+  },
+  "richTextBudgets": {},
+  "assetRoles": [],
+  "usedByTemplates": [
+    "template.home"
+  ],
+  "observedThemes": [
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__feature.built-different",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

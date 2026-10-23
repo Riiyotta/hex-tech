@@ -1,0 +1,171 @@
+{
+  "id": "feature.platform-overview",
+  "category": "feature",
+  "purpose": "Centred H2, three linked workflow cards with isometric art and hover Perlin, a bracket label and a capability icon row.",
+  "variants": [],
+  "content": {
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 12,
+      "observedWords": [
+        9
+      ],
+      "measuredFrom": [
+        "specs/product.md:362"
+      ]
+    },
+    "cards": {
+      "kind": "list",
+      "required": true,
+      "minItems": 3,
+      "maxItems": 3,
+      "measuredFrom": [
+        "specs/product.md:364"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "title": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 3,
+            "observedWords": [
+              2
+            ],
+            "measuredFrom": [
+              "specs/product.md:371"
+            ]
+          },
+          "description": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 23,
+            "observedWords": [
+              18
+            ],
+            "measuredFrom": [
+              "specs/product.md:371"
+            ]
+          },
+          "anchor": {
+            "kind": "href",
+            "required": true
+          },
+          "illustration": {
+            "kind": "media",
+            "required": true,
+            "roles": [
+              "illustration.decorative"
+            ],
+            "alt": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 18,
+              "observedWords": [
+                14,
+                14
+              ],
+              "measuredFrom": [
+                "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+                "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "bracketLabel": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 4,
+      "observedWords": [
+        3
+      ],
+      "measuredFrom": [
+        "specs/product.md:372"
+      ]
+    },
+    "capabilities": {
+      "kind": "list",
+      "required": true,
+      "minItems": 5,
+      "maxItems": 5,
+      "measuredFrom": [
+        "specs/product.md:373"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "label": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 7,
+            "observedWords": [
+              5
+            ],
+            "measuredFrom": [
+              "specs/product.md:373"
+            ]
+          },
+          "detail": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 27,
+            "observedWords": [
+              21
+            ],
+            "measuredFrom": [
+              "specs/product.md:374"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "stack-columns",
+      "detail": "cards stack; hover states disabled",
+      "measuredFrom": [
+        "specs/product.md:375"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/product.md:360"
+  ],
+  "wordBudgets": {
+    "bracketLabel": 4,
+    "capabilities[].detail": 27,
+    "capabilities[].label": 7,
+    "cards[].description": 23,
+    "cards[].illustration.alt": 18,
+    "cards[].title": 3,
+    "headline": 12
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "illustration.decorative"
+  ],
+  "usedByTemplates": [
+    "template.product-feature"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__feature.platform-overview",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

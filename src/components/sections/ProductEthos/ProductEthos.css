@@ -1,0 +1,46 @@
+/* CLONE_SPEC §4.8 Product ethos — values ported from HomeProductEthos-module (reference/dom/home-module-rules.css).
+   Note: this file loads before src/index.css (main.jsx imports App before index.css), so selectors that
+   override shared classes use doubled specificity. */
+
+.product-ethos {
+  /* §1.1 home section vars, with the page-level breakpoints from HomePageFall2026Content-module
+     (index.css only declares the ≥1251px values) */
+  --home-section-gutter: 40px;
+  --home-section-padding-block: 60px;
+  --home-glass-ring: theme('boxShadow.glass-ring');
+  --product-ethos-card-padding: 40px;
+  --product-ethos-frame-inset: 11px;
+}
+@media (max-width: 800px) {
+  .product-ethos { --home-section-gutter: 30px; --home-section-padding-block: 40px; }
+}
+@media (max-width: 600px) {
+  .product-ethos { --home-section-padding-block: 20px; --product-ethos-card-padding: 30px; }
+}
+@media (max-width: 450px) {
+  .product-ethos { --home-section-gutter: 20px; }
+}
+
+.product-ethos__card {
+  padding: var(--product-ethos-frame-inset) var(--product-ethos-frame-inset) var(--product-ethos-card-padding);
+}
+.product-ethos__frame {
+  margin-bottom: calc(var(--product-ethos-card-padding) - var(--product-ethos-frame-inset));
+  box-shadow: var(--home-glass-ring);
+}
+.product-ethos__content {
+  padding: 0 calc(var(--product-ethos-card-padding) - var(--product-ethos-frame-inset));
+}
+@media (max-width: 600px) {
+  .product-ethos__content { padding: 0 calc(20px - var(--product-ethos-frame-inset)); }
+}
+
+.product-ethos__eyebrow {
+  background-color: color-mix(in srgb, currentcolor 7%, transparent 93%);
+}
+
+.product-ethos__bullets > li::marker { color: currentcolor; }
+
+/* The live CTAs (Button__LinkWrapperBase .knpLay) render without CornerCircles / CornerLines. */
+.product-ethos__cta.product-ethos__cta .hex-btn__circles,
+.product-ethos__cta.product-ethos__cta .hex-btn__lines { display: none; }

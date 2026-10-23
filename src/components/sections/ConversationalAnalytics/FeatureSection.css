@@ -1,0 +1,108 @@
+/* Shared layout for my three feature sections (OrganizationContext, ConversationalAnalytics, ContextStudio).
+   Values copied from reference/dom/styled-component-rules.css (sharedStyles__*, InfoText__*, AbstractMark__*)
+   and home-module-rules.css (.HomePageFall2026Content-module__page responsive vars). */
+
+/* §1.1 home-section vars and their breakpoints (HomePageFall2026Content-module__page). index.css only declares
+   the 1440 values on :root, so the responsive steps are scoped to my sections here. */
+.hex-feature {
+  --home-section-gutter: 40px;
+  --home-section-padding-block: 60px;
+}
+@media (max-width: 800px) {
+  .hex-feature {
+    --home-section-gutter: 30px;
+    --home-section-padding-block: 40px;
+  }
+}
+@media (max-width: 600px) {
+  .hex-feature { --home-section-padding-block: 20px; }
+}
+@media (max-width: 450px) {
+  .hex-feature { --home-section-gutter: 20px; }
+}
+
+/* sharedStyles__SectionWrapper */
+.feature-section {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  max-width: 100%;
+  min-width: 0;
+  width: 100%;
+  scroll-margin-top: 140px;
+}
+.feature-section[data-direction='row-reverse'] { flex-direction: row-reverse; }
+
+/* sharedStyles__InfoWrapper */
+.feature-section__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  max-width: 16vw;
+  min-width: 330px;
+}
+
+/* sharedStyles__InfoTextWrapper */
+.feature-section__info-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
+  min-width: 0;
+}
+/* InfoText__Wrapper adds word-break on top of the shared InfoText flex column */
+.feature-section__info-text-inner { word-break: break-word; }
+
+/* sharedStyles__ProductIllustration */
+.feature-section__illustration {
+  display: flex;
+  position: relative;
+  max-width: 100%;
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+/* ≤800 (theme.mediaQuery.MEDIUM): column, gap 0, InfoText → illustration → quote */
+@media (max-width: 800px) {
+  .feature-section,
+  .feature-section[data-direction='row-reverse'] {
+    flex-direction: column;
+    gap: 0;
+  }
+  .feature-section__info { display: contents; }
+  .feature-section__info-text { order: 1; margin-bottom: 50px; }
+  .feature-section__illustration { order: 2; }
+  .feature-section__quote { order: 3; }
+}
+
+/* AbstractMark__Wrapper (60×60) + light-theme data-color fills */
+.abstract-mark { display: flex; }
+.abstract-mark svg { display: block; width: 60px; height: 60px; }
+.abstract-mark [data-color='primary'] { color: theme('colors.rose-quartz'); }
+.abstract-mark [data-color='secondary'] { color: theme('colors.eggplant'); }
+.abstract-mark [data-color='highlight'] { color: theme('colors.jade'); }
+
+/* InteractiveFeatureWrapper-styles__DashedLines / DashedLine (left/right guides, 50px overhang) */
+.feature-dashed-lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.feature-dashed-line { position: absolute; }
+.feature-dashed-line[data-left] { top: -50px; left: -1px; bottom: -50px; width: 0; border-left: 1px dashed theme('colors.grid.500'); }
+.feature-dashed-line[data-right] { top: -50px; right: -1px; bottom: -50px; width: 0; border-right: 1px dashed theme('colors.grid.500'); }
+
+/* InteractiveFeatureWrapper (jhekxa) fills its slot; the shared .product-window lacks these */
+.feature-window {
+  width: 100%;
+  height: 100%;
+  max-width: 1000px;
+  max-height: 1000px;
+}
+@media (max-width: 800px) {
+  .feature-window { pointer-events: none; }
+}

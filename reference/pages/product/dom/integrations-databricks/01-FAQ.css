@@ -1,0 +1,41 @@
+/* integrations-databricks section 1: every CSS rule from document.styleSheets whose selector matches a class used in this section (incl. @media/@supports wrappers), plus referenced @keyframes */
+.FAQ-module__E5gmgG__questionHeading { color: inherit; font: inherit; margin: 0px; }
+.jqCTrE { color: var(--fg1200, var(--fg1100, #99797d)); display: flex; height: 15px; width: 15px; }
+.kbBAhL { margin: 0px; font-family: "PP Formula", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; color: var(--fontColorLOUD, #ffffff); font-weight: 800; line-height: 1.3; letter-spacing: -0.025em; font-size: clamp(30px, 24.375px + 1.25vw, 40px); }
+.dWSKmQ { color: var(--fontColorLOUD, #ffffff); font-size: 16px; line-height: 1.5; font-weight: 300; margin-bottom: 20px; }
+.dWSKmQ:last-child { margin-bottom: 0px; }
+.hRhtIT { margin: 0px 0px 20px; font-size: 16px; line-height: 1.5; font-weight: 300; color: var(--fontColorDEFAULT, #F5C0C0); }
+.hRhtIT:last-child { margin-bottom: 0px; }
+.jwpxOo { transform: rotate(-90deg); }
+.eDmutK { background: transparent; width: 100%; position: relative; z-index: 1; scroll-margin-top: 120px; padding: 80px 0px; }
+@media (max-width: 800px) { .eDmutK { padding-top: 60px; } }
+.hLpfcr { margin-top: 35px; text-align: center; }
+.jcdMA-D { display: flex; flex-direction: column; width: 100%; padding: 0px; margin: 0px auto; max-width: 604px; }
+.cZaovQ { display: flex; flex-direction: column; align-items: center; padding-bottom: 20px; border-bottom: 1px solid var(--grid500, #3a3138); }
+.kClkTa { display: flex; flex-direction: column; }
+.hFAZJp { display: flex; flex-direction: column; border-bottom: 1px solid var(--grid500, #3a3138); transition: background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1); scroll-margin-top: 240px; }
+.hFAZJp:hover { background: var(--grid300, #2b252c); }
+.davikN { display: flex; align-items: center; justify-content: space-between; width: 100%; padding: 20px; border: 0px; background: transparent; color: inherit; font: inherit; text-align: left; cursor: pointer; }
+.cetXuT { color: var(--fontColorLOUD, #ffffff); font-size: 18px; line-height: 24px; letter-spacing: -0.5px; }
+.hlMhoD { display: none; flex-direction: column; gap: 12px; padding: 10px 20px 20px; }
+.hlMhoD ul { list-style-type: circle; padding-left: 18px; display: flex; flex-direction: column; gap: 5px; }
+.hlMhoD strong { font-weight: 500; }
+.gKGJrp { margin: 15px 0px; }
+.gbKhPv { height: 1px; width: 100%; background: linear-gradient(
+      90deg,
+      var(--grid700, #6a565b) 0%,
+      var(--grid500, #3a3138) 50%,
+      var(--grid700, #6a565b) 100%
+    ),var(--fg100, #14141C); }
+.icolWM { width: 100%; transform: unset; margin-bottom: 30px; }
+.icolWM .TronDivider__Divider-sc-824f0806-0:nth-child(1) { margin-bottom: 3px; }
+.icolWM .TronDivider__Divider-sc-824f0806-0:nth-child(2) { margin-bottom: 4px; opacity: 0.9; }
+.icolWM .TronDivider__Divider-sc-824f0806-0:nth-child(3) { margin-bottom: 5px; opacity: 0.8; }
+.icolWM .TronDivider__Divider-sc-824f0806-0:nth-child(4) { margin-bottom: 6px; opacity: 0.7; }
+.icolWM .TronDivider__Divider-sc-824f0806-0:nth-child(5) { margin-bottom: 7px; opacity: 0.6; }
+.icolWM .TronDivider__Divider-sc-824f0806-0:nth-child(6) { margin-bottom: 8px; opacity: 0.5; }
+.icolWM .TronDivider__Divider-sc-824f0806-0:nth-child(7) { margin-bottom: 9px; opacity: 0.4; }
+.icolWM .TronDivider__Divider-sc-824f0806-0:nth-child(8) { margin-bottom: 10px; opacity: 0.3; }
+.icolWM .TronDivider__Divider-sc-824f0806-0:nth-child(9) { opacity: 0.2; }
+.kjYvMc { display: flex; flex-direction: column; gap: 40px; }
+.jicogS { max-width: 1240px; width: 100%; margin: 0px auto; padding: 0px 40px; }

@@ -1,0 +1,19 @@
+/* integrations-trino section 0: every CSS rule from document.styleSheets whose selector matches a class used in this section (incl. @media/@supports wrappers), plus referenced @keyframes */
+.kijyus { color: var(--fg1200, var(--fg1100, #99797d)); display: flex; height: 20px; width: 20px; }
+.jqCTrE { color: var(--fg1200, var(--fg1100, #99797d)); display: flex; height: 15px; width: 15px; }
+.fqpybe { background: rgb(255, 255, 255); box-shadow: rgba(1, 1, 27, 0.1) 0px 4px 12px; border-radius: 3px; color: rgb(1, 1, 27); padding: 15px; overflow: hidden; min-width: 0px; }
+.hEXhRi { display: flex; align-items: center; font-weight: 400; gap: 7px; line-height: initial; font-size: 12px; font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+.hEXhRi > div, .hEXhRi > div svg { width: 14px; height: 14px; }
+.fbDZDi { display: flex; align-items: center; }
+.BNpMP { display: flex; align-items: center; background: rgb(239, 235, 255); border-radius: 2px; color: rgb(62, 39, 122); padding: 0px 5px; font-size: 12px; height: 20px; line-height: 20px; margin-left: auto; gap: 4px; }
+.BNpMP svg { color: rgb(62, 39, 122); opacity: 0.5; }
+.bMQynx { display: flex; align-items: center; gap: 7px; color: rgb(113, 122, 148); font-size: 12px; margin-top: 7px; line-height: initial; }
+.dTdzmR { width: 1px; height: 12px; background-color: rgb(63, 66, 87); flex: 0 0 auto; }
+.igpXPr { min-height: 60px; width: 100%; position: relative; z-index: 3; }
+.czoXrM { position: relative; padding-top: 16px; display: flex; flex-direction: column; align-items: center; width: 280px; }
+.czoXrM > div:not(:last-child) { min-height: 60px; width: 100%; position: relative; z-index: 3; }
+.czoXrM > div:not(:last-child):nth-child(2) { position: absolute; top: 8px; left: 10px; right: 10px; opacity: 0.5; width: calc(100% - 20px); z-index: 2; }
+.czoXrM > div:not(:last-child):nth-child(3) { position: absolute; top: 0px; left: 20px; right: 20px; opacity: 0.3; width: calc(100% - 40px); z-index: 1; }
+.eEWpZJ { position: absolute; left: -15px; right: -15px; bottom: -15px; border-bottom: 1px solid var(--highlightColor, #F5C0C0); border-left: 1px solid var(--highlightColor, #F5C0C0); border-right: 1px solid var(--highlightColor, #F5C0C0); height: 60px; background-color: color-mix(in srgb, var(--highlightColor, #F5C0C0) 20%, transparent); }
+.eEWpZJ::before { content: ""; display: block; position: absolute; inset: -1px; background: linear-gradient(0deg, rgba(1, 1, 27, 0) 0%, rgb(1, 1, 27) 100%); }
+.eEWpZJ::after { content: ""; display: block; width: 1px; height: 20px; background: var(--highlightColor, #F5C0C0); position: absolute; left: 50%; top: 100%; }

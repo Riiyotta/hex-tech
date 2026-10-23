@@ -1,0 +1,88 @@
+{
+  "radius": {
+    "nav-item": {
+      "$type": "dimension",
+      "$value": "1px",
+      "measuredFrom": [
+        "tailwind.config.cjs:220"
+      ]
+    },
+    "ticker": {
+      "$type": "dimension",
+      "$value": "2px",
+      "measuredFrom": [
+        "tailwind.config.cjs:221"
+      ]
+    },
+    "eyebrow": {
+      "$type": "dimension",
+      "$value": "3px",
+      "measuredFrom": [
+        "tailwind.config.cjs:222"
+      ]
+    },
+    "popover": {
+      "$type": "dimension",
+      "$value": "4px",
+      "measuredFrom": [
+        "tailwind.config.cjs:223"
+      ]
+    },
+    "dropdown": {
+      "$type": "dimension",
+      "$value": "5px",
+      "measuredFrom": [
+        "tailwind.config.cjs:224"
+      ]
+    },
+    "window": {
+      "$type": "dimension",
+      "$value": "6px",
+      "measuredFrom": [
+        "tailwind.config.cjs:225"
+      ]
+    },
+    "card": {
+      "$type": "dimension",
+      "$value": "12px",
+      "measuredFrom": [
+        "tailwind.config.cjs:226"
+      ]
+    },
+    "pill": {
+      "$type": "dimension",
+      "$value": "30px",
+      "measuredFrom": [
+        "tailwind.config.cjs:227"
+      ]
+    },
+    "round": {
+      "$type": "dimension",
+      "$value": "999px",
+      "measuredFrom": [
+        "tailwind.config.cjs:228"
+      ]
+    },
+    "bento": {
+      "$type": "dimension",
+      "$value": "8px",
+      "measuredFrom": [
+        "specs/product.md:215"
+      ]
+    },
+    "thumbnail": {
+      "$type": "dimension",
+      "$value": "10px",
+      "measuredFrom": [
+        "specs/company.md:117"
+      ]
+    },
+    "input": {
+      "$type": "dimension",
+      "$value": "3px",
+      "measuredFrom": [
+        "specs/solutions.md:937"
+      ]
+    }
+  }
+}

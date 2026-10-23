@@ -1,0 +1,1513 @@
+{
+  "$comment": "Drafted from design-repo/templates/routes.json (observed section order per route) and design-repo/sections/*.json (one description per section). Templates are split by real composition: a design-repo template whose member routes carry different section sets becomes one IA template per distinct set, linked back by 'family'. Repeated sections on one page (e.g. four feature.split rows) are listed once, at first occurrence. Edit this file by hand from now on; IA.md and matrix.csv are generated.",
+  "meta": {
+    "title": "hex.tech clone — information architecture",
+    "source": "Local React clone of https://hex.tech/ (this folder); route table src/routes.jsx",
+    "status": "measured-from-clone",
+    "productionApproved": false,
+    "totalRoutes": 60,
+    "totalTemplates": 41,
+    "routeNotes": "Counts include the '*' catch-all (placeholder page). Not counted: 2 redirects (/product/integrations/athena/, /product/integrations/redshift/ -> /product/integrations/aws/) and 2 dev-only routes (/__theme-test/, /__theme-test/light/).",
+    "pairedDesignRepo": "design-repo/ (tokens, section contracts, PageSpec schema)"
+  },
+  "categories": {
+    "SHELL": "Site chrome rendered by the layout around every full-chrome page: header (with ticker and nav) and footer.",
+    "HERO": "The page-opening block; exactly one per page, always the first content section.",
+    "PROOF": "Social proof: customer logos, quotes, stories, review badges.",
+    "FEATURE": "Product and capability explanation: splits, card grids, demos, comparison tables.",
+    "COLLECTION": "Repeating card lists of other content: posts, stories, guides, events, templates, roles, links.",
+    "CONTENT": "Long-form body content: article, story, guide chapters, report sections.",
+    "CONVERSION": "Calls to action and (visual-only) forms that close a page.",
+    "FAQ": "Question-and-answer accordion.",
+    "DIVIDER": "Decorative separator between sections.",
+    "NAVIGATION": "In-page navigation controls that filter or jump within a page's content."
+  },
+  "sections": {
+    "shell.footer": {
+      "category": "SHELL",
+      "description": "Global footer: wordmark + emoji rotator, four link columns, legal row, static hit counter.",
+      "scope": "On every full-chrome route (all 59); each page renders it at the end of its own tree.",
+      "contract": "design-repo/sections/shell.footer.json"
+    },
+    "shell.header": {
+      "category": "SHELL",
+      "description": "Global fixed chrome: announcement ticker + main nav with mega-menus; identical on every site-layout page, themed only.",
+      "scope": "On every full-chrome route (all 59); rendered once by the site shell layout, not by pages.",
+      "contract": "design-repo/sections/shell.header.json"
+    },
+    "hero.about": {
+      "category": "HERO",
+      "description": "About hero: italic + display two-line H1 over Perlin/cartesian backdrop, team photo card beside lead copy and an animated CTA.",
+      "scope": "Only on /about/.",
+      "contract": "design-repo/sections/hero.about.json"
+    },
+    "hero.article": {
+      "category": "HERO",
+      "description": "Dark article header: eyebrow link, solid H1, dek, author/category/date meta, share links and hero media that overlaps the light body slab.",
+      "scope": "Only on /blog/introducing-generative-data-apps/.",
+      "contract": "design-repo/sections/hero.article.json"
+    },
+    "hero.blog-masthead": {
+      "category": "HERO",
+      "description": "Blog masthead: small H1 on a category divider, search toggle, commit-graph strip and a stats line.",
+      "scope": "Only on /blog/.",
+      "contract": "design-repo/sections/hero.blog-masthead.json"
+    },
+    "hero.careers": {
+      "category": "HERO",
+      "description": "Careers hero: centred two-line H1, lead + emphasis and CTAs framed by a wall of team photos that blur in.",
+      "scope": "Only on /careers/.",
+      "contract": "design-repo/sections/hero.careers.json"
+    },
+    "hero.compare": {
+      "category": "HERO",
+      "description": "Compare hero: 74px gradient H1, lead, two CTAs and a dashed hatched 'vs.' panel of competitor cards.",
+      "scope": "Only on /compare/.",
+      "contract": "design-repo/sections/hero.compare.json"
+    },
+    "hero.customers": {
+      "category": "HERO",
+      "description": "Customers index hero: heart line illustration behind an italic+display H1 and a short lead.",
+      "scope": "Only on /customers/.",
+      "contract": "design-repo/sections/hero.customers.json"
+    },
+    "hero.enterprise": {
+      "category": "HERO",
+      "description": "Enterprise hero: vertical eyebrow, 68px solid H1, lead, two-column tick checklist and CTA beside an illustration.",
+      "scope": "Only on /enterprise/.",
+      "contract": "design-repo/sections/hero.enterprise.json"
+    },
+    "hero.form": {
+      "category": "HERO",
+      "description": "Form page heading: centred solid H1 and lead above the visual-only form shell.",
+      "scope": "On 2 routes: Form page.",
+      "contract": "design-repo/sections/hero.form.json"
+    },
+    "hero.guide-document": {
+      "category": "HERO",
+      "description": "Long-form guide cover card: fading feature-tag list, oversized H1, lead and a three-group table of contents.",
+      "scope": "Only on /product/switching-to-hex/.",
+      "contract": "design-repo/sections/hero.guide-document.json"
+    },
+    "hero.guide-landing": {
+      "category": "HERO",
+      "description": "Guide landing hero: two-line H1 with flanked italic line, lead, and a dark gated-download card.",
+      "scope": "Only on /resources/guides/ai-analytics/.",
+      "contract": "design-repo/sections/hero.guide-landing.json"
+    },
+    "hero.heading-with-callout": {
+      "category": "HERO",
+      "description": "Index heading: two-line solid H1 + lead on the left, ruled tinted callout with a mail link on the right.",
+      "scope": "Only on /product/integrations/.",
+      "contract": "design-repo/sections/hero.heading-with-callout.json"
+    },
+    "hero.home": {
+      "category": "HERO",
+      "description": "Homepage stage: two-line display headline, pill-linked lead and two CTAs over Perlin + cartesian backdrop.",
+      "scope": "Only on /.",
+      "contract": "design-repo/sections/hero.home.json"
+    },
+    "hero.integration": {
+      "category": "HERO",
+      "description": "Integration detail hero: label tab cut into a logo box, solid H1, lead and 1-2 md CTAs.",
+      "scope": "On 16 routes: Integration detail.",
+      "contract": "design-repo/sections/hero.integration.json"
+    },
+    "hero.newsroom": {
+      "category": "HERO",
+      "description": "Newsroom header: left gradient H1 + press-contact line, media-kit callout on the right.",
+      "scope": "Only on /newsroom/.",
+      "contract": "design-repo/sections/hero.newsroom.json"
+    },
+    "hero.partners": {
+      "category": "HERO",
+      "description": "Partners hero: centred solid H1, paragraph lead and two md CTAs (anchor + external form link).",
+      "scope": "Only on /partners/.",
+      "contract": "design-repo/sections/hero.partners.json"
+    },
+    "hero.placeholder": {
+      "category": "HERO",
+      "description": "Fallback 'page still being built' placeholder for unrouted internal paths: path label, H1 and a back-home button.",
+      "scope": "Only on *.",
+      "contract": "design-repo/sections/hero.placeholder.json"
+    },
+    "hero.pricing": {
+      "category": "HERO",
+      "description": "Pricing header: solid H1 and a 14px subline with an inline contact link.",
+      "scope": "Only on /pricing/.",
+      "contract": "design-repo/sections/hero.pricing.json"
+    },
+    "hero.product": {
+      "category": "HERO",
+      "description": "Product/capability hero: optional announcement pill, gradient H1 (+ italic line), lead and CTAs beside a product visual.",
+      "scope": "On 6 routes: Product feature.",
+      "contract": "design-repo/sections/hero.product.json"
+    },
+    "hero.report": {
+      "category": "HERO",
+      "description": "Report microsite hero: wordmark, hatched report artwork as H1 (screen-reader title), issue eyebrow and about copy.",
+      "scope": "Only on /state-of-data-teams/.",
+      "contract": "design-repo/sections/hero.report.json"
+    },
+    "hero.solution": {
+      "category": "HERO",
+      "description": "Solution-detail hero: centred gradient H1, one-line lead, primary + secondary lg CTAs.",
+      "scope": "On 5 routes: Solution detail.",
+      "contract": "design-repo/sections/hero.solution.json"
+    },
+    "hero.solutions-hub": {
+      "category": "HERO",
+      "description": "Hub hero: opaque glass panel with italic lead and a rotating 74px word, lead and two CTAs.",
+      "scope": "Only on /solutions/.",
+      "contract": "design-repo/sections/hero.solutions-hub.json"
+    },
+    "hero.story": {
+      "category": "HERO",
+      "description": "Customer story header grid: logo cell, hatched cell, solid H1, dek and a centred metadata strip.",
+      "scope": "On 8 routes: Customer story.",
+      "contract": "design-repo/sections/hero.story.json"
+    },
+    "hero.v1": {
+      "category": "HERO",
+      "description": "V1 marketing hero: centred 74px gradient H1, lead and two md CTAs; app-builder variant adds pill + app strip.",
+      "scope": "On 3 routes: Product (legacy layout).",
+      "contract": "design-repo/sections/hero.v1.json"
+    },
+    "hero.v1-intro": {
+      "category": "HERO",
+      "description": "Dark V1 resource intro: white 74px H1 + lead, with the line illustration beside it (split) or centred (catalog).",
+      "scope": "On 3 routes: Resource index (legacy layout), Templates index.",
+      "contract": "design-repo/sections/hero.v1-intro.json"
+    },
+    "proof.customer-banner": {
+      "category": "PROOF",
+      "description": "Logo band proving adoption: label + customer logo row; story logos get an indicator dot and a quote popover.",
+      "scope": "On 16 routes: some Product feature pages, some Solution detail pages, some Product (legacy layout) pages, Form page, About, Compare, Enterprise, Homepage, Pricing, Solutions hub.",
+      "contract": "design-repo/sections/proof.customer-banner.json"
+    },
+    "proof.featured-stories-fan": {
+      "category": "PROOF",
+      "description": "Static arc of five square story cards lifted on a -80/-35/0/-35/-80px curve.",
+      "scope": "Only on /customers/.",
+      "contract": "design-repo/sections/proof.featured-stories-fan.json"
+    },
+    "proof.full-width-quote": {
+      "category": "PROOF",
+      "description": "Full-bleed quote band: logo + name/title attribution, vertical divider and a 24px quote with bold emphasis.",
+      "scope": "On 4 routes: some Product feature pages.",
+      "contract": "design-repo/sections/proof.full-width-quote.json"
+    },
+    "proof.logo-wall": {
+      "category": "PROOF",
+      "description": "Wrapped wall of logos with a heading: customer wall (grayscale) or investor grid with a text lockup.",
+      "scope": "On 2 routes: About, Customers index.",
+      "contract": "design-repo/sections/proof.logo-wall.json"
+    },
+    "proof.quote-tiles": {
+      "category": "PROOF",
+      "description": "Grid of primary-button-styled quote tiles: grayscale logo, quote divider and a short quote.",
+      "scope": "Only on /resources/guides/ai-analytics/.",
+      "contract": "design-repo/sections/proof.quote-tiles.json"
+    },
+    "proof.quotes-marquee": {
+      "category": "PROOF",
+      "description": "Continuously scrolling row(s) of glass quote cards (logo, quote, optional headshot and author).",
+      "scope": "On 4 routes: some Product feature pages, Customers index, Long-form guide.",
+      "contract": "design-repo/sections/proof.quotes-marquee.json"
+    },
+    "proof.social-tout": {
+      "category": "PROOF",
+      "description": "Social proof row: G2 awards card and/or glass quote card(s).",
+      "scope": "On 7 routes: some Product feature pages, some Solution detail pages, Product (legacy layout).",
+      "contract": "design-repo/sections/proof.social-tout.json"
+    },
+    "proof.stories-two-up": {
+      "category": "PROOF",
+      "description": "Sunken band of one or two centred customer quotes (logo, quote with bold emphasis, name + title).",
+      "scope": "On 5 routes: some Integration detail pages, some Product feature pages, Homepage.",
+      "contract": "design-repo/sections/proof.stories-two-up.json"
+    },
+    "proof.story-tout": {
+      "category": "PROOF",
+      "description": "Homepage 'Loved by the best data teams' tout: graph-paper title block, four story cards and the social row.",
+      "scope": "Only on /.",
+      "contract": "design-repo/sections/proof.story-tout.json"
+    },
+    "feature.approach-cards": {
+      "category": "FEATURE",
+      "description": "Solid H2 over a 3-up grid of light glass cards (icon, H4, text, primary md CTA).",
+      "scope": "Only on /product/bi/.",
+      "contract": "design-repo/sections/feature.approach-cards.json"
+    },
+    "feature.bento-cells": {
+      "category": "FEATURE",
+      "description": "Two-column bento of linked dark cells: title + text over a framed screenshot; hover lift with Perlin.",
+      "scope": "On 2 routes: some Product feature pages.",
+      "contract": "design-repo/sections/feature.bento-cells.json"
+    },
+    "feature.built-different": {
+      "category": "FEATURE",
+      "description": "Centred statement: gradient two-line H2 + lead over an orbit illustration whose bubbles pop in.",
+      "scope": "Only on /.",
+      "contract": "design-repo/sections/feature.built-different.json"
+    },
+    "feature.cell-collage": {
+      "category": "FEATURE",
+      "description": "Floating InfoText (icon, H2, text, CTA) surrounded by absolutely positioned product cell screenshots.",
+      "scope": "Only on /product/notebooks/.",
+      "contract": "design-repo/sections/feature.cell-collage.json"
+    },
+    "feature.codegen-gallery": {
+      "category": "FEATURE",
+      "description": "Gradient H2 + lead + links, a large app-builder screenshot, then a 3-column gallery of copy-a-prompt cards.",
+      "scope": "Only on /product/data-apps/.",
+      "contract": "design-repo/sections/feature.codegen-gallery.json"
+    },
+    "feature.command-list": {
+      "category": "FEATURE",
+      "description": "Mark + gradient H2 with italic lead word beside a 2-column list of command features with inline code pills, over rose Perlin.",
+      "scope": "Only on /product/cli/.",
+      "contract": "design-repo/sections/feature.command-list.json"
+    },
+    "feature.demo-accordion": {
+      "category": "FEATURE",
+      "description": "Demo section: eyebrow, gradient H2, lead, 'Watch demo' pill, radio option list driving a media panel.",
+      "scope": "Only on /capability/ai/.",
+      "contract": "design-repo/sections/feature.demo-accordion.json"
+    },
+    "feature.ethos-cards": {
+      "category": "FEATURE",
+      "description": "Two glass cards with eyebrow pill, gradient H2, body + bullets and a CTA over a framed illustration.",
+      "scope": "Only on /.",
+      "contract": "design-repo/sections/feature.ethos-cards.json"
+    },
+    "feature.execution-dag": {
+      "category": "FEATURE",
+      "description": "InfoText over a bleeding DAG illustration with a logo chip group, then three integration cards.",
+      "scope": "Only on /product/notebooks/.",
+      "contract": "design-repo/sections/feature.execution-dag.json"
+    },
+    "feature.highlights": {
+      "category": "FEATURE",
+      "description": "Three-column tout: centred italic+display H2, lead and CTA flanked by two icon highlights with inline links.",
+      "scope": "Only on /careers/.",
+      "contract": "design-repo/sections/feature.highlights.json"
+    },
+    "feature.how-it-works": {
+      "category": "FEATURE",
+      "description": "Integration 'How it works': H2 + rich text + CTA row beside a connection illustration, image or nothing (centred).",
+      "scope": "On 16 routes: Integration detail.",
+      "contract": "design-repo/sections/feature.how-it-works.json"
+    },
+    "feature.icon-row": {
+      "category": "FEATURE",
+      "description": "Three centred icon + H3 + text columns.",
+      "scope": "Only on /product/embedded-analytics/.",
+      "contract": "design-repo/sections/feature.icon-row.json"
+    },
+    "feature.illustrated-checklist": {
+      "category": "FEATURE",
+      "description": "Illustration beside gradient title, lead, vertical tick checklist and CTA.",
+      "scope": "Only on /enterprise/.",
+      "contract": "design-repo/sections/feature.illustrated-checklist.json"
+    },
+    "feature.info-card-grid": {
+      "category": "FEATURE",
+      "description": "Grid of 2-3 glass cards: copy (optional eyebrow, H3, text, optional CTA) on top, screenshot bottom-aligned.",
+      "scope": "On 3 routes: some Product feature pages.",
+      "contract": "design-repo/sections/feature.info-card-grid.json"
+    },
+    "feature.integration-custom-blocks": {
+      "category": "FEATURE",
+      "description": "Integration-specific extra blocks: two-up connection columns or centred header + outline card grids.",
+      "scope": "On 3 routes: some Integration detail pages.",
+      "contract": "design-repo/sections/feature.integration-custom-blocks.json"
+    },
+    "feature.integrations-grid": {
+      "category": "FEATURE",
+      "description": "'Instant integration' tout: italic+display H2, lead and a 3x2 grid of illustrated integration cards.",
+      "scope": "On 2 routes: Enterprise, Homepage.",
+      "contract": "design-repo/sections/feature.integrations-grid.json"
+    },
+    "feature.live-app-embed": {
+      "category": "FEATURE",
+      "description": "Centred H2 + text with inline link over tabbed external app embeds in a 16:9 white frame with an 'Explore this app' overlay link.",
+      "scope": "On 4 routes: some Solution detail pages.",
+      "contract": "design-repo/sections/feature.live-app-embed.json"
+    },
+    "feature.magic": {
+      "category": "FEATURE",
+      "description": "Animated AI glyph + H2 + lead beside a product image, over a slowly rotating line-art background.",
+      "scope": "Only on /product/notebooks/.",
+      "contract": "design-repo/sections/feature.magic.json"
+    },
+    "feature.numbered-grid": {
+      "category": "FEATURE",
+      "description": "Gradient H1-scale title, 2-column numbered feature grid with a CTA, beside a staggered column of compliance badge boxes.",
+      "scope": "Only on /enterprise/.",
+      "contract": "design-repo/sections/feature.numbered-grid.json"
+    },
+    "feature.observability-callouts": {
+      "category": "FEATURE",
+      "description": "Section header + a large product dashboard window with two text callouts floating left and right.",
+      "scope": "Only on /product/context-studio/.",
+      "contract": "design-repo/sections/feature.observability-callouts.json"
+    },
+    "feature.partner-tiers": {
+      "category": "FEATURE",
+      "description": "Centred H2 + lead over three tier columns: tinted flag panel, H3, text, H4 and bullet list.",
+      "scope": "Only on /partners/.",
+      "contract": "design-repo/sections/feature.partner-tiers.json"
+    },
+    "feature.partners-why": {
+      "category": "FEATURE",
+      "description": "Illustration beside an H2, text and two md CTAs (integration / consulting partners).",
+      "scope": "Only on /partners/.",
+      "contract": "design-repo/sections/feature.partners-why.json"
+    },
+    "feature.perlin-callout": {
+      "category": "FEATURE",
+      "description": "Wide dark callout card on a hatched band: eyebrow, H2, optional text and secondary CTA, decorative art right.",
+      "scope": "On 2 routes: some Product feature pages.",
+      "contract": "design-repo/sections/feature.perlin-callout.json"
+    },
+    "feature.photo-collage": {
+      "category": "FEATURE",
+      "description": "Italic+display H2 and lead positioned over a right-aligned collage of team photo cards.",
+      "scope": "Only on /about/.",
+      "contract": "design-repo/sections/feature.photo-collage.json"
+    },
+    "feature.plan-comparison": {
+      "category": "FEATURE",
+      "description": "Feature comparison table with sticky plan header, grouped sections, tick/text cells, tooltips and a compute-profiles modal.",
+      "scope": "Only on /pricing/.",
+      "contract": "design-repo/sections/feature.plan-comparison.json"
+    },
+    "feature.plan-summary": {
+      "category": "FEATURE",
+      "description": "Two framed plan groups (individual / team) of plan cards: line icon, H3, description, price, CTA and tick list; team cards over rose Perlin.",
+      "scope": "Only on /pricing/.",
+      "contract": "design-repo/sections/feature.plan-summary.json"
+    },
+    "feature.platform-overview": {
+      "category": "FEATURE",
+      "description": "Centred H2, three linked workflow cards with isometric art and hover Perlin, a bracket label and a capability icon row.",
+      "scope": "Only on /product/context-studio/.",
+      "contract": "design-repo/sections/feature.platform-overview.json"
+    },
+    "feature.podcast-episodes": {
+      "category": "FEATURE",
+      "description": "InfoText (mark, H3, description) | divider | two interactive episode cards with a floating 'Watch podcast' button.",
+      "scope": "Only on /resources/guides/ai-analytics/.",
+      "contract": "design-repo/sections/feature.podcast-episodes.json"
+    },
+    "feature.section-heading": {
+      "category": "FEATURE",
+      "description": "Centred section heading: gradient H2 with optional checker-flanked italic line and description (display), solution-sized H2, or V1 panel H2 + subheader.",
+      "scope": "On 9 routes: some Product feature pages, Solution detail, some Product (legacy layout) pages.",
+      "contract": "design-repo/sections/feature.section-heading.json"
+    },
+    "feature.snaked-rows": {
+      "category": "FEATURE",
+      "description": "Five alternating feature rows joined by connecting lines, each a title, text, link and overlapping product cells.",
+      "scope": "Only on /product/data-apps/.",
+      "contract": "design-repo/sections/feature.snaked-rows.json"
+    },
+    "feature.solution-row": {
+      "category": "FEATURE",
+      "description": "Solution feature row: 671px media box beside a 375px info column (solid 40px H2, optional bold subline, body, full-width secondary CTA).",
+      "scope": "On 5 routes: Solution detail.",
+      "contract": "design-repo/sections/feature.solution-row.json"
+    },
+    "feature.split": {
+      "category": "FEATURE",
+      "description": "Feature row: InfoText (icon, H3, optional description, CTA) + dashed inline quote beside an illustration or product mock; row or row-reverse.",
+      "scope": "On 3 routes: some Product feature pages, Homepage.",
+      "contract": "design-repo/sections/feature.split.json"
+    },
+    "feature.story-details": {
+      "category": "FEATURE",
+      "description": "Three static glass detail cards (About / Outcome / Scale achieved) over a cartesian grid.",
+      "scope": "On 8 routes: Customer story.",
+      "contract": "design-repo/sections/feature.story-details.json"
+    },
+    "feature.support-grid": {
+      "category": "FEATURE",
+      "description": "Centred gradient title + lead over a 2x2 icon-text grid beside a stair illustration.",
+      "scope": "Only on /enterprise/.",
+      "contract": "design-repo/sections/feature.support-grid.json"
+    },
+    "feature.use-cases": {
+      "category": "FEATURE",
+      "description": "Use-case list: mark + H2 with italic subheading on the left, three linked use-case rows on the right.",
+      "scope": "Only on /.",
+      "contract": "design-repo/sections/feature.use-cases.json"
+    },
+    "feature.v1-two-up": {
+      "category": "FEATURE",
+      "description": "V1 two-up row: InfoText with optional mono eyebrow, 40px H2, 1-2 paragraphs and optional CTA beside a 680px media column; alternating.",
+      "scope": "On 2 routes: some Product (legacy layout) pages.",
+      "contract": "design-repo/sections/feature.v1-two-up.json"
+    },
+    "feature.video-embed": {
+      "category": "FEATURE",
+      "description": "'See it in action' H2 over a fixed-height frame with dashed corner guides holding an external video embed.",
+      "scope": "On 4 routes: some Integration detail pages.",
+      "contract": "design-repo/sections/feature.video-embed.json"
+    },
+    "feature.workflow-split": {
+      "category": "FEATURE",
+      "description": "Gradient H2 masthead over two divided halves (eyebrow, bold-lead description, three-item icon list).",
+      "scope": "Only on /capability/ai/.",
+      "contract": "design-repo/sections/feature.workflow-split.json"
+    },
+    "feature.workflow-table": {
+      "category": "FEATURE",
+      "description": "Three-column task / prompt / result table with chat-bubble prompts and a highlighted result column.",
+      "scope": "Only on /product/cli/.",
+      "contract": "design-repo/sections/feature.workflow-table.json"
+    },
+    "collection.blog-featured": {
+      "category": "COLLECTION",
+      "description": "Featured posts: one wide primary card (Perlin hover) + two secondary cards with image, date row, H2, subtitle and meta.",
+      "scope": "Only on /blog/.",
+      "contract": "design-repo/sections/collection.blog-featured.json"
+    },
+    "collection.blog-feed": {
+      "category": "COLLECTION",
+      "description": "Sticky category filter with count beside a list of post rows and a 'View more' button.",
+      "scope": "Only on /blog/.",
+      "contract": "design-repo/sections/collection.blog-feed.json"
+    },
+    "collection.blog-recent": {
+      "category": "COLLECTION",
+      "description": "Full-bleed 3-up strip of recent posts divided by 1px rules.",
+      "scope": "Only on /blog/.",
+      "contract": "design-repo/sections/collection.blog-recent.json"
+    },
+    "collection.customer-stories": {
+      "category": "COLLECTION",
+      "description": "Grid of glass customer-story cards (logo plate, H4, mono meta rows); index variant shows the full filterable grid, related variant a short list with H2.",
+      "scope": "On 9 routes: Customer story, Customers index.",
+      "contract": "design-repo/sections/collection.customer-stories.json"
+    },
+    "collection.events": {
+      "category": "COLLECTION",
+      "description": "Sticky filter sidebar beside grouped event-card grids under dark section headers (upcoming / on-demand).",
+      "scope": "Only on /resources/events/.",
+      "contract": "design-repo/sections/collection.events.json"
+    },
+    "collection.external-links": {
+      "category": "COLLECTION",
+      "description": "'Learn more' cut-out box of external resource links (title + source).",
+      "scope": "On 5 routes: some Integration detail pages.",
+      "contract": "design-repo/sections/collection.external-links.json"
+    },
+    "collection.guides": {
+      "category": "COLLECTION",
+      "description": "Three-column grid of dark guide cards (image, H4, 'Download now').",
+      "scope": "Only on /resources/guides/.",
+      "contract": "design-repo/sections/collection.guides.json"
+    },
+    "collection.integration-category": {
+      "category": "COLLECTION",
+      "description": "Integration category: H3 + description over a 4-column grid of logo tiles (one special rotating local-files tile).",
+      "scope": "Only on /product/integrations/.",
+      "contract": "design-repo/sections/collection.integration-category.json"
+    },
+    "collection.newsroom-cards": {
+      "category": "COLLECTION",
+      "description": "Grid of glass press cards (thumbnail, H4, outlet + date) linking out; teaser variant adds an H2 and a 'view more' button.",
+      "scope": "On 2 routes: About, Newsroom.",
+      "contract": "design-repo/sections/collection.newsroom-cards.json"
+    },
+    "collection.newsroom-featured": {
+      "category": "COLLECTION",
+      "description": "One featured press card: large image beside H2 and outlet/date meta, linking to the external article.",
+      "scope": "Only on /newsroom/.",
+      "contract": "design-repo/sections/collection.newsroom-featured.json"
+    },
+    "collection.open-roles": {
+      "category": "COLLECTION",
+      "description": "Open roles: sticky department/location filter sidebar beside department blocks of role rows, closed by a safety callout.",
+      "scope": "Only on /careers/.",
+      "contract": "design-repo/sections/collection.open-roles.json"
+    },
+    "collection.partners-grid": {
+      "category": "COLLECTION",
+      "description": "Partners: centred H2 + lead over wrapped logo cards with tier badges.",
+      "scope": "Only on /partners/.",
+      "contract": "design-repo/sections/collection.partners-grid.json"
+    },
+    "collection.resource-cards": {
+      "category": "COLLECTION",
+      "description": "Resource card grid: glass cards with tag-tinted illustration, 16:9 frame, type chip, H4 and solution/read-time meta; solution variant uses plain article cards with 'Read more'.",
+      "scope": "On 8 routes: some Product feature pages, Solution detail, Gated guide landing, Solutions hub.",
+      "contract": "design-repo/sections/collection.resource-cards.json"
+    },
+    "collection.template-cards": {
+      "category": "COLLECTION",
+      "description": "Optional heading over a 3-column grid of outline template cards (preview, tag, H4, author, description).",
+      "scope": "On 2 routes: some Product feature pages, some Product (legacy layout) pages.",
+      "contract": "design-repo/sections/collection.template-cards.json"
+    },
+    "collection.templates-catalog": {
+      "category": "COLLECTION",
+      "description": "Category sidebar (position: relative, not sticky) beside per-category sections: dark header with 'View all' button and a 2-column template-card grid.",
+      "scope": "Only on /templates/.",
+      "contract": "design-repo/sections/collection.templates-catalog.json"
+    },
+    "content.article-body": {
+      "category": "CONTENT",
+      "description": "Light content slab inside a dark page: sticky 'In this article' TOC aside with CTA, rich text column, in-body callout, share row and kicker.",
+      "scope": "Only on /blog/introducing-generative-data-apps/.",
+      "contract": "design-repo/sections/content.article-body.json"
+    },
+    "content.guide-chapter": {
+      "category": "CONTENT",
+      "description": "Long-form guide chapter card: chapter H2 then sub-sections with sticky H3s and a prose column (paragraphs, lists, quote cards, objection accordion).",
+      "scope": "Only on /product/switching-to-hex/.",
+      "contract": "design-repo/sections/content.guide-chapter.json"
+    },
+    "content.report-intro": {
+      "category": "CONTENT",
+      "description": "Report intro: H2 + paragraphs beside a glass 'Key findings' card.",
+      "scope": "Only on /state-of-data-teams/.",
+      "contract": "design-repo/sections/content.report-intro.json"
+    },
+    "content.report-outro": {
+      "category": "CONTENT",
+      "description": "Report outro: running text beside a glass 'Questions? Talk to us.' card with a primary CTA.",
+      "scope": "Only on /state-of-data-teams/.",
+      "contract": "design-repo/sections/content.report-outro.json"
+    },
+    "content.report-section": {
+      "category": "CONTENT",
+      "description": "Numbered report section: number card + H2, lead, alternating two-ups (text vs. chart with survey-question chip) and a full-width pull quote.",
+      "scope": "Only on /state-of-data-teams/.",
+      "contract": "design-repo/sections/content.report-section.json"
+    },
+    "content.report-toc": {
+      "category": "CONTENT",
+      "description": "Report table of contents: H2 + five numbered glass cards linking to section anchors.",
+      "scope": "Only on /state-of-data-teams/.",
+      "contract": "design-repo/sections/content.report-toc.json"
+    },
+    "content.story-body": {
+      "category": "CONTENT",
+      "description": "Customer story body: rich text column between hatched gutters; section headings and pull quotes are real, other prose is placeholder.",
+      "scope": "On 8 routes: Customer story.",
+      "contract": "design-repo/sections/content.story-body.json"
+    },
+    "conversion.bottom-cta": {
+      "category": "CONVERSION",
+      "description": "Homepage dashed two-column CTA: gradient H3 + text + two buttons | plans text + secondary button.",
+      "scope": "Only on /.",
+      "contract": "design-repo/sections/conversion.bottom-cta.json"
+    },
+    "conversion.collage-cta": {
+      "category": "CONVERSION",
+      "description": "Centred two-line gradient H2, text and md CTA above a collage of overlapping product cells.",
+      "scope": "Only on /product/data-apps/.",
+      "contract": "design-repo/sections/conversion.collage-cta.json"
+    },
+    "conversion.cta-split": {
+      "category": "CONVERSION",
+      "description": "Gradient title + two-column tick checklist beside the bordered outline CTA card.",
+      "scope": "Only on /enterprise/.",
+      "contract": "design-repo/sections/conversion.cta-split.json"
+    },
+    "conversion.form-shell": {
+      "category": "CONVERSION",
+      "description": "Visual-only lead form: tinted bordered box of labelled fields (2-column rows), local validation states, gradient submit and disclaimer. Never submits.",
+      "scope": "On 3 routes: Form page, Partners.",
+      "contract": "design-repo/sections/conversion.form-shell.json"
+    },
+    "conversion.install-cta": {
+      "category": "CONVERSION",
+      "description": "Terminal-style closing CTA: ASCII art, heading with italic line, lead, tabbed copy-to-clipboard install command and doc links.",
+      "scope": "Only on /product/cli/.",
+      "contract": "design-repo/sections/conversion.install-cta.json"
+    },
+    "conversion.outro-tout": {
+      "category": "CONVERSION",
+      "description": "Closing CTA: tron divider then a centred outline card with corner accent (H2, text, 1-2 lg buttons); band variant on a tinted band.",
+      "scope": "On 14 routes: some Product feature pages, Solution detail, Product (legacy layout), Gated guide landing.",
+      "contract": "design-repo/sections/conversion.outro-tout.json"
+    },
+    "conversion.wallpaper-cta": {
+      "category": "CONVERSION",
+      "description": "Centred CTA over a faded glyph wallpaper: small icon, gradient H2, text and a button.",
+      "scope": "Only on /product/notebooks/.",
+      "contract": "design-repo/sections/conversion.wallpaper-cta.json"
+    },
+    "faq.accordion": {
+      "category": "FAQ",
+      "description": "FAQ accordion: optional heading, independent toggle rows (question + answer), optional 'Can't find your answer' footer link.",
+      "scope": "On 9 routes: some Integration detail pages, some Product feature pages, Enterprise, Homepage, Pricing, Report.",
+      "contract": "design-repo/sections/faq.accordion.json"
+    },
+    "divider.tron": {
+      "category": "DIVIDER",
+      "description": "Nine 1px gradient rules with increasing gaps and decreasing opacity separating major blocks; optionally flipped.",
+      "scope": "On 20 routes: Integration detail, Enterprise, Homepage, Partners, Pricing.",
+      "contract": "design-repo/sections/divider.tron.json"
+    },
+    "navigation.filter-chips": {
+      "category": "NAVIGATION",
+      "description": "Single-select filter chip row (icon + label + optional count) with optional sort control; filters client-side.",
+      "scope": "On 2 routes: Customers index, Solutions hub.",
+      "contract": "design-repo/sections/navigation.filter-chips.json"
+    }
+  },
+  "templates": [
+    {
+      "id": "template.integration-detail--base",
+      "name": "Integration detail — base",
+      "family": "template.integration-detail",
+      "routeCount": 8,
+      "routes": [
+        "/product/integrations/dremio/",
+        "/product/integrations/github/",
+        "/product/integrations/mariadb/",
+        "/product/integrations/ms-sql-server/",
+        "/product/integrations/mysql/",
+        "/product/integrations/postgres/",
+        "/product/integrations/prefect/",
+        "/product/integrations/trino/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.integration",
+        "divider.tron",
+        "feature.how-it-works",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.integration-detail--with-video",
+      "name": "Integration detail — with video",
+      "family": "template.integration-detail",
+      "routeCount": 2,
+      "routes": [
+        "/product/integrations/airflow/",
+        "/product/integrations/dagster/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.integration",
+        "divider.tron",
+        "feature.how-it-works",
+        "feature.video-embed",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.integration-detail--with-stories-links",
+      "name": "Integration detail — with stories and links",
+      "family": "template.integration-detail",
+      "routeCount": 2,
+      "routes": [
+        "/product/integrations/bigquery/",
+        "/product/integrations/dbt/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.integration",
+        "proof.stories-two-up",
+        "divider.tron",
+        "feature.how-it-works",
+        "collection.external-links",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.integration-detail--with-custom-blocks",
+      "name": "Integration detail — with custom blocks",
+      "family": "template.integration-detail",
+      "routeCount": 1,
+      "routes": [
+        "/product/integrations/aws/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.integration",
+        "divider.tron",
+        "feature.how-it-works",
+        "feature.integration-custom-blocks",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.integration-detail--with-video-links",
+      "name": "Integration detail — with video and links",
+      "family": "template.integration-detail",
+      "routeCount": 1,
+      "routes": [
+        "/product/integrations/clickhouse/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.integration",
+        "divider.tron",
+        "feature.how-it-works",
+        "feature.video-embed",
+        "collection.external-links",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.integration-detail--with-custom-blocks-faq-links",
+      "name": "Integration detail — with custom blocks, FAQ and links",
+      "family": "template.integration-detail",
+      "routeCount": 1,
+      "routes": [
+        "/product/integrations/databricks/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.integration",
+        "divider.tron",
+        "feature.how-it-works",
+        "feature.integration-custom-blocks",
+        "faq.accordion",
+        "collection.external-links",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.integration-detail--everything",
+      "name": "Integration detail — everything",
+      "family": "template.integration-detail",
+      "routeCount": 1,
+      "routes": [
+        "/product/integrations/snowflake/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.integration",
+        "proof.stories-two-up",
+        "divider.tron",
+        "feature.how-it-works",
+        "feature.integration-custom-blocks",
+        "faq.accordion",
+        "feature.video-embed",
+        "collection.external-links",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.customer-story",
+      "name": "Customer story",
+      "family": "template.customer-story",
+      "routeCount": 8,
+      "routes": [
+        "/customers/chime/",
+        "/customers/figma/",
+        "/customers/langchain/",
+        "/customers/mercor/",
+        "/customers/neo-financial/",
+        "/customers/notion/",
+        "/customers/ramp/",
+        "/customers/stubhub/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.story",
+        "feature.story-details",
+        "content.story-body",
+        "collection.customer-stories",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.product-feature--bi",
+      "name": "Product feature — BI",
+      "family": "template.product-feature",
+      "routeCount": 1,
+      "routes": [
+        "/product/bi/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.product",
+        "proof.customer-banner",
+        "feature.section-heading",
+        "feature.split",
+        "feature.approach-cards",
+        "collection.resource-cards",
+        "faq.accordion",
+        "conversion.outro-tout",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.product-feature--cli",
+      "name": "Product feature — CLI",
+      "family": "template.product-feature",
+      "routeCount": 1,
+      "routes": [
+        "/product/cli/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.product",
+        "proof.full-width-quote",
+        "feature.section-heading",
+        "feature.info-card-grid",
+        "feature.command-list",
+        "feature.workflow-table",
+        "conversion.install-cta",
+        "conversion.outro-tout",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.product-feature--context-studio",
+      "name": "Product feature — Context studio",
+      "family": "template.product-feature",
+      "routeCount": 1,
+      "routes": [
+        "/product/context-studio/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.product",
+        "feature.platform-overview",
+        "feature.info-card-grid",
+        "feature.observability-callouts",
+        "proof.full-width-quote",
+        "feature.bento-cells",
+        "proof.stories-two-up",
+        "conversion.outro-tout",
+        "faq.accordion",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.product-feature--threads",
+      "name": "Product feature — Threads",
+      "family": "template.product-feature",
+      "routeCount": 1,
+      "routes": [
+        "/product/threads/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.product",
+        "proof.full-width-quote",
+        "feature.split",
+        "feature.bento-cells",
+        "proof.quotes-marquee",
+        "feature.perlin-callout",
+        "conversion.outro-tout",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.product-feature--notebooks",
+      "name": "Product feature — Notebooks",
+      "family": "template.product-feature",
+      "routeCount": 1,
+      "routes": [
+        "/product/notebooks/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.product",
+        "proof.customer-banner",
+        "feature.magic",
+        "proof.full-width-quote",
+        "feature.cell-collage",
+        "feature.execution-dag",
+        "conversion.wallpaper-cta",
+        "proof.social-tout",
+        "collection.template-cards",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.product-feature--ai",
+      "name": "Product feature — AI",
+      "family": "template.product-feature",
+      "routeCount": 1,
+      "routes": [
+        "/capability/ai/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.product",
+        "feature.workflow-split",
+        "proof.quotes-marquee",
+        "feature.demo-accordion",
+        "feature.perlin-callout",
+        "feature.info-card-grid",
+        "conversion.outro-tout",
+        "faq.accordion",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.solution-detail--with-quote-live-app",
+      "name": "Solution detail — with quote and live app",
+      "family": "template.solution-detail",
+      "routeCount": 3,
+      "routes": [
+        "/solutions/customer-success/",
+        "/solutions/marketing/",
+        "/solutions/product-analytics/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.solution",
+        "proof.customer-banner",
+        "feature.solution-row",
+        "proof.social-tout",
+        "feature.live-app-embed",
+        "feature.section-heading",
+        "collection.resource-cards",
+        "conversion.outro-tout",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.solution-detail--data-leaders",
+      "name": "Solution detail — Data leaders",
+      "family": "template.solution-detail",
+      "routeCount": 1,
+      "routes": [
+        "/solutions/data-leaders/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.solution",
+        "proof.customer-banner",
+        "feature.solution-row",
+        "feature.section-heading",
+        "collection.resource-cards",
+        "conversion.outro-tout",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.solution-detail--sales-analytics",
+      "name": "Solution detail — Sales analytics",
+      "family": "template.solution-detail",
+      "routeCount": 1,
+      "routes": [
+        "/solutions/sales-analytics/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.solution",
+        "feature.solution-row",
+        "feature.live-app-embed",
+        "feature.section-heading",
+        "collection.resource-cards",
+        "conversion.outro-tout",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.product-v1--data-apps",
+      "name": "Product (legacy layout) — Data apps",
+      "family": "template.product-v1",
+      "routeCount": 1,
+      "routes": [
+        "/product/data-apps/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.v1",
+        "proof.customer-banner",
+        "feature.codegen-gallery",
+        "feature.snaked-rows",
+        "proof.social-tout",
+        "conversion.collage-cta",
+        "conversion.outro-tout",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.product-v1--embedded-analytics",
+      "name": "Product (legacy layout) — Embedded analytics",
+      "family": "template.product-v1",
+      "routeCount": 1,
+      "routes": [
+        "/product/embedded-analytics/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.v1",
+        "proof.customer-banner",
+        "feature.section-heading",
+        "feature.v1-two-up",
+        "proof.social-tout",
+        "feature.icon-row",
+        "conversion.outro-tout",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.product-v1--exploratory-analysis",
+      "name": "Product (legacy layout) — Exploratory analysis",
+      "family": "template.product-v1",
+      "routeCount": 1,
+      "routes": [
+        "/capability/exploratory-analysis/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.v1",
+        "proof.social-tout",
+        "feature.section-heading",
+        "feature.v1-two-up",
+        "collection.template-cards",
+        "conversion.outro-tout",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.form-page",
+      "name": "Form page",
+      "family": "template.form-page",
+      "routeCount": 2,
+      "routes": [
+        "/request-a-demo/",
+        "/contact-us/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.form",
+        "conversion.form-shell",
+        "proof.customer-banner",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.v1-resource-index--events",
+      "name": "Resource index (legacy layout) — Events",
+      "family": "template.v1-resource-index",
+      "routeCount": 1,
+      "routes": [
+        "/resources/events/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.v1-intro",
+        "collection.events",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.v1-resource-index--guides",
+      "name": "Resource index (legacy layout) — Guides",
+      "family": "template.v1-resource-index",
+      "routeCount": 1,
+      "routes": [
+        "/resources/guides/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.v1-intro",
+        "collection.guides",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.about",
+      "name": "About",
+      "family": "template.about",
+      "routeCount": 1,
+      "routes": [
+        "/about/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.about",
+        "proof.customer-banner",
+        "proof.logo-wall",
+        "collection.newsroom-cards",
+        "feature.photo-collage",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.article",
+      "name": "Blog article",
+      "family": "template.article",
+      "routeCount": 1,
+      "routes": [
+        "/blog/introducing-generative-data-apps/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.article",
+        "content.article-body",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.blog-index",
+      "name": "Blog index",
+      "family": "template.blog-index",
+      "routeCount": 1,
+      "routes": [
+        "/blog/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.blog-masthead",
+        "collection.blog-featured",
+        "collection.blog-recent",
+        "collection.blog-feed",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.careers",
+      "name": "Careers",
+      "family": "template.careers",
+      "routeCount": 1,
+      "routes": [
+        "/careers/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.careers",
+        "feature.highlights",
+        "collection.open-roles",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.compare",
+      "name": "Compare",
+      "family": "template.compare",
+      "routeCount": 1,
+      "routes": [
+        "/compare/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.compare",
+        "proof.customer-banner",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.customers-index",
+      "name": "Customers index",
+      "family": "template.customers-index",
+      "routeCount": 1,
+      "routes": [
+        "/customers/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.customers",
+        "proof.featured-stories-fan",
+        "proof.quotes-marquee",
+        "navigation.filter-chips",
+        "collection.customer-stories",
+        "proof.logo-wall",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.enterprise",
+      "name": "Enterprise",
+      "family": "template.enterprise",
+      "routeCount": 1,
+      "routes": [
+        "/enterprise/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.enterprise",
+        "proof.customer-banner",
+        "feature.numbered-grid",
+        "feature.illustrated-checklist",
+        "feature.support-grid",
+        "feature.integrations-grid",
+        "conversion.cta-split",
+        "divider.tron",
+        "faq.accordion",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.guide-landing",
+      "name": "Gated guide landing",
+      "family": "template.guide-landing",
+      "routeCount": 1,
+      "routes": [
+        "/resources/guides/ai-analytics/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.guide-landing",
+        "feature.podcast-episodes",
+        "collection.resource-cards",
+        "proof.quote-tiles",
+        "conversion.outro-tout",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.home",
+      "name": "Homepage",
+      "family": "template.home",
+      "routeCount": 1,
+      "routes": [
+        "/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.home",
+        "proof.customer-banner",
+        "feature.built-different",
+        "feature.split",
+        "feature.ethos-cards",
+        "proof.stories-two-up",
+        "feature.use-cases",
+        "proof.story-tout",
+        "feature.integrations-grid",
+        "conversion.bottom-cta",
+        "divider.tron",
+        "faq.accordion",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.integrations-index",
+      "name": "Integrations index",
+      "family": "template.integrations-index",
+      "routeCount": 1,
+      "routes": [
+        "/product/integrations/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.heading-with-callout",
+        "collection.integration-category",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.long-form-guide",
+      "name": "Long-form guide",
+      "family": "template.long-form-guide",
+      "routeCount": 1,
+      "routes": [
+        "/product/switching-to-hex/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.guide-document",
+        "content.guide-chapter",
+        "proof.quotes-marquee",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.newsroom",
+      "name": "Newsroom",
+      "family": "template.newsroom",
+      "routeCount": 1,
+      "routes": [
+        "/newsroom/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.newsroom",
+        "collection.newsroom-featured",
+        "collection.newsroom-cards",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.partners",
+      "name": "Partners",
+      "family": "template.partners",
+      "routeCount": 1,
+      "routes": [
+        "/partners/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.partners",
+        "feature.partners-why",
+        "divider.tron",
+        "feature.partner-tiers",
+        "collection.partners-grid",
+        "conversion.form-shell",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.placeholder",
+      "name": "Placeholder (catch-all)",
+      "family": "template.placeholder",
+      "routeCount": 1,
+      "routes": [
+        "*"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.placeholder",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.pricing",
+      "name": "Pricing",
+      "family": "template.pricing",
+      "routeCount": 1,
+      "routes": [
+        "/pricing/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.pricing",
+        "feature.plan-summary",
+        "proof.customer-banner",
+        "divider.tron",
+        "feature.plan-comparison",
+        "faq.accordion",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.report",
+      "name": "Report",
+      "family": "template.report",
+      "routeCount": 1,
+      "routes": [
+        "/state-of-data-teams/"
+      ],
+      "routePattern": null,
+      "chrome": "none",
+      "sections": [
+        "hero.report",
+        "content.report-intro",
+        "content.report-toc",
+        "content.report-section",
+        "content.report-outro",
+        "faq.accordion"
+      ]
+    },
+    {
+      "id": "template.solutions-hub",
+      "name": "Solutions hub",
+      "family": "template.solutions-hub",
+      "routeCount": 1,
+      "routes": [
+        "/solutions/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.solutions-hub",
+        "proof.customer-banner",
+        "navigation.filter-chips",
+        "collection.resource-cards",
+        "shell.footer"
+      ]
+    },
+    {
+      "id": "template.templates-index",
+      "name": "Templates index",
+      "family": "template.templates-index",
+      "routeCount": 1,
+      "routes": [
+        "/templates/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.v1-intro",
+        "collection.templates-catalog",
+        "shell.footer"
+      ]
+    }
+  ]
+}

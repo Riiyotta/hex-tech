@@ -1,0 +1,42 @@
+/* CLONE_SPEC §4.3 + §6.4: built-different orbit illustration and bubble pop-in.
+   Ported from HomeBuiltDifferentIllustration-module (reference/dom/home-module-rules.css).
+   Keyframes: `bubble-pop` from src/index.css. Delay = .6s + order × 90ms. */
+
+.bd-section { --built-different-padding-top: 100px; }
+@media (max-width: 800px) {
+  /* §1.1 --home-section-padding-block is 40px ≤800 and 20px ≤600 (not responsive in index.css) */
+  .bd-section { --built-different-padding-top: 40px; }
+}
+@media (max-width: 600px) {
+  .bd-section { --built-different-padding-top: 20px; }
+}
+/* --home-section-gutter: 40 → 30 (≤800) → 20 (≤450) */
+.bd-content { padding: var(--built-different-padding-top) 40px 0; }
+@media (max-width: 800px) {
+  .bd-content { padding-left: 30px; padding-right: 30px; }
+}
+@media (max-width: 450px) {
+  .bd-content { padding-left: 20px; padding-right: 20px; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .bd-illustration g[filter] {
+    opacity: 0;
+    transform-box: fill-box;
+    transform-origin: 50% center;
+    transform: scale(0);
+  }
+  .bd-illustration[data-revealed='true'] g[filter] {
+    animation: bubble-pop 0.45s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+    animation-delay: calc(var(--bubble-pop-base-delay) + var(--bubble-pop-order, 0) * var(--bubble-pop-step));
+  }
+  .bd-illustration g[filter]:nth-of-type(6) { --bubble-pop-order: 0; }
+  .bd-illustration g[filter]:nth-of-type(4) { --bubble-pop-order: 1; }
+  .bd-illustration g[filter]:nth-of-type(5) { --bubble-pop-order: 2; }
+  .bd-illustration g[filter]:nth-of-type(7) { --bubble-pop-order: 3; }
+  .bd-illustration g[filter]:nth-of-type(8) { --bubble-pop-order: 4; }
+  .bd-illustration g[filter]:nth-of-type(3) { --bubble-pop-order: 5; }
+  .bd-illustration g[filter]:nth-of-type(9) { --bubble-pop-order: 6; }
+  .bd-illustration g[filter]:first-of-type { --bubble-pop-order: 7; }
+  .bd-illustration g[filter]:nth-of-type(2) { --bubble-pop-order: 8; }
+}

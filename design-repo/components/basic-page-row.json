@@ -1,0 +1,37 @@
+{
+  "id": "component.basic-page-row",
+  "purpose": "Content-section row with checkered margins and padded / full / none inner variants (reveal by default).",
+  "composes": [
+    "primitive.layout-grid",
+    "primitive.reveal"
+  ],
+  "props": {
+    "bordered": {
+      "type": "boolean",
+      "measuredFrom": [
+        "src/components/shared/BasicPageRow.jsx:21"
+      ]
+    },
+    "inner": {
+      "type": "enum",
+      "measuredFrom": [
+        "src/components/shared/BasicPageRow.jsx:21"
+      ],
+      "enum": [
+        "padded",
+        "full",
+        "none"
+      ]
+    }
+  },
+  "tokens": [
+    "layout.section-max",
+    "color.border.default"
+  ],
+  "measuredFrom": [
+    "specs/product.md:88",
+    "src/components/shared/BasicPageRow.jsx:21"
+  ],
+  "layer": "component",
+  "provisional": true
+}

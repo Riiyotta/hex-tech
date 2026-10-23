@@ -1,0 +1,896 @@
+<BODY > [0,0,1440,6290] {font-family:Cinetype; font-size:14px; line-height:21.994px; font-weight:400; font-style:normal; letter-spacing:normal; text-transform:none; text-align:start; color:rgb(227, 178, 179); background-color:rgb(20, 20, 28); overflow:clip visible; z-index:0; list-style-type:disc; white-space:normal; text-wrap:wrap}
+ <DIV PageWrapper__PageLayoutGrid> [0,0,1440,6290] {display:grid; gap:0px; grid-template-columns:28.875px 115.188px 115.188px 115.188px 115.188px 115.188px 115.188px 115.188px 115.188px 115.188px 115.188px 115.188px 115.188px 28.875px; grid-template-rows:6289.58px; color:rgb(49, 38, 59); background-color:rgb(255, 252, 252)}
+  <A .sr-only> [-10000,0,1,1] href=#main «Skip to main content» {position:absolute; grid-column:2 / -2; color:rgb(67, 57, 76); border-bottom:1px solid rgb(67, 57, 76); transition:background-color 0.1s linear; overflow:hidden}
+  <DIV LayoutGrid__LayoutSubgrid PageWrapper__PaperTexture> [0,0,1440,6290] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-column:1 / -1; background-image:url("https://hex.tech/images/light-bkg-noise.webp"); opacity:0.06}
+  <DIV LayoutGrid__LayoutSubgrid> [0,0,1440,6290] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:5702.92px 554.656px 32px; grid-column:1 / -1}
+   <DIV .LayoutGrid-sc-51ec3774-0.gfIDZt> [0,0,1440,82] {display:grid; position:fixed; gap:0px; grid-template-columns:28.875px 115.188px 115.188px 115.188px 115.188px 115.188px 115.188px 115.188px 115.188px 115.188px 115.188px 115.188px 115.188px 28.875px; grid-template-rows:20px 62px; grid-column:2 / -2; z-index:3}
+    <DIV LayoutGrid__LayoutSubgrid Header__TopGridLines> [0,0,1440,20] {display:grid; position:relative; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:20px; grid-column:1 / -1; background-color:rgb(255, 252, 252)}
+     <DIV GridLines__ContentMarginLine> [0,0,29,20] {grid-column:1; border-right:1px solid rgb(233, 229, 232)}
+     <DIV GridLines__GridRule> [374,0,1,20] {grid-column:4; background-color:rgb(233, 229, 232); transform:matrix(1, 0, 0, 1, 0.5, 0)}
+     <DIV GridLines__GridRule> [1065,0,1,20] {grid-column:10; background-color:rgb(233, 229, 232); transform:matrix(1, 0, 0, 1, 0.5, 0)}
+     <DIV GridLines__ContentMarginLine> [1411,0,29,20] {grid-column:-2 / span 1; border-left:1px solid rgb(233, 229, 232)}
+    <HEADER LayoutGrid__LayoutSubgrid> [0,20,1440,62] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:62px; grid-column:1 / -1}
+     <DIV LayoutGrid__LayoutSubgrid Header__TickerWrapper> [0,20,1440,27] {display:grid; position:relative; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:26.8438px; grid-column:1 / -1; background-color:rgb(255, 252, 252)}
+      <DIV GridLines__ContentMarginLine> [0,20,29,27] {grid-column:1; border-right:1px solid rgb(233, 229, 232)}
+      <DIV LayoutGrid__LayoutSubgrid Ticker__Bg> [29,20,1382,27] {display:grid; grid-template-columns:115.188px 115.188px 115.188px 115.188px 115.188px 115.188px 115.188px 115.188px 115.188px 115.188px 115.188px 115.188px; grid-template-rows:26.8438px; grid-column:2 / -2; background-color:rgb(240, 237, 238); background-image:linear-gradient(to left, rgb(240, 237, 238), rgb(244, 241, 242), rgb(240, 237, 238)); box-shadow:rgba(49, 38, 59, 0.14) 0px 1px 1px 0px inset; overflow:hidden}
+       <DIV Ticker__Marquee> [29,20,1382,27] {display:flex; position:relative; grid-column:1 / -1; overflow:hidden; z-index:1}
+        <DIV .sr-only> [-9971,20,1,1] {position:absolute; overflow:hidden}
+         <A Ticker__MarqueeItem> [-9971,20,16,19] href=/customers/langchain/ «how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+          <SPAN > [-9963,20,15,19] «📊» {}
+          <SPAN Ticker__MarqueeItemTitle> [-9940,20,169,19] «AI analytics use case:» {color:rgb(20, 20, 28)}
+          <SPAN Ticker__Circle> [-9092,24,10,10] {display:grid; align-items:center; grid-template-columns:10px; grid-template-rows:10px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+           <svg Ticker__StyledArrowRight> [-9092,26,10,7] {overflow:hidden}
+         <A Ticker__MarqueeItem> [-9971,39,16,19] href=/blog/introducing-generative-data-apps/ «Gorgeous, interactive dashboards and apps you can build with just a prompt» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+          <SPAN > [-9963,39,15,19] «🤯» {}
+          <SPAN Ticker__MarqueeItemTitle> [-9940,39,161,19] «Generative data apps:» {color:rgb(20, 20, 28)}
+          <SPAN Ticker__Circle> [-9199,43,10,10] {display:grid; align-items:center; grid-template-columns:10px; grid-template-rows:10px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+           <svg Ticker__StyledArrowRight> [-9199,45,10,7] {overflow:hidden}
+         <A Ticker__MarqueeItem> [-9971,58,16,19] href=/state-of-data-teams/ «discover key insights from data leaders» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+          <SPAN > [-9963,58,15,19] «📖» {}
+          <SPAN Ticker__MarqueeItemTitle> [-9940,58,184,19] «State of Data Teams 2026» {color:rgb(20, 20, 28)}
+          <SPAN Ticker__Circle> [-9445,62,10,10] {display:grid; align-items:center; grid-template-columns:10px; grid-template-rows:10px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+           <svg Ticker__StyledArrowRight> [-9445,64,10,7] {overflow:hidden}
+         <A Ticker__MarqueeItem> [-9971,77,16,19] href=/ «Not "HEX" or "Hex dot tech"» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+          <SPAN > [-9963,77,15,19] «🙏» {}
+          <SPAN Ticker__MarqueeItemTitle> [-9940,77,123,19] «It's just "Hex"!» {color:rgb(20, 20, 28)}
+          <SPAN Ticker__Circle> [-9598,81,10,10] {display:grid; align-items:center; grid-template-columns:10px; grid-template-rows:10px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+           <svg Ticker__StyledArrowRight> [-9598,82,10,7] {overflow:hidden}
+        <DIV Ticker__InstanceAnim> [-784,20,13568,27] {display:flex; transform:matrix(1, 0, 0, 1, -812.399, 0); animation:56s linear infinite ticker}
+         <SPAN > [-784,20,2714,27] {display:flex; white-space:nowrap; text-wrap:nowrap}
+          <SPAN Ticker__MarqueeItems> [-784,20,2714,27] {display:flex; gap:16px; padding:4px 16px 4px 0px}
+           <A Ticker__MarqueeItem> [-784,24,904,19] href=/customers/langchain/ «how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [-774,24,15,19] «📊» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [-751,24,169,19] «AI analytics use case:» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [98,26,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [100,30,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [137,24,797,19] href=/blog/introducing-generative-data-apps/ «Gorgeous, interactive dashboards and apps you can build with just a prompt» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [146,24,15,19] «🤯» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [169,24,161,19] «Generative data apps:» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [911,26,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [913,30,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [950,24,551,19] href=/state-of-data-teams/ «discover key insights from data leaders» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [959,24,15,19] «📖» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [982,24,184,19] «State of Data Teams 2026» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [1478,26,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [1480,30,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [1517,24,397,19] href=/ «Not "HEX" or "Hex dot tech"» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [1526,24,15,19] «🙏» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [1549,24,123,19] «It's just "Hex"!» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [1891,26,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [1893,30,10,7] {overflow:hidden}
+         <SPAN > [1930,20,2714,27] {display:flex; white-space:nowrap; text-wrap:nowrap}
+          <SPAN Ticker__MarqueeItems> [1930,20,2714,27] {display:flex; gap:16px; padding:4px 16px 4px 0px}
+           <A Ticker__MarqueeItem> [1930,24,904,19] href=/customers/langchain/ «how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [1939,24,15,19] «📊» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [1962,24,169,19] «AI analytics use case:» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [2811,26,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [2814,30,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [2850,24,797,19] href=/blog/introducing-generative-data-apps/ «Gorgeous, interactive dashboards and apps you can build with just a prompt» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [2859,24,15,19] «🤯» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [2883,24,161,19] «Generative data apps:» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [3624,26,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [3627,30,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [3663,24,551,19] href=/state-of-data-teams/ «discover key insights from data leaders» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [3672,24,15,19] «📖» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [3696,24,184,19] «State of Data Teams 2026» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [4191,26,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [4194,30,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [4230,24,397,19] href=/ «Not "HEX" or "Hex dot tech"» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [4239,24,15,19] «🙏» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [4263,24,123,19] «It's just "Hex"!» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [4604,26,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [4607,30,10,7] {overflow:hidden}
+         <SPAN > [4643,20,2714,27] {display:flex; white-space:nowrap; text-wrap:nowrap}
+          <SPAN Ticker__MarqueeItems> [4643,20,2714,27] {display:flex; gap:16px; padding:4px 16px 4px 0px}
+           <A Ticker__MarqueeItem> [4643,24,904,19] href=/customers/langchain/ «how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [4653,24,15,19] «📊» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [4676,24,169,19] «AI analytics use case:» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [5525,26,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [5527,30,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [5564,24,797,19] href=/blog/introducing-generative-data-apps/ «Gorgeous, interactive dashboards and apps you can build with just a prompt» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [5573,24,15,19] «🤯» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [5596,24,161,19] «Generative data apps:» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [6338,26,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [6340,30,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [6377,24,551,19] href=/state-of-data-teams/ «discover key insights from data leaders» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [6386,24,15,19] «📖» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [6409,24,184,19] «State of Data Teams 2026» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [6905,26,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [6907,30,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [6944,24,397,19] href=/ «Not "HEX" or "Hex dot tech"» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [6953,24,15,19] «🙏» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [6976,24,123,19] «It's just "Hex"!» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [7318,26,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [7320,30,10,7] {overflow:hidden}
+         <SPAN > [7357,20,2714,27] {display:flex; white-space:nowrap; text-wrap:nowrap}
+          <SPAN Ticker__MarqueeItems> [7357,20,2714,27] {display:flex; gap:16px; padding:4px 16px 4px 0px}
+           <A Ticker__MarqueeItem> [7357,24,904,19] href=/customers/langchain/ «how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [7366,24,15,19] «📊» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [7389,24,169,19] «AI analytics use case:» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [8238,26,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [8241,30,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [8277,24,797,19] href=/blog/introducing-generative-data-apps/ «Gorgeous, interactive dashboards and apps you can build with just a prompt» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [8286,24,15,19] «🤯» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [8310,24,161,19] «Generative data apps:» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [9051,26,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [9054,30,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [9090,24,551,19] href=/state-of-data-teams/ «discover key insights from data leaders» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [9099,24,15,19] «📖» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [9123,24,184,19] «State of Data Teams 2026» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [9618,26,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [9621,30,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [9657,24,397,19] href=/ «Not "HEX" or "Hex dot tech"» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [9666,24,15,19] «🙏» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [9690,24,123,19] «It's just "Hex"!» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [10031,26,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [10034,30,10,7] {overflow:hidden}
+         <SPAN > [10070,20,2714,27] {display:flex; white-space:nowrap; text-wrap:nowrap}
+          <SPAN Ticker__MarqueeItems> [10070,20,2714,27] {display:flex; gap:16px; padding:4px 16px 4px 0px}
+           <A Ticker__MarqueeItem> [10070,24,904,19] href=/customers/langchain/ «how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [10080,24,15,19] «📊» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [10103,24,169,19] «AI analytics use case:» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [10952,26,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [10954,30,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [10991,24,797,19] href=/blog/introducing-generative-data-apps/ «Gorgeous, interactive dashboards and apps you can build with just a prompt» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [11000,24,15,19] «🤯» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [11023,24,161,19] «Generative data apps:» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [11765,26,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [11767,30,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [11804,24,551,19] href=/state-of-data-teams/ «discover key insights from data leaders» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [11813,24,15,19] «📖» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [11836,24,184,19] «State of Data Teams 2026» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [12332,26,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [12334,30,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [12371,24,397,19] href=/ «Not "HEX" or "Hex dot tech"» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [12380,24,15,19] «🙏» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [12403,24,123,19] «It's just "Hex"!» {color:rgb(20, 20, 28)}
+            <SPAN Ticker__Circle> [12745,26,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(49, 38, 59, 0.57); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [12747,30,10,7] {overflow:hidden}
+      <DIV GridLines__ContentMarginLine> [1411,20,29,27] {grid-column:-2 / span 1; border-left:1px solid rgb(233, 229, 232)}
+     <DIV LayoutGrid__LayoutSubgrid> [0,20,1440,62] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:62px; grid-column:1 / -1}
+      <NAV LayoutGrid__LayoutSubgrid> [0,20,1440,62] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:62px 0px; grid-column:1 / -1}
+       <DIV LayoutGrid__LayoutSubgrid Nav__NavWrapper> [0,47,1440,62] {display:grid; position:relative; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:62px; grid-column:1 / -1; transform:matrix(1, 0, 0, 1, 0, 26.8438)}
+        <DIV LayoutGrid__LayoutSubgrid Nav__Background> [0,47,1440,62] {display:grid; position:relative; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:62px; grid-column:1 / -1; z-index:-1}
+         <DIV Nav__BackgroundInner> [0,47,1440,62] {position:absolute; grid-column:1 / -1; mask-image:linear-gradient(rgba(0, 0, 0, 0.48) 30%, rgba(0, 0, 0, 0))}
+        <DIV LayoutGrid__LayoutSubgrid> [0,67,1440,62] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:62px; grid-column:1 / -1; transform:matrix(1, 0, 0, 1, 0, 20)}
+         <DIV Nav__NavShadow> [0,67,1440,62] {position:relative; grid-column:1 / -1; opacity:0; overflow:clip visible; z-index:3}
+         <DIV LayoutGrid__LayoutSubgrid> [0,67,1440,62] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:62px; grid-column:1 / -1}
+          <DIV Nav__NavBorderBottom> [0,128,29,1] {grid-column:1; background-color:rgb(233, 229, 232); opacity:0}
+          <DIV Nav__NavigationRootEl> [29,67,1382,62] {display:grid; position:relative; align-items:center; grid-template-columns:659.125px 64px 659.125px; grid-template-rows:38px; grid-column:2 / -2; padding:12px 0px}
+           <DIV > [29,81,659,34] {position:relative}
+            <UL Nav__NavigationList Nav__LeftNav> [29,81,659,34] {display:flex; justify-content:flex-end; gap:0px; grid-column:1 / span 1; padding:0px 36px 0px 0px; list-style-type:none}
+             <LI NavMenuItem__StyledNavItem> [353,81,100,34] {display:list-item; position:relative; line-height:14px; color:rgb(20, 20, 28)}
+              <BUTTON NavMenuItem__NavItemLink> [353,81,100,34] «Platform» {display:flex; position:relative; align-items:center; padding:9.6px 9.6px 9.6px 13.6px; font-family:Cinetype; text-align:center; border-radius:1px; transition:none; white-space:nowrap; text-wrap:nowrap}
+               <DIV NavMenuItem__ChevronContainer> [428,90,15,15] {margin:0px 0px 0px 5.6px; color:rgb(67, 57, 76)}
+                <SPAN createIcon__Wrapper> [428,90,15,15] {display:flex}
+                 <svg > [428,90,15,15] {overflow:hidden}
+             <LI NavMenuItem__StyledNavItem> [453,81,104,34] {display:list-item; position:relative; line-height:14px; color:rgb(20, 20, 28)}
+              <BUTTON NavMenuItem__NavItemLink> [453,81,104,34] «Solutions» {display:flex; position:relative; align-items:center; padding:9.6px 9.6px 9.6px 13.6px; font-family:Cinetype; text-align:center; border-radius:1px; transition:none; white-space:nowrap; text-wrap:nowrap}
+               <DIV NavMenuItem__ChevronContainer> [532,90,15,15] {margin:0px 0px 0px 5.6px; color:rgb(67, 57, 76)}
+                <SPAN createIcon__Wrapper> [532,90,15,15] {display:flex}
+                 <svg > [532,90,15,15] {overflow:hidden}
+             <LI NavMenuItem__StyledNavItem> [557,81,95,34] {display:list-item; position:relative; line-height:14px; color:rgb(20, 20, 28)}
+              <A NavMenuItem__NavItemLink> [557,81,95,33] href=/enterprise/ «Enterprise» {display:flex; position:relative; align-items:center; padding:9.6px 13.6px; font-family:Cinetype; border-radius:1px; transition:none; white-space:nowrap; text-wrap:nowrap}
+           <A Nav__HomeNavLinkWrapper> [688,86,64,25] href=/ {grid-column:2 / span 1; color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+            <svg Nav__Hex> [688,86,64,25] {overflow:hidden}
+           <DIV > [752,79,659,38] {position:relative}
+            <UL Nav__NavigationList Nav__RightNav> [752,79,659,38] {display:flex; justify-content:flex-start; align-items:center; gap:0px; grid-column:3 / span 1; padding:0px 0px 0px 28px; list-style-type:none}
+             <LI NavMenuItem__StyledNavItem> [780,81,110,34] {display:list-item; position:relative; line-height:14px; color:rgb(20, 20, 28)}
+              <BUTTON NavMenuItem__NavItemLink> [780,81,110,34] «Resources» {display:flex; position:relative; align-items:center; padding:9.6px 9.6px 9.6px 13.6px; font-family:Cinetype; text-align:center; border-radius:1px; transition:none; white-space:nowrap; text-wrap:nowrap}
+               <DIV NavMenuItem__ChevronContainer> [865,90,15,15] {margin:0px 0px 0px 5.6px; color:rgb(67, 57, 76)}
+                <SPAN createIcon__Wrapper> [865,90,15,15] {display:flex}
+                 <svg > [865,90,15,15] {overflow:hidden}
+             <LI NavMenuItem__StyledNavItem> [890,81,72,33] {display:list-item; position:relative; line-height:14px; color:rgb(20, 20, 28)}
+              <A NavMenuItem__NavItemLink> [890,81,72,33] href=/pricing/ «Pricing» {display:flex; position:relative; align-items:center; padding:9.6px 13.6px; font-family:Cinetype; border-radius:1px; transition:none; white-space:nowrap; text-wrap:nowrap}
+             <LI > [962,87,63,22] {display:list-item}
+              <A Nav__LogInLink> [962,79,63,36] href=https://app.hex.tech/login «Log In» {display:inline; position:relative; padding:9.6px 12px; line-height:14px; color:rgb(67, 57, 76); border-radius:1px; transition:background-color 0.2s; white-space:nowrap; text-wrap:nowrap}
+             <LI > [1025,79,119,38] {display:list-item}
+              <A Button__LinkWrapperBase Nav__SignUpButton> [1037,79,107,38] href=https://app.hex.tech/signup?source=nav {display:flex; position:relative; padding:0px 15px; margin:0px 0px 0px 12px; line-height:14px; color:rgb(20, 20, 28); background-image:linear-gradient(to right, rgb(255, 252, 252), rgb(255, 252, 252)), linear-gradient(45deg, rgb(205, 160, 165), rgb(49, 38, 59)); border-top:1px solid rgba(0, 0, 0, 0); border-right:1px solid rgba(0, 0, 0, 0); border-bottom:1px solid rgba(0, 0, 0, 0); border-left:1px solid rgba(0, 0, 0, 0); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+               <DIV Button> [1053,80,75,36] {display:flex; justify-content:center; align-items:center; gap:10px; text-align:center; white-space:nowrap; text-wrap:nowrap}
+                <DIV CornerLines__Wrapper> [1038,80,105,36] {position:absolute; opacity:0}
+                <DIV Button__Children> [1053,91,75,14] «Get started» {display:flex; position:relative; justify-content:center; align-items:center; overflow:hidden; z-index:2}
+                <DIV CornerCircles__Wrapper> [1038,80,105,36] {position:absolute; transition:opacity 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+           <DIV Nav__NavRootBorder> [720,128,0,1] {position:absolute; background-color:rgb(219, 215, 218); opacity:0; transform:matrix(0, 0, 0, 1, 0, 0)}
+          <DIV Nav__NavBorderBottom> [1411,128,29,1] {grid-column:-1; background-color:rgb(233, 229, 232); opacity:0}
+        <DIV Accent__LContainer> [20,39,16,16] {display:grid; position:absolute; align-items:center; grid-template-columns:16px; grid-template-rows:16px; grid-column:2 / -2; transform:matrix(1, 0, 0, 1, -8, -8); z-index:2}
+         <DIV Accent__VerticalBar> [28,39,1,16] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+         <DIV Accent__HorizontalBar> [20,47,16,1] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+        <DIV Accent__LContainer> [1404,39,16,16] {display:grid; position:absolute; align-items:center; grid-template-columns:16px; grid-template-rows:16px; grid-column:2 / -2; transform:matrix(1, 0, 0, 1, 8, -8); z-index:2}
+         <DIV Accent__VerticalBar> [1411,39,1,16] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+         <DIV Accent__HorizontalBar> [1404,47,16,1] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+        <DIV Accent__LContainer> [1404,100,16,16] {display:grid; position:absolute; align-items:center; grid-template-columns:16px; grid-template-rows:16px; grid-column:2 / -2; transform:matrix(1, 0, 0, 1, 8, 8); z-index:2}
+         <DIV Accent__VerticalBar> [1411,100,1,16] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+         <DIV Accent__HorizontalBar> [1404,108,16,1] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+        <DIV Accent__LContainer> [20,100,16,16] {display:grid; position:absolute; align-items:center; grid-template-columns:16px; grid-template-rows:16px; grid-column:2 / -2; transform:matrix(1, 0, 0, 1, -8, 8); z-index:2}
+         <DIV Accent__VerticalBar> [28,100,1,16] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+         <DIV Accent__HorizontalBar> [20,108,16,1] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+       <DIV > [0,129,1440,0] {grid-column:1 / -1; transform:matrix(1, 0, 0, 1, 0, 46.8438)}
+        <DIV NavMenuViewport__ViewportPosition> [0,115,1440,0] {position:absolute; opacity:0; transform:matrix(1, 0, 0, 1, 0, -8); z-index:10}
+         <DIV NavMenuViewport__NavigationMenuViewportPosition> [0,115,2,2] {position:absolute; background-color:rgb(255, 255, 255); border-top:1px solid rgb(219, 215, 218); border-right:1px solid rgb(219, 215, 218); border-bottom:1px solid rgb(219, 215, 218); border-left:1px solid rgb(219, 215, 218); border-radius:5px; box-shadow:rgba(0, 0, 0, 0.15) 0px 4px 24px -4px; overflow:clip}
+          <DIV NavMenuViewport__NavigationMenuViewport> [1,116,0,0] {position:absolute}
+           <DIV NavMenuDropdown__NavigationMenuContent> [1,116,772,451] {position:absolute}
+            <DIV > [1,116,772,451] {}
+             <DIV NavMenuDropdown__NavMenuInner> [1,116,772,451] {display:flex; flex-direction:column; gap:8px; padding:8px; opacity:0}
+              <DIV NavMenuDropdown__NavMenuDropdownList> [9,124,756,335] {display:grid; grid-template-columns:378.078px 378.078px; grid-template-rows:335.172px}
+               <DIV > [9,124,378,335] {}
+                <DIV NavMenuDropdown__ListTitle> [9,124,378,33] «Products» {padding:10px 0px 6px 16px; font-family:Cinetype Mono; font-size:11px; line-height:17.281px; letter-spacing:0.9163px; color:rgb(20, 20, 28); opacity:0.5}
+                <UL NavMenuDropdown__List> [9,157,378,302] {list-style-type:none}
+                 <LI > [9,157,378,57] {display:list-item}
+                  <A NavMenuDropdown__NavItemLink> [9,157,378,57] href=/product/notebooks/ {position:relative; color:rgb(67, 57, 76); border-radius:1px; transition:background-color 0.1s linear}
+                   <DIV NavMenuDropdown__NavItemLinkInner> [9,157,378,57] {display:grid; align-items:center; gap:0.8px 10.88px; grid-template-columns:32px 308.328px 0px; grid-template-rows:21.9844px 18px; padding:8px}
+                    <DIV NavMenuDropdown__IconWrapper> [17,170,32,32] {display:grid; justify-content:center; grid-template-columns:0px 16px; grid-template-rows:0px 16px; grid-column:icon; padding:0px 14px 0px 18px; aspect-ratio:1 / 1}
+                     <svg > [27,178,16,16] {grid-column:icon; overflow:hidden}
+                    <DIV NavMenuDropdown__NavItemTitle> [60,165,308,22] «Agentic notebooks» {grid-column:title; color:rgb(20, 20, 28)}
+                    <DIV NavMenuDropdown__NavItemDescription> [60,188,308,18] «Powerful, deep-dive analysis without the silos» {grid-column:description; font-size:12px; line-height:18px; color:rgba(49, 38, 59, 0.91)}
+                 <LI > [9,214,378,57] {display:list-item}
+                  <A NavMenuDropdown__NavItemLink> [9,214,378,57] href=/product/threads/ {position:relative; color:rgb(67, 57, 76); border-radius:1px; transition:background-color 0.1s linear}
+                   <DIV NavMenuDropdown__NavItemLinkInner> [9,214,378,57] {display:grid; align-items:center; gap:0.8px 10.88px; grid-template-columns:32px 308.328px 0px; grid-template-rows:21.9844px 18px; padding:8px}
+                    <DIV NavMenuDropdown__IconWrapper> [17,226,32,32] {display:grid; justify-content:center; grid-template-columns:0px 16px; grid-template-rows:0px 16px; grid-column:icon; padding:0px 14px 0px 18px; aspect-ratio:1 / 1}
+                     <svg > [27,234,16,16] {grid-column:icon; overflow:hidden}
+                    <DIV NavMenuDropdown__NavItemTitle> [60,222,308,22] «Conversational analytics» {grid-column:title; color:rgb(20, 20, 28)}
+                    <DIV NavMenuDropdown__NavItemDescription> [60,245,308,18] «Ask and explore data in plain language» {grid-column:description; font-size:12px; line-height:18px; color:rgba(49, 38, 59, 0.91)}
+                 <LI > [9,271,378,75] {display:list-item}
+                  <A NavMenuDropdown__NavItemLink> [9,271,378,75] href=/product/context-studio/ {position:relative; color:rgb(67, 57, 76); border-radius:1px; transition:background-color 0.1s linear}
+                   <DIV NavMenuDropdown__NavItemLinkInner> [9,271,378,75] {display:grid; align-items:center; gap:0.8px 10.88px; grid-template-columns:32px 308.328px 0px; grid-template-rows:21.9844px 36px; padding:8px}
+                    <DIV NavMenuDropdown__IconWrapper> [17,292,32,32] {display:grid; justify-content:center; grid-template-columns:15px; grid-template-rows:15px; grid-column:icon; padding:0px 14px 0px 18px; aspect-ratio:1 / 1}
+                     <SPAN createIcon__Wrapper> [28,301,15,15] {display:flex}
+                      <svg > [28,301,15,15] {grid-column:icon; overflow:hidden}
+                    <DIV NavMenuDropdown__NavItemTitle> [60,279,308,22] «Context Studio» {grid-column:title; color:rgb(20, 20, 28)}
+                    <DIV NavMenuDropdown__NavItemDescription> [60,301,308,36] «Build trust in data with semantic models and AI governance» {grid-column:description; font-size:12px; line-height:18px; color:rgba(49, 38, 59, 0.91)}
+                 <LI > [9,345,378,57] {display:list-item}
+                  <A NavMenuDropdown__NavItemLink> [9,345,378,57] href=/product/data-apps/ {position:relative; color:rgb(67, 57, 76); border-radius:1px; transition:background-color 0.1s linear}
+                   <DIV NavMenuDropdown__NavItemLinkInner> [9,345,378,57] {display:grid; align-items:center; gap:0.8px 10.88px; grid-template-columns:32px 308.328px 0px; grid-template-rows:21.9844px 18px; padding:8px}
+                    <DIV NavMenuDropdown__IconWrapper> [17,358,32,32] {display:grid; justify-content:center; grid-template-columns:15px; grid-template-rows:15px; grid-column:icon; padding:0px 14px 0px 18px; aspect-ratio:1 / 1}
+                     <SPAN createIcon__Wrapper> [28,366,15,15] {display:flex}
+                      <svg > [28,366,15,15] {grid-column:icon; overflow:hidden}
+                    <DIV NavMenuDropdown__NavItemTitle> [60,353,308,22] «Data apps» {grid-column:title; color:rgb(20, 20, 28)}
+                    <DIV NavMenuDropdown__NavItemDescription> [60,376,308,18] «Build and share interactive dashboards and reporting» {grid-column:description; font-size:12px; line-height:18px; color:rgba(49, 38, 59, 0.91)}
+                 <LI > [9,402,378,57] {display:list-item}
+                  <A NavMenuDropdown__NavItemLink> [9,402,378,57] href=/product/cli/ {position:relative; color:rgb(67, 57, 76); border-radius:1px; transition:background-color 0.1s linear}
+                   <DIV NavMenuDropdown__NavItemLinkInner> [9,402,378,57] {display:grid; align-items:center; gap:0.8px 10.88px; grid-template-columns:32px 308.328px 0px; grid-template-rows:21.9844px 18px; padding:8px}
+                    <DIV NavMenuDropdown__IconWrapper> [17,415,32,32] {display:grid; justify-content:center; grid-template-columns:15px; grid-template-rows:15px; grid-column:icon; padding:0px 14px 0px 18px; aspect-ratio:1 / 1}
+                     <SPAN createIcon__Wrapper> [28,423,15,15] {display:flex}
+                      <svg > [28,423,15,15] {grid-column:icon; overflow:hidden}
+                    <DIV NavMenuDropdown__NavItemTitle> [60,410,308,22] «Hex CLI» {grid-column:title; color:rgb(20, 20, 28)}
+                    <DIV NavMenuDropdown__NavItemDescription> [60,433,308,18] «Control your analytics from the terminal» {grid-column:description; font-size:12px; line-height:18px; color:rgba(49, 38, 59, 0.91)}
+               <DIV > [387,124,378,335] {}
+                <DIV NavMenuDropdown__ListTitle> [387,124,378,33] «Capabilities» {padding:10px 0px 6px 16px; font-family:Cinetype Mono; font-size:11px; line-height:17.281px; letter-spacing:0.9163px; color:rgb(20, 20, 28); opacity:0.5}
+                <UL NavMenuDropdown__List> [387,157,378,245] {list-style-type:none}
+                 <LI > [387,157,378,75] {display:list-item}
+                  <A NavMenuDropdown__NavItemLink> [387,157,378,75] href=/capability/exploratory-analysis/ {position:relative; color:rgb(67, 57, 76); border-radius:1px; transition:background-color 0.1s linear}
+                   <DIV NavMenuDropdown__NavItemLinkInner> [387,157,378,75] {display:grid; align-items:center; gap:0.8px 10.88px; grid-template-columns:32px 308.328px 0px; grid-template-rows:21.9844px 36px; padding:8px}
+                    <DIV NavMenuDropdown__IconWrapper> [395,179,32,32] {display:grid; justify-content:center; grid-template-columns:0px 16px; grid-template-rows:0px 16px; grid-column:icon; padding:0px 14px 0px 18px; aspect-ratio:1 / 1}
+                     <svg > [405,187,16,16] {grid-column:icon; overflow:hidden}
+                    <DIV NavMenuDropdown__NavItemTitle> [438,165,308,22] «Exploratory analysis» {grid-column:title; color:rgb(20, 20, 28)}
+                    <DIV NavMenuDropdown__NavItemDescription> [438,188,308,36] «Go from quick question to deep analysis to data app in one place» {grid-column:description; font-size:12px; line-height:18px; color:rgba(49, 38, 59, 0.91)}
+                 <LI > [387,232,378,57] {display:list-item}
+                  <A NavMenuDropdown__NavItemLink> [387,232,378,57] href=/product/bi/ {position:relative; color:rgb(67, 57, 76); border-radius:1px; transition:background-color 0.1s linear}
+                   <DIV NavMenuDropdown__NavItemLinkInner> [387,232,378,57] {display:grid; align-items:center; gap:0.8px 10.88px; grid-template-columns:32px 308.328px 0px; grid-template-rows:21.9844px 18px; padding:8px}
+                    <DIV NavMenuDropdown__IconWrapper> [395,244,32,32] {display:grid; justify-content:center; grid-template-columns:0px 16px; grid-template-rows:0px 16px; grid-column:icon; padding:0px 14px 0px 18px; aspect-ratio:1 / 1}
+                     <svg > [405,252,16,16] {grid-column:icon; overflow:hidden}
+                    <DIV NavMenuDropdown__NavItemTitle> [438,240,308,22] «Business intelligence» {grid-column:title; color:rgb(20, 20, 28)}
+                    <DIV NavMenuDropdown__NavItemDescription> [438,263,308,18] «Governed self-serve and dashboards for the entire org» {grid-column:description; font-size:12px; line-height:18px; color:rgba(49, 38, 59, 0.91)}
+                 <LI > [387,289,378,57] {display:list-item}
+                  <A NavMenuDropdown__NavItemLink> [387,289,378,57] href=/product/embedded-analytics/ {position:relative; color:rgb(67, 57, 76); border-radius:1px; transition:background-color 0.1s linear}
+                   <DIV NavMenuDropdown__NavItemLinkInner> [387,289,378,57] {display:grid; align-items:center; gap:0.8px 10.88px; grid-template-columns:32px 308.328px 0px; grid-template-rows:21.9844px 18px; padding:8px}
+                    <DIV NavMenuDropdown__IconWrapper> [395,301,32,32] {display:grid; justify-content:center; grid-template-columns:0px 16px; grid-template-rows:0px 16px; grid-column:icon; padding:0px 14px 0px 18px; aspect-ratio:1 / 1}
+                     <svg > [405,309,16,16] {grid-column:icon; overflow:hidden}
+                    <DIV NavMenuDropdown__NavItemTitle> [438,297,308,22] «Embedded analytics» {grid-column:title; color:rgb(20, 20, 28)}
+                    <DIV NavMenuDropdown__NavItemDescription> [438,319,308,18] «Ship secure, customer-facing data experiences» {grid-column:description; font-size:12px; line-height:18px; color:rgba(49, 38, 59, 0.91)}
+                 <LI > [387,345,378,57] {display:list-item}
+                  <A NavMenuDropdown__NavItemLink> [387,345,378,57] href=/product/integrations/ {position:relative; color:rgb(67, 57, 76); border-radius:1px; transition:background-color 0.1s linear}
+                   <DIV NavMenuDropdown__NavItemLinkInner> [387,345,378,57] {display:grid; align-items:center; gap:0.8px 10.88px; grid-template-columns:32px 308.328px 0px; grid-template-rows:21.9844px 18px; padding:8px}
+                    <DIV NavMenuDropdown__IconWrapper> [395,358,32,32] {display:grid; justify-content:center; grid-template-columns:0px 16px; grid-template-rows:0px 16px; grid-column:icon; padding:0px 14px 0px 18px; aspect-ratio:1 / 1}
+                     <svg > [405,366,16,16] {grid-column:icon; overflow:hidden}
+                    <DIV NavMenuDropdown__NavItemTitle> [438,353,308,22] «Integrations» {grid-column:title; color:rgb(20, 20, 28)}
+                    <DIV NavMenuDropdown__NavItemDescription> [438,376,308,18] «Out-of-the-box connections and flexible APIs» {grid-column:description; font-size:12px; line-height:18px; color:rgba(49, 38, 59, 0.91)}
+              <DIV NavMenuCallout__Wrapper> [9,467,756,92] {overflow:hidden}
+               <DIV NavMenuCallout> [9,467,756,92] {display:flex; background-color:rgb(255, 252, 252); border-top:1px solid rgb(219, 215, 218); border-right:1px solid rgb(219, 215, 218); border-bottom:1px solid rgb(219, 215, 218); border-left:1px solid rgb(219, 215, 218); border-radius:3px; transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+                <A NavMenuCallout__StyledLink> [10,468,754,90] href=/capability/ai/ {position:relative; padding:12.8px; color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+                 <DIV NavMenuCallout__FeatherEdgeMask> [10,468,754,90] {position:absolute; mask-image:linear-gradient(to top, rgba(0, 0, 0, 0), rgb(255, 255, 255) 80%, rgb(255, 255, 255) 20%)}
+                  <DIV NavMenuCallout__DotGridMask> [10,468,754,90] {position:absolute; mask-image:radial-gradient(rgb(255, 255, 255), rgb(255, 255, 255) 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0))}
+                   <DIV NavMenuCallout__DotGridBg> [10,468,754,90] {position:absolute; background-color:rgba(49, 38, 59, 0.14)}
+                   <DIV NavMenuCallout__PerlinNoise> [10,468,754,90] {position:absolute; background-image:url("https://hex.tech/images/home-2025/textures/noise-rose-128x128.png"); opacity:0; animation:8s linear infinite paused noise}
+                 <DIV NavMenuCallout__Content> [23,481,729,65] {display:flex; position:relative; flex-direction:column; z-index:2}
+                  <DIV NavMenuCallout__IconWrapper> [23,481,729,25] {display:flex; align-items:center; gap:10px; padding:0px 0px 9.6px}
+                   <SPAN createIcon__Wrapper> [23,481,15,15] {display:flex}
+                    <svg > [23,481,15,15] {overflow:hidden}
+                  <DIV NavMenuDropdown__NavItemTitle> [23,505,729,22] «AI & agents» {grid-column:title; color:rgb(20, 20, 28)}
+                  <DIV NavMenuDropdown__NavItemDescription> [23,527,729,18] «Agentic workflows to empower your entire team» {grid-column:description; font-size:12px; line-height:18px; color:rgba(49, 38, 59, 0.91)}
+                 <DIV NavMenuCallout__IllustrationWrapper> [10,468,754,90] {position:absolute}
+                  <DIV navConfig__IllustrationWrapper> [10,468,754,0] {opacity:0.6}
+                   <CANVAS AiIllustrationCanvas__Canvas> [-113,173,1000,1000] {position:absolute; aspect-ratio:auto 1000 / 1000; transform:matrix(1, 0, 0, 1, -500, -340); transition:opacity 0.85656s linear(0 0%, 0.002214 1%, 0.008544 2%, 0.018541 3%, 0.031789 4%, 0.047899 5%, 0.066508 6%, 0.087281 7%, 0.109907 8%, 0.134099 9%, 0.159592 10%, 0.186142 11%, 0.213526 12%, 0.24154 13%, 0.269997 14%, 0.298729 15%, 0.327583 16%, 0.356421 17%, 0.385118 18%, 0.413565 19%, 0.441663 20%, 0.469326 21%, 0.496477 22%, 0.523051 23%, 0.54899 24%, 0.574248 25%, 0.598782 26%, 0.622561 27%, 0.645557 28%, 0.667752 29%, 0.689129 30%, 0.709679 31%, 0.729397 32%, 0.748282 33%, 0.766337 34%, 0.783568 35%, 0.799983 36%, 0.815596 37%, 0.830419 38%, 0.844468 39%, 0.857762 40%, 0.87032 41%, 0.882161 42%, 0.893308 43%, 0.903782 44%, 0.913608 45%, 0.922807 46%, 0.931405 47%, 0.939424 48%, 0.946889 49%, 0.953825 50%, 0.960254 51%, 0.966201 52%, 0.971688 53%, 0.976739 54%, 0.981377 55%, 0.985623 56%, 0.989498 57%, 0.993024 58%, 0.996221 59%, 0.999108 60%, 1.00171 61%, 1.00403 62%, 1.0061 63%, 1.00793 64%, 1.00954 65%, 1.01095 66%, 1.01216 67%, 1.0132 68%, 1.01408 69%, 1.0148 70%, 1.01539 71%, 1.01585 72%, 1.01619 73%, 1.01643 74%, 1.01657 75%, 1.01663 76%, 1.0166 77%, 1.01651 78%, 1.01636 79%, 1.01615 80%, 1.01589 81%, 1.01559 82%, 1.01525 83%, 1.01488 84%, 1.01448 85%, 1.01406 86%, 1.01362 87%, 1.01317 88%, 1.0127 89%, 1.01223 90%, 1.01175 91%, 1.01128 92%, 1.0108 93%, 1.01032 94%, 1.00984 95%, 1.00938 96%, 1.00891 97%, 1.00846 98%, 1.00802 99%, 1.00758 100%) 0.2s, transform 0.85656s linear(0 0%, 0.002214 1%, 0.008544 2%, 0.018541 3%, 0.031789 4%, 0.047899 5%, 0.066508 6%, 0.087281 7%, 0.109907 8%, 0.134099 9%, 0.159592 10%, 0.186142 11%, 0.213526 12%, 0.24154 13%, 0.269997 14%, 0.298729 15%, 0.327583 16%, 0.356421 17%, 0.385118 18%, 0.413565 19%, 0.441663 20%, 0.469326 21%, 0.496477 22%, 0.523051 23%, 0.54899 24%, 0.574248 25%, 0.598782 26%, 0.622561 27%, 0.645557 28%, 0.667752 29%, 0.689129 30%, 0.709679 31%, 0.729397 32%, 0.748282 33%, 0.766337 34%, 0.783568 35%, 0.799983 36%, 0.815596 37%, 0.830419 38%, 0.844468 39%, 0.857762 40%, 0.87032 41%, 0.882161 42%, 0.893308 43%, 0.903782 44%, 0.913608 45%, 0.922807 46%, 0.931405 47%, 0.939424 48%, 0.946889 49%, 0.953825 50%, 0.960254 51%, 0.966201 52%, 0.971688 53%, 0.976739 54%, 0.981377 55%, 0.985623 56%, 0.989498 57%, 0.993024 58%, 0.996221 59%, 0.999108 60%, 1.00171 61%, 1.00403 62%, 1.0061 63%, 1.00793 64%, 1.00954 65%, 1.01095 66%, 1.01216 67%, 1.0132 68%, 1.01408 69%, 1.0148 70%, 1.01539 71%, 1.01585 72%, 1.01619 73%, 1.01643 74%, 1.01657 75%, 1.01663 76%, 1.0166 77%, 1.01651 78%, 1.01636 79%, 1.01615 80%, 1.01589 81%, 1.01559 82%, 1.01525 83%, 1.01488 84%, 1.01448 85%, 1.01406 86%, 1.01362 87%, 1.01317 88%, 1.0127 89%, 1.01223 90%, 1.01175 91%, 1.01128 92%, 1.0108 93%, 1.01032 94%, 1.00984 95%, 1.00938 96%, 1.00891 97%, 1.00846 98%, 1.00802 99%, 1.00758 100%) 0.2s; overflow:clip}
+           <DIV NavMenuDropdown__NavigationMenuContent> [1,116,394,433] {position:absolute}
+            <DIV > [1,116,394,433] {}
+             <DIV NavMenuDropdown__NavMenuInner> [1,116,394,433] {display:flex; flex-direction:column; gap:8px; padding:8px; opacity:0}
+              <DIV NavMenuCallout__Wrapper> [9,124,378,92] {overflow:hidden}
+               <DIV NavMenuCallout> [9,124,378,92] {display:flex; background-color:rgb(255, 252, 252); border-top:1px solid rgb(219, 215, 218); border-right:1px solid rgb(219, 215, 218); border-bottom:1px solid rgb(219, 215, 218); border-left:1px solid rgb(219, 215, 218); border-radius:3px; transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+                <A NavMenuCallout__StyledLink> [10,125,376,90] href=/solutions/ {position:relative; padding:12.8px; color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+                 <DIV NavMenuCallout__FeatherEdgeMask> [10,125,376,90] {position:absolute; mask-image:linear-gradient(to top, rgba(0, 0, 0, 0), rgb(255, 255, 255) 80%, rgb(255, 255, 255) 20%)}
+                  <DIV NavMenuCallout__DotGridMask> [10,125,376,90] {position:absolute; mask-image:radial-gradient(rgb(255, 255, 255), rgb(255, 255, 255) 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0))}
+                   <DIV NavMenuCallout__DotGridBg> [10,125,376,90] {position:absolute; background-color:rgba(49, 38, 59, 0.14)}
+                   <DIV NavMenuCallout__PerlinNoise> [10,125,376,90] {position:absolute; background-image:url("https://hex.tech/images/home-2025/textures/noise-rose-128x128.png"); opacity:0; animation:8s linear infinite paused noise}
+                 <DIV NavMenuCallout__Content> [23,138,350,65] {display:flex; position:relative; flex-direction:column; z-index:2}
+                  <DIV NavMenuCallout__IconWrapper> [23,138,350,25] {display:flex; align-items:center; gap:10px; padding:0px 0px 9.6px}
+                   <SPAN createIcon__Wrapper> [23,138,15,15] {display:flex}
+                    <svg > [23,138,15,15] {overflow:hidden}
+                  <DIV NavMenuDropdown__NavItemTitle> [23,162,350,22] «Explore all solutions» {grid-column:title; color:rgb(20, 20, 28)}
+                  <DIV NavMenuDropdown__NavItemDescription> [23,184,350,18] «One connected system - infinite data answers» {grid-column:description; font-size:12px; line-height:18px; color:rgba(49, 38, 59, 0.91)}
+                 <DIV NavMenuCallout__IllustrationWrapper> [10,125,376,90] {position:absolute}
+              <DIV NavMenuDropdown__NavMenuDropdownList> [9,224,378,317] {display:grid; grid-template-columns:378.078px; grid-template-rows:317.172px}
+               <DIV > [9,224,378,317] {}
+                <DIV NavMenuDropdown__ListTitle> [9,224,378,33] «By team» {padding:10px 0px 6px 16px; font-family:Cinetype Mono; font-size:11px; line-height:17.281px; letter-spacing:0.9163px; color:rgb(20, 20, 28); opacity:0.5}
+                <UL NavMenuDropdown__List> [9,257,378,284] {list-style-type:none}
+                 <LI > [9,257,378,57] {display:list-item}
+                  <A NavMenuDropdown__NavItemLink> [9,257,378,57] href=/solutions/data-leaders/ {position:relative; color:rgb(67, 57, 76); border-radius:1px; transition:background-color 0.1s linear}
+                   <DIV NavMenuDropdown__NavItemLinkInner> [9,257,378,57] {display:grid; align-items:center; gap:0.8px 10.88px; grid-template-columns:32px 308.328px 0px; grid-template-rows:21.9844px 18px; padding:8px}
+                    <DIV NavMenuDropdown__IconWrapper> [17,270,32,32] {display:grid; justify-content:center; grid-template-columns:24px; grid-template-rows:24px; grid-column:icon; padding:0px 14px 0px 18px; aspect-ratio:1 / 1}
+                     <SPAN createIcon__Wrapper> [23,274,24,24] {display:flex}
+                      <svg > [23,274,24,24] {grid-column:icon; overflow:hidden}
+                    <DIV NavMenuDropdown__NavItemTitle> [60,265,308,22] «Data leader» {grid-column:title; color:rgb(20, 20, 28)}
+                    <DIV NavMenuDropdown__NavItemDescription> [60,288,308,18] «Focus your team and scale answers» {grid-column:description; font-size:12px; line-height:18px; color:rgba(49, 38, 59, 0.91)}
+                 <LI > [9,314,378,57] {display:list-item}
+                  <A NavMenuDropdown__NavItemLink> [9,314,378,57] href=/solutions/product-analytics/ {position:relative; color:rgb(67, 57, 76); border-radius:1px; transition:background-color 0.1s linear}
+                   <DIV NavMenuDropdown__NavItemLinkInner> [9,314,378,57] {display:grid; align-items:center; gap:0.8px 10.88px; grid-template-columns:32px 308.328px 0px; grid-template-rows:21.9844px 18px; padding:8px}
+                    <DIV NavMenuDropdown__IconWrapper> [17,326,32,32] {display:grid; justify-content:center; grid-template-columns:24px; grid-template-rows:24px; grid-column:icon; padding:0px 14px 0px 18px; aspect-ratio:1 / 1}
+                     <SPAN createIcon__Wrapper> [23,330,24,24] {display:flex}
+                      <svg > [23,330,24,24] {grid-column:icon; overflow:hidden}
+                    <DIV NavMenuDropdown__NavItemTitle> [60,322,308,22] «Product» {grid-column:title; color:rgb(20, 20, 28)}
+                    <DIV NavMenuDropdown__NavItemDescription> [60,345,308,18] «Build your product with data, not gut feels» {grid-column:description; font-size:12px; line-height:18px; color:rgba(49, 38, 59, 0.91)}
+                 <LI > [9,371,378,57] {display:list-item}
+                  <A NavMenuDropdown__NavItemLink> [9,371,378,57] href=/solutions/marketing/ {position:relative; color:rgb(67, 57, 76); border-radius:1px; transition:background-color 0.1s linear}
+                   <DIV NavMenuDropdown__NavItemLinkInner> [9,371,378,57] {display:grid; align-items:center; gap:0.8px 10.88px; grid-template-columns:32px 308.328px 0px; grid-template-rows:21.9844px 18px; padding:8px}
+                    <DIV NavMenuDropdown__IconWrapper> [17,383,32,32] {display:grid; justify-content:center; grid-template-columns:24px; grid-template-rows:24px; grid-column:icon; padding:0px 14px 0px 18px; aspect-ratio:1 / 1}
+                     <SPAN createIcon__Wrapper> [23,387,24,24] {display:flex}
+                      <svg > [23,387,24,24] {grid-column:icon; overflow:hidden}
+                    <DIV NavMenuDropdown__NavItemTitle> [60,379,308,22] «Marketing» {grid-column:title; color:rgb(20, 20, 28)}
+                    <DIV NavMenuDropdown__NavItemDescription> [60,402,308,18] «Turn scattered data into clear growth opportunities» {grid-column:description; font-size:12px; line-height:18px; color:rgba(49, 38, 59, 0.91)}
+                 <LI > [9,428,378,57] {display:list-item}
+                  <A NavMenuDropdown__NavItemLink> [9,428,378,57] href=/solutions/sales-analytics/ {position:relative; color:rgb(67, 57, 76); border-radius:1px; transition:background-color 0.1s linear}
+                   <DIV NavMenuDropdown__NavItemLinkInner> [9,428,378,57] {display:grid; align-items:center; gap:0.8px 10.88px; grid-template-columns:32px 308.328px 0px; grid-template-rows:21.9844px 18px; padding:8px}
+                    <DIV NavMenuDropdown__IconWrapper> [17,440,32,32] {display:grid; justify-content:center; grid-template-columns:24px; grid-template-rows:24px; grid-column:icon; padding:0px 14px 0px 18px; aspect-ratio:1 / 1}
+                     <SPAN createIcon__Wrapper> [23,444,24,24] {display:flex}
+                      <svg > [23,444,24,24] {grid-column:icon; overflow:hidden}
+                    <DIV NavMenuDropdown__NavItemTitle> [60,436,308,22] «Sales» {grid-column:title; color:rgb(20, 20, 28)}
+                    <DIV NavMenuDropdown__NavItemDescription> [60,458,308,18] «Clear pipeline. Confident forecasts» {grid-column:description; font-size:12px; line-height:18px; color:rgba(49, 38, 59, 0.91)}
+                 <LI > [9,484,378,57] {display:list-item}
+                  <A NavMenuDropdown__NavItemLink> [9,484,378,57] href=/solutions/customer-success/ {position:relative; color:rgb(67, 57, 76); border-radius:1px; transition:background-color 0.1s linear}
+                   <DIV NavMenuDropdown__NavItemLinkInner> [9,484,378,57] {display:grid; align-items:center; gap:0.8px 10.88px; grid-template-columns:32px 308.328px 0px; grid-template-rows:21.9844px 18px; padding:8px}
+                    <DIV NavMenuDropdown__IconWrapper> [17,497,32,32] {display:grid; justify-content:center; grid-template-columns:24px; grid-template-rows:24px; grid-column:icon; padding:0px 14px 0px 18px; aspect-ratio:1 / 1}
+                     <SPAN createIcon__Wrapper> [23,501,24,24] {display:flex}
+                      <svg > [23,501,24,24] {grid-column:icon; overflow:hidden}
+                    <DIV NavMenuDropdown__NavItemTitle> [60,492,308,22] «Customer success» {grid-column:title; color:rgb(20, 20, 28)}
+                    <DIV NavMenuDropdown__NavItemDescription> [60,515,308,18] «Create a complete view of customer health» {grid-column:description; font-size:12px; line-height:18px; color:rgba(49, 38, 59, 0.91)}
+           <DIV NavMenuDropdown__NavigationMenuContent> [1,116,772,436] {position:absolute}
+            <DIV > [1,116,772,436] {}
+             <DIV NavMenuDropdown__NavMenuInner> [1,116,772,436] {display:flex; flex-direction:column; gap:8px; padding:8px; opacity:0}
+              <DIV NavMenuDropdown__NavMenuDropdownList> [9,124,756,317] {display:grid; grid-template-columns:378.078px 378.078px; grid-template-rows:317.172px}
+               <DIV > [9,124,378,317] {}
+                <DIV NavMenuDropdown__ListTitle> [9,124,378,33] «Get started» {padding:10px 0px 6px 16px; font-family:Cinetype Mono; font-size:11px; line-height:17.281px; letter-spacing:0.9163px; color:rgb(20, 20, 28); opacity:0.5}
+                <UL NavMenuDropdown__List> [9,157,378,227] {list-style-type:none}
+                 <LI > [9,157,378,57] {display:list-item}
+                  <A NavMenuDropdown__NavItemLink> [9,157,378,57] href=/product/switching-to-hex/ {position:relative; color:rgb(67, 57, 76); border-radius:1px; transition:background-color 0.1s linear}
+                   <DIV NavMenuDropdown__NavItemLinkInner> [9,157,378,57] {display:grid; align-items:center; gap:0.8px 10.88px; grid-template-columns:32px 308.328px 0px; grid-template-rows:21.9844px 18px; padding:8px}
+                    <DIV NavMenuDropdown__IconWrapper> [17,170,32,32] {display:grid; justify-content:center; grid-template-columns:15px; grid-template-rows:15px; grid-column:icon; padding:0px 14px 0px 18px; aspect-ratio:1 / 1}
+                     <SPAN createIcon__Wrapper> [28,178,15,15] {display:flex}
+                      <svg > [28,178,15,15] {grid-column:icon; overflow:hidden}
+                    <DIV NavMenuDropdown__NavItemTitle> [60,165,308,22] «Switching to Hex» {grid-column:title; color:rgb(20, 20, 28)}
+                    <DIV NavMenuDropdown__NavItemDescription> [60,188,308,18] «A guide to getting started on agentic analytics» {grid-column:description; font-size:12px; line-height:18px; color:rgba(49, 38, 59, 0.91)}
+                 <LI > [9,214,378,57] {display:list-item}
+                  <A NavMenuDropdown__NavItemLink> [9,214,378,57] href=/templates/ {position:relative; color:rgb(67, 57, 76); border-radius:1px; transition:background-color 0.1s linear}
+                   <DIV NavMenuDropdown__NavItemLinkInner> [9,214,378,57] {display:grid; align-items:center; gap:0.8px 10.88px; grid-template-columns:32px 308.328px 0px; grid-template-rows:21.9844px 18px; padding:8px}
+                    <DIV NavMenuDropdown__IconWrapper> [17,226,32,32] {display:grid; justify-content:center; grid-template-columns:0px 16px; grid-template-rows:0px 16px; grid-column:icon; padding:0px 14px 0px 18px; aspect-ratio:1 / 1}
+                     <svg > [27,234,16,16] {grid-column:icon; overflow:hidden}
+                    <DIV NavMenuDropdown__NavItemTitle> [60,222,308,22] «Templates» {grid-column:title; color:rgb(20, 20, 28)}
+                    <DIV NavMenuDropdown__NavItemDescription> [60,245,308,18] «Jumpstart with pre-built projects» {grid-column:description; font-size:12px; line-height:18px; color:rgba(49, 38, 59, 0.91)}
+                 <LI > [9,271,378,57] {display:list-item}
+                  <A NavMenuDropdown__NavItemLink> [9,271,378,57] href=https://learn.hex.tech {position:relative; color:rgb(67, 57, 76); border-radius:1px; transition:background-color 0.1s linear}
+                   <DIV NavMenuDropdown__NavItemLinkInner> [9,271,378,57] {display:grid; align-items:center; gap:0.8px 10.88px; grid-template-columns:32px 276.328px 32px; grid-template-rows:21.9844px 18px; padding:8px}
+                    <DIV NavMenuDropdown__IconWrapper> [17,283,32,32] {display:grid; justify-content:center; grid-template-columns:15px; grid-template-rows:15px; grid-column:icon; padding:0px 14px 0px 18px; aspect-ratio:1 / 1}
+                     <SPAN createIcon__Wrapper> [28,292,15,15] {display:flex}
+                      <svg > [28,292,15,15] {grid-column:icon; overflow:hidden}
+                    <DIV NavMenuDropdown__NavItemTitle> [60,279,276,22] «Docs» {grid-column:title; color:rgb(20, 20, 28)}
+                    <DIV NavMenuDropdown__NavItemDescription> [60,301,276,18] «Resources and product guides» {grid-column:description; font-size:12px; line-height:18px; color:rgba(49, 38, 59, 0.91)}
+                    <DIV NavMenuDropdown__ExternalArrow> [347,283,32,32] {display:grid; justify-content:center; grid-template-columns:17px; grid-template-rows:17px; grid-column:arrow; aspect-ratio:1 / 1; border-radius:99px; overflow:clip}
+                     <DIV > [355,291,17,17] {grid-column:-1; filter:blur(0px)}
+                      <svg > [355,291,17,17] {grid-column:icon; overflow:hidden}
+                     <DIV > [336,312,14,14] {grid-column:-1; opacity:0; transform:matrix(0.8, 0, 0, 0.8, -20, 20); filter:blur(2px)}
+                      <svg > [336,312,14,14] {grid-column:icon; overflow:hidden}
+                 <LI > [9,327,378,57] {display:list-item}
+                  <A NavMenuDropdown__NavItemLink> [9,327,378,57] href=https://learn.hex.tech/changelog {position:relative; color:rgb(67, 57, 76); border-radius:1px; transition:background-color 0.1s linear}
+                   <DIV NavMenuDropdown__NavItemLinkInner> [9,327,378,57] {display:grid; align-items:center; gap:0.8px 10.88px; grid-template-columns:32px 276.328px 32px; grid-template-rows:21.9844px 18px; padding:8px}
+                    <DIV NavMenuDropdown__IconWrapper> [17,340,32,32] {display:grid; justify-content:center; grid-template-columns:0px 16px; grid-template-rows:0px 16px; grid-column:icon; padding:0px 14px 0px 18px; aspect-ratio:1 / 1}
+                     <svg > [27,348,16,16] {grid-column:icon; overflow:hidden}
+                    <DIV NavMenuDropdown__NavItemTitle> [60,335,276,22] «Changelog» {grid-column:title; color:rgb(20, 20, 28)}
+                    <DIV NavMenuDropdown__NavItemDescription> [60,358,276,18] «Product updates» {grid-column:description; font-size:12px; line-height:18px; color:rgba(49, 38, 59, 0.91)}
+                    <DIV NavMenuDropdown__ExternalArrow> [347,340,32,32] {display:grid; justify-content:center; grid-template-columns:17px; grid-template-rows:17px; grid-column:arrow; aspect-ratio:1 / 1; border-radius:99px; overflow:clip}
+                     <DIV > [355,347,17,17] {grid-column:-1; filter:blur(0px)}
+                      <svg > [355,347,17,17] {grid-column:icon; overflow:hidden}
+                     <DIV > [336,369,14,14] {grid-column:-1; opacity:0; transform:matrix(0.8, 0, 0, 0.8, -20, 20); filter:blur(2px)}
+                      <svg > [336,369,14,14] {grid-column:icon; overflow:hidden}
+               <DIV > [387,124,378,317] {}
+                <DIV NavMenuDropdown__ListTitle> [387,124,378,33] «Inspiration» {padding:10px 0px 6px 16px; font-family:Cinetype Mono; font-size:11px; line-height:17.281px; letter-spacing:0.9163px; color:rgb(20, 20, 28); opacity:0.5}
+                <UL NavMenuDropdown__List> [387,157,378,284] {list-style-type:none}
+                 <LI > [387,157,378,57] {display:list-item}
+                  <A NavMenuDropdown__NavItemLink> [387,157,378,57] href=/blog/ {position:relative; color:rgb(67, 57, 76); border-radius:1px; transition:background-color 0.1s linear}
+                   <DIV NavMenuDropdown__NavItemLinkInner> [387,157,378,57] {display:grid; align-items:center; gap:0.8px 10.88px; grid-template-columns:32px 308.328px 0px; grid-template-rows:21.9844px 18px; padding:8px}
+                    <DIV NavMenuDropdown__IconWrapper> [395,170,32,32] {display:grid; justify-content:center; grid-template-columns:0px 16px; grid-template-rows:0px 16px; grid-column:icon; padding:0px 14px 0px 18px; aspect-ratio:1 / 1}
+                     <svg > [405,178,16,16] {grid-column:icon; overflow:hidden}
+                    <DIV NavMenuDropdown__NavItemTitle> [438,165,308,22] «Blog» {grid-column:title; color:rgb(20, 20, 28)}
+                    <DIV NavMenuDropdown__NavItemDescription> [438,188,308,18] «From data teams to data teams» {grid-column:description; font-size:12px; line-height:18px; color:rgba(49, 38, 59, 0.91)}
+                 <LI > [387,214,378,57] {display:list-item}
+                  <A NavMenuDropdown__NavItemLink> [387,214,378,57] href=/resources/guides/ {position:relative; color:rgb(67, 57, 76); border-radius:1px; transition:background-color 0.1s linear}
+                   <DIV NavMenuDropdown__NavItemLinkInner> [387,214,378,57] {display:grid; align-items:center; gap:0.8px 10.88px; grid-template-columns:32px 308.328px 0px; grid-template-rows:21.9844px 18px; padding:8px}
+                    <DIV NavMenuDropdown__IconWrapper> [395,226,32,32] {display:grid; justify-content:center; grid-template-columns:0px 16px; grid-template-rows:0px 16px; grid-column:icon; padding:0px 14px 0px 18px; aspect-ratio:1 / 1}
+                     <svg > [405,234,16,16] {grid-column:icon; overflow:hidden}
+                    <DIV NavMenuDropdown__NavItemTitle> [438,222,308,22] «Guides» {grid-column:title; color:rgb(20, 20, 28)}
+                    <DIV NavMenuDropdown__NavItemDescription> [438,245,308,18] «Learn how to do more with data, together» {grid-column:description; font-size:12px; line-height:18px; color:rgba(49, 38, 59, 0.91)}
+                 <LI > [387,271,378,57] {display:list-item}
+                  <A NavMenuDropdown__NavItemLink> [387,271,378,57] href=/resources/events/ {position:relative; color:rgb(67, 57, 76); border-radius:1px; transition:background-color 0.1s linear}
+                   <DIV NavMenuDropdown__NavItemLinkInner> [387,271,378,57] {display:grid; align-items:center; gap:0.8px 10.88px; grid-template-columns:32px 308.328px 0px; grid-template-rows:21.9844px 18px; padding:8px}
+                    <DIV NavMenuDropdown__IconWrapper> [395,283,32,32] {display:grid; justify-content:center; grid-template-columns:0px 16px; grid-template-rows:0px 16px; grid-column:icon; padding:0px 14px 0px 18px; aspect-ratio:1 / 1}
+                     <svg > [405,291,16,16] {grid-column:icon; overflow:hidden}
+                    <DIV NavMenuDropdown__NavItemTitle> [438,279,308,22] «Events» {grid-column:title; color:rgb(20, 20, 28)}
+                    <DIV NavMenuDropdown__NavItemDescription> [438,301,308,18] «Learn and connect with peers» {grid-column:description; font-size:12px; line-height:18px; color:rgba(49, 38, 59, 0.91)}
+                 <LI > [387,327,378,57] {display:list-item}
+                  <A NavMenuDropdown__NavItemLink> [387,327,378,57] href=/customers/ {position:relative; color:rgb(67, 57, 76); border-radius:1px; transition:background-color 0.1s linear}
+                   <DIV NavMenuDropdown__NavItemLinkInner> [387,327,378,57] {display:grid; align-items:center; gap:0.8px 10.88px; grid-template-columns:32px 308.328px 0px; grid-template-rows:21.9844px 18px; padding:8px}
+                    <DIV NavMenuDropdown__IconWrapper> [395,340,32,32] {display:grid; justify-content:center; grid-template-columns:0px 16px; grid-template-rows:0px 16px; grid-column:icon; padding:0px 14px 0px 18px; aspect-ratio:1 / 1}
+                     <svg > [405,348,16,16] {grid-column:icon; overflow:hidden}
+                    <DIV NavMenuDropdown__NavItemTitle> [438,335,308,22] «Customer stories» {grid-column:title; color:rgb(20, 20, 28)}
+                    <DIV NavMenuDropdown__NavItemDescription> [438,358,308,18] «Empowering the best data teams» {grid-column:description; font-size:12px; line-height:18px; color:rgba(49, 38, 59, 0.91)}
+                 <LI > [387,384,378,57] {display:list-item}
+                  <A NavMenuDropdown__NavItemLink> [387,384,378,57] href=/partners/ {position:relative; color:rgb(67, 57, 76); border-radius:1px; transition:background-color 0.1s linear}
+                   <DIV NavMenuDropdown__NavItemLinkInner> [387,384,378,57] {display:grid; align-items:center; gap:0.8px 10.88px; grid-template-columns:32px 308.328px 0px; grid-template-rows:21.9844px 18px; padding:8px}
+                    <DIV NavMenuDropdown__IconWrapper> [395,397,32,32] {display:grid; justify-content:center; grid-template-columns:0px 16px; grid-template-rows:0px 16px; grid-column:icon; padding:0px 14px 0px 18px; aspect-ratio:1 / 1}
+                     <svg > [405,405,16,16] {grid-column:icon; overflow:hidden}
+                    <DIV NavMenuDropdown__NavItemTitle> [438,392,308,22] «Partners» {grid-column:title; color:rgb(20, 20, 28)}
+                    <DIV NavMenuDropdown__NavItemDescription> [438,415,308,18] «Learn more about our partnerships» {grid-column:description; font-size:12px; line-height:18px; color:rgba(49, 38, 59, 0.91)}
+              <DIV NavMenuCallout__Wrapper> [9,449,756,94] {overflow:hidden}
+               <DIV NavMenuCallout> [9,449,756,94] {display:flex; background-color:rgb(255, 252, 252); border-top:1px solid rgb(219, 215, 218); border-right:1px solid rgb(219, 215, 218); border-bottom:1px solid rgb(219, 215, 218); border-left:1px solid rgb(219, 215, 218); border-radius:3px; transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+                <A NavMenuCallout__StyledLink> [10,450,754,92] href=/resources/guides/ai-analytics/ {position:relative; padding:12.8px; color:rgb(67, 57, 76); transition:background-color 0.1s linear}
+                 <DIV NavMenuCallout__FeatherEdgeMask> [10,450,754,92] {position:absolute; mask-image:linear-gradient(to top, rgba(0, 0, 0, 0), rgb(255, 255, 255) 80%, rgb(255, 255, 255) 20%)}
+                  <DIV NavMenuCallout__DotGridMask> [10,450,754,92] {position:absolute; mask-image:radial-gradient(rgb(255, 255, 255), rgb(255, 255, 255) 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0))}
+                   <DIV NavMenuCallout__DotGridBg> [10,450,754,92] {position:absolute; background-color:rgba(49, 38, 59, 0.14)}
+                   <DIV NavMenuCallout__PerlinNoise> [10,450,754,92] {position:absolute; background-image:url("https://hex.tech/images/home-2025/textures/noise-rose-128x128.png"); opacity:0; animation:8s linear infinite paused noise}
+                 <DIV NavMenuCallout__Content> [23,463,729,67] {display:flex; position:relative; flex-direction:column; z-index:2}
+                  <DIV NavMenuCallout__IconWrapper> [23,463,729,27] {display:flex; align-items:center; gap:10px; padding:0px 0px 9.6px}
+                   <SPAN createIcon__Wrapper> [23,464,15,15] {display:flex}
+                    <svg > [23,464,15,15] {overflow:hidden}
+                   <SPAN NavMenuCallout__Cta> [48,463,64,17] «Download» {font-family:Cinetype Mono; font-size:11px; line-height:17.281px; letter-spacing:0.9163px; color:rgb(20, 20, 28); opacity:0.5}
+                  <DIV NavMenuDropdown__NavItemTitle> [23,490,729,22] «The Data Leader's Guide to AI Analytics» {grid-column:title; color:rgb(20, 20, 28)}
+                  <DIV NavMenuDropdown__NavItemDescription> [23,512,729,18] «A practical roadmap for understanding and implementing AI to accelerate your data team and» {grid-column:description; font-size:12px; line-height:18px; color:rgba(49, 38, 59, 0.91)}
+                 <DIV NavMenuCallout__IllustrationWrapper> [10,450,754,92] {position:absolute}
+                  <DIV navConfig__AIAnalyticsIllustrationWrapper> [10,450,754,92] {display:flex; justify-content:flex-end; align-items:center; z-index:1}
+                   <svg > [387,390,378,213] {color:rgb(49, 38, 59); opacity:0.2; overflow:hidden; mask-image:linear-gradient(to top, rgba(0, 0, 0, 0), rgb(255, 255, 255) 100%)}
+   <MAIN LayoutGrid__LayoutSubgrid> [0,0,1440,5703] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:896px 338.922px 3391px 1077px; grid-column:1 / -1}
+    <DIV LayoutGrid__LayoutSubgrid BasicPageRow__Wrapper> [0,0,1440,896] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:896px; grid-column:1 / -1; overflow:clip visible}
+     <DIV GridLines__CheckeredMargin> [0,0,29,896] {position:relative; grid-column:1 / span 1; background-image:url("data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"4\" height=\"4\"><rect width=\"2\" height=\"2\" fill=\"%23e8e4e6\" /><rect x=\"2\" y=\"2\" width=\"2\" height=\"2\" fill=\"%23e8e4e6\"/></svg>"); border-right:1px solid rgb(219, 215, 218)}
+     <DIV LayoutGrid__LayoutGridCondensed BasicPageRow__StyledLayoutGridCondensed> [29,0,1382,896] {display:grid; position:relative; gap:0px; grid-template-columns:12px 113.188px 113.188px 113.188px 113.188px 113.188px 113.188px 113.188px 113.188px 113.188px 113.188px 113.188px 113.188px 12px; grid-template-rows:896px; grid-column:2 / -2}
+      <DIV BasicPageRow> [29,0,1382,896] {display:flex; position:relative; flex-direction:column; justify-content:center; align-items:center; grid-column:1 / -1}
+       <DIV CustomerStoryHeader__Wrapper> [29,150,1382,746] {display:flex; margin:150px 0px 0px; border-top:1px solid rgb(233, 229, 232); overflow:hidden}
+        <DIV CustomerStoryHeader> [100,151,1240,745] {display:flex; flex-direction:column; margin:0px 71.125px; max-width:1240px}
+         <DIV CustomerStoryHeader__Top> [100,151,1240,684] {display:grid; align-items:stretch; grid-template-columns:990.391px 247.609px; grid-template-rows:151px 533px; border-right:1px solid rgb(233, 229, 232); border-left:1px solid rgb(233, 229, 232)}
+          <DIV CustomerStoryHeader__CellWrapper CustomerStoryHeader__TopLeftWrapper> [101,151,990,151] {display:flex; position:relative; align-items:center; padding:30px 40px; border-bottom:1px solid rgb(233, 229, 232)}
+           <IMG CustomerStoryHeader__LogoImg> [141,181,189,90] src=https://cdn.sanity.io/images/e92memrj/production/025b99a04166ce792e3e80bc7e4fd9eabafd4eae-105x50.svg?auto=format nat=105x50 {max-width:1600px; overflow:clip; object-fit:contain}
+          <DIV CustomerStoryHeader__CellWrapper CustomerStoryHeader__TopRightWrapper> [1091,151,248,151] {display:flex; position:relative; background-image:repeating-linear-gradient(45deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 5px, rgb(235, 204, 204) 5px, rgb(235, 204, 204) 6px); border-bottom:1px solid rgb(233, 229, 232); border-left:1px solid rgb(233, 229, 232)}
+          <DIV CustomerStoryHeader__CellWrapper CustomerStoryHeader__BottomLeftWrapper> [101,302,990,533] {display:flex; position:relative; flex-direction:column}
+           <DIV CustomerStoryHeader__InnerCellWrapper> [101,302,990,392] {display:flex; padding:40px}
+            <H1 Heading__HeadingInternal Heading___StyledHeadingInternal> [141,342,910,312] «Notion democratizes data access: 86% of Notebook Agent users are not data scientists» {font-family:PP Formula SemiExtended; font-size:60px; line-height:78px; font-weight:700; letter-spacing:-1.848px; color:rgb(20, 20, 28)}
+           <DIV CustomerStoryHeader__InnerCellWrapper CustomerStoryHeader__SummaryWrapper> [101,694,990,141] {display:flex; gap:30px; padding:40px; border-top:1px solid rgb(233, 229, 232)}
+            <P Text__TextWrapper Text___StyledTextWrapper> [141,735,910,60] «Notion uses Hex's Notebook Agent to democratize data access across the company, with 86% o» {font-size:20px; line-height:30px; font-weight:300}
+          <DIV CustomerStoryHeader__CellWrapper CustomerStoryHeader__BottomRightWrapper> [1091,302,248,533] {display:flex; position:relative; flex-direction:column; border-left:1px solid rgb(233, 229, 232)}
+         <DIV CustomerStoryMetaData__Metadata> [100,835,1240,61] {display:flex; position:relative; justify-content:center; align-items:center; gap:40px; padding:20px 40px}
+          <DIV CustomerStoryMetaData__MetadataRow> [201,855,156,21] {display:flex; flex-wrap:wrap; gap:8px; font-family:Cinetype Mono; font-size:12px; line-height:21px; letter-spacing:0.9996px; color:rgba(20, 20, 28, 0.447)}
+           <LABEL > [201,855,61,21] «Stage /» {}
+           <SPAN > [270,855,87,21] «Enterprise» {color:rgb(20, 20, 28)}
+          <DIV CustomerStoryMetaData__MetadataRow> [397,855,216,21] {display:flex; flex-wrap:wrap; gap:8px; font-family:Cinetype Mono; font-size:12px; line-height:21px; letter-spacing:0.9996px; color:rgba(20, 20, 28, 0.447)}
+           <LABEL > [397,855,87,21] «Features /» {}
+           <SPAN > [492,855,122,21] «Notebook Agent» {color:rgb(20, 20, 28)}
+          <DIV CustomerStoryMetaData__MetadataRow> [653,855,277,21] {display:flex; flex-wrap:wrap; gap:8px; font-family:Cinetype Mono; font-size:12px; line-height:21px; letter-spacing:0.9996px; color:rgba(20, 20, 28, 0.447)}
+           <LABEL > [653,855,87,21] «Industry /» {}
+           <SPAN > [748,855,182,21] «Technology & Software» {color:rgb(20, 20, 28)}
+          <DIV CustomerStoryMetaData__MetadataRow> [970,855,268,21] {display:flex; flex-wrap:wrap; gap:8px; font-family:Cinetype Mono; font-size:12px; line-height:21px; letter-spacing:0.9996px; color:rgba(20, 20, 28, 0.447)}
+           <LABEL > [970,855,122,21] «Company size /» {}
+           <SPAN > [1100,855,139,21] «~ 1,200 employees» {color:rgb(20, 20, 28)}
+     <DIV GridLines__CheckeredMargin> [1411,0,29,896] {position:relative; grid-column:-2 / span 1; background-image:url("data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"4\" height=\"4\"><rect width=\"2\" height=\"2\" fill=\"%23e8e4e6\" /><rect x=\"2\" y=\"2\" width=\"2\" height=\"2\" fill=\"%23e8e4e6\"/></svg>"); border-left:1px solid rgb(219, 215, 218)}
+    <DIV LayoutGrid__LayoutSubgrid BasicPageRow__Wrapper> [0,896,1440,339] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:338.922px; grid-column:1 / -1; overflow:clip visible}
+     <DIV GridLines__CheckeredMargin> [0,896,29,339] {position:relative; grid-column:1 / span 1; background-image:url("data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"4\" height=\"4\"><rect width=\"2\" height=\"2\" fill=\"%23e8e4e6\" /><rect x=\"2\" y=\"2\" width=\"2\" height=\"2\" fill=\"%23e8e4e6\"/></svg>"); border-right:1px solid rgb(219, 215, 218)}
+     <DIV LayoutGrid__LayoutGridCondensed BasicPageRow__StyledLayoutGridCondensed> [29,896,1382,339] {display:grid; position:relative; gap:0px; grid-template-columns:12px 113.188px 113.188px 113.188px 113.188px 113.188px 113.188px 113.188px 113.188px 113.188px 113.188px 113.188px 113.188px 12px; grid-template-rows:338.922px; grid-column:2 / -2}
+      <DIV CartesianGrid__UnitGrid> [29,896,1382,339] {position:absolute; grid-column:1 / -1; mask-image:linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) calc(100% - 1px), rgb(255, 255, 255) calc(100% - 1px), rgb(255, 255, 255)), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) calc(100% - 1px), rgb(255, 255, 255) calc(100% - 1px), rgb(255, 255, 255))}
+       <DIV CartesianGrid__UnitGridMask> [29,896,1382,339] {position:absolute; mask-image:linear-gradient(rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0.01) 10.8586%, rgba(255, 255, 255, 0.02) 11.7172%, rgba(255, 255, 255, 0.03) 12.5758%, rgba(255, 255, 255, 0.04) 13.4343%, rgba(255, 255, 255, 0.05) 14.2929%, rgba(255, 255, 255, 0.06) 15.1515%, rgba(255, 255, 255, 0.07) 16.0101%, rgba(255, 255, 255, 0.082) 16.8687%, rgba(255, 255, 255, 0.09) 17.7273%, rgba(255, 255, 255, 0.1) 18.5859%, rgba(255, 255, 255, 0.11) 19.4444%, rgba(255, 255, 255, 0.12) 20.303%, rgba(255, 255, 255, 0.13) 21.1616%, rgba(255, 255, 255, 0.14) 22.0202%, rgba(255, 255, 255, 0.153) 22.8788%, rgba(255, 255, 255, 0.16) 23.7374%, rgba(255, 255, 255, 0.173) 24.596%, rgba(255, 255, 255, 0.18) 25.4545%, rgba(255, 255, 255, 0.192) 26.3131%, rgba(255, 255, 255, 0.204) 27.1717%, rgba(255, 255, 255, 0.21) 28.0303%, rgba(255, 255, 255, 0.224) 28.8889%, rgba(255, 255, 255, 0.23) 29.7475%, rgba(255, 255, 255, 0.243) 30.6061%, rgba(255, 255, 255, 0.25) 31.4646%, rgba(255, 255, 255, 0.263) 32.3232%, rgba(255, 255, 255, 0.275) 33.1818%, rgba(255, 255, 255, 0.282) 34.0404%, rgba(255, 255, 255, 0.294) 34.899%, rgba(255, 255, 255, 0.3) 35.7576%, rgba(255, 255, 255, 0.314) 36.6162%, rgba(255, 255, 255, 0.32) 37.4747%, rgba(255, 255, 255, 0.333) 38.3333%, rgba(255, 255, 255, 0.345) 39.1919%, rgba(255, 255, 255, 0.353) 40.0505%, rgba(255, 255, 255, 0.365) 40.9091%, rgba(255, 255, 255, 0.373) 41.7677%, rgba(255, 255, 255, 0.384) 42.6263%, rgba(255, 255, 255, 0.392) 43.4848%, rgba(255, 255, 255, 0.404) 44.3434%, rgba(255, 255, 255, 0.416) 45.202%, rgba(255, 255, 255, 0.424) 46.0606%, rgba(255, 255, 255, 0.435) 46.9192%, rgba(255, 255, 255, 0.443) 47.7778%, rgba(255, 255, 255, 0.455) 48.6364%, rgba(255, 255, 255, 0.463) 49.4949%, rgba(255, 255, 255, 0.475) 50.3535%, rgba(255, 255, 255, 0.486) 51.2121%, rgba(255, 255, 255, 0.494) 52.0707%, rgba(255, 255, 255, 0.506) 52.9293%, rgba(255, 255, 255, 0.514) 53.7879%, rgba(255, 255, 255, 0.525) 54.6465%, rgba(255, 255, 255, 0.537) 55.5051%, rgba(255, 255, 255, 0.545) 56.3636%, rgba(255, 255, 255, 0.557) 57.2222%, rgba(255, 255, 255, 0.565) 58.0808%, rgba(255, 255, 255, 0.576) 58.9394%, rgba(255, 255, 255, 0.584) 59.798%, rgba(255, 255, 255, 0.596) 60.6566%, rgba(255, 255, 255, 0.608) 61.5152%, rgba(255, 255, 255, 0.616) 62.3737%, rgba(255, 255, 255, 0.627) 63.2323%, rgba(255, 255, 255, 0.635) 64.0909%, rgba(255, 255, 255, 0.647) 64.9495%, rgba(255, 255, 255, 0.655) 65.8081%, rgba(255, 255, 255, 0.667) 66.6667%, rgba(255, 255, 255, 0.68) 67.5253%, rgba(255, 255, 255, 0.686) 68.3838%, rgba(255, 255, 255, 0.698) 69.2424%, rgba(255, 255, 255, 0.706) 70.101%, rgba(255, 255, 255, 0.718) 70.9596%, rgba(255, 255, 255, 0.725) 71.8182%, rgba(255, 255, 255, 0.737) 72.6768%, rgba(255, 255, 255, 0.75) 73.5354%, rgba(255, 255, 255, 0.757) 74.3939%, rgba(255, 255, 255, 0.77) 75.2525%, rgba(255, 255, 255, 0.776) 76.1111%, rgba(255, 255, 255, 0.79) 76.9697%, rgba(255, 255, 255, 0.796) 77.8283%, rgba(255, 255, 255, 0.808) 78.6869%, rgba(255, 255, 255, 0.82) 79.5455%, rgba(255, 255, 255, 0.827) 80.404%, rgba(255, 255, 255, 0.84) 81.2626%, rgba(255, 255, 255, 0.847) 82.1212%, rgba(255, 255, 255, 0.86) 82.9798%, rgba(255, 255, 255, 0.87) 83.8384%, rgba(255, 255, 255, 0.88) 84.697%, rgba(255, 255, 255, 0.89) 85.5556%, rgba(255, 255, 255, 0.898) 86.4141%, rgba(255, 255, 255, 0.91) 87.2727%, rgba(255, 255, 255, 0.918) 88.1313%, rgba(255, 255, 255, 0.93) 88.9899%, rgba(255, 255, 255, 0.94) 89.8485%, rgba(255, 255, 255, 0.95) 90.7071%, rgba(255, 255, 255, 0.96) 91.5657%, rgba(255, 255, 255, 0.97) 92.4242%, rgba(255, 255, 255, 0.98) 93.2828%, rgba(255, 255, 255, 0.99) 94.1414%, rgb(255, 255, 255) 95%, rgba(0, 0, 0, 0))}
+        <DIV CartesianGrid__RadialGradient> [29,896,1382,339] {position:absolute; background-image:radial-gradient(circle, color(srgb 0.192157 0.14902 0.231373 / 0.05) 50%, color(srgb 0.192157 0.14902 0.231373 / 0.2))}
+      <DIV BasicPageRow> [29,896,1382,339] {display:flex; position:relative; flex-direction:column; justify-content:center; align-items:center; grid-column:1 / -1}
+       <DIV CustomerStoryDetails__Wrapper> [29,896,1382,339] {display:flex; border-top:1px solid rgb(233, 229, 232)}
+        <DIV CustomerStoryDetails> [60,897,1320,338] {display:flex; gap:20px; padding:30px 40px; margin:0px 31.125px; max-width:1320px}
+         <DIV Card__Wrapper CustomerStoryDetails__DetailCard> [100,927,400,278] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:40px; text-align:left; background-color:rgba(253, 253, 253, 0.4); background-image:linear-gradient(105deg, rgba(245, 192, 192, 0) 10.56%, rgba(245, 192, 192, 0.02) 108.41%), none; border-radius:12px; box-shadow:rgba(0, 0, 0, 0.05) 0px 0px 11px 0px inset, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 16px 24px -8px, rgba(0, 0, 0, 0.05) 0px 8px 12px -4px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px; backdrop-filter:blur(7.5px)}
+          <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [140,967,137,26] «About Notion» {font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(20, 20, 28)}
+          <P CustomerStoryDetails__DetailText> [140,1013,320,88] «Notion is a single space where you can think, write, and plan. Capture thoughts, manage pr» {margin:20px 0px 21.9844px}
+          <A Button__LinkWrapperBase> [140,1123,128,42] href=https://www.notion.so/ {display:flex; position:relative; padding:0px 20px; border-top:1px solid rgb(219, 215, 218); border-right:1px solid rgb(219, 215, 218); border-bottom:1px solid rgb(219, 215, 218); border-left:1px solid rgb(219, 215, 218); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+           <DIV Button> [161,1124,86,40] {display:flex; justify-content:center; align-items:center; gap:10px; text-align:center; white-space:nowrap; text-wrap:nowrap}
+            <DIV CornerLines__Wrapper> [141,1124,126,40] {position:absolute; opacity:0}
+            <DIV Button__Children> [161,1133,86,22] «View website» {display:flex; position:relative; justify-content:center; align-items:center; overflow:hidden; z-index:2}
+         <DIV Card__Wrapper CustomerStoryDetails__DetailCard> [520,927,400,278] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:40px; text-align:left; background-color:rgba(253, 253, 253, 0.4); background-image:linear-gradient(105deg, rgba(245, 192, 192, 0) 10.56%, rgba(245, 192, 192, 0.02) 108.41%), none; border-radius:12px; box-shadow:rgba(0, 0, 0, 0.05) 0px 0px 11px 0px inset, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 16px 24px -8px, rgba(0, 0, 0, 0.05) 0px 8px 12px -4px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px; backdrop-filter:blur(7.5px)}
+          <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [560,967,96,26] «Outcome» {font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(20, 20, 28)}
+          <UL CustomerStoryDetails__List> [560,1013,320,98] {display:flex; flex-direction:column; gap:10px; padding:0px 0px 0px 20px; margin:20px 0px 0px; list-style-type:circle}
+           <LI > [580,1013,300,44] «86% of Notebook Agent users are not data scientists» {display:list-item}
+           <LI > [580,1067,300,44] «Hours of manual prep work saved —> Automated insights» {display:list-item}
+         <DIV Card__Wrapper CustomerStoryDetails__DetailCard> [940,927,400,278] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:40px; text-align:left; background-color:rgba(253, 253, 253, 0.4); background-image:linear-gradient(105deg, rgba(245, 192, 192, 0) 10.56%, rgba(245, 192, 192, 0.02) 108.41%), none; border-radius:12px; box-shadow:rgba(0, 0, 0, 0.05) 0px 0px 11px 0px inset, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 16px 24px -8px, rgba(0, 0, 0, 0.05) 0px 8px 12px -4px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px; backdrop-filter:blur(7.5px)}
+          <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [980,967,156,26] «Scale achieved» {font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(20, 20, 28)}
+          <UL CustomerStoryDetails__List> [980,1013,320,130] {display:flex; flex-direction:column; gap:10px; padding:0px 0px 0px 20px; margin:20px 0px 0px; list-style-type:circle}
+           <LI > [1000,1013,300,44] «Notion’s data team is going from reactive to proactive» {display:list-item}
+           <LI > [1000,1067,300,22] «Answering questions faster» {display:list-item}
+           <LI > [1000,1099,300,44] «Building infrastructure that allows teams to self-serve» {display:list-item}
+     <DIV GridLines__CheckeredMargin> [1411,896,29,339] {position:relative; grid-column:-2 / span 1; background-image:url("data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"4\" height=\"4\"><rect width=\"2\" height=\"2\" fill=\"%23e8e4e6\" /><rect x=\"2\" y=\"2\" width=\"2\" height=\"2\" fill=\"%23e8e4e6\"/></svg>"); border-left:1px solid rgb(219, 215, 218)}
+    <DIV LayoutGrid__LayoutSubgrid BasicPageRow__Wrapper> [0,1235,1440,3391] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:3391px; grid-column:1 / -1; overflow:clip visible}
+     <DIV GridLines__CheckeredMargin> [0,1235,29,3391] {position:relative; grid-column:1 / span 1; background-image:url("data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"4\" height=\"4\"><rect width=\"2\" height=\"2\" fill=\"%23e8e4e6\" /><rect x=\"2\" y=\"2\" width=\"2\" height=\"2\" fill=\"%23e8e4e6\"/></svg>"); border-right:1px solid rgb(219, 215, 218)}
+     <DIV LayoutGrid__LayoutGridCondensed BasicPageRow__StyledLayoutGridCondensed> [29,1235,1382,3391] {display:grid; position:relative; gap:0px; grid-template-columns:12px 113.188px 113.188px 113.188px 113.188px 113.188px 113.188px 113.188px 113.188px 113.188px 113.188px 113.188px 113.188px 12px; grid-template-rows:3391px; grid-column:2 / -2}
+      <DIV BasicPageRow> [29,1235,1382,3391] {display:flex; position:relative; flex-direction:column; justify-content:center; align-items:center; grid-column:1 / -1}
+       <DIV CustomerStoryContent> [29,1235,1382,3391] {display:flex; border-top:1px solid rgb(233, 229, 232)}
+        <DIV CustomerStoryContent__HatchedBox> [29,1236,251,3390] {background-image:repeating-linear-gradient(45deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 5px, rgb(235, 204, 204) 5px, rgb(235, 204, 204) 6px); opacity:0.5}
+        <DIV CustomerStoryContent__TextWrapper> [280,1236,880,3390] {padding:60px; max-width:880px; font-family:IBM Plex Sans; border-right:1px solid rgb(233, 229, 232); border-left:1px solid rgb(233, 229, 232)}
+         <H3 Heading__HeadingInternal Heading___StyledHeadingInternal> [341,1296,758,26] «The challenge: Keeping data insights accessible as Notion grew» {margin:0px 0px 24px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:800; letter-spacing:-0.5px; color:rgb(20, 20, 28)}
+         <P PortableText__Paragraph> [341,1346,758,160] «As Notion introduced its AI features, the team and product grew — a lot. More teammates, m» {margin:0px 0px 24px; font-size:18px; line-height:32px}
+         <P PortableText__Paragraph> [341,1530,758,96] «Even with smart prioritization, the volume created a bottleneck and a lot of context switc» {margin:0px 0px 24px; font-size:18px; line-height:32px}
+         <H3 Heading__HeadingInternal Heading___StyledHeadingInternal> [341,1650,758,41] «The solution: The Notebook Agent is a force multiplier for data teams» {padding:15px 0px 0px; margin:0px 0px 24px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:800; letter-spacing:-0.5px; color:rgb(20, 20, 28)}
+         <P PortableText__Paragraph> [341,1715,758,160] «Today, Hex is the data tool of choice for the Notion data science team and their business » {margin:0px 0px 24px; font-size:18px; line-height:32px}
+         <P PortableText__Paragraph> [341,1899,758,64] «"Hex’s Notebook Agent accelerates our data exploration while maintaining security and acce» {margin:0px 0px 24px; font-size:18px; line-height:32px}
+         <P PortableText__Paragraph> [341,1987,758,32] {margin:0px 0px 24px; font-size:18px; line-height:32px}
+          <STRONG > [341,1991,645,23] «Accelerating the build of complex customer analysis with the Notebook Agent» {display:inline; font-weight:600; color:rgb(20, 20, 28)}
+         <P PortableText__Paragraph> [341,2043,758,64] «One of the most advanced ways that Hex is helping the data team is with building classific» {margin:0px 0px 24px; font-size:18px; line-height:32px}
+         <P PortableText__Paragraph> [341,2131,758,224] «Data Scientist, Aks Nemana, is using Hex’s as a partner in a hugely complex data project. » {margin:0px 0px 24px; font-size:18px; line-height:32px}
+          <A PortableText__StyledLink> [687,2135,131,24] href=https://hex.tech/blog/introducing-notebook-agent/ «Notebook Agent» {display:inline; border-bottom:1px solid rgb(49, 38, 59); transition:background-color 0.1s linear}
+         <P PortableText__Paragraph> [341,2379,758,32] «With the Notebook Agent, Aks has been able to ship customer trend reporting much faster.» {margin:0px 0px 24px; font-size:18px; line-height:32px}
+         <P PortableText__Paragraph> [341,2435,758,64] «"Hex's Notebook Agent can see our Snowflake tables, reference other analyses, and investig» {margin:0px 0px 24px; font-size:18px; line-height:32px}
+         <P PortableText__Paragraph> [341,2523,758,32] {margin:0px 0px 24px; font-size:18px; line-height:32px}
+          <STRONG > [341,2527,497,23] «Helping non-data team members find the metrics they need» {display:inline; font-weight:600; color:rgb(20, 20, 28)}
+         <P PortableText__Paragraph> [341,2579,758,288] «At Notion, 86% of recent Notebook Agent users aren't data scientists — they're engineers, » {margin:0px 0px 24px; font-size:18px; line-height:32px}
+         <P PortableText__Paragraph> [341,2891,758,32] {margin:0px 0px 24px; font-size:18px; line-height:32px}
+          <STRONG > [341,2895,518,23] «Running advanced analytics where the data lives in Snowflake» {display:inline; font-weight:600; color:rgb(20, 20, 28)}
+         <P PortableText__Paragraph> [341,2947,758,64] «Notion’s data scientists are building machine learning workflows and wanted those insights» {margin:0px 0px 24px; font-size:18px; line-height:32px}
+         <P PortableText__Paragraph> [341,3035,758,160] «Using , they can run SQL and Python directly in Snowflake, so they’re transforming large d» {margin:0px 0px 24px; font-size:18px; line-height:32px}
+          <A PortableText__StyledLink> [390,3039,156,24] href=https://learn.hex.tech/docs/connect-to-data/data-connections/snowpark {display:inline; border-bottom:1px solid rgb(49, 38, 59); transition:background-color 0.1s linear}
+           <U > [390,3039,156,23] «Hex with Snowpark» {display:inline}
+         <P PortableText__Paragraph> [341,3219,758,32] {margin:0px 0px 24px; font-size:18px; line-height:32px}
+          <STRONG > [341,3223,558,23] «Empowering GTM teams with data apps, built with Notebook Agent» {display:inline; font-weight:600; color:rgb(20, 20, 28)}
+         <P PortableText__Paragraph> [341,3275,758,96] «Notion is using Hex as a platform for internal web apps that show insights based on intern» {margin:0px 0px 24px; font-size:18px; line-height:32px}
+         <P PortableText__Paragraph> [341,3395,758,192] «The CX team uses data apps in Hex as a UI to pull customer details, while the sales team u» {margin:0px 0px 24px; font-size:18px; line-height:32px}
+         <P PortableText__Paragraph> [341,3611,758,96] «Aks Nemana, Data Scientist» {margin:0px 0px 24px; font-size:18px; line-height:32px}
+          <EM > [341,3615,717,55] «"We are using the Notebook Agent a lot because we're not software engineers. The Agent hel» {display:inline}
+         <H3 Heading__HeadingInternal Heading___StyledHeadingInternal> [341,3731,758,67] «The impact: Distributing more insights by embracing AI-assisted workflows» {padding:15px 0px 0px; margin:0px 0px 24px; font-family:PP Formula; font-size:20px; line-height:26px; font-weight:800; letter-spacing:-0.5px; color:rgb(20, 20, 28)}
+         <P PortableText__Paragraph> [341,3822,758,64] «With the launch of the Notebook Agent, Notion's data team is doing more with the same reso» {margin:0px 0px 24px; font-size:18px; line-height:32px}
+         <UL PortableText__List> [341,3910,758,208] {padding:0px 0px 0px 24px; margin:0px 0px 24px; font-size:18px; line-height:32px; list-style-type:circle}
+          <LI PortableText__ListItem> [365,3910,734,64] «86% of recent agent users were non-data scientists. Cross-functional stakeholders can now » {display:list-item; margin:0px 0px 8px}
+          <LI PortableText__ListItem> [365,3982,734,64] «The data team saves hours of manual prep work each week with automated insights through da» {display:list-item; margin:0px 0px 8px}
+          <LI PortableText__ListItem> [365,4054,734,64] «The data team's data apps in Hex, like the Account Research Data App, have become one of t» {display:list-item}
+         <P PortableText__Paragraph> [341,4142,758,160] «The bigger shift? With Hex, Notion’s data team is going from reactive to proactive. The da» {margin:0px 0px 24px; font-size:18px; line-height:32px}
+         <P PortableText__Paragraph> [341,4326,758,128] «By pairing the Notebook Agent and with their semantic layer, they’re working toward self-s» {margin:0px 0px 24px; font-size:18px; line-height:32px}
+          <A PortableText__StyledLink> [626,4330,66,24] href=https://hex.tech/blog/introducing-threads/ «Threads» {display:inline; border-bottom:1px solid rgb(49, 38, 59); transition:background-color 0.1s linear}
+          <A PortableText__StyledLink> [341,4394,44,24] href=https://learn.hex.tech/docs/share-insights/hex-agent-in-slack «Slack» {display:inline; border-bottom:1px solid rgb(49, 38, 59); transition:background-color 0.1s linear}
+         <P PortableText__Paragraph> [341,4478,758,32] {margin:0px 0px 24px; font-size:18px; line-height:32px}
+          <STRONG > [341,4482,662,23] «Aks Nemana, Data Scientist and Abhishek Modi, AI Software Engineer at Notion» {display:inline; font-weight:600; color:rgb(20, 20, 28)}
+         <P PortableText__Paragraph> [341,4534,758,32] «Learn how .» {font-size:18px; line-height:32px}
+          <A PortableText__StyledLink> [429,4538,432,24] href=https://hex.tech/blog/friends-of-data-daniel-sternberg/ «Notion's Head of Data uses data to drive product craft» {display:inline; border-bottom:1px solid rgb(49, 38, 59); transition:background-color 0.1s linear}
+        <DIV CustomerStoryContent__HatchedBox> [1160,1236,251,3390] {background-image:repeating-linear-gradient(45deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 5px, rgb(235, 204, 204) 5px, rgb(235, 204, 204) 6px); opacity:0.5}
+     <DIV GridLines__CheckeredMargin> [1411,1235,29,3391] {position:relative; grid-column:-2 / span 1; background-image:url("data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"4\" height=\"4\"><rect width=\"2\" height=\"2\" fill=\"%23e8e4e6\" /><rect x=\"2\" y=\"2\" width=\"2\" height=\"2\" fill=\"%23e8e4e6\"/></svg>"); border-left:1px solid rgb(219, 215, 218)}
+    <DIV LayoutGrid__LayoutSubgrid BasicPageRow__Wrapper> [0,4626,1440,1077] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:1076px; grid-column:1 / -1; border-top:1px solid rgb(219, 215, 218); overflow:clip visible}
+     <DIV GridLines__CheckeredMargin> [0,4627,29,1076] {position:relative; grid-column:1 / span 1; background-image:url("data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"4\" height=\"4\"><rect width=\"2\" height=\"2\" fill=\"%23e8e4e6\" /><rect x=\"2\" y=\"2\" width=\"2\" height=\"2\" fill=\"%23e8e4e6\"/></svg>"); border-right:1px solid rgb(219, 215, 218)}
+     <DIV LayoutGrid__LayoutGridCondensed BasicPageRow__StyledLayoutGridCondensed> [29,4627,1382,1076] {display:grid; position:relative; gap:0px; grid-template-columns:12px 113.188px 113.188px 113.188px 113.188px 113.188px 113.188px 113.188px 113.188px 113.188px 113.188px 113.188px 113.188px 12px; grid-template-rows:1076px; grid-column:2 / -2}
+      <DIV BasicPageRow> [29,4627,1382,1076] {display:flex; position:relative; flex-direction:column; justify-content:center; align-items:center; grid-column:1 / -1}
+       <DIV CustomerStoryRelatedStories__Wrapper> [100,4627,1240,1076] {display:flex; flex-direction:column; align-items:center; gap:30px; padding:60px 40px; margin:0px 71.125px; max-width:1240px}
+        <H2 Heading__HeadingInternal Heading___StyledHeadingInternal> [557,4687,326,52] «Related stories» {font-family:PP Formula; font-size:40px; line-height:52px; font-weight:800; letter-spacing:-1px; color:rgb(20, 20, 28)}
+        <DIV CustomerStoryRelatedStories__Grid> [140,4769,1160,874] {display:grid; gap:20px; grid-template-columns:373.328px 373.328px 373.344px; grid-template-rows:414px 440px}
+         <A CustomerStoryCard__StoryLink> [140,4769,373,414] href=/customers/chime/ {display:flex; transition:none}
+          <DIV Card__Wrapper CustomerStoryCard__Wrapper> [140,4769,373,414] {display:flex; position:relative; flex-direction:column; align-items:flex-start; gap:20px; padding:20px; text-align:left; background-color:rgba(253, 253, 253, 0.4); background-image:linear-gradient(105deg, rgba(245, 192, 192, 0) 10.56%, rgba(245, 192, 192, 0.02) 108.41%), none; border-radius:12px; box-shadow:rgba(0, 0, 0, 0.05) 0px 0px 11px 0px inset, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 16px 24px -8px, rgba(0, 0, 0, 0.05) 0px 8px 12px -4px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px; transform:matrix(1, 0, 0, 1, 0, 0); transition:border 0.52933s linear(0 0%, 0.005892 1%, 0.022227 2%, 0.047151 3%, 0.079006 4%, 0.116321 5%, 0.157797 6%, 0.202293 7%, 0.248818 8%, 0.296516 9%, 0.344652 10%, 0.392606 11%, 0.439857 12%, 0.485977 13%, 0.530617 14%, 0.573504 15%, 0.614426 16%, 0.653228 17%, 0.689804 18%, 0.724091 19%, 0.756062 20%, 0.785721 21%, 0.813097 22%, 0.838242 23%, 0.861223 24%, 0.882123 25%, 0.901035 26%, 0.918061 27%, 0.933305 28%, 0.946879 29%, 0.958894 30%, 0.96946 31%, 0.978689 32%, 0.986687 33%, 0.993561 34%, 0.999411 35%, 1.00433 36%, 1.00842 37%, 1.01176 38%, 1.01443 39%, 1.01651 40%, 1.01806 41%, 1.01917 42%, 1.01987 43%, 1.02024 44%, 1.02031 45%, 1.02014 46%, 1.01977 47%, 1.01923 48%, 1.01856 49%, 1.01778 50%, 1.01692 51%, 1.01601 52%, 1.01506 53%, 1.01408 54%, 1.0131 55%, 1.01213 56%, 1.01118 57%, 1.01025 58%, 1.00935 59%, 1.00848 60%, 1.00766 61%, 1.00688 62%, 1.00615 63%, 1.00546 64%, 1.00482 65%, 1.00423 66%, 1.00368 67%, 1.00318 68%, 1.00273 69%, 1.00231 70%, 1.00193 71%, 1.0016 72%, 1.00129 73%, 1.00102 74%, 1.00079 75%, 1.00058 76%, 1.0004 77%, 1.00024 78%, 1.0001 79%, 0.999989 80%), transform 0.52933s linear(0 0%, 0.005892 1%, 0.022227 2%, 0.047151 3%, 0.079006 4%, 0.116321 5%, 0.157797 6%, 0.202293 7%, 0.248818 8%, 0.296516 9%, 0.344652 10%, 0.392606 11%, 0.439857 12%, 0.485977 13%, 0.530617 14%, 0.573504 15%, 0.614426 16%, 0.653228 17%, 0.689804 18%, 0.724091 19%, 0.756062 20%, 0.785721 21%, 0.813097 22%, 0.838242 23%, 0.861223 24%, 0.882123 25%, 0.901035 26%, 0.918061 27%, 0.933305 28%, 0.946879 29%, 0.958894 30%, 0.96946 31%, 0.978689 32%, 0.986687 33%, 0.993561 34%, 0.999411 35%, 1.00433 36%, 1.00842 37%, 1.01176 38%, 1.01443 39%, 1.01651 40%, 1.01806 41%, 1.01917 42%, 1.01987 43%, 1.02024 44%, 1.02031 45%, 1.02014 46%, 1.01977 47%, 1.01923 48%, 1.01856 49%, 1.01778 50%, 1.01692 51%, 1.01601 52%, 1.01506 53%, 1.01408 54%, 1.0131 55%, 1.01213 56%, 1.01118 57%, 1.01025 58%, 1.00935 59%, 1.00848 60%, 1.00766 61%, 1.00688 62%, 1.00615 63%, 1.00546 64%, 1.00482 65%, 1.00423 66%, 1.00368 67%, 1.00318 68%, 1.00273 69%, 1.00231 70%, 1.00193 71%, 1.0016 72%, 1.00129 73%, 1.00102 74%, 1.00079 75%, 1.00058 76%, 1.0004 77%, 1.00024 78%, 1.0001 79%, 0.999989 80%), box-shadow 0.52933s linear(0 0%, 0.005892 1%, 0.022227 2%, 0.047151 3%, 0.079006 4%, 0.116321 5%, 0.157797 6%, 0.202293 7%, 0.248818 8%, 0.296516 9%, 0.344652 10%, 0.392606 11%, 0.439857 12%, 0.485977 13%, 0.530617 14%, 0.573504 15%, 0.614426 16%, 0.653228 17%, 0.689804 18%, 0.724091 19%, 0.756062 20%, 0.785721 21%, 0.813097 22%, 0.838242 23%, 0.861223 24%, 0.882123 25%, 0.901035 26%, 0.918061 27%, 0.933305 28%, 0.946879 29%, 0.958894 30%, 0.96946 31%, 0.978689 32%, 0.986687 33%, 0.993561 34%, 0.999411 35%, 1.00433 36%, 1.00842 37%, 1.01176 38%, 1.01443 39%, 1.01651 40%, 1.01806 41%, 1.01917 42%, 1.01987 43%, 1.02024 44%, 1.02031 45%, 1.02014 46%, 1.01977 47%, 1.01923 48%, 1.01856 49%, 1.01778 50%, 1.01692 51%, 1.01601 52%, 1.01506 53%, 1.01408 54%, 1.0131 55%, 1.01213 56%, 1.01118 57%, 1.01025 58%, 1.00935 59%, 1.00848 60%, 1.00766 61%, 1.00688 62%, 1.00615 63%, 1.00546 64%, 1.00482 65%, 1.00423 66%, 1.00368 67%, 1.00318 68%, 1.00273 69%, 1.00231 70%, 1.00193 71%, 1.0016 72%, 1.00129 73%, 1.00102 74%, 1.00079 75%, 1.00058 76%, 1.0004 77%, 1.00024 78%, 1.0001 79%, 0.999989 80%); backdrop-filter:blur(7.5px)}
+           <DIV CustomerStoryCard__MediaWrapper> [160,4789,333,150] {display:flex; position:relative; justify-content:center; align-items:center; padding:20px; background-color:rgb(255, 252, 252); border-top:1px solid rgb(219, 215, 218); border-right:1px solid rgb(219, 215, 218); border-bottom:1px solid rgb(219, 215, 218); border-left:1px solid rgb(219, 215, 218); border-radius:6px}
+            <IMG CustomerStoryCard__LogoImg> [280,4839,94,50] src=https://cdn.sanity.io/images/e92memrj/production/3950f2658ad5a70f487a955685af0bfdc634c6d8-94x50.svg?auto=format nat=94x50 {overflow:clip}
+           <DIV CustomerStoryCard__Content> [160,4959,333,204] {display:flex; flex-direction:column; gap:10px}
+            <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [160,4959,333,104] «Chime® built a context workflow and eval set that drove 5K additional insights per month v» {font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(20, 20, 28)}
+            <DIV CustomerStoryCard__Metadata> [160,5073,333,90] {display:flex; flex-direction:column; gap:2px}
+             <DIV CustomerStoryCard__MetadataRow> [160,5073,333,21] «Stage /» {display:flex; flex-wrap:wrap; gap:8px; font-family:Cinetype Mono; font-size:10px; line-height:21px; letter-spacing:0.833px; color:rgba(20, 20, 28, 0.447)}
+              <SPAN > [219,5073,72,21] «Enterprise» {color:rgb(20, 20, 28)}
+             <DIV CustomerStoryCard__MetadataRow> [160,5096,333,21] «Features /» {display:flex; flex-wrap:wrap; gap:8px; font-family:Cinetype Mono; font-size:10px; line-height:21px; letter-spacing:0.833px; color:rgba(20, 20, 28, 0.447)}
+              <SPAN > [240,5096,166,21] «Notebook Agent, Threads» {color:rgb(20, 20, 28)}
+             <DIV CustomerStoryCard__MetadataRow> [160,5119,333,21] «Industry /» {display:flex; flex-wrap:wrap; gap:8px; font-family:Cinetype Mono; font-size:10px; line-height:21px; letter-spacing:0.833px; color:rgba(20, 20, 28, 0.447)}
+              <SPAN > [240,5119,152,21] «Technology & Software» {color:rgb(20, 20, 28)}
+             <DIV CustomerStoryCard__MetadataRow> [160,5142,333,21] «Company size /» {display:flex; flex-wrap:wrap; gap:8px; font-family:Cinetype Mono; font-size:10px; line-height:21px; letter-spacing:0.833px; color:rgba(20, 20, 28, 0.447)}
+              <SPAN > [269,5142,36,21] «1,500» {color:rgb(20, 20, 28)}
+         <A CustomerStoryCard__StoryLink> [533,4769,373,414] href=/customers/figma/ {display:flex; transition:none}
+          <DIV Card__Wrapper CustomerStoryCard__Wrapper> [533,4769,373,414] {display:flex; position:relative; flex-direction:column; align-items:flex-start; gap:20px; padding:20px; text-align:left; background-color:rgba(253, 253, 253, 0.4); background-image:linear-gradient(105deg, rgba(245, 192, 192, 0) 10.56%, rgba(245, 192, 192, 0.02) 108.41%), none; border-radius:12px; box-shadow:rgba(0, 0, 0, 0.05) 0px 0px 11px 0px inset, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 16px 24px -8px, rgba(0, 0, 0, 0.05) 0px 8px 12px -4px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px; transform:matrix(1, 0, 0, 1, 0, 0); transition:border 0.52933s linear(0 0%, 0.005892 1%, 0.022227 2%, 0.047151 3%, 0.079006 4%, 0.116321 5%, 0.157797 6%, 0.202293 7%, 0.248818 8%, 0.296516 9%, 0.344652 10%, 0.392606 11%, 0.439857 12%, 0.485977 13%, 0.530617 14%, 0.573504 15%, 0.614426 16%, 0.653228 17%, 0.689804 18%, 0.724091 19%, 0.756062 20%, 0.785721 21%, 0.813097 22%, 0.838242 23%, 0.861223 24%, 0.882123 25%, 0.901035 26%, 0.918061 27%, 0.933305 28%, 0.946879 29%, 0.958894 30%, 0.96946 31%, 0.978689 32%, 0.986687 33%, 0.993561 34%, 0.999411 35%, 1.00433 36%, 1.00842 37%, 1.01176 38%, 1.01443 39%, 1.01651 40%, 1.01806 41%, 1.01917 42%, 1.01987 43%, 1.02024 44%, 1.02031 45%, 1.02014 46%, 1.01977 47%, 1.01923 48%, 1.01856 49%, 1.01778 50%, 1.01692 51%, 1.01601 52%, 1.01506 53%, 1.01408 54%, 1.0131 55%, 1.01213 56%, 1.01118 57%, 1.01025 58%, 1.00935 59%, 1.00848 60%, 1.00766 61%, 1.00688 62%, 1.00615 63%, 1.00546 64%, 1.00482 65%, 1.00423 66%, 1.00368 67%, 1.00318 68%, 1.00273 69%, 1.00231 70%, 1.00193 71%, 1.0016 72%, 1.00129 73%, 1.00102 74%, 1.00079 75%, 1.00058 76%, 1.0004 77%, 1.00024 78%, 1.0001 79%, 0.999989 80%), transform 0.52933s linear(0 0%, 0.005892 1%, 0.022227 2%, 0.047151 3%, 0.079006 4%, 0.116321 5%, 0.157797 6%, 0.202293 7%, 0.248818 8%, 0.296516 9%, 0.344652 10%, 0.392606 11%, 0.439857 12%, 0.485977 13%, 0.530617 14%, 0.573504 15%, 0.614426 16%, 0.653228 17%, 0.689804 18%, 0.724091 19%, 0.756062 20%, 0.785721 21%, 0.813097 22%, 0.838242 23%, 0.861223 24%, 0.882123 25%, 0.901035 26%, 0.918061 27%, 0.933305 28%, 0.946879 29%, 0.958894 30%, 0.96946 31%, 0.978689 32%, 0.986687 33%, 0.993561 34%, 0.999411 35%, 1.00433 36%, 1.00842 37%, 1.01176 38%, 1.01443 39%, 1.01651 40%, 1.01806 41%, 1.01917 42%, 1.01987 43%, 1.02024 44%, 1.02031 45%, 1.02014 46%, 1.01977 47%, 1.01923 48%, 1.01856 49%, 1.01778 50%, 1.01692 51%, 1.01601 52%, 1.01506 53%, 1.01408 54%, 1.0131 55%, 1.01213 56%, 1.01118 57%, 1.01025 58%, 1.00935 59%, 1.00848 60%, 1.00766 61%, 1.00688 62%, 1.00615 63%, 1.00546 64%, 1.00482 65%, 1.00423 66%, 1.00368 67%, 1.00318 68%, 1.00273 69%, 1.00231 70%, 1.00193 71%, 1.0016 72%, 1.00129 73%, 1.00102 74%, 1.00079 75%, 1.00058 76%, 1.0004 77%, 1.00024 78%, 1.0001 79%, 0.999989 80%), box-shadow 0.52933s linear(0 0%, 0.005892 1%, 0.022227 2%, 0.047151 3%, 0.079006 4%, 0.116321 5%, 0.157797 6%, 0.202293 7%, 0.248818 8%, 0.296516 9%, 0.344652 10%, 0.392606 11%, 0.439857 12%, 0.485977 13%, 0.530617 14%, 0.573504 15%, 0.614426 16%, 0.653228 17%, 0.689804 18%, 0.724091 19%, 0.756062 20%, 0.785721 21%, 0.813097 22%, 0.838242 23%, 0.861223 24%, 0.882123 25%, 0.901035 26%, 0.918061 27%, 0.933305 28%, 0.946879 29%, 0.958894 30%, 0.96946 31%, 0.978689 32%, 0.986687 33%, 0.993561 34%, 0.999411 35%, 1.00433 36%, 1.00842 37%, 1.01176 38%, 1.01443 39%, 1.01651 40%, 1.01806 41%, 1.01917 42%, 1.01987 43%, 1.02024 44%, 1.02031 45%, 1.02014 46%, 1.01977 47%, 1.01923 48%, 1.01856 49%, 1.01778 50%, 1.01692 51%, 1.01601 52%, 1.01506 53%, 1.01408 54%, 1.0131 55%, 1.01213 56%, 1.01118 57%, 1.01025 58%, 1.00935 59%, 1.00848 60%, 1.00766 61%, 1.00688 62%, 1.00615 63%, 1.00546 64%, 1.00482 65%, 1.00423 66%, 1.00368 67%, 1.00318 68%, 1.00273 69%, 1.00231 70%, 1.00193 71%, 1.0016 72%, 1.00129 73%, 1.00102 74%, 1.00079 75%, 1.00058 76%, 1.0004 77%, 1.00024 78%, 1.0001 79%, 0.999989 80%); backdrop-filter:blur(7.5px)}
+           <DIV CustomerStoryCard__MediaWrapper> [553,4789,333,150] {display:flex; position:relative; justify-content:center; align-items:center; padding:20px; background-color:rgb(255, 252, 252); border-top:1px solid rgb(219, 215, 218); border-right:1px solid rgb(219, 215, 218); border-bottom:1px solid rgb(219, 215, 218); border-left:1px solid rgb(219, 215, 218); border-radius:6px}
+            <IMG CustomerStoryCard__LogoImg> [671,4839,97,50] src=https://cdn.sanity.io/images/e92memrj/production/3d96b9970d0f7abda8c46834991de2ac0554ae1a-97x50.svg?auto=format nat=97x50 {overflow:clip}
+           <DIV CustomerStoryCard__Content> [553,4959,333,204] {display:flex; flex-direction:column; gap:10px}
+            <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [553,4959,333,104] «Figma transformed their data pipeline to mature UX research, tracking 2M+ data points» {font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(20, 20, 28)}
+            <DIV CustomerStoryCard__Metadata> [553,5073,333,90] {display:flex; flex-direction:column; gap:2px}
+             <DIV CustomerStoryCard__MetadataRow> [553,5073,333,21] «Stage /» {display:flex; flex-wrap:wrap; gap:8px; font-family:Cinetype Mono; font-size:10px; line-height:21px; letter-spacing:0.833px; color:rgba(20, 20, 28, 0.447)}
+              <SPAN > [612,5073,72,21] «Enterprise» {color:rgb(20, 20, 28)}
+             <DIV CustomerStoryCard__MetadataRow> [553,5096,333,21] «Features /» {display:flex; flex-wrap:wrap; gap:8px; font-family:Cinetype Mono; font-size:10px; line-height:21px; letter-spacing:0.833px; color:rgba(20, 20, 28, 0.447)}
+              <SPAN > [634,5096,101,21] «Notebook Agent» {color:rgb(20, 20, 28)}
+             <DIV CustomerStoryCard__MetadataRow> [553,5119,333,21] «Industry /» {display:flex; flex-wrap:wrap; gap:8px; font-family:Cinetype Mono; font-size:10px; line-height:21px; letter-spacing:0.833px; color:rgba(20, 20, 28, 0.447)}
+              <SPAN > [634,5119,152,21] «Technology & Software» {color:rgb(20, 20, 28)}
+             <DIV CustomerStoryCard__MetadataRow> [553,5142,333,21] «Company size /» {display:flex; flex-wrap:wrap; gap:8px; font-family:Cinetype Mono; font-size:10px; line-height:21px; letter-spacing:0.833px; color:rgba(20, 20, 28, 0.447)}
+              <SPAN > [663,5142,36,21] «1,886» {color:rgb(20, 20, 28)}
+         <A CustomerStoryCard__StoryLink> [927,4769,373,414] href=/customers/hubspot/ {display:flex; transition:none}
+          <DIV Card__Wrapper CustomerStoryCard__Wrapper> [927,4769,373,414] {display:flex; position:relative; flex-direction:column; align-items:flex-start; gap:20px; padding:20px; text-align:left; background-color:rgba(253, 253, 253, 0.4); background-image:linear-gradient(105deg, rgba(245, 192, 192, 0) 10.56%, rgba(245, 192, 192, 0.02) 108.41%), none; border-radius:12px; box-shadow:rgba(0, 0, 0, 0.05) 0px 0px 11px 0px inset, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 16px 24px -8px, rgba(0, 0, 0, 0.05) 0px 8px 12px -4px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px; transform:matrix(1, 0, 0, 1, 0, 0); transition:border 0.52933s linear(0 0%, 0.005892 1%, 0.022227 2%, 0.047151 3%, 0.079006 4%, 0.116321 5%, 0.157797 6%, 0.202293 7%, 0.248818 8%, 0.296516 9%, 0.344652 10%, 0.392606 11%, 0.439857 12%, 0.485977 13%, 0.530617 14%, 0.573504 15%, 0.614426 16%, 0.653228 17%, 0.689804 18%, 0.724091 19%, 0.756062 20%, 0.785721 21%, 0.813097 22%, 0.838242 23%, 0.861223 24%, 0.882123 25%, 0.901035 26%, 0.918061 27%, 0.933305 28%, 0.946879 29%, 0.958894 30%, 0.96946 31%, 0.978689 32%, 0.986687 33%, 0.993561 34%, 0.999411 35%, 1.00433 36%, 1.00842 37%, 1.01176 38%, 1.01443 39%, 1.01651 40%, 1.01806 41%, 1.01917 42%, 1.01987 43%, 1.02024 44%, 1.02031 45%, 1.02014 46%, 1.01977 47%, 1.01923 48%, 1.01856 49%, 1.01778 50%, 1.01692 51%, 1.01601 52%, 1.01506 53%, 1.01408 54%, 1.0131 55%, 1.01213 56%, 1.01118 57%, 1.01025 58%, 1.00935 59%, 1.00848 60%, 1.00766 61%, 1.00688 62%, 1.00615 63%, 1.00546 64%, 1.00482 65%, 1.00423 66%, 1.00368 67%, 1.00318 68%, 1.00273 69%, 1.00231 70%, 1.00193 71%, 1.0016 72%, 1.00129 73%, 1.00102 74%, 1.00079 75%, 1.00058 76%, 1.0004 77%, 1.00024 78%, 1.0001 79%, 0.999989 80%), transform 0.52933s linear(0 0%, 0.005892 1%, 0.022227 2%, 0.047151 3%, 0.079006 4%, 0.116321 5%, 0.157797 6%, 0.202293 7%, 0.248818 8%, 0.296516 9%, 0.344652 10%, 0.392606 11%, 0.439857 12%, 0.485977 13%, 0.530617 14%, 0.573504 15%, 0.614426 16%, 0.653228 17%, 0.689804 18%, 0.724091 19%, 0.756062 20%, 0.785721 21%, 0.813097 22%, 0.838242 23%, 0.861223 24%, 0.882123 25%, 0.901035 26%, 0.918061 27%, 0.933305 28%, 0.946879 29%, 0.958894 30%, 0.96946 31%, 0.978689 32%, 0.986687 33%, 0.993561 34%, 0.999411 35%, 1.00433 36%, 1.00842 37%, 1.01176 38%, 1.01443 39%, 1.01651 40%, 1.01806 41%, 1.01917 42%, 1.01987 43%, 1.02024 44%, 1.02031 45%, 1.02014 46%, 1.01977 47%, 1.01923 48%, 1.01856 49%, 1.01778 50%, 1.01692 51%, 1.01601 52%, 1.01506 53%, 1.01408 54%, 1.0131 55%, 1.01213 56%, 1.01118 57%, 1.01025 58%, 1.00935 59%, 1.00848 60%, 1.00766 61%, 1.00688 62%, 1.00615 63%, 1.00546 64%, 1.00482 65%, 1.00423 66%, 1.00368 67%, 1.00318 68%, 1.00273 69%, 1.00231 70%, 1.00193 71%, 1.0016 72%, 1.00129 73%, 1.00102 74%, 1.00079 75%, 1.00058 76%, 1.0004 77%, 1.00024 78%, 1.0001 79%, 0.999989 80%), box-shadow 0.52933s linear(0 0%, 0.005892 1%, 0.022227 2%, 0.047151 3%, 0.079006 4%, 0.116321 5%, 0.157797 6%, 0.202293 7%, 0.248818 8%, 0.296516 9%, 0.344652 10%, 0.392606 11%, 0.439857 12%, 0.485977 13%, 0.530617 14%, 0.573504 15%, 0.614426 16%, 0.653228 17%, 0.689804 18%, 0.724091 19%, 0.756062 20%, 0.785721 21%, 0.813097 22%, 0.838242 23%, 0.861223 24%, 0.882123 25%, 0.901035 26%, 0.918061 27%, 0.933305 28%, 0.946879 29%, 0.958894 30%, 0.96946 31%, 0.978689 32%, 0.986687 33%, 0.993561 34%, 0.999411 35%, 1.00433 36%, 1.00842 37%, 1.01176 38%, 1.01443 39%, 1.01651 40%, 1.01806 41%, 1.01917 42%, 1.01987 43%, 1.02024 44%, 1.02031 45%, 1.02014 46%, 1.01977 47%, 1.01923 48%, 1.01856 49%, 1.01778 50%, 1.01692 51%, 1.01601 52%, 1.01506 53%, 1.01408 54%, 1.0131 55%, 1.01213 56%, 1.01118 57%, 1.01025 58%, 1.00935 59%, 1.00848 60%, 1.00766 61%, 1.00688 62%, 1.00615 63%, 1.00546 64%, 1.00482 65%, 1.00423 66%, 1.00368 67%, 1.00318 68%, 1.00273 69%, 1.00231 70%, 1.00193 71%, 1.0016 72%, 1.00129 73%, 1.00102 74%, 1.00079 75%, 1.00058 76%, 1.0004 77%, 1.00024 78%, 1.0001 79%, 0.999989 80%); backdrop-filter:blur(7.5px)}
+           <DIV CustomerStoryCard__MediaWrapper> [947,4789,333,150] {display:flex; position:relative; justify-content:center; align-items:center; padding:20px; background-color:rgb(255, 252, 252); border-top:1px solid rgb(219, 215, 218); border-right:1px solid rgb(219, 215, 218); border-bottom:1px solid rgb(219, 215, 218); border-left:1px solid rgb(219, 215, 218); border-radius:6px}
+            <IMG CustomerStoryCard__LogoImg> [1049,4839,128,50] src=https://cdn.sanity.io/images/e92memrj/production/a59d0e75e848d97f300ee4c7a3ad99ed099a60ad-128x50.svg?auto=format nat=128x50 {overflow:clip}
+           <DIV CustomerStoryCard__Content> [947,4959,333,181] {display:flex; flex-direction:column; gap:10px}
+            <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [947,4959,333,104] «Hubspot reduced the fragmented analytics experience, unlocking data accessibility across t» {font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(20, 20, 28)}
+            <DIV CustomerStoryCard__Metadata> [947,5073,333,67] {display:flex; flex-direction:column; gap:2px}
+             <DIV CustomerStoryCard__MetadataRow> [947,5073,333,21] «Stage /» {display:flex; flex-wrap:wrap; gap:8px; font-family:Cinetype Mono; font-size:10px; line-height:21px; letter-spacing:0.833px; color:rgba(20, 20, 28, 0.447)}
+              <SPAN > [1005,5073,72,21] «Enterprise» {color:rgb(20, 20, 28)}
+             <DIV CustomerStoryCard__MetadataRow> [947,5096,333,21] «Industry /» {display:flex; flex-wrap:wrap; gap:8px; font-family:Cinetype Mono; font-size:10px; line-height:21px; letter-spacing:0.833px; color:rgba(20, 20, 28, 0.447)}
+              <SPAN > [1027,5096,152,21] «Technology & Software» {color:rgb(20, 20, 28)}
+             <DIV CustomerStoryCard__MetadataRow> [947,5119,333,21] «Company size /» {display:flex; flex-wrap:wrap; gap:8px; font-family:Cinetype Mono; font-size:10px; line-height:21px; letter-spacing:0.833px; color:rgba(20, 20, 28, 0.447)}
+              <SPAN > [1056,5119,36,21] «8,880» {color:rgb(20, 20, 28)}
+         <A CustomerStoryCard__StoryLink> [140,5203,373,440] href=/customers/reddit/ {display:flex; transition:none}
+          <DIV Card__Wrapper CustomerStoryCard__Wrapper> [140,5203,373,440] {display:flex; position:relative; flex-direction:column; align-items:flex-start; gap:20px; padding:20px; text-align:left; background-color:rgba(253, 253, 253, 0.4); background-image:linear-gradient(105deg, rgba(245, 192, 192, 0) 10.56%, rgba(245, 192, 192, 0.02) 108.41%), none; border-radius:12px; box-shadow:rgba(0, 0, 0, 0.05) 0px 0px 11px 0px inset, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 16px 24px -8px, rgba(0, 0, 0, 0.05) 0px 8px 12px -4px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px; transform:matrix(1, 0, 0, 1, 0, 0); transition:border 0.52933s linear(0 0%, 0.005892 1%, 0.022227 2%, 0.047151 3%, 0.079006 4%, 0.116321 5%, 0.157797 6%, 0.202293 7%, 0.248818 8%, 0.296516 9%, 0.344652 10%, 0.392606 11%, 0.439857 12%, 0.485977 13%, 0.530617 14%, 0.573504 15%, 0.614426 16%, 0.653228 17%, 0.689804 18%, 0.724091 19%, 0.756062 20%, 0.785721 21%, 0.813097 22%, 0.838242 23%, 0.861223 24%, 0.882123 25%, 0.901035 26%, 0.918061 27%, 0.933305 28%, 0.946879 29%, 0.958894 30%, 0.96946 31%, 0.978689 32%, 0.986687 33%, 0.993561 34%, 0.999411 35%, 1.00433 36%, 1.00842 37%, 1.01176 38%, 1.01443 39%, 1.01651 40%, 1.01806 41%, 1.01917 42%, 1.01987 43%, 1.02024 44%, 1.02031 45%, 1.02014 46%, 1.01977 47%, 1.01923 48%, 1.01856 49%, 1.01778 50%, 1.01692 51%, 1.01601 52%, 1.01506 53%, 1.01408 54%, 1.0131 55%, 1.01213 56%, 1.01118 57%, 1.01025 58%, 1.00935 59%, 1.00848 60%, 1.00766 61%, 1.00688 62%, 1.00615 63%, 1.00546 64%, 1.00482 65%, 1.00423 66%, 1.00368 67%, 1.00318 68%, 1.00273 69%, 1.00231 70%, 1.00193 71%, 1.0016 72%, 1.00129 73%, 1.00102 74%, 1.00079 75%, 1.00058 76%, 1.0004 77%, 1.00024 78%, 1.0001 79%, 0.999989 80%), transform 0.52933s linear(0 0%, 0.005892 1%, 0.022227 2%, 0.047151 3%, 0.079006 4%, 0.116321 5%, 0.157797 6%, 0.202293 7%, 0.248818 8%, 0.296516 9%, 0.344652 10%, 0.392606 11%, 0.439857 12%, 0.485977 13%, 0.530617 14%, 0.573504 15%, 0.614426 16%, 0.653228 17%, 0.689804 18%, 0.724091 19%, 0.756062 20%, 0.785721 21%, 0.813097 22%, 0.838242 23%, 0.861223 24%, 0.882123 25%, 0.901035 26%, 0.918061 27%, 0.933305 28%, 0.946879 29%, 0.958894 30%, 0.96946 31%, 0.978689 32%, 0.986687 33%, 0.993561 34%, 0.999411 35%, 1.00433 36%, 1.00842 37%, 1.01176 38%, 1.01443 39%, 1.01651 40%, 1.01806 41%, 1.01917 42%, 1.01987 43%, 1.02024 44%, 1.02031 45%, 1.02014 46%, 1.01977 47%, 1.01923 48%, 1.01856 49%, 1.01778 50%, 1.01692 51%, 1.01601 52%, 1.01506 53%, 1.01408 54%, 1.0131 55%, 1.01213 56%, 1.01118 57%, 1.01025 58%, 1.00935 59%, 1.00848 60%, 1.00766 61%, 1.00688 62%, 1.00615 63%, 1.00546 64%, 1.00482 65%, 1.00423 66%, 1.00368 67%, 1.00318 68%, 1.00273 69%, 1.00231 70%, 1.00193 71%, 1.0016 72%, 1.00129 73%, 1.00102 74%, 1.00079 75%, 1.00058 76%, 1.0004 77%, 1.00024 78%, 1.0001 79%, 0.999989 80%), box-shadow 0.52933s linear(0 0%, 0.005892 1%, 0.022227 2%, 0.047151 3%, 0.079006 4%, 0.116321 5%, 0.157797 6%, 0.202293 7%, 0.248818 8%, 0.296516 9%, 0.344652 10%, 0.392606 11%, 0.439857 12%, 0.485977 13%, 0.530617 14%, 0.573504 15%, 0.614426 16%, 0.653228 17%, 0.689804 18%, 0.724091 19%, 0.756062 20%, 0.785721 21%, 0.813097 22%, 0.838242 23%, 0.861223 24%, 0.882123 25%, 0.901035 26%, 0.918061 27%, 0.933305 28%, 0.946879 29%, 0.958894 30%, 0.96946 31%, 0.978689 32%, 0.986687 33%, 0.993561 34%, 0.999411 35%, 1.00433 36%, 1.00842 37%, 1.01176 38%, 1.01443 39%, 1.01651 40%, 1.01806 41%, 1.01917 42%, 1.01987 43%, 1.02024 44%, 1.02031 45%, 1.02014 46%, 1.01977 47%, 1.01923 48%, 1.01856 49%, 1.01778 50%, 1.01692 51%, 1.01601 52%, 1.01506 53%, 1.01408 54%, 1.0131 55%, 1.01213 56%, 1.01118 57%, 1.01025 58%, 1.00935 59%, 1.00848 60%, 1.00766 61%, 1.00688 62%, 1.00615 63%, 1.00546 64%, 1.00482 65%, 1.00423 66%, 1.00368 67%, 1.00318 68%, 1.00273 69%, 1.00231 70%, 1.00193 71%, 1.0016 72%, 1.00129 73%, 1.00102 74%, 1.00079 75%, 1.00058 76%, 1.0004 77%, 1.00024 78%, 1.0001 79%, 0.999989 80%); backdrop-filter:blur(7.5px)}
+           <DIV CustomerStoryCard__MediaWrapper> [160,5223,333,150] {display:flex; position:relative; justify-content:center; align-items:center; padding:20px; background-color:rgb(255, 252, 252); border-top:1px solid rgb(219, 215, 218); border-right:1px solid rgb(219, 215, 218); border-bottom:1px solid rgb(219, 215, 218); border-left:1px solid rgb(219, 215, 218); border-radius:6px}
+            <IMG CustomerStoryCard__LogoImg> [257,5273,140,50] src=https://cdn.sanity.io/images/e92memrj/production/66ef213929a29fc01fae13b0b397e318cd3658b9-140x50.svg?auto=format nat=140x50 {overflow:clip}
+           <DIV CustomerStoryCard__Content> [160,5393,333,155] {display:flex; flex-direction:column; gap:10px}
+            <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [160,5393,333,78] «Reddit simplified their data journey and increased deep dive insights across the org» {font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(20, 20, 28)}
+            <DIV CustomerStoryCard__Metadata> [160,5481,333,67] {display:flex; flex-direction:column; gap:2px}
+             <DIV CustomerStoryCard__MetadataRow> [160,5481,333,21] «Stage /» {display:flex; flex-wrap:wrap; gap:8px; font-family:Cinetype Mono; font-size:10px; line-height:21px; letter-spacing:0.833px; color:rgba(20, 20, 28, 0.447)}
+              <SPAN > [219,5481,72,21] «Enterprise» {color:rgb(20, 20, 28)}
+             <DIV CustomerStoryCard__MetadataRow> [160,5504,333,21] «Industry /» {display:flex; flex-wrap:wrap; gap:8px; font-family:Cinetype Mono; font-size:10px; line-height:21px; letter-spacing:0.833px; color:rgba(20, 20, 28, 0.447)}
+              <SPAN > [240,5504,152,21] «Technology & Software» {color:rgb(20, 20, 28)}
+             <DIV CustomerStoryCard__MetadataRow> [160,5527,333,21] «Company size /» {display:flex; flex-wrap:wrap; gap:8px; font-family:Cinetype Mono; font-size:10px; line-height:21px; letter-spacing:0.833px; color:rgba(20, 20, 28, 0.447)}
+              <SPAN > [269,5527,36,21] «2,600» {color:rgb(20, 20, 28)}
+         <A CustomerStoryCard__StoryLink> [533,5203,373,440] href=/customers/algolia/ {display:flex; transition:none}
+          <DIV Card__Wrapper CustomerStoryCard__Wrapper> [533,5203,373,440] {display:flex; position:relative; flex-direction:column; align-items:flex-start; gap:20px; padding:20px; text-align:left; background-color:rgba(253, 253, 253, 0.4); background-image:linear-gradient(105deg, rgba(245, 192, 192, 0) 10.56%, rgba(245, 192, 192, 0.02) 108.41%), none; border-radius:12px; box-shadow:rgba(0, 0, 0, 0.05) 0px 0px 11px 0px inset, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 16px 24px -8px, rgba(0, 0, 0, 0.05) 0px 8px 12px -4px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px; transform:matrix(1, 0, 0, 1, 0, 0); transition:border 0.52933s linear(0 0%, 0.005892 1%, 0.022227 2%, 0.047151 3%, 0.079006 4%, 0.116321 5%, 0.157797 6%, 0.202293 7%, 0.248818 8%, 0.296516 9%, 0.344652 10%, 0.392606 11%, 0.439857 12%, 0.485977 13%, 0.530617 14%, 0.573504 15%, 0.614426 16%, 0.653228 17%, 0.689804 18%, 0.724091 19%, 0.756062 20%, 0.785721 21%, 0.813097 22%, 0.838242 23%, 0.861223 24%, 0.882123 25%, 0.901035 26%, 0.918061 27%, 0.933305 28%, 0.946879 29%, 0.958894 30%, 0.96946 31%, 0.978689 32%, 0.986687 33%, 0.993561 34%, 0.999411 35%, 1.00433 36%, 1.00842 37%, 1.01176 38%, 1.01443 39%, 1.01651 40%, 1.01806 41%, 1.01917 42%, 1.01987 43%, 1.02024 44%, 1.02031 45%, 1.02014 46%, 1.01977 47%, 1.01923 48%, 1.01856 49%, 1.01778 50%, 1.01692 51%, 1.01601 52%, 1.01506 53%, 1.01408 54%, 1.0131 55%, 1.01213 56%, 1.01118 57%, 1.01025 58%, 1.00935 59%, 1.00848 60%, 1.00766 61%, 1.00688 62%, 1.00615 63%, 1.00546 64%, 1.00482 65%, 1.00423 66%, 1.00368 67%, 1.00318 68%, 1.00273 69%, 1.00231 70%, 1.00193 71%, 1.0016 72%, 1.00129 73%, 1.00102 74%, 1.00079 75%, 1.00058 76%, 1.0004 77%, 1.00024 78%, 1.0001 79%, 0.999989 80%), transform 0.52933s linear(0 0%, 0.005892 1%, 0.022227 2%, 0.047151 3%, 0.079006 4%, 0.116321 5%, 0.157797 6%, 0.202293 7%, 0.248818 8%, 0.296516 9%, 0.344652 10%, 0.392606 11%, 0.439857 12%, 0.485977 13%, 0.530617 14%, 0.573504 15%, 0.614426 16%, 0.653228 17%, 0.689804 18%, 0.724091 19%, 0.756062 20%, 0.785721 21%, 0.813097 22%, 0.838242 23%, 0.861223 24%, 0.882123 25%, 0.901035 26%, 0.918061 27%, 0.933305 28%, 0.946879 29%, 0.958894 30%, 0.96946 31%, 0.978689 32%, 0.986687 33%, 0.993561 34%, 0.999411 35%, 1.00433 36%, 1.00842 37%, 1.01176 38%, 1.01443 39%, 1.01651 40%, 1.01806 41%, 1.01917 42%, 1.01987 43%, 1.02024 44%, 1.02031 45%, 1.02014 46%, 1.01977 47%, 1.01923 48%, 1.01856 49%, 1.01778 50%, 1.01692 51%, 1.01601 52%, 1.01506 53%, 1.01408 54%, 1.0131 55%, 1.01213 56%, 1.01118 57%, 1.01025 58%, 1.00935 59%, 1.00848 60%, 1.00766 61%, 1.00688 62%, 1.00615 63%, 1.00546 64%, 1.00482 65%, 1.00423 66%, 1.00368 67%, 1.00318 68%, 1.00273 69%, 1.00231 70%, 1.00193 71%, 1.0016 72%, 1.00129 73%, 1.00102 74%, 1.00079 75%, 1.00058 76%, 1.0004 77%, 1.00024 78%, 1.0001 79%, 0.999989 80%), box-shadow 0.52933s linear(0 0%, 0.005892 1%, 0.022227 2%, 0.047151 3%, 0.079006 4%, 0.116321 5%, 0.157797 6%, 0.202293 7%, 0.248818 8%, 0.296516 9%, 0.344652 10%, 0.392606 11%, 0.439857 12%, 0.485977 13%, 0.530617 14%, 0.573504 15%, 0.614426 16%, 0.653228 17%, 0.689804 18%, 0.724091 19%, 0.756062 20%, 0.785721 21%, 0.813097 22%, 0.838242 23%, 0.861223 24%, 0.882123 25%, 0.901035 26%, 0.918061 27%, 0.933305 28%, 0.946879 29%, 0.958894 30%, 0.96946 31%, 0.978689 32%, 0.986687 33%, 0.993561 34%, 0.999411 35%, 1.00433 36%, 1.00842 37%, 1.01176 38%, 1.01443 39%, 1.01651 40%, 1.01806 41%, 1.01917 42%, 1.01987 43%, 1.02024 44%, 1.02031 45%, 1.02014 46%, 1.01977 47%, 1.01923 48%, 1.01856 49%, 1.01778 50%, 1.01692 51%, 1.01601 52%, 1.01506 53%, 1.01408 54%, 1.0131 55%, 1.01213 56%, 1.01118 57%, 1.01025 58%, 1.00935 59%, 1.00848 60%, 1.00766 61%, 1.00688 62%, 1.00615 63%, 1.00546 64%, 1.00482 65%, 1.00423 66%, 1.00368 67%, 1.00318 68%, 1.00273 69%, 1.00231 70%, 1.00193 71%, 1.0016 72%, 1.00129 73%, 1.00102 74%, 1.00079 75%, 1.00058 76%, 1.0004 77%, 1.00024 78%, 1.0001 79%, 0.999989 80%); backdrop-filter:blur(7.5px)}
+           <DIV CustomerStoryCard__MediaWrapper> [553,5223,333,150] {display:flex; position:relative; justify-content:center; align-items:center; padding:20px; background-color:rgb(255, 252, 252); border-top:1px solid rgb(219, 215, 218); border-right:1px solid rgb(219, 215, 218); border-bottom:1px solid rgb(219, 215, 218); border-left:1px solid rgb(219, 215, 218); border-radius:6px}
+            <IMG CustomerStoryCard__LogoImg> [654,5273,132,50] src=https://cdn.sanity.io/images/e92memrj/production/9192bbdeec81d42596b41b561a54d2c821215c10-132x50.svg?auto=format nat=132x50 {overflow:clip}
+           <DIV CustomerStoryCard__Content> [553,5393,333,178] {display:flex; flex-direction:column; gap:10px}
+            <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [553,5393,333,78] «Algolia saved 260+ hours by building apps to answer recurring questions» {font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(20, 20, 28)}
+            <DIV CustomerStoryCard__Metadata> [553,5481,333,90] {display:flex; flex-direction:column; gap:2px}
+             <DIV CustomerStoryCard__MetadataRow> [553,5481,333,21] «Stage /» {display:flex; flex-wrap:wrap; gap:8px; font-family:Cinetype Mono; font-size:10px; line-height:21px; letter-spacing:0.833px; color:rgba(20, 20, 28, 0.447)}
+              <SPAN > [612,5481,43,21] «Growth» {color:rgb(20, 20, 28)}
+             <DIV CustomerStoryCard__MetadataRow> [553,5504,333,21] «Features /» {display:flex; flex-wrap:wrap; gap:8px; font-family:Cinetype Mono; font-size:10px; line-height:21px; letter-spacing:0.833px; color:rgba(20, 20, 28, 0.447)}
+              <SPAN > [634,5504,65,21] «Data Apps» {color:rgb(20, 20, 28)}
+             <DIV CustomerStoryCard__MetadataRow> [553,5527,333,21] «Industry /» {display:flex; flex-wrap:wrap; gap:8px; font-family:Cinetype Mono; font-size:10px; line-height:21px; letter-spacing:0.833px; color:rgba(20, 20, 28, 0.447)}
+              <SPAN > [634,5527,152,21] «Technology & Software» {color:rgb(20, 20, 28)}
+             <DIV CustomerStoryCard__MetadataRow> [553,5550,333,21] «Company size /» {display:flex; flex-wrap:wrap; gap:8px; font-family:Cinetype Mono; font-size:10px; line-height:21px; letter-spacing:0.833px; color:rgba(20, 20, 28, 0.447)}
+              <SPAN > [663,5550,22,21] «810» {color:rgb(20, 20, 28)}
+         <A CustomerStoryCard__StoryLink> [927,5203,373,440] href=/customers/alltrails/ {display:flex; transition:none}
+          <DIV Card__Wrapper CustomerStoryCard__Wrapper> [927,5203,373,440] {display:flex; position:relative; flex-direction:column; align-items:flex-start; gap:20px; padding:20px; text-align:left; background-color:rgba(253, 253, 253, 0.4); background-image:linear-gradient(105deg, rgba(245, 192, 192, 0) 10.56%, rgba(245, 192, 192, 0.02) 108.41%), none; border-radius:12px; box-shadow:rgba(0, 0, 0, 0.05) 0px 0px 11px 0px inset, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 16px 24px -8px, rgba(0, 0, 0, 0.05) 0px 8px 12px -4px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px; transform:matrix(1, 0, 0, 1, 0, 0); transition:border 0.52933s linear(0 0%, 0.005892 1%, 0.022227 2%, 0.047151 3%, 0.079006 4%, 0.116321 5%, 0.157797 6%, 0.202293 7%, 0.248818 8%, 0.296516 9%, 0.344652 10%, 0.392606 11%, 0.439857 12%, 0.485977 13%, 0.530617 14%, 0.573504 15%, 0.614426 16%, 0.653228 17%, 0.689804 18%, 0.724091 19%, 0.756062 20%, 0.785721 21%, 0.813097 22%, 0.838242 23%, 0.861223 24%, 0.882123 25%, 0.901035 26%, 0.918061 27%, 0.933305 28%, 0.946879 29%, 0.958894 30%, 0.96946 31%, 0.978689 32%, 0.986687 33%, 0.993561 34%, 0.999411 35%, 1.00433 36%, 1.00842 37%, 1.01176 38%, 1.01443 39%, 1.01651 40%, 1.01806 41%, 1.01917 42%, 1.01987 43%, 1.02024 44%, 1.02031 45%, 1.02014 46%, 1.01977 47%, 1.01923 48%, 1.01856 49%, 1.01778 50%, 1.01692 51%, 1.01601 52%, 1.01506 53%, 1.01408 54%, 1.0131 55%, 1.01213 56%, 1.01118 57%, 1.01025 58%, 1.00935 59%, 1.00848 60%, 1.00766 61%, 1.00688 62%, 1.00615 63%, 1.00546 64%, 1.00482 65%, 1.00423 66%, 1.00368 67%, 1.00318 68%, 1.00273 69%, 1.00231 70%, 1.00193 71%, 1.0016 72%, 1.00129 73%, 1.00102 74%, 1.00079 75%, 1.00058 76%, 1.0004 77%, 1.00024 78%, 1.0001 79%, 0.999989 80%), transform 0.52933s linear(0 0%, 0.005892 1%, 0.022227 2%, 0.047151 3%, 0.079006 4%, 0.116321 5%, 0.157797 6%, 0.202293 7%, 0.248818 8%, 0.296516 9%, 0.344652 10%, 0.392606 11%, 0.439857 12%, 0.485977 13%, 0.530617 14%, 0.573504 15%, 0.614426 16%, 0.653228 17%, 0.689804 18%, 0.724091 19%, 0.756062 20%, 0.785721 21%, 0.813097 22%, 0.838242 23%, 0.861223 24%, 0.882123 25%, 0.901035 26%, 0.918061 27%, 0.933305 28%, 0.946879 29%, 0.958894 30%, 0.96946 31%, 0.978689 32%, 0.986687 33%, 0.993561 34%, 0.999411 35%, 1.00433 36%, 1.00842 37%, 1.01176 38%, 1.01443 39%, 1.01651 40%, 1.01806 41%, 1.01917 42%, 1.01987 43%, 1.02024 44%, 1.02031 45%, 1.02014 46%, 1.01977 47%, 1.01923 48%, 1.01856 49%, 1.01778 50%, 1.01692 51%, 1.01601 52%, 1.01506 53%, 1.01408 54%, 1.0131 55%, 1.01213 56%, 1.01118 57%, 1.01025 58%, 1.00935 59%, 1.00848 60%, 1.00766 61%, 1.00688 62%, 1.00615 63%, 1.00546 64%, 1.00482 65%, 1.00423 66%, 1.00368 67%, 1.00318 68%, 1.00273 69%, 1.00231 70%, 1.00193 71%, 1.0016 72%, 1.00129 73%, 1.00102 74%, 1.00079 75%, 1.00058 76%, 1.0004 77%, 1.00024 78%, 1.0001 79%, 0.999989 80%), box-shadow 0.52933s linear(0 0%, 0.005892 1%, 0.022227 2%, 0.047151 3%, 0.079006 4%, 0.116321 5%, 0.157797 6%, 0.202293 7%, 0.248818 8%, 0.296516 9%, 0.344652 10%, 0.392606 11%, 0.439857 12%, 0.485977 13%, 0.530617 14%, 0.573504 15%, 0.614426 16%, 0.653228 17%, 0.689804 18%, 0.724091 19%, 0.756062 20%, 0.785721 21%, 0.813097 22%, 0.838242 23%, 0.861223 24%, 0.882123 25%, 0.901035 26%, 0.918061 27%, 0.933305 28%, 0.946879 29%, 0.958894 30%, 0.96946 31%, 0.978689 32%, 0.986687 33%, 0.993561 34%, 0.999411 35%, 1.00433 36%, 1.00842 37%, 1.01176 38%, 1.01443 39%, 1.01651 40%, 1.01806 41%, 1.01917 42%, 1.01987 43%, 1.02024 44%, 1.02031 45%, 1.02014 46%, 1.01977 47%, 1.01923 48%, 1.01856 49%, 1.01778 50%, 1.01692 51%, 1.01601 52%, 1.01506 53%, 1.01408 54%, 1.0131 55%, 1.01213 56%, 1.01118 57%, 1.01025 58%, 1.00935 59%, 1.00848 60%, 1.00766 61%, 1.00688 62%, 1.00615 63%, 1.00546 64%, 1.00482 65%, 1.00423 66%, 1.00368 67%, 1.00318 68%, 1.00273 69%, 1.00231 70%, 1.00193 71%, 1.0016 72%, 1.00129 73%, 1.00102 74%, 1.00079 75%, 1.00058 76%, 1.0004 77%, 1.00024 78%, 1.0001 79%, 0.999989 80%); backdrop-filter:blur(7.5px)}
+           <DIV CustomerStoryCard__MediaWrapper> [947,5223,333,150] {display:flex; position:relative; justify-content:center; align-items:center; padding:20px; background-color:rgb(255, 252, 252); border-top:1px solid rgb(219, 215, 218); border-right:1px solid rgb(219, 215, 218); border-bottom:1px solid rgb(219, 215, 218); border-left:1px solid rgb(219, 215, 218); border-radius:6px}
+            <IMG CustomerStoryCard__LogoImg> [1040,5273,147,50] src=https://cdn.sanity.io/images/e92memrj/production/c5cb27f19c5ab059b26d3239ec031738878cf3e6-147x50.svg?auto=format nat=147x50 {overflow:clip}
+           <DIV CustomerStoryCard__Content> [947,5393,333,230] {display:flex; flex-direction:column; gap:10px}
+            <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [947,5393,333,130] «AllTrails' data team has churned out a steady stream of analysis, from internal benchmarki» {font-family:PP Formula; font-size:20px; line-height:26px; font-weight:600; letter-spacing:-0.5px; color:rgb(20, 20, 28)}
+            <DIV CustomerStoryCard__Metadata> [947,5533,333,90] {display:flex; flex-direction:column; gap:2px}
+             <DIV CustomerStoryCard__MetadataRow> [947,5533,333,21] «Stage /» {display:flex; flex-wrap:wrap; gap:8px; font-family:Cinetype Mono; font-size:10px; line-height:21px; letter-spacing:0.833px; color:rgba(20, 20, 28, 0.447)}
+              <SPAN > [1005,5533,43,21] «Growth» {color:rgb(20, 20, 28)}
+             <DIV CustomerStoryCard__MetadataRow> [947,5556,333,21] «Features /» {display:flex; flex-wrap:wrap; gap:8px; font-family:Cinetype Mono; font-size:10px; line-height:21px; letter-spacing:0.833px; color:rgba(20, 20, 28, 0.447)}
+              <SPAN > [1027,5556,65,21] «Data Apps» {color:rgb(20, 20, 28)}
+             <DIV CustomerStoryCard__MetadataRow> [947,5579,333,21] «Industry /» {display:flex; flex-wrap:wrap; gap:8px; font-family:Cinetype Mono; font-size:10px; line-height:21px; letter-spacing:0.833px; color:rgba(20, 20, 28, 0.447)}
+              <SPAN > [1027,5579,152,21] «Technology & Software» {color:rgb(20, 20, 28)}
+             <DIV CustomerStoryCard__MetadataRow> [947,5602,333,21] «Company size /» {display:flex; flex-wrap:wrap; gap:8px; font-family:Cinetype Mono; font-size:10px; line-height:21px; letter-spacing:0.833px; color:rgba(20, 20, 28, 0.447)}
+              <SPAN > [1056,5602,22,21] «378» {color:rgb(20, 20, 28)}
+     <DIV GridLines__CheckeredMargin> [1411,4627,29,1076] {position:relative; grid-column:-2 / span 1; background-image:url("data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"4\" height=\"4\"><rect width=\"2\" height=\"2\" fill=\"%23e8e4e6\" /><rect x=\"2\" y=\"2\" width=\"2\" height=\"2\" fill=\"%23e8e4e6\"/></svg>"); border-left:1px solid rgb(219, 215, 218)}
+   <DIV LayoutGrid__LayoutSubgrid> [0,5703,1440,555] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:554.656px; grid-column:1 / -1}
+    <DIV GridLines__ContentMarginLine> [0,5703,29,555] {grid-column:1; border-top:1px solid rgb(233, 229, 232); border-right:1px solid rgb(219, 215, 218); border-bottom:1px solid rgb(233, 229, 232)}
+    <FOOTER Footer__Wrapper> [29,5703,1382,555] {display:flex; flex-direction:column; grid-column:2 / -2}
+     <DIV Footer__Divider> [29,5703,1382,1] {background-color:rgb(219, 215, 218)}
+     <DIV Footer> [100,5704,1240,553] {display:grid; gap:0px; grid-template-columns:190px 800px 190px; grid-template-rows:452.656px; padding:50px 30px; margin:0px 71.125px; max-width:1240px}
+      <DIV Footer__Left> [130,5754,190,453] {display:flex; flex-direction:column; align-items:flex-start; gap:15px}
+       <svg > [130,5754,60,20] {overflow:hidden}
+       <DIV Footer__MadeWith> [130,5789,141,23] {display:flex; align-items:center; color:rgb(137, 130, 141)}
+        <SPAN > [130,5790,69,22] «Made with» {margin:0px 4px 0px 0px}
+        <DIV Rotator__Wrapper> [203,5791,20,20] {display:flex; position:relative; overflow:hidden}
+         <DIV Rotator> [203,5771,20,20] {display:flex; flex-direction:column; transform:matrix(1, 0, 0, 1, 0, -20); transition:transform 0.8s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <DIV Rotator__Option> [203,5771,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [203,5771,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203,5771,20,20] «🔒» {display:flex; align-items:center}
+          <DIV Rotator__Option> [203,5791,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [203,5791,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203,5791,20,20] «🥖» {display:flex; align-items:center}
+          <DIV Rotator__Option> [203,5811,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [203,5811,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203,5811,20,20] «🍷» {display:flex; align-items:center}
+          <DIV Rotator__Option> [203,5831,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [203,5831,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203,5831,20,20] «🛌» {display:flex; align-items:center}
+          <DIV Rotator__Option> [203,5851,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [203,5851,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203,5851,20,20] «💜» {display:flex; align-items:center}
+          <DIV Rotator__Option> [203,5871,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [203,5871,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203,5871,20,20] «🥨» {display:flex; align-items:center}
+          <DIV Rotator__Option> [203,5891,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [203,5891,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203,5891,20,20] «🛹» {display:flex; align-items:center}
+          <DIV Rotator__Option> [203,5911,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [203,5911,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203,5911,20,20] «🍤» {display:flex; align-items:center}
+          <DIV Rotator__Option> [203,5931,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [203,5931,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203,5931,20,20] «🧄» {display:flex; align-items:center}
+          <DIV Rotator__Option> [203,5951,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [203,5951,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203,5951,20,20] «🍞» {display:flex; align-items:center}
+          <DIV Rotator__Option> [203,5971,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [203,5971,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203,5971,20,20] «🥥» {display:flex; align-items:center}
+          <DIV Rotator__Option> [203,5991,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [203,5991,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203,5991,20,20] «⛳» {display:flex; align-items:center}
+          <DIV Rotator__Option> [203,6011,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [203,6011,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203,6011,20,20] «🤞» {display:flex; align-items:center}
+          <DIV Rotator__Option> [203,6031,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [203,6031,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203,6031,20,20] «✨» {display:flex; align-items:center}
+          <DIV Rotator__Option> [203,6051,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [203,6051,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203,6051,20,20] «🔊» {display:flex; align-items:center}
+          <DIV Rotator__Option> [203,6071,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [203,6071,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203,6071,20,20] «🎧» {display:flex; align-items:center}
+          <DIV Rotator__Option> [203,6091,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [203,6091,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203,6091,20,20] «🌊» {display:flex; align-items:center}
+          <DIV Rotator__Option> [203,6111,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [203,6111,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203,6111,20,20] «🍀» {display:flex; align-items:center}
+          <DIV Rotator__Option> [203,6131,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [203,6131,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203,6131,20,20] «🤠» {display:flex; align-items:center}
+          <DIV Rotator__Option> [203,6151,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [203,6151,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203,6151,20,20] «🎷» {display:flex; align-items:center}
+          <DIV Rotator__Option> [203,6171,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [203,6171,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203,6171,20,20] «🍩» {display:flex; align-items:center}
+          <DIV Rotator__Option> [203,6191,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [203,6191,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203,6191,20,20] «☕» {display:flex; align-items:center}
+          <DIV Rotator__Option> [203,6211,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [203,6211,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203,6211,20,20] «🥟» {display:flex; align-items:center}
+          <DIV Rotator__Option> [203,6231,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [203,6231,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203,6231,20,20] «🍺» {display:flex; align-items:center}
+          <DIV Rotator__Option> [203,6251,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [203,6251,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203,6251,20,20] «🍰» {display:flex; align-items:center}
+          <DIV Rotator__Option> [203,6271,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [203,6271,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [203,6271,20,20] «🔮» {display:flex; align-items:center}
+        <SPAN > [227,5789,44,23] «on .» {margin:0px 0px 0px 4px}
+         <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [248,5792,18,17] «🌎» {display:inline; margin:0px 0.7px 0px 1.4px}
+      <DIV Footer__Center> [320,5754,800,453] {display:flex; flex-direction:column; align-items:center; gap:60px}
+       <DIV Footer> [320,5754,800,371] {display:grid; gap:60px; grid-template-columns:155px 155px 155px 155px; grid-template-rows:370.672px; max-width:800px}
+        <DIV Footer__Column> [320,5754,155,371] {display:flex; flex-direction:column; align-items:flex-start; gap:10px}
+         <DIV Footer__ColTitle> [320,5754,63,19] «Platform» {font-family:IBM Plex Mono; font-size:12px; line-height:18.852px; font-weight:700; letter-spacing:0.7px; text-transform:uppercase; color:rgb(20, 20, 28)}
+         <A > [320,5783,90,22] href=/capability/ai/ «AI and agents» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [320,5815,121,22] href=/product/notebooks/ «Agentic notebooks» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [320,5847,158,22] href=/product/threads/ «Conversational analytics» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [320,5879,97,22] href=/product/context-studio/ «Context Studio» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [320,5911,66,22] href=/product/data-apps/ «Data apps» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [320,5943,49,22] href=/product/cli/ «Hex CLI» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [320,5975,137,22] href=/product/bi/ «Business intelligence» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [320,6007,132,22] href=/capability/exploratory-analysis/ «Exploratory analysis» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [320,6039,132,22] href=/product/embedded-analytics/ «Embedded analytics» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [320,6071,79,22] href=/product/integrations/ «Integrations» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [320,6103,69,22] href=https://learn.hex.tech/changelog «Changelog» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+        <DIV Footer__Column> [535,5754,155,371] {display:flex; flex-direction:column; align-items:flex-start; gap:10px}
+         <DIV Footer__ColTitle> [535,5754,71,19] «Resources» {font-family:IBM Plex Mono; font-size:12px; line-height:18.852px; font-weight:700; letter-spacing:0.7px; text-transform:uppercase; color:rgb(20, 20, 28)}
+         <A > [535,5783,45,22] href=/pricing/ «Pricing» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [535,5815,110,22] href=/product/switching-to-hex/ «Switching to Hex» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [535,5847,68,22] href=/enterprise/ «Enterprise» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [535,5879,31,22] href=https://learn.hex.tech «Docs» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [535,5911,29,22] href=/blog/ «Blog» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [535,5943,44,22] href=/resources/events/ «Events» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [535,5975,67,22] href=/templates/ «Templates» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [535,6007,59,22] href=/compare/ «Compare» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [535,6039,81,22] href=https://trust.hex.tech «Trust Center» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [535,6071,42,22] href=https://status.hex.tech «Status» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+        <DIV Footer__Column> [750,5754,155,371] {display:flex; flex-direction:column; align-items:flex-start; gap:10px}
+         <DIV Footer__ColTitle> [750,5754,55,19] «Company» {font-family:IBM Plex Mono; font-size:12px; line-height:18.852px; font-weight:700; letter-spacing:0.7px; text-transform:uppercase; color:rgb(20, 20, 28)}
+         <A > [750,5783,39,22] href=/about/ «About» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [750,5815,51,22] href=/careers/ «Careers» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [750,5847,70,22] href=/customers/ «Customers» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [750,5879,60,22] href=/solutions/ «Solutions» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [750,5911,61,22] href=https://hexhq.notion.site/a091e1bb7bb34019bc4ccf2e3da8645f?v=bb640f9e0ef4499198673561e42a93f0 «Media kit» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [750,5943,69,22] href=/newsroom/ «Newsroom» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+        <DIV Footer__Column> [965,5754,155,371] {display:flex; flex-direction:column; align-items:flex-start; gap:10px}
+         <DIV Footer__ColTitle> [965,5754,55,19] «Connect» {font-family:IBM Plex Mono; font-size:12px; line-height:18.852px; font-weight:700; letter-spacing:0.7px; text-transform:uppercase; color:rgb(20, 20, 28)}
+         <A > [965,5783,106,22] href=/request-a-demo/ «Request a demo» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [965,5815,116,22] href=mailto:support@hex.tech «Technical support» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [965,5847,70,22] href=/contact-us/ «Contact us» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [965,5879,55,22] href=https://www.linkedin.com/company/hex-technologies «LinkedIn» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [965,5911,68,22] href=https://x.com/hexanalytics «X (Twitter)» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [965,5943,53,22] href=https://www.youtube.com/@_hex_tech «YouTube» {color:rgb(67, 57, 76); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+       <DIV Footer__Bottom> [320,6185,800,22] {display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:14px 20px}
+        <DIV Footer__Copyright> [329,6185,191,22] «© 2026 Hex Technologies Inc.» {color:rgb(137, 130, 141)}
+        <A > [540,6185,89,22] href=https://learn.hex.tech/docs/trust/privacy-policy «Privacy policy» {color:rgb(137, 130, 141); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+        <A > [649,6185,124,22] href=https://learn.hex.tech/docs/legal/terms-and-conditions «Terms & conditions» {color:rgb(137, 130, 141); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+        <A > [793,6185,173,22] href=/files/Hex_UK_Modern_Slavery_Act_Statement.pdf «Modern slavery statement» {color:rgb(137, 130, 141); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+        <BUTTON OptOutOfTrackingLink-module__ax0AOW__button> [986,6185,125,22] «Opt out of tracking» {text-align:center; color:rgb(137, 130, 141); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+      <DIV Footer> [1120,5754,190,453] {display:flex; flex-direction:column; align-items:flex-end}
+       <DIV HitCounter__Wrapper> [1184,5754,126,42] {padding:5px 0px}
+        <DIV HitCounter> [1184,5759,126,32] {display:flex; position:relative; gap:5px; padding:5px; border-top:1px solid rgb(219, 215, 218); border-right:1px solid rgb(219, 215, 218); border-bottom:1px solid rgb(219, 215, 218); border-left:1px solid rgb(219, 215, 218); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+         <DIV HitCounter__DigitWrapper> [1190,5765,12,20] {display:flex; position:relative; gap:1px}
+          <DIV HitCounter__Col> [1190,5765,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [1190,5765,1,10] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [1190,5775,1,10] {background-color:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+          <DIV HitCounter__Col> [1192,5765,8,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [1192,5765,8,1] {background-color:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+           <DIV HitCounter__Line> [1192,5774,8,1] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [1192,5784,8,1] {background-color:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+          <DIV HitCounter__Col> [1201,5765,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [1201,5765,1,10] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [1201,5775,1,10] {background-color:rgb(49, 38, 59)}
+         <DIV HitCounter__DigitWrapper> [1207,5765,12,20] {display:flex; position:relative; gap:1px}
+          <DIV HitCounter__Col> [1207,5765,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [1207,5765,1,10] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [1207,5775,1,10] {background-color:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+          <DIV HitCounter__Col> [1209,5765,8,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [1209,5765,8,1] {background-color:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+           <DIV HitCounter__Line> [1209,5774,8,1] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [1209,5784,8,1] {background-color:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+          <DIV HitCounter__Col> [1218,5765,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [1218,5765,1,10] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [1218,5775,1,10] {background-color:rgb(49, 38, 59)}
+         <DIV HitCounter__DigitWrapper> [1224,5765,12,20] {display:flex; position:relative; gap:1px}
+          <DIV HitCounter__Col> [1224,5765,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [1224,5765,1,10] {background-color:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+           <DIV HitCounter__Line> [1224,5775,1,10] {background-color:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+          <DIV HitCounter__Col> [1226,5765,8,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [1226,5765,8,1] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [1226,5774,8,1] {background-color:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+           <DIV HitCounter__Line> [1226,5784,8,1] {background-color:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+          <DIV HitCounter__Col> [1235,5765,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [1235,5765,1,10] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [1235,5775,1,10] {background-color:rgb(49, 38, 59)}
+         <DIV HitCounter__DigitWrapper> [1241,5765,12,20] {display:flex; position:relative; gap:1px}
+          <DIV HitCounter__Col> [1241,5765,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [1241,5765,1,10] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [1241,5775,1,10] {background-color:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+          <DIV HitCounter__Col> [1243,5765,8,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [1243,5765,8,1] {background-color:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+           <DIV HitCounter__Line> [1243,5774,8,1] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [1243,5784,8,1] {background-color:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+          <DIV HitCounter__Col> [1252,5765,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [1252,5765,1,10] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [1252,5775,1,10] {background-color:rgb(49, 38, 59)}
+         <DIV HitCounter__DigitWrapper> [1258,5765,12,20] {display:flex; position:relative; gap:1px}
+          <DIV HitCounter__Col> [1258,5765,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [1258,5765,1,10] {background-color:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+           <DIV HitCounter__Line> [1258,5775,1,10] {background-color:rgb(49, 38, 59)}
+          <DIV HitCounter__Col> [1260,5765,8,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [1260,5765,8,1] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [1260,5774,8,1] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [1260,5784,8,1] {background-color:rgb(49, 38, 59)}
+          <DIV HitCounter__Col> [1269,5765,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [1269,5765,1,10] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [1269,5775,1,10] {background-color:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+         <DIV HitCounter__DigitWrapper> [1275,5765,12,20] {display:flex; position:relative; gap:1px}
+          <DIV HitCounter__Col> [1275,5765,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [1275,5765,1,10] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [1275,5775,1,10] {background-color:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+          <DIV HitCounter__Col> [1277,5765,8,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [1277,5765,8,1] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [1277,5774,8,1] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [1277,5784,8,1] {background-color:rgb(49, 38, 59)}
+          <DIV HitCounter__Col> [1286,5765,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [1286,5765,1,10] {background-color:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+           <DIV HitCounter__Line> [1286,5775,1,10] {background-color:rgb(49, 38, 59)}
+         <DIV HitCounter__DigitWrapper> [1292,5765,12,20] {display:flex; position:relative; gap:1px}
+          <DIV HitCounter__Col> [1292,5765,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [1292,5765,1,10] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [1292,5775,1,10] {background-color:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+          <DIV HitCounter__Col> [1294,5765,8,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [1294,5765,8,1] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [1294,5774,8,1] {background-color:rgb(49, 38, 59)}
+           <DIV HitCounter__Line> [1294,5784,8,1] {background-color:rgb(49, 38, 59)}
+          <DIV HitCounter__Col> [1303,5765,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [1303,5765,1,10] {background-color:color(srgb 0.192157 0.14902 0.231373 / 0.3)}
+           <DIV HitCounter__Line> [1303,5775,1,10] {background-color:rgb(49, 38, 59)}
+     <DIV Footer__Divider> [29,6257,1382,1] {background-color:rgb(219, 215, 218)}
+    <DIV GridLines__ContentMarginLine> [1411,5703,29,555] {grid-column:-2 / span 1; border-top:1px solid rgb(233, 229, 232); border-bottom:1px solid rgb(233, 229, 232); border-left:1px solid rgb(219, 215, 218)}
+   <DIV LayoutGrid__LayoutSubgrid> [0,6258,1440,32] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:32px; grid-column:1 / -1}
+    <DIV GridLines__ContentMarginLine> [0,6258,29,32] {grid-column:1; border-right:1px solid rgb(233, 229, 232)}
+    <DIV GridLines__GridRule> [374,6258,1,32] {grid-column:4; background-color:rgb(233, 229, 232); transform:matrix(1, 0, 0, 1, 0.5, 0)}
+    <DIV GridLines__GridRule> [1065,6258,1,32] {grid-column:10; background-color:rgb(233, 229, 232); transform:matrix(1, 0, 0, 1, 0.5, 0)}
+    <DIV GridLines__ContentMarginLine> [1411,6258,29,32] {grid-column:-2 / span 1; border-left:1px solid rgb(233, 229, 232)}

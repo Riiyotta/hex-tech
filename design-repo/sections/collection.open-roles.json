@@ -1,0 +1,319 @@
+{
+  "id": "collection.open-roles",
+  "category": "collection",
+  "purpose": "Open roles: sticky department/location filter sidebar beside department blocks of role rows, closed by a safety callout.",
+  "variants": [],
+  "content": {
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 3,
+      "observedWords": [
+        2
+      ],
+      "measuredFrom": [
+        "specs/company.md:202"
+      ]
+    },
+    "departments": {
+      "kind": "list",
+      "required": true,
+      "minItems": 1,
+      "maxItems": 8,
+      "measuredFrom": [
+        "specs/company.md:203"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "title": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 2,
+            "observedWords": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "measuredFrom": [
+              "specs/company.md:203",
+              "specs/company.md:31"
+            ]
+          },
+          "description": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 28,
+            "observedWords": [
+              21,
+              22,
+              18,
+              14,
+              14,
+              14,
+              19,
+              15,
+              16
+            ],
+            "measuredFrom": [
+              "specs/company.md:409",
+              "specs/company.md:471",
+              "specs/company.md:488",
+              "specs/company.md:505",
+              "specs/company.md:517",
+              "specs/company.md:534",
+              "specs/company.md:591",
+              "specs/company.md:618",
+              "specs/company.md:645"
+            ]
+          },
+          "roles": {
+            "kind": "list",
+            "required": true,
+            "minItems": 1,
+            "maxItems": 11,
+            "measuredFrom": [
+              "specs/company.md:203"
+            ],
+            "item": {
+              "kind": "object",
+              "required": true,
+              "fields": {
+                "title": {
+                  "kind": "text",
+                  "required": true,
+                  "maxWords": 8,
+                  "observedWords": [
+                    3,
+                    3,
+                    2,
+                    4,
+                    2,
+                    4,
+                    4,
+                    4,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    2,
+                    2,
+                    6,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    4,
+                    5,
+                    3,
+                    3,
+                    3,
+                    2,
+                    3,
+                    2,
+                    4,
+                    3,
+                    4,
+                    3,
+                    2,
+                    3,
+                    2,
+                    3,
+                    3,
+                    2
+                  ],
+                  "measuredFrom": [
+                    "specs/company.md:341",
+                    "specs/company.md:413",
+                    "specs/company.md:418",
+                    "specs/company.md:423",
+                    "specs/company.md:428",
+                    "specs/company.md:433",
+                    "specs/company.md:438",
+                    "specs/company.md:443",
+                    "specs/company.md:448",
+                    "specs/company.md:453",
+                    "specs/company.md:458",
+                    "specs/company.md:463",
+                    "specs/company.md:475",
+                    "specs/company.md:480",
+                    "specs/company.md:492",
+                    "specs/company.md:497",
+                    "specs/company.md:509",
+                    "specs/company.md:521",
+                    "specs/company.md:526",
+                    "specs/company.md:538",
+                    "specs/company.md:543",
+                    "specs/company.md:548",
+                    "specs/company.md:553",
+                    "specs/company.md:558",
+                    "specs/company.md:563",
+                    "specs/company.md:568",
+                    "specs/company.md:573",
+                    "specs/company.md:578",
+                    "specs/company.md:583",
+                    "specs/company.md:600",
+                    "specs/company.md:605",
+                    "specs/company.md:610",
+                    "specs/company.md:622",
+                    "specs/company.md:627",
+                    "specs/company.md:632",
+                    "specs/company.md:637",
+                    "specs/company.md:649",
+                    "specs/company.md:654",
+                    "specs/company.md:666"
+                  ]
+                },
+                "location": {
+                  "kind": "text",
+                  "required": true,
+                  "maxWords": 17,
+                  "observedWords": [
+                    5,
+                    8,
+                    2,
+                    5,
+                    5,
+                    2,
+                    5,
+                    8,
+                    8,
+                    5,
+                    3,
+                    2,
+                    3,
+                    8,
+                    8,
+                    5,
+                    3,
+                    3,
+                    5,
+                    3,
+                    8,
+                    2,
+                    2,
+                    2,
+                    8,
+                    3,
+                    3,
+                    5,
+                    2,
+                    13,
+                    8,
+                    2,
+                    5,
+                    2,
+                    5,
+                    5,
+                    2,
+                    2,
+                    2
+                  ],
+                  "measuredFrom": [
+                    "specs/company.md:196",
+                    "specs/company.md:414",
+                    "specs/company.md:419",
+                    "specs/company.md:569",
+                    "specs/company.md:601"
+                  ]
+                },
+                "href": {
+                  "kind": "href",
+                  "required": true
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "safetyCallout": {
+      "kind": "object",
+      "required": true,
+      "fields": {
+        "title": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 7,
+          "observedWords": [
+            5
+          ],
+          "measuredFrom": [
+            "specs/company.md:674"
+          ]
+        },
+        "body": {
+          "kind": "richText",
+          "required": true,
+          "maxBlocks": 2,
+          "blockTypes": [
+            "paragraph"
+          ],
+          "maxWordsPerBlock": 58,
+          "measuredFrom": [
+            "reference/pages/company/dom/careers--OpenRolesTout__Wrapper.html:1"
+          ],
+          "placeholderInClone": false
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.phone-sm}",
+      "change": "stack-columns",
+      "detail": "sidebar on top; departments stack",
+      "measuredFrom": [
+        "specs/company.md:208"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/company.md:200"
+  ],
+  "wordBudgets": {
+    "departments[].description": 28,
+    "departments[].roles[].location": 17,
+    "departments[].roles[].title": 8,
+    "departments[].title": 2,
+    "headline": 3,
+    "safetyCallout.title": 7
+  },
+  "richTextBudgets": {
+    "safetyCallout.body": {
+      "maxBlocks": 2,
+      "maxWordsPerBlock": 58,
+      "blockTypes": [
+        "paragraph"
+      ]
+    }
+  },
+  "assetRoles": [],
+  "usedByTemplates": [
+    "template.careers"
+  ],
+  "observedThemes": [
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__collection.open-roles",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

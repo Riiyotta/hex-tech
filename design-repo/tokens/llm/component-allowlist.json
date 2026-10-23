@@ -1,0 +1,2675 @@
+{
+  "version": "1.0.0",
+  "$description": "Closed list of what a generator may instantiate and which properties it may set. Machine-checked for parity with the contract files and the schema.",
+  "entries": [
+    {
+      "id": "primitive.button",
+      "layer": "primitive",
+      "file": "primitives/button.json",
+      "settableProps": [
+        "block",
+        "corners",
+        "external",
+        "href",
+        "icon",
+        "iconPosition",
+        "selected",
+        "size",
+        "variant"
+      ]
+    },
+    {
+      "id": "primitive.animated-cta",
+      "layer": "primitive",
+      "file": "primitives/animated-cta.json",
+      "settableProps": [
+        "color",
+        "href",
+        "icon",
+        "variant"
+      ]
+    },
+    {
+      "id": "primitive.announcement-pill",
+      "layer": "primitive",
+      "file": "primitives/announcement-pill.json",
+      "settableProps": [
+        "external",
+        "href",
+        "icon",
+        "label",
+        "text"
+      ]
+    },
+    {
+      "id": "primitive.code-pill",
+      "layer": "primitive",
+      "file": "primitives/code-pill.json",
+      "settableProps": [
+        "text"
+      ]
+    },
+    {
+      "id": "primitive.meta-rows",
+      "layer": "primitive",
+      "file": "primitives/meta-rows.json",
+      "settableProps": [
+        "layout",
+        "rows",
+        "size"
+      ]
+    },
+    {
+      "id": "primitive.tron-divider",
+      "layer": "primitive",
+      "file": "primitives/tron-divider.json",
+      "settableProps": [
+        "flipped"
+      ]
+    },
+    {
+      "id": "primitive.grayscale-logo",
+      "layer": "primitive",
+      "file": "primitives/grayscale-logo.json",
+      "settableProps": [
+        "alt",
+        "src"
+      ]
+    },
+    {
+      "id": "primitive.mask-icon",
+      "layer": "primitive",
+      "file": "primitives/mask-icon.json",
+      "settableProps": [
+        "size",
+        "src"
+      ]
+    },
+    {
+      "id": "primitive.rotator",
+      "layer": "primitive",
+      "file": "primitives/rotator.json",
+      "settableProps": [
+        "interval",
+        "itemHeight",
+        "items"
+      ]
+    },
+    {
+      "id": "primitive.perlin-noise",
+      "layer": "primitive",
+      "file": "primitives/perlin-noise.json",
+      "settableProps": [
+        "animation",
+        "duration",
+        "mask"
+      ]
+    },
+    {
+      "id": "primitive.cartesian-grid",
+      "layer": "primitive",
+      "file": "primitives/cartesian-grid.json",
+      "settableProps": []
+    },
+    {
+      "id": "primitive.reveal",
+      "layer": "primitive",
+      "file": "primitives/reveal.json",
+      "settableProps": [
+        "animateOnMount"
+      ]
+    },
+    {
+      "id": "primitive.layout-grid",
+      "layer": "primitive",
+      "file": "primitives/layout-grid.json",
+      "settableProps": [
+        "bordered"
+      ]
+    },
+    {
+      "id": "component.glass-card",
+      "layer": "component",
+      "file": "components/glass-card.json",
+      "settableProps": [
+        "interactive"
+      ]
+    },
+    {
+      "id": "component.outline-card",
+      "layer": "component",
+      "file": "components/outline-card.json",
+      "settableProps": [
+        "accent"
+      ]
+    },
+    {
+      "id": "component.info-text",
+      "layer": "component",
+      "file": "components/info-text.json",
+      "settableProps": [
+        "cta",
+        "eyebrow",
+        "size"
+      ]
+    },
+    {
+      "id": "component.inline-quote",
+      "layer": "component",
+      "file": "components/inline-quote.json",
+      "settableProps": [
+        "emphasis",
+        "logo"
+      ]
+    },
+    {
+      "id": "component.quote-card",
+      "layer": "component",
+      "file": "components/quote-card.json",
+      "settableProps": [
+        "variant"
+      ]
+    },
+    {
+      "id": "component.g2-card",
+      "layer": "component",
+      "file": "components/g2-card.json",
+      "settableProps": [
+        "link",
+        "title"
+      ]
+    },
+    {
+      "id": "component.product-window",
+      "layer": "component",
+      "file": "components/product-window.json",
+      "settableProps": [
+        "interactive",
+        "title"
+      ]
+    },
+    {
+      "id": "component.callout",
+      "layer": "component",
+      "file": "components/callout.json",
+      "settableProps": [
+        "icon",
+        "size"
+      ]
+    },
+    {
+      "id": "component.resource-card",
+      "layer": "component",
+      "file": "components/resource-card.json",
+      "settableProps": [
+        "tags",
+        "type"
+      ]
+    },
+    {
+      "id": "component.dark-resource-card",
+      "layer": "component",
+      "file": "components/dark-resource-card.json",
+      "settableProps": [
+        "variant"
+      ]
+    },
+    {
+      "id": "component.customer-story-card",
+      "layer": "component",
+      "file": "components/customer-story-card.json",
+      "settableProps": [
+        "href"
+      ]
+    },
+    {
+      "id": "component.compare-vs",
+      "layer": "component",
+      "file": "components/compare-vs.json",
+      "settableProps": [
+        "layout"
+      ]
+    },
+    {
+      "id": "component.section-heading",
+      "layer": "component",
+      "file": "components/section-heading.json",
+      "settableProps": [
+        "variant"
+      ]
+    },
+    {
+      "id": "component.social-tout",
+      "layer": "component",
+      "file": "components/social-tout.json",
+      "settableProps": [
+        "padding"
+      ]
+    },
+    {
+      "id": "component.full-width-quote",
+      "layer": "component",
+      "file": "components/full-width-quote.json",
+      "settableProps": [
+        "quote"
+      ]
+    },
+    {
+      "id": "component.outro-tout",
+      "layer": "component",
+      "file": "components/outro-tout.json",
+      "settableProps": [
+        "variant"
+      ]
+    },
+    {
+      "id": "component.basic-page-row",
+      "layer": "component",
+      "file": "components/basic-page-row.json",
+      "settableProps": [
+        "bordered",
+        "inner"
+      ]
+    },
+    {
+      "id": "component.v1-page-layout",
+      "layer": "component",
+      "file": "components/v1-page-layout.json",
+      "settableProps": []
+    },
+    {
+      "id": "shell.header",
+      "layer": "section",
+      "file": "sections/shell.header.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [],
+      "variants": [],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "shell.footer",
+      "layer": "section",
+      "file": "sections/shell.footer.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [],
+      "variants": [],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "hero.home",
+      "layer": "section",
+      "file": "sections/hero.home.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "actions",
+        "headline",
+        "italicLine",
+        "leadPrefix",
+        "leadSuffix",
+        "pills"
+      ],
+      "variants": [],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "hero.product",
+      "layer": "section",
+      "file": "sections/hero.product.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section",
+        "variant"
+      ],
+      "contentFields": [
+        "actions",
+        "announcement",
+        "description",
+        "headline",
+        "italicLine",
+        "visual"
+      ],
+      "variants": [
+        "illustration",
+        "terminal",
+        "video",
+        "prompt",
+        "voronoi"
+      ],
+      "assetRoles": [
+        "canvas.runtime",
+        "illustration.decorative",
+        "image.product-ui",
+        "video.loop"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "hero.v1",
+      "layer": "section",
+      "file": "sections/hero.v1.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section",
+        "variant"
+      ],
+      "contentFields": [
+        "actions",
+        "announcement",
+        "description",
+        "headline",
+        "media"
+      ],
+      "variants": [
+        "centered",
+        "app-builder"
+      ],
+      "assetRoles": [
+        "image.product-screenshot",
+        "video.loop"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "hero.guide-document",
+      "layer": "section",
+      "file": "sections/hero.guide-document.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "description",
+        "featureTags",
+        "headline",
+        "tocGroups"
+      ],
+      "variants": [],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "hero.heading-with-callout",
+      "layer": "section",
+      "file": "sections/hero.heading-with-callout.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "callout",
+        "description",
+        "headline",
+        "secondLine"
+      ],
+      "variants": [],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "hero.integration",
+      "layer": "section",
+      "file": "sections/hero.integration.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "actions",
+        "description",
+        "headline",
+        "label",
+        "logo"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "logo.integration"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "hero.solutions-hub",
+      "layer": "section",
+      "file": "sections/hero.solutions-hub.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "actions",
+        "description",
+        "italicLead",
+        "rotatingWords"
+      ],
+      "variants": [],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "hero.solution",
+      "layer": "section",
+      "file": "sections/hero.solution.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "actions",
+        "description",
+        "headline"
+      ],
+      "variants": [],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "hero.enterprise",
+      "layer": "section",
+      "file": "sections/hero.enterprise.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "action",
+        "checklist",
+        "description",
+        "eyebrow",
+        "headline",
+        "illustration"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "illustration.decorative"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "hero.compare",
+      "layer": "section",
+      "file": "sections/hero.compare.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "actions",
+        "comparisons",
+        "description",
+        "headline"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "logo.competitor"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "hero.partners",
+      "layer": "section",
+      "file": "sections/hero.partners.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "actions",
+        "description",
+        "headline"
+      ],
+      "variants": [],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "hero.pricing",
+      "layer": "section",
+      "file": "sections/hero.pricing.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "headline",
+        "link",
+        "subline"
+      ],
+      "variants": [],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "hero.form",
+      "layer": "section",
+      "file": "sections/hero.form.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "headline",
+        "lead"
+      ],
+      "variants": [],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "hero.about",
+      "layer": "section",
+      "file": "sections/hero.about.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "action",
+        "body",
+        "headline",
+        "italicLine",
+        "lead",
+        "photo"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "photo.person"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "hero.careers",
+      "layer": "section",
+      "file": "sections/hero.careers.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "actions",
+        "description",
+        "emphasis",
+        "headline",
+        "italicLine",
+        "photos"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "photo.person"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "hero.newsroom",
+      "layer": "section",
+      "file": "sections/hero.newsroom.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "callout",
+        "description",
+        "headline"
+      ],
+      "variants": [],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "hero.blog-masthead",
+      "layer": "section",
+      "file": "sections/hero.blog-masthead.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "dividerLabel",
+        "graph",
+        "headline",
+        "searchPlaceholder",
+        "stats"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "canvas.runtime",
+        "image.capture-fallback"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "hero.article",
+      "layer": "section",
+      "file": "sections/hero.article.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "author",
+        "category",
+        "date",
+        "dek",
+        "eyebrow",
+        "headline",
+        "heroMedia"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "embed.external",
+        "image.editorial-thumbnail"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "hero.customers",
+      "layer": "section",
+      "file": "sections/hero.customers.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "description",
+        "headline",
+        "illustration",
+        "italicLine"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "illustration.decorative"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "hero.story",
+      "layer": "section",
+      "file": "sections/hero.story.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "dek",
+        "headline",
+        "logo",
+        "meta"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "logo.customer"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "hero.v1-intro",
+      "layer": "section",
+      "file": "sections/hero.v1-intro.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section",
+        "variant"
+      ],
+      "contentFields": [
+        "description",
+        "headline",
+        "illustration"
+      ],
+      "variants": [
+        "split-illustration",
+        "centered"
+      ],
+      "assetRoles": [
+        "illustration.decorative"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "hero.guide-landing",
+      "layer": "section",
+      "file": "sections/hero.guide-landing.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "description",
+        "downloadCard",
+        "headline",
+        "italicLine"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "illustration.decorative"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "hero.report",
+      "layer": "section",
+      "file": "sections/hero.report.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "about",
+        "artwork",
+        "eyebrow",
+        "srTitle",
+        "wordmark"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "brand.wordmark",
+        "illustration.decorative"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "hero.placeholder",
+      "layer": "section",
+      "file": "sections/hero.placeholder.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "action",
+        "headline",
+        "pathLabel"
+      ],
+      "variants": [],
+      "assetRoles": [],
+      "generationEligible": false
+    },
+    {
+      "id": "proof.customer-banner",
+      "layer": "section",
+      "file": "sections/proof.customer-banner.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section",
+        "variant"
+      ],
+      "contentFields": [
+        "label",
+        "logos"
+      ],
+      "variants": [
+        "framed",
+        "minimal"
+      ],
+      "assetRoles": [
+        "logo.customer"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "proof.full-width-quote",
+      "layer": "section",
+      "file": "sections/proof.full-width-quote.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "emphasis",
+        "logo",
+        "name",
+        "quote",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "logo.customer"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "proof.stories-two-up",
+      "layer": "section",
+      "file": "sections/proof.stories-two-up.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section",
+        "variant"
+      ],
+      "contentFields": [
+        "stories"
+      ],
+      "variants": [
+        "two-up",
+        "quotes-multiple"
+      ],
+      "assetRoles": [
+        "logo.customer"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "proof.quotes-marquee",
+      "layer": "section",
+      "file": "sections/proof.quotes-marquee.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section",
+        "variant"
+      ],
+      "contentFields": [
+        "cards"
+      ],
+      "variants": [
+        "single-row",
+        "dual-row"
+      ],
+      "assetRoles": [
+        "logo.customer",
+        "photo.person"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "proof.social-tout",
+      "layer": "section",
+      "file": "sections/proof.social-tout.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section",
+        "variant"
+      ],
+      "contentFields": [
+        "g2",
+        "quotes"
+      ],
+      "variants": [
+        "g2-and-quote",
+        "quote-pair",
+        "single-quote"
+      ],
+      "assetRoles": [
+        "image.award-badge",
+        "logo.customer",
+        "photo.person"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "proof.story-tout",
+      "layer": "section",
+      "file": "sections/proof.story-tout.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "description",
+        "headline",
+        "italicWord",
+        "stories"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "logo.customer"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "proof.logo-wall",
+      "layer": "section",
+      "file": "sections/proof.logo-wall.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section",
+        "variant"
+      ],
+      "contentFields": [
+        "description",
+        "headline",
+        "italicLine",
+        "logos"
+      ],
+      "variants": [
+        "customers",
+        "investors"
+      ],
+      "assetRoles": [
+        "logo.customer",
+        "logo.investor"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "proof.quote-tiles",
+      "layer": "section",
+      "file": "sections/proof.quote-tiles.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "description",
+        "headline",
+        "tiles"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "logo.customer"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "proof.featured-stories-fan",
+      "layer": "section",
+      "file": "sections/proof.featured-stories-fan.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "cards"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "image.editorial-thumbnail",
+        "logo.customer"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.built-different",
+      "layer": "section",
+      "file": "sections/feature.built-different.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "description",
+        "headline"
+      ],
+      "variants": [],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.split",
+      "layer": "section",
+      "file": "sections/feature.split.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section",
+        "variant"
+      ],
+      "contentFields": [
+        "action",
+        "description",
+        "direction",
+        "heading",
+        "icon",
+        "illustration",
+        "quote",
+        "title"
+      ],
+      "variants": [
+        "chat-tools",
+        "org-cycle",
+        "project-windows",
+        "dashboard-evals",
+        "image"
+      ],
+      "assetRoles": [
+        "icon.abstract-mark",
+        "icon.agent-logos",
+        "illustration.decorative",
+        "image.product-screenshot",
+        "image.product-ui",
+        "logo.customer"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.ethos-cards",
+      "layer": "section",
+      "file": "sections/feature.ethos-cards.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "cards"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "illustration.decorative"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.use-cases",
+      "layer": "section",
+      "file": "sections/feature.use-cases.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "headline",
+        "italicLine",
+        "items"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "icon.abstract-mark"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.integrations-grid",
+      "layer": "section",
+      "file": "sections/feature.integrations-grid.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "cards",
+        "description",
+        "headline",
+        "italicLine"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "illustration.decorative",
+        "logo.integration"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.section-heading",
+      "layer": "section",
+      "file": "sections/feature.section-heading.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section",
+        "variant"
+      ],
+      "contentFields": [
+        "description",
+        "italicLine",
+        "title"
+      ],
+      "variants": [
+        "display",
+        "solution",
+        "v1-panel"
+      ],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.info-card-grid",
+      "layer": "section",
+      "file": "sections/feature.info-card-grid.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section",
+        "variant"
+      ],
+      "contentFields": [
+        "cards",
+        "heading"
+      ],
+      "variants": [
+        "default",
+        "eyebrowed"
+      ],
+      "assetRoles": [
+        "image.product-screenshot"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.bento-cells",
+      "layer": "section",
+      "file": "sections/feature.bento-cells.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "cells",
+        "heading"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "image.product-screenshot"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.perlin-callout",
+      "layer": "section",
+      "file": "sections/feature.perlin-callout.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "action",
+        "art",
+        "description",
+        "eyebrow",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "illustration.decorative",
+        "image.product-screenshot"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.v1-two-up",
+      "layer": "section",
+      "file": "sections/feature.v1-two-up.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "action",
+        "eyebrow",
+        "media",
+        "paragraphs",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "image.product-screenshot",
+        "image.product-ui"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.solution-row",
+      "layer": "section",
+      "file": "sections/feature.solution-row.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "action",
+        "body",
+        "direction",
+        "media",
+        "subline",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "image.product-screenshot"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.approach-cards",
+      "layer": "section",
+      "file": "sections/feature.approach-cards.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "cards",
+        "headline"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "icon.ui"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.command-list",
+      "layer": "section",
+      "file": "sections/feature.command-list.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "headline",
+        "italicWord",
+        "items"
+      ],
+      "variants": [],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.workflow-table",
+      "layer": "section",
+      "file": "sections/feature.workflow-table.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "columns",
+        "heading",
+        "rows"
+      ],
+      "variants": [],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.platform-overview",
+      "layer": "section",
+      "file": "sections/feature.platform-overview.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "bracketLabel",
+        "capabilities",
+        "cards",
+        "headline"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "illustration.decorative"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.observability-callouts",
+      "layer": "section",
+      "file": "sections/feature.observability-callouts.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "callouts",
+        "heading",
+        "window"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "image.product-ui"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.workflow-split",
+      "layer": "section",
+      "file": "sections/feature.workflow-split.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "halves",
+        "headline"
+      ],
+      "variants": [],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.demo-accordion",
+      "layer": "section",
+      "file": "sections/feature.demo-accordion.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "description",
+        "eyebrow",
+        "headline",
+        "options"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "image.product-screenshot",
+        "video.loop"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.magic",
+      "layer": "section",
+      "file": "sections/feature.magic.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "description",
+        "image",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "image.product-screenshot"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.cell-collage",
+      "layer": "section",
+      "file": "sections/feature.cell-collage.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "action",
+        "cells",
+        "description",
+        "subFeatures",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "image.product-screenshot"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.execution-dag",
+      "layer": "section",
+      "file": "sections/feature.execution-dag.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "action",
+        "cards",
+        "chipLabel",
+        "dag",
+        "description",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "illustration.decorative"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.codegen-gallery",
+      "layer": "section",
+      "file": "sections/feature.codegen-gallery.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "cards",
+        "description",
+        "galleryDescription",
+        "galleryTitle",
+        "headline",
+        "heroImage"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "image.product-screenshot"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.snaked-rows",
+      "layer": "section",
+      "file": "sections/feature.snaked-rows.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "rows"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "image.product-screenshot"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.icon-row",
+      "layer": "section",
+      "file": "sections/feature.icon-row.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "items"
+      ],
+      "variants": [],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.numbered-grid",
+      "layer": "section",
+      "file": "sections/feature.numbered-grid.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "action",
+        "badges",
+        "headline",
+        "items"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "logo.certification"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.illustrated-checklist",
+      "layer": "section",
+      "file": "sections/feature.illustrated-checklist.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "checklist",
+        "description",
+        "headline",
+        "illustration"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "illustration.decorative"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.support-grid",
+      "layer": "section",
+      "file": "sections/feature.support-grid.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "description",
+        "headline",
+        "illustration",
+        "items"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "illustration.decorative"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.live-app-embed",
+      "layer": "section",
+      "file": "sections/feature.live-app-embed.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "description",
+        "embeds",
+        "overlayLabel",
+        "tabs",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "embed.external"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.partners-why",
+      "layer": "section",
+      "file": "sections/feature.partners-why.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "actions",
+        "description",
+        "headline",
+        "illustration"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "illustration.decorative"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.partner-tiers",
+      "layer": "section",
+      "file": "sections/feature.partner-tiers.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "description",
+        "headline",
+        "tiers"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "illustration.decorative"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.highlights",
+      "layer": "section",
+      "file": "sections/feature.highlights.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "action",
+        "description",
+        "headline",
+        "highlights",
+        "italicLine"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "icon.ui"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.photo-collage",
+      "layer": "section",
+      "file": "sections/feature.photo-collage.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "description",
+        "headline",
+        "italicLine",
+        "photos"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "photo.person"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.how-it-works",
+      "layer": "section",
+      "file": "sections/feature.how-it-works.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "actions",
+        "body",
+        "illustration",
+        "layout",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "image.product-screenshot",
+        "image.product-ui"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.video-embed",
+      "layer": "section",
+      "file": "sections/feature.video-embed.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "embed",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "embed.external"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.integration-custom-blocks",
+      "layer": "section",
+      "file": "sections/feature.integration-custom-blocks.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "blocks"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "image.product-screenshot"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.plan-summary",
+      "layer": "section",
+      "file": "sections/feature.plan-summary.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "groups"
+      ],
+      "variants": [],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.plan-comparison",
+      "layer": "section",
+      "file": "sections/feature.plan-comparison.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "headline",
+        "plans",
+        "sections"
+      ],
+      "variants": [],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.story-details",
+      "layer": "section",
+      "file": "sections/feature.story-details.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "cards"
+      ],
+      "variants": [],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "feature.podcast-episodes",
+      "layer": "section",
+      "file": "sections/feature.podcast-episodes.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "description",
+        "episodes",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "image.editorial-thumbnail"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "content.guide-chapter",
+      "layer": "section",
+      "file": "sections/content.guide-chapter.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "subsections",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "content.article-body",
+      "layer": "section",
+      "file": "sections/content.article-body.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "body",
+        "callout",
+        "kicker",
+        "toc",
+        "tocAction"
+      ],
+      "variants": [],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "content.story-body",
+      "layer": "section",
+      "file": "sections/content.story-body.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "body"
+      ],
+      "variants": [],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "content.report-intro",
+      "layer": "section",
+      "file": "sections/content.report-intro.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "body",
+        "headline",
+        "keyFindings"
+      ],
+      "variants": [],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "content.report-toc",
+      "layer": "section",
+      "file": "sections/content.report-toc.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "headline",
+        "items"
+      ],
+      "variants": [],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "content.report-section",
+      "layer": "section",
+      "file": "sections/content.report-section.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "lead",
+        "number",
+        "pullQuote",
+        "title",
+        "twoUps"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "image.data-chart"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "content.report-outro",
+      "layer": "section",
+      "file": "sections/content.report-outro.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "body",
+        "card"
+      ],
+      "variants": [],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "collection.newsroom-cards",
+      "layer": "section",
+      "file": "sections/collection.newsroom-cards.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section",
+        "variant"
+      ],
+      "contentFields": [
+        "action",
+        "cards",
+        "headline"
+      ],
+      "variants": [
+        "teaser",
+        "index-grid"
+      ],
+      "assetRoles": [
+        "image.editorial-thumbnail"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "collection.newsroom-featured",
+      "layer": "section",
+      "file": "sections/collection.newsroom-featured.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "date",
+        "href",
+        "image",
+        "outlet",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "image.editorial-thumbnail"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "collection.blog-featured",
+      "layer": "section",
+      "file": "sections/collection.blog-featured.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "posts"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "image.editorial-thumbnail"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "collection.blog-recent",
+      "layer": "section",
+      "file": "sections/collection.blog-recent.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "posts"
+      ],
+      "variants": [],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "collection.blog-feed",
+      "layer": "section",
+      "file": "sections/collection.blog-feed.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "categories",
+        "count",
+        "headline",
+        "moreLabel",
+        "rows"
+      ],
+      "variants": [],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "collection.customer-stories",
+      "layer": "section",
+      "file": "sections/collection.customer-stories.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section",
+        "variant"
+      ],
+      "contentFields": [
+        "cards",
+        "headline"
+      ],
+      "variants": [
+        "index-grid",
+        "related"
+      ],
+      "assetRoles": [
+        "logo.customer"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "collection.events",
+      "layer": "section",
+      "file": "sections/collection.events.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "filters",
+        "groups"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "image.editorial-thumbnail"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "collection.guides",
+      "layer": "section",
+      "file": "sections/collection.guides.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "cards"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "image.editorial-thumbnail"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "collection.templates-catalog",
+      "layer": "section",
+      "file": "sections/collection.templates-catalog.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "categories"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "image.product-screenshot"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "collection.resource-cards",
+      "layer": "section",
+      "file": "sections/collection.resource-cards.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section",
+        "variant"
+      ],
+      "contentFields": [
+        "cards",
+        "comparePanel",
+        "description",
+        "headline"
+      ],
+      "variants": [
+        "glass-grid",
+        "solution-articles",
+        "with-compare"
+      ],
+      "assetRoles": [
+        "image.editorial-thumbnail",
+        "logo.competitor"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "collection.template-cards",
+      "layer": "section",
+      "file": "sections/collection.template-cards.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "cards",
+        "headline"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "image.product-screenshot"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "collection.integration-category",
+      "layer": "section",
+      "file": "sections/collection.integration-category.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "description",
+        "tiles",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "logo.integration"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "collection.external-links",
+      "layer": "section",
+      "file": "sections/collection.external-links.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "banner",
+        "links"
+      ],
+      "variants": [],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "collection.open-roles",
+      "layer": "section",
+      "file": "sections/collection.open-roles.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "departments",
+        "headline",
+        "safetyCallout"
+      ],
+      "variants": [],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "collection.partners-grid",
+      "layer": "section",
+      "file": "sections/collection.partners-grid.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "cards",
+        "description",
+        "headline"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "logo.partner"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "navigation.filter-chips",
+      "layer": "section",
+      "file": "sections/navigation.filter-chips.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section",
+        "variant"
+      ],
+      "contentFields": [
+        "chips",
+        "sortLabel"
+      ],
+      "variants": [
+        "solutions-hub",
+        "customers"
+      ],
+      "assetRoles": [
+        "icon.ui"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "conversion.outro-tout",
+      "layer": "section",
+      "file": "sections/conversion.outro-tout.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section",
+        "variant"
+      ],
+      "contentFields": [
+        "actions",
+        "description",
+        "title"
+      ],
+      "variants": [
+        "default",
+        "band"
+      ],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "conversion.bottom-cta",
+      "layer": "section",
+      "file": "sections/conversion.bottom-cta.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "actions",
+        "aside",
+        "description",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "conversion.install-cta",
+      "layer": "section",
+      "file": "sections/conversion.install-cta.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "commands",
+        "description",
+        "heading",
+        "links"
+      ],
+      "variants": [],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "conversion.wallpaper-cta",
+      "layer": "section",
+      "file": "sections/conversion.wallpaper-cta.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "action",
+        "description",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "conversion.collage-cta",
+      "layer": "section",
+      "file": "sections/conversion.collage-cta.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "action",
+        "cells",
+        "description",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "image.product-screenshot"
+      ],
+      "generationEligible": true
+    },
+    {
+      "id": "conversion.cta-split",
+      "layer": "section",
+      "file": "sections/conversion.cta-split.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section"
+      ],
+      "contentFields": [
+        "card",
+        "checklist",
+        "headline"
+      ],
+      "variants": [],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "conversion.form-shell",
+      "layer": "section",
+      "file": "sections/conversion.form-shell.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section",
+        "variant"
+      ],
+      "contentFields": [
+        "fields",
+        "heading",
+        "submission",
+        "submitLabel"
+      ],
+      "variants": [
+        "demo-request",
+        "contact",
+        "partner-register"
+      ],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "faq.accordion",
+      "layer": "section",
+      "file": "sections/faq.accordion.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section",
+        "variant"
+      ],
+      "contentFields": [
+        "items",
+        "showFooter",
+        "title"
+      ],
+      "variants": [
+        "home",
+        "page",
+        "report"
+      ],
+      "assetRoles": [],
+      "generationEligible": true
+    },
+    {
+      "id": "divider.tron",
+      "layer": "section",
+      "file": "sections/divider.tron.json",
+      "settableProps": [
+        "content",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "motion.trigger",
+        "section",
+        "variant"
+      ],
+      "contentFields": [
+        "flipped"
+      ],
+      "variants": [
+        "default",
+        "flipped"
+      ],
+      "assetRoles": [],
+      "generationEligible": true
+    }
+  ]
+}

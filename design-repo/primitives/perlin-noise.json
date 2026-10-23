@@ -1,0 +1,43 @@
+{
+  "id": "primitive.perlin-noise",
+  "purpose": "Dot-grid masked noise texture that drifts (8s default) or translates; tinted variants.",
+  "props": {
+    "duration": {
+      "type": "duration",
+      "measuredFrom": [
+        "specs/SHARED_BUILT.md:99"
+      ]
+    },
+    "mask": {
+      "type": "enum",
+      "measuredFrom": [
+        "specs/SHARED_BUILT.md:100"
+      ],
+      "enum": [
+        "dots",
+        "none"
+      ]
+    },
+    "animation": {
+      "type": "enum",
+      "measuredFrom": [
+        "specs/SHARED_BUILT.md:102"
+      ],
+      "enum": [
+        "drift",
+        "translate"
+      ]
+    }
+  },
+  "tokens": [
+    "motion.duration.noise-loop",
+    "motion.keyframes.noise-drift",
+    "motion.keyframes.translate-bg"
+  ],
+  "measuredFrom": [
+    "CLONE_SPEC.md:224",
+    "src/components/shared/PerlinNoise.jsx:26"
+  ],
+  "layer": "primitive",
+  "provisional": true
+}

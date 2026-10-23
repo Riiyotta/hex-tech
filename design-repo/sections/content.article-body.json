@@ -1,0 +1,193 @@
+{
+  "id": "content.article-body",
+  "category": "content",
+  "purpose": "Light content slab inside a dark page: sticky 'In this article' TOC aside with CTA, rich text column, in-body callout, share row and kicker.",
+  "variants": [],
+  "content": {
+    "toc": {
+      "kind": "list",
+      "required": true,
+      "minItems": 2,
+      "maxItems": 6,
+      "measuredFrom": [
+        "specs/company.md:1189"
+      ],
+      "item": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 13,
+        "observedWords": [
+          10
+        ],
+        "measuredFrom": [
+          "specs/company.md:1191"
+        ]
+      }
+    },
+    "tocAction": {
+      "kind": "action",
+      "required": true,
+      "label": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 10,
+        "observedWords": [
+          4,
+          3,
+          4,
+          8
+        ],
+        "measuredFrom": [
+          "CLONE_SPEC.md:208",
+          "specs/product.md:258",
+          "specs/solutions.md:291"
+        ]
+      },
+      "variants": [
+        "primary"
+      ],
+      "sizes": [
+        "lg"
+      ]
+    },
+    "body": {
+      "kind": "richText",
+      "required": true,
+      "maxBlocks": 19,
+      "blockTypes": [
+        "paragraph",
+        "heading",
+        "list",
+        "quote",
+        "image",
+        "video"
+      ],
+      "maxWordsPerBlock": 111,
+      "measuredFrom": [
+        "reference/pages/company/dom/blog_introducing-generative-data-apps--BlogPostContent__Content.html:1"
+      ],
+      "placeholderInClone": true
+    },
+    "callout": {
+      "kind": "text",
+      "required": false,
+      "maxWords": 30,
+      "observedWords": [
+        24
+      ],
+      "measuredFrom": [
+        "specs/company.md:1196"
+      ]
+    },
+    "kicker": {
+      "kind": "object",
+      "required": true,
+      "fields": {
+        "text": {
+          "kind": "richText",
+          "required": true,
+          "maxBlocks": 2,
+          "blockTypes": [
+            "paragraph"
+          ],
+          "maxWordsPerBlock": 111,
+          "measuredFrom": [
+            "reference/pages/company/dom/blog_introducing-generative-data-apps--BlogPostContent__Content.html:1"
+          ],
+          "placeholderInClone": false
+        },
+        "actions": {
+          "kind": "list",
+          "required": true,
+          "minItems": 2,
+          "maxItems": 2,
+          "measuredFrom": [
+            "specs/company.md:267"
+          ],
+          "item": {
+            "kind": "action",
+            "required": true,
+            "label": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 4,
+              "observedWords": [
+                3
+              ],
+              "measuredFrom": [
+                "specs/company.md:267"
+              ]
+            },
+            "variants": [
+              "secondary"
+            ],
+            "sizes": [
+              "md"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.tablet}",
+      "change": "hide-element",
+      "detail": "TOC aside not rendered at 390",
+      "measuredFrom": [
+        "specs/company.md:269"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "forcedTheme": "light"
+  },
+  "measuredFrom": [
+    "specs/company.md:263",
+    "src/pages/companyCore/BlogPostPage.jsx:3"
+  ],
+  "notes": "Rendered as a light slab (data-theme=light) inside a dark page.",
+  "wordBudgets": {
+    "callout": 30,
+    "kicker.actions[].label": 4,
+    "tocAction.label": 10,
+    "toc[]": 13
+  },
+  "richTextBudgets": {
+    "body": {
+      "maxBlocks": 19,
+      "maxWordsPerBlock": 111,
+      "blockTypes": [
+        "paragraph",
+        "heading",
+        "list",
+        "quote",
+        "image",
+        "video"
+      ]
+    },
+    "kicker.text": {
+      "maxBlocks": 2,
+      "maxWordsPerBlock": 111,
+      "blockTypes": [
+        "paragraph"
+      ]
+    }
+  },
+  "assetRoles": [],
+  "usedByTemplates": [
+    "template.article"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__content.article-body",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

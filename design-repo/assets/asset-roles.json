@@ -1,0 +1,337 @@
+{
+  "$description": "Closed assetRole enum. Every media field in every section uses one of these roles; the schema enum, the allowlist and the validator all read this file.",
+  "generationPolicies": {
+    "may-generate-new": "Original artwork/imagery may be generated in the documented style.",
+    "must-reuse-exact": "Only an exact file from allowedSources may be used (or the field omitted).",
+    "placeholder-only": "Real-world logo, person or trademark: never reproduce or fabricate; use a neutral placeholder (src omitted or 'placeholder:<slug>').",
+    "external-reference-only": "External embed: https URL or placeholder; may render blank; never cloned."
+  },
+  "pinnedPolicies": {
+    "brand.wordmark": "must-reuse-exact",
+    "logo.customer": "placeholder-only",
+    "logo.investor": "placeholder-only",
+    "logo.partner": "placeholder-only",
+    "logo.integration": "placeholder-only",
+    "logo.competitor": "placeholder-only",
+    "logo.certification": "placeholder-only",
+    "icon.agent-logos": "placeholder-only",
+    "image.award-badge": "placeholder-only",
+    "photo.person": "placeholder-only",
+    "image.data-chart": "placeholder-only",
+    "embed.external": "external-reference-only",
+    "image.capture-fallback": "must-reuse-exact"
+  },
+  "pinnedPoliciesNote": "Compliance-critical roles are pinned to an exact policy; verify_all fails if a pinned role's policy changes, even to another valid policy.",
+  "realCompanyNotice": "This design-repo is extracted from a local clone of a real company's live marketing site (Hex Technologies). Real customer, investor and partner logos, real employee photos and real proprietary copy must never be reproduced in generated output. Do not publish this repository or recommend making it public.",
+  "roles": {
+    "brand.wordmark": {
+      "generationPolicy": "must-reuse-exact",
+      "description": "The site's own wordmark. Reuse one of the exact local files; never redraw, recolour or invent a logo.",
+      "measuredFrom": [
+        "CLONE_SPEC.md:243"
+      ],
+      "usedBySections": [
+        "hero.report"
+      ],
+      "allowedSources": [
+        "/assets/pages/company/state-of-data-teams/svg/SectionHero-HexLogoWrapper-a8e301cf.svg",
+        "/assets/svg/logo/hex-logo-footer.svg",
+        "/assets/svg/logo/hex-logo-nav.svg"
+      ]
+    },
+    "logo.customer": {
+      "generationPolicy": "placeholder-only",
+      "description": "Real customer logos (Notion, Ramp, Figma, ...). Generated pages must use a neutral placeholder slot; never reproduce or fabricate a real company's logo.",
+      "measuredFrom": [
+        "CLONE_SPEC.md:228",
+        "ASSET_MANIFEST.md:29"
+      ],
+      "usedBySections": [
+        "collection.customer-stories",
+        "feature.split",
+        "hero.story",
+        "proof.customer-banner",
+        "proof.featured-stories-fan",
+        "proof.full-width-quote",
+        "proof.logo-wall",
+        "proof.quote-tiles",
+        "proof.quotes-marquee",
+        "proof.social-tout",
+        "proof.stories-two-up",
+        "proof.story-tout"
+      ]
+    },
+    "logo.investor": {
+      "generationPolicy": "placeholder-only",
+      "description": "Real investor logos (a16z, Sequoia, ...). Placeholder only.",
+      "measuredFrom": [
+        "specs/company.md:162"
+      ],
+      "usedBySections": [
+        "proof.logo-wall"
+      ]
+    },
+    "logo.partner": {
+      "generationPolicy": "placeholder-only",
+      "description": "Real consulting-partner logos. Placeholder only.",
+      "measuredFrom": [
+        "specs/solutions.md:916"
+      ],
+      "usedBySections": [
+        "collection.partners-grid"
+      ]
+    },
+    "logo.integration": {
+      "generationPolicy": "placeholder-only",
+      "description": "Third-party technology trademarks (Snowflake, BigQuery, ...). Placeholder only; never draw a real vendor mark.",
+      "measuredFrom": [
+        "specs/product.md:677"
+      ],
+      "usedBySections": [
+        "collection.integration-category",
+        "feature.integrations-grid",
+        "hero.integration"
+      ]
+    },
+    "logo.competitor": {
+      "generationPolicy": "placeholder-only",
+      "description": "Competitor wordmarks (Looker, Omni, Sigma, Tableau). Placeholder only.",
+      "measuredFrom": [
+        "specs/SHARED_BUILT.md:123"
+      ],
+      "usedBySections": [
+        "collection.resource-cards",
+        "hero.compare"
+      ]
+    },
+    "logo.certification": {
+      "generationPolicy": "placeholder-only",
+      "description": "Compliance badges (GDPR, AICPA SOC, HIPAA). Real certification marks; placeholder only, and never claim a certification.",
+      "measuredFrom": [
+        "specs/solutions.md:666"
+      ],
+      "usedBySections": [
+        "feature.numbered-grid"
+      ]
+    },
+    "icon.agent-logos": {
+      "generationPolicy": "placeholder-only",
+      "description": "Stack of third-party AI/agent product logos (ChatGPT/Codex, Claude, Slack, CLI, MCP). Placeholder only.",
+      "measuredFrom": [
+        "CLONE_SPEC.md:298"
+      ],
+      "usedBySections": [
+        "feature.split"
+      ]
+    },
+    "image.award-badge": {
+      "generationPolicy": "placeholder-only",
+      "description": "Real G2 award badges. Placeholder only; never fabricate awards.",
+      "measuredFrom": [
+        "CLONE_SPEC.md:378"
+      ],
+      "usedBySections": [
+        "proof.social-tout"
+      ]
+    },
+    "photo.person": {
+      "generationPolicy": "placeholder-only",
+      "description": "Photos of real people (employees on /careers/ and /about/, customer headshots). Never reproduce, and never generate a photoreal likeness of a real or invented person.",
+      "measuredFrom": [
+        "specs/company.md:190",
+        "specs/company.md:169"
+      ],
+      "usedBySections": [
+        "feature.photo-collage",
+        "hero.about",
+        "hero.careers",
+        "proof.quotes-marquee",
+        "proof.social-tout"
+      ]
+    },
+    "image.data-chart": {
+      "generationPolicy": "placeholder-only",
+      "description": "Survey chart images carrying real statistics. Never invent statistics presented as real survey data.",
+      "measuredFrom": [
+        "specs/company.md:364"
+      ],
+      "usedBySections": [
+        "content.report-section"
+      ]
+    },
+    "embed.external": {
+      "generationPolicy": "external-reference-only",
+      "description": "External iframes (YouTube, Loom, live app embeds). Reference an https URL or leave a placeholder; they may render blank; never clone the player.",
+      "measuredFrom": [
+        "specs/product.md:928",
+        "specs/solutions.md:312"
+      ],
+      "usedBySections": [
+        "feature.live-app-embed",
+        "feature.video-embed",
+        "hero.article"
+      ]
+    },
+    "image.capture-fallback": {
+      "generationPolicy": "must-reuse-exact",
+      "description": "Saved element capture standing in for a runtime canvas (blog commit graph).",
+      "measuredFrom": [
+        "specs/company.md:240"
+      ],
+      "usedBySections": [
+        "hero.blog-masthead"
+      ],
+      "allowedSources": [
+        "/assets/pages/company/blog/commit-graph-fallback@2x.png"
+      ]
+    },
+    "image.product-screenshot": {
+      "generationPolicy": "may-generate-new",
+      "description": "Product UI screenshots. Generated pages may use original, clearly illustrative UI imagery; do not copy Hex screenshots for redistribution.",
+      "measuredFrom": [
+        "specs/solutions.md:286"
+      ],
+      "usedBySections": [
+        "collection.template-cards",
+        "collection.templates-catalog",
+        "conversion.collage-cta",
+        "feature.bento-cells",
+        "feature.cell-collage",
+        "feature.codegen-gallery",
+        "feature.demo-accordion",
+        "feature.how-it-works",
+        "feature.info-card-grid",
+        "feature.integration-custom-blocks",
+        "feature.magic",
+        "feature.perlin-callout",
+        "feature.snaked-rows",
+        "feature.solution-row",
+        "feature.split",
+        "feature.v1-two-up",
+        "hero.v1"
+      ]
+    },
+    "image.product-ui": {
+      "generationPolicy": "may-generate-new",
+      "description": "Interactive product mock windows rendered as HTML/SVG (chat, terminal, dashboards). Original mock content only.",
+      "measuredFrom": [
+        "CLONE_SPEC.md:14"
+      ],
+      "usedBySections": [
+        "feature.how-it-works",
+        "feature.observability-callouts",
+        "feature.split",
+        "feature.v1-two-up",
+        "hero.product"
+      ]
+    },
+    "image.editorial-thumbnail": {
+      "generationPolicy": "may-generate-new",
+      "description": "Blog/press/event thumbnails. Original artwork only.",
+      "measuredFrom": [
+        "specs/company.md:117"
+      ],
+      "usedBySections": [
+        "collection.blog-featured",
+        "collection.events",
+        "collection.guides",
+        "collection.newsroom-cards",
+        "collection.newsroom-featured",
+        "collection.resource-cards",
+        "feature.podcast-episodes",
+        "hero.article",
+        "proof.featured-stories-fan"
+      ]
+    },
+    "illustration.decorative": {
+      "generationPolicy": "may-generate-new",
+      "description": "Line-art and hatched illustrations. New artwork in the same thin-line style; never trace the originals.",
+      "measuredFrom": [
+        "CLONE_SPEC.md:291"
+      ],
+      "usedBySections": [
+        "feature.ethos-cards",
+        "feature.execution-dag",
+        "feature.illustrated-checklist",
+        "feature.integrations-grid",
+        "feature.partner-tiers",
+        "feature.partners-why",
+        "feature.perlin-callout",
+        "feature.platform-overview",
+        "feature.split",
+        "feature.support-grid",
+        "hero.customers",
+        "hero.enterprise",
+        "hero.guide-landing",
+        "hero.product",
+        "hero.report",
+        "hero.v1-intro"
+      ]
+    },
+    "icon.ui": {
+      "generationPolicy": "may-generate-new",
+      "description": "Small single-colour UI glyphs (15-28px).",
+      "measuredFrom": [
+        "CLONE_SPEC.md:259"
+      ],
+      "usedBySections": [
+        "feature.approach-cards",
+        "feature.highlights",
+        "navigation.filter-chips"
+      ]
+    },
+    "icon.abstract-mark": {
+      "generationPolicy": "may-generate-new",
+      "description": "60px abstract section marks with themed fills.",
+      "measuredFrom": [
+        "specs/product.md:38"
+      ],
+      "usedBySections": [
+        "feature.split",
+        "feature.use-cases"
+      ]
+    },
+    "video.loop": {
+      "generationPolicy": "may-generate-new",
+      "description": "Muted looping product videos. Original footage only, or omit.",
+      "measuredFrom": [
+        "specs/product.md:358"
+      ],
+      "usedBySections": [
+        "feature.demo-accordion",
+        "hero.product",
+        "hero.v1"
+      ]
+    },
+    "canvas.runtime": {
+      "generationPolicy": "may-generate-new",
+      "description": "Runtime 2D canvas line fields. The clone's canvases are redrawn approximations, not the originals.",
+      "measuredFrom": [
+        "src/components/header/AiLinesCanvas.jsx:2",
+        "src/pages/productMore/ai/AiCanvas.jsx:1"
+      ],
+      "usedBySections": [
+        "hero.blog-masthead",
+        "hero.product"
+      ]
+    }
+  },
+  "nonPageAssets": {
+    "fonts": {
+      "policy": "local-only",
+      "note": "GT Cinetype, PP Formula and PP Editorial New are commercial faces copied for a local reference clone; they are not licensed for redistribution. Never bundle, publish or embed them in generated deliverables.",
+      "measuredFrom": [
+        "CLONE_SPEC.md:501",
+        "ASSET_MANIFEST.md:13"
+      ]
+    },
+    "copy": {
+      "policy": "do-not-reproduce-long-form",
+      "note": "Long-form bodies in the clone are neutral placeholders sized to live line counts; only titles, metadata, headings and pull quotes are real. Budgets in this repo describe length and structure only.",
+      "measuredFrom": [
+        "src/pages/companyCore/RichText.jsx:38",
+        "src/pages/productV1/switchingData.js:3"
+      ]
+    }
+  }
+}

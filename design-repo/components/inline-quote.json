@@ -1,0 +1,33 @@
+{
+  "id": "component.inline-quote",
+  "purpose": "Dashed-line inline quote: quote icon rail, 16/24 quote with emphasised clause, grayscale logo + mono author.",
+  "composes": [
+    "primitive.grayscale-logo"
+  ],
+  "props": {
+    "emphasis": {
+      "type": "text",
+      "measuredFrom": [
+        "src/components/shared/InlineQuote.jsx:7"
+      ]
+    },
+    "logo": {
+      "type": "asset",
+      "measuredFrom": [
+        "src/components/shared/InlineQuote.jsx:7"
+      ]
+    }
+  },
+  "tokens": [
+    "color.border.default",
+    "color.text.loud",
+    "color.text.muted",
+    "typography.scale.quote-author"
+  ],
+  "measuredFrom": [
+    "CLONE_SPEC.md:218",
+    "src/components/shared/InlineQuote.jsx:47"
+  ],
+  "layer": "component",
+  "provisional": true
+}

@@ -1,0 +1,110 @@
+{
+  "id": "feature.photo-collage",
+  "category": "feature",
+  "purpose": "Italic+display H2 and lead positioned over a right-aligned collage of team photo cards.",
+  "variants": [],
+  "content": {
+    "italicLine": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 4,
+      "observedWords": [
+        3
+      ],
+      "measuredFrom": [
+        "specs/company.md:168"
+      ]
+    },
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 3,
+      "observedWords": [
+        2
+      ],
+      "measuredFrom": [
+        "specs/company.md:168"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 14,
+      "observedWords": [
+        11
+      ],
+      "measuredFrom": [
+        "specs/company.md:168"
+      ]
+    },
+    "photos": {
+      "kind": "list",
+      "required": true,
+      "minItems": 13,
+      "maxItems": 13,
+      "measuredFrom": [
+        "specs/company.md:169"
+      ],
+      "item": {
+        "kind": "media",
+        "required": true,
+        "roles": [
+          "photo.person"
+        ],
+        "alt": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 18,
+          "observedWords": [
+            14,
+            14
+          ],
+          "measuredFrom": [
+            "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+            "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+          ]
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "horizontal-scroll",
+      "detail": "text static between two horizontally overflowing photo strips",
+      "measuredFrom": [
+        "specs/company.md:173"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/company.md:168"
+  ],
+  "wordBudgets": {
+    "description": 14,
+    "headline": 3,
+    "italicLine": 4,
+    "photos[].alt": 18
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "photo.person"
+  ],
+  "usedByTemplates": [
+    "template.about"
+  ],
+  "observedThemes": [
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__feature.photo-collage",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

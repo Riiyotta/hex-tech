@@ -1,0 +1,29 @@
+{
+  "id": "component.dark-resource-card",
+  "purpose": "Accented outline card for events/guides (figure + 28px H4 + underlined CTA) or templates (preview + tag + H4 + author + description).",
+  "composes": [
+    "component.outline-card"
+  ],
+  "props": {
+    "variant": {
+      "type": "enum",
+      "measuredFrom": [
+        "specs/SHARED_BUILT.md:132"
+      ],
+      "enum": [
+        "event",
+        "template"
+      ]
+    }
+  },
+  "tokens": [
+    "color.highlight",
+    "component.outline-card.accent-size"
+  ],
+  "measuredFrom": [
+    "specs/company.md:125",
+    "src/components/shared/DarkResourceCard.jsx:21"
+  ],
+  "layer": "component",
+  "provisional": true
+}

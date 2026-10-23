@@ -1,0 +1,28 @@
+/* context-studio section 7: every CSS rule from document.styleSheets whose selector matches a class used in this section (incl. @media/@supports wrappers), plus referenced @keyframes */
+.gzrZjH { place-self: stretch flex-end; width: 1px; background-color: var(--grid300, #2b252c); transform: translateX(50%); grid-row: 1 / -1; grid-column: 6 !important; }
+.gFrqQS { display: grid; grid-column: 1 / -1; grid-template-columns: subgrid; }
+.gFrqQS[data-pile] { grid-row: 1 / -1; }
+.gFrqQS[data-content-grid] { grid-column: 2 / -2; grid-template-columns: repeat(var(--columns), 1fr); }
+.gFrqQS[data-content-grid] > * { grid-column: 1 / -1; }
+[data-content-grid]:where(.gFrqQS > *) { grid-column: 1 / -1; }
+:where(.gFrqQS > *) { grid-column: 2 / -2; }
+.iyvfMP { position: relative; background-color: rgb(15, 15, 21); border-top: 1px solid var(--grid500, #3a3138); }
+.iyvfMP::after { content: ""; position: absolute; inset: 0px; border-radius: inherit; background-image: var(--texture-paper-img); background-size: var(--texture-paper-size); mix-blend-mode: var(--texture-paper-mixBlendMode); opacity: var(--texture-paper-opacity); pointer-events: none; }
+.krUnOQ { display: grid; grid-template-columns: repeat(2, 1fr) !important; }
+@media (max-width: 1000px) { .krUnOQ { grid-template-columns: 1fr !important; } }
+.cOfjNT { display: flex; flex-direction: column; padding: 12px 0px; grid-column: auto !important; }
+@media (max-width: 1000px) { .cOfjNT:not(:last-child) { border-bottom: 1px solid var(--grid500, #3a3138); } }
+.lnwSdb { padding: 24px clamp(12px, 0.0469rem + 2.5vw, 32px) 40px; display: flex; flex-direction: column; place-items: center; place-content: center; flex-grow: 1; }
+.kTpdEH { text-align: center; max-width: 36rem; text-wrap: balance; margin-top: 12px; }
+.cyEEjb { font-weight: 700; color: var(--fontColorLOUD, #ffffff); }
+.lgXwQa { display: flex; justify-content: center; padding: 0px 32px; }
+.iWXduu { display: flex; align-items: center; gap: 12px; }
+.iQnmCS { display: flex; flex-direction: column; align-items: center; margin-top: 16px; }
+.iQnmCS p { margin: 0px; text-align: center; }
+.iQnmCS p:first-child { color: var(--fontColorLOUD, #ffffff); }
+.iQnmCS p:last-child { color: var(--fontColorMUTED, #99797d); }
+.hjfYrE { margin: 0px auto; height: 52px; filter: brightness(0) invert(1); }
+@media (max-width: 1000px) { .jSwtyM { display: none; } }
+@layer utility { .text-base { font-size: calc(0.875rem); line-height: 1.571; font-weight: 400; } }
+@layer utility { .text-l { line-height: 1.5; font-size: calc(1.25rem); font-weight: 300; } }
+@layer utility { .annotation { font-family: "Cinetype Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-weight: 400; font-size: calc(0.75rem); letter-spacing: 0.0833em; line-height: 1.571; } }

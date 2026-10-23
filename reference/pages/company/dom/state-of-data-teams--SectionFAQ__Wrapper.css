@@ -1,0 +1,22 @@
+.FAQ-module__E5gmgG__questionHeading { color: inherit; font: inherit; margin: 0px; }
+.FAQ-module__E5gmgG__answerParagraph { margin: 0px; }
+.gLxMDc { color: var(--fg1200, var(--fg1200, #43394c)); display: flex; height: 15px; width: 15px; }
+.kirBIP { margin: 0px 0px 20px; font-size: 16px; line-height: 1.5; font-weight: 300; color: var(--fontColorDEFAULT, #31263B); }
+.kirBIP:last-child { margin-bottom: 0px; }
+.jwpxOo { transform: rotate(-90deg); }
+.repxs { background: transparent; width: 100%; position: relative; z-index: 1; scroll-margin-top: 120px; }
+.hLpfcr { margin-top: 35px; text-align: center; }
+.jcdMA-D { display: flex; flex-direction: column; width: 100%; padding: 0px; margin: 0px auto; max-width: 604px; }
+.kClkTa { display: flex; flex-direction: column; }
+.hXBaTd { display: flex; flex-direction: column; border-bottom: 1px solid var(--grid500, #dbd7da); transition: background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1); scroll-margin-top: 240px; }
+.hXBaTd:hover { background: var(--grid300, #e9e5e8); }
+.davikN { display: flex; align-items: center; justify-content: space-between; width: 100%; padding: 20px; border: 0px; background: transparent; color: inherit; font: inherit; text-align: left; cursor: pointer; }
+.kmRIEM { color: var(--fontColorLOUD, #01011b); font-size: 18px; line-height: 24px; letter-spacing: -0.5px; }
+.hlMhoD { display: none; flex-direction: column; gap: 12px; padding: 10px 20px 20px; }
+.hlMhoD ul { list-style-type: circle; padding-left: 18px; display: flex; flex-direction: column; gap: 5px; }
+.hlMhoD strong { font-weight: 500; }
+.ssvqn { font-family: "PP Editorial New", sans-serif; font-weight: 200; font-style: italic; font-size: clamp(2rem, 1.4375rem + 2vw, 3rem); line-height: 1.15; }
+.hRblYn { display: flex; flex-direction: column; width: 100%; padding: clamp(40px, 1.0938rem + 5vw, 80px) 0px; border-top: 1px solid rgba(0, 0, 0, 0.08); }
+.hRblYn [data-name="faq-item"] { border-bottom: 1px solid rgba(0, 0, 0, 0.08); }
+.hRblYn [data-name="faq-item"]:hover { background-color: rgba(0, 0, 0, 0.02); }
+.hgNFwR { display: flex; flex-direction: column; align-items: center; width: 100%; max-width: 604px; margin: 0px auto; padding-bottom: 20px; border-bottom: 1px solid rgba(0, 0, 0, 0.08); }

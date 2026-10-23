@@ -1,0 +1,40 @@
+# capability-ai @390 — doc height 11932 (1440: 8045)
+
+## Sections (matched by component class from the 1440 section list)
+- 0 PromptHero__ @1440 [0,0,1440,993] → @390 [0, 0, 390, 124] (+14 more)  | H1:Anyone can analyze with Hex / H2:How data teams at leading AI companies do their best w
+- 1 Workflows__ @1440 [0,993,1440,519] → @390 [0, 1105, 390, 1088] (+28 more)  | H2:Supercharge everyday workflows
+- 2 CustomerQuotesScrollingTout__ @1440 [29,1512,1382,738] → @390 [8, 2193, 374, 1358]  | 
+- 3 WorkflowSectionShared__ @1440 [29,2250,1382,1031] → @390 [8, 3551, 374, 1267] (+20 more)  | H2:AI, meet the world’s best notebook
+- 4 CapabilityAiPageContent__ @1440 [0,3281,1440,505] → @390 [0, 4818, 390, 896]  | H2:Insight right where the conversation is happening
+- 5 WorkflowSectionShared__ @1440 [29,3785,1382,1151] → @390 [8, 3551, 374, 1267] (+20 more)  | H2:Conversational analytics for everyone
+- 6 SecurityTout__ @1440 [29,4936,1382,1257] → @390 [8, 7073, 374, 2550] (+3 more)  | H2:Accuracy 🤝 Privacy / H3:Keeping your IP your IP
+- 7 OutroTout__ @1440 [29,6192,1382,653] → @390 [8, 9623, 374, 640] (+5 more)  | H2:Ready to put AI to work on your data?
+- 8 FAQ__ @1440 [0,6845,1440,613] → @390 [20, 10304, 350, 443] (+15 more)  | H2:FAQs / H3:What is an AI Analytics Platform?chevron-down
+
+## Text roles @390 (H1–H4, lead/body P, buttons): tag [x,y,w,h] «text» font/size/lh
+- H1 [24, 436, 342, 148] «Anyone can analyze with Hex» fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px; textAlign:center
+- P [24, 589, 342, 120] «Ask questions in natural language. Analyze with or» fontSize:20px; fontWeight:300; lineHeight:30px; margin:0px 0px 30px; textAlign:center
+- H2 [24, 844, 342, 24] «How data teams at leading AI companies do their be» fontFamily:"Cinetype Mono"; fontSize:10px; lineHeight:12px; letterSpacing:0.833px; padding:0px 12px; textAlign:center
+- H2 [0, 1162, 390, 84] «Supercharge everyday workflows» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px; padding:0px 6px 6px; textAlign:center
+- P [20, 1413, 351, 120] «Explore the new, novel, and gnarly in an AI-powere» fontSize:20px; fontWeight:300; lineHeight:30px
+- P [20, 1877, 351, 90] «Ask Hex a question in natural language, get a comp» fontSize:20px; fontWeight:300; lineHeight:30px
+- P [130, 3551, 130, 19] «BUILD & ANALYZE» fontFamily:"Cinetype Mono"; fontSize:12px; lineHeight:18.852px; letterSpacing:0.9996px; margin:0px 0px 20px
+- H2 [21, 3590, 349, 154] «AI, meet the world’s best notebook» fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px; padding:0px 6px 6px; margin:0px -6px 20px; textAlign:center
+- P [27, 3764, 337, 150] «Powered by leading LLMs, Hex understands your data» fontSize:20px; fontWeight:300; lineHeight:30px; margin:0px 0px 32px; textAlign:center
+- H2 [60, 4973, 270, 78] «Insight right where the conversation is happening» fontFamily:"PP Formula"; fontSize:20px; fontWeight:800; lineHeight:26px; letterSpacing:-0.5px
+- P [60, 5066, 270, 240] «Kick off or schedule a Thread wherever your team i» fontSize:16px; fontWeight:300; lineHeight:24px; margin:0px 0px 20px
+- P [108, 5834, 174, 19] «SELF-SERVE & EXPLORE» fontFamily:"Cinetype Mono"; fontSize:12px; lineHeight:18.852px; letterSpacing:0.9996px; margin:0px 0px 20px
+- H2 [21, 5873, 349, 154] «Conversational analytics for everyone» fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px; padding:0px 6px 6px; margin:0px -6px 20px; textAlign:center
+- P [27, 6047, 337, 120] «Hex is your organization’s first line of defense f» fontSize:20px; fontWeight:300; lineHeight:30px; margin:0px 0px 32px; textAlign:center
+- H2 [38, 7133, 314, 99] «Accuracy Privacy» fontFamily:"PP Formula SemiExtended"; fontSize:38px; fontWeight:700; lineHeight:49.4px; letterSpacing:-1.1704px
+- P [38, 7245, 314, 120] «Combining cutting-edge approaches to AI, with our » fontSize:20px; fontWeight:300; lineHeight:30px; margin:8px 0px 24px; textAlign:left
+- H3 [78, 7543, 253, 26] «Keeping your IP your IP» fontFamily:"PP Formula"; fontSize:20px; fontWeight:800; lineHeight:26px; letterSpacing:-0.5px
+- P [78, 7585, 320, 144] «All metadata is stored in a secure database runnin» fontSize:16px; fontWeight:300; lineHeight:24px; margin:0px 0px 8px
+- H3 [78, 8259, 320, 52] «Enriched with your organization’s context» fontFamily:"PP Formula"; fontSize:20px; fontWeight:800; lineHeight:26px; letterSpacing:-0.5px
+- P [78, 8327, 320, 96] «AI in Hex can leverage context from semantic model» fontSize:16px; fontWeight:300; lineHeight:24px; margin:0px 0px 8px
+- H3 [78, 8953, 228, 26] «Bring your own agent» fontFamily:"PP Formula"; fontSize:20px; fontWeight:800; lineHeight:26px; letterSpacing:-0.5px
+- P [78, 8995, 320, 72] «Already analyzing data with Cursor or Claude Code?» fontSize:16px; fontWeight:300; lineHeight:24px; margin:0px 0px 8px
+- H2 [67, 9755, 256, 117] «Ready to put AI to work on your data?» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px
+- P [67, 9882, 256, 180] «Hex is the AI analytics platform where your notebo» fontSize:20px; fontWeight:300; lineHeight:30px
+- H2 [155, 10379, 80, 39] «FAQs» fontFamily:"PP Formula"; fontSize:30px; fontWeight:800; lineHeight:39px; letterSpacing:-0.75px; margin:15px 0px
+- P [20, 10643, 350, 24] «Can't find your answer here? .» fontSize:16px; fontWeight:300; lineHeight:24px; margin:35px 0px 0px; textAlign:center

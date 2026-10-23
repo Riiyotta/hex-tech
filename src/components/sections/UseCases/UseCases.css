@@ -1,0 +1,76 @@
+/* CLONE_SPEC §4.10 Use cases — ported from HomeUseCases-module / HomeUseCaseCard-module
+   (reference/dom/home-module-rules.css). This file loads before src/index.css, so overrides of shared
+   classes use raised specificity. */
+
+.use-cases {
+  --home-section-gutter: 40px;
+  --use-cases-column-gap: 80px;
+  --use-cases-section-padding-top: clamp(70px, 53px + 3.75dvw, 100px);
+  --use-cases-section-padding-bottom: clamp(20px, 53px + 3.75dvw, 75px);
+  padding: var(--use-cases-section-padding-top) 0 var(--use-cases-section-padding-bottom) 0;
+}
+@media (max-width: 1000px) {
+  .use-cases { --use-cases-column-gap: 30px; }
+}
+@media (max-width: 800px) {
+  .use-cases { --home-section-gutter: 30px; }
+}
+@media (max-width: 450px) {
+  .use-cases { --home-section-gutter: 20px; }
+}
+
+.use-cases__noise {
+  -webkit-mask-image: linear-gradient(#000 0%, rgba(0, 0, 0, 0));
+  mask-image: linear-gradient(#000 0%, rgba(0, 0, 0, 0));
+}
+
+/* subheading stays on its own line even where GradientHeader spans go inline (≤600) */
+@media (max-width: 600px) {
+  .gradient-heading .use-cases__subheading.use-cases__subheading { display: block; }
+}
+
+/* ----- HomeUseCaseCard ----- */
+.use-case-card {
+  --use-case-card-padding: 30px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
+  min-width: 0;
+  padding: var(--use-case-card-padding) 0;
+  border-bottom: 1px solid var(--grid300);
+  color: var(--fg1200);
+  cursor: pointer;
+  transition: border-color var(--animation-duration) var(--animation-easing);
+}
+.use-case-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc(var(--use-case-card-padding) * -1);
+  right: calc(var(--use-case-card-padding) * -1);
+  border-radius: 10px;
+  background-color: var(--highlightColor);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--animation-duration) var(--animation-easing);
+}
+.use-case-card:hover { background: none; border-bottom-color: transparent; }
+.use-case-card:hover::before { opacity: 0.05; }
+.use-case-card:has(+ .use-case-card:hover) { border-bottom-color: transparent; }
+.use-case-card:last-child { border-bottom: 0; }
+.use-case-card:hover .use-case-card__arrow { opacity: 1; }
+
+@media (max-width: 1250px) {
+  .use-case-card { --use-case-card-padding: 20px; }
+}
+@media (max-width: 600px) {
+  .use-case-card { flex-direction: column; align-items: flex-start; gap: 25px; }
+}
+
+/* AbstractMark colours, light theme */
+.use-case-card__mark [data-color='primary'] { color: var(--roseQuartz); }
+.use-case-card__mark [data-color='secondary'] { color: var(--eggplant); }
+.use-case-card__mark [data-color='highlight'] { color: var(--jade); }
+.use-case-card__mark > svg { display: block; }

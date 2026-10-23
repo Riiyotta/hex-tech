@@ -1,0 +1,629 @@
+<BODY > [0,0,390,10229] {font-family:Cinetype; font-size:14px; line-height:21.994px; font-weight:400; font-style:normal; letter-spacing:normal; text-transform:none; text-align:start; color:rgb(227, 178, 179); background-color:rgb(20, 20, 28); overflow:clip visible; z-index:0; list-style-type:disc; white-space:normal; text-wrap:wrap}
+ <DIV PageWrapper__PageLayoutGrid> [0,0,390,10229] {display:grid; gap:0px; grid-template-columns:7.875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 7.875px; grid-template-rows:10229.1px; color:rgb(245, 192, 192); background-color:rgb(20, 20, 28)}
+  <A .sr-only> [-10000,0,1,1] href=#main «Skip to main content» {position:absolute; grid-column:2 / -2; color:rgb(227, 178, 179); border-bottom:1px solid rgb(227, 178, 179); transition:background-color 0.1s linear; overflow:hidden}
+  <DIV LayoutGrid__LayoutSubgrid PageWrapper__PaperTexture> [0,0,390,10229] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-column:1 / -1; background-image:url("https://hex.tech/images/bkg-noise.webp"); opacity:0.0625}
+  <DIV LayoutGrid__LayoutSubgrid> [0,0,390,10229] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:9083.38px 1113.72px 32px; grid-column:1 / -1}
+   <DIV .LayoutGrid-sc-51ec3774-0.gfIDZt> [0,0,390,68] {display:grid; position:fixed; gap:0px; grid-template-columns:7.875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 7.875px; grid-template-rows:12px 56px; grid-column:2 / -2; z-index:3}
+    <DIV LayoutGrid__LayoutSubgrid Header__TopGridLines> [0,0,390,12] {display:grid; position:relative; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:12px; grid-column:1 / -1; background-color:rgb(20, 20, 28)}
+     <DIV GridLines__ContentMarginLine> [0,0,8,12] {grid-column:1; border-right:1px solid rgb(43, 37, 44)}
+     <DIV GridLines__GridRule> [101,0,1,12] {grid-column:4; background-color:rgb(43, 37, 44); transform:matrix(1, 0, 0, 1, 0.5, 0)}
+     <DIV GridLines__GridRule> [288,0,1,12] {grid-column:10; background-color:rgb(43, 37, 44); transform:matrix(1, 0, 0, 1, 0.5, 0)}
+     <DIV GridLines__ContentMarginLine> [382,0,8,12] {grid-column:-2 / span 1; border-left:1px solid rgb(43, 37, 44)}
+    <HEADER LayoutGrid__LayoutSubgrid> [0,12,390,56] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:56px; grid-column:1 / -1}
+     <DIV LayoutGrid__LayoutSubgrid Header__TickerWrapper> [0,12,390,27] {display:grid; position:relative; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:26.8438px; grid-column:1 / -1; background-color:rgb(20, 20, 28)}
+      <DIV GridLines__ContentMarginLine> [0,12,8,27] {grid-column:1; border-right:1px solid rgb(43, 37, 44)}
+      <DIV LayoutGrid__LayoutSubgrid Ticker__Bg> [8,12,374,27] {display:grid; grid-template-columns:31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px; grid-template-rows:26.8438px; grid-column:2 / -2; background-color:rgb(37, 33, 40); background-image:linear-gradient(to left, rgb(37, 33, 40), rgb(32, 29, 37), rgb(37, 33, 40)); box-shadow:rgba(245, 192, 192, 0.173) 0px 1px 1px 0px inset; overflow:hidden}
+       <DIV Ticker__Marquee> [8,12,374,27] {display:flex; position:relative; grid-column:1 / -1; overflow:hidden; z-index:1}
+        <DIV .sr-only> [-9992,12,1,1] {position:absolute; overflow:hidden}
+         <A Ticker__MarqueeItem> [-9992,12,16,19] href=/customers/langchain/ «how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+          <SPAN > [-9984,12,15,19] «📊» {}
+          <SPAN Ticker__MarqueeItemTitle> [-9961,12,169,19] «AI analytics use case:» {color:rgb(255, 255, 255)}
+          <SPAN Ticker__Circle> [-9113,16,10,10] {display:grid; align-items:center; grid-template-columns:10px; grid-template-rows:10px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+           <svg Ticker__StyledArrowRight> [-9113,18,10,7] {overflow:hidden}
+         <A Ticker__MarqueeItem> [-9992,31,16,19] href=/blog/introducing-generative-data-apps/ «Gorgeous, interactive dashboards and apps you can build with just a prompt» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+          <SPAN > [-9984,31,15,19] «🤯» {}
+          <SPAN Ticker__MarqueeItemTitle> [-9961,31,161,19] «Generative data apps:» {color:rgb(255, 255, 255)}
+          <SPAN Ticker__Circle> [-9220,35,10,10] {display:grid; align-items:center; grid-template-columns:10px; grid-template-rows:10px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+           <svg Ticker__StyledArrowRight> [-9220,37,10,7] {overflow:hidden}
+         <A Ticker__MarqueeItem> [-9992,50,16,19] href=/state-of-data-teams/ «discover key insights from data leaders» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+          <SPAN > [-9984,50,15,19] «📖» {}
+          <SPAN Ticker__MarqueeItemTitle> [-9961,50,184,19] «State of Data Teams 2026» {color:rgb(255, 255, 255)}
+          <SPAN Ticker__Circle> [-9466,54,10,10] {display:grid; align-items:center; grid-template-columns:10px; grid-template-rows:10px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+           <svg Ticker__StyledArrowRight> [-9466,56,10,7] {overflow:hidden}
+         <A Ticker__MarqueeItem> [-9992,69,16,19] href=/ «Not "HEX" or "Hex dot tech"» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+          <SPAN > [-9984,69,15,19] «🙏» {}
+          <SPAN Ticker__MarqueeItemTitle> [-9961,69,123,19] «It's just "Hex"!» {color:rgb(255, 255, 255)}
+          <SPAN Ticker__Circle> [-9619,73,10,10] {display:grid; align-items:center; grid-template-columns:10px; grid-template-rows:10px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+           <svg Ticker__StyledArrowRight> [-9619,74,10,7] {overflow:hidden}
+        <DIV Ticker__InstanceAnim> [-796,12,13568,27] {display:flex; transform:matrix(1, 0, 0, 1, -804.322, 0); animation:56s linear infinite ticker}
+         <SPAN > [-796,12,2714,27] {display:flex; white-space:nowrap; text-wrap:nowrap}
+          <SPAN Ticker__MarqueeItems> [-796,12,2714,27] {display:flex; gap:16px; padding:4px 16px 4px 0px}
+           <A Ticker__MarqueeItem> [-796,16,904,19] href=/customers/langchain/ «how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [-787,16,15,19] «📊» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [-764,16,169,19] «AI analytics use case:» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [85,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [87,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [124,16,797,19] href=/blog/introducing-generative-data-apps/ «Gorgeous, interactive dashboards and apps you can build with just a prompt» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [133,16,15,19] «🤯» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [156,16,161,19] «Generative data apps:» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [898,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [900,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [937,16,551,19] href=/state-of-data-teams/ «discover key insights from data leaders» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [946,16,15,19] «📖» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [969,16,184,19] «State of Data Teams 2026» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [1465,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [1467,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [1504,16,397,19] href=/ «Not "HEX" or "Hex dot tech"» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [1513,16,15,19] «🙏» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [1536,16,123,19] «It's just "Hex"!» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [1878,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [1881,22,10,7] {overflow:hidden}
+         <SPAN > [1917,12,2714,27] {display:flex; white-space:nowrap; text-wrap:nowrap}
+          <SPAN Ticker__MarqueeItems> [1917,12,2714,27] {display:flex; gap:16px; padding:4px 16px 4px 0px}
+           <A Ticker__MarqueeItem> [1917,16,904,19] href=/customers/langchain/ «how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [1926,16,15,19] «📊» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [1950,16,169,19] «AI analytics use case:» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [2798,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [2801,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [2837,16,797,19] href=/blog/introducing-generative-data-apps/ «Gorgeous, interactive dashboards and apps you can build with just a prompt» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [2847,16,15,19] «🤯» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [2870,16,161,19] «Generative data apps:» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [3611,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [3614,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [3650,16,551,19] href=/state-of-data-teams/ «discover key insights from data leaders» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [3659,16,15,19] «📖» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [3683,16,184,19] «State of Data Teams 2026» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [4178,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [4181,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [4217,16,397,19] href=/ «Not "HEX" or "Hex dot tech"» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [4226,16,15,19] «🙏» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [4250,16,123,19] «It's just "Hex"!» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [4592,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [4594,22,10,7] {overflow:hidden}
+         <SPAN > [4631,12,2714,27] {display:flex; white-space:nowrap; text-wrap:nowrap}
+          <SPAN Ticker__MarqueeItems> [4631,12,2714,27] {display:flex; gap:16px; padding:4px 16px 4px 0px}
+           <A Ticker__MarqueeItem> [4631,16,904,19] href=/customers/langchain/ «how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [4640,16,15,19] «📊» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [4663,16,169,19] «AI analytics use case:» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [5512,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [5514,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [5551,16,797,19] href=/blog/introducing-generative-data-apps/ «Gorgeous, interactive dashboards and apps you can build with just a prompt» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [5560,16,15,19] «🤯» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [5583,16,161,19] «Generative data apps:» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [6325,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [6327,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [6364,16,551,19] href=/state-of-data-teams/ «discover key insights from data leaders» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [6373,16,15,19] «📖» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [6396,16,184,19] «State of Data Teams 2026» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [6892,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [6894,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [6931,16,397,19] href=/ «Not "HEX" or "Hex dot tech"» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [6940,16,15,19] «🙏» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [6963,16,123,19] «It's just "Hex"!» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [7305,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [7308,22,10,7] {overflow:hidden}
+         <SPAN > [7344,12,2714,27] {display:flex; white-space:nowrap; text-wrap:nowrap}
+          <SPAN Ticker__MarqueeItems> [7344,12,2714,27] {display:flex; gap:16px; padding:4px 16px 4px 0px}
+           <A Ticker__MarqueeItem> [7344,16,904,19] href=/customers/langchain/ «how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [7353,16,15,19] «📊» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [7377,16,169,19] «AI analytics use case:» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [8225,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [8228,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [8264,16,797,19] href=/blog/introducing-generative-data-apps/ «Gorgeous, interactive dashboards and apps you can build with just a prompt» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [8274,16,15,19] «🤯» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [8297,16,161,19] «Generative data apps:» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [9038,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [9041,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [9077,16,551,19] href=/state-of-data-teams/ «discover key insights from data leaders» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [9086,16,15,19] «📖» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [9110,16,184,19] «State of Data Teams 2026» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [9605,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [9608,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [9644,16,397,19] href=/ «Not "HEX" or "Hex dot tech"» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [9653,16,15,19] «🙏» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [9677,16,123,19] «It's just "Hex"!» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [10019,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [10021,22,10,7] {overflow:hidden}
+         <SPAN > [10058,12,2714,27] {display:flex; white-space:nowrap; text-wrap:nowrap}
+          <SPAN Ticker__MarqueeItems> [10058,12,2714,27] {display:flex; gap:16px; padding:4px 16px 4px 0px}
+           <A Ticker__MarqueeItem> [10058,16,904,19] href=/customers/langchain/ «how LangChain migrated from legacy BI and enabled 100% of their team to self-serve data» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [10067,16,15,19] «📊» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [10090,16,169,19] «AI analytics use case:» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [10939,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [10941,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [10978,16,797,19] href=/blog/introducing-generative-data-apps/ «Gorgeous, interactive dashboards and apps you can build with just a prompt» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [10987,16,15,19] «🤯» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [11010,16,161,19] «Generative data apps:» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [11752,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [11754,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [11791,16,551,19] href=/state-of-data-teams/ «discover key insights from data leaders» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [11800,16,15,19] «📖» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [11823,16,184,19] «State of Data Teams 2026» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [12319,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [12321,22,10,7] {overflow:hidden}
+           <A Ticker__MarqueeItem> [12358,16,397,19] href=/ «Not "HEX" or "Hex dot tech"» {display:flex; align-items:center; padding:0px 8px; font-family:Cinetype Mono; font-size:12px; line-height:18.852px; border-radius:2px; transition:background-color 0.1s linear}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [12367,16,15,19] «🙏» {margin:0px 0.6px 0px 1.2px}
+            <SPAN Ticker__MarqueeItemTitle> [12390,16,123,19] «It's just "Hex"!» {color:rgb(255, 255, 255)}
+            <SPAN Ticker__Circle> [12732,18,15,15] {display:grid; align-items:center; grid-template-columns:15px; grid-template-rows:15px; margin:0px 0px 0px 4px; aspect-ratio:1 / 1; color:rgba(245, 192, 192, 0.592); border-radius:9999px}
+             <svg Ticker__StyledArrowRight> [12735,22,10,7] {overflow:hidden}
+      <DIV GridLines__ContentMarginLine> [382,12,8,27] {grid-column:-2 / span 1; border-left:1px solid rgb(43, 37, 44)}
+     <DIV LayoutGrid__LayoutSubgrid> [0,12,390,56] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:56px; grid-column:1 / -1}
+      <NAV LayoutGrid__LayoutSubgrid> [0,12,390,56] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:56px 0px; grid-column:1 / -1}
+       <DIV LayoutGrid__LayoutSubgrid Nav__NavWrapper> [0,39,390,56] {display:grid; position:relative; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:56px; grid-column:1 / -1; transform:matrix(1, 0, 0, 1, 0, 26.8438)}
+        <DIV LayoutGrid__LayoutSubgrid Nav__Background> [0,39,390,56] {display:grid; position:relative; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:56px; grid-column:1 / -1; z-index:-1}
+         <DIV Nav__BackgroundInner> [0,39,390,56] {position:absolute; grid-column:1 / -1; mask-image:linear-gradient(rgba(0, 0, 0, 0.48) 30%, rgba(0, 0, 0, 0))}
+        <DIV LayoutGrid__LayoutSubgrid> [0,59,390,56] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:56px; grid-column:1 / -1; transform:matrix(1, 0, 0, 1, 0, 20)}
+         <DIV Nav__NavShadow> [0,59,390,56] {position:relative; grid-column:1 / -1; opacity:0; overflow:clip visible; z-index:3}
+         <DIV LayoutGrid__LayoutSubgrid> [0,59,390,56] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:56px; grid-column:1 / -1}
+          <DIV Nav__NavBorderBottom> [0,114,8,1] {grid-column:1; background-color:rgb(43, 37, 44); opacity:0}
+          <DIV Nav__NavigationRootEl> [8,59,374,56] {display:grid; position:relative; align-items:center; grid-template-columns:187.125px 0px 187.125px; grid-template-rows:0px 40px; grid-column:2 / -2; padding:8px 0px}
+           <DIV > [8,67,187,0] {position:relative}
+           <A Nav__HomeNavLinkWrapper> [22,75,64,25] href=/ {grid-column:1 / span 1; margin:0px 0px 0px 14.4px; color:rgb(227, 178, 179); transition:background-color 0.1s linear}
+            <svg Nav__Hex> [22,75,64,25] {overflow:hidden}
+           <DIV > [195,87,0,0] {position:relative}
+           <BUTTON MobileNav__HamburgerButton> [334,67,40,40] {display:grid; position:relative; align-items:center; grid-template-columns:40px; grid-template-rows:40px; margin:0px 8px 0px 0px; aspect-ratio:1 / 1; font-family:Arial; font-size:13.3333px; line-height:normal; text-align:center; color:rgb(0, 0, 0); border-radius:999px}
+            <DIV MobileNav__HamburgerButtonShadow> [334,67,40,40] {position:absolute; background-image:radial-gradient(circle at 66.66% 50%, rgb(29, 29, 41) 0%, rgb(15, 15, 21) 80%); border-radius:999px; box-shadow:rgb(17, 17, 24) 0px 0px 24px 0px inset, rgb(47, 47, 65) 0px 0.5px 0px 0.75px, rgba(0, 0, 0, 0.01) 6px 37px 10px 0px, rgba(0, 0, 0, 0.04) 4px 24px 10px 0px, rgba(0, 0, 0, 0.14) 2px 13px 8px 0px, rgba(0, 0, 0, 0.24) 1px 6px 6px 0px, rgba(0, 0, 0, 0.27) 0px 1px 3px 0px; z-index:-1}
+            <DIV MobileNav__HamburgerButtonBg> [334,67,40,40] {position:absolute; background-color:rgb(20, 20, 28); border-radius:999px; z-index:-1}
+           <DIV Nav__NavRootBorder> [195,114,0,1] {position:absolute; background-color:rgb(58, 49, 56); opacity:0; transform:matrix(0, 0, 0, 1, 0, 0)}
+          <DIV Nav__NavBorderBottom> [382,114,8,1] {grid-column:-1; background-color:rgb(43, 37, 44); opacity:0}
+        <DIV Accent__LContainer> [-1,31,16,16] {display:grid; position:absolute; align-items:center; grid-template-columns:16px; grid-template-rows:16px; grid-column:2 / -2; transform:matrix(1, 0, 0, 1, -8, -8); z-index:2}
+         <DIV Accent__VerticalBar> [7,31,1,16] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+         <DIV Accent__HorizontalBar> [-1,39,16,1] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+        <DIV Accent__LContainer> [375,31,16,16] {display:grid; position:absolute; align-items:center; grid-template-columns:16px; grid-template-rows:16px; grid-column:2 / -2; transform:matrix(1, 0, 0, 1, 8, -8); z-index:2}
+         <DIV Accent__VerticalBar> [382,31,1,16] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+         <DIV Accent__HorizontalBar> [375,39,16,1] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+        <DIV Accent__LContainer> [375,86,16,16] {display:grid; position:absolute; align-items:center; grid-template-columns:16px; grid-template-rows:16px; grid-column:2 / -2; transform:matrix(1, 0, 0, 1, 8, 8); z-index:2}
+         <DIV Accent__VerticalBar> [382,86,1,16] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+         <DIV Accent__HorizontalBar> [375,94,16,1] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+        <DIV Accent__LContainer> [-1,86,16,16] {display:grid; position:absolute; align-items:center; grid-template-columns:16px; grid-template-rows:16px; grid-column:2 / -2; transform:matrix(1, 0, 0, 1, -8, 8); z-index:2}
+         <DIV Accent__VerticalBar> [7,86,1,16] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+         <DIV Accent__HorizontalBar> [-1,94,16,1] {position:relative; grid-column:-1; opacity:0; overflow:clip}
+       <DIV > [0,115,390,0] {grid-column:1 / -1; transform:matrix(1, 0, 0, 1, 0, 46.8438)}
+   <MAIN LayoutGrid__LayoutSubgrid> [0,0,390,9083] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:9083.38px; grid-column:1 / -1}
+    <DIV LayoutGrid__LayoutSubgrid> [0,0,390,9083] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:9083.38px; grid-column:1 / -1}
+     <DIV GridLines__GridRule> [195,0,1,9083] {grid-column:7; background-color:rgb(43, 37, 44); transform:matrix(1, 0, 0, 1, 0.5, 0)}
+    <DIV LayoutGrid__LayoutSubgrid> [0,0,390,9083] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:9083.38px; grid-column:1 / -1}
+     <DIV GridLines__ContentMarginLine> [0,0,8,9083] {grid-column:1; background-image:linear-gradient(rgba(0, 0, 0, 0) calc(100% - 1px), rgb(43, 37, 44) calc(100% - 1px)); border-right:1px solid rgb(58, 49, 56)}
+     <DIV LayoutGrid__LayoutSubgrid V1PageWrapper__V1Subgrid> [8,0,374,9083] {display:grid; position:relative; grid-template-columns:31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px 31.1875px; grid-template-rows:8939.38px; grid-column:2 / -2; padding:144px 0px 0px; overflow:clip visible}
+      <DIV EventsLanding__Wrapper> [8,144,374,8739] {display:flex; flex-direction:column; gap:80px; grid-column:1 / -1; padding:0px 40px; margin:0px 0px 200px; max-width:1240px}
+       <DIV EventsAndGuidesIntro__Wrapper> [48,144,294,403] {display:flex; flex-direction:column; justify-content:space-between; align-items:center; gap:32px}
+        <DIV EventsAndGuidesIntro__Copy> [48,144,294,175] {z-index:1}
+         <H1 Heading__HeadingInternal Heading___StyledHeadingInternal> [42,144,306,61] «Events» {padding:0px 6px 6px; margin:0px -6px -6px; font-family:PP Formula SemiExtended; font-size:42px; line-height:54.6px; font-weight:700; letter-spacing:-1.05px; text-align:left; color:rgb(255, 255, 255); background-color:rgb(255, 255, 255); background-image:linear-gradient(55deg, rgb(255, 255, 255) 20%, rgba(245, 192, 192, 0.8) 100%)}
+         <P Text__TextWrapper Text___StyledTextWrapper> [48,199,294,120] «Connect with Hex to learn how to do more with data, together. Find upcoming virtual and in» {max-width:488.68px; font-size:20px; line-height:30px; font-weight:300; text-wrap:balance}
+        <DIV EventsAndGuidesIntro__Illustration> [33,351,324,197] {}
+         <IMG > [33,351,324,197] src=https://hex.tech/images/events-and-guides-hero.svg nat=247x150 {aspect-ratio:auto 840 / 510; color:rgba(0, 0, 0, 0); overflow:clip}
+       <DIV EventsLanding__Body> [48,627,294,8256] {display:flex; flex-direction:column; align-items:flex-start}
+        <DIV > [48,627,294,8256] {}
+         <DIV SectionHeader__Wrapper> [48,627,294,69] {}
+          <DIV SectionHeader__IconWrapper> [48,627,294,15] {display:flex; align-items:center; margin:0px 0px 15px}
+           <DIV SectionHeader__Icon> [98,627,15,15] {margin:0px 15px}
+            <SPAN createIcon__Wrapper EventsLanding__UpcomingIcon> [98,627,15,15] {display:flex; aspect-ratio:1 / 1; color:rgb(227, 178, 179)}
+             <svg > [98,627,15,15] {aspect-ratio:1 / 1; color:rgb(173, 142, 182); overflow:hidden}
+          <DIV SectionHeader__TextWrapper> [48,657,294,39] {margin:0px 0px 20px}
+           <H2 Heading__HeadingInternal Heading___StyledHeadingInternal> [48,657,294,39] «Upcoming» {margin:0px 0px 10px; font-family:PP Formula; font-size:30px; line-height:39px; font-weight:800; letter-spacing:-0.75px; color:rgb(255, 255, 255)}
+         <DIV EventsLanding__List> [48,716,294,705] {display:grid; gap:20px; grid-template-columns:294.25px; grid-template-rows:282.719px 402.109px}
+          <DIV EventAndGuideCard__CardLink> [48,716,294,283] {}
+           <A > [48,716,294,283] href=https://hex.tech/prompt/ {transition:background-color 0.1s linear}
+            <DIV Card__Wrapper> [48,716,294,283] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <FIGURE EventAndGuideCard__FeaturedImageWrapper> [59,727,272,143] {display:flex; justify-content:center; align-items:center; aspect-ratio:2400 / 1260; background-color:color(srgb 0.960784 0.752941 0.752941 / 0.05); overflow:hidden}
+              <IMG > [59,727,272,143] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F443b90a256340ae2d56524fc9e35d0aa3eed989c-24 nat=390x204 {aspect-ratio:auto 2400 / 1260; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+             <DIV EventAndGuideCard__Copy> [59,870,145,118] {display:flex; flex-direction:column; padding:15px}
+              <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [74,885,115,36] «Prompt» {margin:0px 0px 20px; font-family:PP Formula; font-size:28px; line-height:36.4px; font-weight:700; letter-spacing:-0.7px; color:rgb(255, 255, 255)}
+              <DIV EventAndGuideCard__Footer> [74,941,115,31] {display:flex; justify-content:space-between; align-items:center; font-size:20px; line-height:31.42px}
+               <SPAN EventAndGuideCard__CardFooterCTASpan> [74,941,78,31] «Register» {position:relative; text-decoration-line:underline}
+          <DIV EventAndGuideCard__CardLink> [48,1019,294,402] {}
+           <A > [48,1019,294,402] href=https://maven.com/dataneighbor/enterprise-context-management-for-analytics?promoCode=CONTEXT25 {transition:background-color 0.1s linear}
+            <DIV Card__Wrapper> [48,1019,294,402] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <FIGURE EventAndGuideCard__FeaturedImageWrapper> [59,1030,272,153] {display:flex; justify-content:center; align-items:center; aspect-ratio:1280 / 720; background-color:color(srgb 0.960784 0.752941 0.752941 / 0.05); overflow:hidden}
+              <IMG > [59,1030,272,153] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F548d1dee5fcfe4ac296bffc44b76a34a8f7aff4e-12 nat=390x219 {aspect-ratio:auto 1280 / 720; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+             <DIV EventAndGuideCard__Copy> [59,1183,272,227] {display:flex; flex-direction:column; padding:15px}
+              <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [74,1198,242,146] «Enterprise Context Management for Analytics» {margin:0px 0px 20px; font-family:PP Formula; font-size:28px; line-height:36.4px; font-weight:700; letter-spacing:-0.7px; color:rgb(255, 255, 255)}
+              <DIV EventAndGuideCard__Footer> [74,1364,242,31] {display:flex; justify-content:space-between; align-items:center; font-size:20px; line-height:31.42px}
+               <SPAN EventAndGuideCard__CardFooterCTASpan> [74,1364,242,31] «Register for the workshop» {position:relative; text-decoration-line:underline}
+         <DIV SectionHeader__Wrapper> [48,1487,294,74] {margin:66px 0px 0px}
+          <DIV SectionHeader__IconWrapper> [48,1487,294,20] {display:flex; align-items:center; margin:0px 0px 15px}
+           <DIV SectionHeader__Icon> [98,1487,20,20] {margin:0px 15px}
+            <SPAN createIcon__Wrapper EventsLanding__OnDemandIcon> [98,1487,20,20] {display:flex; aspect-ratio:1 / 1; color:rgb(227, 178, 179)}
+             <svg > [98,1487,20,20] {aspect-ratio:1 / 1; color:rgb(173, 142, 182); overflow:hidden}
+          <DIV SectionHeader__TextWrapper> [48,1522,294,39] {margin:0px 0px 20px}
+           <H2 Heading__HeadingInternal Heading___StyledHeadingInternal> [48,1522,294,39] «On-demand» {margin:0px 0px 10px; font-family:PP Formula; font-size:30px; line-height:39px; font-weight:800; letter-spacing:-0.75px; color:rgb(255, 255, 255)}
+         <DIV EventsLanding__List> [48,1581,294,7302] {display:grid; gap:20px; grid-template-columns:294.25px; grid-template-rows:391.891px 319.109px 355.5px 355.5px 319.109px 355.5px 319.109px 391.891px 428.281px 402.109px 321.469px 319.109px 319.109px 402.109px 365.719px 355.5px 427.859px 427.859px 365.719px}
+          <DIV EventAndGuideCard__CardLink> [48,1581,294,392] {}
+           <A > [48,1581,294,392] href=https://app.sequel.io/hex/bi-migration-skill {transition:background-color 0.1s linear}
+            <DIV Card__Wrapper> [48,1581,294,392] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <FIGURE EventAndGuideCard__FeaturedImageWrapper> [59,1592,272,143] {display:flex; justify-content:center; align-items:center; aspect-ratio:2400 / 1260; background-color:color(srgb 0.960784 0.752941 0.752941 / 0.05); overflow:hidden}
+              <IMG > [59,1592,272,143] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F3f1de29c13b907051949a506dd11208898abd6d4-24 nat=390x204 {aspect-ratio:auto 2400 / 1260; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+             <DIV EventAndGuideCard__Copy> [59,1735,272,227] {display:flex; flex-direction:column; padding:15px}
+              <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [74,1750,242,146] «From Months to Weeks: BI Migrations with AI» {margin:0px 0px 20px; font-family:PP Formula; font-size:28px; line-height:36.4px; font-weight:700; letter-spacing:-0.7px; color:rgb(255, 255, 255)}
+              <DIV EventAndGuideCard__Footer> [74,1915,242,31] {display:flex; justify-content:space-between; align-items:center; font-size:20px; line-height:31.42px}
+               <SPAN EventAndGuideCard__CardFooterCTASpan> [74,1915,159,31] «Watch the replay» {position:relative; text-decoration-line:underline}
+          <DIV EventAndGuideCard__CardLink> [48,1993,294,319] {}
+           <A > [48,1993,294,319] href=https://hex.tech/resources/video/ai-data-analytics-benchmarks/ {transition:background-color 0.1s linear}
+            <DIV Card__Wrapper> [48,1993,294,319] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <FIGURE EventAndGuideCard__FeaturedImageWrapper> [59,2004,272,143] {display:flex; justify-content:center; align-items:center; aspect-ratio:1800 / 945; background-color:color(srgb 0.960784 0.752941 0.752941 / 0.05); overflow:hidden}
+              <IMG > [59,2004,272,143] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2Fa9c289740657d88dabc5cf9aecbd0bbeb76a5a62-18 nat=390x204 {aspect-ratio:auto 1800 / 945; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+             <DIV EventAndGuideCard__Copy> [59,2147,272,154] {display:flex; flex-direction:column; padding:15px}
+              <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [74,2162,242,73] «DataBench Launch Event» {margin:0px 0px 20px; font-family:PP Formula; font-size:28px; line-height:36.4px; font-weight:700; letter-spacing:-0.7px; color:rgb(255, 255, 255)}
+              <DIV EventAndGuideCard__Footer> [74,2255,242,31] {display:flex; justify-content:space-between; align-items:center; font-size:20px; line-height:31.42px}
+               <SPAN EventAndGuideCard__CardFooterCTASpan> [74,2255,102,31] «Watch now» {position:relative; text-decoration-line:underline}
+          <DIV EventAndGuideCard__CardLink> [48,2332,294,356] {}
+           <A > [48,2332,294,356] href=https://www.youtube.com/watch?v=-aiLWduiUwc {transition:background-color 0.1s linear}
+            <DIV Card__Wrapper> [48,2332,294,356] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <FIGURE EventAndGuideCard__FeaturedImageWrapper> [59,2343,272,143] {display:flex; justify-content:center; align-items:center; aspect-ratio:1200 / 630; background-color:color(srgb 0.960784 0.752941 0.752941 / 0.05); overflow:hidden}
+              <IMG > [59,2343,272,143] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2Ff71ea3d9786e800bd6aaa16b3e1f67ef1bba90ef-12 nat=390x204 {aspect-ratio:auto 1200 / 630; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+             <DIV EventAndGuideCard__Copy> [59,2486,272,191] {display:flex; flex-direction:column; padding:15px}
+              <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [74,2501,242,109] «Agent driven reporting with ClickUp» {margin:0px 0px 20px; font-family:PP Formula; font-size:28px; line-height:36.4px; font-weight:700; letter-spacing:-0.7px; color:rgb(255, 255, 255)}
+              <DIV EventAndGuideCard__Footer> [74,2630,242,31] {display:flex; justify-content:space-between; align-items:center; font-size:20px; line-height:31.42px}
+               <SPAN EventAndGuideCard__CardFooterCTASpan> [74,2630,190,31] «Watch the recording» {position:relative; text-decoration-line:underline}
+          <DIV EventAndGuideCard__CardLink> [48,2707,294,356] {}
+           <A > [48,2707,294,356] href=https://www.youtube.com/watch?v=qHUiKSP1S78 {transition:background-color 0.1s linear}
+            <DIV Card__Wrapper> [48,2707,294,356] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <FIGURE EventAndGuideCard__FeaturedImageWrapper> [59,2718,272,143] {display:flex; justify-content:center; align-items:center; aspect-ratio:1200 / 630; background-color:color(srgb 0.960784 0.752941 0.752941 / 0.05); overflow:hidden}
+              <IMG > [59,2718,272,143] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F0e73cfbde2305cd5e08f6666514ac2b9b423be91-12 nat=390x204 {aspect-ratio:auto 1200 / 630; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+             <DIV EventAndGuideCard__Copy> [59,2861,272,191] {display:flex; flex-direction:column; padding:15px}
+              <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [74,2876,242,109] «The Hex Agent Advantage with Supabase» {margin:0px 0px 20px; font-family:PP Formula; font-size:28px; line-height:36.4px; font-weight:700; letter-spacing:-0.7px; color:rgb(255, 255, 255)}
+              <DIV EventAndGuideCard__Footer> [74,3006,242,31] {display:flex; justify-content:space-between; align-items:center; font-size:20px; line-height:31.42px}
+               <SPAN EventAndGuideCard__CardFooterCTASpan> [74,3006,190,31] «Watch the recording» {position:relative; text-decoration-line:underline}
+          <DIV EventAndGuideCard__CardLink> [48,3083,294,319] {}
+           <A > [48,3083,294,319] href=https://www.youtube.com/watch?v=Px3qQ5mLDTI {transition:background-color 0.1s linear}
+            <DIV Card__Wrapper> [48,3083,294,319] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <FIGURE EventAndGuideCard__FeaturedImageWrapper> [59,3094,272,143] {display:flex; justify-content:center; align-items:center; aspect-ratio:1200 / 630; background-color:color(srgb 0.960784 0.752941 0.752941 / 0.05); overflow:hidden}
+              <IMG > [59,3094,272,143] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2Fa57fde80d1ddc1045ab2680289f43b330a939966-12 nat=390x204 {aspect-ratio:auto 1200 / 630; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+             <DIV EventAndGuideCard__Copy> [59,3237,272,154] {display:flex; flex-direction:column; padding:15px}
+              <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [74,3252,242,73] «Inside Modal's GTM Engine» {margin:0px 0px 20px; font-family:PP Formula; font-size:28px; line-height:36.4px; font-weight:700; letter-spacing:-0.7px; color:rgb(255, 255, 255)}
+              <DIV EventAndGuideCard__Footer> [74,3345,242,31] {display:flex; justify-content:space-between; align-items:center; font-size:20px; line-height:31.42px}
+               <SPAN EventAndGuideCard__CardFooterCTASpan> [74,3345,190,31] «Watch the recording» {position:relative; text-decoration-line:underline}
+          <DIV EventAndGuideCard__CardLink> [48,3422,294,356] {}
+           <A > [48,3422,294,356] href=https://www.youtube.com/watch?v=eg-ie4EGKmE {transition:background-color 0.1s linear}
+            <DIV Card__Wrapper> [48,3422,294,356] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <FIGURE EventAndGuideCard__FeaturedImageWrapper> [59,3433,272,143] {display:flex; justify-content:center; align-items:center; aspect-ratio:2400 / 1260; background-color:color(srgb 0.960784 0.752941 0.752941 / 0.05); overflow:hidden}
+              <IMG > [59,3433,272,143] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F1edde4a397ce6e3c14cbbaf565da184e304ae2a9-24 nat=390x204 {aspect-ratio:auto 2400 / 1260; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+             <DIV EventAndGuideCard__Copy> [59,3576,272,191] {display:flex; flex-direction:column; padding:15px}
+              <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [74,3591,242,109] «Introducing Generative Data Apps» {margin:0px 0px 20px; font-family:PP Formula; font-size:28px; line-height:36.4px; font-weight:700; letter-spacing:-0.7px; color:rgb(255, 255, 255)}
+              <DIV EventAndGuideCard__Footer> [74,3720,242,31] {display:flex; justify-content:space-between; align-items:center; font-size:20px; line-height:31.42px}
+               <SPAN EventAndGuideCard__CardFooterCTASpan> [74,3720,102,31] «Watch now» {position:relative; text-decoration-line:underline}
+          <DIV EventAndGuideCard__CardLink> [48,3798,294,319] {}
+           <A > [48,3798,294,319] href=https://www.youtube.com/watch?v=H0m6UtYnvQo {transition:background-color 0.1s linear}
+            <DIV Card__Wrapper> [48,3798,294,319] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <FIGURE EventAndGuideCard__FeaturedImageWrapper> [59,3809,272,143] {display:flex; justify-content:center; align-items:center; aspect-ratio:2400 / 1260; background-color:color(srgb 0.960784 0.752941 0.752941 / 0.05); overflow:hidden}
+              <IMG > [59,3809,272,143] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2Ff2c87b646ae31e7e956dcb56aa9dc260cf393df5-24 nat=390x204 {aspect-ratio:auto 2400 / 1260; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+             <DIV EventAndGuideCard__Copy> [59,3951,272,154] {display:flex; flex-direction:column; padding:15px}
+              <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [74,3966,242,73] «Introducing Hex CLI» {margin:0px 0px 20px; font-family:PP Formula; font-size:28px; line-height:36.4px; font-weight:700; letter-spacing:-0.7px; color:rgb(255, 255, 255)}
+              <DIV EventAndGuideCard__Footer> [74,4059,242,31] {display:flex; justify-content:space-between; align-items:center; font-size:20px; line-height:31.42px}
+               <SPAN EventAndGuideCard__CardFooterCTASpan> [74,4059,102,31] «Watch now» {position:relative; text-decoration-line:underline}
+          <DIV EventAndGuideCard__CardLink> [48,4137,294,392] {}
+           <A > [48,4137,294,392] href=https://www.youtube.com/watch?v=EDo24GfND-c {transition:background-color 0.1s linear}
+            <DIV Card__Wrapper> [48,4137,294,392] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <FIGURE EventAndGuideCard__FeaturedImageWrapper> [59,4148,272,143] {display:flex; justify-content:center; align-items:center; aspect-ratio:2400 / 1260; background-color:color(srgb 0.960784 0.752941 0.752941 / 0.05); overflow:hidden}
+              <IMG > [59,4148,272,143] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F4008ef01af1d779636ca89cc7799f8ef06c999d2-24 nat=390x204 {aspect-ratio:auto 2400 / 1260; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+             <DIV EventAndGuideCard__Copy> [59,4291,272,227] {display:flex; flex-direction:column; padding:15px}
+              <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [74,4306,242,146] «Introducing the Context Studio: Virtual Launch Event» {margin:0px 0px 20px; font-family:PP Formula; font-size:28px; line-height:36.4px; font-weight:700; letter-spacing:-0.7px; color:rgb(255, 255, 255)}
+              <DIV EventAndGuideCard__Footer> [74,4471,242,31] {display:flex; justify-content:space-between; align-items:center; font-size:20px; line-height:31.42px}
+               <SPAN EventAndGuideCard__CardFooterCTASpan> [74,4471,102,31] «Watch now» {position:relative; text-decoration-line:underline}
+          <DIV EventAndGuideCard__CardLink> [48,4549,294,428] {}
+           <A > [48,4549,294,428] href=https://www.youtube.com/watch?v=_1TozcgCaCo {transition:background-color 0.1s linear}
+            <DIV Card__Wrapper> [48,4549,294,428] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <FIGURE EventAndGuideCard__FeaturedImageWrapper> [59,4560,272,143] {display:flex; justify-content:center; align-items:center; aspect-ratio:1200 / 630; background-color:color(srgb 0.960784 0.752941 0.752941 / 0.05); overflow:hidden}
+              <IMG > [59,4560,272,143] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F85c2011a1584878ebe3643356336c3bfc5650af1-12 nat=390x204 {aspect-ratio:auto 1200 / 630; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+             <DIV EventAndGuideCard__Copy> [59,4702,272,263] {display:flex; flex-direction:column; padding:15px}
+              <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [74,4717,242,182] «How Neo Financial scaled AI-powered analytics in Slack» {margin:0px 0px 20px; font-family:PP Formula; font-size:28px; line-height:36.4px; font-weight:700; letter-spacing:-0.7px; color:rgb(255, 255, 255)}
+              <DIV EventAndGuideCard__Footer> [74,4919,242,31] {display:flex; justify-content:space-between; align-items:center; font-size:20px; line-height:31.42px}
+               <SPAN EventAndGuideCard__CardFooterCTASpan> [74,4919,102,31] «Watch now» {position:relative; text-decoration-line:underline}
+          <DIV EventAndGuideCard__CardLink> [48,4997,294,402] {}
+           <A > [48,4997,294,402] href=https://youtu.be/d5M4OvIx5ZE {transition:background-color 0.1s linear}
+            <DIV Card__Wrapper> [48,4997,294,402] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <FIGURE EventAndGuideCard__FeaturedImageWrapper> [59,5008,272,153] {display:flex; justify-content:center; align-items:center; aspect-ratio:2560 / 1440; background-color:color(srgb 0.960784 0.752941 0.752941 / 0.05); overflow:hidden}
+              <IMG > [59,5008,272,153] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F34bb57d4ea08db7a539255ddc221f7df2e743744-25 nat=390x219 {aspect-ratio:auto 2560 / 1440; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+             <DIV EventAndGuideCard__Copy> [59,5161,272,227] {display:flex; flex-direction:column; padding:15px}
+              <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [74,5176,242,146] «Measuring product health with the Hex Agent» {margin:0px 0px 20px; font-family:PP Formula; font-size:28px; line-height:36.4px; font-weight:700; letter-spacing:-0.7px; color:rgb(255, 255, 255)}
+              <DIV EventAndGuideCard__Footer> [74,5342,242,31] {display:flex; justify-content:space-between; align-items:center; font-size:20px; line-height:31.42px}
+               <SPAN EventAndGuideCard__CardFooterCTASpan> [74,5342,102,31] «Watch now» {position:relative; text-decoration-line:underline}
+          <DIV EventAndGuideCard__CardLink> [48,5419,294,321] {}
+           <A > [48,5419,294,321] href=https://youtu.be/XyeGWrjuaDM {transition:background-color 0.1s linear}
+            <DIV Card__Wrapper> [48,5419,294,321] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <FIGURE EventAndGuideCard__FeaturedImageWrapper> [59,5430,272,109] {display:flex; justify-content:center; align-items:center; aspect-ratio:1150 / 460; background-color:color(srgb 0.960784 0.752941 0.752941 / 0.05); overflow:hidden}
+              <IMG > [59,5430,272,109] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F5bbac723aba7c2bf11db1f87bb7dac72b2befb9c-11 nat=390x156 {aspect-ratio:auto 1150 / 460; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+             <DIV EventAndGuideCard__Copy> [59,5539,272,191] {display:flex; flex-direction:column; padding:15px}
+              <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [74,5554,242,109] «Analytics where you work: Hex Agent in Slack» {margin:0px 0px 20px; font-family:PP Formula; font-size:28px; line-height:36.4px; font-weight:700; letter-spacing:-0.7px; color:rgb(255, 255, 255)}
+              <DIV EventAndGuideCard__Footer> [74,5683,242,31] {display:flex; justify-content:space-between; align-items:center; font-size:20px; line-height:31.42px}
+               <SPAN EventAndGuideCard__CardFooterCTASpan> [74,5683,102,31] «Watch now» {position:relative; text-decoration-line:underline}
+          <DIV EventAndGuideCard__CardLink> [48,5760,294,319] {}
+           <A > [48,5760,294,319] href=/resources/video/grounding-ai-in-trusted-context/ {transition:background-color 0.1s linear}
+            <DIV Card__Wrapper> [48,5760,294,319] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <FIGURE EventAndGuideCard__FeaturedImageWrapper> [59,5771,272,143] {display:flex; justify-content:center; align-items:center; aspect-ratio:2400 / 1260; background-color:color(srgb 0.960784 0.752941 0.752941 / 0.05); overflow:hidden}
+              <IMG > [59,5771,272,143] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2Fbbdc0e67ea027ba622fe667c43a293d32c18e130-24 nat=390x204 {aspect-ratio:auto 2400 / 1260; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+             <DIV EventAndGuideCard__Copy> [59,5914,272,154] {display:flex; flex-direction:column; padding:15px}
+              <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [74,5929,242,73] «Grounding AI in trusted context» {margin:0px 0px 20px; font-family:PP Formula; font-size:28px; line-height:36.4px; font-weight:700; letter-spacing:-0.7px; color:rgb(255, 255, 255)}
+              <DIV EventAndGuideCard__Footer> [74,6022,242,31] {display:flex; justify-content:space-between; align-items:center; font-size:20px; line-height:31.42px}
+               <SPAN EventAndGuideCard__CardFooterCTASpan> [74,6022,102,31] «Watch now» {position:relative; text-decoration-line:underline}
+          <DIV EventAndGuideCard__CardLink> [48,6100,294,319] {}
+           <A > [48,6100,294,319] href=/resources/video/fall-2025-launch-demo-threads/ {transition:background-color 0.1s linear}
+            <DIV Card__Wrapper> [48,6100,294,319] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <FIGURE EventAndGuideCard__FeaturedImageWrapper> [59,6111,272,143] {display:flex; justify-content:center; align-items:center; aspect-ratio:2400 / 1260; background-color:color(srgb 0.960784 0.752941 0.752941 / 0.05); overflow:hidden}
+              <IMG > [59,6111,272,143] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F1917eb39fb16ccd6086b636e33b78c969b2396a9-24 nat=390x204 {aspect-ratio:auto 2400 / 1260; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+             <DIV EventAndGuideCard__Copy> [59,6253,272,154] {display:flex; flex-direction:column; padding:15px}
+              <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [74,6268,242,73] «Fall 2025 Launch Demo» {margin:0px 0px 20px; font-family:PP Formula; font-size:28px; line-height:36.4px; font-weight:700; letter-spacing:-0.7px; color:rgb(255, 255, 255)}
+              <DIV EventAndGuideCard__Footer> [74,6361,242,31] {display:flex; justify-content:space-between; align-items:center; font-size:20px; line-height:31.42px}
+               <SPAN EventAndGuideCard__CardFooterCTASpan> [74,6361,102,31] «Watch now» {position:relative; text-decoration-line:underline}
+          <DIV EventAndGuideCard__CardLink> [48,6439,294,402] {}
+           <A > [48,6439,294,402] href=/resources/video/running-ai-powered-data-teams/ {transition:background-color 0.1s linear}
+            <DIV Card__Wrapper> [48,6439,294,402] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <FIGURE EventAndGuideCard__FeaturedImageWrapper> [59,6450,272,153] {display:flex; justify-content:center; align-items:center; aspect-ratio:2560 / 1440; background-color:color(srgb 0.960784 0.752941 0.752941 / 0.05); overflow:hidden}
+              <IMG > [59,6450,272,153] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F7bf07976b6d97a4bb2acc715cf7433e17993d21e-25 nat=390x219 {aspect-ratio:auto 2560 / 1440; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+             <DIV EventAndGuideCard__Copy> [59,6603,272,227] {display:flex; flex-direction:column; padding:15px}
+              <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [74,6618,242,146] «Lessons from Ramp: Running AI-powered data teams» {margin:0px 0px 20px; font-family:PP Formula; font-size:28px; line-height:36.4px; font-weight:700; letter-spacing:-0.7px; color:rgb(255, 255, 255)}
+              <DIV EventAndGuideCard__Footer> [74,6783,242,31] {display:flex; justify-content:space-between; align-items:center; font-size:20px; line-height:31.42px}
+               <SPAN EventAndGuideCard__CardFooterCTASpan> [74,6783,102,31] «Watch now» {position:relative; text-decoration-line:underline}
+          <DIV EventAndGuideCard__CardLink> [48,6861,294,366] {}
+           <A > [48,6861,294,366] href=/resources/video/welcome-to-agentic-analytics/ {transition:background-color 0.1s linear}
+            <DIV Card__Wrapper> [48,6861,294,366] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <FIGURE EventAndGuideCard__FeaturedImageWrapper> [59,6872,272,153] {display:flex; justify-content:center; align-items:center; aspect-ratio:2560 / 1440; background-color:color(srgb 0.960784 0.752941 0.752941 / 0.05); overflow:hidden}
+              <IMG > [59,6872,272,153] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2Fe4435e247a593043abda364082beb7e4a57fe5da-25 nat=390x219 {aspect-ratio:auto 2560 / 1440; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+             <DIV EventAndGuideCard__Copy> [59,7025,272,191] {display:flex; flex-direction:column; padding:15px}
+              <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [74,7040,242,109] «Welcome to Agentic Analytics» {margin:0px 0px 20px; font-family:PP Formula; font-size:28px; line-height:36.4px; font-weight:700; letter-spacing:-0.7px; color:rgb(255, 255, 255)}
+              <DIV EventAndGuideCard__Footer> [74,7169,242,31] {display:flex; justify-content:space-between; align-items:center; font-size:20px; line-height:31.42px}
+               <SPAN EventAndGuideCard__CardFooterCTASpan> [74,7169,102,31] «Watch now» {position:relative; text-decoration-line:underline}
+          <DIV EventAndGuideCard__CardLink> [48,7246,294,356] {}
+           <A > [48,7246,294,356] href=/resources/video/curating-your-workspace-for-ai-in-hex/ {transition:background-color 0.1s linear}
+            <DIV Card__Wrapper> [48,7246,294,356] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <FIGURE EventAndGuideCard__FeaturedImageWrapper> [59,7257,272,143] {display:flex; justify-content:center; align-items:center; aspect-ratio:1200 / 630; background-color:color(srgb 0.960784 0.752941 0.752941 / 0.05); overflow:hidden}
+              <IMG > [59,7257,272,143] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F3a241e7e6d594831819e24a8a2693f6ccf01d653-12 nat=390x204 {aspect-ratio:auto 1200 / 630; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+             <DIV EventAndGuideCard__Copy> [59,7400,272,191] {display:flex; flex-direction:column; padding:15px}
+              <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [74,7415,242,109] «Curating your workspace for AI in Hex» {margin:0px 0px 20px; font-family:PP Formula; font-size:28px; line-height:36.4px; font-weight:700; letter-spacing:-0.7px; color:rgb(255, 255, 255)}
+              <DIV EventAndGuideCard__Footer> [74,7545,242,31] {display:flex; justify-content:space-between; align-items:center; font-size:20px; line-height:31.42px}
+               <SPAN EventAndGuideCard__CardFooterCTASpan> [74,7545,102,31] «Watch now» {position:relative; text-decoration-line:underline}
+          <DIV EventAndGuideCard__CardLink> [48,7622,294,428] {}
+           <A > [48,7622,294,428] href=/resources/video/how-data-leaders-are-rethinking-governance-in-2025/ {transition:background-color 0.1s linear}
+            <DIV Card__Wrapper> [48,7622,294,428] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <FIGURE EventAndGuideCard__FeaturedImageWrapper> [59,7633,272,143] {display:flex; justify-content:center; align-items:center; aspect-ratio:2560 / 1340; background-color:color(srgb 0.960784 0.752941 0.752941 / 0.05); overflow:hidden}
+              <IMG > [59,7633,272,143] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2Fd6cbac3e13499e52e53e87c65e1b5c6835a22002-25 nat=390x204 {aspect-ratio:auto 2560 / 1340; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+             <DIV EventAndGuideCard__Copy> [59,7775,272,263] {display:flex; flex-direction:column; padding:15px}
+              <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [74,7790,242,182] «How data leaders are rethinking governance in 2025» {margin:0px 0px 20px; font-family:PP Formula; font-size:28px; line-height:36.4px; font-weight:700; letter-spacing:-0.7px; color:rgb(255, 255, 255)}
+              <DIV EventAndGuideCard__Footer> [74,7992,242,31] {display:flex; justify-content:space-between; align-items:center; font-size:20px; line-height:31.42px}
+               <SPAN EventAndGuideCard__CardFooterCTASpan> [74,7992,102,31] «Watch now» {position:relative; text-decoration-line:underline}
+          <DIV EventAndGuideCard__CardLink> [48,8070,294,428] {}
+           <A > [48,8070,294,428] href=/resources/video/what-every-data-leader-needs-to-know-about-self-serve-in-2025/ {transition:background-color 0.1s linear}
+            <DIV Card__Wrapper> [48,8070,294,428] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <FIGURE EventAndGuideCard__FeaturedImageWrapper> [59,8081,272,143] {display:flex; justify-content:center; align-items:center; aspect-ratio:2560 / 1340; background-color:color(srgb 0.960784 0.752941 0.752941 / 0.05); overflow:hidden}
+              <IMG > [59,8081,272,143] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2F01201c1fa96292f14b44da9bf0961d2eff536a41-25 nat=390x204 {aspect-ratio:auto 2560 / 1340; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+             <DIV EventAndGuideCard__Copy> [59,8223,272,263] {display:flex; flex-direction:column; padding:15px}
+              <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [74,8238,242,182] «What every data leader needs to know about self-serve in 2025» {margin:0px 0px 20px; font-family:PP Formula; font-size:28px; line-height:36.4px; font-weight:700; letter-spacing:-0.7px; color:rgb(255, 255, 255)}
+              <DIV EventAndGuideCard__Footer> [74,8440,242,31] {display:flex; justify-content:space-between; align-items:center; font-size:20px; line-height:31.42px}
+               <SPAN EventAndGuideCard__CardFooterCTASpan> [74,8440,102,31] «Watch now» {position:relative; text-decoration-line:underline}
+          <DIV EventAndGuideCard__CardLink> [48,8518,294,366] {}
+           <A > [48,8518,294,366] href=/resources/video/ai-is-here-but-is-your-data-org-ready/ {transition:background-color 0.1s linear}
+            <DIV Card__Wrapper> [48,8518,294,366] {display:flex; position:relative; flex-direction:column; align-items:flex-start; padding:10px; text-align:left; border-top:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-right:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-bottom:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); border-left:1px solid color(srgb 0.960784 0.752941 0.752941 / 0.15); transition:border 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+             <FIGURE EventAndGuideCard__FeaturedImageWrapper> [59,8529,272,153] {display:flex; justify-content:center; align-items:center; aspect-ratio:1280 / 720; background-color:color(srgb 0.960784 0.752941 0.752941 / 0.05); overflow:hidden}
+              <IMG > [59,8529,272,153] src=https://hex.tech/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fe92memrj%2Fproduction%2Fe7d7c04ed0b27e649b5413e89d7d0b1f266d3a3b-12 nat=390x219 {aspect-ratio:auto 1280 / 720; color:rgba(0, 0, 0, 0); overflow:clip; object-fit:cover}
+             <DIV EventAndGuideCard__Copy> [59,8682,272,191] {display:flex; flex-direction:column; padding:15px}
+              <H4 Heading__HeadingInternal Heading___StyledHeadingInternal> [74,8697,242,109] «AI is here. But is your data org ready?» {margin:0px 0px 20px; font-family:PP Formula; font-size:28px; line-height:36.4px; font-weight:700; letter-spacing:-0.7px; color:rgb(255, 255, 255)}
+              <DIV EventAndGuideCard__Footer> [74,8826,242,31] {display:flex; justify-content:space-between; align-items:center; font-size:20px; line-height:31.42px}
+               <SPAN EventAndGuideCard__CardFooterCTASpan> [74,8826,102,31] «Watch now» {position:relative; text-decoration-line:underline}
+     <DIV GridLines__ContentMarginLine> [382,0,8,9083] {grid-column:-2 / span 1; background-image:linear-gradient(rgba(0, 0, 0, 0) calc(100% - 1px), rgb(43, 37, 44) calc(100% - 1px)); border-left:1px solid rgb(58, 49, 56)}
+   <DIV LayoutGrid__LayoutSubgrid> [0,9083,390,1114] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:1113.72px; grid-column:1 / -1}
+    <DIV GridLines__ContentMarginLine> [0,9083,8,1114] {grid-column:1; border-top:1px solid rgb(43, 37, 44); border-right:1px solid rgb(58, 49, 56); border-bottom:1px solid rgb(43, 37, 44)}
+    <FOOTER Footer__Wrapper> [8,9083,374,1114] {display:flex; flex-direction:column; grid-column:2 / -2}
+     <DIV Footer__Divider> [8,9083,374,1] {background-color:rgb(58, 49, 56)}
+     <DIV Footer> [8,9084,374,1112] {display:flex; flex-direction:column; gap:45px; grid-template-columns:minmax(0px, 1fr) auto minmax(0px, 1fr); padding:50px 30px; max-width:1240px}
+      <DIV Footer__Left> [38,9134,314,58] {display:flex; flex-direction:column; align-items:center; gap:15px}
+       <svg > [165,9134,60,20] {overflow:hidden}
+       <DIV Footer__MadeWith> [125,9169,141,23] {display:flex; align-items:center; color:rgb(153, 121, 125)}
+        <SPAN > [125,9170,69,22] «Made with» {margin:0px 4px 0px 0px}
+        <DIV Rotator__Wrapper> [197,9171,20,20] {display:flex; position:relative; overflow:hidden}
+         <DIV Rotator> [197,9151,20,20] {display:flex; flex-direction:column; transform:matrix(1, 0, 0, 1, 0, -20); transition:transform 0.8s cubic-bezier(0.25, 0.1, 0.25, 1)}
+          <DIV Rotator__Option> [197,9151,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,9151,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,9151,20,20] «🔒» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,9171,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,9171,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,9171,20,20] «🥖» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,9191,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,9191,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,9191,20,20] «🍷» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,9211,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,9211,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,9211,20,20] «🛌» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,9231,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,9231,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,9231,20,20] «💜» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,9251,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,9251,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,9251,20,20] «🥨» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,9271,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,9271,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,9271,20,20] «🛹» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,9291,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,9291,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,9291,20,20] «🍤» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,9311,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,9311,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,9311,20,20] «🧄» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,9331,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,9331,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,9331,20,20] «🍞» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,9351,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,9351,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,9351,20,20] «🥥» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,9371,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,9371,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,9371,20,20] «⛳» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,9391,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,9391,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,9391,20,20] «🤞» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,9411,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,9411,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,9411,20,20] «✨» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,9431,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,9431,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,9431,20,20] «🔊» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,9451,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,9451,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,9451,20,20] «🎧» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,9471,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,9471,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,9471,20,20] «🌊» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,9491,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,9491,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,9491,20,20] «🍀» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,9511,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,9511,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,9511,20,20] «🤠» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,9531,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,9531,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,9531,20,20] «🎷» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,9551,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,9551,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,9551,20,20] «🍩» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,9571,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,9571,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,9571,20,20] «☕» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,9591,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,9591,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,9591,20,20] «🥟» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,9611,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,9611,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,9611,20,20] «🍺» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,9631,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,9631,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,9631,20,20] «🍰» {display:flex; align-items:center}
+          <DIV Rotator__Option> [197,9651,20,20] {display:flex; align-items:center; overflow:hidden}
+           <LABEL > [197,9651,20,20] {}
+            <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [197,9651,20,20] «🔮» {display:flex; align-items:center}
+        <SPAN > [221,9169,44,23] «on .» {margin:0px 0px 0px 4px}
+         <SPAN EmojiGlyph-module__AX5Y3a__emojiGlyph> [243,9173,18,17] «🌎» {display:inline; margin:0px 0.7px 0px 1.4px}
+      <DIV Footer__Center> [38,9238,314,821] {display:flex; flex-direction:column; align-items:center; gap:60px}
+       <DIV Footer> [38,9238,314,611] {display:grid; justify-content:center; gap:30px; grid-template-columns:158.375px 125.875px; grid-template-rows:370.672px 210.75px; max-width:800px}
+        <DIV Footer__Column> [38,9238,158,371] {display:flex; flex-direction:column; align-items:center; gap:10px}
+         <DIV Footer__ColTitle> [85,9238,63,19] «Platform» {font-family:IBM Plex Mono; font-size:12px; line-height:18.852px; font-weight:700; letter-spacing:0.7px; text-transform:uppercase; color:rgb(255, 255, 255)}
+         <A > [72,9267,90,22] href=/capability/ai/ «AI and agents» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [56,9299,121,22] href=/product/notebooks/ «Agentic notebooks» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [38,9331,158,22] href=/product/threads/ «Conversational analytics» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [68,9363,97,22] href=/product/context-studio/ «Context Studio» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [84,9395,66,22] href=/product/data-apps/ «Data apps» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [93,9427,49,22] href=/product/cli/ «Hex CLI» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [48,9459,137,22] href=/product/bi/ «Business intelligence» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [51,9490,132,22] href=/capability/exploratory-analysis/ «Exploratory analysis» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [51,9522,132,22] href=/product/embedded-analytics/ «Embedded analytics» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [77,9554,79,22] href=/product/integrations/ «Integrations» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [82,9586,69,22] href=https://learn.hex.tech/changelog «Changelog» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+        <DIV Footer__Column> [226,9238,126,371] {display:flex; flex-direction:column; align-items:center; gap:10px}
+         <DIV Footer__ColTitle> [254,9238,71,19] «Resources» {font-family:IBM Plex Mono; font-size:12px; line-height:18.852px; font-weight:700; letter-spacing:0.7px; text-transform:uppercase; color:rgb(255, 255, 255)}
+         <A > [267,9267,45,22] href=/pricing/ «Pricing» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [234,9299,110,22] href=/product/switching-to-hex/ «Switching to Hex» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [255,9331,68,22] href=/enterprise/ «Enterprise» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [274,9363,31,22] href=https://learn.hex.tech «Docs» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [275,9395,29,22] href=/blog/ «Blog» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [267,9427,44,22] href=/resources/events/ «Events» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [256,9459,67,22] href=/templates/ «Templates» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [260,9490,59,22] href=/compare/ «Compare» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [249,9522,81,22] href=https://trust.hex.tech «Trust Center» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [268,9554,42,22] href=https://status.hex.tech «Status» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+        <DIV Footer__Column> [38,9638,158,211] {display:flex; flex-direction:column; align-items:center; gap:10px}
+         <DIV Footer__ColTitle> [89,9638,55,19] «Company» {font-family:IBM Plex Mono; font-size:12px; line-height:18.852px; font-weight:700; letter-spacing:0.7px; text-transform:uppercase; color:rgb(255, 255, 255)}
+         <A > [98,9667,39,22] href=/about/ «About» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [92,9699,51,22] href=/careers/ «Careers» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [82,9731,70,22] href=/customers/ «Customers» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [87,9763,60,22] href=/solutions/ «Solutions» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [87,9795,61,22] href=https://hexhq.notion.site/a091e1bb7bb34019bc4ccf2e3da8645f?v=bb640f9e0ef4499198673561e42a93f0 «Media kit» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [83,9827,69,22] href=/newsroom/ «Newsroom» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+        <DIV Footer__Column> [226,9638,126,211] {display:flex; flex-direction:column; align-items:center; gap:10px}
+         <DIV Footer__ColTitle> [262,9638,55,19] «Connect» {font-family:IBM Plex Mono; font-size:12px; line-height:18.852px; font-weight:700; letter-spacing:0.7px; text-transform:uppercase; color:rgb(255, 255, 255)}
+         <A > [236,9667,106,22] href=/request-a-demo/ «Request a demo» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [231,9699,116,22] href=mailto:support@hex.tech «Technical support» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [254,9731,70,22] href=/contact-us/ «Contact us» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [262,9763,55,22] href=https://www.linkedin.com/company/hex-technologies «LinkedIn» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [255,9795,68,22] href=https://x.com/hexanalytics «X (Twitter)» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+         <A > [263,9827,53,22] href=https://www.youtube.com/@_hex_tech «YouTube» {color:rgb(227, 178, 179); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+       <DIV Footer__Bottom> [38,9909,314,150] {display:flex; flex-direction:column; flex-wrap:wrap; justify-content:center; align-items:center; gap:10px}
+        <DIV Footer__Copyright> [100,9909,191,22] «© 2026 Hex Technologies Inc.» {color:rgb(153, 121, 125)}
+        <A > [150,9941,89,22] href=https://learn.hex.tech/docs/trust/privacy-policy «Privacy policy» {color:rgb(153, 121, 125); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+        <A > [133,9973,124,22] href=https://learn.hex.tech/docs/legal/terms-and-conditions «Terms & conditions» {color:rgb(153, 121, 125); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+        <A > [108,10005,173,22] href=/files/Hex_UK_Modern_Slavery_Act_Statement.pdf «Modern slavery statement» {color:rgb(153, 121, 125); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+        <BUTTON OptOutOfTrackingLink-module__ax0AOW__button> [133,10037,125,22] «Opt out of tracking» {text-align:center; color:rgb(153, 121, 125); transition:background-color 0.1s linear; white-space:nowrap; text-wrap:nowrap}
+      <DIV Footer> [38,10104,314,42] {display:flex; flex-direction:column; align-items:center}
+       <DIV HitCounter__Wrapper> [132,10104,126,42] {padding:5px 0px}
+        <DIV HitCounter> [132,10109,126,32] {display:flex; position:relative; gap:5px; padding:5px; border-top:1px solid rgb(58, 49, 56); border-right:1px solid rgb(58, 49, 56); border-bottom:1px solid rgb(58, 49, 56); border-left:1px solid rgb(58, 49, 56); transition:background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1)}
+         <DIV HitCounter__DigitWrapper> [138,10115,12,20] {display:flex; position:relative; gap:1px}
+          <DIV HitCounter__Col> [138,10115,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [138,10115,1,10] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+           <DIV HitCounter__Line> [138,10125,1,10] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+          <DIV HitCounter__Col> [140,10115,8,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [140,10115,8,1] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+           <DIV HitCounter__Line> [140,10125,8,1] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+           <DIV HitCounter__Line> [140,10134,8,1] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+          <DIV HitCounter__Col> [149,10115,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [149,10115,1,10] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [149,10125,1,10] {background-color:rgb(245, 192, 192)}
+         <DIV HitCounter__DigitWrapper> [155,10115,12,20] {display:flex; position:relative; gap:1px}
+          <DIV HitCounter__Col> [155,10115,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [155,10115,1,10] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [155,10125,1,10] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+          <DIV HitCounter__Col> [157,10115,8,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [157,10115,8,1] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+           <DIV HitCounter__Line> [157,10125,8,1] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [157,10134,8,1] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+          <DIV HitCounter__Col> [166,10115,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [166,10115,1,10] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [166,10125,1,10] {background-color:rgb(245, 192, 192)}
+         <DIV HitCounter__DigitWrapper> [172,10115,12,20] {display:flex; position:relative; gap:1px}
+          <DIV HitCounter__Col> [172,10115,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [172,10115,1,10] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+           <DIV HitCounter__Line> [172,10125,1,10] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+          <DIV HitCounter__Col> [174,10115,8,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [174,10115,8,1] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [174,10125,8,1] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+           <DIV HitCounter__Line> [174,10134,8,1] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+          <DIV HitCounter__Col> [183,10115,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [183,10115,1,10] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [183,10125,1,10] {background-color:rgb(245, 192, 192)}
+         <DIV HitCounter__DigitWrapper> [189,10115,12,20] {display:flex; position:relative; gap:1px}
+          <DIV HitCounter__Col> [189,10115,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [189,10115,1,10] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+           <DIV HitCounter__Line> [189,10125,1,10] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+          <DIV HitCounter__Col> [191,10115,8,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [191,10115,8,1] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+           <DIV HitCounter__Line> [191,10125,8,1] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+           <DIV HitCounter__Line> [191,10134,8,1] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+          <DIV HitCounter__Col> [200,10115,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [200,10115,1,10] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [200,10125,1,10] {background-color:rgb(245, 192, 192)}
+         <DIV HitCounter__DigitWrapper> [206,10115,12,20] {display:flex; position:relative; gap:1px}
+          <DIV HitCounter__Col> [206,10115,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [206,10115,1,10] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [206,10125,1,10] {background-color:rgb(245, 192, 192)}
+          <DIV HitCounter__Col> [208,10115,8,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [208,10115,8,1] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+           <DIV HitCounter__Line> [208,10125,8,1] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [208,10134,8,1] {background-color:rgb(245, 192, 192)}
+          <DIV HitCounter__Col> [217,10115,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [217,10115,1,10] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+           <DIV HitCounter__Line> [217,10125,1,10] {background-color:rgb(245, 192, 192)}
+         <DIV HitCounter__DigitWrapper> [223,10115,12,20] {display:flex; position:relative; gap:1px}
+          <DIV HitCounter__Col> [223,10115,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [223,10115,1,10] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+           <DIV HitCounter__Line> [223,10125,1,10] {background-color:rgb(245, 192, 192)}
+          <DIV HitCounter__Col> [225,10115,8,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [225,10115,8,1] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [225,10125,8,1] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [225,10134,8,1] {background-color:rgb(245, 192, 192)}
+          <DIV HitCounter__Col> [234,10115,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [234,10115,1,10] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [234,10125,1,10] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+         <DIV HitCounter__DigitWrapper> [240,10115,12,20] {display:flex; position:relative; gap:1px}
+          <DIV HitCounter__Col> [240,10115,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [240,10115,1,10] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [240,10125,1,10] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+          <DIV HitCounter__Col> [242,10115,8,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [242,10115,8,1] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [242,10125,8,1] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [242,10134,8,1] {background-color:color(srgb 0.960784 0.752941 0.752941 / 0.3)}
+          <DIV HitCounter__Col> [251,10115,1,20] {display:flex; flex-direction:column; justify-content:space-between; align-items:center}
+           <DIV HitCounter__Line> [251,10115,1,10] {background-color:rgb(245, 192, 192)}
+           <DIV HitCounter__Line> [251,10125,1,10] {background-color:rgb(245, 192, 192)}
+     <DIV Footer__Divider> [8,10196,374,1] {background-color:rgb(58, 49, 56)}
+    <DIV GridLines__ContentMarginLine> [382,9083,8,1114] {grid-column:-2 / span 1; border-top:1px solid rgb(43, 37, 44); border-bottom:1px solid rgb(43, 37, 44); border-left:1px solid rgb(58, 49, 56)}
+   <DIV LayoutGrid__LayoutSubgrid> [0,10197,390,32] {display:grid; grid-template-columns:subgrid [] [] [] [] [] [] [] [] [] [] [] [] [] [] []; grid-template-rows:32px; grid-column:1 / -1}
+    <DIV GridLines__ContentMarginLine> [0,10197,8,32] {grid-column:1; border-right:1px solid rgb(43, 37, 44)}
+    <DIV GridLines__GridRule> [101,10197,1,32] {grid-column:4; background-color:rgb(43, 37, 44); transform:matrix(1, 0, 0, 1, 0.5, 0)}
+    <DIV GridLines__GridRule> [288,10197,1,32] {grid-column:10; background-color:rgb(43, 37, 44); transform:matrix(1, 0, 0, 1, 0.5, 0)}
+    <DIV GridLines__ContentMarginLine> [382,10197,8,32] {grid-column:-2 / span 1; border-left:1px solid rgb(43, 37, 44)}

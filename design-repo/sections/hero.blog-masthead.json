@@ -1,0 +1,117 @@
+{
+  "id": "hero.blog-masthead",
+  "category": "hero",
+  "purpose": "Blog masthead: small H1 on a category divider, search toggle, commit-graph strip and a stats line.",
+  "variants": [],
+  "content": {
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 2,
+      "observedWords": [
+        1
+      ],
+      "measuredFrom": [
+        "specs/company.md:240"
+      ]
+    },
+    "dividerLabel": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 4,
+      "observedWords": [
+        3
+      ],
+      "measuredFrom": [
+        "specs/company.md:240"
+      ]
+    },
+    "searchPlaceholder": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 3,
+      "observedWords": [
+        2
+      ],
+      "measuredFrom": [
+        "specs/company.md:240"
+      ]
+    },
+    "stats": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 12,
+      "observedWords": [
+        9
+      ],
+      "measuredFrom": [
+        "specs/company.md:240"
+      ]
+    },
+    "graph": {
+      "kind": "media",
+      "required": true,
+      "roles": [
+        "image.capture-fallback",
+        "canvas.runtime"
+      ],
+      "alt": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 18,
+        "observedWords": [
+          14,
+          14
+        ],
+        "measuredFrom": [
+          "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+          "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+        ]
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-on-mount"
+    ],
+    "default": "reveal-on-mount"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.phone-sm}",
+      "change": "resize-type",
+      "detail": "masthead 271 tall, H1 20/26",
+      "measuredFrom": [
+        "specs/company.md:246"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/company.md:240",
+    "reference/pages/company/blog-masthead-1440.png"
+  ],
+  "notes": "The live commit graph is a runtime <canvas>; the clone shows a saved element capture (image.capture-fallback).",
+  "wordBudgets": {
+    "dividerLabel": 4,
+    "graph.alt": 18,
+    "headline": 2,
+    "searchPlaceholder": 3,
+    "stats": 12
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "canvas.runtime",
+    "image.capture-fallback"
+  ],
+  "usedByTemplates": [
+    "template.blog-index"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__hero.blog-masthead",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

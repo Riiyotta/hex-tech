@@ -1,0 +1,134 @@
+{
+  "id": "feature.use-cases",
+  "category": "feature",
+  "purpose": "Use-case list: mark + H2 with italic subheading on the left, three linked use-case rows on the right.",
+  "variants": [],
+  "content": {
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 3,
+      "observedWords": [
+        2
+      ],
+      "measuredFrom": [
+        "CLONE_SPEC.md:358"
+      ]
+    },
+    "italicLine": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 8,
+      "observedWords": [
+        6
+      ],
+      "measuredFrom": [
+        "CLONE_SPEC.md:358"
+      ]
+    },
+    "items": {
+      "kind": "list",
+      "required": true,
+      "minItems": 3,
+      "maxItems": 3,
+      "measuredFrom": [
+        "CLONE_SPEC.md:359"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "title": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 10,
+            "observedWords": [
+              8
+            ],
+            "measuredFrom": [
+              "CLONE_SPEC.md:360"
+            ]
+          },
+          "description": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 29,
+            "observedWords": [
+              23
+            ],
+            "measuredFrom": [
+              "CLONE_SPEC.md:361"
+            ]
+          },
+          "href": {
+            "kind": "href",
+            "required": true
+          },
+          "mark": {
+            "kind": "media",
+            "required": true,
+            "roles": [
+              "icon.abstract-mark"
+            ],
+            "alt": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 18,
+              "observedWords": [
+                14,
+                14
+              ],
+              "measuredFrom": [
+                "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+                "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in",
+      "perlin-drift"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.tablet}",
+      "change": "stack-columns",
+      "detail": "copy above list",
+      "measuredFrom": [
+        "CLONE_SPEC.md:364"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "homeRouteOnly": true
+  },
+  "measuredFrom": [
+    "CLONE_SPEC.md:355"
+  ],
+  "wordBudgets": {
+    "headline": 3,
+    "italicLine": 8,
+    "items[].description": 29,
+    "items[].mark.alt": 18,
+    "items[].title": 10
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "icon.abstract-mark"
+  ],
+  "usedByTemplates": [
+    "template.home"
+  ],
+  "observedThemes": [
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__feature.use-cases",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

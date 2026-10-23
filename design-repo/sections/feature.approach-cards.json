@@ -1,0 +1,141 @@
+{
+  "id": "feature.approach-cards",
+  "category": "feature",
+  "purpose": "Solid H2 over a 3-up grid of light glass cards (icon, H4, text, primary md CTA).",
+  "variants": [],
+  "content": {
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 8,
+      "observedWords": [
+        6
+      ],
+      "measuredFrom": [
+        "specs/product.md:278"
+      ]
+    },
+    "cards": {
+      "kind": "list",
+      "required": true,
+      "minItems": 3,
+      "maxItems": 3,
+      "measuredFrom": [
+        "specs/product.md:279"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "title": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 7,
+            "observedWords": [
+              5
+            ],
+            "measuredFrom": [
+              "specs/product.md:282"
+            ]
+          },
+          "description": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 28,
+            "observedWords": [
+              22
+            ],
+            "measuredFrom": [
+              "specs/product.md:282"
+            ]
+          },
+          "action": {
+            "kind": "action",
+            "required": true,
+            "label": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 10,
+              "observedWords": [
+                4,
+                3,
+                4,
+                8
+              ],
+              "measuredFrom": [
+                "CLONE_SPEC.md:208",
+                "specs/product.md:258",
+                "specs/solutions.md:291"
+              ]
+            },
+            "variants": [
+              "primary"
+            ],
+            "sizes": [
+              "md"
+            ]
+          },
+          "icon": {
+            "kind": "media",
+            "required": true,
+            "roles": [
+              "icon.ui"
+            ],
+            "alt": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 18,
+              "observedWords": [
+                14,
+                14
+              ],
+              "measuredFrom": [
+                "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+                "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.tablet}",
+      "change": "stack-columns",
+      "detail": "cards 1 column",
+      "measuredFrom": [
+        "specs/product.md:279"
+      ]
+    }
+  ],
+  "constraints": {},
+  "measuredFrom": [
+    "specs/product.md:276"
+  ],
+  "wordBudgets": {
+    "cards[].action.label": 10,
+    "cards[].description": 28,
+    "cards[].icon.alt": 18,
+    "cards[].title": 7,
+    "headline": 8
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "icon.ui"
+  ],
+  "usedByTemplates": [
+    "template.product-feature"
+  ],
+  "observedThemes": [
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__feature.approach-cards",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

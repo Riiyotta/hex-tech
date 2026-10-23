@@ -1,0 +1,24 @@
+{
+  "id": "primitive.tron-divider",
+  "purpose": "Nine 1px gradient rules, mb 3..10, opacity 1 -> .2; optional vertical flip.",
+  "props": {
+    "flipped": {
+      "type": "boolean",
+      "measuredFrom": [
+        "src/components/shared/TronDivider.jsx:19"
+      ]
+    }
+  },
+  "tokens": [
+    "component.tron-divider.lines",
+    "component.tron-divider.margin-bottom",
+    "color.border.strong",
+    "color.border.default"
+  ],
+  "measuredFrom": [
+    "CLONE_SPEC.md:404",
+    "src/components/shared/TronDivider.jsx:19"
+  ],
+  "layer": "primitive",
+  "provisional": true
+}

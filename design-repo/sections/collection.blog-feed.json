@@ -1,0 +1,305 @@
+{
+  "id": "collection.blog-feed",
+  "category": "collection",
+  "purpose": "Sticky category filter with count beside a list of post rows and a 'View more' button.",
+  "variants": [],
+  "content": {
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 2,
+      "observedWords": [
+        1
+      ],
+      "measuredFrom": [
+        "specs/company.md:245"
+      ]
+    },
+    "count": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 2,
+      "observedWords": [
+        1
+      ],
+      "measuredFrom": [
+        "specs/company.md:245"
+      ]
+    },
+    "categories": {
+      "kind": "list",
+      "required": true,
+      "minItems": 10,
+      "maxItems": 10,
+      "measuredFrom": [
+        "specs/company.md:238"
+      ],
+      "item": {
+        "kind": "enum",
+        "values": [
+          "product",
+          "company",
+          "data",
+          "security",
+          "data-teams",
+          "design",
+          "engineering",
+          "friends-of-data",
+          "research",
+          "further-reading"
+        ],
+        "required": true,
+        "measuredFrom": [
+          "specs/company.md:238"
+        ]
+      }
+    },
+    "rows": {
+      "kind": "list",
+      "required": true,
+      "minItems": 15,
+      "maxItems": 15,
+      "measuredFrom": [
+        "specs/company.md:245"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "title": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 15,
+            "observedWords": [
+              11,
+              4,
+              2,
+              4,
+              3,
+              9,
+              4,
+              3,
+              9,
+              11,
+              8,
+              4,
+              4,
+              9,
+              2,
+              2,
+              5,
+              5,
+              12,
+              11,
+              12
+            ],
+            "measuredFrom": [
+              "specs/company.md:1076",
+              "specs/company.md:1094",
+              "specs/company.md:1103",
+              "specs/company.md:1121",
+              "specs/company.md:1130",
+              "specs/company.md:1139",
+              "specs/company.md:1148",
+              "specs/company.md:1157",
+              "specs/company.md:1166",
+              "specs/company.md:933",
+              "specs/company.md:943",
+              "specs/company.md:953",
+              "specs/company.md:965",
+              "specs/company.md:975",
+              "specs/company.md:985"
+            ]
+          },
+          "synopsis": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 30,
+            "observedWords": [
+              12,
+              11,
+              10,
+              19,
+              2,
+              18,
+              19,
+              2,
+              18,
+              12,
+              8,
+              11,
+              9,
+              17,
+              10,
+              16,
+              17,
+              20,
+              24,
+              15,
+              10
+            ],
+            "measuredFrom": [
+              "specs/company.md:1080",
+              "specs/company.md:1098",
+              "specs/company.md:1107",
+              "specs/company.md:1125",
+              "specs/company.md:1134",
+              "specs/company.md:1143",
+              "specs/company.md:1152",
+              "specs/company.md:1161",
+              "specs/company.md:1170",
+              "specs/company.md:937",
+              "specs/company.md:947",
+              "specs/company.md:957",
+              "specs/company.md:969",
+              "specs/company.md:979",
+              "specs/company.md:989"
+            ]
+          },
+          "date": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 4,
+            "observedWords": [
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3
+            ],
+            "measuredFrom": [
+              "specs/company.md:1078",
+              "specs/company.md:1096",
+              "specs/company.md:1105",
+              "specs/company.md:1123",
+              "specs/company.md:1132",
+              "specs/company.md:1150",
+              "specs/company.md:1159",
+              "specs/company.md:1168",
+              "specs/company.md:935",
+              "specs/company.md:945",
+              "specs/company.md:955",
+              "specs/company.md:967",
+              "specs/company.md:977",
+              "specs/company.md:987"
+            ]
+          },
+          "author": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 7,
+            "observedWords": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              5,
+              2,
+              2,
+              2
+            ],
+            "measuredFrom": [
+              "specs/company.md:1081",
+              "specs/company.md:1108",
+              "specs/company.md:1126",
+              "specs/company.md:1144",
+              "specs/company.md:1153",
+              "specs/company.md:1171",
+              "specs/company.md:261",
+              "specs/company.md:341",
+              "specs/company.md:938",
+              "specs/company.md:948",
+              "specs/company.md:958",
+              "specs/company.md:990"
+            ]
+          },
+          "href": {
+            "kind": "href",
+            "required": true
+          }
+        }
+      }
+    },
+    "moreLabel": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 7,
+      "observedWords": [
+        5
+      ],
+      "measuredFrom": [
+        "specs/company.md:245"
+      ]
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.phone-sm}",
+      "change": "swap-to-mobile-variant",
+      "detail": "filter collapses to a headline row",
+      "measuredFrom": [
+        "specs/company.md:246"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/company.md:245"
+  ],
+  "wordBudgets": {
+    "count": 2,
+    "headline": 2,
+    "moreLabel": 7,
+    "rows[].author": 7,
+    "rows[].date": 4,
+    "rows[].synopsis": 30,
+    "rows[].title": 15
+  },
+  "richTextBudgets": {},
+  "assetRoles": [],
+  "usedByTemplates": [
+    "template.blog-index"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__collection.blog-feed",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

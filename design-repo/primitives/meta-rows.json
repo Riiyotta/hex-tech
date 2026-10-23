@@ -1,0 +1,43 @@
+{
+  "id": "primitive.meta-rows",
+  "purpose": "Mono 'Label /' + value rows (stacked or inline).",
+  "props": {
+    "rows": {
+      "type": "list",
+      "measuredFrom": [
+        "src/components/shared/MetaRows.jsx:16"
+      ]
+    },
+    "size": {
+      "type": "enum",
+      "measuredFrom": [
+        "specs/SHARED_BUILT.md:130"
+      ],
+      "enum": [
+        10,
+        12
+      ]
+    },
+    "layout": {
+      "type": "enum",
+      "measuredFrom": [
+        "specs/SHARED_BUILT.md:130"
+      ],
+      "enum": [
+        "stack",
+        "inline"
+      ]
+    }
+  },
+  "tokens": [
+    "color.text.meta",
+    "color.text.loud",
+    "typography.fontFamily.cinetype-mono"
+  ],
+  "measuredFrom": [
+    "specs/company.md:123",
+    "src/components/shared/MetaRows.jsx:16"
+  ],
+  "layer": "primitive",
+  "provisional": true
+}

@@ -1,0 +1,3 @@
+/* createIcon__Wrapper: 15×15 flex box; colour comes from the context (currentColor by default). */
+.hex-icon { display: flex; width: 15px; height: 15px; color: currentColor; }
+.hex-icon svg { display: block; }

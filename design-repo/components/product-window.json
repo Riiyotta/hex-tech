@@ -1,0 +1,32 @@
+{
+  "id": "component.product-window",
+  "purpose": "Product-mock window shell (radius 6, themed shadow) with optional dashed tab title and guide lines.",
+  "composes": [],
+  "props": {
+    "title": {
+      "type": "text",
+      "measuredFrom": [
+        "src/components/shared/ProductWindow.jsx:8"
+      ]
+    },
+    "interactive": {
+      "type": "boolean",
+      "measuredFrom": [
+        "src/components/shared/ProductWindow.jsx:8"
+      ]
+    }
+  },
+  "tokens": [
+    "component.product-window.radius",
+    "component.product-window.title-tab-height",
+    "shadow.window",
+    "shadow.window-hover",
+    "color.app.surface"
+  ],
+  "measuredFrom": [
+    "CLONE_SPEC.md:221",
+    "src/components/shared/ProductWindow.jsx:8"
+  ],
+  "layer": "component",
+  "provisional": true
+}

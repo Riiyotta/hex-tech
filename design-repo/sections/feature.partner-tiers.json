@@ -1,0 +1,161 @@
+{
+  "id": "feature.partner-tiers",
+  "category": "feature",
+  "purpose": "Centred H2 + lead over three tier columns: tinted flag panel, H3, text, H4 and bullet list.",
+  "variants": [],
+  "content": {
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 3,
+      "observedWords": [
+        2
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:908"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 20,
+      "observedWords": [
+        16
+      ],
+      "measuredFrom": [
+        "specs/solutions.md:908"
+      ]
+    },
+    "tiers": {
+      "kind": "list",
+      "required": true,
+      "minItems": 3,
+      "maxItems": 3,
+      "measuredFrom": [
+        "specs/solutions.md:908"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "name": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 2,
+            "observedWords": [
+              1
+            ],
+            "measuredFrom": [
+              "specs/solutions.md:911"
+            ]
+          },
+          "description": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 17,
+            "observedWords": [
+              13
+            ],
+            "measuredFrom": [
+              "specs/solutions.md:913"
+            ]
+          },
+          "listTitle": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 5,
+            "observedWords": [
+              4
+            ],
+            "measuredFrom": [
+              "specs/solutions.md:912"
+            ]
+          },
+          "items": {
+            "kind": "list",
+            "required": true,
+            "minItems": 4,
+            "maxItems": 4,
+            "measuredFrom": [
+              "specs/solutions.md:911"
+            ],
+            "item": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 7,
+              "observedWords": [
+                5
+              ],
+              "measuredFrom": [
+                "specs/solutions.md:912"
+              ]
+            }
+          },
+          "flag": {
+            "kind": "media",
+            "required": true,
+            "roles": [
+              "illustration.decorative"
+            ],
+            "alt": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 18,
+              "observedWords": [
+                14,
+                14
+              ],
+              "measuredFrom": [
+                "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+                "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.tablet}",
+      "change": "stack-columns",
+      "detail": "1 column, gap 80",
+      "measuredFrom": [
+        "specs/solutions.md:908"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/solutions.md:908"
+  ],
+  "wordBudgets": {
+    "description": 20,
+    "headline": 3,
+    "tiers[].description": 17,
+    "tiers[].flag.alt": 18,
+    "tiers[].items[]": 7,
+    "tiers[].listTitle": 5,
+    "tiers[].name": 2
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "illustration.decorative"
+  ],
+  "usedByTemplates": [
+    "template.partners"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__feature.partner-tiers",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

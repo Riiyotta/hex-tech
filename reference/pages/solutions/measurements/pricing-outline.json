@@ -1,0 +1,183 @@
+{
+  "url": "/pricing/",
+  "theme": [
+    "rgb(20, 20, 28)",
+    "rgb(245, 192, 192)"
+  ],
+  "docH": 5549,
+  "title": "Hex Pricing: Plans for Every Data Team | Hex",
+  "metaDesc": "Compare Hex plans for data teams of every size. Community (free) and Professional for individuals. Team and Enterprise for organizations needing collaborative AI analytics, governed self-serve, and advanced security.",
+  "secs": [
+    {
+      "c": "Modal__ModalWrapper",
+      "b": [
+        0,
+        3847,
+        0,
+        0
+      ],
+      "dir": "",
+      "h": [
+        "H2:Compute profiles"
+      ],
+      "p": [
+        "Medium compute is included on all paid plans. Team and Enterprise can opt in to pay-as-you-go compute for advanced data science use cases. Learn more.",
+        "*Billed per minute of usage. Free trials are limited to Medium compute."
+      ],
+      "a": [
+        "BUTTON close -> null role=null",
+        "A Learn more -> https://learn.hex.tech/docs/explore-data/projects/environment-configuration/environment-views#size role=null"
+      ],
+      "img": [],
+      "svg": 1,
+      "video": [],
+      "canvas": 0,
+      "iframe": [],
+      "tables": 1
+    },
+    {
+      "c": "GridLines__ContentMarginLine",
+      "b": [
+        0,
+        0,
+        29,
+        4962
+      ],
+      "dir": "",
+      "h": [],
+      "p": [],
+      "a": [],
+      "img": [],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": [],
+      "tables": 0
+    },
+    {
+      "c": "PricingPageContent__Wrapper",
+      "b": [
+        29,
+        200,
+        1382,
+        4762
+      ],
+      "dir": "",
+      "h": [
+        "H1:Pricing",
+        "H3:Community",
+        "H3:Professional",
+        "H3:Team",
+        "H3:Enterprise",
+        "H2:Compare plan features",
+        "H4:Compare / plan features:",
+        "H3:Community",
+        "H3:Professional",
+        "H3:Team",
+        "H3:Enterprise",
+        "H4:",
+        "H4:Data",
+        "H4:Collaboration",
+        "H4:Administration",
+        "H4:Security",
+        "H4:Support",
+        "H2:FAQ",
+        "H3:How does the free trial work?",
+        "H3:How do I cancel or change my plan?"
+      ],
+      "p": [
+        "Choose the right plan for you and your team. Don't know what you need? Get in touch.",
+        "For hobbyists completing small projects and showcasing work.",
+        "For individuals accelerating data insights and solo workflows.",
+        "For companies collaborating with data and automating manual work.",
+        "For organizations requiring advanced security, governance, and support.",
+        "Trusted by leading data teams",
+        "\"Our vision for Notion’s data team is that anyone, regardless of technical proficiency, is comfortable using data to answer their own questions – and Hex enables that.\" /  / Aks Nemana / Data Scientist & Abhishek Modi, AI Software Engineer",
+        "\"Our vision for Notion’s data team is that anyone, regardless of technical proficiency, is comfortable using data to answer their own questions – and Hex enables that.\"",
+        "Aks Nemana / Data Scientist & Abhishek Modi, AI Software Engineer",
+        "\"Hex lets us go from an ad-hoc analysis to a published data app with just a few clicks.\" /  / Sai Srigiriaju / Head of Growth Strategy & Ops at ClickUp",
+        "\"Hex lets us go from an ad-hoc analysis to a published data app with just a few clicks.\""
+      ],
+      "a": [
+        "A Get in touch. -> /request-a-demo/ role=null",
+        "A Get started -> https://app.hex.tech/signup?plan=community&source=pricing role=null",
+        "A Get started -> https://app.hex.tech/signup?plan=professional&source=pricing role=null",
+        "A Try 14 days free -> https://app.hex.tech/signup?plan=team&source=pricing role=null",
+        "A Contact Sales -> /request-a-demo/ role=null",
+        "A  -> /customers/notion/ role=null",
+        "A  -> /customers/clickup/ role=null",
+        "A  -> /customers/alltrails/ role=null",
+        "A Get started -> https://app.hex.tech/signup?plan=community&source=pricing role=null",
+        "A Get started -> https://app.hex.tech/signup?plan=professional&source=pricing role=null",
+        "A Try 14 days free -> https://app.hex.tech/signup?plan=team&source=pricing role=null",
+        "A Contact Sales -> /request-a-demo/ role=null",
+        "BUTTON Small -> null role=null",
+        "BUTTON Medium -> null role=null",
+        "BUTTON Advanced compute -> null role=null",
+        "BUTTON Advanced compute -> null role=null",
+        "BUTTON How does the free trial work? -> null role=null",
+        "BUTTON How do I cancel or change my plan? -> null role=null",
+        "BUTTON How do you handle security and compliance? -> null role=null",
+        "A here -> https://trust.hex.tech/ role=null",
+        "BUTTON How do credits work? -> null role=null",
+        "A article -> https://learn.hex.tech/docs/administration/credits role=null",
+        "BUTTON Do you have a discount for students and educators? -> null role=null",
+        "A support@hex.tech -> mailto:support@hex.tech role=null"
+      ],
+      "img": [
+        "SANITY/7bb676f30dbd80023b0c7af23e60ff630b4cdc4d-115x50.svg?auto=format 92x40 alt=Hex customer: Reddit",
+        "SANITY/6f211c674b14be69b85497264b1d654b138dce01-39x50.svg?auto=format 31x40 alt=Hex customer: Notion",
+        "SANITY/6f211c674b14be69b85497264b1d654b138dce01-39x50.svg?auto=format 25x32 alt=Hex customer: Notion",
+        "SANITY/41a6cd8e000ffa2cf99de391f0104b2cbdd9072e-132x50.svg?auto=format 106x40 alt=Hex customer: Anthropic",
+        "SANITY/b2ffbeeff0804c87f45b94444476c7025fce5719-51x50.svg?auto=format 41x40 alt=Hex customer: SeatGeek",
+        "SANITY/8ec37f2330ffd132be12ea66bad243453af0d047-119x50.svg?auto=format 95x40 alt=Hex customer: ClickUp",
+        "SANITY/8ec37f2330ffd132be12ea66bad243453af0d047-119x50.svg?auto=format 76x32 alt=Hex customer: ClickUp",
+        "SANITY/22fd2415f0d3f16dc2c3d9d7853147757c60e708-151x50.svg?auto=format 121x40 alt=Hex customer: AllTrails",
+        "SANITY/22fd2415f0d3f16dc2c3d9d7853147757c60e708-151x50.svg?auto=format 97x32 alt=Hex customer: AllTrails"
+      ],
+      "svg": 94,
+      "video": [],
+      "canvas": 0,
+      "iframe": [],
+      "tables": 0
+    },
+    {
+      "c": "GridLines__ContentMarginLine",
+      "b": [
+        1411,
+        0,
+        29,
+        4962
+      ],
+      "dir": "",
+      "h": [],
+      "p": [],
+      "a": [],
+      "img": [],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": [],
+      "tables": 0
+    },
+    {
+      "c": "SCRIPT",
+      "b": [
+        0,
+        3847,
+        0,
+        0
+      ],
+      "dir": "",
+      "h": [],
+      "p": [],
+      "a": [],
+      "img": [],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": [],
+      "tables": 0
+    }
+  ]
+}

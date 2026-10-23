@@ -1,0 +1,96 @@
+{
+  "id": "feature.section-heading",
+  "category": "feature",
+  "purpose": "Centred section heading: gradient H2 with optional checker-flanked italic line and description (display), solution-sized H2, or V1 panel H2 + subheader.",
+  "variants": [
+    "display",
+    "solution",
+    "v1-panel"
+  ],
+  "content": {
+    "title": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 10,
+      "observedWords": [
+        2,
+        8,
+        4
+      ],
+      "measuredFrom": [
+        "specs/product.md:312",
+        "specs/product.md:602",
+        "specs/solutions.md:334"
+      ]
+    },
+    "italicLine": {
+      "kind": "text",
+      "required": false,
+      "maxWords": 4,
+      "observedWords": [
+        3,
+        2
+      ],
+      "measuredFrom": [
+        "specs/product.md:312",
+        "specs/product.md:329"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": false,
+      "maxWords": 32,
+      "observedWords": [
+        25
+      ],
+      "measuredFrom": [
+        "specs/product.md:602"
+      ]
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.phone}",
+      "change": "resize-type",
+      "detail": "H2 30px; italic span tightens",
+      "measuredFrom": [
+        "specs/product.md:141"
+      ]
+    }
+  ],
+  "constraints": {
+    "consecutiveAllowed": false
+  },
+  "measuredFrom": [
+    "specs/product.md:137",
+    "specs/solutions.md:294",
+    "specs/product.md:202"
+  ],
+  "sourceEvidence": [
+    "src/components/shared/SectionHeading.jsx:16"
+  ],
+  "wordBudgets": {
+    "description": 32,
+    "italicLine": 4,
+    "title": 10
+  },
+  "richTextBudgets": {},
+  "assetRoles": [],
+  "usedByTemplates": [
+    "template.product-feature",
+    "template.product-v1",
+    "template.solution-detail"
+  ],
+  "observedThemes": [
+    "dark",
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__feature.section-heading",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

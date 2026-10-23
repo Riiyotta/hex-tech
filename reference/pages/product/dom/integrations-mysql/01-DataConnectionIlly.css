@@ -1,0 +1,44 @@
+/* integrations-mysql section 1: every CSS rule from document.styleSheets whose selector matches a class used in this section (incl. @media/@supports wrappers), plus referenced @keyframes */
+.kijyus { color: var(--fg1200, var(--fg1100, #99797d)); display: flex; height: 20px; width: 20px; }
+.jqCTrE { color: var(--fg1200, var(--fg1100, #99797d)); display: flex; height: 15px; width: 15px; }
+.OkXFQ { color: var(--fg1200, var(--fg1200, #43394c)); display: flex; height: 20px; width: 20px; }
+.fqpybe { background: rgb(255, 255, 255); box-shadow: rgba(1, 1, 27, 0.1) 0px 4px 12px; border-radius: 3px; color: rgb(1, 1, 27); padding: 15px; overflow: hidden; min-width: 0px; }
+.emBRam { border-radius: 2px; background: rgba(67, 213, 157, 0.2); color: rgb(67, 213, 157); padding: 2px 4px; line-height: 14px; font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: 11px; }
+.hbTVdX { display: flex; align-items: center; gap: 6px; }
+.hbTVdX svg { color: color-mix(in srgb, var(--highlightColor, #F5C0C0) 50%, transparent); }
+.hDHiXp { width: 100%; padding: 0px; z-index: 3; position: relative; flex: 1 1 auto; display: flex; }
+.kJbOzl { display: flex; width: 100%; height: 100%; flex: 1 1 auto; flex-direction: column; gap: 6px; position: relative; }
+.hEXhRi { display: flex; align-items: center; font-weight: 400; gap: 7px; line-height: initial; font-size: 12px; font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+.hEXhRi > div, .hEXhRi > div svg { width: 14px; height: 14px; }
+.hNPsSX { display: flex; flex-direction: column; position: relative; }
+.fOmlqE { display: flex; flex-direction: column; align-items: flex-start; padding: 12px 0px; font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-weight: 400; font-size: 12px; line-height: 19px; position: relative; }
+.dSDJIw { position: relative; padding: 0px 15px; height: 19px; white-space: nowrap; }
+.pIJFO { position: relative; padding: 0px 15px 0px 40px; height: 19px; white-space: nowrap; }
+.eSBVTa { color: rgb(20, 126, 179); }
+.gAWRvc { color: rgb(219, 44, 111); }
+.gkqDsl { color: rgb(0, 163, 150); }
+.GbsLq { width: 100%; padding: 0px; z-index: 3; position: relative; }
+.hrTslN { display: flex; align-items: center; padding: 0px 4px; height: 20px; background: rgb(248, 250, 251); position: absolute; top: 5px; right: 5px; }
+.fbDZDi { display: flex; align-items: center; }
+.BNpMP { display: flex; align-items: center; background: rgb(239, 235, 255); border-radius: 2px; color: rgb(62, 39, 122); padding: 0px 5px; font-size: 12px; height: 20px; line-height: 20px; margin-left: auto; gap: 4px; }
+.BNpMP svg { color: rgb(62, 39, 122); opacity: 0.5; }
+.bMQynx { display: flex; align-items: center; gap: 7px; color: rgb(113, 122, 148); font-size: 12px; margin-top: 7px; line-height: initial; }
+.dTdzmR { width: 1px; height: 12px; background-color: rgb(63, 66, 87); flex: 0 0 auto; }
+.igpXPr { min-height: 60px; width: 100%; position: relative; z-index: 3; }
+.itJRkW { display: flex; flex-direction: column; align-items: center; gap: 60px; width: 100%; }
+.czoXrM { position: relative; padding-top: 16px; display: flex; flex-direction: column; align-items: center; width: 280px; }
+.czoXrM > div:not(:last-child) { min-height: 60px; width: 100%; position: relative; z-index: 3; }
+.czoXrM > div:not(:last-child):nth-child(2) { position: absolute; top: 8px; left: 10px; right: 10px; opacity: 0.5; width: calc(100% - 20px); z-index: 2; }
+.czoXrM > div:not(:last-child):nth-child(3) { position: absolute; top: 0px; left: 20px; right: 20px; opacity: 0.3; width: calc(100% - 40px); z-index: 1; }
+.eEWpZJ { position: absolute; left: -15px; right: -15px; bottom: -15px; border-bottom: 1px solid var(--highlightColor, #F5C0C0); border-left: 1px solid var(--highlightColor, #F5C0C0); border-right: 1px solid var(--highlightColor, #F5C0C0); height: 60px; background-color: color-mix(in srgb, var(--highlightColor, #F5C0C0) 20%, transparent); }
+.eEWpZJ::before { content: ""; display: block; position: absolute; inset: -1px; background: linear-gradient(0deg, rgba(1, 1, 27, 0) 0%, rgb(1, 1, 27) 100%); }
+.eEWpZJ::after { content: ""; display: block; width: 1px; height: 20px; background: var(--highlightColor, #F5C0C0); position: absolute; left: 50%; top: 100%; }
+.eCnLFJ { position: absolute; inset: -15px -15px auto; border-left: 1px solid var(--highlightColor, #F5C0C0); border-right: 1px solid var(--highlightColor, #F5C0C0); height: 60px; background-color: color-mix(in srgb, var(--highlightColor, #F5C0C0) 20%, transparent); border-top: 1px solid var(--highlightColor, #F5C0C0); border-bottom-width: medium; border-bottom-style: none; border-bottom-color: currentcolor; }
+.eCnLFJ::before { content: ""; display: block; position: absolute; inset: -1px; background: linear-gradient(0deg, rgba(1, 1, 27, 0) 0%, rgb(1, 1, 27) 100%); }
+.eCnLFJ::after { content: ""; display: block; width: 1px; height: 20px; background: var(--highlightColor, #F5C0C0); position: absolute; left: 50%; top: 100%; }
+.eCnLFJ::before { background: linear-gradient(rgba(1, 1, 27, 0) 0%, rgb(1, 1, 27) 100%); }
+.eCnLFJ::after { bottom: 100%; top: auto; }
+.bUdwCt { width: 75%; position: relative; }
+@media (max-width: 800px) { .bUdwCt { width: 100%; } }
+.cwQNBn { flex: 1.5 1 0px; margin-left: 50px; position: relative; }
+@media (max-width: 1000px) { .cwQNBn { margin-left: 0px; margin-top: 60px; flex: 0 0 auto; width: 100%; } }

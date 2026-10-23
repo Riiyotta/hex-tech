@@ -1,0 +1,205 @@
+{
+  "id": "proof.social-tout",
+  "category": "proof",
+  "purpose": "Social proof row: G2 awards card and/or glass quote card(s).",
+  "variants": [
+    "g2-and-quote",
+    "quote-pair",
+    "single-quote"
+  ],
+  "content": {
+    "g2": {
+      "kind": "object",
+      "required": false,
+      "fields": {
+        "title": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 4,
+          "observedWords": [
+            3
+          ],
+          "measuredFrom": [
+            "CLONE_SPEC.md:155"
+          ]
+        },
+        "description": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 14,
+          "observedWords": [
+            11
+          ],
+          "measuredFrom": [
+            "CLONE_SPEC.md:378"
+          ]
+        },
+        "badges": {
+          "kind": "media",
+          "required": true,
+          "roles": [
+            "image.award-badge"
+          ],
+          "alt": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 18,
+            "observedWords": [
+              14,
+              14
+            ],
+            "measuredFrom": [
+              "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+              "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+            ]
+          }
+        }
+      }
+    },
+    "quotes": {
+      "kind": "list",
+      "required": true,
+      "minItems": 1,
+      "maxItems": 2,
+      "measuredFrom": [
+        "specs/product.md:564",
+        "specs/product.md:600"
+      ],
+      "item": {
+        "kind": "object",
+        "required": true,
+        "fields": {
+          "logo": {
+            "kind": "media",
+            "required": true,
+            "roles": [
+              "logo.customer"
+            ],
+            "alt": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 18,
+              "observedWords": [
+                14,
+                14
+              ],
+              "measuredFrom": [
+                "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+                "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+              ]
+            }
+          },
+          "quote": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 34,
+            "observedWords": [
+              27
+            ],
+            "measuredFrom": [
+              "CLONE_SPEC.md:280"
+            ]
+          },
+          "name": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 4,
+            "observedWords": [
+              2,
+              3
+            ],
+            "measuredFrom": [
+              "CLONE_SPEC.md:282",
+              "CLONE_SPEC.md:286"
+            ]
+          },
+          "title": {
+            "kind": "text",
+            "required": false,
+            "maxWords": 8,
+            "observedWords": [
+              6,
+              6,
+              5
+            ],
+            "measuredFrom": [
+              "CLONE_SPEC.md:281",
+              "CLONE_SPEC.md:286",
+              "specs/product.md:154"
+            ]
+          },
+          "avatar": {
+            "kind": "media",
+            "required": false,
+            "roles": [
+              "photo.person"
+            ],
+            "alt": {
+              "kind": "text",
+              "required": true,
+              "maxWords": 18,
+              "observedWords": [
+                14,
+                14
+              ],
+              "measuredFrom": [
+                "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+                "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "stack-columns",
+      "detail": "row becomes a column",
+      "measuredFrom": [
+        "specs/SHARED_BUILT.md:78"
+      ]
+    }
+  ],
+  "constraints": {},
+  "measuredFrom": [
+    "specs/product.md:121",
+    "specs/SHARED_BUILT.md:77"
+  ],
+  "sourceEvidence": [
+    "src/components/shared/SocialTout.jsx:11"
+  ],
+  "wordBudgets": {
+    "g2.badges.alt": 18,
+    "g2.description": 14,
+    "g2.title": 4,
+    "quotes[].avatar.alt": 18,
+    "quotes[].logo.alt": 18,
+    "quotes[].name": 4,
+    "quotes[].quote": 34,
+    "quotes[].title": 8
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "image.award-badge",
+    "logo.customer",
+    "photo.person"
+  ],
+  "usedByTemplates": [
+    "template.product-feature",
+    "template.product-v1",
+    "template.solution-detail"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__proof.social-tout",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

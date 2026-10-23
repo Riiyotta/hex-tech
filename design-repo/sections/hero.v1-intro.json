@@ -1,0 +1,100 @@
+{
+  "id": "hero.v1-intro",
+  "category": "hero",
+  "purpose": "Dark V1 resource intro: white 74px H1 + lead, with the line illustration beside it (split) or centred (catalog).",
+  "variants": [
+    "split-illustration",
+    "centered"
+  ],
+  "content": {
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 2,
+      "observedWords": [
+        1,
+        1
+      ],
+      "measuredFrom": [
+        "specs/company.md:316",
+        "specs/company.md:323"
+      ]
+    },
+    "description": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 32,
+      "observedWords": [
+        20,
+        15,
+        25
+      ],
+      "measuredFrom": [
+        "specs/company.md:316",
+        "specs/company.md:317",
+        "specs/company.md:323"
+      ]
+    },
+    "illustration": {
+      "kind": "media",
+      "required": false,
+      "roles": [
+        "illustration.decorative"
+      ],
+      "alt": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 18,
+        "observedWords": [
+          14,
+          14
+        ],
+        "measuredFrom": [
+          "reference/dom/p1-05--HomeConversationalAnalytics.html:1",
+          "reference/dom/p2-01-ToutWrapper__Wrapper.html:1"
+        ]
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-on-mount"
+    ],
+    "default": "reveal-on-mount"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "stack-columns",
+      "detail": "intro stacks; illustration below",
+      "measuredFrom": [
+        "specs/company.md:318"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/company.md:131",
+    "specs/company.md:323"
+  ],
+  "wordBudgets": {
+    "description": 32,
+    "headline": 2,
+    "illustration.alt": 18
+  },
+  "richTextBudgets": {},
+  "assetRoles": [
+    "illustration.decorative"
+  ],
+  "usedByTemplates": [
+    "template.templates-index",
+    "template.v1-resource-index"
+  ],
+  "observedThemes": [
+    "dark"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__hero.v1-intro",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

@@ -1,0 +1,115 @@
+{
+  "id": "content.report-intro",
+  "category": "content",
+  "purpose": "Report intro: H2 + paragraphs beside a glass 'Key findings' card.",
+  "variants": [],
+  "content": {
+    "headline": {
+      "kind": "text",
+      "required": true,
+      "maxWords": 18,
+      "observedWords": [
+        14
+      ],
+      "measuredFrom": [
+        "specs/company.md:362"
+      ]
+    },
+    "body": {
+      "kind": "richText",
+      "required": true,
+      "maxBlocks": 11,
+      "blockTypes": [
+        "paragraph"
+      ],
+      "maxWordsPerBlock": 72,
+      "measuredFrom": [
+        "reference/pages/company/dom/state-of-data-teams--SectionIntro__Wrapper.html:1"
+      ],
+      "placeholderInClone": true
+    },
+    "keyFindings": {
+      "kind": "object",
+      "required": true,
+      "fields": {
+        "title": {
+          "kind": "text",
+          "required": true,
+          "maxWords": 3,
+          "observedWords": [
+            2
+          ],
+          "measuredFrom": [
+            "specs/company.md:362"
+          ]
+        },
+        "items": {
+          "kind": "list",
+          "required": true,
+          "minItems": 6,
+          "maxItems": 6,
+          "measuredFrom": [
+            "specs/company.md:362"
+          ],
+          "item": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 28,
+            "observedWords": [
+              22
+            ],
+            "measuredFrom": [
+              "specs/company.md:3525"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-fade-in"
+    ],
+    "default": "reveal-fade-in"
+  },
+  "responsive": [
+    {
+      "atOrBelow": "{breakpoint.stack}",
+      "change": "stack-columns",
+      "detail": "single column",
+      "measuredFrom": [
+        "specs/company.md:366"
+      ]
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "specs/company.md:362"
+  ],
+  "notes": "Key findings are real survey statistics; generated pages must not invent statistics presented as real (see asset role image.data-chart).",
+  "wordBudgets": {
+    "headline": 18,
+    "keyFindings.items[]": 28,
+    "keyFindings.title": 3
+  },
+  "richTextBudgets": {
+    "body": {
+      "maxBlocks": 11,
+      "maxWordsPerBlock": 72,
+      "blockTypes": [
+        "paragraph"
+      ]
+    }
+  },
+  "assetRoles": [],
+  "usedByTemplates": [
+    "template.report"
+  ],
+  "observedThemes": [
+    "light"
+  ],
+  "schemaRef": "schema/pagespec.schema.json#/definitions/content__content.report-intro",
+  "copyBudgetRule": "maxWords = max(observedWords) + ceil(25%); observed counts come from real cited instances, the copy itself is not stored"
+}

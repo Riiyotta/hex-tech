@@ -1,0 +1,145 @@
+{
+  "url": "/request-a-demo/",
+  "theme": [
+    "rgb(255, 252, 252)",
+    "rgb(49, 38, 59)"
+  ],
+  "docH": 1757,
+  "title": "Get a demo | Hex",
+  "metaDesc": "We'll chat about how Hex fits into your stack and delivers trusted answers, grounded in your company's context.",
+  "scripts": [
+    "https://js-na2.hsforms.net/forms/embed/developer/243040889.js"
+  ],
+  "secs": [
+    {
+      "c": "GridLines__ContentMarginLine",
+      "b": [
+        0,
+        0,
+        29,
+        1170
+      ],
+      "dir": "",
+      "h": [],
+      "p": [],
+      "a": [],
+      "img": [],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": [],
+      "forms": 0
+    },
+    {
+      "c": "HubSpotForm__Wrapper",
+      "b": [
+        29,
+        200,
+        1382,
+        970
+      ],
+      "dir": "",
+      "h": [
+        "H1:Get a demo"
+      ],
+      "p": [
+        "We'll chat about how Hex fits into your stack and delivers trusted answers, grounded in your company's context.",
+        "FIRST NAME*",
+        "LAST NAME*",
+        "WORK EMAIL*",
+        "COMPANY NAME*",
+        "WHAT DO YOU WANT TO TALK ABOUT?",
+        "By submitting this form you agree to the processing of your personal data as described in our Terms and our Privacy policy.",
+        "Trusted by leading data teams",
+        "\"Our vision for Notion’s data team is that anyone, regardless of technical proficiency, is comfortable using data to answer their own questions – and Hex enables that.\" /  / Aks Nemana / Data Scientist & Abhishek Modi, AI Software Engineer",
+        "\"Our vision for Notion’s data team is that anyone, regardless of technical proficiency, is comfortable using data to answer their own questions – and Hex enables that.\"",
+        "Aks Nemana / Data Scientist & Abhishek Modi, AI Software Engineer",
+        "\"Hex lets us go from an ad-hoc analysis to a published data app with just a few clicks.\" /  / Sai Srigiriaju / Head of Growth Strategy & Ops at ClickUp",
+        "\"Hex lets us go from an ad-hoc analysis to a published data app with just a few clicks.\"",
+        "Sai Srigiriaju / Head of Growth Strategy & Ops at ClickUp",
+        "\"Since adopting Hex, the data team has churned out a steady stream of analysis, from internal benchmarking to evaluating the effectiveness of metrics.\" /  / Matt Palmer / Analytics Engineer",
+        "\"Since adopting Hex, the data team has churned out a steady stream of analysis, from internal benchmarking to evaluating the effectiveness of metrics.\"",
+        "Matt Palmer / Analytics Engineer"
+      ],
+      "a": [
+        "INPUT  name=0-1/firstname type=text -> null",
+        "INPUT  name=0-1/lastname type=text -> null",
+        "INPUT  name=0-1/email type=email -> null",
+        "INPUT  name=0-1/form_fill_company__c type=text -> null",
+        "TEXTAREA  name=0-1/person_notes__c type=textarea -> null",
+        "INPUT  name=0-1/utm_source__c type=hidden -> null",
+        "INPUT  name=0-1/utm_medium__c type=hidden -> null",
+        "INPUT  name=0-1/utm_campaign__c type=hidden -> null",
+        "INPUT  name=0-1/utm_term__c type=hidden -> null",
+        "INPUT  name=0-1/utm_content__c type=hidden -> null",
+        "INPUT  name=0-1/referrer_page type=hidden -> null",
+        "INPUT  name=0-1/form_campaign_id__c type=hidden -> null",
+        "INPUT  name=0-1/routing_source__c type=hidden -> null",
+        "BUTTON Submit name= type=submit -> null",
+        "INPUT  name=hs_context type=hidden -> null",
+        "BUTTON Submit name= type=button -> null",
+        "A Terms name= type= -> https://learn.hex.tech/docs/legal/terms-and-conditions",
+        "A Privacy policy name= type= -> https://learn.hex.tech/docs/trust/privacy-policy",
+        "A  name= type= -> /customers/notion/",
+        "A  name= type= -> /customers/clickup/",
+        "A  name= type= -> /customers/alltrails/"
+      ],
+      "img": [
+        "SANITY/7bb676f30dbd80023b0c7af23e60ff630b4cdc4d-115x50.svg?auto=format 92x40 alt=Hex customer: Reddit",
+        "SANITY/6f211c674b14be69b85497264b1d654b138dce01-39x50.svg?auto=format 31x40 alt=Hex customer: Notion",
+        "SANITY/6f211c674b14be69b85497264b1d654b138dce01-39x50.svg?auto=format 25x32 alt=Hex customer: Notion",
+        "SANITY/41a6cd8e000ffa2cf99de391f0104b2cbdd9072e-132x50.svg?auto=format 106x40 alt=Hex customer: Anthropic",
+        "SANITY/b2ffbeeff0804c87f45b94444476c7025fce5719-51x50.svg?auto=format 41x40 alt=Hex customer: SeatGeek",
+        "SANITY/8ec37f2330ffd132be12ea66bad243453af0d047-119x50.svg?auto=format 95x40 alt=Hex customer: ClickUp",
+        "SANITY/8ec37f2330ffd132be12ea66bad243453af0d047-119x50.svg?auto=format 76x32 alt=Hex customer: ClickUp",
+        "SANITY/22fd2415f0d3f16dc2c3d9d7853147757c60e708-151x50.svg?auto=format 121x40 alt=Hex customer: AllTrails",
+        "SANITY/22fd2415f0d3f16dc2c3d9d7853147757c60e708-151x50.svg?auto=format 97x32 alt=Hex customer: AllTrails"
+      ],
+      "svg": 3,
+      "video": [],
+      "canvas": 0,
+      "iframe": [
+        ""
+      ],
+      "forms": 1
+    },
+    {
+      "c": "GridLines__ContentMarginLine",
+      "b": [
+        1411,
+        0,
+        29,
+        1170
+      ],
+      "dir": "",
+      "h": [],
+      "p": [],
+      "a": [],
+      "img": [],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": [],
+      "forms": 0
+    },
+    {
+      "c": "SCRIPT",
+      "b": [
+        0,
+        193,
+        0,
+        0
+      ],
+      "dir": "",
+      "h": [],
+      "p": [],
+      "a": [],
+      "img": [],
+      "svg": 0,
+      "video": [],
+      "canvas": 0,
+      "iframe": [],
+      "forms": 0
+    }
+  ]
+}
