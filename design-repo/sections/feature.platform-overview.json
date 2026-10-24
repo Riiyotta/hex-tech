@@ -1,7 +1,17 @@
 {
   "id": "feature.platform-overview",
-  "category": "feature",
   "purpose": "Centred H2, three linked workflow cards with isometric art and hover Perlin, a bracket label and a capability icon row.",
+  "semantic": {
+    "id": "feature.platform-overview",
+    "category": "FEATURE"
+  },
+  "source": {
+    "id": "PlatformOverview",
+    "tag": "div",
+    "file": "src/pages/productCore/contextStudio/CsSections.jsx",
+    "lines": "76-78",
+    "anchor": "function PlatformOverview"
+  },
   "implementedBy": "src/pages/productCore/contextStudio/CsSections.jsx > PlatformOverview",
   "variants": [],
   "content": {

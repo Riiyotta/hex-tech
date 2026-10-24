@@ -1,7 +1,17 @@
 {
   "id": "collection.external-links",
-  "category": "collection",
   "purpose": "'Learn more' cut-out box of external resource links (title + source).",
+  "semantic": {
+    "id": "collection.external-links",
+    "category": "COLLECTION"
+  },
+  "source": {
+    "id": "ExternalLinks",
+    "tag": "div",
+    "file": "src/pages/productV1/IntegrationDetail.jsx",
+    "lines": "147-169",
+    "anchor": "function ExternalLinks"
+  },
   "implementedBy": "src/pages/productV1/IntegrationDetail.jsx > ExternalLinks",
   "variants": [],
   "content": {

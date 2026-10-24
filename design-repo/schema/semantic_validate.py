@@ -20,6 +20,14 @@ from functools import lru_cache
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+# Contract pins. Deliberately defined HERE as well as in schema/section-contract.schema.json and in extraction/verify_all.py:
+# each layer pins them independently, so changing a contract (or the allowlist mirror) alone is caught by all three.
+SEMANTIC_CATEGORIES = ("COLLECTION", "CONTENT", "CONVERSION", "DIVIDER", "FAQ", "FEATURE", "HERO", "NAVIGATION", "PROOF", "SHELL")
+# Layout-only utility and runtime UI are not retrievable exemplars.
+RETRIEVAL_INELIGIBLE_PINNED = ("divider.tron", "hero.placeholder", "shell.header")
+RUNTIME_UI_NAME_RE = re.compile(r"cookie|consent|modal|dialog|overlay|lightbox|toast|popover|drawer|preloader|cursor|ticker", re.I)
+EDITORIAL_NAME_RE = re.compile(r"blog|news|post|article|editorial|stor(?:y|ies)|related|podcast", re.I)
+
 
 def _load(rel):
     with open(os.path.join(REPO, rel), encoding="utf-8") as f:
@@ -41,6 +49,8 @@ def load_repo():
         "motion": _load("compatibility/motion-patterns.json")["patterns"],
         "assets": _load("assets/asset-roles.json")["roles"],
         "assetRegistry": _load("assets/asset-roles.json"),
+        "allowlist": {e["id"]: e for e in _load("tokens/llm/component-allowlist.json")["entries"]},
+        "allowlistFile": _load("tokens/llm/component-allowlist.json"),
         "sections": sections,
     }
 
@@ -196,6 +206,60 @@ def known_paths(repo):
     return out
 
 
+def check_contracts(repo, add):
+    """Repo-level pins on the section contracts and the allowlist mirror (run with every PageSpec check)."""
+    allow = repo.get("allowlist", {})
+    for sid, c in sorted(repo["sections"].items()):
+        sem, src = c.get("semantic"), c.get("source")
+        if not isinstance(sem, dict) or not isinstance(src, dict):
+            add("SEMANTIC_CATEGORY_CLOSED", "%s: needs distinct semantic and source objects" % sid)
+            continue
+        cat = sem.get("category")
+        if cat not in SEMANTIC_CATEGORIES:
+            add("SEMANTIC_CATEGORY_CLOSED", "%s: semantic.category %r is not in %s" % (sid, cat, list(SEMANTIC_CATEGORIES)))
+        if sem.get("id") != sid:
+            add("SEMANTIC_CATEGORY_CLOSED", "%s: semantic.id %r must equal the contract id" % (sid, sem.get("id")))
+        if src.get("id") == sem.get("id"):
+            add("SEMANTIC_CATEGORY_CLOSED", "%s: source.id and semantic.id must be different identifiers" % sid)
+        prefix = sid.split(".")[0]
+        if prefix == "conversion" and cat != "CONVERSION":
+            add("SEMANTIC_CATEGORY_CLOSED", "%s: a conversion block must be classed CONVERSION, found %s" % (sid, cat))
+        if prefix == "hero" and cat != "HERO":
+            add("SEMANTIC_CATEGORY_CLOSED", "%s: a page-opening block must be classed HERO, found %s" % (sid, cat))
+        beh = c.get("behavior") or {}
+        if ("submission" in beh or "download" in beh) and cat not in ("CONVERSION", "HERO"):
+            add("SEMANTIC_CATEGORY_CLOSED", "%s: carries a submission or download behaviour but is classed %s; it must be CONVERSION (or a HERO that embeds it)" % (sid, cat))
+        if cat == "FEATURE" and EDITORIAL_NAME_RE.search(sid):
+            add("SEMANTIC_CATEGORY_CLOSED", "%s: editorial or story content must not be classed FEATURE" % sid)
+        # retrieval eligibility
+        elig = c.get("retrievalEligible", True)
+        reason = c.get("retrievalIneligibleReason")
+        pinned = sid in RETRIEVAL_INELIGIBLE_PINNED
+        runtime_ui = bool(RUNTIME_UI_NAME_RE.search(sid))
+        if not isinstance(elig, bool):
+            add("RETRIEVAL_ELIGIBILITY_PINNED", "%s: retrievalEligible must be a boolean, got %r" % (sid, elig))
+            continue
+        if (pinned or runtime_ui) and elig is not False:
+            add("RETRIEVAL_ELIGIBILITY_PINNED", "%s is layout-only or runtime UI and must be retrievalEligible false" % sid)
+        if runtime_ui and not pinned:
+            add("RETRIEVAL_ELIGIBILITY_PINNED", "%s looks like runtime UI (cookie, consent, modal, dialog, overlay, drawer, toast) but is not in the pinned list of schema/semantic_validate.py" % sid)
+        if elig is False and not pinned and not runtime_ui:
+            add("RETRIEVAL_ELIGIBILITY_PINNED", "%s is marked retrievalEligible false but is not pinned; false is reserved for layout-only and runtime UI" % sid)
+        if elig is False and (not isinstance(reason, str) or len(reason.strip()) < 30):
+            add("RETRIEVAL_ELIGIBILITY_PINNED", "%s: a retrievalEligible false section needs a reason of at least 30 characters" % sid)
+        if elig is True and reason is not None:
+            add("RETRIEVAL_ELIGIBILITY_PINNED", "%s: a reason is only allowed when retrievalEligible is false" % sid)
+        a = allow.get(sid)
+        if a is not None:
+            if a.get("retrievalEligible") != elig:
+                add("RETRIEVAL_ELIGIBILITY_PINNED", "allowlist %s: retrievalEligible %r differs from the contract (%r)" % (sid, a.get("retrievalEligible"), elig))
+            if a.get("semanticCategory") != cat:
+                add("SEMANTIC_CATEGORY_CLOSED", "allowlist %s: semanticCategory %r differs from the contract (%r)" % (sid, a.get("semanticCategory"), cat))
+    listed = sorted(repo.get("allowlistFile", {}).get("retrievalIneligibleSections", []))
+    if listed != sorted(RETRIEVAL_INELIGIBLE_PINNED):
+        add("RETRIEVAL_ELIGIBILITY_PINNED", "allowlist retrievalIneligibleSections %s differs from the pinned list %s" % (listed, sorted(RETRIEVAL_INELIGIBLE_PINNED)))
+
+
 def check(spec, repo):
     """Return list of findings: dicts {rule, severity, message}."""
     findings = []
@@ -203,6 +267,8 @@ def check(spec, repo):
 
     def add(rule, msg):
         findings.append({"rule": rule, "severity": rules[rule]["severity"], "message": msg})
+
+    check_contracts(repo, add)
 
     # 1. schema layer
     try:

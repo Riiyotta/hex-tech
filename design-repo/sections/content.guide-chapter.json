@@ -1,7 +1,17 @@
 {
   "id": "content.guide-chapter",
-  "category": "content",
   "purpose": "Long-form guide chapter card: chapter H2 then sub-sections with sticky H3s and a prose column (paragraphs, lists, quote cards, objection accordion).",
+  "semantic": {
+    "id": "content.guide-chapter",
+    "category": "CONTENT"
+  },
+  "source": {
+    "id": "Chapter",
+    "tag": "h2",
+    "file": "src/pages/productV1/SwitchingToHex.jsx",
+    "lines": "165-202",
+    "anchor": "function Chapter"
+  },
   "implementedBy": "src/pages/productV1/SwitchingToHex.jsx > Chapter",
   "variants": [],
   "content": {

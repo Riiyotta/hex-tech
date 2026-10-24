@@ -1,7 +1,17 @@
 {
   "id": "feature.highlights",
-  "category": "feature",
   "purpose": "Three-column tout: centred italic+display H2, lead and CTA flanked by two icon highlights with inline links.",
+  "semantic": {
+    "id": "feature.highlights",
+    "category": "FEATURE"
+  },
+  "source": {
+    "id": "DoYourBestWork",
+    "tag": "div",
+    "file": "src/pages/companyCore/CareersPage.jsx",
+    "lines": "143-182",
+    "anchor": "function DoYourBestWork"
+  },
   "implementedBy": "src/pages/companyCore/CareersPage.jsx > DoYourBestWork",
   "variants": [],
   "content": {

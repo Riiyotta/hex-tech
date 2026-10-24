@@ -1,7 +1,17 @@
 {
   "id": "feature.plan-comparison",
-  "category": "feature",
   "purpose": "Feature comparison table with sticky plan header, grouped sections, tick/text cells, tooltips and a compute-profiles modal.",
+  "semantic": {
+    "id": "feature.plan-comparison",
+    "category": "FEATURE"
+  },
+  "source": {
+    "id": "PlanComparisonTable",
+    "tag": "div",
+    "file": "src/pages/pricingForms/pricing/PlanComparisonTable.jsx",
+    "lines": "119-160",
+    "anchor": "function PlanComparisonTable"
+  },
   "implementedBy": "src/pages/pricingForms/pricing/PlanComparisonTable.jsx > PlanComparisonTable",
   "variants": [],
   "content": {

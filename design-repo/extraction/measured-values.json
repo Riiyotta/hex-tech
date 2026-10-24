@@ -12403,5 +12403,2569 @@
         "specs/SHARED_BUILT.md:158"
       ]
     }
-  ]
+  ],
+  "sectionHeights": {
+    "description": "Rendered heights at 1440px, written by extraction/measure_sections.mjs from the recipes in extraction/measure-recipes.json. routes = one entry per measured route (page height + the tiled sections in page order; shell.header is the fixed header and takes no page height); sections = per section the tallest instance. Heights include the margins between sections, so they sum to the document height. Read by extraction/wrapper_gate.py.",
+    "tool": "extraction/measure_sections.mjs",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "routesMeasured": 32,
+    "measuredAt": "2026-10-24",
+    "routes": [
+      {
+        "route": "/",
+        "template": "template.home",
+        "pageHeightPx": 10662,
+        "sections": [
+          {
+            "section": "shell.header",
+            "heightPx": 62,
+            "tag": "header",
+            "inFlow": false
+          },
+          {
+            "section": "hero.home",
+            "heightPx": 698,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "proof.customer-banner",
+            "heightPx": 189,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.built-different",
+            "heightPx": 367,
+            "tag": "section",
+            "inFlow": true
+          },
+          {
+            "section": "feature.split",
+            "heightPx": 928,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.split",
+            "heightPx": 575,
+            "tag": "section",
+            "inFlow": true
+          },
+          {
+            "section": "feature.split",
+            "heightPx": 734,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.split",
+            "heightPx": 884,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.ethos-cards",
+            "heightPx": 851,
+            "tag": "section",
+            "inFlow": true
+          },
+          {
+            "section": "proof.stories-two-up",
+            "heightPx": 305,
+            "tag": "section",
+            "inFlow": true
+          },
+          {
+            "section": "feature.use-cases",
+            "heightPx": 657,
+            "tag": "section",
+            "inFlow": true
+          },
+          {
+            "section": "proof.story-tout",
+            "heightPx": 1344,
+            "tag": "section",
+            "inFlow": true
+          },
+          {
+            "section": "feature.integrations-grid",
+            "heightPx": 1193,
+            "tag": "section",
+            "inFlow": true
+          },
+          {
+            "section": "conversion.bottom-cta",
+            "heightPx": 458,
+            "tag": "section",
+            "inFlow": true
+          },
+          {
+            "section": "divider.tron",
+            "heightPx": 61,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "faq.accordion",
+            "heightPx": 836,
+            "tag": "section",
+            "inFlow": true
+          },
+          {
+            "section": "shell.footer",
+            "heightPx": 582,
+            "tag": "footer",
+            "inFlow": true
+          }
+        ]
+      },
+      {
+        "route": "/product/bi/",
+        "template": "template.product-feature",
+        "pageHeightPx": 8560,
+        "sections": [
+          {
+            "section": "shell.header",
+            "heightPx": 62,
+            "tag": "header",
+            "inFlow": false
+          },
+          {
+            "section": "hero.product",
+            "heightPx": 860,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "proof.customer-banner",
+            "heightPx": 125,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.section-heading",
+            "heightPx": 412,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.split",
+            "heightPx": 766,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.split",
+            "heightPx": 766,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.split",
+            "heightPx": 730,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.split",
+            "heightPx": 923,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.approach-cards",
+            "heightPx": 698,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "collection.resource-cards",
+            "heightPx": 989,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "faq.accordion",
+            "heightPx": 1021,
+            "tag": "section",
+            "inFlow": true
+          },
+          {
+            "section": "conversion.outro-tout",
+            "heightPx": 688,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "shell.footer",
+            "heightPx": 582,
+            "tag": "footer",
+            "inFlow": true
+          }
+        ]
+      },
+      {
+        "route": "/product/cli/",
+        "template": "template.product-feature",
+        "pageHeightPx": 5623,
+        "sections": [
+          {
+            "section": "shell.header",
+            "heightPx": 62,
+            "tag": "header",
+            "inFlow": false
+          },
+          {
+            "section": "hero.product",
+            "heightPx": 875,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "proof.full-width-quote",
+            "heightPx": 340,
+            "tag": "section",
+            "inFlow": true
+          },
+          {
+            "section": "feature.section-heading",
+            "heightPx": 252,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.info-card-grid",
+            "heightPx": 644,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.command-list",
+            "heightPx": 475,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.workflow-table",
+            "heightPx": 919,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "conversion.install-cta",
+            "heightPx": 826,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "conversion.outro-tout",
+            "heightPx": 1260,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "shell.footer",
+            "heightPx": 32,
+            "tag": "div",
+            "inFlow": true
+          }
+        ]
+      },
+      {
+        "route": "/product/context-studio/",
+        "template": "template.product-feature",
+        "pageHeightPx": 8678,
+        "sections": [
+          {
+            "section": "shell.header",
+            "heightPx": 62,
+            "tag": "header",
+            "inFlow": false
+          },
+          {
+            "section": "hero.product",
+            "heightPx": 850,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.platform-overview",
+            "heightPx": 803,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.info-card-grid",
+            "heightPx": 1095,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.observability-callouts",
+            "heightPx": 877,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.info-card-grid",
+            "heightPx": 1080,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "proof.full-width-quote",
+            "heightPx": 271,
+            "tag": "section",
+            "inFlow": true
+          },
+          {
+            "section": "feature.bento-cells",
+            "heightPx": 1335,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "proof.stories-two-up",
+            "heightPx": 307,
+            "tag": "section",
+            "inFlow": true
+          },
+          {
+            "section": "conversion.outro-tout",
+            "heightPx": 624,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "faq.accordion",
+            "heightPx": 855,
+            "tag": "section",
+            "inFlow": true
+          },
+          {
+            "section": "shell.footer",
+            "heightPx": 581,
+            "tag": "footer",
+            "inFlow": true
+          }
+        ]
+      },
+      {
+        "route": "/product/notebooks/",
+        "template": "template.product-feature",
+        "pageHeightPx": 8871,
+        "sections": [
+          {
+            "section": "shell.header",
+            "heightPx": 62,
+            "tag": "header",
+            "inFlow": false
+          },
+          {
+            "section": "hero.product",
+            "heightPx": 749,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "proof.customer-banner",
+            "heightPx": 170,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.magic",
+            "heightPx": 594,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "proof.full-width-quote",
+            "heightPx": 229,
+            "tag": "section",
+            "inFlow": true
+          },
+          {
+            "section": "feature.cell-collage",
+            "heightPx": 834,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.cell-collage",
+            "heightPx": 952,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.cell-collage",
+            "heightPx": 1012,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.execution-dag",
+            "heightPx": 1164,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "conversion.wallpaper-cta",
+            "heightPx": 451,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "proof.social-tout",
+            "heightPx": 764,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "collection.template-cards",
+            "heightPx": 1371,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "shell.footer",
+            "heightPx": 581,
+            "tag": "footer",
+            "inFlow": true
+          }
+        ]
+      },
+      {
+        "route": "/capability/ai/",
+        "template": "template.product-feature",
+        "pageHeightPx": 8045,
+        "sections": [
+          {
+            "section": "shell.header",
+            "heightPx": 62,
+            "tag": "header",
+            "inFlow": false
+          },
+          {
+            "section": "hero.product",
+            "heightPx": 993,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.workflow-split",
+            "heightPx": 519,
+            "tag": "section",
+            "inFlow": true
+          },
+          {
+            "section": "proof.quotes-marquee",
+            "heightPx": 743,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.demo-accordion",
+            "heightPx": 1026,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.perlin-callout",
+            "heightPx": 509,
+            "tag": "section",
+            "inFlow": true
+          },
+          {
+            "section": "feature.demo-accordion",
+            "heightPx": 1146,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.info-card-grid",
+            "heightPx": 1261,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "conversion.outro-tout",
+            "heightPx": 654,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "faq.accordion",
+            "heightPx": 612,
+            "tag": "section",
+            "inFlow": true
+          },
+          {
+            "section": "shell.footer",
+            "heightPx": 582,
+            "tag": "footer",
+            "inFlow": true
+          }
+        ]
+      },
+      {
+        "route": "/product/data-apps/",
+        "template": "template.product-v1",
+        "pageHeightPx": 9795,
+        "sections": [
+          {
+            "section": "shell.header",
+            "heightPx": 62,
+            "tag": "header",
+            "inFlow": false
+          },
+          {
+            "section": "hero.v1",
+            "heightPx": 1106,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "proof.customer-banner",
+            "heightPx": 210,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.codegen-gallery",
+            "heightPx": 2377,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.snaked-rows",
+            "heightPx": 3382,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "proof.social-tout",
+            "heightPx": 513,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "conversion.collage-cta",
+            "heightPx": 1054,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "conversion.outro-tout",
+            "heightPx": 571,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "shell.footer",
+            "heightPx": 582,
+            "tag": "footer",
+            "inFlow": true
+          }
+        ]
+      },
+      {
+        "route": "/product/embedded-analytics/",
+        "template": "template.product-v1",
+        "pageHeightPx": 6493,
+        "sections": [
+          {
+            "section": "shell.header",
+            "heightPx": 62,
+            "tag": "header",
+            "inFlow": false
+          },
+          {
+            "section": "hero.v1",
+            "heightPx": 1157,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "proof.customer-banner",
+            "heightPx": 254,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.section-heading",
+            "heightPx": 174,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.v1-two-up",
+            "heightPx": 592,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.v1-two-up",
+            "heightPx": 592,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.v1-two-up",
+            "heightPx": 592,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.v1-two-up",
+            "heightPx": 587,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "proof.social-tout",
+            "heightPx": 626,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.section-heading",
+            "heightPx": 334,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.icon-row",
+            "heightPx": 328,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "conversion.outro-tout",
+            "heightPx": 675,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "shell.footer",
+            "heightPx": 582,
+            "tag": "footer",
+            "inFlow": true
+          }
+        ]
+      },
+      {
+        "route": "/capability/exploratory-analysis/",
+        "template": "template.product-v1",
+        "pageHeightPx": 8056,
+        "sections": [
+          {
+            "section": "shell.header",
+            "heightPx": 62,
+            "tag": "header",
+            "inFlow": false
+          },
+          {
+            "section": "hero.v1",
+            "heightPx": 627,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "proof.social-tout",
+            "heightPx": 494,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.section-heading",
+            "heightPx": 314,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.v1-two-up",
+            "heightPx": 732,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.v1-two-up",
+            "heightPx": 831,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.v1-two-up",
+            "heightPx": 767,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.v1-two-up",
+            "heightPx": 826,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.v1-two-up",
+            "heightPx": 827,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.section-heading",
+            "heightPx": 394,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "collection.template-cards",
+            "heightPx": 1091,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "conversion.outro-tout",
+            "heightPx": 571,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "shell.footer",
+            "heightPx": 582,
+            "tag": "footer",
+            "inFlow": true
+          }
+        ]
+      },
+      {
+        "route": "/product/switching-to-hex/",
+        "template": "template.long-form-guide",
+        "pageHeightPx": 10551,
+        "sections": [
+          {
+            "section": "shell.header",
+            "heightPx": 62,
+            "tag": "header",
+            "inFlow": false
+          },
+          {
+            "section": "hero.guide-document",
+            "heightPx": 1621,
+            "tag": "h1",
+            "inFlow": true
+          },
+          {
+            "section": "content.guide-chapter",
+            "heightPx": 3695,
+            "tag": "h2",
+            "inFlow": true
+          },
+          {
+            "section": "content.guide-chapter",
+            "heightPx": 2320,
+            "tag": "h2",
+            "inFlow": true
+          },
+          {
+            "section": "content.guide-chapter",
+            "heightPx": 1664,
+            "tag": "h2",
+            "inFlow": true
+          },
+          {
+            "section": "proof.quotes-marquee",
+            "heightPx": 669,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "shell.footer",
+            "heightPx": 582,
+            "tag": "footer",
+            "inFlow": true
+          }
+        ]
+      },
+      {
+        "route": "/product/integrations/",
+        "template": "template.integrations-index",
+        "pageHeightPx": 4001,
+        "sections": [
+          {
+            "section": "shell.header",
+            "heightPx": 62,
+            "tag": "header",
+            "inFlow": false
+          },
+          {
+            "section": "hero.heading-with-callout",
+            "heightPx": 496,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "collection.integration-category",
+            "heightPx": 1015,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "collection.integration-category",
+            "heightPx": 375,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "collection.integration-category",
+            "heightPx": 350,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "collection.integration-category",
+            "heightPx": 317,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "collection.integration-category",
+            "heightPx": 316,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "collection.integration-category",
+            "heightPx": 550,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "shell.footer",
+            "heightPx": 582,
+            "tag": "footer",
+            "inFlow": true
+          }
+        ]
+      },
+      {
+        "route": "/product/integrations/snowflake/",
+        "template": "template.integration-detail",
+        "pageHeightPx": 6235,
+        "sections": [
+          {
+            "section": "shell.header",
+            "heightPx": 62,
+            "tag": "header",
+            "inFlow": false
+          },
+          {
+            "section": "hero.integration",
+            "heightPx": 798,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "proof.stories-two-up",
+            "heightPx": 447,
+            "tag": "section",
+            "inFlow": true
+          },
+          {
+            "section": "feature.how-it-works",
+            "heightPx": 570,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.integration-custom-blocks",
+            "heightPx": 1993,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "faq.accordion",
+            "heightPx": 427,
+            "tag": "section",
+            "inFlow": true
+          },
+          {
+            "section": "divider.tron",
+            "heightPx": 191,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.video-embed",
+            "heightPx": 732,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "collection.external-links",
+            "heightPx": 495,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "shell.footer",
+            "heightPx": 582,
+            "tag": "footer",
+            "inFlow": true
+          }
+        ]
+      },
+      {
+        "route": "/solutions/",
+        "template": "template.solutions-hub",
+        "pageHeightPx": 10712,
+        "sections": [
+          {
+            "section": "shell.header",
+            "heightPx": 62,
+            "tag": "header",
+            "inFlow": false
+          },
+          {
+            "section": "hero.solutions-hub",
+            "heightPx": 706,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "proof.customer-banner",
+            "heightPx": 206,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "navigation.filter-chips",
+            "heightPx": 72,
+            "tag": "nav",
+            "inFlow": true
+          },
+          {
+            "section": "collection.resource-cards",
+            "heightPx": 9146,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "shell.footer",
+            "heightPx": 582,
+            "tag": "footer",
+            "inFlow": true
+          }
+        ]
+      },
+      {
+        "route": "/solutions/customer-success/",
+        "template": "template.solution-detail",
+        "pageHeightPx": 6216,
+        "sections": [
+          {
+            "section": "shell.header",
+            "heightPx": 62,
+            "tag": "header",
+            "inFlow": false
+          },
+          {
+            "section": "hero.solution",
+            "heightPx": 654,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "proof.customer-banner",
+            "heightPx": 170,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.solution-row",
+            "heightPx": 593,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.solution-row",
+            "heightPx": 593,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.solution-row",
+            "heightPx": 593,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "proof.social-tout",
+            "heightPx": 486,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.section-heading",
+            "heightPx": 189,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.live-app-embed",
+            "heightPx": 993,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "collection.resource-cards",
+            "heightPx": 765,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "conversion.outro-tout",
+            "heightPx": 598,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "shell.footer",
+            "heightPx": 582,
+            "tag": "footer",
+            "inFlow": true
+          }
+        ]
+      },
+      {
+        "route": "/enterprise/",
+        "template": "template.enterprise",
+        "pageHeightPx": 7785,
+        "sections": [
+          {
+            "section": "shell.header",
+            "heightPx": 62,
+            "tag": "header",
+            "inFlow": false
+          },
+          {
+            "section": "hero.enterprise",
+            "heightPx": 1025,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "proof.customer-banner",
+            "heightPx": 170,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.numbered-grid",
+            "heightPx": 1037,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.illustrated-checklist",
+            "heightPx": 888,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.support-grid",
+            "heightPx": 1122,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.integrations-grid",
+            "heightPx": 1288,
+            "tag": "section",
+            "inFlow": true
+          },
+          {
+            "section": "conversion.cta-split",
+            "heightPx": 801,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "divider.tron",
+            "heightPx": 61,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "faq.accordion",
+            "heightPx": 812,
+            "tag": "section",
+            "inFlow": true
+          },
+          {
+            "section": "shell.footer",
+            "heightPx": 581,
+            "tag": "footer",
+            "inFlow": true
+          }
+        ]
+      },
+      {
+        "route": "/compare/",
+        "template": "template.compare",
+        "pageHeightPx": 1612,
+        "sections": [
+          {
+            "section": "shell.header",
+            "heightPx": 62,
+            "tag": "header",
+            "inFlow": false
+          },
+          {
+            "section": "hero.compare",
+            "heightPx": 836,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "proof.customer-banner",
+            "heightPx": 194,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "shell.footer",
+            "heightPx": 582,
+            "tag": "footer",
+            "inFlow": true
+          }
+        ]
+      },
+      {
+        "route": "/partners/",
+        "template": "template.partners",
+        "pageHeightPx": 4750,
+        "sections": [
+          {
+            "section": "shell.header",
+            "heightPx": 62,
+            "tag": "header",
+            "inFlow": false
+          },
+          {
+            "section": "hero.partners",
+            "heightPx": 648,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.partners-why",
+            "heightPx": 550,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "divider.tron",
+            "heightPx": 96,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.partner-tiers",
+            "heightPx": 1025,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "collection.partners-grid",
+            "heightPx": 1128,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "conversion.form-shell",
+            "heightPx": 721,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "shell.footer",
+            "heightPx": 582,
+            "tag": "footer",
+            "inFlow": true
+          }
+        ]
+      },
+      {
+        "route": "/pricing/",
+        "template": "template.pricing",
+        "pageHeightPx": 5547,
+        "sections": [
+          {
+            "section": "shell.header",
+            "heightPx": 62,
+            "tag": "header",
+            "inFlow": false
+          },
+          {
+            "section": "hero.pricing",
+            "heightPx": 350,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.plan-summary",
+            "heightPx": 955,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "proof.customer-banner",
+            "heightPx": 165,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "divider.tron",
+            "heightPx": 61,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.plan-comparison",
+            "heightPx": 2656,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "divider.tron",
+            "heightPx": 61,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "faq.accordion",
+            "heightPx": 717,
+            "tag": "section",
+            "inFlow": true
+          },
+          {
+            "section": "shell.footer",
+            "heightPx": 582,
+            "tag": "footer",
+            "inFlow": true
+          }
+        ]
+      },
+      {
+        "route": "/request-a-demo/",
+        "template": "template.form-page",
+        "pageHeightPx": 1757,
+        "sections": [
+          {
+            "section": "shell.header",
+            "heightPx": 62,
+            "tag": "header",
+            "inFlow": false
+          },
+          {
+            "section": "hero.form",
+            "heightPx": 383,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "conversion.form-shell",
+            "heightPx": 522,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "proof.customer-banner",
+            "heightPx": 270,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "shell.footer",
+            "heightPx": 582,
+            "tag": "footer",
+            "inFlow": true
+          }
+        ]
+      },
+      {
+        "route": "/blog/",
+        "template": "template.blog-index",
+        "pageHeightPx": 4127,
+        "sections": [
+          {
+            "section": "shell.header",
+            "heightPx": 62,
+            "tag": "header",
+            "inFlow": false
+          },
+          {
+            "section": "hero.blog-masthead",
+            "heightPx": 330,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "collection.blog-featured",
+            "heightPx": 1248,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "collection.blog-recent",
+            "heightPx": 274,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "collection.blog-feed",
+            "heightPx": 1693,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "shell.footer",
+            "heightPx": 582,
+            "tag": "footer",
+            "inFlow": true
+          }
+        ]
+      },
+      {
+        "route": "/blog/introducing-generative-data-apps/",
+        "template": "template.article",
+        "pageHeightPx": 7827,
+        "sections": [
+          {
+            "section": "shell.header",
+            "heightPx": 62,
+            "tag": "header",
+            "inFlow": false
+          },
+          {
+            "section": "hero.article",
+            "heightPx": 965,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "content.article-body",
+            "heightPx": 6280,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "shell.footer",
+            "heightPx": 582,
+            "tag": "footer",
+            "inFlow": true
+          }
+        ]
+      },
+      {
+        "route": "/customers/",
+        "template": "template.customers-index",
+        "pageHeightPx": 8243,
+        "sections": [
+          {
+            "section": "shell.header",
+            "heightPx": 62,
+            "tag": "header",
+            "inFlow": false
+          },
+          {
+            "section": "hero.customers",
+            "heightPx": 588,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "proof.featured-stories-fan",
+            "heightPx": 277,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "proof.quotes-marquee",
+            "heightPx": 534,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "navigation.filter-chips",
+            "heightPx": 64,
+            "tag": "nav",
+            "inFlow": true
+          },
+          {
+            "section": "collection.customer-stories",
+            "heightPx": 5836,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "proof.logo-wall",
+            "heightPx": 362,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "shell.footer",
+            "heightPx": 582,
+            "tag": "footer",
+            "inFlow": true
+          }
+        ]
+      },
+      {
+        "route": "/customers/chime/",
+        "template": "template.customer-story",
+        "pageHeightPx": 9182,
+        "sections": [
+          {
+            "section": "shell.header",
+            "heightPx": 62,
+            "tag": "header",
+            "inFlow": false
+          },
+          {
+            "section": "hero.story",
+            "heightPx": 1212,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.story-details",
+            "heightPx": 457,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "content.story-body",
+            "heightPx": 5855,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "collection.customer-stories",
+            "heightPx": 1076,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "shell.footer",
+            "heightPx": 582,
+            "tag": "footer",
+            "inFlow": true
+          }
+        ]
+      },
+      {
+        "route": "/about/",
+        "template": "template.about",
+        "pageHeightPx": 4299,
+        "sections": [
+          {
+            "section": "shell.header",
+            "heightPx": 62,
+            "tag": "header",
+            "inFlow": false
+          },
+          {
+            "section": "hero.about",
+            "heightPx": 904,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "proof.customer-banner",
+            "heightPx": 189,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "proof.logo-wall",
+            "heightPx": 481,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "collection.newsroom-cards",
+            "heightPx": 1189,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.photo-collage",
+            "heightPx": 954,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "shell.footer",
+            "heightPx": 582,
+            "tag": "footer",
+            "inFlow": true
+          }
+        ]
+      },
+      {
+        "route": "/careers/",
+        "template": "template.careers",
+        "pageHeightPx": 6302,
+        "sections": [
+          {
+            "section": "shell.header",
+            "heightPx": 62,
+            "tag": "header",
+            "inFlow": false
+          },
+          {
+            "section": "hero.careers",
+            "heightPx": 1105,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.highlights",
+            "heightPx": 467,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "collection.open-roles",
+            "heightPx": 4148,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "shell.footer",
+            "heightPx": 582,
+            "tag": "footer",
+            "inFlow": true
+          }
+        ]
+      },
+      {
+        "route": "/newsroom/",
+        "template": "template.newsroom",
+        "pageHeightPx": 5808,
+        "sections": [
+          {
+            "section": "shell.header",
+            "heightPx": 62,
+            "tag": "header",
+            "inFlow": false
+          },
+          {
+            "section": "hero.newsroom",
+            "heightPx": 378,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "collection.newsroom-featured",
+            "heightPx": 500,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "collection.newsroom-cards",
+            "heightPx": 4348,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "shell.footer",
+            "heightPx": 582,
+            "tag": "footer",
+            "inFlow": true
+          }
+        ]
+      },
+      {
+        "route": "/resources/events/",
+        "template": "template.v1-resource-index",
+        "pageHeightPx": 6499,
+        "sections": [
+          {
+            "section": "shell.header",
+            "heightPx": 62,
+            "tag": "header",
+            "inFlow": false
+          },
+          {
+            "section": "hero.v1-intro",
+            "heightPx": 682,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "collection.events",
+            "heightPx": 5235,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "shell.footer",
+            "heightPx": 582,
+            "tag": "footer",
+            "inFlow": true
+          }
+        ]
+      },
+      {
+        "route": "/resources/guides/",
+        "template": "template.v1-resource-index",
+        "pageHeightPx": 5011,
+        "sections": [
+          {
+            "section": "shell.header",
+            "heightPx": 62,
+            "tag": "header",
+            "inFlow": false
+          },
+          {
+            "section": "hero.v1-intro",
+            "heightPx": 682,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "collection.guides",
+            "heightPx": 3747,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "shell.footer",
+            "heightPx": 582,
+            "tag": "footer",
+            "inFlow": true
+          }
+        ]
+      },
+      {
+        "route": "/resources/guides/ai-analytics/",
+        "template": "template.guide-landing",
+        "pageHeightPx": 4517,
+        "sections": [
+          {
+            "section": "shell.header",
+            "heightPx": 62,
+            "tag": "header",
+            "inFlow": false
+          },
+          {
+            "section": "hero.guide-landing",
+            "heightPx": 1012,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "feature.podcast-episodes",
+            "heightPx": 592,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "collection.resource-cards",
+            "heightPx": 1174,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "proof.quote-tiles",
+            "heightPx": 585,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "conversion.outro-tout",
+            "heightPx": 572,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "shell.footer",
+            "heightPx": 582,
+            "tag": "footer",
+            "inFlow": true
+          }
+        ]
+      },
+      {
+        "route": "/templates/",
+        "template": "template.templates-index",
+        "pageHeightPx": 14012,
+        "sections": [
+          {
+            "section": "shell.header",
+            "heightPx": 62,
+            "tag": "header",
+            "inFlow": false
+          },
+          {
+            "section": "hero.v1-intro",
+            "heightPx": 464,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "collection.templates-catalog",
+            "heightPx": 12966,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "shell.footer",
+            "heightPx": 582,
+            "tag": "footer",
+            "inFlow": true
+          }
+        ]
+      },
+      {
+        "route": "/state-of-data-teams/",
+        "template": "template.report",
+        "pageHeightPx": 11079,
+        "sections": [
+          {
+            "section": "hero.report",
+            "heightPx": 737,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "content.report-intro",
+            "heightPx": 922,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "content.report-toc",
+            "heightPx": 469,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "content.report-section",
+            "heightPx": 1964,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "content.report-section",
+            "heightPx": 2899,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "content.report-section",
+            "heightPx": 1377,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "content.report-section",
+            "heightPx": 1079,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "content.report-outro",
+            "heightPx": 801,
+            "tag": "div",
+            "inFlow": true
+          },
+          {
+            "section": "faq.accordion",
+            "heightPx": 831,
+            "tag": "section",
+            "inFlow": true
+          }
+        ]
+      },
+      {
+        "route": "*",
+        "template": "template.placeholder",
+        "pageHeightPx": 1218,
+        "sections": [
+          {
+            "section": "shell.header",
+            "heightPx": 62,
+            "tag": "header",
+            "inFlow": false
+          },
+          {
+            "section": "hero.placeholder",
+            "heightPx": 631,
+            "tag": "section",
+            "inFlow": true
+          },
+          {
+            "section": "shell.footer",
+            "heightPx": 587,
+            "tag": "footer",
+            "inFlow": true
+          }
+        ]
+      }
+    ],
+    "sections": {
+      "collection.blog-featured": {
+        "maxHeightPx": 1248,
+        "route": "/blog/",
+        "template": "template.blog-index",
+        "tag": "div",
+        "instances": 1
+      },
+      "collection.blog-feed": {
+        "maxHeightPx": 1693,
+        "route": "/blog/",
+        "template": "template.blog-index",
+        "tag": "div",
+        "instances": 1
+      },
+      "collection.blog-recent": {
+        "maxHeightPx": 274,
+        "route": "/blog/",
+        "template": "template.blog-index",
+        "tag": "div",
+        "instances": 1
+      },
+      "collection.customer-stories": {
+        "maxHeightPx": 5836,
+        "route": "/customers/",
+        "template": "template.customers-index",
+        "tag": "div",
+        "instances": 2
+      },
+      "collection.events": {
+        "maxHeightPx": 5235,
+        "route": "/resources/events/",
+        "template": "template.v1-resource-index",
+        "tag": "div",
+        "instances": 1
+      },
+      "collection.external-links": {
+        "maxHeightPx": 495,
+        "route": "/product/integrations/snowflake/",
+        "template": "template.integration-detail",
+        "tag": "div",
+        "instances": 1
+      },
+      "collection.guides": {
+        "maxHeightPx": 3747,
+        "route": "/resources/guides/",
+        "template": "template.v1-resource-index",
+        "tag": "div",
+        "instances": 1
+      },
+      "collection.integration-category": {
+        "maxHeightPx": 1015,
+        "route": "/product/integrations/",
+        "template": "template.integrations-index",
+        "tag": "div",
+        "instances": 6
+      },
+      "collection.newsroom-cards": {
+        "maxHeightPx": 4348,
+        "route": "/newsroom/",
+        "template": "template.newsroom",
+        "tag": "div",
+        "instances": 2
+      },
+      "collection.newsroom-featured": {
+        "maxHeightPx": 500,
+        "route": "/newsroom/",
+        "template": "template.newsroom",
+        "tag": "div",
+        "instances": 1
+      },
+      "collection.open-roles": {
+        "maxHeightPx": 4148,
+        "route": "/careers/",
+        "template": "template.careers",
+        "tag": "div",
+        "instances": 1
+      },
+      "collection.partners-grid": {
+        "maxHeightPx": 1128,
+        "route": "/partners/",
+        "template": "template.partners",
+        "tag": "div",
+        "instances": 1
+      },
+      "collection.resource-cards": {
+        "maxHeightPx": 9146,
+        "route": "/solutions/",
+        "template": "template.solutions-hub",
+        "tag": "div",
+        "instances": 4
+      },
+      "collection.template-cards": {
+        "maxHeightPx": 1371,
+        "route": "/product/notebooks/",
+        "template": "template.product-feature",
+        "tag": "div",
+        "instances": 2
+      },
+      "collection.templates-catalog": {
+        "maxHeightPx": 12966,
+        "route": "/templates/",
+        "template": "template.templates-index",
+        "tag": "div",
+        "instances": 1
+      },
+      "content.article-body": {
+        "maxHeightPx": 6280,
+        "route": "/blog/introducing-generative-data-apps/",
+        "template": "template.article",
+        "tag": "div",
+        "instances": 1
+      },
+      "content.guide-chapter": {
+        "maxHeightPx": 3695,
+        "route": "/product/switching-to-hex/",
+        "template": "template.long-form-guide",
+        "tag": "h2",
+        "instances": 3
+      },
+      "content.report-intro": {
+        "maxHeightPx": 922,
+        "route": "/state-of-data-teams/",
+        "template": "template.report",
+        "tag": "div",
+        "instances": 1
+      },
+      "content.report-outro": {
+        "maxHeightPx": 801,
+        "route": "/state-of-data-teams/",
+        "template": "template.report",
+        "tag": "div",
+        "instances": 1
+      },
+      "content.report-section": {
+        "maxHeightPx": 2899,
+        "route": "/state-of-data-teams/",
+        "template": "template.report",
+        "tag": "div",
+        "instances": 4
+      },
+      "content.report-toc": {
+        "maxHeightPx": 469,
+        "route": "/state-of-data-teams/",
+        "template": "template.report",
+        "tag": "div",
+        "instances": 1
+      },
+      "content.story-body": {
+        "maxHeightPx": 5855,
+        "route": "/customers/chime/",
+        "template": "template.customer-story",
+        "tag": "div",
+        "instances": 1
+      },
+      "conversion.bottom-cta": {
+        "maxHeightPx": 458,
+        "route": "/",
+        "template": "template.home",
+        "tag": "section",
+        "instances": 1
+      },
+      "conversion.collage-cta": {
+        "maxHeightPx": 1054,
+        "route": "/product/data-apps/",
+        "template": "template.product-v1",
+        "tag": "div",
+        "instances": 1
+      },
+      "conversion.cta-split": {
+        "maxHeightPx": 801,
+        "route": "/enterprise/",
+        "template": "template.enterprise",
+        "tag": "div",
+        "instances": 1
+      },
+      "conversion.form-shell": {
+        "maxHeightPx": 721,
+        "route": "/partners/",
+        "template": "template.partners",
+        "tag": "div",
+        "instances": 2
+      },
+      "conversion.install-cta": {
+        "maxHeightPx": 826,
+        "route": "/product/cli/",
+        "template": "template.product-feature",
+        "tag": "div",
+        "instances": 1
+      },
+      "conversion.outro-tout": {
+        "maxHeightPx": 1260,
+        "route": "/product/cli/",
+        "template": "template.product-feature",
+        "tag": "div",
+        "instances": 9
+      },
+      "conversion.wallpaper-cta": {
+        "maxHeightPx": 451,
+        "route": "/product/notebooks/",
+        "template": "template.product-feature",
+        "tag": "div",
+        "instances": 1
+      },
+      "divider.tron": {
+        "maxHeightPx": 191,
+        "route": "/product/integrations/snowflake/",
+        "template": "template.integration-detail",
+        "tag": "div",
+        "instances": 6
+      },
+      "faq.accordion": {
+        "maxHeightPx": 1021,
+        "route": "/product/bi/",
+        "template": "template.product-feature",
+        "tag": "section",
+        "instances": 8
+      },
+      "feature.approach-cards": {
+        "maxHeightPx": 698,
+        "route": "/product/bi/",
+        "template": "template.product-feature",
+        "tag": "div",
+        "instances": 1
+      },
+      "feature.bento-cells": {
+        "maxHeightPx": 1335,
+        "route": "/product/context-studio/",
+        "template": "template.product-feature",
+        "tag": "div",
+        "instances": 1
+      },
+      "feature.built-different": {
+        "maxHeightPx": 367,
+        "route": "/",
+        "template": "template.home",
+        "tag": "section",
+        "instances": 1
+      },
+      "feature.cell-collage": {
+        "maxHeightPx": 1012,
+        "route": "/product/notebooks/",
+        "template": "template.product-feature",
+        "tag": "div",
+        "instances": 3
+      },
+      "feature.codegen-gallery": {
+        "maxHeightPx": 2377,
+        "route": "/product/data-apps/",
+        "template": "template.product-v1",
+        "tag": "div",
+        "instances": 1
+      },
+      "feature.command-list": {
+        "maxHeightPx": 475,
+        "route": "/product/cli/",
+        "template": "template.product-feature",
+        "tag": "div",
+        "instances": 1
+      },
+      "feature.demo-accordion": {
+        "maxHeightPx": 1146,
+        "route": "/capability/ai/",
+        "template": "template.product-feature",
+        "tag": "div",
+        "instances": 2
+      },
+      "feature.ethos-cards": {
+        "maxHeightPx": 851,
+        "route": "/",
+        "template": "template.home",
+        "tag": "section",
+        "instances": 1
+      },
+      "feature.execution-dag": {
+        "maxHeightPx": 1164,
+        "route": "/product/notebooks/",
+        "template": "template.product-feature",
+        "tag": "div",
+        "instances": 1
+      },
+      "feature.highlights": {
+        "maxHeightPx": 467,
+        "route": "/careers/",
+        "template": "template.careers",
+        "tag": "div",
+        "instances": 1
+      },
+      "feature.how-it-works": {
+        "maxHeightPx": 570,
+        "route": "/product/integrations/snowflake/",
+        "template": "template.integration-detail",
+        "tag": "div",
+        "instances": 1
+      },
+      "feature.icon-row": {
+        "maxHeightPx": 328,
+        "route": "/product/embedded-analytics/",
+        "template": "template.product-v1",
+        "tag": "div",
+        "instances": 1
+      },
+      "feature.illustrated-checklist": {
+        "maxHeightPx": 888,
+        "route": "/enterprise/",
+        "template": "template.enterprise",
+        "tag": "div",
+        "instances": 1
+      },
+      "feature.info-card-grid": {
+        "maxHeightPx": 1261,
+        "route": "/capability/ai/",
+        "template": "template.product-feature",
+        "tag": "div",
+        "instances": 4
+      },
+      "feature.integration-custom-blocks": {
+        "maxHeightPx": 1993,
+        "route": "/product/integrations/snowflake/",
+        "template": "template.integration-detail",
+        "tag": "div",
+        "instances": 1
+      },
+      "feature.integrations-grid": {
+        "maxHeightPx": 1288,
+        "route": "/enterprise/",
+        "template": "template.enterprise",
+        "tag": "section",
+        "instances": 2
+      },
+      "feature.live-app-embed": {
+        "maxHeightPx": 993,
+        "route": "/solutions/customer-success/",
+        "template": "template.solution-detail",
+        "tag": "div",
+        "instances": 1
+      },
+      "feature.magic": {
+        "maxHeightPx": 594,
+        "route": "/product/notebooks/",
+        "template": "template.product-feature",
+        "tag": "div",
+        "instances": 1
+      },
+      "feature.numbered-grid": {
+        "maxHeightPx": 1037,
+        "route": "/enterprise/",
+        "template": "template.enterprise",
+        "tag": "div",
+        "instances": 1
+      },
+      "feature.observability-callouts": {
+        "maxHeightPx": 877,
+        "route": "/product/context-studio/",
+        "template": "template.product-feature",
+        "tag": "div",
+        "instances": 1
+      },
+      "feature.partner-tiers": {
+        "maxHeightPx": 1025,
+        "route": "/partners/",
+        "template": "template.partners",
+        "tag": "div",
+        "instances": 1
+      },
+      "feature.partners-why": {
+        "maxHeightPx": 550,
+        "route": "/partners/",
+        "template": "template.partners",
+        "tag": "div",
+        "instances": 1
+      },
+      "feature.perlin-callout": {
+        "maxHeightPx": 509,
+        "route": "/capability/ai/",
+        "template": "template.product-feature",
+        "tag": "section",
+        "instances": 1
+      },
+      "feature.photo-collage": {
+        "maxHeightPx": 954,
+        "route": "/about/",
+        "template": "template.about",
+        "tag": "div",
+        "instances": 1
+      },
+      "feature.plan-comparison": {
+        "maxHeightPx": 2656,
+        "route": "/pricing/",
+        "template": "template.pricing",
+        "tag": "div",
+        "instances": 1
+      },
+      "feature.plan-summary": {
+        "maxHeightPx": 955,
+        "route": "/pricing/",
+        "template": "template.pricing",
+        "tag": "div",
+        "instances": 1
+      },
+      "feature.platform-overview": {
+        "maxHeightPx": 803,
+        "route": "/product/context-studio/",
+        "template": "template.product-feature",
+        "tag": "div",
+        "instances": 1
+      },
+      "feature.podcast-episodes": {
+        "maxHeightPx": 592,
+        "route": "/resources/guides/ai-analytics/",
+        "template": "template.guide-landing",
+        "tag": "div",
+        "instances": 1
+      },
+      "feature.section-heading": {
+        "maxHeightPx": 412,
+        "route": "/product/bi/",
+        "template": "template.product-feature",
+        "tag": "div",
+        "instances": 7
+      },
+      "feature.snaked-rows": {
+        "maxHeightPx": 3382,
+        "route": "/product/data-apps/",
+        "template": "template.product-v1",
+        "tag": "div",
+        "instances": 1
+      },
+      "feature.solution-row": {
+        "maxHeightPx": 593,
+        "route": "/solutions/customer-success/",
+        "template": "template.solution-detail",
+        "tag": "div",
+        "instances": 3
+      },
+      "feature.split": {
+        "maxHeightPx": 928,
+        "route": "/",
+        "template": "template.home",
+        "tag": "div",
+        "instances": 8
+      },
+      "feature.story-details": {
+        "maxHeightPx": 457,
+        "route": "/customers/chime/",
+        "template": "template.customer-story",
+        "tag": "div",
+        "instances": 1
+      },
+      "feature.support-grid": {
+        "maxHeightPx": 1122,
+        "route": "/enterprise/",
+        "template": "template.enterprise",
+        "tag": "div",
+        "instances": 1
+      },
+      "feature.use-cases": {
+        "maxHeightPx": 657,
+        "route": "/",
+        "template": "template.home",
+        "tag": "section",
+        "instances": 1
+      },
+      "feature.v1-two-up": {
+        "maxHeightPx": 831,
+        "route": "/capability/exploratory-analysis/",
+        "template": "template.product-v1",
+        "tag": "div",
+        "instances": 9
+      },
+      "feature.video-embed": {
+        "maxHeightPx": 732,
+        "route": "/product/integrations/snowflake/",
+        "template": "template.integration-detail",
+        "tag": "div",
+        "instances": 1
+      },
+      "feature.workflow-split": {
+        "maxHeightPx": 519,
+        "route": "/capability/ai/",
+        "template": "template.product-feature",
+        "tag": "section",
+        "instances": 1
+      },
+      "feature.workflow-table": {
+        "maxHeightPx": 919,
+        "route": "/product/cli/",
+        "template": "template.product-feature",
+        "tag": "div",
+        "instances": 1
+      },
+      "hero.about": {
+        "maxHeightPx": 904,
+        "route": "/about/",
+        "template": "template.about",
+        "tag": "div",
+        "instances": 1
+      },
+      "hero.article": {
+        "maxHeightPx": 965,
+        "route": "/blog/introducing-generative-data-apps/",
+        "template": "template.article",
+        "tag": "div",
+        "instances": 1
+      },
+      "hero.blog-masthead": {
+        "maxHeightPx": 330,
+        "route": "/blog/",
+        "template": "template.blog-index",
+        "tag": "div",
+        "instances": 1
+      },
+      "hero.careers": {
+        "maxHeightPx": 1105,
+        "route": "/careers/",
+        "template": "template.careers",
+        "tag": "div",
+        "instances": 1
+      },
+      "hero.compare": {
+        "maxHeightPx": 836,
+        "route": "/compare/",
+        "template": "template.compare",
+        "tag": "div",
+        "instances": 1
+      },
+      "hero.customers": {
+        "maxHeightPx": 588,
+        "route": "/customers/",
+        "template": "template.customers-index",
+        "tag": "div",
+        "instances": 1
+      },
+      "hero.enterprise": {
+        "maxHeightPx": 1025,
+        "route": "/enterprise/",
+        "template": "template.enterprise",
+        "tag": "div",
+        "instances": 1
+      },
+      "hero.form": {
+        "maxHeightPx": 383,
+        "route": "/request-a-demo/",
+        "template": "template.form-page",
+        "tag": "div",
+        "instances": 1
+      },
+      "hero.guide-document": {
+        "maxHeightPx": 1621,
+        "route": "/product/switching-to-hex/",
+        "template": "template.long-form-guide",
+        "tag": "h1",
+        "instances": 1
+      },
+      "hero.guide-landing": {
+        "maxHeightPx": 1012,
+        "route": "/resources/guides/ai-analytics/",
+        "template": "template.guide-landing",
+        "tag": "div",
+        "instances": 1
+      },
+      "hero.heading-with-callout": {
+        "maxHeightPx": 496,
+        "route": "/product/integrations/",
+        "template": "template.integrations-index",
+        "tag": "div",
+        "instances": 1
+      },
+      "hero.home": {
+        "maxHeightPx": 698,
+        "route": "/",
+        "template": "template.home",
+        "tag": "div",
+        "instances": 1
+      },
+      "hero.integration": {
+        "maxHeightPx": 798,
+        "route": "/product/integrations/snowflake/",
+        "template": "template.integration-detail",
+        "tag": "div",
+        "instances": 1
+      },
+      "hero.newsroom": {
+        "maxHeightPx": 378,
+        "route": "/newsroom/",
+        "template": "template.newsroom",
+        "tag": "div",
+        "instances": 1
+      },
+      "hero.partners": {
+        "maxHeightPx": 648,
+        "route": "/partners/",
+        "template": "template.partners",
+        "tag": "div",
+        "instances": 1
+      },
+      "hero.placeholder": {
+        "maxHeightPx": 631,
+        "route": "*",
+        "template": "template.placeholder",
+        "tag": "section",
+        "instances": 1
+      },
+      "hero.pricing": {
+        "maxHeightPx": 350,
+        "route": "/pricing/",
+        "template": "template.pricing",
+        "tag": "div",
+        "instances": 1
+      },
+      "hero.product": {
+        "maxHeightPx": 993,
+        "route": "/capability/ai/",
+        "template": "template.product-feature",
+        "tag": "div",
+        "instances": 5
+      },
+      "hero.report": {
+        "maxHeightPx": 737,
+        "route": "/state-of-data-teams/",
+        "template": "template.report",
+        "tag": "div",
+        "instances": 1
+      },
+      "hero.solution": {
+        "maxHeightPx": 654,
+        "route": "/solutions/customer-success/",
+        "template": "template.solution-detail",
+        "tag": "div",
+        "instances": 1
+      },
+      "hero.solutions-hub": {
+        "maxHeightPx": 706,
+        "route": "/solutions/",
+        "template": "template.solutions-hub",
+        "tag": "div",
+        "instances": 1
+      },
+      "hero.story": {
+        "maxHeightPx": 1212,
+        "route": "/customers/chime/",
+        "template": "template.customer-story",
+        "tag": "div",
+        "instances": 1
+      },
+      "hero.v1": {
+        "maxHeightPx": 1157,
+        "route": "/product/embedded-analytics/",
+        "template": "template.product-v1",
+        "tag": "div",
+        "instances": 3
+      },
+      "hero.v1-intro": {
+        "maxHeightPx": 682,
+        "route": "/resources/events/",
+        "template": "template.v1-resource-index",
+        "tag": "div",
+        "instances": 3
+      },
+      "navigation.filter-chips": {
+        "maxHeightPx": 72,
+        "route": "/solutions/",
+        "template": "template.solutions-hub",
+        "tag": "nav",
+        "instances": 2
+      },
+      "proof.customer-banner": {
+        "maxHeightPx": 270,
+        "route": "/request-a-demo/",
+        "template": "template.form-page",
+        "tag": "div",
+        "instances": 12
+      },
+      "proof.featured-stories-fan": {
+        "maxHeightPx": 277,
+        "route": "/customers/",
+        "template": "template.customers-index",
+        "tag": "div",
+        "instances": 1
+      },
+      "proof.full-width-quote": {
+        "maxHeightPx": 340,
+        "route": "/product/cli/",
+        "template": "template.product-feature",
+        "tag": "section",
+        "instances": 3
+      },
+      "proof.logo-wall": {
+        "maxHeightPx": 481,
+        "route": "/about/",
+        "template": "template.about",
+        "tag": "div",
+        "instances": 2
+      },
+      "proof.quote-tiles": {
+        "maxHeightPx": 585,
+        "route": "/resources/guides/ai-analytics/",
+        "template": "template.guide-landing",
+        "tag": "div",
+        "instances": 1
+      },
+      "proof.quotes-marquee": {
+        "maxHeightPx": 743,
+        "route": "/capability/ai/",
+        "template": "template.product-feature",
+        "tag": "div",
+        "instances": 3
+      },
+      "proof.social-tout": {
+        "maxHeightPx": 764,
+        "route": "/product/notebooks/",
+        "template": "template.product-feature",
+        "tag": "div",
+        "instances": 5
+      },
+      "proof.stories-two-up": {
+        "maxHeightPx": 447,
+        "route": "/product/integrations/snowflake/",
+        "template": "template.integration-detail",
+        "tag": "section",
+        "instances": 3
+      },
+      "proof.story-tout": {
+        "maxHeightPx": 1344,
+        "route": "/",
+        "template": "template.home",
+        "tag": "section",
+        "instances": 1
+      },
+      "shell.footer": {
+        "maxHeightPx": 587,
+        "route": "*",
+        "template": "template.placeholder",
+        "tag": "footer",
+        "instances": 31
+      },
+      "shell.header": {
+        "maxHeightPx": 62,
+        "route": "/",
+        "template": "template.home",
+        "tag": "header",
+        "instances": 31
+      }
+    }
+  }
 }

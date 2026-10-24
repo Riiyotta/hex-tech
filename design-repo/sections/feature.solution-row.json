@@ -1,7 +1,17 @@
 {
   "id": "feature.solution-row",
-  "category": "feature",
   "purpose": "Solution feature row: 671px media box beside a 375px info column (solid 40px H2, optional bold subline, body, full-width secondary CTA).",
+  "semantic": {
+    "id": "feature.solution-row",
+    "category": "FEATURE"
+  },
+  "source": {
+    "id": "FeatureRow",
+    "tag": "div",
+    "file": "src/pages/solutions/SolutionDetail.jsx",
+    "lines": "64-95",
+    "anchor": "function FeatureRow"
+  },
   "implementedBy": "src/pages/solutions/SolutionDetail.jsx > FeatureRow",
   "variants": [],
   "content": {

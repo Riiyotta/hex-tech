@@ -1,7 +1,17 @@
 {
   "id": "feature.integrations-grid",
-  "category": "feature",
   "purpose": "'Instant integration' tout: italic+display H2, lead and a 3x2 grid of illustrated integration cards.",
+  "semantic": {
+    "id": "feature.integrations-grid",
+    "category": "FEATURE"
+  },
+  "source": {
+    "id": "Integrations",
+    "tag": "section",
+    "file": "src/components/sections/Integrations.jsx",
+    "lines": "71-95",
+    "anchor": "function Integrations"
+  },
   "implementedBy": "src/components/sections/Integrations.jsx > Integrations",
   "variants": [],
   "content": {

@@ -1,7 +1,17 @@
 {
   "id": "feature.workflow-split",
-  "category": "feature",
   "purpose": "Gradient H2 masthead over two divided halves (eyebrow, bold-lead description, three-item icon list).",
+  "semantic": {
+    "id": "feature.workflow-split",
+    "category": "FEATURE"
+  },
+  "source": {
+    "id": "Workflows",
+    "tag": "section",
+    "file": "src/pages/productMore/ai/Workflows.jsx",
+    "lines": "36-79",
+    "anchor": "function Workflows"
+  },
   "implementedBy": "src/pages/productMore/ai/Workflows.jsx > Workflows",
   "variants": [],
   "content": {

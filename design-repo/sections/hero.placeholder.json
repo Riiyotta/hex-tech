@@ -1,7 +1,19 @@
 {
   "id": "hero.placeholder",
-  "category": "hero",
   "purpose": "Fallback 'page still being built' placeholder for unrouted internal paths: path label, H1 and a back-home button.",
+  "semantic": {
+    "id": "hero.placeholder",
+    "category": "HERO"
+  },
+  "source": {
+    "id": "PagePending",
+    "tag": "section",
+    "file": "src/pages/PagePending.jsx",
+    "lines": "7-19",
+    "anchor": "function PagePending"
+  },
+  "retrievalEligible": false,
+  "retrievalIneligibleReason": "Fallback stand-in for pages the clone has not built; it is not a page opening to imitate and the template is not a generation target.",
   "implementedBy": "src/pages/PagePending.jsx > PagePending",
   "variants": [],
   "content": {

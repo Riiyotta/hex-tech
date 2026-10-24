@@ -1,7 +1,17 @@
 {
   "id": "collection.open-roles",
-  "category": "collection",
   "purpose": "Open roles: sticky department/location filter sidebar beside department blocks of role rows, closed by a safety callout.",
+  "semantic": {
+    "id": "collection.open-roles",
+    "category": "COLLECTION"
+  },
+  "source": {
+    "id": "OpenRoles",
+    "tag": "div",
+    "file": "src/pages/companyCore/CareersPage.jsx",
+    "lines": "231-314",
+    "anchor": "function OpenRoles"
+  },
   "implementedBy": "src/pages/companyCore/CareersPage.jsx > OpenRoles",
   "variants": [],
   "content": {

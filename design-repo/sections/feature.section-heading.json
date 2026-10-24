@@ -1,7 +1,17 @@
 {
   "id": "feature.section-heading",
-  "category": "feature",
   "purpose": "Centred section heading: gradient H2 with optional checker-flanked italic line and description (display), solution-sized H2, or V1 panel H2 + subheader.",
+  "semantic": {
+    "id": "feature.section-heading",
+    "category": "FEATURE"
+  },
+  "source": {
+    "id": "SectionHeading",
+    "tag": "div",
+    "file": "src/components/shared/SectionHeading.jsx",
+    "lines": "16-54",
+    "anchor": "function SectionHeading"
+  },
   "implementedBy": "src/components/shared/SectionHeading.jsx > SectionHeading",
   "alsoImplementedBy": [
     "src/pages/productV1/blocks.jsx > V1H2Panel"

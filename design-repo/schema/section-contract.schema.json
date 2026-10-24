@@ -1,0 +1,168 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "hex-design-repo/section-contract.schema.json",
+  "title": "Section contract",
+  "description": "Closed Draft-07 schema for every file in sections/. Closed everywhere (additionalProperties false): an invented key anywhere in a contract is a schema error. `source` (provenance of the implementing code) and `semantic` (taxonomy) are distinct objects. Vocabulary membership that needs other files (motion pattern ids, token names, asset roles, template ids) is checked by extraction/verify_all.py.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "purpose", "semantic", "source", "implementedBy", "variants", "content", "motion", "responsive", "constraints", "measuredFrom", "wordBudgets", "richTextBudgets", "assetRoles", "usedByTemplates", "observedThemes", "schemaRef", "copyBudgetRule"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z]+\\.[a-z0-9]+(-[a-z0-9]+)*$" },
+    "purpose": { "type": "string", "minLength": 1 },
+    "semantic": {
+      "description": "Taxonomy. id equals the contract id (and the id in the sibling ia.json); category is the closed class and the single taxonomy of a section. A conversion block is CONVERSION, a page-opening block is HERO, editorial prose is CONTENT; FEATURE means capabilities, workflows, benefits and integrations.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "category"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z]+\\.[a-z0-9]+(-[a-z0-9]+)*$" },
+        "category": { "type": "string", "enum": ["COLLECTION", "CONTENT", "CONVERSION", "DIVIDER", "FAQ", "FEATURE", "HERO", "NAVIGATION", "PROOF", "SHELL"] }
+      }
+    },
+    "source": {
+      "description": "Provenance. id: the implementing component (its name differs from semantic.id by construction); tag: the rendered root element; file and lines: the range of that component's definition in the real source file (resolved by verify_all.py); anchor: text that must occur inside that range.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "tag", "file", "lines", "anchor"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[A-Z][A-Za-z0-9]*$" },
+        "tag": { "type": "string", "enum": ["div", "section", "header", "footer", "nav", "main", "aside", "article", "ul", "form", "h1", "h2", "img"] },
+        "file": { "type": "string", "pattern": "^src/[\\w./\\-]+\\.jsx?$" },
+        "lines": { "type": "string", "pattern": "^[1-9][0-9]*-[1-9][0-9]*$" },
+        "anchor": { "type": "string", "minLength": 1 }
+      }
+    },
+    "retrievalEligible": {
+      "description": "Closed boolean, default true when absent. false only for layout-only or runtime UI (cookie or consent banners, modals, dialogs, overlays, drawers, tickers-as-utility) that retrieval must not return as an exemplar; then retrievalIneligibleReason (30+ characters) is required, and it is forbidden otherwise. The pinned list lives independently in schema/semantic_validate.py and extraction/verify_all.py.",
+      "type": "boolean"
+    },
+    "retrievalIneligibleReason": { "type": "string", "minLength": 30 },
+    "implementedBy": { "type": "string", "pattern": "^src/[\\w./\\-]+\\.jsx?( > [A-Z][A-Za-z0-9]*)?$" },
+    "alsoImplementedBy": { "type": "array", "minItems": 1, "items": { "type": "string", "pattern": "^src/[\\w./\\-]+\\.jsx?( > [A-Z][A-Za-z0-9]*)?$" } },
+    "variants": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "content": {
+      "type": "object",
+      "additionalProperties": { "$ref": "#/definitions/field" }
+    },
+    "motion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["allowedPatterns", "default"],
+      "properties": {
+        "allowedPatterns": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+        "default": { "type": "string", "minLength": 1 }
+      }
+    },
+    "responsive": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["atOrBelow", "change", "detail", "measuredFrom"],
+        "properties": {
+          "atOrBelow": { "type": "string", "pattern": "^\\{breakpoint\\.[a-z0-9-]+\\}$" },
+          "change": { "type": "string", "minLength": 1 },
+          "detail": { "type": "string", "minLength": 1 },
+          "measuredFrom": { "$ref": "#/definitions/refs" }
+        }
+      }
+    },
+    "constraints": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "onePerPage": { "type": "boolean" },
+        "maxPerPage": { "type": "integer", "minimum": 1 },
+        "consecutiveAllowed": { "type": "boolean" },
+        "forcedTheme": { "type": "string", "enum": ["light", "dark"] },
+        "homeRouteOnly": { "type": "boolean" },
+        "generationEligible": { "type": "boolean" },
+        "mustBeFirst": { "type": "boolean" },
+        "mustBeLast": { "type": "boolean" },
+        "globalContent": { "type": "boolean" }
+      }
+    },
+    "measuredFrom": { "$ref": "#/definitions/refs" },
+    "wordBudgets": { "type": "object", "additionalProperties": { "type": "integer", "minimum": 1 } },
+    "richTextBudgets": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["maxBlocks", "maxWordsPerBlock", "blockTypes"],
+        "properties": {
+          "maxBlocks": { "type": "integer", "minimum": 1 },
+          "maxWordsPerBlock": { "type": "integer", "minimum": 1 },
+          "blockTypes": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } }
+        }
+      }
+    },
+    "assetRoles": { "type": "array", "items": { "type": "string", "pattern": "^[a-z]+\\.[a-z0-9-]+$" } },
+    "usedByTemplates": { "type": "array", "items": { "type": "string", "pattern": "^template\\.[a-z0-9-]+$" } },
+    "observedThemes": { "type": "array", "minItems": 1, "items": { "type": "string", "enum": ["light", "dark"] } },
+    "schemaRef": { "type": "string", "pattern": "^schema/pagespec\\.schema\\.json#/definitions/content__[a-z0-9.-]+$" },
+    "copyBudgetRule": { "type": "string", "minLength": 1 },
+    "notes": { "type": "string", "minLength": 1 },
+    "sourceEvidence": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+    "behavior": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["measuredFrom"],
+      "properties": {
+        "submission": { "type": "string", "minLength": 1 },
+        "networkRequests": { "type": "string", "minLength": 1 },
+        "validation": { "type": "string", "minLength": 1 },
+        "copy": { "type": "string", "minLength": 1 },
+        "cardClick": { "type": "string", "minLength": 1 },
+        "embeds": { "type": "string", "minLength": 1 },
+        "download": { "type": "string", "minLength": 1 },
+        "filtering": { "type": "string", "minLength": 1 },
+        "measuredFrom": { "$ref": "#/definitions/refs" }
+      }
+    }
+  },
+  "definitions": {
+    "refs": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "field": {
+      "description": "One content field. kind decides which sibling keys apply; the set of keys is closed.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "required"],
+      "properties": {
+        "kind": { "type": "string", "enum": ["text", "richText", "media", "list", "object", "action", "href", "link", "enum", "boolean"] },
+        "required": { "type": "boolean" },
+        "maxWords": { "type": "integer", "minimum": 1 },
+        "observedWords": { "type": "array", "items": { "type": "integer", "minimum": 0 } },
+        "measuredFrom": { "$ref": "#/definitions/refs" },
+        "minItems": { "type": "integer", "minimum": 0 },
+        "maxItems": { "type": "integer", "minimum": 1 },
+        "item": { "$ref": "#/definitions/field" },
+        "fields": { "type": "object", "additionalProperties": { "$ref": "#/definitions/field" } },
+        "label": { "$ref": "#/definitions/field" },
+        "variants": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "sizes": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "roles": { "type": "array", "minItems": 1, "items": { "type": "string", "pattern": "^[a-z]+\\.[a-z0-9-]+$" } },
+        "alt": { "$ref": "#/definitions/alt" },
+        "values": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+        "maxBlocks": { "type": "integer", "minimum": 1 },
+        "blockTypes": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+        "maxWordsPerBlock": { "type": "integer", "minimum": 1 },
+        "placeholderInClone": { "type": "boolean" },
+        "note": { "type": "string", "minLength": 1 }
+      }
+    },
+    "alt": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "required", "maxWords", "observedWords", "measuredFrom"],
+      "properties": {
+        "kind": { "const": "text" },
+        "required": { "type": "boolean" },
+        "maxWords": { "type": "integer", "minimum": 1 },
+        "observedWords": { "type": "array", "items": { "type": "integer", "minimum": 0 } },
+        "measuredFrom": { "$ref": "#/definitions/refs" },
+        "definedByRepo": { "const": true }
+      }
+    }
+  }
+}

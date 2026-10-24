@@ -1,7 +1,17 @@
 {
   "id": "proof.social-tout",
-  "category": "proof",
   "purpose": "Social proof row: G2 awards card and/or glass quote card(s).",
+  "semantic": {
+    "id": "proof.social-tout",
+    "category": "PROOF"
+  },
+  "source": {
+    "id": "SocialTout",
+    "tag": "div",
+    "file": "src/components/shared/SocialTout.jsx",
+    "lines": "11-18",
+    "anchor": "function SocialTout"
+  },
   "implementedBy": "src/components/shared/SocialTout.jsx > SocialTout",
   "alsoImplementedBy": [
     "src/pages/productV1/blocks.jsx > QuoteRow"

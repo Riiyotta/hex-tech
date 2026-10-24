@@ -1,7 +1,17 @@
 {
   "id": "content.story-body",
-  "category": "content",
   "purpose": "Customer story body: rich text column between hatched gutters; section headings and pull quotes are real, other prose is placeholder.",
+  "semantic": {
+    "id": "content.story-body",
+    "category": "CONTENT"
+  },
+  "source": {
+    "id": "StoryBody",
+    "tag": "div",
+    "file": "src/pages/companyCore/CustomerStoryPage.jsx",
+    "lines": "106-145",
+    "anchor": "function StoryBody"
+  },
   "implementedBy": "src/pages/companyCore/CustomerStoryPage.jsx > StoryBody",
   "variants": [],
   "content": {

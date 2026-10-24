@@ -1,7 +1,17 @@
 {
   "id": "hero.home",
-  "category": "hero",
   "purpose": "Homepage stage: two-line display headline, pill-linked lead and two CTAs over Perlin + cartesian backdrop.",
+  "semantic": {
+    "id": "hero.home",
+    "category": "HERO"
+  },
+  "source": {
+    "id": "Hero",
+    "tag": "div",
+    "file": "src/components/Hero.jsx",
+    "lines": "47-90",
+    "anchor": "function Hero"
+  },
   "implementedBy": "src/components/Hero.jsx > Hero",
   "variants": [],
   "content": {

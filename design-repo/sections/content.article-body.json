@@ -1,7 +1,17 @@
 {
   "id": "content.article-body",
-  "category": "content",
   "purpose": "Light content slab inside a dark page: sticky 'In this article' TOC aside with CTA, rich text column, in-body callout, share row and kicker.",
+  "semantic": {
+    "id": "content.article-body",
+    "category": "CONTENT"
+  },
+  "source": {
+    "id": "ArticleBody",
+    "tag": "div",
+    "file": "src/pages/companyCore/BlogPostPage.jsx",
+    "lines": "86-176",
+    "anchor": "function ArticleBody"
+  },
   "implementedBy": "src/pages/companyCore/BlogPostPage.jsx > ArticleBody",
   "variants": [],
   "content": {

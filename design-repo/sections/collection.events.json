@@ -1,7 +1,17 @@
 {
   "id": "collection.events",
-  "category": "collection",
   "purpose": "Sticky filter sidebar beside grouped event-card grids under dark section headers (upcoming / on-demand).",
+  "semantic": {
+    "id": "collection.events",
+    "category": "COLLECTION"
+  },
+  "source": {
+    "id": "EventsPage",
+    "tag": "div",
+    "file": "src/pages/companyResources/EventsPage.jsx",
+    "lines": "85-116",
+    "anchor": "function EventsPage"
+  },
   "implementedBy": "src/pages/companyResources/EventsPage.jsx > EventsPage",
   "variants": [],
   "content": {

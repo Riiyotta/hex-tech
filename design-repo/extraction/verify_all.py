@@ -11,6 +11,10 @@ Checks (each prints PASS / WARN / FAIL):
     file, and matches the sibling ../ia.json (downgraded to WARN when the source tree is absent),
   * token-reference resolution (catalog, contract token lists, {ref} strings incl. responsive breakpoints),
   * theme closure (every semantic role resolved in both themes),
+  * section contracts: closed schema/section-contract.schema.json, distinct source + semantic objects, closed category enum and honest
+    classing, retrievalEligible pinned here AND in semantic_validate.py, allowlist mirror, source ranges re-read from the real files,
+    generate_provenance.py sync (warns when the source tree is absent),
+  * the whole-page-wrapper gate (extraction/wrapper_gate.py) over the measured 1440px section heights, with its thresholds pinned here,
   * pinned asset-role policies and pinned asset availability by mode (both kept in this file, independent of the registry),
   * reference / generated mode: closed availability enum, substitutes, brand-mark fields, sourceBrand patterns, example mode,
   * graph-rule <-> validator parity,
@@ -28,6 +32,7 @@ sys.dont_write_bytecode = True
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(REPO, "schema"))
 sys.path.insert(0, os.path.join(REPO, "schema", "tests"))
+sys.path.insert(0, os.path.join(REPO, "extraction"))
 import semantic_validate as sv  # noqa: E402
 import jsonschema  # noqa: E402
 
@@ -52,6 +57,14 @@ for _r in ("logo.customer", "logo.investor", "logo.partner", "logo.integration",
            "canvas.runtime"):
     PINNED_AVAILABILITY[_r] = "generation-safe"
 AVAILABILITY = ["reference-only", "generation-safe"]
+# Contract pins, kept HERE independent of semantic_validate.py and of the closed schema (each layer pins them on its own).
+SEMANTIC_CATEGORIES = ["COLLECTION", "CONTENT", "CONVERSION", "DIVIDER", "FAQ", "FEATURE", "HERO", "NAVIGATION", "PROOF", "SHELL"]
+RETRIEVAL_PINNED = ["divider.tron", "hero.placeholder", "shell.header"]   # layout-only utility / runtime UI / fallback stand-in
+RUNTIME_UI_RE = re.compile(r"cookie|consent|modal|dialog|overlay|lightbox|toast|popover|drawer|preloader|cursor|ticker", re.I)
+EDITORIAL_RE = re.compile(r"blog|news|post|article|editorial|stor(?:y|ies)|related|podcast", re.I)
+TAG_ENUM = ["div", "section", "header", "footer", "nav", "main", "aside", "article", "ul", "form", "h1", "h2", "img"]
+# Wrapper-gate thresholds, pinned HERE: the gate module and the measured data must agree with these and may not weaken them.
+GATE_PINS = {"HERO_WARN_PX": 1800, "HERO_FAIL_PX": 3000, "SHARE_WARN_PCT": 50.0, "SHARE_FAIL_PCT": 60.0, "MIN_SECTIONS": 3, "VIEWPORT_WIDTH": 1440}
 BRAND_SHELL = ("shell.header", "shell.footer")
 
 
@@ -411,6 +424,164 @@ def check_modes(repo, files):
     report("reference/generated mode: brand availability pinned, substitutes, shell brand fields, sourceBrand, example (%d roles)" % len(roles), probs)
 
 
+def check_section_contracts(repo, files):
+    sections = {i: c for i, (layer, rel, c) in files.items() if layer == "section"}
+    probs = []
+    sch = load("schema/section-contract.schema.json")
+    try:
+        jsonschema.Draft7Validator.check_schema(sch)
+    except jsonschema.SchemaError as e:
+        probs.append("section-contract.schema.json is not a valid Draft-07 schema: %s" % e.message[:150])
+    if sch.get("additionalProperties") is not False:
+        probs.append("section-contract.schema.json must stay closed at the top level")
+    for k in ("semantic", "source"):
+        if sch["properties"][k].get("additionalProperties") is not False:
+            probs.append("section-contract.schema.json must stay closed on %s" % k)
+    if sch["properties"]["semantic"]["properties"]["category"].get("enum") != SEMANTIC_CATEGORIES:
+        probs.append("section-contract.schema.json category enum differs from the list pinned in verify_all.py")
+    if sch["properties"]["source"]["properties"]["tag"].get("enum") != TAG_ENUM:
+        probs.append("section-contract.schema.json source.tag enum differs from the list pinned in verify_all.py")
+    if sch["properties"]["retrievalEligible"].get("type") != "boolean" or sch["properties"]["retrievalIneligibleReason"].get("minLength") != 30:
+        probs.append("section-contract.schema.json must keep retrievalEligible a boolean and the reason at 30+ characters")
+    validator = jsonschema.Draft7Validator(sch)
+    for sid, c in sorted(sections.items()):
+        for e in validator.iter_errors(c):
+            probs.append("sections/%s.json: %s: %s" % (sid, "/".join(str(x) for x in e.absolute_path) or "(root)", e.message[:120]))
+        sem, src = c.get("semantic", {}), c.get("source", {})
+        if sem.get("id") != sid:
+            probs.append("%s: semantic.id %r must equal the contract id" % (sid, sem.get("id")))
+        if src.get("id") == sem.get("id"):
+            probs.append("%s: source.id and semantic.id must be different identifiers" % sid)
+        if "category" in c:
+            probs.append("%s: the old free-form category field must be gone (semantic.category is the single taxonomy)" % sid)
+        cat = sem.get("category")
+        prefix = sid.split(".")[0]
+        if prefix == "conversion" and cat != "CONVERSION":
+            probs.append("%s: a conversion block must be CONVERSION, found %s" % (sid, cat))
+        if prefix == "hero" and cat != "HERO":
+            probs.append("%s: a page-opening block must be HERO, found %s" % (sid, cat))
+        if cat == "HERO" and prefix != "hero":
+            probs.append("%s: classed HERO but not a hero.* section" % sid)
+        beh = c.get("behavior") or {}
+        if ("submission" in beh or "download" in beh) and cat not in ("CONVERSION", "HERO"):
+            probs.append("%s: submission/download behaviour but classed %s (must be CONVERSION or HERO)" % (sid, cat))
+        if cat == "FEATURE" and EDITORIAL_RE.search(sid):
+            probs.append("%s: editorial/story content must not be classed FEATURE" % sid)
+        elig, reason = c.get("retrievalEligible", True), c.get("retrievalIneligibleReason")
+        pinned, runtime_ui = sid in RETRIEVAL_PINNED, bool(RUNTIME_UI_RE.search(sid))
+        if not isinstance(elig, bool):
+            probs.append("%s: retrievalEligible must be a closed boolean" % sid)
+            continue
+        if pinned and elig is not False:
+            probs.append("%s is pinned retrieval-ineligible in verify_all.py but its contract says %r" % (sid, elig))
+        if runtime_ui and not pinned:
+            probs.append("%s looks like runtime UI and must be in the pinned retrieval-ineligible list of verify_all.py" % sid)
+        if elig is False and not pinned:
+            probs.append("%s is retrievalEligible false but not pinned: false is reserved for layout-only and runtime UI" % sid)
+        if elig is False and (not isinstance(reason, str) or len(reason.strip()) < 30):
+            probs.append("%s: retrievalEligible false needs a reason of 30+ characters" % sid)
+        if elig is True and reason is not None:
+            probs.append("%s: a retrievalIneligibleReason is only allowed when retrievalEligible is false" % sid)
+    for sid in RETRIEVAL_PINNED:
+        if sid not in sections:
+            probs.append("pinned retrieval-ineligible section %s has no contract" % sid)
+    # allowlist mirror
+    al = load("tokens/llm/component-allowlist.json")
+    ent = {e["id"]: e for e in al["entries"]}
+    for sid, c in sections.items():
+        a = ent.get(sid, {})
+        if a.get("retrievalEligible") != c.get("retrievalEligible", True):
+            probs.append("allowlist %s: retrievalEligible %r != contract %r" % (sid, a.get("retrievalEligible"), c.get("retrievalEligible", True)))
+        if a.get("semanticCategory") != c.get("semantic", {}).get("category"):
+            probs.append("allowlist %s: semanticCategory %r != contract %r" % (sid, a.get("semanticCategory"), c.get("semantic", {}).get("category")))
+    if sorted(al.get("retrievalIneligibleSections", [])) != sorted(RETRIEVAL_PINNED):
+        probs.append("allowlist retrievalIneligibleSections %s != the pinned list %s" % (al.get("retrievalIneligibleSections"), RETRIEVAL_PINNED))
+    if al.get("semanticCategories") != SEMANTIC_CATEGORIES:
+        probs.append("allowlist semanticCategories differs from the list pinned in verify_all.py")
+    pm = load("extraction/provenance-map.json")
+    if sorted(pm["retrievalIneligible"]) != sorted(RETRIEVAL_PINNED):
+        probs.append("provenance-map.json retrievalIneligible differs from the list pinned in verify_all.py")
+    if pm["semanticCategories"] != SEMANTIC_CATEGORIES:
+        probs.append("provenance-map.json semanticCategories differs from the list pinned in verify_all.py")
+    # the validator carries the same pins independently
+    if list(sv.RETRIEVAL_INELIGIBLE_PINNED) != RETRIEVAL_PINNED or list(sv.SEMANTIC_CATEGORIES) != SEMANTIC_CATEGORIES:
+        probs.append("schema/semantic_validate.py pins (RETRIEVAL_INELIGIBLE_PINNED / SEMANTIC_CATEGORIES) differ from verify_all.py")
+    # taxonomy agrees with the sibling IA when it is present
+    src_root = os.path.normpath(os.path.join(REPO, load("extraction/measured-values.json")["sourceRoot"]))
+    ia_path = os.path.join(src_root, "ia.json")
+    if os.path.isfile(ia_path):
+        ia = json.load(open(ia_path, encoding="utf-8"))["sections"]
+        for sid, c in sections.items():
+            if ia.get(sid, {}).get("category") != c["semantic"]["category"]:
+                probs.append("%s: semantic.category %s differs from ia.json category %s" % (sid, c["semantic"]["category"], ia.get(sid, {}).get("category")))
+    report("section contracts: closed schema, source/semantic split, honest classing, retrieval pin (%d contracts)" % len(sections), probs)
+
+    # source provenance: re-read every range from the real files
+    present = os.path.isfile(os.path.join(src_root, "CLONE_SPEC.md"))
+    probs, cache = [], {}
+    measured_sections = load("extraction/measured-values.json").get("sectionHeights", {}).get("sections", {})
+    for sid, c in sorted(sections.items()):
+        s = c["source"]
+        full = os.path.join(src_root, s["file"])
+        if not os.path.isfile(full):
+            probs.append("%s: source file %s missing" % (sid, s["file"]))
+            continue
+        if full not in cache:
+            with open(full, encoding="utf-8", errors="replace") as f:
+                cache[full] = f.read().split("\n")
+        L = cache[full]
+        a, _, b = s["lines"].partition("-")
+        a, b = int(a), int(b)
+        if not 1 <= a <= b <= len(L):
+            probs.append("%s: source.lines %s is not a valid range of %s (%d lines)" % (sid, s["lines"], s["file"], len(L)))
+            continue
+        body = "\n".join(L[a - 1:b])
+        if s["anchor"] not in body:
+            probs.append("%s: source anchor %r is not inside %s:%s" % (sid, s["anchor"], s["file"], s["lines"]))
+        if not (re.search(r"<%s\b" % s["tag"], body) or re.search(r"\bas=[\"']%s[\"']" % s["tag"], body) or re.search(r"motion\.%s\b" % s["tag"], body)
+                or re.search(r"<[A-Z][A-Za-z0-9.]*\b", body)):
+            probs.append("%s: tag <%s> is not opened inside %s:%s and the range does not root in a wrapper component" % (sid, s["tag"], s["file"], s["lines"]))
+        mt = measured_sections.get(sid, {}).get("tag")
+        if mt != s["tag"]:
+            probs.append("%s: source.tag %s differs from the measured rendered root tag %s" % (sid, s["tag"], mt))
+        if not s["file"] == c["implementedBy"].partition(" > ")[0] or s["id"] != c["implementedBy"].partition(" > ")[2]:
+            probs.append("%s: source.file/id differ from implementedBy %r" % (sid, c["implementedBy"]))
+    name = "source ranges resolve in the real files (%d contracts)" % len(sections)
+    if not present:
+        name += " -- source tree absent, downgraded"
+    report(name, probs, warn_only=not present)
+    # the generated objects equal what generate_provenance.py builds
+    if present:
+        import generate_provenance as gp
+        try:
+            contracts, new, al_old, al_new, _fb = gp.generate()
+            drift = [sid for sid in new if new[sid][1] != contracts[sid][1]]
+            probs = ["%s: source/semantic/retrieval differ from what extraction/generate_provenance.py builds" % sid for sid in drift]
+            if al_old != al_new:
+                probs.append("tokens/llm/component-allowlist.json differs from what generate_provenance.py builds")
+        except (ValueError, OSError) as e:
+            probs = ["generate_provenance.py failed: %s" % e]
+        report("provenance in sync with extraction/generate_provenance.py", probs)
+    else:
+        report("provenance in sync with extraction/generate_provenance.py -- source tree absent, downgraded", ["not compared"], warn_only=True)
+
+
+def check_wrapper(repo):
+    import wrapper_gate as wg
+    probs = []
+    for k, want in GATE_PINS.items():
+        if getattr(wg, k, None) != want:
+            probs.append("wrapper_gate.%s is %r but verify_all.py pins %r (thresholds may not be weakened)" % (k, getattr(wg, k, None), want))
+    mv = load("extraction/measured-values.json")
+    sh = mv.get("sectionHeights", {})
+    if (sh.get("viewport") or {}).get("width") != GATE_PINS["VIEWPORT_WIDTH"]:
+        probs.append("sectionHeights was not measured at the pinned %dpx viewport" % GATE_PINS["VIEWPORT_WIDTH"])
+    F, W = wg.check_wrapper_gate(REPO)
+    report("whole-page-wrapper gate (%d routes measured, %d warnings, %d reviewed exceptions)" % (len(sh.get("routes", [])), len(W), len(load("extraction/wrapper-whitelist.json")["entries"])), probs + F)
+    for w in W[:6]:
+        print("       ~ %s" % w)
+
+
 def check_graph(repo):
     rule_ids = {r["id"] for r in repo["graph"]["rules"]}
     with open(os.path.join(REPO, "schema", "semantic_validate.py"), encoding="utf-8") as f:
@@ -439,6 +610,10 @@ def check_manifest(repo, files, leaves, semantic):
         "assetRoles": len(repo["assets"]),
         "motionPatterns": len(repo["motion"]),
         "graphRules": len(repo["graph"]["rules"]),
+        "retrievalIneligibleSections": sum(1 for v in files.values() if v[0] == "section" and v[2].get("retrievalEligible", True) is False),
+        "semanticCategories": len(SEMANTIC_CATEGORIES),
+        "measuredRoutes": len(load("extraction/measured-values.json").get("sectionHeights", {}).get("routes", [])),
+        "wrapperWhitelistEntries": len(load("extraction/wrapper-whitelist.json")["entries"]),
     }
     probs = ["%s: manifest %s, actual %s" % (k, m["counts"].get(k), v) for k, v in actual.items() if m["counts"].get(k) != v]
     probs += ["%s: manifest count with no recompute" % k for k in sorted(set(m["counts"]) - set(actual))]
@@ -482,6 +657,8 @@ def main():
     leaves, semantic = check_tokens(files)
     check_assets(repo)
     check_modes(repo, files)
+    check_section_contracts(repo, files)
+    check_wrapper(repo)
     check_graph(repo)
     check_manifest(repo, files, leaves, semantic)
     check_abs_paths()

@@ -1,7 +1,17 @@
 {
   "id": "collection.customer-stories",
-  "category": "collection",
   "purpose": "Grid of glass customer-story cards (logo plate, H4, mono meta rows); index variant shows the full filterable grid, related variant a short list with H2.",
+  "semantic": {
+    "id": "collection.customer-stories",
+    "category": "COLLECTION"
+  },
+  "source": {
+    "id": "StoriesSection",
+    "tag": "div",
+    "file": "src/pages/companyCore/CustomersPage.jsx",
+    "lines": "195-233",
+    "anchor": "function StoriesSection"
+  },
   "implementedBy": "src/pages/companyCore/CustomersPage.jsx > StoriesSection",
   "alsoImplementedBy": [
     "src/pages/companyCore/CustomerStoryPage.jsx > RelatedStories"

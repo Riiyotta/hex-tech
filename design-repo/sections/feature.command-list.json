@@ -1,7 +1,17 @@
 {
   "id": "feature.command-list",
-  "category": "feature",
   "purpose": "Mark + gradient H2 with italic lead word beside a 2-column list of command features with inline code pills, over rose Perlin.",
+  "semantic": {
+    "id": "feature.command-list",
+    "category": "FEATURE"
+  },
+  "source": {
+    "id": "FeatureList",
+    "tag": "div",
+    "file": "src/pages/productCore/cli/CliSections.jsx",
+    "lines": "139-168",
+    "anchor": "function FeatureList"
+  },
   "implementedBy": "src/pages/productCore/cli/CliSections.jsx > FeatureList",
   "variants": [],
   "content": {

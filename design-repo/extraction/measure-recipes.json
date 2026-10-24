@@ -1,0 +1,2176 @@
+{
+  "description": "How extraction/measure_sections.mjs maps rendered DOM regions to section ids at 1440px. One representative route per route-set that together covers every section contract (a greedy cover of routes.json, so every section is measured at least once). Each entry names the START element of one section instance: path = child indexes (1-based, all children) below <main>; css + nth = the nth document-order match of a selector (the 1px-rule divider stack). The script tiles the page: a section runs from its start to the next section start (the last runs to the end of the document), so the measured heights always sum to the document height and include the margins between sections. continuation entries add their extent to the previous instance of the same section (a hero that wraps a customer banner). shell.header is the fixed header element and takes no page height; the footer runs to the end of the document. The route \"*\" is the fallback page and is requested as /page-not-built-yet/.",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "headerCss": "header",
+  "routes": {
+    "/": {
+      "template": "template.home",
+      "entries": [
+        {
+          "section": "hero.home",
+          "path": [
+            1,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "proof.customer-banner",
+          "path": [
+            1,
+            2,
+            1,
+            2
+          ]
+        },
+        {
+          "section": "feature.built-different",
+          "path": [
+            1,
+            2,
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "section": "feature.split",
+          "path": [
+            1,
+            2,
+            1,
+            4
+          ]
+        },
+        {
+          "section": "feature.split",
+          "path": [
+            1,
+            2,
+            1,
+            5,
+            1
+          ]
+        },
+        {
+          "section": "feature.split",
+          "path": [
+            1,
+            2,
+            1,
+            6,
+            1
+          ]
+        },
+        {
+          "section": "feature.split",
+          "path": [
+            1,
+            2,
+            1,
+            7,
+            1
+          ]
+        },
+        {
+          "section": "feature.ethos-cards",
+          "path": [
+            1,
+            2,
+            1,
+            8,
+            1
+          ]
+        },
+        {
+          "section": "proof.stories-two-up",
+          "path": [
+            2
+          ]
+        },
+        {
+          "section": "feature.use-cases",
+          "path": [
+            3,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "proof.story-tout",
+          "path": [
+            3,
+            2,
+            2
+          ]
+        },
+        {
+          "section": "feature.integrations-grid",
+          "path": [
+            3,
+            2,
+            3
+          ]
+        },
+        {
+          "section": "conversion.bottom-cta",
+          "path": [
+            3,
+            2,
+            4
+          ]
+        },
+        {
+          "section": "faq.accordion",
+          "path": [
+            3,
+            2,
+            5
+          ]
+        },
+        {
+          "section": "divider.tron",
+          "css": "div[aria-hidden=\"true\"]:has(> .bg-tron)",
+          "nth": 0
+        },
+        {
+          "section": "shell.footer",
+          "path": [
+            3,
+            2,
+            6
+          ]
+        }
+      ]
+    },
+    "/product/bi/": {
+      "template": "template.product-feature",
+      "entries": [
+        {
+          "section": "hero.product",
+          "path": [
+            1
+          ]
+        },
+        {
+          "section": "proof.customer-banner",
+          "path": [
+            2
+          ]
+        },
+        {
+          "section": "feature.section-heading",
+          "path": [
+            3,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "feature.split",
+          "path": [
+            3,
+            2,
+            1,
+            2
+          ]
+        },
+        {
+          "section": "feature.split",
+          "path": [
+            4,
+            2,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "feature.split",
+          "path": [
+            4,
+            2,
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "section": "feature.split",
+          "path": [
+            4,
+            2,
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "section": "feature.approach-cards",
+          "path": [
+            5
+          ]
+        },
+        {
+          "section": "collection.resource-cards",
+          "path": [
+            6
+          ]
+        },
+        {
+          "section": "faq.accordion",
+          "path": [
+            7
+          ]
+        },
+        {
+          "section": "conversion.outro-tout",
+          "path": [
+            8
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "path": [
+            8,
+            2,
+            2
+          ]
+        }
+      ]
+    },
+    "/product/cli/": {
+      "template": "template.product-feature",
+      "entries": [
+        {
+          "section": "hero.product",
+          "path": [
+            1
+          ]
+        },
+        {
+          "section": "proof.full-width-quote",
+          "path": [
+            2
+          ]
+        },
+        {
+          "section": "feature.section-heading",
+          "path": [
+            3,
+            2,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "feature.info-card-grid",
+          "path": [
+            3,
+            2,
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "section": "feature.command-list",
+          "path": [
+            4
+          ]
+        },
+        {
+          "section": "feature.workflow-table",
+          "path": [
+            5
+          ]
+        },
+        {
+          "section": "conversion.install-cta",
+          "path": [
+            6
+          ]
+        },
+        {
+          "section": "conversion.outro-tout",
+          "path": [
+            7
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "path": [
+            8
+          ]
+        }
+      ]
+    },
+    "/product/context-studio/": {
+      "template": "template.product-feature",
+      "entries": [
+        {
+          "section": "hero.product",
+          "path": [
+            1
+          ]
+        },
+        {
+          "section": "feature.platform-overview",
+          "path": [
+            2
+          ]
+        },
+        {
+          "section": "feature.info-card-grid",
+          "path": [
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "section": "feature.observability-callouts",
+          "path": [
+            4,
+            2,
+            1
+          ]
+        },
+        {
+          "section": "feature.info-card-grid",
+          "path": [
+            5,
+            2,
+            1
+          ]
+        },
+        {
+          "section": "proof.full-width-quote",
+          "path": [
+            6
+          ]
+        },
+        {
+          "section": "feature.bento-cells",
+          "path": [
+            7,
+            2,
+            1
+          ]
+        },
+        {
+          "section": "proof.stories-two-up",
+          "path": [
+            8
+          ]
+        },
+        {
+          "section": "conversion.outro-tout",
+          "path": [
+            9,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "faq.accordion",
+          "path": [
+            10,
+            2,
+            1
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "path": [
+            11,
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    "/product/notebooks/": {
+      "template": "template.product-feature",
+      "entries": [
+        {
+          "section": "hero.product",
+          "path": [
+            1,
+            1
+          ]
+        },
+        {
+          "section": "proof.customer-banner",
+          "path": [
+            1,
+            1,
+            2,
+            1,
+            2,
+            2
+          ]
+        },
+        {
+          "section": "feature.magic",
+          "path": [
+            1,
+            2
+          ]
+        },
+        {
+          "section": "proof.full-width-quote",
+          "path": [
+            1,
+            3
+          ]
+        },
+        {
+          "section": "feature.cell-collage",
+          "path": [
+            1,
+            4
+          ]
+        },
+        {
+          "section": "feature.cell-collage",
+          "path": [
+            1,
+            5
+          ]
+        },
+        {
+          "section": "feature.cell-collage",
+          "path": [
+            1,
+            6
+          ]
+        },
+        {
+          "section": "feature.execution-dag",
+          "path": [
+            1,
+            7
+          ]
+        },
+        {
+          "section": "conversion.wallpaper-cta",
+          "path": [
+            1,
+            8
+          ]
+        },
+        {
+          "section": "proof.social-tout",
+          "path": [
+            1,
+            9
+          ]
+        },
+        {
+          "section": "collection.template-cards",
+          "path": [
+            1,
+            10
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "path": [
+            1,
+            11,
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    "/capability/ai/": {
+      "template": "template.product-feature",
+      "entries": [
+        {
+          "section": "hero.product",
+          "path": [
+            1,
+            1
+          ]
+        },
+        {
+          "section": "feature.workflow-split",
+          "path": [
+            1,
+            2
+          ]
+        },
+        {
+          "section": "proof.quotes-marquee",
+          "path": [
+            1,
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "feature.demo-accordion",
+          "path": [
+            1,
+            4,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "feature.perlin-callout",
+          "path": [
+            1,
+            5
+          ]
+        },
+        {
+          "section": "feature.demo-accordion",
+          "path": [
+            1,
+            6,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "feature.info-card-grid",
+          "path": [
+            1,
+            7,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "conversion.outro-tout",
+          "path": [
+            1,
+            8,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "faq.accordion",
+          "path": [
+            1,
+            9,
+            2,
+            1
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "path": [
+            1,
+            10,
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    "/product/data-apps/": {
+      "template": "template.product-v1",
+      "entries": [
+        {
+          "section": "hero.v1",
+          "path": [
+            1,
+            5,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "proof.customer-banner",
+          "path": [
+            1,
+            5,
+            1,
+            2
+          ]
+        },
+        {
+          "section": "hero.v1",
+          "path": [
+            1,
+            5,
+            1,
+            3
+          ],
+          "continuation": true
+        },
+        {
+          "section": "feature.codegen-gallery",
+          "path": [
+            1,
+            5,
+            2
+          ]
+        },
+        {
+          "section": "feature.snaked-rows",
+          "path": [
+            1,
+            5,
+            3
+          ]
+        },
+        {
+          "section": "proof.social-tout",
+          "path": [
+            1,
+            5,
+            4
+          ]
+        },
+        {
+          "section": "conversion.collage-cta",
+          "path": [
+            1,
+            5,
+            5
+          ]
+        },
+        {
+          "section": "conversion.outro-tout",
+          "path": [
+            1,
+            5,
+            6
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "path": [
+            2,
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    "/product/embedded-analytics/": {
+      "template": "template.product-v1",
+      "entries": [
+        {
+          "section": "hero.v1",
+          "path": [
+            1,
+            5,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "proof.customer-banner",
+          "path": [
+            1,
+            5,
+            1,
+            1,
+            5
+          ]
+        },
+        {
+          "section": "feature.section-heading",
+          "path": [
+            1,
+            5,
+            1,
+            2
+          ]
+        },
+        {
+          "section": "feature.v1-two-up",
+          "path": [
+            1,
+            5,
+            1,
+            3
+          ]
+        },
+        {
+          "section": "feature.v1-two-up",
+          "path": [
+            1,
+            5,
+            1,
+            4
+          ]
+        },
+        {
+          "section": "feature.v1-two-up",
+          "path": [
+            1,
+            5,
+            1,
+            5
+          ]
+        },
+        {
+          "section": "feature.v1-two-up",
+          "path": [
+            1,
+            5,
+            1,
+            6
+          ]
+        },
+        {
+          "section": "proof.social-tout",
+          "path": [
+            1,
+            5,
+            1,
+            7
+          ]
+        },
+        {
+          "section": "feature.section-heading",
+          "path": [
+            1,
+            5,
+            1,
+            8
+          ]
+        },
+        {
+          "section": "feature.icon-row",
+          "path": [
+            1,
+            5,
+            1,
+            9
+          ]
+        },
+        {
+          "section": "conversion.outro-tout",
+          "path": [
+            1,
+            5,
+            1,
+            10
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "path": [
+            2,
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    "/capability/exploratory-analysis/": {
+      "template": "template.product-v1",
+      "entries": [
+        {
+          "section": "hero.v1",
+          "path": [
+            1,
+            5,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "proof.social-tout",
+          "path": [
+            1,
+            5,
+            1,
+            2
+          ]
+        },
+        {
+          "section": "feature.section-heading",
+          "path": [
+            1,
+            5,
+            1,
+            3
+          ]
+        },
+        {
+          "section": "feature.v1-two-up",
+          "path": [
+            1,
+            5,
+            1,
+            4
+          ]
+        },
+        {
+          "section": "feature.v1-two-up",
+          "path": [
+            1,
+            5,
+            1,
+            5
+          ]
+        },
+        {
+          "section": "feature.v1-two-up",
+          "path": [
+            1,
+            5,
+            1,
+            6
+          ]
+        },
+        {
+          "section": "feature.v1-two-up",
+          "path": [
+            1,
+            5,
+            1,
+            7
+          ]
+        },
+        {
+          "section": "feature.v1-two-up",
+          "path": [
+            1,
+            5,
+            1,
+            8
+          ]
+        },
+        {
+          "section": "feature.section-heading",
+          "path": [
+            1,
+            5,
+            1,
+            9
+          ]
+        },
+        {
+          "section": "collection.template-cards",
+          "path": [
+            1,
+            5,
+            1,
+            10
+          ]
+        },
+        {
+          "section": "conversion.outro-tout",
+          "path": [
+            1,
+            5,
+            1,
+            11
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "path": [
+            2,
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    "/product/switching-to-hex/": {
+      "template": "template.long-form-guide",
+      "entries": [
+        {
+          "section": "hero.guide-document",
+          "path": [
+            1,
+            2,
+            1,
+            2,
+            2,
+            5,
+            3,
+            1
+          ]
+        },
+        {
+          "section": "content.guide-chapter",
+          "path": [
+            1,
+            2,
+            1,
+            3,
+            2,
+            5,
+            2,
+            1
+          ]
+        },
+        {
+          "section": "content.guide-chapter",
+          "path": [
+            1,
+            2,
+            1,
+            4,
+            2,
+            5,
+            2,
+            1
+          ]
+        },
+        {
+          "section": "content.guide-chapter",
+          "path": [
+            1,
+            2,
+            1,
+            5,
+            2,
+            5,
+            2,
+            1
+          ]
+        },
+        {
+          "section": "proof.quotes-marquee",
+          "path": [
+            2,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "path": [
+            3,
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    "/product/integrations/": {
+      "template": "template.integrations-index",
+      "entries": [
+        {
+          "section": "hero.heading-with-callout",
+          "path": [
+            1,
+            5,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "collection.integration-category",
+          "path": [
+            1,
+            5,
+            1,
+            2
+          ]
+        },
+        {
+          "section": "collection.integration-category",
+          "path": [
+            1,
+            5,
+            1,
+            3
+          ]
+        },
+        {
+          "section": "collection.integration-category",
+          "path": [
+            1,
+            5,
+            1,
+            4
+          ]
+        },
+        {
+          "section": "collection.integration-category",
+          "path": [
+            1,
+            5,
+            1,
+            5
+          ]
+        },
+        {
+          "section": "collection.integration-category",
+          "path": [
+            1,
+            5,
+            1,
+            6
+          ]
+        },
+        {
+          "section": "collection.integration-category",
+          "path": [
+            1,
+            5,
+            1,
+            7
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "path": [
+            2,
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    "/product/integrations/snowflake/": {
+      "template": "template.integration-detail",
+      "entries": [
+        {
+          "section": "hero.integration",
+          "path": [
+            1,
+            5,
+            1
+          ]
+        },
+        {
+          "section": "proof.stories-two-up",
+          "path": [
+            1,
+            5,
+            2,
+            1
+          ]
+        },
+        {
+          "section": "feature.how-it-works",
+          "path": [
+            1,
+            5,
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "feature.integration-custom-blocks",
+          "path": [
+            1,
+            5,
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "section": "faq.accordion",
+          "path": [
+            1,
+            5,
+            3,
+            1,
+            2,
+            8,
+            1
+          ]
+        },
+        {
+          "section": "divider.tron",
+          "css": "div[aria-hidden=\"true\"]:has(> .bg-tron)",
+          "nth": 0
+        },
+        {
+          "section": "feature.video-embed",
+          "path": [
+            1,
+            5,
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "section": "collection.external-links",
+          "path": [
+            1,
+            5,
+            3,
+            1,
+            4
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "path": [
+            2,
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    "/solutions/": {
+      "template": "template.solutions-hub",
+      "entries": [
+        {
+          "section": "hero.solutions-hub",
+          "path": [
+            1,
+            1
+          ]
+        },
+        {
+          "section": "proof.customer-banner",
+          "path": [
+            1,
+            2,
+            2,
+            1
+          ]
+        },
+        {
+          "section": "navigation.filter-chips",
+          "path": [
+            1,
+            3,
+            2,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "collection.resource-cards",
+          "path": [
+            1,
+            3,
+            2,
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "path": [
+            1,
+            4,
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    "/solutions/customer-success/": {
+      "template": "template.solution-detail",
+      "entries": [
+        {
+          "section": "hero.solution",
+          "path": [
+            1,
+            1,
+            5,
+            1
+          ]
+        },
+        {
+          "section": "proof.customer-banner",
+          "path": [
+            1,
+            1,
+            5,
+            2
+          ]
+        },
+        {
+          "section": "feature.solution-row",
+          "path": [
+            1,
+            1,
+            5,
+            3
+          ]
+        },
+        {
+          "section": "feature.solution-row",
+          "path": [
+            1,
+            1,
+            5,
+            4
+          ]
+        },
+        {
+          "section": "feature.solution-row",
+          "path": [
+            1,
+            1,
+            5,
+            5
+          ]
+        },
+        {
+          "section": "proof.social-tout",
+          "path": [
+            1,
+            1,
+            5,
+            6
+          ]
+        },
+        {
+          "section": "feature.section-heading",
+          "path": [
+            1,
+            1,
+            5,
+            7,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "feature.live-app-embed",
+          "path": [
+            1,
+            1,
+            5,
+            7,
+            1,
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "section": "collection.resource-cards",
+          "path": [
+            1,
+            1,
+            5,
+            8
+          ]
+        },
+        {
+          "section": "conversion.outro-tout",
+          "path": [
+            1,
+            1,
+            5,
+            9
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "path": [
+            1,
+            2,
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    "/enterprise/": {
+      "template": "template.enterprise",
+      "entries": [
+        {
+          "section": "hero.enterprise",
+          "path": [
+            1,
+            1,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "proof.customer-banner",
+          "path": [
+            1,
+            1,
+            2,
+            1,
+            2
+          ]
+        },
+        {
+          "section": "feature.numbered-grid",
+          "path": [
+            1,
+            1,
+            2,
+            1,
+            3
+          ]
+        },
+        {
+          "section": "feature.illustrated-checklist",
+          "path": [
+            1,
+            1,
+            2,
+            1,
+            4
+          ]
+        },
+        {
+          "section": "feature.support-grid",
+          "path": [
+            1,
+            1,
+            2,
+            1,
+            5
+          ]
+        },
+        {
+          "section": "feature.integrations-grid",
+          "path": [
+            1,
+            1,
+            2,
+            1,
+            6
+          ]
+        },
+        {
+          "section": "conversion.cta-split",
+          "path": [
+            1,
+            1,
+            2,
+            1,
+            7
+          ]
+        },
+        {
+          "section": "divider.tron",
+          "css": "div[aria-hidden=\"true\"]:has(> .bg-tron)",
+          "nth": 0
+        },
+        {
+          "section": "faq.accordion",
+          "path": [
+            1,
+            1,
+            2,
+            1,
+            8
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "path": [
+            1,
+            2,
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    "/compare/": {
+      "template": "template.compare",
+      "entries": [
+        {
+          "section": "hero.compare",
+          "path": [
+            1,
+            1,
+            2,
+            1
+          ]
+        },
+        {
+          "section": "proof.customer-banner",
+          "path": [
+            1,
+            2,
+            2,
+            1
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "path": [
+            1,
+            3,
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    "/partners/": {
+      "template": "template.partners",
+      "entries": [
+        {
+          "section": "hero.partners",
+          "path": [
+            1,
+            1,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "feature.partners-why",
+          "path": [
+            1,
+            1,
+            2,
+            1,
+            2
+          ]
+        },
+        {
+          "section": "divider.tron",
+          "css": "div[aria-hidden=\"true\"]:has(> .bg-tron)",
+          "nth": 0
+        },
+        {
+          "section": "feature.partner-tiers",
+          "path": [
+            1,
+            1,
+            2,
+            1,
+            4
+          ]
+        },
+        {
+          "section": "collection.partners-grid",
+          "path": [
+            1,
+            1,
+            2,
+            1,
+            5
+          ]
+        },
+        {
+          "section": "conversion.form-shell",
+          "path": [
+            1,
+            1,
+            2,
+            1,
+            6
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "path": [
+            1,
+            2,
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    "/pricing/": {
+      "template": "template.pricing",
+      "entries": [
+        {
+          "section": "hero.pricing",
+          "path": [
+            1,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "feature.plan-summary",
+          "path": [
+            1,
+            2,
+            1,
+            2
+          ]
+        },
+        {
+          "section": "proof.customer-banner",
+          "path": [
+            1,
+            2,
+            1,
+            3
+          ]
+        },
+        {
+          "section": "divider.tron",
+          "css": "div[aria-hidden=\"true\"]:has(> .bg-tron)",
+          "nth": 0
+        },
+        {
+          "section": "feature.plan-comparison",
+          "path": [
+            1,
+            2,
+            1,
+            5
+          ]
+        },
+        {
+          "section": "divider.tron",
+          "css": "div[aria-hidden=\"true\"]:has(> .bg-tron)",
+          "nth": 1
+        },
+        {
+          "section": "faq.accordion",
+          "path": [
+            1,
+            2,
+            1,
+            7
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "path": [
+            2,
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    "/request-a-demo/": {
+      "template": "template.form-page",
+      "entries": [
+        {
+          "section": "hero.form",
+          "path": [
+            1,
+            2,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "conversion.form-shell",
+          "path": [
+            1,
+            2,
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "section": "proof.customer-banner",
+          "path": [
+            1,
+            2,
+            1,
+            2
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "path": [
+            2,
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    "/blog/": {
+      "template": "template.blog-index",
+      "entries": [
+        {
+          "section": "hero.blog-masthead",
+          "path": [
+            1,
+            1
+          ]
+        },
+        {
+          "section": "collection.blog-featured",
+          "path": [
+            1,
+            2
+          ]
+        },
+        {
+          "section": "collection.blog-recent",
+          "path": [
+            1,
+            3
+          ]
+        },
+        {
+          "section": "collection.blog-feed",
+          "path": [
+            1,
+            5
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "path": [
+            1,
+            6,
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    "/blog/introducing-generative-data-apps/": {
+      "template": "template.article",
+      "entries": [
+        {
+          "section": "hero.article",
+          "path": [
+            1,
+            1,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "content.article-body",
+          "path": [
+            1,
+            1,
+            2,
+            1,
+            2
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "path": [
+            1,
+            2,
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    "/customers/": {
+      "template": "template.customers-index",
+      "entries": [
+        {
+          "section": "hero.customers",
+          "path": [
+            1,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "proof.featured-stories-fan",
+          "path": [
+            1,
+            2,
+            1,
+            2
+          ]
+        },
+        {
+          "section": "proof.quotes-marquee",
+          "path": [
+            2,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "navigation.filter-chips",
+          "path": [
+            3,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "collection.customer-stories",
+          "path": [
+            3,
+            2,
+            1,
+            2
+          ]
+        },
+        {
+          "section": "proof.logo-wall",
+          "path": [
+            4,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "path": [
+            5,
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    "/customers/chime/": {
+      "template": "template.customer-story",
+      "entries": [
+        {
+          "section": "hero.story",
+          "path": [
+            1,
+            2,
+            1
+          ]
+        },
+        {
+          "section": "feature.story-details",
+          "path": [
+            2,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "content.story-body",
+          "path": [
+            3,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "collection.customer-stories",
+          "path": [
+            4,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "path": [
+            5,
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    "/about/": {
+      "template": "template.about",
+      "entries": [
+        {
+          "section": "hero.about",
+          "path": [
+            1,
+            2,
+            1
+          ]
+        },
+        {
+          "section": "proof.customer-banner",
+          "path": [
+            1,
+            2,
+            2
+          ]
+        },
+        {
+          "section": "proof.logo-wall",
+          "path": [
+            2,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "collection.newsroom-cards",
+          "path": [
+            3,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "feature.photo-collage",
+          "path": [
+            4,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "path": [
+            5,
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    "/careers/": {
+      "template": "template.careers",
+      "entries": [
+        {
+          "section": "hero.careers",
+          "path": [
+            1,
+            2,
+            1
+          ]
+        },
+        {
+          "section": "feature.highlights",
+          "path": [
+            2,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "collection.open-roles",
+          "path": [
+            3,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "path": [
+            4,
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    "/newsroom/": {
+      "template": "template.newsroom",
+      "entries": [
+        {
+          "section": "hero.newsroom",
+          "path": [
+            1,
+            2,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "collection.newsroom-featured",
+          "path": [
+            1,
+            2,
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "section": "collection.newsroom-cards",
+          "path": [
+            1,
+            2,
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "path": [
+            2,
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    "/resources/events/": {
+      "template": "template.v1-resource-index",
+      "entries": [
+        {
+          "section": "hero.v1-intro",
+          "path": [
+            1,
+            1,
+            5,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "collection.events",
+          "path": [
+            1,
+            1,
+            5,
+            1,
+            2
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "path": [
+            1,
+            2,
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    "/resources/guides/": {
+      "template": "template.v1-resource-index",
+      "entries": [
+        {
+          "section": "hero.v1-intro",
+          "path": [
+            1,
+            1,
+            5,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "collection.guides",
+          "path": [
+            1,
+            1,
+            5,
+            1,
+            2
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "path": [
+            1,
+            2,
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    "/resources/guides/ai-analytics/": {
+      "template": "template.guide-landing",
+      "entries": [
+        {
+          "section": "hero.guide-landing",
+          "path": [
+            1,
+            1,
+            2,
+            1
+          ]
+        },
+        {
+          "section": "feature.podcast-episodes",
+          "path": [
+            1,
+            2,
+            2,
+            1
+          ]
+        },
+        {
+          "section": "collection.resource-cards",
+          "path": [
+            1,
+            3,
+            2,
+            1,
+            2
+          ]
+        },
+        {
+          "section": "proof.quote-tiles",
+          "path": [
+            1,
+            4,
+            2,
+            1
+          ]
+        },
+        {
+          "section": "conversion.outro-tout",
+          "path": [
+            1,
+            5,
+            2,
+            1
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "path": [
+            1,
+            6,
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    "/templates/": {
+      "template": "template.templates-index",
+      "entries": [
+        {
+          "section": "hero.v1-intro",
+          "path": [
+            1,
+            1,
+            5,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "section": "collection.templates-catalog",
+          "path": [
+            1,
+            1,
+            5,
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "path": [
+            1,
+            2,
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    "/state-of-data-teams/": {
+      "template": "template.report",
+      "entries": [
+        {
+          "section": "hero.report",
+          "path": [
+            1
+          ]
+        },
+        {
+          "section": "content.report-intro",
+          "path": [
+            2
+          ]
+        },
+        {
+          "section": "content.report-toc",
+          "path": [
+            3
+          ]
+        },
+        {
+          "section": "content.report-section",
+          "path": [
+            4
+          ]
+        },
+        {
+          "section": "content.report-section",
+          "path": [
+            5
+          ]
+        },
+        {
+          "section": "content.report-section",
+          "path": [
+            6
+          ]
+        },
+        {
+          "section": "content.report-section",
+          "path": [
+            7
+          ]
+        },
+        {
+          "section": "content.report-outro",
+          "path": [
+            8
+          ]
+        },
+        {
+          "section": "faq.accordion",
+          "path": [
+            8,
+            3
+          ]
+        }
+      ]
+    },
+    "*": {
+      "template": "template.placeholder",
+      "entries": [
+        {
+          "section": "hero.placeholder",
+          "path": [
+            1,
+            2,
+            1
+          ]
+        },
+        {
+          "section": "shell.footer",
+          "path": [
+            1,
+            2,
+            2
+          ]
+        }
+      ]
+    }
+  }
+}

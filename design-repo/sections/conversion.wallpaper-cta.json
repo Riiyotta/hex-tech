@@ -1,7 +1,17 @@
 {
   "id": "conversion.wallpaper-cta",
-  "category": "conversion",
   "purpose": "Centred CTA over a faded glyph wallpaper: small icon, gradient H2, text and a button.",
+  "semantic": {
+    "id": "conversion.wallpaper-cta",
+    "category": "CONVERSION"
+  },
+  "source": {
+    "id": "WallpaperCta",
+    "tag": "div",
+    "file": "src/pages/productMore/notebooks/NotebooksPage.jsx",
+    "lines": "61-81",
+    "anchor": "function WallpaperCta"
+  },
   "implementedBy": "src/pages/productMore/notebooks/NotebooksPage.jsx > WallpaperCta",
   "variants": [],
   "content": {

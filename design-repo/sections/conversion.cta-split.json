@@ -1,7 +1,17 @@
 {
   "id": "conversion.cta-split",
-  "category": "conversion",
   "purpose": "Gradient title + two-column tick checklist beside the bordered outline CTA card.",
+  "semantic": {
+    "id": "conversion.cta-split",
+    "category": "CONVERSION"
+  },
+  "source": {
+    "id": "CompleteSolution",
+    "tag": "div",
+    "file": "src/pages/solutions/Enterprise.jsx",
+    "lines": "208-230",
+    "anchor": "function CompleteSolution"
+  },
   "implementedBy": "src/pages/solutions/Enterprise.jsx > CompleteSolution",
   "variants": [],
   "content": {

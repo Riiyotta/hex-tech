@@ -1,0 +1,60 @@
+{
+  "description": "Reviewed exceptions to extraction/wrapper_gate.py. Each entry names the route and section, a ceiling above the measured value, who reviewed it and why the measured size is legitimate. reviewedBy with attestation \"agent\" is the attestation of an automated reviewer working from the render measurements; it is NOT a human sign-off and should be re-reviewed by a person before production approval. A stale entry fails the gate. Two whole-article sections are deliberately not listed because their pages have fewer than three body sections (the gate skips them) and are documented in README.md instead: content.article-body on /blog/introducing-generative-data-apps/ and the one prose body of the blog post.",
+  "entries": [
+    {
+      "kind": "page-share",
+      "route": "/solutions/",
+      "section": "collection.resource-cards",
+      "maxHeightPx": 10100,
+      "maxSharePct": 89.0,
+      "reviewedBy": "claude-agent (automated reviewer; not a human sign-off)",
+      "attestation": "agent",
+      "reviewedOn": "2026-10-24",
+      "justification": "One card grid is the whole index: the page is only a hero, the customer banner and a filter-chip row above a single grid of about 60 solution articles. Header and filters are already separate sections, so the grid is one collection, not a page."
+    },
+    {
+      "kind": "page-share",
+      "route": "/customers/",
+      "section": "collection.customer-stories",
+      "maxHeightPx": 6500,
+      "maxSharePct": 75.0,
+      "reviewedBy": "claude-agent (automated reviewer; not a human sign-off)",
+      "attestation": "agent",
+      "reviewedOn": "2026-10-24",
+      "justification": "A single filterable grid of the customer-story cards (one card component repeated), under a separate hero, featured fan, quotes marquee and filter nav. The repeated cards are one collection, not independent sections."
+    },
+    {
+      "kind": "page-share",
+      "route": "/customers/chime/",
+      "section": "content.story-body",
+      "maxHeightPx": 6500,
+      "maxSharePct": 67.0,
+      "reviewedBy": "claude-agent (automated reviewer; not a human sign-off)",
+      "attestation": "agent",
+      "reviewedOn": "2026-10-24",
+      "justification": "One RichText column (StoryBody renders one ordered block list; subheadings are blocks inside it, not separate wrappers). The story page already splits header, details and related stories; the body is genuinely one prose body and is placeholder prose sized to the live line counts."
+    },
+    {
+      "kind": "page-share",
+      "route": "/careers/",
+      "section": "collection.open-roles",
+      "maxHeightPx": 4600,
+      "maxSharePct": 69.0,
+      "reviewedBy": "claude-agent (automated reviewer; not a human sign-off)",
+      "attestation": "agent",
+      "reviewedOn": "2026-10-24",
+      "justification": "One filterable list of the 39 open roles grouped by department, under the separate hero and culture highlights. The roles are repeated rows of one collection, so the list is a single semantic unit."
+    },
+    {
+      "kind": "page-share",
+      "route": "/newsroom/",
+      "section": "collection.newsroom-cards",
+      "maxHeightPx": 4800,
+      "maxSharePct": 78.0,
+      "reviewedBy": "claude-agent (automated reviewer; not a human sign-off)",
+      "attestation": "agent",
+      "reviewedOn": "2026-10-24",
+      "justification": "A single grid of press cards (one card component repeated) under the separate masthead and featured card. The index is only header, featured card and grid, so the grid naturally dominates the page."
+    }
+  ]
+}

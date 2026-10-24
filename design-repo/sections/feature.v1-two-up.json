@@ -1,7 +1,17 @@
 {
   "id": "feature.v1-two-up",
-  "category": "feature",
   "purpose": "V1 two-up row: InfoText with optional mono eyebrow, 40px H2, 1-2 paragraphs and optional CTA beside a 680px media column; alternating.",
+  "semantic": {
+    "id": "feature.v1-two-up",
+    "category": "FEATURE"
+  },
+  "source": {
+    "id": "V1TwoUp",
+    "tag": "div",
+    "file": "src/pages/productV1/blocks.jsx",
+    "lines": "65-79",
+    "anchor": "function V1TwoUp"
+  },
   "implementedBy": "src/pages/productV1/blocks.jsx > V1TwoUp",
   "variants": [],
   "content": {

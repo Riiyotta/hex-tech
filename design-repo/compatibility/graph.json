@@ -188,6 +188,18 @@
       "severity": "error",
       "description": "In mode 'generated' shell.header and shell.footer must carry content.brand with a generation-safe role (brand.placeholder or brand.user-supplied); the chrome would otherwise render the real Hex wordmark.",
       "measuredFrom": []
+    },
+    {
+      "id": "RETRIEVAL_ELIGIBILITY_PINNED",
+      "severity": "error",
+      "description": "retrievalEligible is a closed boolean (default true). Layout-only utility and runtime UI (shell.header, divider.tron, hero.placeholder; any cookie/consent/modal/dialog/overlay/drawer/toast/preloader/cursor section) are pinned to false with a reason of 30+ characters, in this validator and independently in verify_all.py; false anywhere else is an error. The allowlist mirrors the contracts.",
+      "measuredFrom": []
+    },
+    {
+      "id": "SEMANTIC_CATEGORY_CLOSED",
+      "severity": "error",
+      "description": "Every section contract carries a semantic {id, category} object (id equals the contract id, category in the closed enum) distinct from its source object, and the classing is honest: conversion.* are CONVERSION, hero.* are HERO, a section with a submission or download behaviour is CONVERSION or HERO, and editorial or story sections are never FEATURE.",
+      "measuredFrom": []
     }
   ],
   "adjacency": {

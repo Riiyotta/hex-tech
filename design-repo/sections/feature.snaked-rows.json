@@ -1,7 +1,17 @@
 {
   "id": "feature.snaked-rows",
-  "category": "feature",
   "purpose": "Five alternating feature rows joined by connecting lines, each a title, text, link and overlapping product cells.",
+  "semantic": {
+    "id": "feature.snaked-rows",
+    "category": "FEATURE"
+  },
+  "source": {
+    "id": "FeaturesTout",
+    "tag": "div",
+    "file": "src/pages/productV1/DataApps.jsx",
+    "lines": "284-324",
+    "anchor": "function FeaturesTout"
+  },
   "implementedBy": "src/pages/productV1/DataApps.jsx > FeaturesTout",
   "variants": [],
   "content": {

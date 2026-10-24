@@ -1,7 +1,17 @@
 {
   "id": "feature.execution-dag",
-  "category": "feature",
   "purpose": "InfoText over a bleeding DAG illustration with a logo chip group, then three integration cards.",
+  "semantic": {
+    "id": "feature.execution-dag",
+    "category": "FEATURE"
+  },
+  "source": {
+    "id": "ExecutionDag",
+    "tag": "div",
+    "file": "src/pages/productMore/notebooks/ExecutionDag.jsx",
+    "lines": "33-88",
+    "anchor": "function ExecutionDag"
+  },
   "implementedBy": "src/pages/productMore/notebooks/ExecutionDag.jsx > ExecutionDag",
   "variants": [],
   "content": {

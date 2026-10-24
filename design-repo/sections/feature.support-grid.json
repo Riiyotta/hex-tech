@@ -1,7 +1,17 @@
 {
   "id": "feature.support-grid",
-  "category": "feature",
   "purpose": "Centred gradient title + lead over a 2x2 icon-text grid beside a stair illustration.",
+  "semantic": {
+    "id": "feature.support-grid",
+    "category": "FEATURE"
+  },
+  "source": {
+    "id": "Support",
+    "tag": "div",
+    "file": "src/pages/solutions/Enterprise.jsx",
+    "lines": "172-206",
+    "anchor": "function Support"
+  },
   "implementedBy": "src/pages/solutions/Enterprise.jsx > Support",
   "variants": [],
   "content": {

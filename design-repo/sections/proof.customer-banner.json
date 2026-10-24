@@ -1,7 +1,17 @@
 {
   "id": "proof.customer-banner",
-  "category": "proof",
   "purpose": "Logo band proving adoption: label + customer logo row; story logos get an indicator dot and a quote popover.",
+  "semantic": {
+    "id": "proof.customer-banner",
+    "category": "PROOF"
+  },
+  "source": {
+    "id": "CustomerBanner",
+    "tag": "div",
+    "file": "src/components/sections/CustomerBanner.jsx",
+    "lines": "115-153",
+    "anchor": "function CustomerBanner"
+  },
   "implementedBy": "src/components/sections/CustomerBanner.jsx > CustomerBanner",
   "variants": [
     "framed",

@@ -1,7 +1,17 @@
 {
   "id": "hero.pricing",
-  "category": "hero",
   "purpose": "Pricing header: solid H1 and a 14px subline with an inline contact link.",
+  "semantic": {
+    "id": "hero.pricing",
+    "category": "HERO"
+  },
+  "source": {
+    "id": "PricingHeader",
+    "tag": "div",
+    "file": "src/pages/pricingForms/PricingPage.jsx",
+    "lines": "33-45",
+    "anchor": "function PricingHeader"
+  },
   "implementedBy": "src/pages/pricingForms/PricingPage.jsx > PricingHeader",
   "variants": [],
   "content": {

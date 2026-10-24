@@ -504,7 +504,7 @@
       "implementedBy": "src/pages/productCore/contextStudio/CsSections.jsx > PlatformOverview"
     },
     "feature.podcast-episodes": {
-      "category": "FEATURE",
+      "category": "CONTENT",
       "description": "InfoText (mark, H3, description) | divider | two interactive episode cards with a floating 'Watch podcast' button.",
       "scope": "Only on /resources/guides/ai-analytics/.",
       "contract": "design-repo/sections/feature.podcast-episodes.json",
@@ -550,7 +550,7 @@
       ]
     },
     "feature.story-details": {
-      "category": "FEATURE",
+      "category": "CONTENT",
       "description": "Three static glass detail cards (About / Outcome / Scale achieved) over a cartesian grid.",
       "scope": "On 8 routes: Customer story.",
       "contract": "design-repo/sections/feature.story-details.json",

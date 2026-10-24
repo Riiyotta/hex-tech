@@ -1,7 +1,17 @@
 {
   "id": "feature.observability-callouts",
-  "category": "feature",
   "purpose": "Section header + a large product dashboard window with two text callouts floating left and right.",
+  "semantic": {
+    "id": "feature.observability-callouts",
+    "category": "FEATURE"
+  },
+  "source": {
+    "id": "ObservableEverywhere",
+    "tag": "div",
+    "file": "src/pages/productCore/contextStudio/CsSections.jsx",
+    "lines": "139-173",
+    "anchor": "function ObservableEverywhere"
+  },
   "implementedBy": "src/pages/productCore/contextStudio/CsSections.jsx > ObservableEverywhere",
   "variants": [],
   "content": {

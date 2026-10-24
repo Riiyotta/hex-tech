@@ -1,7 +1,17 @@
 {
   "id": "feature.approach-cards",
-  "category": "feature",
   "purpose": "Solid H2 over a 3-up grid of light glass cards (icon, H4, text, primary md CTA).",
+  "semantic": {
+    "id": "feature.approach-cards",
+    "category": "FEATURE"
+  },
+  "source": {
+    "id": "ApproachCards",
+    "tag": "div",
+    "file": "src/pages/productCore/bi/BiSections.jsx",
+    "lines": "319-341",
+    "anchor": "function ApproachCards"
+  },
   "implementedBy": "src/pages/productCore/bi/BiSections.jsx > ApproachCards",
   "variants": [],
   "content": {

@@ -1,7 +1,17 @@
 {
   "id": "feature.info-card-grid",
-  "category": "feature",
   "purpose": "Grid of 2-3 glass cards: copy (optional eyebrow, H3, text, optional CTA) on top, screenshot bottom-aligned.",
+  "semantic": {
+    "id": "feature.info-card-grid",
+    "category": "FEATURE"
+  },
+  "source": {
+    "id": "UnifiedContext",
+    "tag": "div",
+    "file": "src/pages/productCore/contextStudio/CsSections.jsx",
+    "lines": "95-119",
+    "anchor": "function UnifiedContext"
+  },
   "implementedBy": "src/pages/productCore/contextStudio/CsSections.jsx > UnifiedContext",
   "alsoImplementedBy": [
     "src/pages/productCore/contextStudio/CsSections.jsx > ImprovesWithUse",

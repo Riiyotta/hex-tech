@@ -1,7 +1,17 @@
 {
   "id": "hero.story",
-  "category": "hero",
   "purpose": "Customer story header grid: logo cell, hatched cell, solid H1, dek and a centred metadata strip.",
+  "semantic": {
+    "id": "hero.story",
+    "category": "HERO"
+  },
+  "source": {
+    "id": "StoryHeader",
+    "tag": "div",
+    "file": "src/pages/companyCore/CustomerStoryPage.jsx",
+    "lines": "35-74",
+    "anchor": "function StoryHeader"
+  },
   "implementedBy": "src/pages/companyCore/CustomerStoryPage.jsx > StoryHeader",
   "variants": [],
   "content": {

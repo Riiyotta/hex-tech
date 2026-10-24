@@ -1,7 +1,17 @@
 {
   "id": "conversion.install-cta",
-  "category": "conversion",
   "purpose": "Terminal-style closing CTA: ASCII art, heading with italic line, lead, tabbed copy-to-clipboard install command and doc links.",
+  "semantic": {
+    "id": "conversion.install-cta",
+    "category": "CONVERSION"
+  },
+  "source": {
+    "id": "CliFooterCta",
+    "tag": "div",
+    "file": "src/pages/productCore/cli/CliSections.jsx",
+    "lines": "250-260",
+    "anchor": "function CliFooterCta"
+  },
   "implementedBy": "src/pages/productCore/cli/CliSections.jsx > CliFooterCta",
   "variants": [],
   "content": {

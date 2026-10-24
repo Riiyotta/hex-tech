@@ -1,7 +1,17 @@
 {
   "id": "feature.use-cases",
-  "category": "feature",
   "purpose": "Use-case list: mark + H2 with italic subheading on the left, three linked use-case rows on the right.",
+  "semantic": {
+    "id": "feature.use-cases",
+    "category": "FEATURE"
+  },
+  "source": {
+    "id": "UseCases",
+    "tag": "section",
+    "file": "src/components/sections/UseCases.jsx",
+    "lines": "57-90",
+    "anchor": "function UseCases"
+  },
   "implementedBy": "src/components/sections/UseCases.jsx > UseCases",
   "variants": [],
   "content": {

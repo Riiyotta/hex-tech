@@ -1,0 +1,658 @@
+{
+  "description": "Input of extraction/generate_provenance.py. semantic = taxonomy {id, category}: id equals the section contract id (and the id in the sibling ia.json), category is one of the closed semanticCategories and is the single taxonomy of a section (it must equal the sibling ia.json category when that file is present). source = provenance of the implementing code {id, tag, file, lines, anchor}: derived from the contract's implementedBy (component name -> its definition in the real source file, range found by brace matching) plus the rendered root tag from extraction/measured-values.json sectionHeights; an explicit source override pins a narrower file/lines/anchor. retrievalIneligible lists the pinned sections that a retrieval layer must not return as an exemplar (layout-only utility and runtime UI), each with a reason of 30+ characters. Everything else is retrievable by default.",
+  "semanticCategories": [
+    "COLLECTION",
+    "CONTENT",
+    "CONVERSION",
+    "DIVIDER",
+    "FAQ",
+    "FEATURE",
+    "HERO",
+    "NAVIGATION",
+    "PROOF",
+    "SHELL"
+  ],
+  "retrievalIneligible": {
+    "shell.header": "Global fixed chrome: an announcement ticker plus mega-menu navigation. It is runtime UI whose copy is global data a page never authors, so it adds noise as a retrieved exemplar.",
+    "divider.tron": "Layout-only utility: a 61px stack of nine hairline rules with no authorable copy, so retrieving it as an exemplar adds noise.",
+    "hero.placeholder": "Fallback stand-in for pages the clone has not built; it is not a page opening to imitate and the template is not a generation target."
+  },
+  "sections": {
+    "collection.blog-featured": {
+      "semantic": {
+        "id": "collection.blog-featured",
+        "category": "COLLECTION"
+      }
+    },
+    "collection.blog-feed": {
+      "semantic": {
+        "id": "collection.blog-feed",
+        "category": "COLLECTION"
+      }
+    },
+    "collection.blog-recent": {
+      "semantic": {
+        "id": "collection.blog-recent",
+        "category": "COLLECTION"
+      }
+    },
+    "collection.customer-stories": {
+      "semantic": {
+        "id": "collection.customer-stories",
+        "category": "COLLECTION"
+      }
+    },
+    "collection.events": {
+      "semantic": {
+        "id": "collection.events",
+        "category": "COLLECTION"
+      }
+    },
+    "collection.external-links": {
+      "semantic": {
+        "id": "collection.external-links",
+        "category": "COLLECTION"
+      }
+    },
+    "collection.guides": {
+      "semantic": {
+        "id": "collection.guides",
+        "category": "COLLECTION"
+      }
+    },
+    "collection.integration-category": {
+      "semantic": {
+        "id": "collection.integration-category",
+        "category": "COLLECTION"
+      }
+    },
+    "collection.newsroom-cards": {
+      "semantic": {
+        "id": "collection.newsroom-cards",
+        "category": "COLLECTION"
+      }
+    },
+    "collection.newsroom-featured": {
+      "semantic": {
+        "id": "collection.newsroom-featured",
+        "category": "COLLECTION"
+      }
+    },
+    "collection.open-roles": {
+      "semantic": {
+        "id": "collection.open-roles",
+        "category": "COLLECTION"
+      }
+    },
+    "collection.partners-grid": {
+      "semantic": {
+        "id": "collection.partners-grid",
+        "category": "COLLECTION"
+      }
+    },
+    "collection.resource-cards": {
+      "semantic": {
+        "id": "collection.resource-cards",
+        "category": "COLLECTION"
+      }
+    },
+    "collection.template-cards": {
+      "semantic": {
+        "id": "collection.template-cards",
+        "category": "COLLECTION"
+      }
+    },
+    "collection.templates-catalog": {
+      "semantic": {
+        "id": "collection.templates-catalog",
+        "category": "COLLECTION"
+      }
+    },
+    "content.article-body": {
+      "semantic": {
+        "id": "content.article-body",
+        "category": "CONTENT"
+      }
+    },
+    "content.guide-chapter": {
+      "semantic": {
+        "id": "content.guide-chapter",
+        "category": "CONTENT"
+      }
+    },
+    "content.report-intro": {
+      "semantic": {
+        "id": "content.report-intro",
+        "category": "CONTENT"
+      }
+    },
+    "content.report-outro": {
+      "semantic": {
+        "id": "content.report-outro",
+        "category": "CONTENT"
+      }
+    },
+    "content.report-section": {
+      "semantic": {
+        "id": "content.report-section",
+        "category": "CONTENT"
+      }
+    },
+    "content.report-toc": {
+      "semantic": {
+        "id": "content.report-toc",
+        "category": "CONTENT"
+      }
+    },
+    "content.story-body": {
+      "semantic": {
+        "id": "content.story-body",
+        "category": "CONTENT"
+      }
+    },
+    "conversion.bottom-cta": {
+      "semantic": {
+        "id": "conversion.bottom-cta",
+        "category": "CONVERSION"
+      }
+    },
+    "conversion.collage-cta": {
+      "semantic": {
+        "id": "conversion.collage-cta",
+        "category": "CONVERSION"
+      }
+    },
+    "conversion.cta-split": {
+      "semantic": {
+        "id": "conversion.cta-split",
+        "category": "CONVERSION"
+      }
+    },
+    "conversion.form-shell": {
+      "semantic": {
+        "id": "conversion.form-shell",
+        "category": "CONVERSION"
+      }
+    },
+    "conversion.install-cta": {
+      "semantic": {
+        "id": "conversion.install-cta",
+        "category": "CONVERSION"
+      }
+    },
+    "conversion.outro-tout": {
+      "semantic": {
+        "id": "conversion.outro-tout",
+        "category": "CONVERSION"
+      }
+    },
+    "conversion.wallpaper-cta": {
+      "semantic": {
+        "id": "conversion.wallpaper-cta",
+        "category": "CONVERSION"
+      }
+    },
+    "divider.tron": {
+      "semantic": {
+        "id": "divider.tron",
+        "category": "DIVIDER"
+      }
+    },
+    "faq.accordion": {
+      "semantic": {
+        "id": "faq.accordion",
+        "category": "FAQ"
+      }
+    },
+    "feature.approach-cards": {
+      "semantic": {
+        "id": "feature.approach-cards",
+        "category": "FEATURE"
+      }
+    },
+    "feature.bento-cells": {
+      "semantic": {
+        "id": "feature.bento-cells",
+        "category": "FEATURE"
+      }
+    },
+    "feature.built-different": {
+      "semantic": {
+        "id": "feature.built-different",
+        "category": "FEATURE"
+      }
+    },
+    "feature.cell-collage": {
+      "semantic": {
+        "id": "feature.cell-collage",
+        "category": "FEATURE"
+      }
+    },
+    "feature.codegen-gallery": {
+      "semantic": {
+        "id": "feature.codegen-gallery",
+        "category": "FEATURE"
+      }
+    },
+    "feature.command-list": {
+      "semantic": {
+        "id": "feature.command-list",
+        "category": "FEATURE"
+      }
+    },
+    "feature.demo-accordion": {
+      "semantic": {
+        "id": "feature.demo-accordion",
+        "category": "FEATURE"
+      }
+    },
+    "feature.ethos-cards": {
+      "semantic": {
+        "id": "feature.ethos-cards",
+        "category": "FEATURE"
+      }
+    },
+    "feature.execution-dag": {
+      "semantic": {
+        "id": "feature.execution-dag",
+        "category": "FEATURE"
+      }
+    },
+    "feature.highlights": {
+      "semantic": {
+        "id": "feature.highlights",
+        "category": "FEATURE"
+      }
+    },
+    "feature.how-it-works": {
+      "semantic": {
+        "id": "feature.how-it-works",
+        "category": "FEATURE"
+      }
+    },
+    "feature.icon-row": {
+      "semantic": {
+        "id": "feature.icon-row",
+        "category": "FEATURE"
+      }
+    },
+    "feature.illustrated-checklist": {
+      "semantic": {
+        "id": "feature.illustrated-checklist",
+        "category": "FEATURE"
+      }
+    },
+    "feature.info-card-grid": {
+      "semantic": {
+        "id": "feature.info-card-grid",
+        "category": "FEATURE"
+      }
+    },
+    "feature.integration-custom-blocks": {
+      "semantic": {
+        "id": "feature.integration-custom-blocks",
+        "category": "FEATURE"
+      }
+    },
+    "feature.integrations-grid": {
+      "semantic": {
+        "id": "feature.integrations-grid",
+        "category": "FEATURE"
+      }
+    },
+    "feature.live-app-embed": {
+      "semantic": {
+        "id": "feature.live-app-embed",
+        "category": "FEATURE"
+      }
+    },
+    "feature.magic": {
+      "semantic": {
+        "id": "feature.magic",
+        "category": "FEATURE"
+      }
+    },
+    "feature.numbered-grid": {
+      "semantic": {
+        "id": "feature.numbered-grid",
+        "category": "FEATURE"
+      }
+    },
+    "feature.observability-callouts": {
+      "semantic": {
+        "id": "feature.observability-callouts",
+        "category": "FEATURE"
+      }
+    },
+    "feature.partner-tiers": {
+      "semantic": {
+        "id": "feature.partner-tiers",
+        "category": "FEATURE"
+      }
+    },
+    "feature.partners-why": {
+      "semantic": {
+        "id": "feature.partners-why",
+        "category": "FEATURE"
+      }
+    },
+    "feature.perlin-callout": {
+      "semantic": {
+        "id": "feature.perlin-callout",
+        "category": "FEATURE"
+      }
+    },
+    "feature.photo-collage": {
+      "semantic": {
+        "id": "feature.photo-collage",
+        "category": "FEATURE"
+      }
+    },
+    "feature.plan-comparison": {
+      "semantic": {
+        "id": "feature.plan-comparison",
+        "category": "FEATURE"
+      }
+    },
+    "feature.plan-summary": {
+      "semantic": {
+        "id": "feature.plan-summary",
+        "category": "FEATURE"
+      }
+    },
+    "feature.platform-overview": {
+      "semantic": {
+        "id": "feature.platform-overview",
+        "category": "FEATURE"
+      }
+    },
+    "feature.podcast-episodes": {
+      "semantic": {
+        "id": "feature.podcast-episodes",
+        "category": "CONTENT"
+      }
+    },
+    "feature.section-heading": {
+      "semantic": {
+        "id": "feature.section-heading",
+        "category": "FEATURE"
+      }
+    },
+    "feature.snaked-rows": {
+      "semantic": {
+        "id": "feature.snaked-rows",
+        "category": "FEATURE"
+      }
+    },
+    "feature.solution-row": {
+      "semantic": {
+        "id": "feature.solution-row",
+        "category": "FEATURE"
+      }
+    },
+    "feature.split": {
+      "semantic": {
+        "id": "feature.split",
+        "category": "FEATURE"
+      }
+    },
+    "feature.story-details": {
+      "semantic": {
+        "id": "feature.story-details",
+        "category": "CONTENT"
+      }
+    },
+    "feature.support-grid": {
+      "semantic": {
+        "id": "feature.support-grid",
+        "category": "FEATURE"
+      }
+    },
+    "feature.use-cases": {
+      "semantic": {
+        "id": "feature.use-cases",
+        "category": "FEATURE"
+      }
+    },
+    "feature.v1-two-up": {
+      "semantic": {
+        "id": "feature.v1-two-up",
+        "category": "FEATURE"
+      }
+    },
+    "feature.video-embed": {
+      "semantic": {
+        "id": "feature.video-embed",
+        "category": "FEATURE"
+      }
+    },
+    "feature.workflow-split": {
+      "semantic": {
+        "id": "feature.workflow-split",
+        "category": "FEATURE"
+      }
+    },
+    "feature.workflow-table": {
+      "semantic": {
+        "id": "feature.workflow-table",
+        "category": "FEATURE"
+      }
+    },
+    "hero.about": {
+      "semantic": {
+        "id": "hero.about",
+        "category": "HERO"
+      }
+    },
+    "hero.article": {
+      "semantic": {
+        "id": "hero.article",
+        "category": "HERO"
+      }
+    },
+    "hero.blog-masthead": {
+      "semantic": {
+        "id": "hero.blog-masthead",
+        "category": "HERO"
+      }
+    },
+    "hero.careers": {
+      "semantic": {
+        "id": "hero.careers",
+        "category": "HERO"
+      }
+    },
+    "hero.compare": {
+      "semantic": {
+        "id": "hero.compare",
+        "category": "HERO"
+      }
+    },
+    "hero.customers": {
+      "semantic": {
+        "id": "hero.customers",
+        "category": "HERO"
+      }
+    },
+    "hero.enterprise": {
+      "semantic": {
+        "id": "hero.enterprise",
+        "category": "HERO"
+      }
+    },
+    "hero.form": {
+      "semantic": {
+        "id": "hero.form",
+        "category": "HERO"
+      }
+    },
+    "hero.guide-document": {
+      "semantic": {
+        "id": "hero.guide-document",
+        "category": "HERO"
+      }
+    },
+    "hero.guide-landing": {
+      "semantic": {
+        "id": "hero.guide-landing",
+        "category": "HERO"
+      }
+    },
+    "hero.heading-with-callout": {
+      "semantic": {
+        "id": "hero.heading-with-callout",
+        "category": "HERO"
+      }
+    },
+    "hero.home": {
+      "semantic": {
+        "id": "hero.home",
+        "category": "HERO"
+      }
+    },
+    "hero.integration": {
+      "semantic": {
+        "id": "hero.integration",
+        "category": "HERO"
+      }
+    },
+    "hero.newsroom": {
+      "semantic": {
+        "id": "hero.newsroom",
+        "category": "HERO"
+      }
+    },
+    "hero.partners": {
+      "semantic": {
+        "id": "hero.partners",
+        "category": "HERO"
+      }
+    },
+    "hero.placeholder": {
+      "semantic": {
+        "id": "hero.placeholder",
+        "category": "HERO"
+      }
+    },
+    "hero.pricing": {
+      "semantic": {
+        "id": "hero.pricing",
+        "category": "HERO"
+      }
+    },
+    "hero.product": {
+      "semantic": {
+        "id": "hero.product",
+        "category": "HERO"
+      }
+    },
+    "hero.report": {
+      "semantic": {
+        "id": "hero.report",
+        "category": "HERO"
+      }
+    },
+    "hero.solution": {
+      "semantic": {
+        "id": "hero.solution",
+        "category": "HERO"
+      }
+    },
+    "hero.solutions-hub": {
+      "semantic": {
+        "id": "hero.solutions-hub",
+        "category": "HERO"
+      }
+    },
+    "hero.story": {
+      "semantic": {
+        "id": "hero.story",
+        "category": "HERO"
+      }
+    },
+    "hero.v1-intro": {
+      "semantic": {
+        "id": "hero.v1-intro",
+        "category": "HERO"
+      }
+    },
+    "hero.v1": {
+      "semantic": {
+        "id": "hero.v1",
+        "category": "HERO"
+      }
+    },
+    "navigation.filter-chips": {
+      "semantic": {
+        "id": "navigation.filter-chips",
+        "category": "NAVIGATION"
+      }
+    },
+    "proof.customer-banner": {
+      "semantic": {
+        "id": "proof.customer-banner",
+        "category": "PROOF"
+      }
+    },
+    "proof.featured-stories-fan": {
+      "semantic": {
+        "id": "proof.featured-stories-fan",
+        "category": "PROOF"
+      }
+    },
+    "proof.full-width-quote": {
+      "semantic": {
+        "id": "proof.full-width-quote",
+        "category": "PROOF"
+      }
+    },
+    "proof.logo-wall": {
+      "semantic": {
+        "id": "proof.logo-wall",
+        "category": "PROOF"
+      }
+    },
+    "proof.quote-tiles": {
+      "semantic": {
+        "id": "proof.quote-tiles",
+        "category": "PROOF"
+      }
+    },
+    "proof.quotes-marquee": {
+      "semantic": {
+        "id": "proof.quotes-marquee",
+        "category": "PROOF"
+      }
+    },
+    "proof.social-tout": {
+      "semantic": {
+        "id": "proof.social-tout",
+        "category": "PROOF"
+      }
+    },
+    "proof.stories-two-up": {
+      "semantic": {
+        "id": "proof.stories-two-up",
+        "category": "PROOF"
+      }
+    },
+    "proof.story-tout": {
+      "semantic": {
+        "id": "proof.story-tout",
+        "category": "PROOF"
+      }
+    },
+    "shell.footer": {
+      "semantic": {
+        "id": "shell.footer",
+        "category": "SHELL"
+      }
+    },
+    "shell.header": {
+      "semantic": {
+        "id": "shell.header",
+        "category": "SHELL"
+      }
+    }
+  }
+}

@@ -1,7 +1,17 @@
 {
   "id": "content.report-toc",
-  "category": "content",
   "purpose": "Report table of contents: H2 + five numbered glass cards linking to section anchors.",
+  "semantic": {
+    "id": "content.report-toc",
+    "category": "CONTENT"
+  },
+  "source": {
+    "id": "Toc",
+    "tag": "div",
+    "file": "src/pages/companyResources/StateOfDataTeamsPage.jsx",
+    "lines": "190-210",
+    "anchor": "function Toc"
+  },
   "implementedBy": "src/pages/companyResources/StateOfDataTeamsPage.jsx > Toc",
   "variants": [],
   "content": {

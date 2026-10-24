@@ -1,7 +1,17 @@
 {
   "id": "proof.featured-stories-fan",
-  "category": "proof",
   "purpose": "Static arc of five square story cards lifted on a -80/-35/0/-35/-80px curve.",
+  "semantic": {
+    "id": "proof.featured-stories-fan",
+    "category": "PROOF"
+  },
+  "source": {
+    "id": "FeaturedFan",
+    "tag": "div",
+    "file": "src/pages/companyCore/CustomersPage.jsx",
+    "lines": "40-75",
+    "anchor": "function FeaturedFan"
+  },
   "implementedBy": "src/pages/companyCore/CustomersPage.jsx > FeaturedFan",
   "variants": [],
   "content": {

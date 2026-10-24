@@ -1,7 +1,19 @@
 {
   "id": "shell.header",
-  "category": "shell",
   "purpose": "Global fixed chrome: announcement ticker + main nav with mega-menus; identical on every site-layout page, themed only.",
+  "semantic": {
+    "id": "shell.header",
+    "category": "SHELL"
+  },
+  "source": {
+    "id": "Header",
+    "tag": "header",
+    "file": "src/components/Header.jsx",
+    "lines": "47-197",
+    "anchor": "function Header"
+  },
+  "retrievalEligible": false,
+  "retrievalIneligibleReason": "Global fixed chrome: an announcement ticker plus mega-menu navigation. It is runtime UI whose copy is global data a page never authors, so it adds noise as a retrieved exemplar.",
   "implementedBy": "src/components/Header.jsx > Header",
   "variants": [],
   "content": {

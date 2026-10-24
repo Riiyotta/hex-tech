@@ -1,7 +1,17 @@
 {
   "id": "conversion.form-shell",
-  "category": "conversion",
   "purpose": "Visual-only lead form: tinted bordered box of labelled fields (2-column rows), local validation states, gradient submit and disclaimer. Never submits.",
+  "semantic": {
+    "id": "conversion.form-shell",
+    "category": "CONVERSION"
+  },
+  "source": {
+    "id": "HubSpotFormShell",
+    "tag": "div",
+    "file": "src/pages/pricingForms/forms/HubSpotFormShell.jsx",
+    "lines": "81-162",
+    "anchor": "function HubSpotFormShell"
+  },
   "implementedBy": "src/pages/pricingForms/forms/HubSpotFormShell.jsx > HubSpotFormShell",
   "alsoImplementedBy": [
     "src/pages/solutions/Partners.jsx > PartnerRegister"

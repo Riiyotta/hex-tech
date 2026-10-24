@@ -1,7 +1,17 @@
 {
   "id": "hero.blog-masthead",
-  "category": "hero",
   "purpose": "Blog masthead: small H1 on a category divider, search toggle, commit-graph strip and a stats line.",
+  "semantic": {
+    "id": "hero.blog-masthead",
+    "category": "HERO"
+  },
+  "source": {
+    "id": "Masthead",
+    "tag": "div",
+    "file": "src/pages/companyCore/BlogIndexPage.jsx",
+    "lines": "70-121",
+    "anchor": "function Masthead"
+  },
   "implementedBy": "src/pages/companyCore/BlogIndexPage.jsx > Masthead",
   "variants": [],
   "content": {

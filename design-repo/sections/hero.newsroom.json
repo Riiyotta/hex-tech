@@ -1,7 +1,17 @@
 {
   "id": "hero.newsroom",
-  "category": "hero",
   "purpose": "Newsroom header: left gradient H1 + press-contact line, media-kit callout on the right.",
+  "semantic": {
+    "id": "hero.newsroom",
+    "category": "HERO"
+  },
+  "source": {
+    "id": "NewsroomPage",
+    "tag": "div",
+    "file": "src/pages/companyCore/NewsroomPage.jsx",
+    "lines": "12-65",
+    "anchor": "function NewsroomPage"
+  },
   "implementedBy": "src/pages/companyCore/NewsroomPage.jsx > NewsroomPage",
   "variants": [],
   "content": {

@@ -8,19 +8,24 @@ Controls (must produce ZERO errors):
   * one synthesized PageSpec per real route, using the node sequence observed on that route.
 Mutations (each must be REJECTED with the expected rule): schema-layer, structural, runtime word budgets, asset
 policies, links, visual-only forms, reference/generated-mode brand safety (Hex wordmark and logo leakage), plus
-warn-level rules proven to fire as warnings.
+contract pins (retrievalEligible, semantic category, source/semantic split) and the whole-page-wrapper gate
+(HERO height, page share, missing measurement, whitelist hygiene), plus warn-level rules proven to fire as warnings.
 
 Usage: python3 schema/tests/adversarial_test.py     (exit 1 on any failure)
 """
 import copy
 import json
 import os
+import shutil
 import sys
+import tempfile
 
 sys.dont_write_bytecode = True
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(HERE))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(HERE)), "extraction"))
 import semantic_validate as sv  # noqa: E402
+import wrapper_gate as wg  # noqa: E402
 
 REPO = sv.REPO
 repo = sv.load_repo()
@@ -351,6 +356,152 @@ def main():
     s = E(); s["mode"] = "production"; mutation("invalid mode value", s, ["SCHEMA_VALID"])
     s = E(); s["mode"] = "Generated"; mutation("wrong-case mode value", s, ["SCHEMA_VALID"])
     s = E(); s["mode"] = "reference"; control("example flipped to reference passes (placeholder brand is allowed there too)", s)
+
+    # ---------------- section contracts: retrieval pin, semantic/source split, honest classing (repo-level rules)
+    def mutation_repo(name, mutate, expect_rules, spec=None):
+        r2 = dict(repo)
+        r2["sections"] = copy.deepcopy(repo["sections"])
+        r2["allowlist"] = copy.deepcopy(repo["allowlist"])
+        r2["allowlistFile"] = copy.deepcopy(repo["allowlistFile"])
+        mutate(r2)
+        errs = [f for f in sv.check(spec or example, r2) if f["severity"] == "error"]
+        hit = sorted(set(f["rule"] for f in errs) & set(expect_rules))
+        RESULTS.append(("mutation", name, bool(hit), ("rejected by %s" % ",".join(hit)) if hit else "NOT rejected (errors: %s)" % sorted(set(f["rule"] for f in errs))))
+
+    def sec(sid, fn):
+        return lambda r: fn(r["sections"][sid])
+
+    RET, SEM = ["RETRIEVAL_ELIGIBILITY_PINNED"], ["SEMANTIC_CATEGORY_CLOSED"]
+    LONG = "Not a real reason but long enough to pass the length rule."
+    mutation_repo("retrievalEligible: a pinned utility (divider.tron) made retrievable", sec("divider.tron", lambda d: (d.pop("retrievalEligible"), d.pop("retrievalIneligibleReason"))), RET)
+    mutation_repo("retrievalEligible: the pinned shell.header made retrievable", sec("shell.header", lambda d: (d.__setitem__("retrievalEligible", True), d.pop("retrievalIneligibleReason"))), RET)
+    mutation_repo("retrievalEligible: a string 'false' instead of a closed boolean", sec("divider.tron", lambda d: d.__setitem__("retrievalEligible", "false")), RET)
+    mutation_repo("retrievalEligible: reason shorter than 30 characters", sec("divider.tron", lambda d: d.__setitem__("retrievalIneligibleReason", "layout only")), RET)
+    mutation_repo("retrievalEligible: false on a section that is not pinned", sec("hero.home", lambda d: d.update({"retrievalEligible": False, "retrievalIneligibleReason": LONG})), RET)
+    mutation_repo("retrievalEligible: a reason on a retrievable section", sec("hero.home", lambda d: d.__setitem__("retrievalIneligibleReason", LONG)), RET)
+
+    def add_cookie(r):
+        c = copy.deepcopy(r["sections"]["divider.tron"])
+        c["id"] = "shell.cookie-consent-banner"
+        c.pop("retrievalEligible", None); c.pop("retrievalIneligibleReason", None)
+        r["sections"]["shell.cookie-consent-banner"] = c
+    mutation_repo("retrievalEligible: a cookie consent banner section that is not pinned", add_cookie, RET)
+    mutation_repo("retrievalEligible: allowlist mirror says divider.tron is retrievable", lambda r: r["allowlist"]["divider.tron"].__setitem__("retrievalEligible", True), RET)
+    mutation_repo("retrievalEligible: allowlist pinned list emptied", lambda r: r["allowlistFile"].__setitem__("retrievalIneligibleSections", []), RET)
+    mutation_repo("retrievalEligible: allowlist pinned list gains a section", lambda r: r["allowlistFile"]["retrievalIneligibleSections"].append("hero.home"), RET)
+    s_ = E(); nodes_of(s_, "hero.integration")[0]["retrievalEligible"] = True
+    mutation("retrievalEligible at node level (a PageSpec node cannot carry it)", s_, ["SCHEMA_VALID"])
+    s_ = E(); s_["retrievalEligible"] = True
+    mutation("retrievalEligible at PageSpec level", s_, ["SCHEMA_VALID"])
+    control("pinned retrieval list is exactly the three layout-only/runtime sections", E())
+    RESULTS.append(("control", "retrieval pins match the contracts", sorted(sv.RETRIEVAL_INELIGIBLE_PINNED) == sorted(k for k, c in SECTIONS.items() if c.get("retrievalEligible", True) is False), ""))
+
+    mutation_repo("semantic: a conversion block classed FEATURE", sec("conversion.bottom-cta", lambda d: d["semantic"].__setitem__("category", "FEATURE")), SEM)
+    mutation_repo("semantic: a page-opening block classed FEATURE", sec("hero.home", lambda d: d["semantic"].__setitem__("category", "FEATURE")), SEM)
+    mutation_repo("semantic: a category outside the closed enum", sec("hero.home", lambda d: d["semantic"].__setitem__("category", "LANDING")), SEM)
+    mutation_repo("semantic: semantic.id differs from the contract id", sec("hero.home", lambda d: d["semantic"].__setitem__("id", "hero.other")), SEM)
+    mutation_repo("semantic: source.id equals semantic.id", sec("hero.home", lambda d: d["source"].__setitem__("id", "hero.home")), SEM)
+    mutation_repo("semantic: a contract without a source object", sec("hero.home", lambda d: d.pop("source")), SEM)
+    mutation_repo("semantic: a contract without a semantic object", sec("hero.home", lambda d: d.pop("semantic")), SEM)
+    mutation_repo("semantic: a submitting form classed FEATURE", sec("conversion.form-shell", lambda d: d["semantic"].__setitem__("category", "FEATURE")), SEM)
+    mutation_repo("semantic: editorial podcast content classed FEATURE", sec("feature.podcast-episodes", lambda d: d["semantic"].__setitem__("category", "FEATURE")), SEM)
+    mutation_repo("semantic: customer-story facts classed FEATURE", sec("feature.story-details", lambda d: d["semantic"].__setitem__("category", "FEATURE")), SEM)
+    mutation_repo("semantic: allowlist semanticCategory drifts from the contract", lambda r: r["allowlist"]["hero.home"].__setitem__("semanticCategory", "FEATURE"), SEM)
+
+    # closed section-contract schema (a contract with an invented key or a bad source is a schema error)
+    from jsonschema import Draft7Validator
+    csch = Draft7Validator(json.load(open(os.path.join(REPO, "schema", "section-contract.schema.json"), encoding="utf-8")))
+
+    def contract_case(name, fn, accept=False):
+        d = copy.deepcopy(SECTIONS["hero.home"]); fn(d)
+        bad = list(csch.iter_errors(d))
+        RESULTS.append(("control" if accept else "mutation", name, (not bad) if accept else bool(bad), "" if (bool(bad) != accept) else ("rejected by the closed schema" if not accept else "schema rejected a valid contract")))
+    contract_case("every shipped contract validates against the closed contract schema", lambda d: None, accept=True)
+    contract_case("contract schema: an invented top-level key", lambda d: d.__setitem__("category", "hero"))
+    contract_case("contract schema: an invented key inside source", lambda d: d["source"].__setitem__("selector", ".x"))
+    contract_case("contract schema: an invented key inside semantic", lambda d: d["semantic"].__setitem__("tags", []))
+    contract_case("contract schema: source without its range", lambda d: d["source"].pop("lines"))
+    contract_case("contract schema: source tag outside the closed enum", lambda d: d["source"].__setitem__("tag", "marquee"))
+    contract_case("contract schema: source.file outside src/", lambda d: d["source"].__setitem__("file", "docs/Hero.jsx"))
+    contract_case("contract schema: retrievalEligible as a string", lambda d: d.__setitem__("retrievalEligible", "true"))
+    contract_case("contract schema: reason under 30 characters", lambda d: d.update({"retrievalEligible": False, "retrievalIneligibleReason": "too short"}))
+    contract_case("contract schema: an invented content-field key", lambda d: d["content"]["headline"].__setitem__("cssClass", "x"))
+
+    # ---------------- whole-page-wrapper gate (extraction/wrapper_gate.py over extraction/measured-values.json)
+    def gate_copy():
+        tmp = tempfile.mkdtemp(prefix="hex-gate-")
+        shutil.copytree(os.path.join(REPO, "templates"), os.path.join(tmp, "templates"))
+        shutil.copytree(os.path.join(REPO, "sections"), os.path.join(tmp, "sections"))
+        os.makedirs(os.path.join(tmp, "extraction"))
+        for f in ("measured-values.json", "wrapper-whitelist.json"):
+            shutil.copy(os.path.join(REPO, "extraction", f), os.path.join(tmp, "extraction", f))
+        return tmp
+
+    def jedit(tmp, rel, fn):
+        p = os.path.join(tmp, rel)
+        d = json.load(open(p, encoding="utf-8")); fn(d)
+        json.dump(d, open(p, "w", encoding="utf-8"), indent=2)
+
+    def route_rec(d, route):
+        return next(r for r in d["sectionHeights"]["routes"] if r["route"] == route)
+
+    def set_height(d, route, section, h):
+        """Set one instance to h and absorb the difference in the page height so the accounting stays valid."""
+        rt = route_rec(d, route)
+        inst = next(x for x in rt["sections"] if x["section"] == section)
+        rt["pageHeightPx"] += h - inst["heightPx"]
+        inst["heightPx"] = h
+        sec_ = d["sectionHeights"]["sections"][section]
+        sec_["maxHeightPx"] = max(h, max(x["heightPx"] for r in d["sectionHeights"]["routes"] for x in r["sections"] if x["section"] == section))
+
+    def gate_case(name, mutate, expect, want="error"):
+        tmp = gate_copy()
+        try:
+            mutate(tmp)
+            F, W = wg.check_wrapper_gate(tmp)
+        finally:
+            shutil.rmtree(tmp, ignore_errors=True)
+        if want == "error":
+            ok = any(expect in f for f in F)
+            msg = ("rejected: %s" % next(f for f in F if expect in f)[:90]) if ok else "NOT rejected (failures: %s)" % [f[:70] for f in F[:2]]
+            RESULTS.append(("mutation", name, ok, msg))
+        elif want == "warn":
+            ok = not F and any(expect in w for w in W)
+            RESULTS.append(("warn", name, ok, ("warned: %s" % next(w for w in W if expect in w)[:80]) if ok else "expected only a warning containing %r; failures %s, warnings %s" % (expect, [f[:70] for f in F[:2]], len(W))))
+        else:   # pass
+            ok = not F
+            RESULTS.append(("control", name, ok, "" if ok else "; ".join(f[:100] for f in F[:2])))
+
+    ME = lambda f: (lambda tmp: jedit(tmp, "extraction/measured-values.json", f))
+    WE = lambda f: (lambda tmp: jedit(tmp, "extraction/wrapper-whitelist.json", f))
+    gate_case("gate control: the shipped measurements and whitelist pass", lambda tmp: None, "", want="pass")
+    gate_case("gate: HERO of 1900px warns", ME(lambda d: set_height(d, "/product/bi/", "hero.product", 1900)), "HERO hero.product is 1900px", want="warn")
+    gate_case("gate: HERO of 3100px without a whitelist entry is rejected", ME(lambda d: set_height(d, "/product/bi/", "hero.product", 3100)), "a whole-page wrapper, not a hero")
+
+    def wl_hero(tmp):
+        jedit(tmp, "extraction/measured-values.json", lambda d: set_height(d, "/product/bi/", "hero.product", 3100))
+        jedit(tmp, "extraction/wrapper-whitelist.json", lambda d: d["entries"].append({"kind": "hero-height", "route": "/product/bi/", "section": "hero.product", "maxHeightPx": 3400,
+              "reviewedBy": "claude-agent (automated reviewer; not a human sign-off)", "attestation": "agent", "reviewedOn": "2026-10-24", "justification": "A reviewed exception that is long enough to satisfy the rule."}))
+    gate_case("gate: a reviewed HERO whitelist entry lets 3100px pass (still warns)", wl_hero, "whitelisted up to 3400px", want="warn")
+    gate_case("gate: section at 55% of its page warns", ME(lambda d: set_height(d, "/product/bi/", "feature.approach-cards", 9600)), "feature.approach-cards is 9600px", want="warn")
+    gate_case("gate: a section over 60% of its page without a whitelist entry is rejected", ME(lambda d: set_height(d, "/product/bi/", "feature.approach-cards", 24000)), "a whole-page wrapper. Decompose it")
+    gate_case("gate: a whitelisted share above its ceiling is rejected", WE(lambda d: d["entries"][0].__setitem__("maxSharePct", 80)), "over the whitelisted ceiling")
+    gate_case("gate: whitelist entry without a justification of 30 characters", WE(lambda d: d["entries"][0].__setitem__("justification", "one page only")), "justification must be at least 30")
+    gate_case("gate: whitelist entry without reviewedBy", WE(lambda d: d["entries"][0].pop("reviewedBy")), "reviewedBy")
+    gate_case("gate: an agent attestation that claims to be a human review", WE(lambda d: d["entries"][0].__setitem__("reviewedBy", "R. Reviewer")), "must say \"not a human sign-off\"")
+    gate_case("gate: whitelist ceiling below the measured height", WE(lambda d: d["entries"][0].__setitem__("maxHeightPx", 100)), "over the whitelisted ceiling")
+    gate_case("gate: stale whitelist entry", WE(lambda d: d["entries"].append({"kind": "hero-height", "route": "/", "section": "hero.home", "maxHeightPx": 9000, "reviewedBy": "x (not a human sign-off)", "attestation": "agent",
+              "reviewedOn": "2026-10-24", "justification": "A stale entry that must be rejected by the gate."})), "stale whitelist entry")
+    gate_case("gate: missing section measurement", ME(lambda d: d["sectionHeights"]["sections"].pop("hero.home")), "no measurement for section hero.home")
+    gate_case("gate: missing template measurement", ME(lambda d: d["sectionHeights"].__setitem__("routes", [r for r in d["sectionHeights"]["routes"] if r["template"] != "template.compare"])), "no measured route for template template.compare")
+    gate_case("gate: sectionHeights removed", ME(lambda d: d.pop("sectionHeights")), "no sectionHeights")
+    gate_case("gate: measured at the wrong viewport (1920px)", ME(lambda d: d["sectionHeights"]["viewport"].__setitem__("width", 1920)), "must be measured at a 1440px viewport")
+    gate_case("gate: a node without a measured height", ME(lambda d: route_rec(d, "/pricing/")["sections"][1].__setitem__("heightPx", 0)), "has no height")
+    gate_case("gate: a route whose measured sections differ from the observed sequence", ME(lambda d: route_rec(d, "/pricing/")["sections"].pop(2)), "differ from the route's observed sequence")
+    gate_case("gate: heights that do not add up to the page height", ME(lambda d: route_rec(d, "/pricing/").__setitem__("pageHeightPx", 9999)), "add up to")
+    gate_case("gate: whitelist emptied while pages exceed 60%", WE(lambda d: d.__setitem__("entries", [])), "a whole-page wrapper. Decompose it")
+    gate_case("gate: a whitelist kind outside the closed set", WE(lambda d: d["entries"][0].__setitem__("kind", "anything-goes")), "kind must be")
+    gate_case("gate: an invented whitelist key", WE(lambda d: d["entries"][0].__setitem__("note", "x")), "unknown keys")
 
     # ---------------- report
     n_ctrl = sum(1 for r in RESULTS if r[0] == "control")

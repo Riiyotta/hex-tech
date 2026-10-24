@@ -1,7 +1,17 @@
 {
   "id": "hero.v1-intro",
-  "category": "hero",
   "purpose": "Dark V1 resource intro: white 74px H1 + lead, with the line illustration beside it (split) or centred (catalog).",
+  "semantic": {
+    "id": "hero.v1-intro",
+    "category": "HERO"
+  },
+  "source": {
+    "id": "V1Intro",
+    "tag": "div",
+    "file": "src/pages/companyResources/parts.jsx",
+    "lines": "8-20",
+    "anchor": "function V1Intro"
+  },
   "implementedBy": "src/pages/companyResources/parts.jsx > V1Intro",
   "alsoImplementedBy": [
     "src/pages/companyResources/TemplatesPage.jsx > TemplatesPage"

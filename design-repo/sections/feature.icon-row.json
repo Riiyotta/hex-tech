@@ -1,7 +1,17 @@
 {
   "id": "feature.icon-row",
-  "category": "feature",
   "purpose": "Three centred icon + H3 + text columns.",
+  "semantic": {
+    "id": "feature.icon-row",
+    "category": "FEATURE"
+  },
+  "source": {
+    "id": "EmbeddedAnalytics",
+    "tag": "div",
+    "file": "src/pages/productV1/EmbeddedAnalytics.jsx",
+    "lines": "97-175",
+    "anchor": "function EmbeddedAnalytics"
+  },
   "implementedBy": "src/pages/productV1/EmbeddedAnalytics.jsx > EmbeddedAnalytics",
   "variants": [],
   "content": {

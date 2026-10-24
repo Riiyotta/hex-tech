@@ -1,7 +1,17 @@
 {
   "id": "feature.how-it-works",
-  "category": "feature",
   "purpose": "Integration 'How it works': H2 + rich text + CTA row beside a connection illustration, image or nothing (centred).",
+  "semantic": {
+    "id": "feature.how-it-works",
+    "category": "FEATURE"
+  },
+  "source": {
+    "id": "HowItWorks",
+    "tag": "div",
+    "file": "src/pages/productV1/IntegrationDetail.jsx",
+    "lines": "69-94",
+    "anchor": "function HowItWorks"
+  },
   "implementedBy": "src/pages/productV1/IntegrationDetail.jsx > HowItWorks",
   "variants": [],
   "content": {

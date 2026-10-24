@@ -1,7 +1,17 @@
 {
   "id": "hero.integration",
-  "category": "hero",
   "purpose": "Integration detail hero: label tab cut into a logo box, solid H1, lead and 1-2 md CTAs.",
+  "semantic": {
+    "id": "hero.integration",
+    "category": "HERO"
+  },
+  "source": {
+    "id": "Info",
+    "tag": "div",
+    "file": "src/pages/productV1/IntegrationDetail.jsx",
+    "lines": "27-43",
+    "anchor": "function Info"
+  },
   "implementedBy": "src/pages/productV1/IntegrationDetail.jsx > Info",
   "variants": [],
   "content": {

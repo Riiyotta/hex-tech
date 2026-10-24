@@ -1,7 +1,17 @@
 {
   "id": "collection.newsroom-featured",
-  "category": "collection",
   "purpose": "One featured press card: large image beside H2 and outlet/date meta, linking to the external article.",
+  "semantic": {
+    "id": "collection.newsroom-featured",
+    "category": "COLLECTION"
+  },
+  "source": {
+    "id": "NewsroomPage",
+    "tag": "div",
+    "file": "src/pages/companyCore/NewsroomPage.jsx",
+    "lines": "12-65",
+    "anchor": "function NewsroomPage"
+  },
   "implementedBy": "src/pages/companyCore/NewsroomPage.jsx > NewsroomPage",
   "variants": [],
   "content": {

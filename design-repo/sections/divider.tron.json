@@ -1,7 +1,19 @@
 {
   "id": "divider.tron",
-  "category": "divider",
   "purpose": "Nine 1px gradient rules with increasing gaps and decreasing opacity separating major blocks; optionally flipped.",
+  "semantic": {
+    "id": "divider.tron",
+    "category": "DIVIDER"
+  },
+  "source": {
+    "id": "TronDivider",
+    "tag": "div",
+    "file": "src/components/shared/TronDivider.jsx",
+    "lines": "19-27",
+    "anchor": "function TronDivider"
+  },
+  "retrievalEligible": false,
+  "retrievalIneligibleReason": "Layout-only utility: a 61px stack of nine hairline rules with no authorable copy, so retrieving it as an exemplar adds noise.",
   "implementedBy": "src/components/shared/TronDivider.jsx > TronDivider",
   "variants": [
     "default",

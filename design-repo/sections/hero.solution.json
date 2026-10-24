@@ -1,7 +1,17 @@
 {
   "id": "hero.solution",
-  "category": "hero",
   "purpose": "Solution-detail hero: centred gradient H1, one-line lead, primary + secondary lg CTAs.",
+  "semantic": {
+    "id": "hero.solution",
+    "category": "HERO"
+  },
+  "source": {
+    "id": "SolutionHero",
+    "tag": "div",
+    "file": "src/pages/solutions/SolutionDetail.jsx",
+    "lines": "25-49",
+    "anchor": "function SolutionHero"
+  },
   "implementedBy": "src/pages/solutions/SolutionDetail.jsx > SolutionHero",
   "variants": [],
   "content": {

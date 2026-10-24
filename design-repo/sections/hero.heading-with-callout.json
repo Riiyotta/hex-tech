@@ -1,7 +1,17 @@
 {
   "id": "hero.heading-with-callout",
-  "category": "hero",
   "purpose": "Index heading: two-line solid H1 + lead on the left, ruled tinted callout with a mail link on the right.",
+  "semantic": {
+    "id": "hero.heading-with-callout",
+    "category": "HERO"
+  },
+  "source": {
+    "id": "IntegrationsIndex",
+    "tag": "div",
+    "file": "src/pages/productV1/IntegrationsIndex.jsx",
+    "lines": "62-88",
+    "anchor": "function IntegrationsIndex"
+  },
   "implementedBy": "src/pages/productV1/IntegrationsIndex.jsx > IntegrationsIndex",
   "variants": [],
   "content": {

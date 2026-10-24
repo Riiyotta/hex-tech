@@ -1,7 +1,17 @@
 {
   "id": "proof.stories-two-up",
-  "category": "proof",
   "purpose": "Sunken band of one or two centred customer quotes (logo, quote with bold emphasis, name + title).",
+  "semantic": {
+    "id": "proof.stories-two-up",
+    "category": "PROOF"
+  },
+  "source": {
+    "id": "CustomerStoriesTwoUp",
+    "tag": "section",
+    "file": "src/components/sections/CustomerStoriesTwoUp.jsx",
+    "lines": "76-113",
+    "anchor": "function CustomerStoriesTwoUp"
+  },
   "implementedBy": "src/components/sections/CustomerStoriesTwoUp.jsx > CustomerStoriesTwoUp",
   "alsoImplementedBy": [
     "src/pages/productV1/IntegrationDetail.jsx > QuotesMultiple"

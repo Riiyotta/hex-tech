@@ -297,7 +297,9 @@
         "brand.user-supplied",
         "brand.wordmark"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "SHELL",
+      "retrievalEligible": false
     },
     {
       "id": "shell.footer",
@@ -319,7 +321,9 @@
         "brand.user-supplied",
         "brand.wordmark"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "SHELL",
+      "retrievalEligible": true
     },
     {
       "id": "hero.home",
@@ -342,7 +346,9 @@
       ],
       "variants": [],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "HERO",
+      "retrievalEligible": true
     },
     {
       "id": "hero.product",
@@ -377,7 +383,9 @@
         "image.product-ui",
         "video.loop"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "HERO",
+      "retrievalEligible": true
     },
     {
       "id": "hero.v1",
@@ -406,7 +414,9 @@
         "image.product-screenshot",
         "video.loop"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "HERO",
+      "retrievalEligible": true
     },
     {
       "id": "hero.guide-document",
@@ -427,7 +437,9 @@
       ],
       "variants": [],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "HERO",
+      "retrievalEligible": true
     },
     {
       "id": "hero.heading-with-callout",
@@ -448,7 +460,9 @@
       ],
       "variants": [],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "HERO",
+      "retrievalEligible": true
     },
     {
       "id": "hero.integration",
@@ -472,7 +486,9 @@
       "assetRoles": [
         "logo.integration"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "HERO",
+      "retrievalEligible": true
     },
     {
       "id": "hero.solutions-hub",
@@ -493,7 +509,9 @@
       ],
       "variants": [],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "HERO",
+      "retrievalEligible": true
     },
     {
       "id": "hero.solution",
@@ -513,7 +531,9 @@
       ],
       "variants": [],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "HERO",
+      "retrievalEligible": true
     },
     {
       "id": "hero.enterprise",
@@ -538,7 +558,9 @@
       "assetRoles": [
         "illustration.decorative"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "HERO",
+      "retrievalEligible": true
     },
     {
       "id": "hero.compare",
@@ -561,7 +583,9 @@
       "assetRoles": [
         "logo.competitor"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "HERO",
+      "retrievalEligible": true
     },
     {
       "id": "hero.partners",
@@ -581,7 +605,9 @@
       ],
       "variants": [],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "HERO",
+      "retrievalEligible": true
     },
     {
       "id": "hero.pricing",
@@ -601,7 +627,9 @@
       ],
       "variants": [],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "HERO",
+      "retrievalEligible": true
     },
     {
       "id": "hero.form",
@@ -620,7 +648,9 @@
       ],
       "variants": [],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "HERO",
+      "retrievalEligible": true
     },
     {
       "id": "hero.about",
@@ -645,7 +675,9 @@
       "assetRoles": [
         "photo.person"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "HERO",
+      "retrievalEligible": true
     },
     {
       "id": "hero.careers",
@@ -670,7 +702,9 @@
       "assetRoles": [
         "photo.person"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "HERO",
+      "retrievalEligible": true
     },
     {
       "id": "hero.newsroom",
@@ -690,7 +724,9 @@
       ],
       "variants": [],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "HERO",
+      "retrievalEligible": true
     },
     {
       "id": "hero.blog-masthead",
@@ -715,7 +751,9 @@
         "canvas.runtime",
         "image.capture-fallback"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "HERO",
+      "retrievalEligible": true
     },
     {
       "id": "hero.article",
@@ -742,7 +780,9 @@
         "embed.external",
         "image.editorial-thumbnail"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "HERO",
+      "retrievalEligible": true
     },
     {
       "id": "hero.customers",
@@ -765,7 +805,9 @@
       "assetRoles": [
         "illustration.decorative"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "HERO",
+      "retrievalEligible": true
     },
     {
       "id": "hero.story",
@@ -788,7 +830,9 @@
       "assetRoles": [
         "logo.customer"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "HERO",
+      "retrievalEligible": true
     },
     {
       "id": "hero.v1-intro",
@@ -814,7 +858,9 @@
       "assetRoles": [
         "illustration.decorative"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "HERO",
+      "retrievalEligible": true
     },
     {
       "id": "hero.guide-landing",
@@ -837,7 +883,9 @@
       "assetRoles": [
         "illustration.decorative"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "HERO",
+      "retrievalEligible": true
     },
     {
       "id": "hero.report",
@@ -864,7 +912,9 @@
         "brand.wordmark",
         "illustration.decorative"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "HERO",
+      "retrievalEligible": true
     },
     {
       "id": "hero.placeholder",
@@ -884,7 +934,9 @@
       ],
       "variants": [],
       "assetRoles": [],
-      "generationEligible": false
+      "generationEligible": false,
+      "semanticCategory": "HERO",
+      "retrievalEligible": false
     },
     {
       "id": "proof.customer-banner",
@@ -909,7 +961,9 @@
       "assetRoles": [
         "logo.customer"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "PROOF",
+      "retrievalEligible": true
     },
     {
       "id": "proof.full-width-quote",
@@ -933,7 +987,9 @@
       "assetRoles": [
         "logo.customer"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "PROOF",
+      "retrievalEligible": true
     },
     {
       "id": "proof.stories-two-up",
@@ -957,7 +1013,9 @@
       "assetRoles": [
         "logo.customer"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "PROOF",
+      "retrievalEligible": true
     },
     {
       "id": "proof.quotes-marquee",
@@ -982,7 +1040,9 @@
         "logo.customer",
         "photo.person"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "PROOF",
+      "retrievalEligible": true
     },
     {
       "id": "proof.social-tout",
@@ -1010,7 +1070,9 @@
         "logo.customer",
         "photo.person"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "PROOF",
+      "retrievalEligible": true
     },
     {
       "id": "proof.story-tout",
@@ -1033,7 +1095,9 @@
       "assetRoles": [
         "logo.customer"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "PROOF",
+      "retrievalEligible": true
     },
     {
       "id": "proof.logo-wall",
@@ -1061,7 +1125,9 @@
         "logo.customer",
         "logo.investor"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "PROOF",
+      "retrievalEligible": true
     },
     {
       "id": "proof.quote-tiles",
@@ -1083,7 +1149,9 @@
       "assetRoles": [
         "logo.customer"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "PROOF",
+      "retrievalEligible": true
     },
     {
       "id": "proof.featured-stories-fan",
@@ -1104,7 +1172,9 @@
         "image.editorial-thumbnail",
         "logo.customer"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "PROOF",
+      "retrievalEligible": true
     },
     {
       "id": "feature.built-different",
@@ -1123,7 +1193,9 @@
       ],
       "variants": [],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.split",
@@ -1162,7 +1234,9 @@
         "image.product-ui",
         "logo.customer"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.ethos-cards",
@@ -1182,7 +1256,9 @@
       "assetRoles": [
         "illustration.decorative"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.use-cases",
@@ -1204,7 +1280,9 @@
       "assetRoles": [
         "icon.abstract-mark"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.integrations-grid",
@@ -1228,7 +1306,9 @@
         "illustration.decorative",
         "logo.integration"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.section-heading",
@@ -1253,7 +1333,9 @@
         "v1-panel"
       ],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.info-card-grid",
@@ -1278,7 +1360,9 @@
       "assetRoles": [
         "image.product-screenshot"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.bento-cells",
@@ -1299,7 +1383,9 @@
       "assetRoles": [
         "image.product-screenshot"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.perlin-callout",
@@ -1324,7 +1410,9 @@
         "illustration.decorative",
         "image.product-screenshot"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.v1-two-up",
@@ -1349,7 +1437,9 @@
         "image.product-screenshot",
         "image.product-ui"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.solution-row",
@@ -1374,7 +1464,9 @@
       "assetRoles": [
         "image.product-screenshot"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.approach-cards",
@@ -1395,7 +1487,9 @@
       "assetRoles": [
         "icon.ui"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.command-list",
@@ -1415,7 +1509,9 @@
       ],
       "variants": [],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.workflow-table",
@@ -1435,7 +1531,9 @@
       ],
       "variants": [],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.platform-overview",
@@ -1458,7 +1556,9 @@
       "assetRoles": [
         "illustration.decorative"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.observability-callouts",
@@ -1480,7 +1580,9 @@
       "assetRoles": [
         "image.product-ui"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.workflow-split",
@@ -1499,7 +1601,9 @@
       ],
       "variants": [],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.demo-accordion",
@@ -1523,7 +1627,9 @@
         "image.product-screenshot",
         "video.loop"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.magic",
@@ -1545,7 +1651,9 @@
       "assetRoles": [
         "image.product-screenshot"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.cell-collage",
@@ -1569,7 +1677,9 @@
       "assetRoles": [
         "image.product-screenshot"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.execution-dag",
@@ -1594,7 +1704,9 @@
       "assetRoles": [
         "illustration.decorative"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.codegen-gallery",
@@ -1619,7 +1731,9 @@
       "assetRoles": [
         "image.product-screenshot"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.snaked-rows",
@@ -1639,7 +1753,9 @@
       "assetRoles": [
         "image.product-screenshot"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.icon-row",
@@ -1657,7 +1773,9 @@
       ],
       "variants": [],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.numbered-grid",
@@ -1680,7 +1798,9 @@
       "assetRoles": [
         "logo.certification"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.illustrated-checklist",
@@ -1703,7 +1823,9 @@
       "assetRoles": [
         "illustration.decorative"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.support-grid",
@@ -1726,7 +1848,9 @@
       "assetRoles": [
         "illustration.decorative"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.live-app-embed",
@@ -1750,7 +1874,9 @@
       "assetRoles": [
         "embed.external"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.partners-why",
@@ -1773,7 +1899,9 @@
       "assetRoles": [
         "illustration.decorative"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.partner-tiers",
@@ -1795,7 +1923,9 @@
       "assetRoles": [
         "illustration.decorative"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.highlights",
@@ -1819,7 +1949,9 @@
       "assetRoles": [
         "icon.ui"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.photo-collage",
@@ -1842,7 +1974,9 @@
       "assetRoles": [
         "photo.person"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.how-it-works",
@@ -1867,7 +2001,9 @@
         "image.product-screenshot",
         "image.product-ui"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.video-embed",
@@ -1888,7 +2024,9 @@
       "assetRoles": [
         "embed.external"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.integration-custom-blocks",
@@ -1908,7 +2046,9 @@
       "assetRoles": [
         "image.product-screenshot"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.plan-summary",
@@ -1926,7 +2066,9 @@
       ],
       "variants": [],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.plan-comparison",
@@ -1946,7 +2088,9 @@
       ],
       "variants": [],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FEATURE",
+      "retrievalEligible": true
     },
     {
       "id": "feature.story-details",
@@ -1964,7 +2108,9 @@
       ],
       "variants": [],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "CONTENT",
+      "retrievalEligible": true
     },
     {
       "id": "feature.podcast-episodes",
@@ -1986,7 +2132,9 @@
       "assetRoles": [
         "image.editorial-thumbnail"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "CONTENT",
+      "retrievalEligible": true
     },
     {
       "id": "content.guide-chapter",
@@ -2005,7 +2153,9 @@
       ],
       "variants": [],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "CONTENT",
+      "retrievalEligible": true
     },
     {
       "id": "content.article-body",
@@ -2027,7 +2177,9 @@
       ],
       "variants": [],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "CONTENT",
+      "retrievalEligible": true
     },
     {
       "id": "content.story-body",
@@ -2045,7 +2197,9 @@
       ],
       "variants": [],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "CONTENT",
+      "retrievalEligible": true
     },
     {
       "id": "content.report-intro",
@@ -2065,7 +2219,9 @@
       ],
       "variants": [],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "CONTENT",
+      "retrievalEligible": true
     },
     {
       "id": "content.report-toc",
@@ -2084,7 +2240,9 @@
       ],
       "variants": [],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "CONTENT",
+      "retrievalEligible": true
     },
     {
       "id": "content.report-section",
@@ -2108,7 +2266,9 @@
       "assetRoles": [
         "image.data-chart"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "CONTENT",
+      "retrievalEligible": true
     },
     {
       "id": "content.report-outro",
@@ -2127,7 +2287,9 @@
       ],
       "variants": [],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "CONTENT",
+      "retrievalEligible": true
     },
     {
       "id": "collection.newsroom-cards",
@@ -2153,7 +2315,9 @@
       "assetRoles": [
         "image.editorial-thumbnail"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "COLLECTION",
+      "retrievalEligible": true
     },
     {
       "id": "collection.newsroom-featured",
@@ -2177,7 +2341,9 @@
       "assetRoles": [
         "image.editorial-thumbnail"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "COLLECTION",
+      "retrievalEligible": true
     },
     {
       "id": "collection.blog-featured",
@@ -2197,7 +2363,9 @@
       "assetRoles": [
         "image.editorial-thumbnail"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "COLLECTION",
+      "retrievalEligible": true
     },
     {
       "id": "collection.blog-recent",
@@ -2215,7 +2383,9 @@
       ],
       "variants": [],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "COLLECTION",
+      "retrievalEligible": true
     },
     {
       "id": "collection.blog-feed",
@@ -2237,7 +2407,9 @@
       ],
       "variants": [],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "COLLECTION",
+      "retrievalEligible": true
     },
     {
       "id": "collection.customer-stories",
@@ -2262,7 +2434,9 @@
       "assetRoles": [
         "logo.customer"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "COLLECTION",
+      "retrievalEligible": true
     },
     {
       "id": "collection.events",
@@ -2283,7 +2457,9 @@
       "assetRoles": [
         "image.editorial-thumbnail"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "COLLECTION",
+      "retrievalEligible": true
     },
     {
       "id": "collection.guides",
@@ -2303,7 +2479,9 @@
       "assetRoles": [
         "image.editorial-thumbnail"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "COLLECTION",
+      "retrievalEligible": true
     },
     {
       "id": "collection.templates-catalog",
@@ -2323,7 +2501,9 @@
       "assetRoles": [
         "image.product-screenshot"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "COLLECTION",
+      "retrievalEligible": true
     },
     {
       "id": "collection.resource-cards",
@@ -2352,7 +2532,9 @@
         "image.editorial-thumbnail",
         "logo.competitor"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "COLLECTION",
+      "retrievalEligible": true
     },
     {
       "id": "collection.template-cards",
@@ -2373,7 +2555,9 @@
       "assetRoles": [
         "image.product-screenshot"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "COLLECTION",
+      "retrievalEligible": true
     },
     {
       "id": "collection.integration-category",
@@ -2395,7 +2579,9 @@
       "assetRoles": [
         "logo.integration"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "COLLECTION",
+      "retrievalEligible": true
     },
     {
       "id": "collection.external-links",
@@ -2414,7 +2600,9 @@
       ],
       "variants": [],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "COLLECTION",
+      "retrievalEligible": true
     },
     {
       "id": "collection.open-roles",
@@ -2434,7 +2622,9 @@
       ],
       "variants": [],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "COLLECTION",
+      "retrievalEligible": true
     },
     {
       "id": "collection.partners-grid",
@@ -2456,7 +2646,9 @@
       "assetRoles": [
         "logo.partner"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "COLLECTION",
+      "retrievalEligible": true
     },
     {
       "id": "navigation.filter-chips",
@@ -2481,7 +2673,9 @@
       "assetRoles": [
         "icon.ui"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "NAVIGATION",
+      "retrievalEligible": true
     },
     {
       "id": "conversion.outro-tout",
@@ -2505,7 +2699,9 @@
         "band"
       ],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "CONVERSION",
+      "retrievalEligible": true
     },
     {
       "id": "conversion.bottom-cta",
@@ -2526,7 +2722,9 @@
       ],
       "variants": [],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "CONVERSION",
+      "retrievalEligible": true
     },
     {
       "id": "conversion.install-cta",
@@ -2547,7 +2745,9 @@
       ],
       "variants": [],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "CONVERSION",
+      "retrievalEligible": true
     },
     {
       "id": "conversion.wallpaper-cta",
@@ -2567,7 +2767,9 @@
       ],
       "variants": [],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "CONVERSION",
+      "retrievalEligible": true
     },
     {
       "id": "conversion.collage-cta",
@@ -2590,7 +2792,9 @@
       "assetRoles": [
         "image.product-screenshot"
       ],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "CONVERSION",
+      "retrievalEligible": true
     },
     {
       "id": "conversion.cta-split",
@@ -2610,7 +2814,9 @@
       ],
       "variants": [],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "CONVERSION",
+      "retrievalEligible": true
     },
     {
       "id": "conversion.form-shell",
@@ -2636,7 +2842,9 @@
         "partner-register"
       ],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "CONVERSION",
+      "retrievalEligible": true
     },
     {
       "id": "faq.accordion",
@@ -2661,7 +2869,9 @@
         "report"
       ],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "FAQ",
+      "retrievalEligible": true
     },
     {
       "id": "divider.tron",
@@ -2683,7 +2893,26 @@
         "flipped"
       ],
       "assetRoles": [],
-      "generationEligible": true
+      "generationEligible": true,
+      "semanticCategory": "DIVIDER",
+      "retrievalEligible": false
     }
+  ],
+  "semanticCategories": [
+    "COLLECTION",
+    "CONTENT",
+    "CONVERSION",
+    "DIVIDER",
+    "FAQ",
+    "FEATURE",
+    "HERO",
+    "NAVIGATION",
+    "PROOF",
+    "SHELL"
+  ],
+  "retrievalIneligibleSections": [
+    "divider.tron",
+    "hero.placeholder",
+    "shell.header"
   ]
 }

@@ -1,7 +1,17 @@
 {
   "id": "hero.compare",
-  "category": "hero",
   "purpose": "Compare hero: 74px gradient H1, lead, two CTAs and a dashed hatched 'vs.' panel of competitor cards.",
+  "semantic": {
+    "id": "hero.compare",
+    "category": "HERO"
+  },
+  "source": {
+    "id": "Compare",
+    "tag": "div",
+    "file": "src/pages/solutions/Compare.jsx",
+    "lines": "79-114",
+    "anchor": "function Compare"
+  },
   "implementedBy": "src/pages/solutions/Compare.jsx > Compare",
   "variants": [],
   "content": {

@@ -1,7 +1,17 @@
 {
   "id": "hero.guide-landing",
-  "category": "hero",
   "purpose": "Guide landing hero: two-line H1 with flanked italic line, lead, and a dark gated-download card.",
+  "semantic": {
+    "id": "hero.guide-landing",
+    "category": "HERO"
+  },
+  "source": {
+    "id": "GuideHero",
+    "tag": "div",
+    "file": "src/pages/companyResources/AiAnalyticsGuidePage.jsx",
+    "lines": "121-137",
+    "anchor": "function GuideHero"
+  },
   "implementedBy": "src/pages/companyResources/AiAnalyticsGuidePage.jsx > GuideHero",
   "variants": [],
   "content": {

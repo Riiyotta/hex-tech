@@ -1,7 +1,17 @@
 {
   "id": "feature.bento-cells",
-  "category": "feature",
   "purpose": "Two-column bento of linked dark cells: title + text over a framed screenshot; hover lift with Perlin.",
+  "semantic": {
+    "id": "feature.bento-cells",
+    "category": "FEATURE"
+  },
+  "source": {
+    "id": "BentoGrid",
+    "tag": "div",
+    "file": "src/components/shared/BentoCell.jsx",
+    "lines": "14-16",
+    "anchor": "function BentoGrid"
+  },
   "implementedBy": "src/components/shared/BentoCell.jsx > BentoGrid",
   "alsoImplementedBy": [
     "src/pages/productCore/contextStudio/CsSections.jsx > BentoSection"

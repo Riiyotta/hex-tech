@@ -1,7 +1,17 @@
 {
   "id": "collection.blog-feed",
-  "category": "collection",
   "purpose": "Sticky category filter with count beside a list of post rows and a 'View more' button.",
+  "semantic": {
+    "id": "collection.blog-feed",
+    "category": "COLLECTION"
+  },
+  "source": {
+    "id": "Feed",
+    "tag": "div",
+    "file": "src/pages/companyCore/BlogIndexPage.jsx",
+    "lines": "283-367",
+    "anchor": "function Feed"
+  },
   "implementedBy": "src/pages/companyCore/BlogIndexPage.jsx > Feed",
   "variants": [],
   "content": {

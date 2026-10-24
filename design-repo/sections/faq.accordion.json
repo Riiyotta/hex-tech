@@ -1,7 +1,17 @@
 {
   "id": "faq.accordion",
-  "category": "faq",
   "purpose": "FAQ accordion: optional heading, independent toggle rows (question + answer), optional 'Can't find your answer' footer link.",
+  "semantic": {
+    "id": "faq.accordion",
+    "category": "FAQ"
+  },
+  "source": {
+    "id": "Faq",
+    "tag": "section",
+    "file": "src/components/sections/Faq.jsx",
+    "lines": "89-159",
+    "anchor": "function Faq"
+  },
   "implementedBy": "src/components/sections/Faq.jsx > Faq",
   "variants": [
     "home",

@@ -1,7 +1,17 @@
 {
   "id": "collection.blog-recent",
-  "category": "collection",
   "purpose": "Full-bleed 3-up strip of recent posts divided by 1px rules.",
+  "semantic": {
+    "id": "collection.blog-recent",
+    "category": "COLLECTION"
+  },
+  "source": {
+    "id": "Recent",
+    "tag": "div",
+    "file": "src/pages/companyCore/BlogIndexPage.jsx",
+    "lines": "197-225",
+    "anchor": "function Recent"
+  },
   "implementedBy": "src/pages/companyCore/BlogIndexPage.jsx > Recent",
   "variants": [],
   "content": {

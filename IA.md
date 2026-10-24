@@ -79,7 +79,7 @@ component library or stays local to its page.
 | `collection.customer-stories` | COLLECTION | 2 | 9 | `src/pages/companyCore/CustomersPage.jsx > StoriesSection` | On 9 routes: Customer story, Customers index. |
 | `collection.resource-cards` | COLLECTION | 6 | 8 | `src/pages/productCore/bi/BiSections.jsx > Resources` | On 8 routes: some Product feature pages, Solution detail, Gated guide landing, Solutions hub. |
 | `hero.story` | HERO | 1 | 8 | `src/pages/companyCore/CustomerStoryPage.jsx > StoryHeader` | On 8 routes: Customer story. |
-| `feature.story-details` | FEATURE | 1 | 8 | `src/pages/companyCore/CustomerStoryPage.jsx > StoryDetails` | On 8 routes: Customer story. |
+| `feature.story-details` | CONTENT | 1 | 8 | `src/pages/companyCore/CustomerStoryPage.jsx > StoryDetails` | On 8 routes: Customer story. |
 | `content.story-body` | CONTENT | 1 | 8 | `src/pages/companyCore/CustomerStoryPage.jsx > StoryBody` | On 8 routes: Customer story. |
 | `proof.social-tout` | PROOF | 5 | 7 | `src/components/shared/SocialTout.jsx > SocialTout` | On 7 routes: some Product feature pages, some Solution detail pages, Product (legacy layout). |
 | `hero.product` | HERO | 6 | 6 | `src/pages/productCore/bi/BiSections.jsx > BiHero` | On 6 routes: Product feature. |
@@ -146,7 +146,7 @@ component library or stays local to its page.
 | `feature.plan-comparison` | FEATURE | 1 | 1 | `src/pages/pricingForms/pricing/PlanComparisonTable.jsx > PlanComparisonTable` | Only on /pricing/. |
 | `feature.plan-summary` | FEATURE | 1 | 1 | `src/pages/pricingForms/pricing/PlanSummaryGroups.jsx > PlanSummaryGroups` | Only on /pricing/. |
 | `feature.platform-overview` | FEATURE | 1 | 1 | `src/pages/productCore/contextStudio/CsSections.jsx > PlatformOverview` | Only on /product/context-studio/. |
-| `feature.podcast-episodes` | FEATURE | 1 | 1 | `src/pages/companyResources/AiAnalyticsGuidePage.jsx > Podcasts` | Only on /resources/guides/ai-analytics/. |
+| `feature.podcast-episodes` | CONTENT | 1 | 1 | `src/pages/companyResources/AiAnalyticsGuidePage.jsx > Podcasts` | Only on /resources/guides/ai-analytics/. |
 | `feature.snaked-rows` | FEATURE | 1 | 1 | `src/pages/productV1/DataApps.jsx > FeaturesTout` | Only on /product/data-apps/. |
 | `feature.support-grid` | FEATURE | 1 | 1 | `src/pages/solutions/Enterprise.jsx > Support` | Only on /enterprise/. |
 | `feature.use-cases` | FEATURE | 1 | 1 | `src/components/sections/UseCases.jsx > UseCases` | Only on /. |
@@ -287,7 +287,7 @@ until a second caller actually appears.
 |---:|---|---|---|
 | 1 | SHELL | `shell.header` | shared ×40 |
 | 2 | HERO | `hero.story` | page-local |
-| 3 | FEATURE | `feature.story-details` | page-local |
+| 3 | CONTENT | `feature.story-details` | page-local |
 | 4 | CONTENT | `content.story-body` | page-local |
 | 5 | COLLECTION | `collection.customer-stories` | shared ×2 |
 | 6 | SHELL | `shell.footer` | shared ×40 |
@@ -625,7 +625,7 @@ until a second caller actually appears.
 |---:|---|---|---|
 | 1 | SHELL | `shell.header` | shared ×40 |
 | 2 | HERO | `hero.guide-landing` | page-local |
-| 3 | FEATURE | `feature.podcast-episodes` | page-local |
+| 3 | CONTENT | `feature.podcast-episodes` | page-local |
 | 4 | COLLECTION | `collection.resource-cards` | shared ×6 |
 | 5 | PROOF | `proof.quote-tiles` | page-local |
 | 6 | CONVERSION | `conversion.outro-tout` | shared ×12 |
@@ -1030,10 +1030,6 @@ _Product and capability explanation: splits, card grids, demos, comparison table
 
 · Only on /product/context-studio/. · appears on 1 routes · implemented by `src/pages/productCore/contextStudio/CsSections.jsx > PlatformOverview`
 
-**`feature.podcast-episodes`** — InfoText (mark, H3, description) | divider | two interactive episode cards with a floating 'Watch podcast' button.
-
-· Only on /resources/guides/ai-analytics/. · appears on 1 routes · implemented by `src/pages/companyResources/AiAnalyticsGuidePage.jsx > Podcasts`
-
 **`feature.section-heading`** — Centred section heading: gradient H2 with optional checker-flanked italic line and description (display), solution-sized H2, or V1 panel H2 + subheader.
 
 · On 9 routes: some Product feature pages, Solution detail, some Product (legacy layout) pages. · appears on 9 routes · implemented by `src/components/shared/SectionHeading.jsx > SectionHeading`
@@ -1049,10 +1045,6 @@ _Product and capability explanation: splits, card grids, demos, comparison table
 **`feature.split`** — Feature row: InfoText (icon, H3, optional description, CTA) + dashed inline quote beside an illustration or product mock; row or row-reverse.
 
 · On 3 routes: some Product feature pages, Homepage. · appears on 3 routes · implemented by `src/components/sections/TrustedAnswers.jsx > TrustedAnswers`
-
-**`feature.story-details`** — Three static glass detail cards (About / Outcome / Scale achieved) over a cartesian grid.
-
-· On 8 routes: Customer story. · appears on 8 routes · implemented by `src/pages/companyCore/CustomerStoryPage.jsx > StoryDetails`
 
 **`feature.support-grid`** — Centred gradient title + lead over a 2x2 icon-text grid beside a stair illustration.
 
@@ -1145,6 +1137,14 @@ _Repeating card lists of other content: posts, stories, guides, events, template
 ### CONTENT
 
 _Long-form body content: article, story, guide chapters, report sections._
+
+**`feature.podcast-episodes`** — InfoText (mark, H3, description) | divider | two interactive episode cards with a floating 'Watch podcast' button.
+
+· Only on /resources/guides/ai-analytics/. · appears on 1 routes · implemented by `src/pages/companyResources/AiAnalyticsGuidePage.jsx > Podcasts`
+
+**`feature.story-details`** — Three static glass detail cards (About / Outcome / Scale achieved) over a cartesian grid.
+
+· On 8 routes: Customer story. · appears on 8 routes · implemented by `src/pages/companyCore/CustomerStoryPage.jsx > StoryDetails`
 
 **`content.article-body`** — Light content slab inside a dark page: sticky 'In this article' TOC aside with CTA, rich text column, in-body callout, share row and kicker.
 

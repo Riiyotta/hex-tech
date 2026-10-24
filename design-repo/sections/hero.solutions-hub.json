@@ -1,7 +1,17 @@
 {
   "id": "hero.solutions-hub",
-  "category": "hero",
   "purpose": "Hub hero: opaque glass panel with italic lead and a rotating 74px word, lead and two CTAs.",
+  "semantic": {
+    "id": "hero.solutions-hub",
+    "category": "HERO"
+  },
+  "source": {
+    "id": "SolutionsHero",
+    "tag": "div",
+    "file": "src/pages/solutions/SolutionsHub.jsx",
+    "lines": "84-122",
+    "anchor": "function SolutionsHero"
+  },
   "implementedBy": "src/pages/solutions/SolutionsHub.jsx > SolutionsHero",
   "variants": [],
   "content": {

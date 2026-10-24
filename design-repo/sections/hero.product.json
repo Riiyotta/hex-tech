@@ -1,7 +1,17 @@
 {
   "id": "hero.product",
-  "category": "hero",
   "purpose": "Product/capability hero: optional announcement pill, gradient H1 (+ italic line), lead and CTAs beside a product visual.",
+  "semantic": {
+    "id": "hero.product",
+    "category": "HERO"
+  },
+  "source": {
+    "id": "BiHero",
+    "tag": "div",
+    "file": "src/pages/productCore/bi/BiSections.jsx",
+    "lines": "32-63",
+    "anchor": "function BiHero"
+  },
   "implementedBy": "src/pages/productCore/bi/BiSections.jsx > BiHero",
   "alsoImplementedBy": [
     "src/pages/productCore/cli/CliSections.jsx > HeroCli",

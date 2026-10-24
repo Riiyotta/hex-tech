@@ -1,7 +1,17 @@
 {
   "id": "feature.podcast-episodes",
-  "category": "feature",
   "purpose": "InfoText (mark, H3, description) | divider | two interactive episode cards with a floating 'Watch podcast' button.",
+  "semantic": {
+    "id": "feature.podcast-episodes",
+    "category": "CONTENT"
+  },
+  "source": {
+    "id": "Podcasts",
+    "tag": "div",
+    "file": "src/pages/companyResources/AiAnalyticsGuidePage.jsx",
+    "lines": "139-172",
+    "anchor": "function Podcasts"
+  },
   "implementedBy": "src/pages/companyResources/AiAnalyticsGuidePage.jsx > Podcasts",
   "variants": [],
   "content": {

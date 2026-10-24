@@ -1,7 +1,17 @@
 {
   "id": "proof.full-width-quote",
-  "category": "proof",
   "purpose": "Full-bleed quote band: logo + name/title attribution, vertical divider and a 24px quote with bold emphasis.",
+  "semantic": {
+    "id": "proof.full-width-quote",
+    "category": "PROOF"
+  },
+  "source": {
+    "id": "FullWidthQuote",
+    "tag": "section",
+    "file": "src/components/shared/FullWidthQuote.jsx",
+    "lines": "34-66",
+    "anchor": "function FullWidthQuote"
+  },
   "implementedBy": "src/components/shared/FullWidthQuote.jsx > FullWidthQuote",
   "variants": [],
   "content": {

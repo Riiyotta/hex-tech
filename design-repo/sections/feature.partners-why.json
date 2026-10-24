@@ -1,7 +1,17 @@
 {
   "id": "feature.partners-why",
-  "category": "feature",
   "purpose": "Illustration beside an H2, text and two md CTAs (integration / consulting partners).",
+  "semantic": {
+    "id": "feature.partners-why",
+    "category": "FEATURE"
+  },
+  "source": {
+    "id": "PartnersWhy",
+    "tag": "div",
+    "file": "src/pages/solutions/Partners.jsx",
+    "lines": "37-63",
+    "anchor": "function PartnersWhy"
+  },
   "implementedBy": "src/pages/solutions/Partners.jsx > PartnersWhy",
   "variants": [],
   "content": {

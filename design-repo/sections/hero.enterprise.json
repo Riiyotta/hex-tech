@@ -1,7 +1,17 @@
 {
   "id": "hero.enterprise",
-  "category": "hero",
   "purpose": "Enterprise hero: vertical eyebrow, 68px solid H1, lead, two-column tick checklist and CTA beside an illustration.",
+  "semantic": {
+    "id": "hero.enterprise",
+    "category": "HERO"
+  },
+  "source": {
+    "id": "EnterpriseHero",
+    "tag": "div",
+    "file": "src/pages/solutions/Enterprise.jsx",
+    "lines": "57-81",
+    "anchor": "function EnterpriseHero"
+  },
   "implementedBy": "src/pages/solutions/Enterprise.jsx > EnterpriseHero",
   "variants": [],
   "content": {

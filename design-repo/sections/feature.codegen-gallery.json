@@ -1,7 +1,17 @@
 {
   "id": "feature.codegen-gallery",
-  "category": "feature",
   "purpose": "Gradient H2 + lead + links, a large app-builder screenshot, then a 3-column gallery of copy-a-prompt cards.",
+  "semantic": {
+    "id": "feature.codegen-gallery",
+    "category": "FEATURE"
+  },
+  "source": {
+    "id": "CodeGenGallery",
+    "tag": "div",
+    "file": "src/pages/productV1/DataApps.jsx",
+    "lines": "157-213",
+    "anchor": "function CodeGenGallery"
+  },
   "implementedBy": "src/pages/productV1/DataApps.jsx > CodeGenGallery",
   "variants": [],
   "content": {

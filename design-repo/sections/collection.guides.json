@@ -1,7 +1,17 @@
 {
   "id": "collection.guides",
-  "category": "collection",
   "purpose": "Three-column grid of dark guide cards (image, H4, 'Download now').",
+  "semantic": {
+    "id": "collection.guides",
+    "category": "COLLECTION"
+  },
+  "source": {
+    "id": "EventCardGrid",
+    "tag": "div",
+    "file": "src/pages/companyResources/EventsPage.jsx",
+    "lines": "48-64",
+    "anchor": "function EventCardGrid"
+  },
   "implementedBy": "src/pages/companyResources/EventsPage.jsx > EventCardGrid",
   "variants": [],
   "content": {

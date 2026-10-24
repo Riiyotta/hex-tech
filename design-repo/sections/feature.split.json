@@ -1,7 +1,17 @@
 {
   "id": "feature.split",
-  "category": "feature",
   "purpose": "Feature row: InfoText (icon, H3, optional description, CTA) + dashed inline quote beside an illustration or product mock; row or row-reverse.",
+  "semantic": {
+    "id": "feature.split",
+    "category": "FEATURE"
+  },
+  "source": {
+    "id": "TrustedAnswers",
+    "tag": "div",
+    "file": "src/components/sections/TrustedAnswers.jsx",
+    "lines": "104-146",
+    "anchor": "function TrustedAnswers"
+  },
   "implementedBy": "src/components/sections/TrustedAnswers.jsx > TrustedAnswers",
   "alsoImplementedBy": [
     "src/components/sections/OrganizationContext.jsx > OrganizationContext",

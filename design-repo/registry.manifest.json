@@ -1,6 +1,6 @@
 {
   "repositoryId": "hex-tech-clone.design-repo",
-  "repositoryVersion": "1.2.0",
+  "repositoryVersion": "1.3.0",
   "pageSpecVersion": "1.1.0",
   "allowlistVersion": "1.1.0",
   "versionFieldNote": "allowlistVersion and pageSpecVersion are machine-checked by extraction/verify_all.py (must equal tokens/llm/component-allowlist.json 'version' and the schema's pageSpecVersion const). repositoryVersion is a documentation-only, hand-maintained marker that nothing checks.",
@@ -26,13 +26,18 @@
     "nonRoutes": 2,
     "assetRoles": 23,
     "motionPatterns": 10,
-    "graphRules": 25
+    "graphRules": 27,
+    "retrievalIneligibleSections": 3,
+    "semanticCategories": 10,
+    "measuredRoutes": 32,
+    "wrapperWhitelistEntries": 5
   },
   "countsNote": "Recomputed from the files on disk by verify_all.py; a mismatch fails the run.",
   "entryPoints": {
     "readme": "README.md",
     "changelog": "CHANGELOG.md",
     "schema": "schema/pagespec.schema.json",
+    "sectionContractSchema": "schema/section-contract.schema.json",
     "example": "schema/example.pagespec.json",
     "validator": "schema/semantic_validate.py",
     "adversarialTests": "schema/tests/adversarial_test.py",
@@ -49,6 +54,12 @@
     "themeDark": "tokens/themes/dark.json",
     "measuredValues": "extraction/measured-values.json",
     "verifyAll": "extraction/verify_all.py",
+    "wrapperGate": "extraction/wrapper_gate.py",
+    "wrapperWhitelist": "extraction/wrapper-whitelist.json",
+    "measureTool": "extraction/measure_sections.mjs",
+    "measureRecipes": "extraction/measure-recipes.json",
+    "provenanceMap": "extraction/provenance-map.json",
+    "generateProvenance": "extraction/generate_provenance.py",
     "proveDrift": "extraction/prove_drift.py"
   },
   "sourceStack": {

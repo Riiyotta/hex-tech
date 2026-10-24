@@ -1,7 +1,17 @@
 {
   "id": "feature.demo-accordion",
-  "category": "feature",
   "purpose": "Demo section: eyebrow, gradient H2, lead, 'Watch demo' pill, radio option list driving a media panel.",
+  "semantic": {
+    "id": "feature.demo-accordion",
+    "category": "FEATURE"
+  },
+  "source": {
+    "id": "DemoAccordion",
+    "tag": "div",
+    "file": "src/pages/productMore/ai/DemoAccordion.jsx",
+    "lines": "9-63",
+    "anchor": "function DemoAccordion"
+  },
   "implementedBy": "src/pages/productMore/ai/DemoAccordion.jsx > DemoAccordion",
   "variants": [],
   "content": {

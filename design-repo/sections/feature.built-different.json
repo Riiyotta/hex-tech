@@ -1,7 +1,17 @@
 {
   "id": "feature.built-different",
-  "category": "feature",
   "purpose": "Centred statement: gradient two-line H2 + lead over an orbit illustration whose bubbles pop in.",
+  "semantic": {
+    "id": "feature.built-different",
+    "category": "FEATURE"
+  },
+  "source": {
+    "id": "BuiltDifferent",
+    "tag": "section",
+    "file": "src/components/sections/BuiltDifferent.jsx",
+    "lines": "12-41",
+    "anchor": "function BuiltDifferent"
+  },
   "implementedBy": "src/components/sections/BuiltDifferent.jsx > BuiltDifferent",
   "variants": [],
   "content": {
