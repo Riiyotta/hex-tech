@@ -25,11 +25,12 @@ sections/ (106)          one contract per observed section type (content fields 
                             motion, responsive, asset roles, evidence, implementing component)
 templates/                  templates.json (25 page shapes) + routes.json (60 routes incl. '*' fallback,
                             2 redirects, 2 dev-only non-routes)
-compatibility/              graph.json (22 rules with severity) + motion-patterns.json (10 patterns)
-assets/asset-roles.json     closed assetRole enum (21 roles) with generation/licensing policy
+compatibility/              graph.json (25 rules with severity) + motion-patterns.json (10 patterns)
+assets/asset-roles.json     closed assetRole enum (23 roles) with generation/licensing policy,
+                            per-mode availability, substitutes and the sourceBrand patterns
 schema/                     pagespec.schema.json (Draft-07), example.pagespec.json, semantic_validate.py,
                             tests/adversarial_test.py
-extraction/                 measured-values.json (citation ledger), verify_all.py
+extraction/                 measured-values.json (citation ledger), verify_all.py, prove_drift.py
 ```
 
 ## Run the checks
@@ -39,12 +40,15 @@ pip install jsonschema            # the only dependency (Draft7Validator)
 python3 extraction/verify_all.py
 python3 schema/tests/adversarial_test.py
 python3 schema/semantic_validate.py schema/example.pagespec.json
+python3 extraction/prove_drift.py     # injects 30 defects into a scratch copy; verify_all.py must catch each
 ```
 
 `verify_all.py` checks: schema validity of the example, the semantic validator on the example and on every
 route's observed sequence, allowlist parity (allowlist <-> contract files <-> schema), citation validity
 (every `path:line` resolves and its anchor text is on that line), component links, token-reference resolution,
-theme closure, pinned asset-role policies, graph-rule <-> validator parity, manifest count recompute, version
+theme closure, pinned asset-role policies and pinned per-mode asset availability (both pinned in code as well as
+in the registry), the reference/generated-mode contract (substitutes, shell brand fields, sourceBrand patterns, example
+mode), graph-rule <-> validator parity, manifest count recompute, version
 parity and a repo-wide absolute-path scan. Citations point at the sibling source project (the folder containing this
 `design-repo/`); when that tree is absent the citation checks **warn instead of failing**.
 
@@ -56,17 +60,45 @@ parity checks warn instead of failing when the source tree is absent.
 
 ## How a PageSpec is checked
 
-A PageSpec declares `template`, `route`, `theme`, `layout`, `meta` and `nodes[]` (each node: `section`,
+A PageSpec declares `mode` (required), `template`, `route`, `theme`, `layout`, `meta` and `nodes[]` (each node: `section`,
 optional `variant`, `content`, `motion`). The validator matches `nodes[]` against **the declared template's real
 node list** (required / repeatable / variants / bounded slots), then applies the graph rules (one hero, hero first,
 chrome position, one-per-page, adjacency keyed on (section, variant), motion fallbacks and budget, word budgets,
 asset policies, link hygiene, visual-only forms). Slot bounds are the min/max of the real member routes.
 
+## Reference mode vs generated mode (brand safety)
+
+`mode` is required and closed: `reference` or `generated`.
+
+- **reference**: a clone or fidelity page for Hex itself. Every asset role is available, including the real Hex
+  wordmark/logo (`brand.wordmark`, `must-reuse-exact`, only the three exact local files).
+- **generated**: a new page for any other brand. The real wordmark/logo is **unavailable**: `brand.wordmark` and
+  `image.capture-fallback` are `availability: reference-only` (the closed enum is `reference-only | generation-safe`)
+  and each names generation-safe substitutes. The safe alternatives are `brand.placeholder` (a neutral, generated
+  monogram or text mark; `placeholder-only`) and `brand.user-supplied` (the user's own logo, `user:<slug>`;
+  `user-supplied-only`). `shell.header`, `shell.footer` and `hero.report` accept a brand mark; in generated mode the
+  header and footer **must** carry `content.brand`, because the chrome would otherwise render the Hex wordmark.
+  The validator also rejects any `src` under `/assets/` (those are Hex's files) and any route, meta, text, alt, `src`
+  or `href` that names the source brand (`sourceBrand.patterns` in `assets/asset-roles.json`, plus the filename stems
+  of the reference-only `allowedSources`, so a new mark file is covered automatically). Rules:
+  `GENERATED_MODE_REFERENCE_ASSET`, `GENERATED_MODE_SOURCE_BRAND`, `GENERATED_MODE_BRAND_REQUIRED`.
+- The availability of every role and the policy of every compliance-critical role are pinned in `verify_all.py`
+  (`PINNED_AVAILABILITY`, `PINNED_POLICY`) independently of the registry, so flipping the wordmark to
+  `generation-safe` fails even though that is a valid enum value. `extraction/prove_drift.py` proves it.
+- `schema/example.pagespec.json` is the generation-safe example: `mode: generated`, fictional Quarry Lake content and a
+  placeholder brand mark on the header and footer.
+
+Limits, stated plainly: the matcher treats a bare "hex" as the brand unless a technical noun follows (hex code,
+hex colour...), so a generated sentence such as "convert to hex" is flagged (conservative on purpose). The shell's
+global nav, ticker and footer copy are still Hex data that a PageSpec cannot set; a generated site's renderer has to
+supply its own chrome copy. Fonts remain local-only (see `nonPageAssets`). The validator only checks what a PageSpec
+states: it cannot see pixels, so a renderer must honour `content.brand` instead of drawing the clone's own mark.
+
 ## Things that are structurally unusual (documented, not normalised away)
 
 1. **Real company.** The source is a clone of a real company's live site. Real customer/investor/partner logos,
    real employee photos and trademarks are `placeholder-only` asset roles (pinned; verify_all fails if the policy
-   changes). The commercial fonts (GT Cinetype, PP Formula, PP Editorial New) are local-only and must never be
+   changes), and the real Hex wordmark/logo is reference-only (never available in generated mode). The commercial fonts (GT Cinetype, PP Formula, PP Editorial New) are local-only and must never be
    redistributed. Do not publish this repo or make it public.
 2. **Placeholder prose.** Long-form bodies (blog article, customer stories, Switching to Hex, State of Data Teams
    paragraphs, report FAQ answers) are neutral placeholders sized to the live line counts. Budgets here describe

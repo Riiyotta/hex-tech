@@ -22,3 +22,14 @@
 
 - Section contracts: added `implementedBy` (all 106) and `alsoImplementedBy` (21) naming the clone components that render each section, copied from the sibling ia.json where each name was checked against its file.
 - verify_all.py: two new checks (15 total). Every contract names its component; every named definition exists in its source file and matches ../ia.json (warns when the source tree is absent).
+
+## 1.2.0
+
+- Reference/generated mode. `PageSpec.mode` (`reference` | `generated`) is now required, so `pageSpecVersion` is 1.1.0 (breaking for existing PageSpecs: add `"mode": "reference"`) and `allowlistVersion` is 1.1.0.
+- Before this change `brand.wordmark` (the real Hex wordmark/logo files) was `must-reuse-exact` with no notion of mode, so a generated page could carry it. It is now `availability: reference-only` (new closed enum `reference-only | generation-safe` on all roles); its `must-reuse-exact` policy applies to reference mode only. `image.capture-fallback` (a saved Hex capture) is reference-only too.
+- New safe roles: `brand.placeholder` (`placeholder-only`) and `brand.user-supplied` (new policy `user-supplied-only`, src `user:<slug>`). 23 asset roles. `shell.header` and `shell.footer` gain an optional `brand` media field; `hero.report.wordmark` also accepts the two safe roles.
+- Validator: three new error rules (25 graph rules): GENERATED_MODE_REFERENCE_ASSET (reference-only roles and any `/assets/` src), GENERATED_MODE_SOURCE_BRAND (name, domain, mark-file stems in any route/meta/text/alt/src/href), GENERATED_MODE_BRAND_REQUIRED (generated header/footer must carry a brand mark). New `user-supplied-only` policy check.
+- Example PageSpec is now the generation-safe example (`mode: generated`, placeholder brand on header and footer).
+- verify_all.py: availability and compliance policies pinned in code (`PINNED_AVAILABILITY`, `PINNED_POLICY`), plus a mode-contract check (16 checks). New extraction/prove_drift.py: 30 injected defects incl. valid-but-wrong pin flips, each caught.
+- Adversarial suite: Hex wordmark and logo leakage mutations, name/domain/route/meta leakage, missing-brand and mode cases, generated per-template controls, and reference-mode controls with the real wordmark.
+- Not changed: the clone's own `src/`, the IA files (the shell and report sections keep their ia.json descriptions).

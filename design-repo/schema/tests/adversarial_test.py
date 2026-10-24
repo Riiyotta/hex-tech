@@ -7,7 +7,8 @@ Controls (must produce ZERO errors):
     split template is covered automatically),
   * one synthesized PageSpec per real route, using the node sequence observed on that route.
 Mutations (each must be REJECTED with the expected rule): schema-layer, structural, runtime word budgets, asset
-policies, links, visual-only forms, plus warn-level rules proven to fire as warnings.
+policies, links, visual-only forms, reference/generated-mode brand safety (Hex wordmark and logo leakage), plus
+warn-level rules proven to fire as warnings.
 
 Usage: python3 schema/tests/adversarial_test.py     (exit 1 on any failure)
 """
@@ -76,7 +77,7 @@ def node(section, variant=None):
 
 def spec_for(tid, seq, route, theme):
     t = TEMPLATES[tid]
-    return {"pageSpecVersion": SCHEMA["properties"]["pageSpecVersion"]["const"], "template": tid, "route": route, "theme": theme,
+    return {"pageSpecVersion": SCHEMA["properties"]["pageSpecVersion"]["const"], "mode": "reference", "template": tid, "route": route, "theme": theme,
             "layout": t["layout"], "meta": {"title": "Sample page", "description": "Sample description"},
             "nodes": [node(s, v) for s, v in seq]}
 
@@ -248,6 +249,108 @@ def main():
     adj = seq2[:i] + [("feature.section-heading", "display"), ("feature.section-heading", "display")] + seq2[i + 2:]
     warn_case("same (section, variant) back-to-back warns", spec_for("template.product-feature", adj, "/product/bi/", "light"), "NO_ADJACENT_SAME_SECTION")
     warn_case("placeholder template warns", spec_for("template.placeholder", canonical_sequence(TEMPLATES["template.placeholder"]), "/page-not-built-yet/", "light"), "PLACEHOLDER_TEMPLATE")
+
+    # ---------------- reference / generated mode: the real Hex wordmark / logo must never reach a generated page
+    ROLES = repo["assets"]
+
+    def to_generated(spec):
+        """Flip a reference spec to generated: reference-only roles -> their first generation-safe substitute (src dropped),
+        and a placeholder brand mark on the shell chrome."""
+        g = copy.deepcopy(spec); g["mode"] = "generated"
+        for nd in g["nodes"]:
+            for _t, m in sv._media(nd["content"]):
+                r = ROLES[m["assetRole"]]
+                if r["availability"] != "generation-safe":
+                    m["assetRole"] = r["generationSafeSubstitutes"][0]; m.pop("src", None)
+            if nd["section"] in ("shell.header", "shell.footer"):
+                nd["content"]["brand"] = {"assetRole": "brand.placeholder", "alt": "Placeholder brand mark", "src": "placeholder:brand-mark"}
+        return g
+
+    def gen_route(tid):   # a generated page has its own routes: never reuse one of the source's (some name the brand)
+        return {"template.home": "/", "template.placeholder": "/page-not-built-yet/"}.get(tid, "/example-page/")
+
+    gen_example = E()
+    gen_rep = to_generated(rep)          # standalone report page: hero.report carries the wordmark field
+    gen_home = to_generated(home)
+    control("generated example (placeholder brand on header and footer)", gen_example)
+    control("generated report page (hero.report wordmark = brand.placeholder)", gen_rep)
+    control("generated home page (placeholder brand on the shell)", gen_home)
+    for tid, t in sorted(TEMPLATES.items()):
+        control("generated template control %s" % tid, to_generated(spec_for(tid, canonical_sequence(t), gen_route(tid), t["allowedThemes"][0])), allowed_warn=("PLACEHOLDER_TEMPLATE",))
+    s = copy.deepcopy(gen_rep); [n for n in s["nodes"] if n["section"] == "hero.report"][0]["content"]["wordmark"] = {"assetRole": "brand.user-supplied", "alt": "Customer logo", "src": "user:brand-logo"}
+    control("generated report page with a user-supplied brand mark", s)
+    s = copy.deepcopy(gen_home); s["nodes"][0]["content"]["brand"] = {"assetRole": "brand.user-supplied", "alt": "Acme mark"}
+    control("generated shell with a user-supplied brand mark and no src", s)
+    s = E(); nodes_of(s, "hero.integration")[0]["content"]["headline"] = "Pick a hex color for every chart series"; control("generated copy with 'hex color' (technical word, not the brand)", s)
+    ref_rep = copy.deepcopy(rep); [n for n in ref_rep["nodes"] if n["section"] == "hero.report"][0]["content"]["wordmark"]["src"] = "/assets/svg/logo/hex-logo-nav.svg"
+    control("reference mode: report page still carries the real Hex wordmark file", ref_rep)
+    for src in repo["assets"]["brand.wordmark"]["allowedSources"]:
+        s = copy.deepcopy(rep); [n for n in s["nodes"] if n["section"] == "hero.report"][0]["content"]["wordmark"]["src"] = src
+        control("reference mode: real wordmark file %s" % os.path.basename(src), s)
+    s = copy.deepcopy(home); s["nodes"][0]["content"]["brand"] = {"assetRole": "brand.wordmark", "alt": "Hex wordmark", "src": "/assets/svg/logo/hex-logo-nav.svg"}
+    control("reference mode: shell.header may state the real wordmark", s)
+    control("reference mode: shell with no brand field (clone renders its own)", home)
+
+    # wordmark leakage
+    gw = lambda: copy.deepcopy(gen_rep)
+    def wm_of(spec): return [n for n in spec["nodes"] if n["section"] == "hero.report"][0]["content"]["wordmark"]
+    s = gw(); wm_of(s).update({"assetRole": "brand.wordmark", "src": "/assets/svg/logo/hex-logo-nav.svg", "alt": "A logo"})
+    mutation("Hex wordmark leakage: real role + real file in a generated report hero", s, ["GENERATED_MODE_REFERENCE_ASSET"])
+    s = gw(); wm_of(s).update({"assetRole": "brand.wordmark", "alt": "A logo"}); wm_of(s).pop("src", None)
+    mutation("Hex wordmark leakage: the real role alone, no src", s, ["GENERATED_MODE_REFERENCE_ASSET"])
+    s = gw(); wm_of(s).update({"assetRole": "brand.wordmark", "src": "placeholder:brand-mark", "alt": "A logo"})
+    mutation("Hex wordmark leakage: the real role dressed with a placeholder src", s, ["GENERATED_MODE_REFERENCE_ASSET"])
+    s = gw(); wm_of(s).update({"assetRole": "brand.placeholder", "src": "/assets/svg/logo/hex-logo-footer.svg", "alt": "A logo"})
+    mutation("Hex wordmark leakage: real footer file smuggled under brand.placeholder", s, ["ASSET_ROLE_POLICY", "GENERATED_MODE_REFERENCE_ASSET", "GENERATED_MODE_SOURCE_BRAND"])
+    s = gw(); wm_of(s).update({"assetRole": "brand.user-supplied", "src": "/assets/pages/company/state-of-data-teams/svg/SectionHero-HexLogoWrapper-a8e301cf.svg", "alt": "A logo"})
+    mutation("Hex wordmark leakage: report-hero wordmark file under brand.user-supplied", s, ["ASSET_ROLE_POLICY", "GENERATED_MODE_REFERENCE_ASSET", "GENERATED_MODE_SOURCE_BRAND"])
+    s = gw(); wm_of(s).update({"assetRole": "brand.placeholder", "src": "https://hex.tech/logo.svg", "alt": "A logo"})
+    mutation("Hex wordmark leakage: hotlinked Hex URL", s, ["ASSET_ROLE_POLICY", "GENERATED_MODE_SOURCE_BRAND"])
+    s = gw(); wm_of(s)["alt"] = "Hex wordmark"
+    mutation("Hex wordmark leakage: alt text names the wordmark", s, ["GENERATED_MODE_SOURCE_BRAND"])
+    s = gw(); wm_of(s)["alt"] = "HEX"
+    mutation("Hex wordmark leakage: alt text 'HEX' (case-insensitive)", s, ["GENERATED_MODE_SOURCE_BRAND"])
+    mutation("a reference page flipped to generated is rejected (real wordmark file)", dict(copy.deepcopy(ref_rep), mode="generated"), ["GENERATED_MODE_REFERENCE_ASSET"])
+
+    # logo leakage (shell chrome and any other media field)
+    s = copy.deepcopy(gen_home); s["nodes"][0]["content"]["brand"] = {"assetRole": "brand.wordmark", "alt": "Logo", "src": "/assets/svg/logo/hex-logo-nav.svg"}
+    mutation("Hex logo leakage: real wordmark role on the generated header", s, ["GENERATED_MODE_REFERENCE_ASSET"])
+    s = copy.deepcopy(gen_home); s["nodes"][-1]["content"]["brand"] = {"assetRole": "brand.wordmark", "alt": "Logo"}
+    mutation("Hex logo leakage: real wordmark role on the generated footer", s, ["GENERATED_MODE_REFERENCE_ASSET"])
+    s = copy.deepcopy(gen_home); s["nodes"][-1]["content"]["brand"] = {"assetRole": "brand.placeholder", "alt": "Hex logo", "src": "placeholder:brand-mark"}
+    mutation("Hex logo leakage: footer alt text 'Hex logo'", s, ["GENERATED_MODE_SOURCE_BRAND"])
+    s = copy.deepcopy(gen_home); s["nodes"][0]["content"]["brand"] = {"assetRole": "brand.placeholder", "alt": "Logo", "src": "placeholder:hex-logo"}
+    mutation("Hex logo leakage: placeholder slug 'hex-logo'", s, ["GENERATED_MODE_SOURCE_BRAND"])
+    s = copy.deepcopy(gen_home); s["nodes"][0]["content"]["brand"] = {"assetRole": "brand.user-supplied", "alt": "Logo", "src": "/assets/svg/logo/hex-logo-nav.svg"}
+    mutation("Hex logo leakage: real nav file under brand.user-supplied", s, ["ASSET_ROLE_POLICY", "GENERATED_MODE_REFERENCE_ASSET", "GENERATED_MODE_SOURCE_BRAND"])
+    s = copy.deepcopy(gen_example); nodes_of(s, "hero.integration")[0]["content"]["logo"] = {"assetRole": "logo.integration", "alt": "Hex logo"}
+    mutation("Hex logo leakage: Hex named as the integration logo", s, ["GENERATED_MODE_SOURCE_BRAND"])
+    s = copy.deepcopy(gen_example); nodes_of(s, "feature.how-it-works")[0]["content"]["illustration"]["src"] = "/assets/svg/logo/hex-logo-footer.svg"
+    mutation("Hex logo leakage: real logo file used as an illustration", s, ["GENERATED_MODE_REFERENCE_ASSET", "GENERATED_MODE_SOURCE_BRAND"])
+    s = copy.deepcopy(gen_example); s["nodes"][0]["content"].pop("brand")
+    mutation("generated header without a brand mark (chrome would render the real logo)", s, ["GENERATED_MODE_BRAND_REQUIRED"])
+    s = copy.deepcopy(gen_example); s["nodes"][-1]["content"].pop("brand")
+    mutation("generated footer without a brand mark", s, ["GENERATED_MODE_BRAND_REQUIRED"])
+    s = copy.deepcopy(gen_example); s["nodes"][0]["content"]["brand"]["assetRole"] = "logo.customer"
+    mutation("brand field with a non-brand role", s, ["SCHEMA_VALID"])
+    s = copy.deepcopy(gen_example); s["nodes"][0]["content"]["brand"]["src"] = "https://example.com/mark.svg"
+    mutation("brand field hotlinking an external file", s, ["SCHEMA_VALID", "ASSET_ROLE_POLICY"])
+    s = copy.deepcopy(gen_home); s["nodes"][0]["content"]["brand"] = {"assetRole": "brand.placeholder", "alt": "Logo", "src": "user:logo"}
+    mutation("brand.placeholder with a user file reference", s, ["ASSET_ROLE_POLICY"])
+
+    # name leakage (derived from the real source: company name, domain)
+    def hero_of(spec): return nodes_of(spec, "hero.integration")[0]["content"]
+    s = E(); hero_of(s)["headline"] = "Connect Quarry Lake to Hex"; mutation("source name in a heading", s, ["GENERATED_MODE_SOURCE_BRAND"])
+    s = E(); hero_of(s)["description"] = "Built by Hex Technologies, Inc."; mutation("source company name in body copy", s, ["GENERATED_MODE_SOURCE_BRAND"])
+    s = E(); hero_of(s)["actions"][0]["href"] = "https://app.hex.tech/signup"; mutation("source app domain in a CTA href", s, ["GENERATED_MODE_SOURCE_BRAND"])
+    s = E(); hero_of(s)["actions"][0]["label"] = "Try hex"; mutation("source name in a CTA label (lowercase)", s, ["GENERATED_MODE_SOURCE_BRAND"])
+    s = E(); s["meta"]["title"] = "Quarry Lake | Hex"; mutation("source name in the page title", s, ["GENERATED_MODE_SOURCE_BRAND"])
+    s = E(); s["route"] = "/hex-tech/"; mutation("source name in the route", s, ["GENERATED_MODE_SOURCE_BRAND"])
+    s = E(); s["nodes"][0]["content"]["brand"]["alt"] = "Hex Technologies logo"; mutation("source company name in the brand alt", s, ["GENERATED_MODE_SOURCE_BRAND"])
+    s = E(); del s["mode"]; mutation("mode missing", s, ["SCHEMA_VALID"])
+    s = E(); s["mode"] = "production"; mutation("invalid mode value", s, ["SCHEMA_VALID"])
+    s = E(); s["mode"] = "Generated"; mutation("wrong-case mode value", s, ["SCHEMA_VALID"])
+    s = E(); s["mode"] = "reference"; control("example flipped to reference passes (placeholder brand is allowed there too)", s)
 
     # ---------------- report
     n_ctrl = sum(1 for r in RESULTS if r[0] == "control")

@@ -4,7 +4,26 @@
   "purpose": "Global fixed chrome: announcement ticker + main nav with mega-menus; identical on every site-layout page, themed only.",
   "implementedBy": "src/components/Header.jsx > Header",
   "variants": [],
-  "content": {},
+  "content": {
+    "brand": {
+      "kind": "media",
+      "required": false,
+      "roles": [
+        "brand.wordmark",
+        "brand.placeholder",
+        "brand.user-supplied"
+      ],
+      "alt": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 18,
+        "observedWords": [],
+        "measuredFrom": [],
+        "definedByRepo": true
+      },
+      "note": "Optional in reference mode (the clone renders the Hex mark itself); required in generated mode, where it must be brand.placeholder or brand.user-supplied."
+    }
+  },
   "motion": {
     "allowedPatterns": [
       "nav-squish"
@@ -41,10 +60,14 @@
   "sourceEvidence": [
     "src/components/Header.jsx:5"
   ],
-  "notes": "Ticker items, nav, mega-menu and mobile-menu copy are global data, not per-page content; a PageSpec may not override them (empty content contract).",
+  "notes": "Ticker items, nav, mega-menu and mobile-menu copy are global data, not per-page content; a PageSpec may not override them. The only per-page content is the optional brand mark: a generated page must set it, because the chrome would otherwise render the real Hex wordmark.",
   "wordBudgets": {},
   "richTextBudgets": {},
-  "assetRoles": [],
+  "assetRoles": [
+    "brand.placeholder",
+    "brand.user-supplied",
+    "brand.wordmark"
+  ],
   "usedByTemplates": [
     "template.about",
     "template.article",

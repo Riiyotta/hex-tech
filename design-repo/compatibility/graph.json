@@ -170,6 +170,24 @@
       "measuredFrom": [
         "src/pages/pricingForms/forms/HubSpotFormShell.jsx:3"
       ]
+    },
+    {
+      "id": "GENERATED_MODE_REFERENCE_ASSET",
+      "severity": "error",
+      "description": "In mode 'generated' no reference-only asset role (the real Hex wordmark/logo, the saved capture) and no src under /assets/ (the source's own files) may appear.",
+      "measuredFrom": []
+    },
+    {
+      "id": "GENERATED_MODE_SOURCE_BRAND",
+      "severity": "error",
+      "description": "In mode 'generated' no route, meta, text, alt, src or href may name the source brand or one of its mark files (assets/asset-roles.json sourceBrand.patterns plus the filename stems of the reference-only allowedSources).",
+      "measuredFrom": []
+    },
+    {
+      "id": "GENERATED_MODE_BRAND_REQUIRED",
+      "severity": "error",
+      "description": "In mode 'generated' shell.header and shell.footer must carry content.brand with a generation-safe role (brand.placeholder or brand.user-supplied); the chrome would otherwise render the real Hex wordmark.",
+      "measuredFrom": []
     }
   ],
   "adjacency": {

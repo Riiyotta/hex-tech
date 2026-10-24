@@ -11,7 +11,8 @@ Checks (each prints PASS / WARN / FAIL):
     file, and matches the sibling ../ia.json (downgraded to WARN when the source tree is absent),
   * token-reference resolution (catalog, contract token lists, {ref} strings incl. responsive breakpoints),
   * theme closure (every semantic role resolved in both themes),
-  * pinned asset-role policies,
+  * pinned asset-role policies and pinned asset availability by mode (both kept in this file, independent of the registry),
+  * reference / generated mode: closed availability enum, substitutes, brand-mark fields, sourceBrand patterns, example mode,
   * graph-rule <-> validator parity,
   * manifest count recompute, version parity, and a repo-wide absolute-path scan.
 
@@ -31,6 +32,27 @@ import semantic_validate as sv  # noqa: E402
 import jsonschema  # noqa: E402
 
 RESULTS = []
+
+# Pinned generation policies. Kept HERE, independent of assets/asset-roles.json, so that editing a role (or the registry's own
+# `pinnedPolicies`) to a different-but-still-valid policy is caught; membership in the closed set alone is not enough.
+PINNED_POLICY = {
+    "brand.wordmark": "must-reuse-exact", "brand.placeholder": "placeholder-only", "brand.user-supplied": "user-supplied-only",
+    "logo.customer": "placeholder-only", "logo.investor": "placeholder-only", "logo.partner": "placeholder-only",
+    "logo.integration": "placeholder-only", "logo.competitor": "placeholder-only", "logo.certification": "placeholder-only",
+    "icon.agent-logos": "placeholder-only", "image.award-badge": "placeholder-only", "photo.person": "placeholder-only",
+    "image.data-chart": "placeholder-only", "embed.external": "external-reference-only", "image.capture-fallback": "must-reuse-exact",
+}
+# Pinned ASSET AVAILABILITY by mode. Also kept HERE: flipping the real Hex wordmark/logo (or the saved capture) to generation-safe,
+# or a placeholder/user-supplied brand role to reference-only, must be caught even though both values are valid members of the enum.
+PINNED_AVAILABILITY = {"brand.wordmark": "reference-only", "image.capture-fallback": "reference-only",
+                       "brand.placeholder": "generation-safe", "brand.user-supplied": "generation-safe"}
+for _r in ("logo.customer", "logo.investor", "logo.partner", "logo.integration", "logo.competitor", "logo.certification",
+           "icon.agent-logos", "image.award-badge", "photo.person", "image.data-chart", "embed.external", "image.product-screenshot",
+           "image.product-ui", "image.editorial-thumbnail", "illustration.decorative", "icon.ui", "icon.abstract-mark", "video.loop",
+           "canvas.runtime"):
+    PINNED_AVAILABILITY[_r] = "generation-safe"
+AVAILABILITY = ["reference-only", "generation-safe"]
+BRAND_SHELL = ("shell.header", "shell.footer")
 
 
 def load(rel):
@@ -289,7 +311,104 @@ def check_assets(repo):
     for role, r in sorted(a["roles"].items()):
         if r["generationPolicy"] not in a["generationPolicies"]:
             probs.append("%s: unknown policy %r" % (role, r["generationPolicy"]))
-    report("pinned asset-role policies (%d pinned)" % len(a["pinnedPolicies"]), probs)
+    for role, want in sorted(PINNED_POLICY.items()):
+        got = a["roles"].get(role, {}).get("generationPolicy")
+        if got != want:
+            probs.append("%s: policy %r != %r (pinned in verify_all.py)" % (role, got, want))
+        if a["pinnedPolicies"].get(role) != want:
+            probs.append("%s: registry pinnedPolicies entry %r != %r (pinned in verify_all.py)" % (role, a["pinnedPolicies"].get(role), want))
+    report("pinned asset-role policies (%d pinned in the registry, %d pinned in code)" % (len(a["pinnedPolicies"]), len(PINNED_POLICY)), probs)
+
+
+def check_modes(repo, files):
+    a = load("assets/asset-roles.json")
+    roles, schema = a["roles"], repo["schema"]
+    probs = []
+    if a.get("availabilityValues") != AVAILABILITY:
+        probs.append("availabilityValues must be %s, found %s" % (AVAILABILITY, a.get("availabilityValues")))
+    for r, v in sorted(roles.items()):
+        if v.get("availability") not in AVAILABILITY:
+            probs.append("%s: availability %r is not one of %s" % (r, v.get("availability"), AVAILABILITY))
+        if not v.get("generatedModeGuidance"):
+            probs.append("%s: missing generatedModeGuidance" % r)
+        if v.get("availability") == "reference-only":
+            subs = v.get("generationSafeSubstitutes", [])
+            if not subs:
+                probs.append("%s: reference-only but names no generation-safe substitute" % r)
+            for x in subs:
+                if x not in roles or roles[x].get("availability") != "generation-safe":
+                    probs.append("%s: substitute %r is not a generation-safe role" % (r, x))
+        elif v.get("generationSafeSubstitutes"):
+            probs.append("%s: generation-safe but lists substitutes" % r)
+        if r not in PINNED_AVAILABILITY:
+            probs.append("%s: availability is not pinned in verify_all.py (add it to PINNED_AVAILABILITY)" % r)
+    for r, want in sorted(PINNED_AVAILABILITY.items()):
+        if r not in roles:
+            probs.append("pinned availability: role %r missing from the registry" % r)
+        elif roles[r].get("availability") != want:
+            probs.append("pinned availability: %s must be %r, found %r" % (r, want, roles[r].get("availability")))
+    # every reference-only role is reachable only through fields that also accept one of its substitutes
+    sections = {i: c for i, (layer, rel, c) in files.items() if layer == "section"}
+    for sid, c in sorted(sections.items()):
+        for fname, f in c["content"].items():
+            if f.get("kind") != "media":
+                continue
+            fr = f.get("roles", [])
+            for r in fr:
+                if roles.get(r, {}).get("availability") == "reference-only" and not any(x in fr for x in roles[r].get("generationSafeSubstitutes", [])):
+                    probs.append("%s.%s: lists reference-only %s but none of its substitutes, so a generated page could not fill it" % (sid, fname, r))
+    # registry usedBySections <-> contracts
+    used = {}
+    for sid, c in sections.items():
+        for r in c.get("assetRoles", []):
+            used.setdefault(r, set()).add(sid)
+    for r, v in sorted(roles.items()):
+        if sorted(v.get("usedBySections", [])) != sorted(used.get(r, ())):
+            probs.append("%s: usedBySections drifts from the section contracts" % r)
+    # brand mark fields: the shell chrome must be able to carry a generated brand
+    for sid in BRAND_SHELL:
+        f = sections[sid]["content"].get("brand")
+        if not f or f.get("kind") != "media":
+            probs.append("%s: contract has no brand media field" % sid)
+        elif not {"brand.placeholder", "brand.user-supplied"} <= set(f.get("roles", [])):
+            probs.append("%s: brand field must allow brand.placeholder and brand.user-supplied" % sid)
+        sd = schema["definitions"].get("content__" + sid, {}).get("properties", {}).get("brand")
+        if not sd or not {"brand.placeholder", "brand.user-supplied"} <= set(sd["properties"]["assetRole"]["enum"]):
+            probs.append("%s: schema has no brand field accepting the generation-safe brand roles" % sid)
+    # mode in the schema and the registry
+    if schema["properties"].get("mode", {}).get("enum") != ["reference", "generated"]:
+        probs.append("schema mode enum must be exactly ['reference', 'generated']")
+    if "mode" not in schema.get("required", []):
+        probs.append("schema must require 'mode'")
+    if sorted(k for k in a.get("modes", {}) if k != "field") != ["generated", "reference"]:
+        probs.append("asset-roles modes must describe exactly reference and generated")
+    # source brand patterns must actually match the real brand, and not a plain technical use of the word
+    pats = a.get("sourceBrand", {}).get("patterns", [])
+    try:
+        rx = sv.source_brand_re(repo)
+    except re.error as e:
+        rx = None
+        probs.append("sourceBrand pattern does not compile: %s" % e)
+    if not pats:
+        probs.append("sourceBrand.patterns is empty")
+    if rx:
+        for must in ("Hex", "HEX", "Hex Technologies", "app.hex.tech", "hex-logo-nav.svg", "SectionHero-HexLogoWrapper", "Try hex now"):
+            if not rx.search(must):
+                probs.append("sourceBrand does not match %r" % must)
+        for ok in ("Pick a hex color", "hex codes", "Quarry Lake", "Example workspace"):
+            if rx.search(ok):
+                probs.append("sourceBrand wrongly matches %r" % ok)
+        for src in roles["brand.wordmark"].get("allowedSources", []):
+            if not rx.search(src):
+                probs.append("sourceBrand does not match the real wordmark file %s" % src)
+    # the example is the generation-safe example: it must declare generated mode and carry a placeholder brand
+    ex = load("schema/example.pagespec.json")
+    if ex.get("mode") != "generated":
+        probs.append("example.pagespec.json must be mode 'generated' (it is the generation-safe example), found %r" % ex.get("mode"))
+    for n in ex.get("nodes", []):
+        if n["section"] in BRAND_SHELL and (n.get("content", {}).get("brand", {}).get("assetRole") not in ("brand.placeholder", "brand.user-supplied")):
+            probs.append("example %s must carry a placeholder or user-supplied brand mark" % n["section"])
+    report("reference/generated mode: brand availability pinned, substitutes, shell brand fields, sourceBrand, example (%d roles)" % len(roles), probs)
 
 
 def check_graph(repo):
@@ -362,6 +481,7 @@ def main():
     check_components(files)
     leaves, semantic = check_tokens(files)
     check_assets(repo)
+    check_modes(repo, files)
     check_graph(repo)
     check_manifest(repo, files, leaves, semantic)
     check_abs_paths()

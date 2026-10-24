@@ -64,7 +64,9 @@
       "kind": "media",
       "required": true,
       "roles": [
-        "brand.wordmark"
+        "brand.wordmark",
+        "brand.placeholder",
+        "brand.user-supplied"
       ],
       "alt": {
         "kind": "text",
@@ -119,6 +121,8 @@
     }
   },
   "assetRoles": [
+    "brand.placeholder",
+    "brand.user-supplied",
     "brand.wordmark",
     "illustration.decorative"
   ],

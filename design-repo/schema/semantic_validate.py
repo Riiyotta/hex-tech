@@ -3,7 +3,7 @@
 
 Enforces everything JSON Schema (Draft-07) cannot express: the declared template's real node list,
 route/theme/layout consistency, rhythm rules from compatibility/graph.json (with their declared
-severity), motion fallbacks, per-field word budgets, asset-role policies and link hygiene.
+severity), motion fallbacks, per-field word budgets, asset-role policies, reference/generated-mode brand safety and link hygiene.
 
 Usage:
     python3 schema/semantic_validate.py path/to/page.pagespec.json [more.json ...]
@@ -40,8 +40,36 @@ def load_repo():
         "graph": _load("compatibility/graph.json"),
         "motion": _load("compatibility/motion-patterns.json")["patterns"],
         "assets": _load("assets/asset-roles.json")["roles"],
+        "assetRegistry": _load("assets/asset-roles.json"),
         "sections": sections,
     }
+
+
+def source_brand_re(repo):
+    """Compiled source-brand matcher: the registry's sourceBrand.patterns plus the filename stems of every
+    reference-only role's allowedSources (derived from the real files, so a new mark file is covered automatically)."""
+    pats = list(repo["assetRegistry"].get("sourceBrand", {}).get("patterns", []))
+    for role in repo["assets"].values():
+        if role.get("availability") == "reference-only":
+            for src in role.get("allowedSources", []):
+                stem = os.path.splitext(os.path.basename(src))[0]
+                if stem:
+                    pats.append(re.escape(stem))
+    return re.compile("|".join("(?:%s)" % p for p in pats), re.I) if pats else None
+
+
+def _strings(obj, trail=""):
+    """Every (path, string) of a JSON tree."""
+    if isinstance(obj, str):
+        yield trail, obj
+    elif isinstance(obj, dict):
+        for k, v in obj.items():
+            for x in _strings(v, trail + "." + k):
+                yield x
+    elif isinstance(obj, list):
+        for i, v in enumerate(obj):
+            for x in _strings(v, "%s[%d]" % (trail, i)):
+                yield x
 
 
 def count_words(s):
@@ -338,12 +366,37 @@ def check(spec, repo):
             pol = role["generationPolicy"]
             if pol == "placeholder-only" and src is not None and not src.startswith("placeholder:"):
                 add("ASSET_ROLE_POLICY", "node %d%s: %s is placeholder-only (real logos/people/trademarks must not be reproduced); src must be omitted or 'placeholder:'" % (i, trail, m["assetRole"]))
+            if pol == "user-supplied-only" and src is not None and not src.startswith("user:"):
+                add("ASSET_ROLE_POLICY", "node %d%s: %s is user-supplied-only; src must be omitted or 'user:<slug>', got %r" % (i, trail, m["assetRole"], src))
             if pol == "must-reuse-exact" and src is not None and src not in role.get("allowedSources", []):
                 add("ASSET_ROLE_POLICY", "node %d%s: %s must reuse an exact allowed source, got %r" % (i, trail, m["assetRole"], src))
             if pol == "external-reference-only" and src is not None and not (src.startswith("https://") or src.startswith("placeholder:")):
                 add("ASSET_ROLE_POLICY", "node %d%s: %s must be an external https URL or placeholder" % (i, trail, m["assetRole"]))
             if pol != "external-reference-only" and src is not None and src.startswith("https://"):
                 add("ASSET_ROLE_POLICY", "node %d%s: %s may not hotlink an external URL" % (i, trail, m["assetRole"]))
+
+    # 10b. generated mode: nothing of the source brand (real wordmark/logo, its files, its name) may appear
+    if spec.get("mode") == "generated":
+        brand = source_brand_re(repo)
+        for i, n in enumerate(nodes):
+            for trail, m in _media(n.get("content", {})):
+                role = roles.get(m.get("assetRole"))
+                if role is not None and role.get("availability") != "generation-safe":
+                    subs = ", ".join(role.get("generationSafeSubstitutes", [])) or "none: omit it"
+                    add("GENERATED_MODE_REFERENCE_ASSET", "node %d%s: role %r is %s and cannot appear in a generated page (use: %s)" % (i, trail, m.get("assetRole"), role.get("availability"), subs))
+                if isinstance(m.get("src"), str) and m["src"].startswith("/assets/"):
+                    add("GENERATED_MODE_REFERENCE_ASSET", "node %d%s: src %r is a file of the source site and cannot appear in a generated page" % (i, trail, m["src"]))
+            if n.get("section") in ("shell.header", "shell.footer"):
+                b = (n.get("content") or {}).get("brand")
+                if not isinstance(b, dict):
+                    add("GENERATED_MODE_BRAND_REQUIRED", "node %d %s: a generated page must set content.brand (brand.placeholder or brand.user-supplied); the chrome would render the real wordmark" % (i, n["section"]))
+        if brand:
+            targets = [("route", spec.get("route")), ("meta", spec.get("meta"))] + [("node %d" % i, n.get("content")) for i, n in enumerate(nodes)]
+            for label, obj in targets:
+                for trail, text in _strings(obj, ""):
+                    mt = brand.search(text)
+                    if mt:
+                        add("GENERATED_MODE_SOURCE_BRAND", "%s%s names the source brand (%r)" % (label, trail, mt.group(0)))
 
     # 11. links
     paths = known_paths(repo)

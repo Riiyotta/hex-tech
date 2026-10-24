@@ -1,5 +1,6 @@
 {
-  "pageSpecVersion": "1.0.0",
+  "pageSpecVersion": "1.1.0",
+  "mode": "generated",
   "template": "template.integration-detail",
   "route": "/product/integrations/quarry-lake/",
   "theme": "dark",
@@ -11,7 +12,13 @@
   "nodes": [
     {
       "section": "shell.header",
-      "content": {},
+      "content": {
+        "brand": {
+          "assetRole": "brand.placeholder",
+          "alt": "Example workspace placeholder logo",
+          "src": "placeholder:brand-mark"
+        }
+      },
       "motion": {
         "pattern": "nav-squish",
         "trigger": "scroll-position",
@@ -174,7 +181,13 @@
     },
     {
       "section": "shell.footer",
-      "content": {},
+      "content": {
+        "brand": {
+          "assetRole": "brand.placeholder",
+          "alt": "Example workspace placeholder logo",
+          "src": "placeholder:brand-mark"
+        }
+      },
       "motion": {
         "pattern": "reveal-fade-in",
         "trigger": "in-view-once",

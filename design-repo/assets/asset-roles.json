@@ -4,7 +4,8 @@
     "may-generate-new": "Original artwork/imagery may be generated in the documented style.",
     "must-reuse-exact": "Only an exact file from allowedSources may be used (or the field omitted).",
     "placeholder-only": "Real-world logo, person or trademark: never reproduce or fabricate; use a neutral placeholder (src omitted or 'placeholder:<slug>').",
-    "external-reference-only": "External embed: https URL or placeholder; may render blank; never cloned."
+    "external-reference-only": "External embed: https URL or placeholder; may render blank; never cloned.",
+    "user-supplied-only": "A file the user supplied for their own brand: src omitted or 'user:<slug>'; never a file of the source site."
   },
   "pinnedPolicies": {
     "brand.wordmark": "must-reuse-exact",
@@ -19,24 +20,60 @@
     "photo.person": "placeholder-only",
     "image.data-chart": "placeholder-only",
     "embed.external": "external-reference-only",
-    "image.capture-fallback": "must-reuse-exact"
+    "image.capture-fallback": "must-reuse-exact",
+    "brand.placeholder": "placeholder-only",
+    "brand.user-supplied": "user-supplied-only"
   },
-  "pinnedPoliciesNote": "Compliance-critical roles are pinned to an exact policy; verify_all fails if a pinned role's policy changes, even to another valid policy.",
+  "pinnedPoliciesNote": "Compliance-critical roles are pinned to an exact policy; verify_all fails if a pinned role's policy changes, even to another valid policy (the pins are also kept in verify_all.py itself, independent of this file). brand.wordmark's must-reuse-exact applies to reference mode only; its availability (reference-only) is pinned separately.",
   "realCompanyNotice": "This design-repo is extracted from a local clone of a real company's live marketing site (Hex Technologies). Real customer, investor and partner logos, real employee photos and real proprietary copy must never be reproduced in generated output. Do not publish this repository or recommend making it public.",
   "roles": {
     "brand.wordmark": {
       "generationPolicy": "must-reuse-exact",
-      "description": "The site's own wordmark. Reuse one of the exact local files; never redraw, recolour or invent a logo.",
+      "description": "The site's own wordmark / logo (Hex). Reference mode only: reuse one of the exact local files, never redraw, recolour or invent a logo. Unavailable in generated mode (availability: reference-only); see brand.placeholder and brand.user-supplied.",
       "measuredFrom": [
         "CLONE_SPEC.md:243"
       ],
       "usedBySections": [
-        "hero.report"
+        "hero.report",
+        "shell.footer",
+        "shell.header"
       ],
       "allowedSources": [
         "/assets/pages/company/state-of-data-teams/svg/SectionHero-HexLogoWrapper-a8e301cf.svg",
         "/assets/svg/logo/hex-logo-footer.svg",
         "/assets/svg/logo/hex-logo-nav.svg"
+      ],
+      "availability": "reference-only",
+      "generatedModeGuidance": "Hex's own wordmark / logo (nav, footer and report-hero files). Reference mode only: a generated site is a different brand and must never carry this mark, a recolour or a lookalike. Use brand.user-supplied when the user gives a logo, otherwise brand.placeholder.",
+      "generationSafeSubstitutes": [
+        "brand.placeholder",
+        "brand.user-supplied"
+      ]
+    },
+    "brand.placeholder": {
+      "generationPolicy": "placeholder-only",
+      "availability": "generation-safe",
+      "description": "A neutral, generated placeholder brand mark for a generated site: a plain geometric monogram or text wordmark that is clearly not a real company's. src is omitted or 'placeholder:<slug>'.",
+      "generatedModeGuidance": "Use when the user has not supplied a logo. Never a redraw, recolour or imitation of the Hex wordmark or hexagon-style lockups.",
+      "measuredFrom": [],
+      "definedByRepo": true,
+      "usedBySections": [
+        "hero.report",
+        "shell.footer",
+        "shell.header"
+      ]
+    },
+    "brand.user-supplied": {
+      "generationPolicy": "user-supplied-only",
+      "availability": "generation-safe",
+      "description": "The generated brand's own logo, supplied by the user. src is omitted or 'user:<slug>' (a reference the host app resolves to the user's file).",
+      "generatedModeGuidance": "Preferred over the placeholder whenever the user provides a logo. Never a redraw, vectorisation or variant of it, and never the Hex mark.",
+      "measuredFrom": [],
+      "definedByRepo": true,
+      "usedBySections": [
+        "hero.report",
+        "shell.footer",
+        "shell.header"
       ]
     },
     "logo.customer": {
@@ -59,7 +96,9 @@
         "proof.social-tout",
         "proof.stories-two-up",
         "proof.story-tout"
-      ]
+      ],
+      "availability": "generation-safe",
+      "generatedModeGuidance": "Third-party or personal likeness stays placeholder-only: a neutral placeholder or a file the user supplies for their own brand; never one of the companies, people, badges or statistics observed on the source."
     },
     "logo.investor": {
       "generationPolicy": "placeholder-only",
@@ -69,7 +108,9 @@
       ],
       "usedBySections": [
         "proof.logo-wall"
-      ]
+      ],
+      "availability": "generation-safe",
+      "generatedModeGuidance": "Third-party or personal likeness stays placeholder-only: a neutral placeholder or a file the user supplies for their own brand; never one of the companies, people, badges or statistics observed on the source."
     },
     "logo.partner": {
       "generationPolicy": "placeholder-only",
@@ -79,7 +120,9 @@
       ],
       "usedBySections": [
         "collection.partners-grid"
-      ]
+      ],
+      "availability": "generation-safe",
+      "generatedModeGuidance": "Third-party or personal likeness stays placeholder-only: a neutral placeholder or a file the user supplies for their own brand; never one of the companies, people, badges or statistics observed on the source."
     },
     "logo.integration": {
       "generationPolicy": "placeholder-only",
@@ -91,7 +134,9 @@
         "collection.integration-category",
         "feature.integrations-grid",
         "hero.integration"
-      ]
+      ],
+      "availability": "generation-safe",
+      "generatedModeGuidance": "Third-party or personal likeness stays placeholder-only: a neutral placeholder or a file the user supplies for their own brand; never one of the companies, people, badges or statistics observed on the source."
     },
     "logo.competitor": {
       "generationPolicy": "placeholder-only",
@@ -102,7 +147,9 @@
       "usedBySections": [
         "collection.resource-cards",
         "hero.compare"
-      ]
+      ],
+      "availability": "generation-safe",
+      "generatedModeGuidance": "Third-party or personal likeness stays placeholder-only: a neutral placeholder or a file the user supplies for their own brand; never one of the companies, people, badges or statistics observed on the source."
     },
     "logo.certification": {
       "generationPolicy": "placeholder-only",
@@ -112,7 +159,9 @@
       ],
       "usedBySections": [
         "feature.numbered-grid"
-      ]
+      ],
+      "availability": "generation-safe",
+      "generatedModeGuidance": "Third-party or personal likeness stays placeholder-only: a neutral placeholder or a file the user supplies for their own brand; never one of the companies, people, badges or statistics observed on the source."
     },
     "icon.agent-logos": {
       "generationPolicy": "placeholder-only",
@@ -122,7 +171,9 @@
       ],
       "usedBySections": [
         "feature.split"
-      ]
+      ],
+      "availability": "generation-safe",
+      "generatedModeGuidance": "Third-party or personal likeness stays placeholder-only: a neutral placeholder or a file the user supplies for their own brand; never one of the companies, people, badges or statistics observed on the source."
     },
     "image.award-badge": {
       "generationPolicy": "placeholder-only",
@@ -132,7 +183,9 @@
       ],
       "usedBySections": [
         "proof.social-tout"
-      ]
+      ],
+      "availability": "generation-safe",
+      "generatedModeGuidance": "Third-party or personal likeness stays placeholder-only: a neutral placeholder or a file the user supplies for their own brand; never one of the companies, people, badges or statistics observed on the source."
     },
     "photo.person": {
       "generationPolicy": "placeholder-only",
@@ -147,7 +200,9 @@
         "hero.careers",
         "proof.quotes-marquee",
         "proof.social-tout"
-      ]
+      ],
+      "availability": "generation-safe",
+      "generatedModeGuidance": "Third-party or personal likeness stays placeholder-only: a neutral placeholder or a file the user supplies for their own brand; never one of the companies, people, badges or statistics observed on the source."
     },
     "image.data-chart": {
       "generationPolicy": "placeholder-only",
@@ -157,7 +212,9 @@
       ],
       "usedBySections": [
         "content.report-section"
-      ]
+      ],
+      "availability": "generation-safe",
+      "generatedModeGuidance": "Third-party or personal likeness stays placeholder-only: a neutral placeholder or a file the user supplies for their own brand; never one of the companies, people, badges or statistics observed on the source."
     },
     "embed.external": {
       "generationPolicy": "external-reference-only",
@@ -170,7 +227,9 @@
         "feature.live-app-embed",
         "feature.video-embed",
         "hero.article"
-      ]
+      ],
+      "availability": "generation-safe",
+      "generatedModeGuidance": "An https URL the user supplies or a placeholder; never an embed observed on the source."
     },
     "image.capture-fallback": {
       "generationPolicy": "must-reuse-exact",
@@ -183,6 +242,11 @@
       ],
       "allowedSources": [
         "/assets/pages/company/blog/commit-graph-fallback@2x.png"
+      ],
+      "availability": "reference-only",
+      "generatedModeGuidance": "A saved capture of Hex's own commit-graph canvas. Reference mode only; a generated blog masthead draws its own canvas (canvas.runtime).",
+      "generationSafeSubstitutes": [
+        "canvas.runtime"
       ]
     },
     "image.product-screenshot": {
@@ -209,7 +273,9 @@
         "feature.split",
         "feature.v1-two-up",
         "hero.v1"
-      ]
+      ],
+      "availability": "generation-safe",
+      "generatedModeGuidance": "Generate new artwork for the new brand; never reuse, trace or restyle a Hex file (any /assets/ src is rejected in generated mode)."
     },
     "image.product-ui": {
       "generationPolicy": "may-generate-new",
@@ -223,7 +289,9 @@
         "feature.split",
         "feature.v1-two-up",
         "hero.product"
-      ]
+      ],
+      "availability": "generation-safe",
+      "generatedModeGuidance": "Generate new artwork for the new brand; never reuse, trace or restyle a Hex file (any /assets/ src is rejected in generated mode)."
     },
     "image.editorial-thumbnail": {
       "generationPolicy": "may-generate-new",
@@ -241,7 +309,9 @@
         "feature.podcast-episodes",
         "hero.article",
         "proof.featured-stories-fan"
-      ]
+      ],
+      "availability": "generation-safe",
+      "generatedModeGuidance": "Generate new artwork for the new brand; never reuse, trace or restyle a Hex file (any /assets/ src is rejected in generated mode)."
     },
     "illustration.decorative": {
       "generationPolicy": "may-generate-new",
@@ -266,7 +336,9 @@
         "hero.product",
         "hero.report",
         "hero.v1-intro"
-      ]
+      ],
+      "availability": "generation-safe",
+      "generatedModeGuidance": "Generate new artwork for the new brand; never reuse, trace or restyle a Hex file (any /assets/ src is rejected in generated mode)."
     },
     "icon.ui": {
       "generationPolicy": "may-generate-new",
@@ -278,7 +350,9 @@
         "feature.approach-cards",
         "feature.highlights",
         "navigation.filter-chips"
-      ]
+      ],
+      "availability": "generation-safe",
+      "generatedModeGuidance": "Generate new artwork for the new brand; never reuse, trace or restyle a Hex file (any /assets/ src is rejected in generated mode)."
     },
     "icon.abstract-mark": {
       "generationPolicy": "may-generate-new",
@@ -289,7 +363,9 @@
       "usedBySections": [
         "feature.split",
         "feature.use-cases"
-      ]
+      ],
+      "availability": "generation-safe",
+      "generatedModeGuidance": "Generate new artwork for the new brand; never reuse, trace or restyle a Hex file (any /assets/ src is rejected in generated mode)."
     },
     "video.loop": {
       "generationPolicy": "may-generate-new",
@@ -301,7 +377,9 @@
         "feature.demo-accordion",
         "hero.product",
         "hero.v1"
-      ]
+      ],
+      "availability": "generation-safe",
+      "generatedModeGuidance": "Generate new artwork for the new brand; never reuse, trace or restyle a Hex file (any /assets/ src is rejected in generated mode)."
     },
     "canvas.runtime": {
       "generationPolicy": "may-generate-new",
@@ -313,7 +391,9 @@
       "usedBySections": [
         "hero.blog-masthead",
         "hero.product"
-      ]
+      ],
+      "availability": "generation-safe",
+      "generatedModeGuidance": "Generate new artwork for the new brand; never reuse, trace or restyle a Hex file (any /assets/ src is rejected in generated mode)."
     }
   },
   "nonPageAssets": {
@@ -333,5 +413,28 @@
         "src/pages/productV1/switchingData.js:3"
       ]
     }
+  },
+  "availabilityValues": [
+    "reference-only",
+    "generation-safe"
+  ],
+  "modes": {
+    "field": "PageSpec.mode (required, closed enum)",
+    "reference": "A clone or fidelity-validation page for the SOURCE brand (Hex). Every role is available, including the reference-only ones (the real wordmark/logo, the saved capture).",
+    "generated": "A new page for ANY OTHER brand. Only generation-safe roles, no src under /assets/ (those are the source's files), no text, alt, href or src that names the source brand (sourceBrand.patterns), and shell.header / shell.footer must carry a brand mark (brand.placeholder or brand.user-supplied) because the chrome would otherwise render the Hex mark."
+  },
+  "sourceBrand": {
+    "names": [
+      "Hex",
+      "Hex Technologies",
+      "hex.tech"
+    ],
+    "patterns": [
+      "\\bhex\\s+technologies\\b",
+      "\\bhex\\.tech\\b",
+      "\\bhex\\b(?![\\s-]*(?:codes?|colou?rs?|values?|strings?|digits?|dumps?|grids?|nuts?|bolts?|keys?|numbers?|triplets?|literals?))",
+      "hex-?logo"
+    ],
+    "note": "Matched case-insensitively against every string of a generated PageSpec (route, meta, headings, body, labels, alt, src, href). Filename stems of every reference-only role's allowedSources (hex-logo-nav, hex-logo-footer, SectionHero-HexLogoWrapper-...) are added by the validator. A bare 'hex' is treated as the brand unless followed by a technical noun (hex code, hex colour, hex value...); that is deliberately conservative."
   }
 }

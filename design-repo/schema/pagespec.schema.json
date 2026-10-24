@@ -6,6 +6,7 @@
   "additionalProperties": false,
   "required": [
     "pageSpecVersion",
+    "mode",
     "template",
     "route",
     "theme",
@@ -15,7 +16,15 @@
   ],
   "properties": {
     "pageSpecVersion": {
-      "const": "1.0.0"
+      "const": "1.1.0"
+    },
+    "mode": {
+      "type": "string",
+      "enum": [
+        "reference",
+        "generated"
+      ],
+      "description": "reference = a clone/fidelity page for the SOURCE brand (Hex): every asset role available, including the real wordmark. generated = a new page for any OTHER brand: only generation-safe roles, no source-brand text or files, and a brand mark on the shell; see assets/asset-roles.json `modes`."
     },
     "template": {
       "enum": [
@@ -302,13 +311,65 @@
       "type": "object",
       "additionalProperties": false,
       "required": [],
-      "properties": {}
+      "properties": {
+        "brand": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "assetRole",
+            "alt"
+          ],
+          "properties": {
+            "assetRole": {
+              "enum": [
+                "brand.wordmark",
+                "brand.placeholder",
+                "brand.user-supplied"
+              ]
+            },
+            "alt": {
+              "type": "string",
+              "x-maxWords": 18
+            },
+            "src": {
+              "type": "string",
+              "pattern": "^(/assets/|placeholder:|user:)"
+            }
+          }
+        }
+      }
     },
     "content__shell.footer": {
       "type": "object",
       "additionalProperties": false,
       "required": [],
-      "properties": {}
+      "properties": {
+        "brand": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "assetRole",
+            "alt"
+          ],
+          "properties": {
+            "assetRole": {
+              "enum": [
+                "brand.wordmark",
+                "brand.placeholder",
+                "brand.user-supplied"
+              ]
+            },
+            "alt": {
+              "type": "string",
+              "x-maxWords": 18
+            },
+            "src": {
+              "type": "string",
+              "pattern": "^(/assets/|placeholder:|user:)"
+            }
+          }
+        }
+      }
     },
     "content__hero.home": {
       "type": "object",
@@ -2097,7 +2158,9 @@
           "properties": {
             "assetRole": {
               "enum": [
-                "brand.wordmark"
+                "brand.wordmark",
+                "brand.placeholder",
+                "brand.user-supplied"
               ]
             },
             "alt": {
@@ -2106,7 +2169,7 @@
             },
             "src": {
               "type": "string",
-              "pattern": "^(/assets/|placeholder:|https://)"
+              "pattern": "^(/assets/|placeholder:|user:|https://)"
             }
           }
         }
